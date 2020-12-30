@@ -19,39 +19,47 @@ It's time to turn the page and set some new goals (and roll over some old ones) 
 
 ### 1. Delete Instagram
 
-> **Success measure:** Roll my own photo-sharing site and delete my Instagram account by June 2021.
+A couple of years ago [I quit Facebook](/2018/12/18/goodbye-facebook). I don't regret it; it was a blackhole. I still use other services from Facebook though – namely, Instagram and WhatsApp – and in the last couple of years, Instagram has become much less of a highly curated photo service and much more of an algorithmically-crafted social network. It's slowly morphing into Facebook; and I don't want that for all the same reasons I don't want Facebook.
 
-A couple of years ago [I quit Facebook](/2018/12/18/goodbye-facebook). I don't regret it; it was a mental drain. I still use other services from Facebook though – namely, Instagram and WhatsApp – and in the last couple of years, Instagram has become much less of a meaningful photo service and much more of an algorithmically-crafted social network. It's slowly morphing into Facebook; and I don't want that for all the same reasons I don't want Facebook.
+I want to share and see great photography and art. Instagram rarely gives me that joy anymore, so I've decided the platform has outlived its usefulness to me. So I'll be shuttering my Instagram account on 1 January 2021.
 
-I want to share and see great photography and art. Instagram rarely gives me that joy anymore, so I've decided the platform has outlived its usefulness to me. During 2021, my goal is to delete my account and building my own photo sharing service instead.
+> **Success measure:** 365 days without Instagram
 
-### 2. Be more mindful
+### 2. Eat less meat
 
-> **Success measure:** Be mindful for at least 5 minutes every day. 
+I've spent a lot of time in 2020 thinking about my diet, and how I could get a better relationship with food. I've lost 10kg in the process. But now I've started to think not just about portion sizes and calorie counting, but also the _quality_ of that food, and its environmental impact.
 
-I think we can all agree that 2020 has been traumatic, and all the reasons 2020 has been traumatic are unlikely to be going away for some time into 2021. My brain feels a bit like a pressure cooker about to explode at the moment and so, against every fibre of my being, I'm going to try something new for 2021 to try and maintain my resilience.
+In any given week, I have meat basically every day; usually for both lunch and dinner. For 2021, I've resolved to eat meat less often. My objective is to go meat-free twice a week. For the purposes of tracking, the meat-free days only count if I stick to a minimum of two days in a given week.
+
+> **Success measure:** 2 vegetarian-only meal days each week
+
+As a stretch goal, I'll aim for 3 meat-free days in a given week.
+
+> **Stretch goal:** 3 vegetarian-only meal days each week
+
+### 3. Be more mindful
+
+My brain has felt a bit like a pressure cooker about to explode this year and so, against every fibre of my being, I'm going to try something new for 2021 to try and maintain my resilience.
 
 Every day, for at least 5 minutes, I'm going to try and be 'mindful'. I'm usually the first person to usually say this is all quackery, but I'll give it a go and see what difference it makes. Maybe I'll surprise myself.
 
-### 3.
-
-> **Success measure:** 
+> **Success measure:** Be mindful for at least 5 minutes every day
 
 ## Rolled over goals for 2021
 
 ### 4. Give something back
 
-> **Success measure:** Become a charity trustee or college governor by December 2021.
-
 I did not get very far with this goal last year but it's something I still want to do. I feel very passionately that people in positions of privilege have an obligation to give something back; so I'm going to have another shot at finding a charity trustee or college governor role. Failing that, a substantial volunteering role somewhere will be a good thing to do.
+
+> **Success measure:** Become a charity trustee or college governor by December 2021.
 
 ## Repeated goals for 2021
 
 ### 5. Keep writing blog posts
 
-> **Success measure:** 12 blog posts written
-
 I'm going to continue to push myself to keep writing blog posts. It helps to stretch my brain and it feels cathartic. This year's goal is to – once again – write at least 12 blog post throughout the year (or roughly one a month).
+
+> **Success measure:** 12 blog posts written
 
 I'm going to additionally set myself a stretch goal this year: to try and write _more_ than one blog post a month.
 
@@ -60,9 +68,9 @@ I'm going to additionally set myself a stretch goal this year: to try and write 
 
 ### 6. Drink less alcohol 
 
-> **Success measure:** No alcohol during January
-
 I strongly considered going tee-total this year, but if 2020 is anything to go by, giving up booze in 2021 would be a goal I would never achieve. So rather than set myself up for failure, I'm to try and do dry January again and hopefully this year make it all the way through. 
+
+> **Success measure:** No alcohol during January
 
 As a stretch goal, I'm also going to try and do Stoptober.
 
@@ -70,9 +78,9 @@ As a stretch goal, I'm also going to try and do Stoptober.
 
 ### 7. Save some money
 
-> **Success measure:** £7,500 saved
-
 Having exceeded my £5,000 savings goal last year, this year I'm going to up the ante with a goal of £7,500. 
+
+> **Success measure:** £7,500 saved
 
 As a stretch goal of £12,500. I fully hope – pray, even – to fail at achieving the stretch goal, because with any luck I'll get to spend money on living a real life, rather than a lockdown life.
 

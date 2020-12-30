@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>A podcast in the making: the RSS feed and hosting</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="A podcast in the making: the RSS feed and hosting">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about how I got the RSS feed ...">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting">
+
+<meta name="twitter:title" 			content="A podcast in the making: the RSS feed and hosting">
+
+<meta name="twitter:description" 	content="I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about how I got the RSS feed ...">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png">
+
+<meta name="twitter:image:alt" 		content="A podcast in the making: the RSS feed and hosting">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="A podcast in the making: the RSS feed and hosting">
+<meta itemprop="description" content="I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about how I got the RSS feed ...">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post" class="theme-podcast">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">A podcast in the making: the RSS feed and hosting</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			
+<p>As I mentioned in <a href="/2019/02/11/department-of-bad-ideas-hosting-and-website">my last post</a>, getting a podcast on to the Internet has turned out to be more difficult than I thought it would be. Creating the basic website was fairly straightforward, thanks to some <a href="https://jekyllrb.com">tools I’d used before</a>. Where I came unstuck was the RSS feed.</p>
+
+<p>If you don’t know already, podcast feeds are just RSS feeds with a set of specific tags to make things like the Apple Podcasts listings work.</p>
+
+<p>When it came to making the RSS feed, I had two difficulties. I needed to:</p>
+
+<ol>
+  <li>figure out the XML tags I needed for the RSS feed itself to work</li>
+  <li>successfully get the feed to validate</li>
+</ol>
+
+<p>The second difficulty caused me a further, third headache: I needed a better solution for hosting my audio files. In this post, I’ll share what I’ve done to fix all that.</p>
+
+<blockquote>
+  <p>This is a series of blog posts about how I’m making a podcast. I’m sharing what I’m doing in case others find it useful. To read the other posts, head over to my <a href="/2019/02/11/getting-started-department-of-bad-ideas">“Getting started”</a> post.</p>
+</blockquote>
+
+<h2 id="setting-up-the-rss-feed">Setting up the RSS feed</h2>
+
+<p>As I mentioned in my last post, I’m using <a href="https://jekyllrb.com">Jekyll</a> — a static site generator — to run the podcast’s website. The benefit of using Jekyll is that I don’t need to hand code each part of the feed every time I need to update it; instead, I can rely on Jekyll’s build process to turn the content from <a href="//badideas.podcast.johnpe.art">the website I’ve made</a> into the RSS feed automatically.</p>
+
+<p>All I’ve needed to do is figure out the markup needed to generate the feed.</p>
+
+<h3 id="the-basic-file-structure">The basic file structure</h3>
+
+<p>The first thing I did was create a <code class="language-plaintext highlighter-rouge">podcast.rss</code> file and used the <code class="language-plaintext highlighter-rouge">_episodes</code> collection I’ve create the feed.</p>
+
+<h3 id="the-skeleton-markup">The skeleton markup</h3>
+
+<p>There are <em>a lot</em> of XML tags to include in an RSS feed for podcasts. Linking these to sensible things in your <code class="language-plaintext highlighter-rouge">_config.yml</code> and post front matter is also a bit confusing.</p>
+
+<p>To get started, you need to wrap the whole thing in <code class="language-plaintext highlighter-rouge">&lt;rss&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;channel&gt;</code> tags, like this:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;rss</span> <span class="na">version=</span><span class="s">"2.0"</span> <span class="na">xmlns:atom=</span><span class="s">"http://www.w3.org/2005/Atom"</span> <span class="na">xmlns:itunes=</span><span class="s">"http://www.itunes.com/dtds/podcast-1.0.dtd"</span> <span class="na">xml:lang=</span><span class="s">"{{ site.lang }}"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;channel&gt;</span>				
+
+		// Your feed here
+
+	<span class="nt">&lt;/channel&gt;</span>
+<span class="nt">&lt;/rss&gt;</span>
+</code></pre></div></div>
+
+<p>If you set up a <code class="language-plaintext highlighter-rouge">lang</code> variable in your <code class="language-plaintext highlighter-rouge">_config.yml</code>, you can link this into the opening <code class="language-plaintext highlighter-rouge">&lt;rss&gt;</code> tag with <code class="language-plaintext highlighter-rouge">xml:lang="{{ site.lang }}"</code>. Mine’s <code class="language-plaintext highlighter-rouge">en</code> for English.</p>
+
+<p>With your scaffolding in place, you then will need a bunch of markup to tell podcast readers about the podcast as a whole, and then a separate set of markup for each episode in the feed.</p>
+
+<h3 id="channel-markup">Channel markup</h3>
+
+<p>You’ll want to start by setting some variables in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file that will be for your ‘channel’ as a whole when it’s shown on a podcast listings or in a podcast app.</p>
+
+<p>The things you’ll want to set up are:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>In my case “Department of Bad Ideas”</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">author</code></td>
+      <td>That’s you! (Or, actually, me)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">email</code></td>
+      <td>Your contact email (note: this will be public)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">subtitle</code></td>
+      <td>A one sentence description of your show</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">summary</code></td>
+      <td>A one paragraph description of your show</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">description</code></td>
+      <td>A longer form description of your show</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">explicit</code></td>
+      <td>Does the show contain explicit content? A simple <code class="language-plaintext highlighter-rouge">“yes”</code> or <code class="language-plaintext highlighter-rouge">“no”</code> will suffice</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">type</code></td>
+      <td>Is the podcast <code class="language-plaintext highlighter-rouge">episodic</code> or <code class="language-plaintext highlighter-rouge">serial</code> i.e. do you want to list the first episode first, or the most recent episode first?</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lang</code></td>
+      <td>The language of your podcast, in recognised format i.e. <code class="language-plaintext highlighter-rouge">en</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">launch-date</code></td>
+      <td>When you started the show, in reverse date format, i.e. <code class="language-plaintext highlighter-rouge">2019-01-01</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">copyright</code></td>
+      <td>Add whatever you need to in here; remember to use encoded symbols like <code class="language-plaintext highlighter-rouge">&amp;#xA9;</code> for ©</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">podcast-feed</code></td>
+      <td>Use this as the URL for your feed on your site.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>That’s most of what you might want to add as site variables so that you can populate your feed’s channel information.</p>
+
+<p>Next, in your <code class="language-plaintext highlighter-rouge">podcast.rss</code> file, you’ll want to add in the XML tags you need, and then insert the Jekyll variables you made above. Rather than put the code here — you can see all the markup on the <a href="https://github.com/johnpeart/dept-of-bad-ideas/blob/master/podofbadideas/podcast.rss">Github repository</a> — here’s a quick list of the tags you’ll <em>need</em> which site variables you’ll want to match them to from your <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>XML tags</th>
+      <th>Description</th>
+      <th>Jekyll variables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">atom:link</code></td>
+      <td>The URL of your podcast feed RSS</td>
+      <td><code class="language-plaintext highlighter-rouge">site.url </code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>The title of your podcast</td>
+      <td><code class="language-plaintext highlighter-rouge">site.title</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">description</code></td>
+      <td>Your long form description of your show</td>
+      <td><code class="language-plaintext highlighter-rouge">site.description</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">link</code></td>
+      <td>Your website’s home URL</td>
+      <td><code class="language-plaintext highlighter-rouge">site.url</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">language</code></td>
+      <td>The language the podcast is in</td>
+      <td><code class="language-plaintext highlighter-rouge">site.lang</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">managingEditor</code></td>
+      <td>Your name and email</td>
+      <td><code class="language-plaintext highlighter-rouge">site.email</code>, <code class="language-plaintext highlighter-rouge">site.author</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">webMaster</code></td>
+      <td>Probably the same as <code class="language-plaintext highlighter-rouge">managingEditor</code></td>
+      <td><code class="language-plaintext highlighter-rouge">site.email</code>, <code class="language-plaintext highlighter-rouge">site.author</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">copyright</code></td>
+      <td>Any copyright information you want to include</td>
+      <td><code class="language-plaintext highlighter-rouge">site.launch_date</code>, <code class="language-plaintext highlighter-rouge">site.title</code> or <code class="language-plaintext highlighter-rouge">site.copyright</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pubDate</code></td>
+      <td>Date the feed was published</td>
+      <td><code class="language-plaintext highlighter-rouge">site.time</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lastBuildDate</code></td>
+      <td>When the RSS feed was last generated: this should be handled by Jekyll</td>
+      <td><code class="language-plaintext highlighter-rouge">site.time</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">image</code></td>
+      <td>Your default podcast artwork</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>&gt; <code class="language-plaintext highlighter-rouge">link</code></td>
+      <td>A URL to your podcast home page</td>
+      <td><code class="language-plaintext highlighter-rouge">site.url</code></td>
+    </tr>
+    <tr>
+      <td>&gt; <code class="language-plaintext highlighter-rouge">url</code></td>
+      <td>The URL for your artwork</td>
+      <td><code class="language-plaintext highlighter-rouge">site.podcast-artwork</code></td>
+    </tr>
+    <tr>
+      <td>&gt; <code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>The site title</td>
+      <td><code class="language-plaintext highlighter-rouge">site.title</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There are then a bunch of Apple specific tags you’ll want to include. Some of these improve the presentation of your podcast in the Apple Podcasts listings — like separating your episodes into separate series if you’re using the <code class="language-plaintext highlighter-rouge">serial</code> format.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>XML tags</th>
+      <th>Description</th>
+      <th>Jekyll variables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:subtitle</code></td>
+      <td>The single sentence description of the show</td>
+      <td><code class="language-plaintext highlighter-rouge">site.subtitle</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:author</code></td>
+      <td>This helps to bundle your podcasts in the store’s search results</td>
+      <td><code class="language-plaintext highlighter-rouge">site.author</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:summary</code></td>
+      <td>This is a short paragraph describing your show</td>
+      <td><code class="language-plaintext highlighter-rouge">site.summary</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:keywords</code></td>
+      <td>Include some keywords to help with search</td>
+      <td><code class="language-plaintext highlighter-rouge">site.keywords</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:owner</code></td>
+      <td>This helps to bundle your podcasts in the store’s search results</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>&gt; <code class="language-plaintext highlighter-rouge">name</code></td>
+      <td>Your name</td>
+      <td><code class="language-plaintext highlighter-rouge">site.author</code></td>
+    </tr>
+    <tr>
+      <td>&gt; <code class="language-plaintext highlighter-rouge">email</code></td>
+      <td>Your email</td>
+      <td><code class="language-plaintext highlighter-rouge">site.email</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:image</code></td>
+      <td>As with the <code class="language-plaintext highlighter-rouge">image</code> tag above; recommended artwork size is 3000px by 3000px</td>
+      <td><code class="language-plaintext highlighter-rouge">site.podcast-artwork</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:category</code></td>
+      <td>You’ll need to look this up in <a href="">Apple’s guidance</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:explicit</code></td>
+      <td>This filters your podcast out of results if it’s not suitable for younger audiences</td>
+      <td><code class="language-plaintext highlighter-rouge">site.explicit</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">itunes:type</code></td>
+      <td>Podcasts can be serial — shown as newest first — or episodic — shown as oldest first</td>
+      <td><code class="language-plaintext highlighter-rouge">site.type</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="episodes-markup">Episodes markup</h3>
+
+<p>Once you’ve put together the skeleton of your feed together and marked up the overall <code class="language-plaintext highlighter-rouge">channel</code>, you can move on to the code for the <code class="language-plaintext highlighter-rouge">episode</code>s.</p>
+
+<p>The basic code uses a loop, based on the <code class="language-plaintext highlighter-rouge">_episodes</code> archive I created earlier, and it looks like this:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">episodes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">episodes</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">sort_by</span><span class="p">:</span><span class="w"> </span><span class="nv">date</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">reverse</span><span class="w"> </span><span class="p">%}</span>
+<span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">episode</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">episodes</span><span class="w"> </span><span class="p">%}</span>
+	// The RSS feed details needed for each episode
+<span class="p">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<p>This code takes the YAML front matter from each episode, and put it into the RSS feed in reverse date order (newest on top).</p>
+
+<h2 id="validating-the-feed">Validating the feed</h2>
+
+<p>With all that done, and with the RSS feed put online, it was time to validate the feed. Whilst that sounded daunting, there was a really straight-forward tool to do it — <a href="https://podba.se/validate/">Podbase</a>.</p>
+
+<p>All you do is copy the URL of the RSS feed into the tool, and it’ll tell you if you’ve done everything correctly. Luckily for me I had, <em>except for one thing</em>: hosting.</p>
+
+<h2 id="better-hosting">Better hosting</h2>
+
+<p>In order to get good placement within the Apple Podcasts store the servers hosting your audio files needs to support ‘HTTP HEAD requests’. As Podbase describes it:</p>
+
+<blockquote>
+  <p>“The server for your episodes must support ‘HTTP HEAD requests’, which is a fancy way of saying that iTunes must be able to get information about your files without downloading them whole.”</p>
+</blockquote>
+
+<p>Github Pages doesn’t support HTTP HEAD requests: so I needed to think of an alternative. <a href="https://aws.amazon.com">Amazon Web Services (AWS)</a> S3 service <em>does</em> support HTTP HEAD requests, so I shifted my files over to there.</p>
+
+<p>This <em>doesn’t</em> require you to move your site or RSS feed itself. You can just move your audio files, because the RSS feed will point Apple Podcasts (and the validator) towards the HTTP HEAD request-supporting server.</p>
+
+<p><em>That’s it!</em> You’re all set to host your podcast — now on to the recording.</p>
+
+<blockquote>
+  <p><strong>All posts in this series</strong></p>
+
+  <ol>
+    <li><a href="/2019/01/27/department-of-bad-ideas">I’m making a podcast</a></li>
+    <li><a href="/2019/02/11/getting-started-department-of-bad-ideas">Getting started</a></li>
+    <li><a href="/2019/02/11/department-of-bad-ideas-hosting-and-website">Setting up a website</a></li>
+    <li><a href="/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting">RSS feeds and hosting</a></li>
+    <li><a href="/2020/03/15/department-of-bad-ideas-iterating-on-the-idea">Iterating on the idea</a></li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <p>You can find out more about the <strong>Department of Bad Ideas</strong> on <a href="//badideas.podcast.johnpe.art">the podcast’s new website</a>.</p>
+
+  <p>You can also subscribe on Apple Podcasts or on Spotify. Just search for “Department of Bad Ideas”.</p>
+</blockquote>
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>27 May 2019</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>podcast</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

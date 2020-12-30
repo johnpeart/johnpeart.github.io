@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>I made a Twitterbot to tell people the obvious</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2017/01/16/its-you-twitter-bot">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2017/01/16/its-you-twitter-bot">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2017/01/16/its-you-twitter-bot">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="I made a Twitterbot to tell people the obvious">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="It's you. It's just you. No really. No one else saw that. It was just you. You're a genius. Well done.">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2017/01/16/its-you-twitter-bot">
+
+<meta name="twitter:title" 			content="I made a Twitterbot to tell people the obvious">
+
+<meta name="twitter:description" 	content="It's you. It's just you. No really. No one else saw that. It was just you. You're a genius. Well done.">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+<meta name="twitter:image:alt" 		content="I made a Twitterbot to tell people the obvious">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="I made a Twitterbot to tell people the obvious">
+<meta itemprop="description" content="It's you. It's just you. No really. No one else saw that. It was just you. You're a genius. Well done.">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post" class="theme-facebook-blue">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">I made a Twitterbot to tell people the obvious</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>A Twitterbot (sometimes ‘Twitter Bot’, or simply ‘Bot’) is a bit of code that automatically posts stuff to Twitter based on pre-defined conditions. You probably follow a whole bunch of bots on Twitter. Some of my favourites include <a href="https://twitter.com/MagicRealismBot">@MagicRealismBot</a>, <a href="https://twitter.com/TheNiceBot">@TheNiceBot</a> and <a href="https://twitter.com/LowPolyBot">@LowPolyBot</a>.</p>
+
+<p>A good friend recently came up with a cracking idea for a Twitter Bot:</p>
+
+<blockquote class="twitter-tweet" align="center" data-lang="en"><p lang="en" dir="ltr">I want a bot that will reply &quot;it&#39;s you&quot; whenever someone tweets &quot;is it me or&quot;</p><p>&mdash; Jim Dickinson (@jim_dickinson) <a href="https://twitter.com/jim_dickinson/status/819973617043828736">January 13, 2017</a></p></blockquote>
+
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>And another good friend reckoned I could make that very Twitterbot. He was wrong - for a total of approximately 3 days.</p>
+
+<p>I spent the past Saturday creating it: knowing not a single thing about how to go about it. But thanks to some failed attempts at Python, a quick brush up on rudimentary Ruby, a Twitter gem, and some free cloud infrastructure, I created <a href="https://twitter.com/isitmebot">@IsItMeBot</a>.</p>
+
+<p>Now, every hour, @IsItMeBot searches Twitter for the exact phrase “Is it me or” and if (when) it finds it, it tweets back a zinging one-liner. This is how @IsItMeBot was born, and how you can build your own bot.</p>
+
+<h2 id="how-to-birth-your-very-own-bot">How to birth your very own bot</h2>
+
+<h3 id="pre-requisites">Pre-requisites</h3>
+
+<p>If you want to create your own bot, this is what you’ll need:</p>
+
+<ol>
+  <li>a <a href="https://twitter.com">Twitter</a> account to tweet from (in this case, @IsItMeBot)</li>
+  <li>a <a href="https://heroku.com">Heroku</a> account</li>
+  <li>a plain-text editor of your choice (I used Coda 2)</li>
+  <li>access to the command line / Terminal on your computer</li>
+  <li><a href="https://www.ruby-lang.org/en/">Ruby</a>, <a href="http://bundler.io">Bundler</a> and <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku Toolbelt</a> installed</li>
+</ol>
+
+<blockquote>
+  <p><em>Note that I use a Mac, not Windows. Some of the commands you’ll need to run in the command line on Windows might be slightly different to the commands I’d run on a Mac.</em></p>
+</blockquote>
+
+<h3 id="preparing-the-twitter-account">Preparing the Twitter account</h3>
+
+<p>The first thing I did was <a href="https://twitter.com/signup">create a new Twitter account</a>. Make sure you sign up with an email address <strong>and</strong> a phone number. Your email address must be unique, but you can use the same mobile number on multiple accounts.</p>
+
+<blockquote>
+  <p><strong>Top tip:</strong> if you use Gmail, you can create an alias email address that forwards all email to your normal email address by adding <code class="language-plaintext highlighter-rouge">+youralias</code> before the <code class="language-plaintext highlighter-rouge">@gmail.com</code>. For example <code class="language-plaintext highlighter-rouge">john+twitterbot@gmail.com</code> will send email to <code class="language-plaintext highlighter-rouge">john@gmail.com</code>.</p>
+</blockquote>
+
+<p>To access the Twitter API, you need a consumer key, consumer secret, access token and access token secret. You create these in the <a href="https://apps.twitter.com">Application Management</a> section of Twitter’s developer website.</p>
+
+<p>Clicking ‘Create New App’ takes you to a short form where you give your app a name, a description, a website to link back to and a callback URL. The callback URL isn’t necessary for this bot, so I left it blank, ticked the box to accept the conditions and submitted the form.</p>
+
+<p><img src="/assets/images/posts/createnewapp.png" alt="" /></p>
+
+<p>Now the app is created, the keys, tokens and secrets can be found in the ‘Keys and Access Tokens’ screen. They’ll look something like: <code class="language-plaintext highlighter-rouge">rhIWCXREwLu0RswdLttqpXjAH</code>. (<em>Don’t worry, that one isn’t real</em>)</p>
+
+<h3 id="prepare-your-hosting-environment">Prepare your hosting environment</h3>
+
+<p>With the Twitter account created and API keys generated, I needed to create somewhere to put my bot once it was created.</p>
+
+<p>Heroku is a Platform as a Service. It’s free for small projects like this one.</p>
+
+<p>I created a new app using the web interface (you can also use <code class="language-plaintext highlighter-rouge">heroku create</code> in the Terminal when you’re in the project folder, but I prefer the website). I gave it a name (all in lower case) and choose a runtime region. I went for Europe, because it’s closer to me.</p>
+
+<p>Next I created a blank folder, navigated to it using the <code class="language-plaintext highlighter-rouge">cd</code> command in the Terminal and used these commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ heroku login
+</code></pre></div></div>
+
+<p>This lets me authenticate my account with Heroku from the terminal.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git init
+</code></pre></div></div>
+
+<p>This lets me initialise a git repository in the folder. This tracks changes to my code and enables easy deployment of code to Heroku.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ heroku git:remote -a your-app-name
+</code></pre></div></div>
+
+<p>This tells the computer to link this folder to a specific app on Heroku.</p>
+
+<h3 id="preparing-the-bot">Preparing the bot</h3>
+
+<p>This is a simple bot, but Ruby apps on Heroku need a few files to always be there to get things working.</p>
+
+<p>First, I created a <code class="language-plaintext highlighter-rouge">Gemfile</code>. This tells the app which Ruby gems to install when the app is building and where they come from.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s1">'https://rubygems.org'</span>
+<span class="n">gem</span> <span class="s1">'twitter'</span>
+</code></pre></div></div>
+
+<p>Running the command <code class="language-plaintext highlighter-rouge">bundle install</code> will install the gems in the <code class="language-plaintext highlighter-rouge">Gemfile</code>.</p>
+
+<p>Next, I created a <code class="language-plaintext highlighter-rouge">config.ru</code> file to tell Heroku that the app requires 2 Ruby gems to function. You do this with the command <code class="language-plaintext highlighter-rouge">require</code> followed by the gem name in single-quotes.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'twitter'</span>
+</code></pre></div></div>
+
+<p>I found that Heroku didn’t like it when I didn’t have them (even though they were blank, so I created a <code class="language-plaintext highlighter-rouge">Rakefile</code> and a <code class="language-plaintext highlighter-rouge">Procfile</code>, for good measure.</p>
+
+<p>Next comes the fun part - the actual bot!</p>
+
+<h3 id="build-a-bot">Build a bot</h3>
+
+<p>The final part of the build is to create a file called something like <code class="language-plaintext highlighter-rouge">twitterbot.rb</code>, and programme the bot. I’ve put the final code for the bot on <a href="https://github.com/johnpeart/IsItMeBot">Github</a> so you can see it all together, but here are the major take-aways:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">client</span> <span class="o">=</span> <span class="no">Twitter</span><span class="o">::</span><span class="no">REST</span><span class="o">::</span><span class="no">Client</span><span class="p">.</span><span class="nf">new</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
+	<span class="n">config</span><span class="p">.</span><span class="nf">consumer_key</span>			<span class="o">=</span> 		<span class="s1">'YOUR_KEY'</span>
+	<span class="n">config</span><span class="p">.</span><span class="nf">consumer_secret</span>			<span class="o">=</span> 		<span class="s1">'YOUR_SECRET'</span>
+	<span class="n">config</span><span class="p">.</span><span class="nf">access_token</span>			<span class="o">=</span> 		<span class="s1">'YOUR-KEY'</span>
+	<span class="n">config</span><span class="p">.</span><span class="nf">access_token_secret</span>		<span class="o">=</span> 		<span class="s1">'YOUR-SECRET'</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>This code block is where I put the API keys I generated earlier. It logs you into the Twitter API and lets you do everything else!</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">client</span><span class="p">.</span><span class="nf">search</span><span class="p">(</span> <span class="s2">"%22is+it+me+or%22"</span><span class="p">,</span> <span class="ss">result_type: </span><span class="s2">"recent"</span><span class="p">).</span><span class="nf">take</span><span class="p">(</span><span class="mi">1</span><span class="p">).</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">tweet</span><span class="o">|</span>
+	<span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>This code block tells @IsItMeBot to search Twitter for “is it me or” as an exact phrase (%22 are encoded double-quotes, and the + sign is the encoded space symbol), take the most recent tweet and then complete a specific set of commands.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">client</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="s2">"@</span><span class="si">#{</span><span class="n">tweet</span><span class="p">.</span><span class="nf">user</span><span class="p">.</span><span class="nf">screen_name</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">itsyou</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="ss">in_reply_to_status_id: </span><span class="n">tweet</span><span class="p">.</span><span class="nf">id</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In this case, @IsItMeBot sends a reply to the tweet it finds, @replies (<code class="language-plaintext highlighter-rouge">@#{tweet.user.screen_name}</code>) and adds a response chosen at random from an array (<code class="language-plaintext highlighter-rouge">#{itsyou}</code>).</p>
+
+<h3 id="deploy-the-bot">Deploy the bot</h3>
+
+<p>Next, the bot has to be deployed. I did this through the terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git add .
+</code></pre></div></div>
+
+<p>This adds all files in the directory to the git repository</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git commit -am "a comment about what I did here"
+</code></pre></div></div>
+
+<p>This commits any changes to the code.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git push heroku master
+</code></pre></div></div>
+
+<p>This pushes the changes to Heroku and builds the app.</p>
+
+<h3 id="running-the-bot">Running the bot</h3>
+
+<p>The bot is so simple it can’t run itself. To make sure it actually does some tweeting, you can do one of 2 things.</p>
+
+<p><strong>If you only want the bot to tweet when you tell it to</strong>, you can run the command <code class="language-plaintext highlighter-rouge">heroku run ruby twitterbot.rb</code>, and the bot will complete its commands and stop.</p>
+
+<p>That’s useful for testing, but not so useful for leaving a fully functioning bot out there. <strong>If you want the bot to run itself</strong>, you need to schedule it. I added the “Heroku Scheduler” addon to the app on the Heroku website to achieve this. Now making my bot run is as simple as telling it to <code class="language-plaintext highlighter-rouge">ruby twitterbot.rb</code> every 10 mins, every hour or every day, depending on your appetite.</p>
+
+<h2 id="thats-it">That’s it!</h2>
+
+<p>That’s all you need to create your own Twitterbot. You can find the full source files on <a href="https://github.com/johnpeart/IsItMeBot">Github</a>.</p>
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>16 January 2017</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>digital</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

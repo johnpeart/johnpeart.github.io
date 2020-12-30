@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Creating a scoreboard for my Eurovision house party</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2019/06/02/building-a-eurovision-scoreboard">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2019/06/02/building-a-eurovision-scoreboard">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2019/06/02/building-a-eurovision-scoreboard">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="Creating a scoreboard for my Eurovision house party">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it.">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2019/06/02/building-a-eurovision-scoreboard">
+
+<meta name="twitter:title" 			content="Creating a scoreboard for my Eurovision house party">
+
+<meta name="twitter:description" 	content="I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it.">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+<meta name="twitter:image:alt" 		content="Creating a scoreboard for my Eurovision house party">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="Creating a scoreboard for my Eurovision house party">
+<meta itemprop="description" content="I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it.">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">Creating a scoreboard for my Eurovision house party</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>Loads of people watch Eurovision for the <a href="https://youtu.be/hfjHJneVonE?t=42">outrageous costumes</a>, <a href="https://youtu.be/Pfo-8z86x80">hit</a>-and-<a href="https://youtu.be/Eu5kgSeZHfw?t=19">miss</a> music, and <a href="https://youtu.be/VJ920cN2HmA?t=90">general titivation</a>. I appreciate all that stuff too, of course, but what I’m <em>really</em> living for on the night of the Eurovision grand final is the <strong>voting</strong>.</p>
+
+<p>I don’t think I’m actually ever more excited than when they announce the results; even more so with the new and absolutely <em>brutal</em> way they’ve done them in recent years.</p>
+
+<p>So when I was deciding how I could bring some added fun to my Eurovision house party this year, there was only ever one choice: <strong>more voting</strong>! Many people would have settled for a paper scorecard downloaded from the Beeb — but not me. No, I wanted a digital scoreboard with realtime voting for my guests. And that’s what I built. Here’s a quick canter through how I shoved it together in only a few hours.</p>
+
+<h2 id="what-i-built">What I built</h2>
+
+<p>Described simply, I built a webpage with a grid layout. In each cell of the grid was a country name and a score — which was pulled in from a <a href="https://docs.google.com/spreadsheets/d/1tbhEoWuhBg5H5l61VMsqy-qywp4LCzj5ZsoD9dSvftw/edit#gid=282133841">Google Sheet</a> roughly every 30 seconds.</p>
+
+<p>It looks like this:</p>
+
+<p><img src="/assets/images/posts/eurovision-scoreboard.jpg" alt="" title="The scoreboard" /></p>
+
+<p>To ‘vote’, you filled in a <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwHZqxdzQE5wc5OHp1rHfUU3wWk-ZU2aJqs5EEtsbI-wV23g/viewform">Google Form</a> and gave each country a score on the usual 1 to 12 Eurovision voting scale. The Google Sheet then aggregated the votes and gave an average score for each song.</p>
+
+<h2 id="starting-with-a-boilerplate">Starting with a boilerplate</h2>
+
+<p>As with most of my digital projects nowadays, I find it quickest to use <a href="https://www.jekyllrb.com">Jekyll</a>. It was entirely unnecessary to use Jekyll to do this — but it does have the benefit of building remotely on Github Pages without a faff, and it wallpapers over some of the significant gaps in my javascript skills.</p>
+
+<p>I’m not going to go into how to put a Jekyll site together — the official documentation is simple enough that most people can follow it. I won’t go over the very rudimentary HTML and CSS I’ve used to create the scoreboard either — if you know how to code at a fairly rudimentary level, you’ll be able to replicate it.</p>
+
+<p>Instead, I’ll skip to the interesting bit — how I got the data out of Google Sheets.</p>
+
+<h2 id="setting-up-google-sheets">Setting up Google Sheets</h2>
+
+<h3 id="start-with-your-google-form">Start with your Google Form</h3>
+
+<p>I started by creating a <a href="https://forms.google.com">Google Form</a>.  On the form, I included 3 questions:</p>
+
+<ol>
+  <li>which country the person was voting for</li>
+  <li>how many points they were awarding</li>
+  <li>who they were</li>
+</ol>
+
+<p>Guests awarded their points by submitting the form at the end each performance<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<h3 id="link-your-google-form-to-a-google-sheet">Link your Google Form to a Google Sheet</h3>
+
+<p>Google Form created, I next linked this to a Google Sheet. This means every time someone makes a form submission, it saves their response to a spreadsheet.</p>
+
+<p>It’s almost too easy to do: you just click a button on the top of the form! In my case, I needed to create a new Sheets file, but you could also link it to an existing spreadsheet if you had one you’d already been working in.</p>
+
+<h3 id="calculate-the-scores">Calculate the scores</h3>
+
+<p>The next task is to aggregate the scores.</p>
+
+<p>Each form submission is added to the workbook as a row in a sheet (I’ll call this the ‘Responses sheet’ for brevity). So to get the aggregated scores, in a new sheet I:</p>
+
+<ol>
+  <li>listed the names of the countries in the final in Column A</li>
+  <li>used <code class="language-plaintext highlighter-rouge">SUMIF()</code> to check if the country in Column A matched the response on the ‘Responses sheet’</li>
+  <li>used <code class="language-plaintext highlighter-rouge">COUNTIF()</code> to see how many times the name of the country in Column A appeared in the ‘Responses sheet’</li>
+  <li>used <code class="language-plaintext highlighter-rouge">AVERAGE()</code> to average the <code class="language-plaintext highlighter-rouge">SUMIF()</code> and <code class="language-plaintext highlighter-rouge">COUNTIF()</code></li>
+  <li>rounded the average to the nearest integer by using <code class="language-plaintext highlighter-rouge">ROUND()</code></li>
+  <li>if the rounded number was either <code class="language-plaintext highlighter-rouge">9</code> or <code class="language-plaintext highlighter-rouge">11</code>, I rounded up to <code class="language-plaintext highlighter-rouge">10</code> or <code class="language-plaintext highlighter-rouge">12</code> respectively; because you can’t get 9 or 11 points in Eurovision</li>
+</ol>
+
+<p>All this resulted in a final score for each entry.</p>
+
+<h3 id="publish-the-google-sheet">Publish the Google Sheet</h3>
+
+<p>In order to retrieve the data for the scoreboard, I published the Google Sheet, which makes it available publicly to anyone with the link<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>.</p>
+
+<p>To publish the sheet, go to <code class="language-plaintext highlighter-rouge">File &gt; Publish to the web</code>, and click <code class="language-plaintext highlighter-rouge">Publish</code>. I also ticked the <code class="language-plaintext highlighter-rouge">Automatically republish when changes are made</code> box.</p>
+
+<h3 id="get-your-google-sheets-identifiers">Get your Google Sheets identifiers</h3>
+
+<p>One final thing I needed was the identifier for the Google Sheet from the URL.</p>
+
+<p>Google Sheets URLs (at the time of writing) are structured like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://docs.google.com/spreadsheets/d/YOUR-SPREADSHEET-ID/edit#gid=WORKSHEET-ID
+</code></pre></div></div>
+
+<p>You need to know the <code class="language-plaintext highlighter-rouge">YOUR-SPREADSHEET-ID</code> — which will be a long random alphanumeric string — in order to point the code in the next section to the right place.</p>
+
+<h2 id="getting-the-data-out-of-google-sheets">Getting the data out of Google Sheets</h2>
+
+<blockquote>
+  <p><strong>Before you go further</strong>, I should say that I’m very much a javascript novice. I pieced this together from various StackOverflow threads, so whilst I can tell you <em>what</em> I did, I can’t necessarily explain to you why it works!</p>
+
+  <p>There’s probably a much simpler way of writing this code — if there is, please do let me know and <a href="https://github.com/johnpeart/scoreboard">amend the code on Github</a>.</p>
+</blockquote>
+
+<h3 id="load-the-data">Load the data</h3>
+
+<p>The first thing I needed was a function that could load the data. I created a function <code class="language-plaintext highlighter-rouge">loadScript()</code> which accepts two arguments — the <code class="language-plaintext highlighter-rouge">url</code> of the Google Sheet and a <code class="language-plaintext highlighter-rouge">callback</code> to trigger once it’s loaded.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">loadScript</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// Adding the script tag to the head as suggested before</span>
+    <span class="kd">var</span> <span class="nx">head</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">head</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">script</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">text/javascript</span><span class="dl">'</span><span class="p">;</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="nx">url</span><span class="p">;</span>
+
+    <span class="c1">// Then bind the event to the callback function.</span>
+    <span class="c1">// There are several events for cross browser compatibility.</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">onreadystatechange</span> <span class="o">=</span> <span class="nx">callback</span><span class="p">;</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="nx">callback</span><span class="p">;</span>
+
+    <span class="c1">// Fire the loading</span>
+    <span class="nx">head</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">script</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">url</code> argument is constructed from the <code class="language-plaintext highlighter-rouge">YOUR-SPREADSHEET-ID</code> you hunted down earlier.</p>
+
+<p>Whereas the URL for the document in a browser will load the Google Sheets app, I needed the data in a raw format. Google offers a JSONP API for this purpose. The URL we need for our script’s <code class="language-plaintext highlighter-rouge">url</code> argument is in this format:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=YOUR-CALLBACK
+</code></pre></div></div>
+
+<p>You replace <code class="language-plaintext highlighter-rouge">YOUR-SPREADSHEET-ID</code> with the ID you kept hold of earlier.</p>
+
+<p>In order to manipulate the data you need to include a callback too — that’s where <code class="language-plaintext highlighter-rouge">YOUR-CALLBACK</code> comes in. In my case, I called it <code class="language-plaintext highlighter-rouge">onDataLoaded</code>; which we’ll come back to.</p>
+
+<p>That gave me this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/1tbhEoWuhBg5H5l61VMsqy-qywp4LCzj5ZsoD9dSvftw/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This script will now call the data, inject the script into the page <code class="language-plaintext highlighter-rouge">header</code>, make a callback <code class="language-plaintext highlighter-rouge">onDataLoaded</code> and — if specified — make a second callback to continue with the rest of the operations I need.</p>
+
+<h3 id="do-something-with-the-data">Do something with the data</h3>
+
+<p>I included a callback in the URL, <code class="language-plaintext highlighter-rouge">onDataLoaded</code>. This function would take the content of specific cells, save the data as variables, and then place this data inside a <code class="language-plaintext highlighter-rouge">div</code> in the HTML.</p>
+
+<p>I mentioned I used Jekyll; this is where Jekyll comes in handy. Instead of manually writing out each <code class="language-plaintext highlighter-rouge">var</code> and popping it into it’s respective <code class="language-plaintext highlighter-rouge">div</code>, I created a <code class="language-plaintext highlighter-rouge">.csv</code> file in the site’s <code class="language-plaintext highlighter-rouge">_data</code> folder called <code class="language-plaintext highlighter-rouge">data.csv</code>. In this file was a list of all the countries in the final.</p>
+
+<p>In the javascript file, I used some Liquid markup to iterate through each row of <code class="language-plaintext highlighter-rouge">data.csv</code>, to convert any country names into usable variables, and then replace the HTML. What would have been more than 50 lines of code to write then became 4 lines<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">onDataLoaded</span> <span class="o">=</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	 
+	<span class="p">{</span><span class="o">%</span> <span class="k">for</span> <span class="nx">entry</span> <span class="k">in</span> <span class="nx">site</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span> <span class="o">%</span><span class="p">}</span>
+	    <span class="kd">var</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">feed</span><span class="p">.</span><span class="nx">entry</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">entry</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">title</span><span class="p">.</span><span class="nx">$t</span> <span class="o">==</span> <span class="dl">'</span><span class="s1">{{ entry.CellReference }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">content</span><span class="p">.</span><span class="nx">$t</span>
+	    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">entry-{{ entry.Name | remove: " " }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span>
+	<span class="p">{</span><span class="o">%</span> <span class="nx">endfor</span> <span class="o">%</span><span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="check-the-data-regularly">Check the data regularly</h3>
+
+<p>So I can now get the data, and I can place the data I need in the places I want; but it only loads once. The feed will update automatically (because I set it to publish changes automatically at the start), but the page won’t know that so the scores only update when the page refreshes.</p>
+
+<p>To get around this, I created a <code class="language-plaintext highlighter-rouge">getNewData()</code> function. This function triggers the <code class="language-plaintext highlighter-rouge">loadScript()</code> function every <em>n</em> seconds thanks to a <code class="language-plaintext highlighter-rouge">setInterval()</code>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">getNewData</span><span class="p">()</span> <span class="p">{</span>
+
+	<span class="nx">setInterval</span><span class="p">(</span>
+		<span class="kd">function</span><span class="p">(){</span> 
+		
+			<span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">)</span>
+			
+			<span class="c1">// Output to the console that the data has been checked, </span>
+			<span class="c1">// so you know it's working even if there are no changes.</span>
+			<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Updated data</span><span class="dl">"</span><span class="p">);</span>
+			
+		<span class="p">},</span> 
+	<span class="mi">30000</span><span class="p">);</span>
+	
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="load-the-script-and-keep-checking-it">Load the script, and keep checking it</h3>
+
+<p>This new <code class="language-plaintext highlighter-rouge">getNewData()</code> function becomes part of our initial <code class="language-plaintext highlighter-rouge">loadScript()</code> function call, when the page has finished loading.</p>
+
+<p>I wrapped the <code class="language-plaintext highlighter-rouge">loadScript()</code> in a <code class="language-plaintext highlighter-rouge">window.onload</code>, calling the URL and the <code class="language-plaintext highlighter-rouge">getNewData</code> function, like this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">window</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">,</span> <span class="nx">getNewData</span><span class="p">)</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>This means that, after the page has loaded, the script will download the data from the Google Sheet, manipulate the data, and then set a timer to trigger the same command again via <code class="language-plaintext highlighter-rouge">getNewData</code>.</p>
+
+<h3 id="final-javascript-code">Final javascript code</h3>
+
+<p>Put all that together, and you get this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">window</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">,</span> <span class="nx">getNewData</span><span class="p">)</span>
+<span class="p">};</span>
+
+<span class="kd">function</span> <span class="nx">getNewData</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">setInterval</span><span class="p">(</span>
+		<span class="kd">function</span><span class="p">(){</span> 
+			<span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">)</span>
+			<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Updated data</span><span class="dl">"</span><span class="p">);</span>
+		<span class="p">},</span> 
+	<span class="mi">30000</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">loadScript</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// Adding the script tag to the head as suggested before</span>
+    <span class="kd">var</span> <span class="nx">head</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">head</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">script</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">text/javascript</span><span class="dl">'</span><span class="p">;</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="nx">url</span><span class="p">;</span>
+
+    <span class="c1">// Then bind the event to the callback function.</span>
+    <span class="c1">// There are several events for cross browser compatibility.</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">onreadystatechange</span> <span class="o">=</span> <span class="nx">callback</span><span class="p">;</span>
+    <span class="nx">script</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="nx">callback</span><span class="p">;</span>
+
+    <span class="c1">// Fire the loading</span>
+    <span class="nx">head</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">script</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kd">var</span> <span class="nx">onDataLoaded</span> <span class="o">=</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	 
+	<span class="p">{</span><span class="o">%</span> <span class="k">for</span> <span class="nx">entry</span> <span class="k">in</span> <span class="nx">site</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span> <span class="o">%</span><span class="p">}</span>
+	    <span class="kd">var</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">feed</span><span class="p">.</span><span class="nx">entry</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">entry</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">title</span><span class="p">.</span><span class="nx">$t</span> <span class="o">==</span> <span class="dl">'</span><span class="s1">{{ entry.CellReference }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">content</span><span class="p">.</span><span class="nx">$t</span>
+	    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">entry-{{ entry.Name | remove: " " }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span>
+	<span class="p">{</span><span class="o">%</span> <span class="nx">endfor</span> <span class="o">%</span><span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="what-id-do-differently-next-time">What I’d do differently next time</h2>
+
+<p>I did this in a rush; I had the idea at 10am on the morning of the final and had finished it just after lunch time. That means there are a lot of rough edges, including:</p>
+
+<ol>
+  <li><strong>Lots of unnecessary code</strong>: I copied an existing Jekyll project folder over and started hacking away at it, so there’s a lot of code I don’t need that’s left behind from that. If I do this again next year, I’ll tidy that all up.</li>
+  <li><strong>It works best on TVs</strong>: I knew I was going to display this on a 1080p resolution display, so I built it specifically for that use case. It goes quite badly wrong, quite quickly on any other screen size. An objective for next time would be to make it responsive.</li>
+  <li><strong>Jekyll wasn’t really needed</strong>: I could have built this without Jekyll, but it’s become a bit of a crutch recently. I should probably build it without Jekyll!</li>
+</ol>
+
+<p>There’s also some stuff that would have been cool to add, like:</p>
+
+<ol>
+  <li><strong>Re-ordering the grid automatically</strong>: at the moment, all scores are ordered by the order they appear in the <code class="language-plaintext highlighter-rouge">data.csv</code> file. It would be great to have them re-order to be in rank order.</li>
+  <li><strong>Calculate proper scores, after voting ends</strong>: in the current version, it’s possible to have more than one act with 12 points. It would be cool to have the scoreboard use the unrounded figures to attribute scores properly at the end, Eurovision style.</li>
+</ol>
+
+<h2 id="get-the-code">Get the code</h2>
+
+<p>All the code for this project is <a href="https://github.com/johnpeart/scoreboard">available on Github</a>, if you want to role your own.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>If we were strictly mirroring the way Eurovision voting really works, each person would get to award their points once — they’d give 12 points to their favourite country, 10 points to their second favourite, and so on — but that seemed to defeat the point of having a live scoreboard. So instead, I allowed guests to give 0, 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 points to each country. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>It is technically possible to make this work without making the Google Sheet publicly visible, but that would involve all sorts of tricky authentication that was too much of a hassle. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>I could have achieved the same thing in javascript, but I was in a rush and didn’t want to brush up on javascript arrays! <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>2 June 2019</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>digital, eurovision</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Text mining tweets from the 2015 BAFTAs</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2015/02/15/text-mining-tweets-from-the-2015-baftas/">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2015/02/15/text-mining-tweets-from-the-2015-baftas/">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2015/02/15/text-mining-tweets-from-the-2015-baftas/">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="Text mining tweets from the 2015 BAFTAs">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="I decided to do some content analysis of the 2015 BAFTA awards using live streaming data from Twitter. If you like graphs, you'll love this.">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2015/02/15/text-mining-tweets-from-the-2015-baftas/">
+
+<meta name="twitter:title" 			content="Text mining tweets from the 2015 BAFTAs">
+
+<meta name="twitter:description" 	content="I decided to do some content analysis of the 2015 BAFTA awards using live streaming data from Twitter. If you like graphs, you'll love this.">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+<meta name="twitter:image:alt" 		content="Text mining tweets from the 2015 BAFTAs">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="Text mining tweets from the 2015 BAFTAs">
+<meta itemprop="description" content="I decided to do some content analysis of the 2015 BAFTA awards using live streaming data from Twitter. If you like graphs, you'll love this.">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post" class="theme-facebook-blue">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">Text mining tweets from the 2015 BAFTAs</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>It’s been just over a week since London’s Royal Opera House rolled out the red carpet for the world’s finest silver screen stars, directors, writers, and film making entourages at the British Academy Film (and Television) Awards; AKA, the BAFTAs.</p>
+
+<p>As has now become the cultural norm for events such as these, the awards were being tweeted by the masses. Many of these tweets accompanied by the event’s official hashtag – #EEBAFTAs. And as is now becoming a geeky norm for me, I decided I wanted to do some quick and dirty analysis of those tweets.</p>
+
+<p>I used a Python script to link into Twitter’s streaming API, and download tweets with the #EEBAFTAs hashtag to a local .csv file. I left the connection to Twitter’s API open for around 6 hours, from 18:30 to 23:20. The televised broadcast of the BAFTAs happened between 21:00 and 23:00, but the event itself was a few hours before the broadcast.</p>
+
+<p>In total, over 77,831 tweets were downloaded, which, including the associated metadata, created a 455MB .csv file.</p>
+
+<p>Data stored, I fired up R to do some graphing and text mining. For this set of analysis, I used the following libraries:</p>
+
+<ul>
+  <li><a href="https://cran.r-project.org/web/packages/streamR/index.html">streamR</a></li>
+  <li><a href="https://cran.r-project.org/web/packages/twitteR/index.html">twitteR</a></li>
+  <li><a href="https://cran.r-project.org/web/packages/tm/index.html">tm</a></li>
+  <li><a href="https://cran.r-project.org/web/packages/wordcloud/index.html">wordcloud</a></li>
+  <li><a href="https://cran.r-project.org/web/packages/RTextTools/index.html">RTextTools</a></li>
+  <li><a href="https://cran.r-project.org/web/packages/topicmodels/index.html">topicmodels</a></li>
+</ul>
+
+<p>So what did I find?</p>
+
+<h2 id="total-tweets-and-tweets-over-time">Total tweets and tweets over time</h2>
+
+<h3 id="tweets-about-best-actor-nominees">Tweets about Best Actor nominees</h3>
+
+<p><img src="/assets/images/posts/baftas-BestActorVolume.png" class="img-responsive" />
+The graph above shows the number of tweets that include the surname of the Best Actor nominees.</p>
+
+<p>If Twitter is a barometer of the popularity of silver screen stars, then it seems Eddie Redmayne was the darling of the evening; and he, of course, bagged the prize for Best Actor. Perhaps most surprising is the disparity between tweets mentioning Redmayne and Cumberbatch, and the rest of the field. Equally surprising perhaps, is that Benedict Cumberbatch – and indeed the Imitation Game, for which he was nominated – didn’t walk away with any awards.</p>
+
+<p><img src="/assets/images/posts/baftas-BestActor.png" class="img-responsive" />
+Looking at the time series data, it’s easy to spot the time that Redmayne picked up his award for Best Actor. Around half of all tweets captured at 22:31 mentioned Eddie Redmayne).</p>
+
+<p>However, if you were going to place bets, based on all the tweets leading up to 22:21, you’d have thought Cumberbatch was a shoe in for the award. He was certainly more popular on Twitter up until that point.</p>
+
+<h3 id="tweets-about-best-actress-nominees">Tweets about Best Actress nominees</h3>
+
+<p><img src="/assets/images/posts/baftas-BestActressVolume.png" class="img-responsive" />
+It seems the Best Actor nominees stole the show entirely too. Of all the tweets mentioning Best Actress nominees, Julianne Moore comes out on top – unsurprisingly, given that she won the Best Actress category. However, Moore didn’t get even a quarter of the mentions of Eddie Redmayne did.</p>
+
+<p>Unconscious bias on the part of BAFTA tweeters? Perhaps. But it’s equally likely that the films these leading actresses were in just weren’t as popular this year (I hadn’t even heard of <em>Still Alice</em> before the BAFTAs!).</p>
+
+<p><img src="/assets/images/posts/baftas-BestActress.png" class="img-responsive" />
+Throughout the whole night, the tweets about these leading women were far lower than those of Best Actor nominees. Based on the spikes earlier in the night though, again, you might have expected Felicity Jones to have walked away with the award. Twitter spikes are certainly proving to be incredibly misleading!</p>
+
+<h3 id="tweets-about-best-film-nominees">Tweets about Best Film nominees</h3>
+
+<p><img src="/assets/images/posts/baftas-BestFilmVolume.png" class="img-responsive" />
+Boyhood walked away with the BAFTA for Best Film, but The Theory of Everything was the most talked about of the Best Film nominees.</p>
+
+<p>The interesting thing about these results is that, whilst Benedict Cumberbatch was a popular topic of discussion on Twitter, the film he starred in was not. Perhaps that says it all about why it walked away without one of the famous mask trophies to its name.</p>
+
+<p><img src="/assets/images/posts/baftas-BestFilm.png" class="img-responsive" />
+Of course, films are generally referenced across many categories at the BAFTAs, with the exception of the Imitation Game, each of the Best Film nominees walked away with at least one award. That likely explains the spikes as we look across the time series data.</p>
+
+<h2 id="most-frequent-terms">Most frequent terms</h2>
+
+<h3 id="frequent-terms-in-tweets-with-eebaftas">Frequent Terms in tweets with #EEBAFTAs</h3>
+
+<p><img src="/assets/images/posts/baftas-MostFreqTerms.png" />
+When you think about the BAFTAs, or for-that-matter, the Oscars and Golden Globes, what are the things you think about?</p>
+
+<ul>
+  <li>The red carpet? <em>Check</em>.</li>
+  <li>Who won the awards? <em>Check</em>.</li>
+</ul>
+
+<p>Twitter data seems to back up both your hunches. The most frequently used terms in the tweets from the evening are shown in the graph above.</p>
+
+<p>Aside from the most popular actor of the evening – Eddie Redmayne – making an appearance in these popular terms, perhaps surprisingly, <code class="language-plaintext highlighter-rouge">stephen</code> is also highly ranked. At this point, it’s unclear whether this refers to Stephen Fry, who presented the awards, or Stephen Hawking, who, of course, Eddie Redmayne portrayed in <em>The Theory of Everything</em>, and who was at the awards night.</p>
+
+<h3 id="frequent-terms-in-best-actor-tweets">Frequent Terms in Best Actor tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-TermsBestActor.png" class="img-responsive" />
+It seems Stephen Hawking was, in fact, the main reason for <code class="language-plaintext highlighter-rouge">stephen</code> being a top term in the overall corpus. <code class="language-plaintext highlighter-rouge">hawking</code> is the fourth most popular term in the corpus for Best Actor tweets.</p>
+
+<p>Similar to the overall volume graphs, above, both Eddie Redmayne and Benedict Cumberbatch are the most frequently referenced in this corpus. Perhaps oddly, their first names are used more frequently than their last names. <em>How very familiar of you, Twitter</em>.</p>
+
+<h3 id="frequent-terms-in-best-actress-tweets">Frequent Terms in Best Actress tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-TermsBestActress.png" class="img-responsive" />
+Julianne Moore tops the frequent terms list for Best Actress – unsurprisingly – as does the film for which she won the award, Still Alice. In a strange reversal of trend, most people refer to Julianne Moore by her surname.</p>
+
+<h3 id="frequent-terms-in-best-film-tweets">Frequent Terms in Best Film tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-TermsBestFilm.png" class="img-responsive" />
+The Theory of Everything is referred to more often than the other Best Film nominations here, congruent with the data previously seen. It seems everyone is wanting to wish a congratulations in this corpus too.</p>
+
+<h2 id="word-clouds">Word clouds</h2>
+
+<p>Word clouds don’t show us much other than the most frequently used terms in a corpus. Their relative size is unimportant; larger sized terms are more frequent in the corpus, but they aren’t proportionally more frequent in this instance.</p>
+
+<p>The word clouds here are limited to the 500 most frequent terms. I won’t talk about each word cloud, just take a look for yourself; they’re pretty!</p>
+
+<h3 id="word-cloud-of-tweets-with-eebaftas">Word cloud of tweets with #EEBAFTAs</h3>
+
+<p><img src="/assets/images/posts/baftas-WordCloudAllTweets.png" class="img-responsive" /></p>
+
+<h3 id="word-cloud-of-best-actor-tweets">Word cloud of Best Actor tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-WordCloudBestActor.png" class="img-responsive" /></p>
+
+<h3 id="word-cloud-of-best-actress-tweets">Word cloud of Best Actress tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-WordCloudBestActress.png" class="img-responsive" /></p>
+
+<h3 id="word-cloud-of-best-film-tweets">Word cloud of Best Film tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-WordCloudBestFilm.png" class="img-responsive" /></p>
+
+<h2 id="associations-between-terms">Associations between terms</h2>
+
+<p>More interesting than the simple frequencies of terms within a corpus, is the association between those terms. That is, when one term is used, what other terms frequently appear with it?</p>
+
+<p>Using clustering of the data, and removing the most sparse terms from each of the four corpora (all tweets, best actor tweets, best actress tweets, and best film tweets), we can create hierarchical dendrograms to show how closely associated the most popular terms are within a corpus.</p>
+
+<h3 id="association-of-terms-in-all-tweets-with-eebaftas">Association of terms in all tweets with #EEBAFTAs</h3>
+
+<p><img src="/assets/images/posts/baftas-DendrogramAllTweets.png" class="img-responsive" />
+Perhaps unsurprisingly, for the all tweets corpus, <code class="language-plaintext highlighter-rouge">#EEBAFTAs</code> forms the first cluster (top left). You would expect this, given every tweet in this corpus contains <code class="language-plaintext highlighter-rouge">#EEBAFTAs</code>. How the rest of the corpus breaks down is more interesting.</p>
+
+<p>Terms relating to the announcement of awards and the red carpet itself dominate the corpus. <em>The Theory of Everything</em> forms the most cohesive cluster below this level (terms: <code class="language-plaintext highlighter-rouge">actor</code>, <code class="language-plaintext highlighter-rouge">leading</code>, <code class="language-plaintext highlighter-rouge">eddie</code>, <code class="language-plaintext highlighter-rouge">reedman</code>, <code class="language-plaintext highlighter-rouge">hawking</code>, <code class="language-plaintext highlighter-rouge">stephen</code>). This shows the popularity of the film on Twitter during this time.</p>
+
+<h3 id="association-of-terms-in-best-actor-tweets">Association of terms in Best Actor tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-DendrogramBestActor.png" class="img-responsive" />
+Unlike the whole corpus, <code class="language-plaintext highlighter-rouge">#EEBAFTAs</code> is not the most cohesive cluster in the Best Actor corpus. Instead, two large groups of clusters emerge – the most significant (right) purely relating to Eddie Redmayne and Benedict Cumberbatch.</p>
+
+<p>The left tree of the dendrogram is comparatively much less focused, splitting into many branches before terms emerge as dominant. This second cluster group is dominated again by Benedict Cumberbatch, but also his spouse, Sophie Hunter.</p>
+
+<h3 id="association-of-terms-in-best-actress-tweets">Association of terms in Best Actress tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-DendrogramBestActress.png" class="img-responsive" />
+The Best Actress corpus is more similar to the main corpus, in that #EEBAFTAs is quickly shown as a dominant term in the clustering, as is the winner of the category – Julianne Moore.</p>
+
+<p>For the rest of the diagram, the clustering is much less focussed. This is likely related to the corpus size. As this corpus is much smaller than the previous two, the amount of sparse terms eliminated through data manipulation is likely lower. As such, the clustering has more terms to work with.</p>
+
+<p>Perhaps most interestingly in this corpus, Julianne Moore’s film – <em>Still Alice</em> – is not closely associated in the clustering. Both the individual terms still and alice, and the hashtag #stillalice feature to the far right of the dendrogram, and after many branches.</p>
+
+<h3 id="association-of-terms-in-best-film-tweets">Association of terms in Best Film tweets</h3>
+
+<p><img src="/assets/images/posts/baftas-DendrogramBestFilm.png" class="img-responsive" />
+The Best Film corpus calls out #EEBAFTAs as a key cluster early on, and is most related to <em>The Theory of Everything</em> (terms: <code class="language-plaintext highlighter-rouge">theory</code>, <code class="language-plaintext highlighter-rouge">everything</code>) and <em>Boyhood</em>. <em>Birdman</em>, <em>The Imitation Game</em> and <em>The Grand Budapest Hotel</em> are distinct from these two films.</p>
+
+<p>As you might expect, we see the films appear near their winning categories in the clustering too – <em>Boyhood</em> being associated with best film, <em>Birdman</em> with cinematography, and so on.</p>
+
+<p>Again this corpus seems more unfocused than the first two, again likely due to its relative size and thus fewer sparse terms to remove.</p>
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>15 February 2015</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>data</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

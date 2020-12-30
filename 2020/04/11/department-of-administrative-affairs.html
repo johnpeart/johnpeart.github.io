@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Building a Twitter bot for the ‘Department of Administrative Affairs’</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2020/04/11/department-of-administrative-affairs">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2020/04/11/department-of-administrative-affairs">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2020/04/11/department-of-administrative-affairs">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="Building a Twitter bot for the ‘Department of Administrative Affairs’">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="What it might look like if Sir Humphrey Appleby's department – the Department of Administrative Affairs – had access to Twitter as part of “Yes, Minister”, a...">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2020/04/11/department-of-administrative-affairs">
+
+<meta name="twitter:title" 			content="Building a Twitter bot for the ‘Department of Administrative Affairs’">
+
+<meta name="twitter:description" 	content="What it might look like if Sir Humphrey Appleby's department – the Department of Administrative Affairs – had access to Twitter as part of “Yes, Minister”, a...">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+<meta name="twitter:image:alt" 		content="Building a Twitter bot for the ‘Department of Administrative Affairs’">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="Building a Twitter bot for the ‘Department of Administrative Affairs’">
+<meta itemprop="description" content="What it might look like if Sir Humphrey Appleby's department – the Department of Administrative Affairs – had access to Twitter as part of “Yes, Minister”, a...">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post" class="theme-facebook-blue">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">Building a Twitter bot for the ‘Department of Administrative Affairs’</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>A couple of years ago, I started making bots on Twitter for fun. My first bot was <a href="https://twitter.com/IsItMeBot">@IsItMeBot</a>, and I documented <a href="https://www.johnpe.art/2017/01/16/its-you-twitter-bot">how I made it</a> back in January 2017.<sup id="fnref:suspended" role="doc-noteref"><a href="#fn:suspended" class="footnote">1</a></sup> In this post, I’ll share how I made my <em>second</em> bot: <a href="https://twitter.com/DeptOfAdmin">@DeptOfAdmin</a>.</p>
+
+<p>The inspiration for this bot came from a binge-watching session of <a href="https://en.wikipedia.org/wiki/Yes_Minister">Yes, Minister</a> – my second favourite politically-satirical TV show<sup id="fnref:TTOI" role="doc-noteref"><a href="#fn:TTOI" class="footnote">2</a></sup>. It’s a show full of masterful linguistic contortions that would make a Mandarin proud even today. At the centre of that show are the internal machinations of the Department of Administrative Affairs. I guess it’s kind of a pseudo-Cabinet Office<sup id="fnref:CO" role="doc-noteref"><a href="#fn:CO" class="footnote">3</a></sup>.</p>
+
+<p>Having tinkered around with the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">HTML canvas</a> and Twitter APIs, I started to wonder what the Department of Administrative Affairs might look like if it existed in 2017, rather than 1987. Almost certainly it would have a social media presence; most likely a Twitter account.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Humphrey_Appleby">Sir Humphrey Appleby’s</a> many, many witticisms were prime content for a bot. I decided that the <a href="https://twitter.com/DeptOfAdmin">@DeptOfAdmin</a> bot needed to immortalise some of his famous words. I created a fictitious brand identity for the Department, and then I set about coding the bot.</p>
+
+<p>Now, roughly once an hour, the Department of Administrative Affairs tweets something that looks like this:</p>
+
+<blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">We invest in nuclear bunkers as a department. Administration won&#39;t stop just because the country&#39;s been destroyed! Annihilation will be bad enough without anarchy to make things even worse! <a href="https://t.co/PNzIMoGBtP">pic.twitter.com/PNzIMoGBtP</a></p>&mdash; Department of Administrative Affairs (@DeptOfAdmin) <a href="https://twitter.com/DeptOfAdmin/status/1244089645610172416?ref_src=twsrc%5Etfw">March 29, 2020</a></blockquote>
+
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>It takes a random quote from a pre-defined list, generates an image dynamically based on that quote, and then tweets the image and the quote as part of the tweet too.</p>
+
+<p>I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the <a href="https://badideas.podcast.johnpe.art">Department of Bad Ideas</a>.</p>
+
+<figure class="image">
+	<img src="https://www.johnpe.art/assets/images/posts/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" />
+	<figcaption>
+		<strong>Figure 1:</strong>
+		The recently refreshed brand identity for the Department of Administrative Affairs.
+		<a href="https://badideas.podcast.johnpe.art" title="Open This mirrors my new podcast, the Department of Bad Ideas in new window" target="_blank">This mirrors my new podcast, the Department of Bad Ideas</a>.
+	</figcaption>
+</figure>
+
+<p>I’ve written a somewhat step-by-step of the process, if you wanted to create you <em>own</em> bot, below.</p>
+
+<h2 id="what-this-bot-can-do">What this bot can do</h2>
+
+<p>These high-level instructions will help you to create a bot that:</p>
+
+<ol>
+  <li>selects a random quote from a pre-defined list</li>
+  <li>dynamically generates an image, based on the selected quote</li>
+  <li>posts the quote as part of the tweet body text, alongside the generated image</li>
+</ol>
+
+<h2 id="pre-requisites">Pre-requisites</h2>
+
+<p>If you want to create a bot like mine, this is what you’ll need:</p>
+
+<ol>
+  <li>a <a href="https://twitter.com">Twitter account</a> to tweet from (in my case, @DeptOfAdmin)</li>
+  <li>a <a href="https://github.com">Github</a> account</li>
+  <li>a <a href="https://heroku.com">Heroku</a> account</li>
+  <li>a plain-text editor of your choice (I’ve recently been using the free and multi-platform <a href="https://code.visualstudio.com">Visual Studio Code</a>)</li>
+  <li>to have installed <a href="https://nodejs.org/en/">Node.js</a></li>
+  <li>access to the command line or Terminal on your computer</li>
+</ol>
+
+<blockquote>
+  <p><em>Note that I use a Mac, not Windows. Some of the commands you’ll need to run in the command line on Windows might be slightly different to the commands I’d run on a Mac.</em></p>
+</blockquote>
+
+<h2 id="setting-up-your-code-repository">Setting up your code repository</h2>
+
+<p>To start, you will need somewhere to put the code and somewhere to execute it in the cloud.</p>
+
+<p>Create a folder on your computer where you’ll store this project and initialise it as a git repository. You can do both these things in one go using <a href="https://desktop.github.com">the Github Desktop app</a>. If you’d prefer to use the Terminal (<em>I don’t!</em>), you’ll need to use something like these commands:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 1. Navigate to the folder you want to store the project in</span>
+% <span class="nb">cd</span> /your-folders/your-project-name
+
+<span class="c"># 2. Initialise the repository</span>
+% git init
+</code></pre></div></div>
+
+<p>Next, publish the repository to Github. Again, it’s much more intuitive to do this in the <a href="https://desktop.github.com">the Github Desktop app</a>, but you can do it in the Terminal too by following <a href="https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">the instructions on Github’s help pages</a>.</p>
+
+<h2 id="create-your-heroku-app">Create your Heroku app</h2>
+
+<p>With your repository set up on Github, you’ll need to create an app on Heroku next. If you’re going to be using Heroku a lot, and in particular if you’d prefer to use its git system, then you’re best off installing <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku Toolbelt</a> and using the Terminal to create your apps. Alternatively, you can just do it using the <code class="language-plaintext highlighter-rouge">New</code> button on <a href="https://dashboard.heroku.com/apps">the Heroku dashboard</a>.</p>
+
+<p>With your Github repository and Heroku app set up, set your Github repository as the ‘Deployment Method’ using the Heroku web interface<sup id="fnref:deploy" role="doc-noteref"><a href="#fn:deploy" class="footnote">4</a></sup>. This means that every time code is pushed to the repository on Github, it can be pulled in and built by Heroku. You can set Heroku up to do the deployment automatically, or you can disable that and do it manually if you’d prefer.</p>
+
+<h2 id="accessing-the-twitter-api">Accessing the Twitter API</h2>
+
+<p>With the code repository and hosting set up and linked together, next you will to <a href="https://developer.twitter.com">register for access to the Twitter API</a>. Make sure you’re logged in with the account you intend to tweet from and not your <em>personal</em> account.</p>
+
+<p>The registration process has changed to get access to the Twitter API – it’s now a bit harder to get access to just tinker around – so I’ll skip setting up an account here. For the purposes of creating your bot, you’ll need to get a:</p>
+
+<ul>
+  <li>consumer key</li>
+  <li>consumer secret</li>
+  <li>access token</li>
+  <li>access token secret</li>
+</ul>
+
+<p>You get those at the Twitter Developer site under <a href="https://developer.twitter.com/en/apps">the Apps section</a>. You’ll need these to input into your Heroku app.</p>
+
+<blockquote>
+  <p>A timely reminder that <strong>you should not store passwords or API credentials in your Github repositories</strong>. If someone has your credentials, they can tweet from your account!</p>
+</blockquote>
+
+<h2 id="put-your-credentials-into-heroku">Put your credentials into Heroku</h2>
+
+<p>Visit the <code class="language-plaintext highlighter-rouge">Settings</code> tab for your Heroku app on their website. Under the <code class="language-plaintext highlighter-rouge">Config Vars</code> section add four key-value pairs. It doesn’t really matter what you call the ‘keys’ but the values need to match your Twitter credentials.</p>
+
+<p>I’d suggest the following pairings:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Key</th>
+      <th style="text-align: left">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">consumer_key</code></td>
+      <td style="text-align: left"><em>Enter your consumer key</em></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">consumer_secret</code></td>
+      <td style="text-align: left"><em>Enter your consumer secret</em></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">access_token</code></td>
+      <td style="text-align: left"><em>Enter your access token</em></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">access_token_secret</code></td>
+      <td style="text-align: left"><em>Enter your access token secret</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="add-buildpacks">Add Buildpacks</h2>
+
+<p>Whilst you’re on the <code class="language-plaintext highlighter-rouge">Settings</code> tab, you may as well also set up your buildpacks. These are scripts that run when your app is deployed. They configure your hosting environment and install any software needed by your app to function properly.</p>
+
+<p>This bot is built using a framework called <code class="language-plaintext highlighter-rouge">twit</code>, which relies on Node.js, so you’ll need to add that buildpack first. Select the <code class="language-plaintext highlighter-rouge">Add buildpack</code> button and then choose <code class="language-plaintext highlighter-rouge">nodejs</code> from the officially supported buildpacks.</p>
+
+<figure class="image">
+	<img src="https://www.johnpe.art/assets/images/posts/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" />
+	<figcaption>
+		<strong>Figure 2:</strong>
+		The Add Buildpacks screen in Heroku Dashboard.
+		
+	</figcaption>
+</figure>
+
+<p>In order to generate the images that our bot will tweet, you need access to the graphics library Cairo. There is no official buildpack for this library and its dependencies, but unofficial versions do exist. I’m currently using <a href="https://github.com/sky-uk/heroku-buildpack-cairo">this one</a> that’s been maintained by Sky. (Yes, the people who do broadband and TV). Select the <code class="language-plaintext highlighter-rouge">Add buildpack</code> button again, and enter the following URL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://github.com/sky-uk/heroku-buildpack-cairo.git
+</code></pre></div></div>
+
+<h2 id="sketch-out-your-designs">Sketch out your designs</h2>
+
+<p>Before you start coding, you should sketch out some designs for your graphics. This will help to simplify how you code your bot because it will give you an idea of dimensions and relative sizes of various elements.</p>
+
+<p>The bot will generate images based on a compound of text, simple shapes and colours, or more complex imagery you provide. Sketching out your designs will help you figure out how you could reproduce the design in code too.</p>
+
+<p>The @DeptOfAdmin bot generates its images in 4 stages. It:</p>
+
+<ol>
+  <li>fills the whole canvas with a white background</li>
+  <li>places <a href="https://github.com/johnpeart/dept-of-admin-bot/blob/master/assets/logo.png">an image</a> in the top left of the canvas</li>
+  <li>fills the area below the image with a random colour from a <a href="https://github.com/johnpeart/dept-of-admin-bot/blob/master/colors.js">pre-defined list</a></li>
+  <li>places the quote text over the top of the coloured area</li>
+</ol>
+
+<p>All of this could be done entirely with code or entirely with images because this is a simple composition. Anything you can create with the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">HTML canvas API</a> can be dynamically generated. For anything more complex it would likely be simpler to create images and to import them into the canvas instead. The @DeptOfAdmin bot uses a combination of the two.</p>
+
+<p>As you’re sketching out your designs, make sure you have figured out the dimensions of each element as well the overall size of the image.</p>
+
+<p>Twitter crops images to two main sizes; they are:</p>
+
+<ul>
+  <li>landscape orientation rectangles of a maximum 1,200 pixels by 675 pixels</li>
+  <li>squares of a maximum 1200 pixels by 1200 pixels</li>
+</ul>
+
+<p>The @DeptOfAdmin bot creates images that are 1,200 pixels by 675 pixels so that all the text is displayed properly on Twitter’s mobile apps and on the web.</p>
+
+<p>Any final image assets you create for import onto the canvas need be at least the same size as they need to be displayed on the canvas to avoid pixelation. They also need to take into account pixel density; so if you’re making a 1200 pixel by 675 pixel canvas and the canvas will output a 2400 pixel by 1350 pixel image – so it’s @2x size – then your assets also need to be @2x size.</p>
+
+<h2 id="basic-file-structure">Basic file structure</h2>
+
+<p>There are a few files you’ll want to set up:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">package.json</code>: to put your Node.js app information, dependencies and settings</li>
+  <li><code class="language-plaintext highlighter-rouge">server.js</code>: to put the main logic of your app (it doesn’t actually matter what it’s called, but this file will be referenced in your <code class="language-plaintext highlighter-rouge">package.json</code>)</li>
+</ul>
+
+<p>That’s the bear minimum you’ll need to make the bot. You might also decide to separate out a few extra bits into their own files, so that <code class="language-plaintext highlighter-rouge">server.js</code> is human-readable, as well as machine readable.</p>
+
+<p>You should also create a <code class="language-plaintext highlighter-rouge">/assets</code> folder to store images and fonts you want to use in the bot.</p>
+
+<h2 id="set-up-packagejson">Set up <code class="language-plaintext highlighter-rouge">package.json</code></h2>
+
+<p>First we’ll create the <code class="language-plaintext highlighter-rouge">package.json</code> file. This file makes it easy to install and run your app on Heroku. The file:</p>
+
+<ul>
+  <li>lists the packages your project depends on</li>
+  <li>specifies versions of a package that your project can use</li>
+</ul>
+
+<p>You can create this file manually, or you can use the Node.js package manager to create the file via the Terminal. The latter is the easiest way to get started. In the Terminal, navigate to your project directory and run:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% npm init
+</code></pre></div></div>
+
+<p>You will then be guided through the various options you’ll need to set up.</p>
+
+<p>Aside from the questions that the questionnaire guides you through, there are some important things you’ll need to include. You may need to open the file in a text editor to do this.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">main</code> setting tells the server which file stores the primary code for your bot. In the case of the @DeptOfAdmin bot, this was called <code class="language-plaintext highlighter-rouge">server.js</code>.</p>
+
+<pre><code class="language-JSON">"main": "server.js"
+</code></pre>
+
+<p>You can create custom scripts that trigger various files and commands as part of <code class="language-plaintext highlighter-rouge">package.json</code>. This command is the one used by Heroku to start your bot. It doesn’t matter what keyword you choose; for @DeptOfAdmin I used <code class="language-plaintext highlighter-rouge">start</code> as the script keyword, and told it to trigger the <code class="language-plaintext highlighter-rouge">server.js</code> file.</p>
+
+<pre><code class="language-JSON">"scripts": {
+	"start": "node server.js"
+}
+</code></pre>
+
+<p>There are several frameworks that are required to generate the images and post them to Twitter. They can only be installed thanks to the buildpacks you have already set up Heroku.</p>
+
+<pre><code class="language-JSON">"dependencies": {
+	"canvas": "2.6.1",
+	"express": "4.17.1",
+	"fs": "0.0.1-security",
+	"grunt-cli": "^1.2.0",
+	"path": "0.12.7",
+	"twit": "2.2.11"
+}
+</code></pre>
+
+<p>The version numbers here don’t matter too much; these were just the versions that were available when I last updated the app.</p>
+
+<p>The <a href="https://docs.npmjs.com/files/package.json">full list of supported options</a> for <code class="language-plaintext highlighter-rouge">package.json</code> can be found on the Node.js website and the <a href="https://github.com/johnpeart/dept-of-admin-bot/blob/master/package.json">package I created for the @DeptOfAdmin bot is on Github</a>.</p>
+
+<h2 id="creating-the-bot-itself">Creating the bot itself</h2>
+
+<p>To make it easier to understand each element of the bot’s code, I separated the processes and variables into various files. For the @DeptOfAdmin bot, I created:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">server.js</code>: the main file that executed when the bot is started, and draws in information from <code class="language-plaintext highlighter-rouge">config.js</code>, <code class="language-plaintext highlighter-rouge">quotes.js</code> and <code class="language-plaintext highlighter-rouge">colors.js</code></li>
+  <li><code class="language-plaintext highlighter-rouge">config.js</code>: this file retrieves my Twitter API credentials from Heroku and authenticates the bot with Twitter</li>
+  <li><code class="language-plaintext highlighter-rouge">quotes.js</code>: this file stores the list of quotes that the bot can pick from to turn into an image at random</li>
+  <li><code class="language-plaintext highlighter-rouge">colors.js</code>: this file stores a list of colour codes that you can pick from at random as the background for the images</li>
+</ul>
+
+<h3 id="connecting-to-the-twitter-api">Connecting to the Twitter API</h3>
+
+<p>Let’s start with the <code class="language-plaintext highlighter-rouge">config.js</code> as it gets the boring stuff out the way. In this file, define a variable called <code class="language-plaintext highlighter-rouge">config</code>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="c1">// API credentials will go here</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This variable stores your Twitter API credentials. You don’t want to put our credentials into our repository – you don’t need to, because they’re stored in the <code class="language-plaintext highlighter-rouge">Config Vars</code> in Heroku.</p>
+
+<p>To retrieve the credentials from Heroku, use can use <code class="language-plaintext highlighter-rouge">process.env.</code> followed by the name of the variable you want to retrieve from Heroku. That gives you code like this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">consumer_key</span><span class="p">:</span>         <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">consumer_key</span><span class="p">,</span>
+  <span class="na">consumer_secret</span><span class="p">:</span>      <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">consumer_secret</span><span class="p">,</span>
+  <span class="na">access_token</span><span class="p">:</span>         <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">access_token</span><span class="p">,</span>
+  <span class="na">access_token_secret</span><span class="p">:</span>  <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">access_token_secret</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>We then need to expose this variable to <code class="language-plaintext highlighter-rouge">server.js</code> so we can use it in that file. We can do this using <code class="language-plaintext highlighter-rouge">module.exports</code>, like this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">config</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h3 id="a-big-list-of-quotes-and-colours">A big list of quotes and colours</h3>
+
+<p>The main reason for creating <code class="language-plaintext highlighter-rouge">quotes.js</code> and <code class="language-plaintext highlighter-rouge">colors.js</code> is that these lists could be pretty long, and it cleans up the code. For each file, we’re creating a variable and exposing it using <code class="language-plaintext highlighter-rouge">module.exports</code> again.</p>
+
+<p>For <code class="language-plaintext highlighter-rouge">quotes.js</code>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create the variable</span>
+<span class="kd">var</span> <span class="nx">quotes</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="c1">// Enter a list of comma separated values for quotes</span>
+<span class="p">]</span>
+
+<span class="c1">// Export it for use in server.js</span>
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">quotes</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>For <code class="language-plaintext highlighter-rouge">colors.js</code>:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create the variable</span>
+<span class="kd">var</span> <span class="nx">colours</span> <span class="o">=</span> <span class="p">[</span>
+	<span class="c1">// Enter a list of comma separated values </span>
+	<span class="c1">// Either hex codes or rgb() values work</span>
+<span class="p">]</span>
+
+<span class="c1">// Export it for use in server.js</span>
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">colors</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h3 id="scaffolding-serverjs">Scaffolding <code class="language-plaintext highlighter-rouge">server.js</code></h3>
+
+<p><code class="language-plaintext highlighter-rouge">server.js</code> is the file that brings all these other files together, generates our images, packages them up and sends them off to be tweeted. The file:</p>
+
+<ol>
+  <li>imports the relevant frameworks and modules</li>
+  <li>imports font files</li>
+  <li>sets variables for the quotes, colours and design elements</li>
+  <li>initialises the canvas</li>
+  <li>splits quote across multiple lines if it has too many characters in it</li>
+  <li>generates the image to tweet</li>
+  <li>compiles the tweet and posts it to Twitter</li>
+</ol>
+
+<h4 id="1-importing-the-relevant-frameworks-and-modules">1. Importing the relevant frameworks and modules</h4>
+
+<p>Start by importing the required frameworks.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> 	<span class="nx">Twit</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">twit</span><span class="dl">'</span><span class="p">),</span>
+		<span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">fs</span><span class="dl">'</span><span class="p">),</span>
+		<span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">path</span><span class="dl">'</span><span class="p">)</span>
+
+<span class="kd">const</span> 	<span class="p">{</span> 
+	<span class="nx">registerFont</span><span class="p">,</span> 
+	<span class="nx">createCanvas</span><span class="p">,</span> 
+	<span class="nx">Canvas</span><span class="p">,</span> 
+	<span class="nx">Image</span> 
+<span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">canvas</span><span class="dl">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">twit</code> is the framework that handles Twitter authentication and posting your tweets. <code class="language-plaintext highlighter-rouge">fs</code> and <code class="language-plaintext highlighter-rouge">path</code> will enable you to access the file system through javascript more easily. Simply creating a variable (<code class="language-plaintext highlighter-rouge">var</code>) and requiring the package is enough to get you going.</p>
+
+<p><code class="language-plaintext highlighter-rouge">canvas</code> is a bit more complex. It handles generating the images your bot makes. As the @DeptOfAdmin bot, uses custom fonts and images that need to be imported, <code class="language-plaintext highlighter-rouge">registerFont</code> and <code class="language-plaintext highlighter-rouge">Image</code> are required as part of the constant (<code class="language-plaintext highlighter-rouge">const</code>) that is created. Importing fonts (<code class="language-plaintext highlighter-rouge">registerFont</code>) must be done <strong>before</strong> the canvas is created (<code class="language-plaintext highlighter-rouge">createCanvas</code>) or the bot won’t work.</p>
+
+<p>You already used <code class="language-plaintext highlighter-rouge">module.exports</code> to expose the variables from <code class="language-plaintext highlighter-rouge">config.js</code>, <code class="language-plaintext highlighter-rouge">colors.js</code> and <code class="language-plaintext highlighter-rouge">quotes.js</code> in those files. Now you can use the <code class="language-plaintext highlighter-rouge">fs</code> and <code class="language-plaintext highlighter-rouge">path</code> framework you imported to bring those modules into the file.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">config</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">config.js</span><span class="dl">'</span><span class="p">));</span>
+<span class="nx">quotes</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">quotes.js</span><span class="dl">'</span><span class="p">));</span>
+<span class="nx">colors</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">colors.js</span><span class="dl">'</span><span class="p">));</span>
+</code></pre></div></div>
+
+<h4 id="2-import-font-files">2. Import font files</h4>
+
+<p>To use the custom fonts, you’ll first need to import them and then register them. First, create a function used to import the file.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// This function can be used to import fonts</span>
+<span class="kd">function</span> <span class="nx">fontFile</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+	<span class="c1">// Change '/assets/fonts' to wherever the font files are stored</span>
+	<span class="k">return</span> <span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">/assets/fonts/</span><span class="dl">'</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">registerFont()</code> function is part of the <code class="language-plaintext highlighter-rouge">canvas</code> package that you required at the start. Use it, in conjunction with <code class="language-plaintext highlighter-rouge">fontFile()</code> to import each font file.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">registerFont</span><span class="p">(</span><span class="nx">fontFile</span><span class="p">(</span><span class="dl">'</span><span class="s1">font-file.ttf</span><span class="dl">'</span><span class="p">),</span> <span class="p">{</span> <span class="na">family</span><span class="p">:</span> <span class="dl">'</span><span class="s1">font-family-name</span><span class="dl">'</span> <span class="p">})</span>
+</code></pre></div></div>
+
+<p>The above code will read your font file and assign it a family name that is used when you draw the canvas image for your tweet. The @DeptOfAdmin bot uses a free font from <a href="https://fonts.google.com">Google Fonts</a> called <a href="https://fonts.google.com/specimen/Bitter">Bitter</a>.</p>
+
+<h3 id="3-set-variables-for-the-quotes-colours-and-design-elements">3. Set variables for the quotes, colours and design elements</h3>
+
+<p>In order to make production of your image easier, you may find it helpful to set variables for any design elements before you start coding the canvas itself. In the case of @DeptOfAdmin, I set the following variables:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Pick a quote at random</span>
+<span class="kd">var</span> <span class="nx">chooseQuote</span> 	<span class="o">=</span> <span class="nx">quotes</span><span class="p">[</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="nx">quotes</span><span class="p">.</span><span class="nx">length</span><span class="p">)];</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">chooseQuote</code> is a random quote chosen from the list of quotes in the <code class="language-plaintext highlighter-rouge">quotes.js</code> module. <code class="language-plaintext highlighter-rouge">Math.random</code> generates a random floating point number between 0 and 1. That number is multiplied by the number of values in the <code class="language-plaintext highlighter-rouge">quotes</code> variable. <code class="language-plaintext highlighter-rouge">Math.floor</code> then rounds that number down to the next nearest integer.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Pick a background colour</span>
+<span class="kd">var</span> <span class="nx">chooseColor</span>	<span class="o">=</span> <span class="nx">colors</span><span class="p">[</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="nx">colors</span><span class="p">.</span><span class="nx">length</span><span class="p">)];</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">chooseColor</code> does the same as <code class="language-plaintext highlighter-rouge">chooseQuote</code>, but it uses the <code class="language-plaintext highlighter-rouge">colors.js</code> module to pick from.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Set sizes of the canvas</span>
+<span class="kd">var</span> <span class="nx">canvasWidth</span> <span class="o">=</span> <span class="mi">1200</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">canvasHeight</span> <span class="o">=</span> <span class="mi">675</span><span class="p">;</span>
+
+<span class="c1">// Set the padding</span>
+<span class="kd">var</span> <span class="nx">canvasPadding</span> <span class="o">=</span> <span class="mi">40</span><span class="p">;</span>
+
+<span class="c1">// Set the size of the full canvas, minus padding on each side</span>
+<span class="kd">var</span> <span class="nx">canvasWidthPadding</span> <span class="o">=</span> <span class="p">(</span><span class="nx">twitterWidth</span> <span class="o">-</span> <span class="p">(</span><span class="nx">twitterPadding</span> <span class="o">*</span> <span class="mi">2</span><span class="p">));</span>
+<span class="kd">var</span> <span class="nx">canvasHeightPadding</span> <span class="o">=</span> <span class="p">(</span><span class="nx">twitterHeight</span> <span class="o">-</span> <span class="p">(</span><span class="nx">twitterPadding</span> <span class="o">*</span> <span class="mi">2</span><span class="p">));</span>
+
+<span class="c1">// Set text sizes and line heights</span>
+<span class="kd">var</span> <span class="nx">canvasFontSize</span> <span class="o">=</span> <span class="mi">35</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">canvasLineHeight</span> <span class="o">=</span> <span class="mi">45</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>All of these variables relate to the design of the canvas. These will differ for your bot — you don’t have to use them, I just found it easier to have all the variables in one place.</p>
+
+<h3 id="4-initialise-the-canvas">4. Initialise the canvas</h3>
+
+<p>To start to create your image that can be tweeted, you need to create a “canvas”. You can do this by creating a constant (<code class="language-plaintext highlighter-rouge">const</code>) and then using the <code class="language-plaintext highlighter-rouge">createCanvas()</code> function that is part of the <code class="language-plaintext highlighter-rouge">canvas</code> package imported earlier.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Generate a blank canvas canvas
+const 	deptcanvas = createCanvas(width, height)
+		deptcanvas instanceof Canvas
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">createCanvas</code> function accepts two arguments – the <code class="language-plaintext highlighter-rouge">width</code> of the canvas, and the <code class="language-plaintext highlighter-rouge">height</code> of the canvas. (This is where the variables set above start to become useful!). This is the conceptual size of your image; the finished size will depend on any scaling you apply to it when you generate your image.</p>
+
+<h3 id="5-split-quotes-across-multiple-lines">5. Split quotes across multiple lines</h3>
+
+<p>The HTML Canvas API does not support multi-line or wrapping text natively. Unless you know your text isn’t going to be wider than the image itself, you’ll need to create a function to split the text across multiple lines.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// A function to split longer quotes over multiple lines, </span>
+<span class="c1">// for use as part of the canvas</span>
+<span class="kd">function</span> <span class="nx">wrapText</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">text</span><span class="p">,</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">maxWidth</span><span class="p">,</span> <span class="nx">lineHeight</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">words</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>
+	<span class="kd">var</span> <span class="nx">line</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+
+	<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">n</span> <span class="o">&lt;</span> <span class="nx">words</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">n</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+	  <span class="kd">var</span> <span class="nx">testLine</span> <span class="o">=</span> <span class="nx">line</span> <span class="o">+</span> <span class="nx">words</span><span class="p">[</span><span class="nx">n</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">;</span>
+	  <span class="kd">var</span> <span class="nx">metrics</span> <span class="o">=</span> <span class="nx">ctx</span><span class="p">.</span><span class="nx">measureText</span><span class="p">(</span><span class="nx">testLine</span><span class="p">);</span>
+	  <span class="kd">var</span> <span class="nx">testWidth</span> <span class="o">=</span> <span class="nx">metrics</span><span class="p">.</span><span class="nx">width</span><span class="p">;</span>
+	  <span class="k">if</span> <span class="p">(</span><span class="nx">testWidth</span> <span class="o">&gt;</span> <span class="nx">maxWidth</span> <span class="o">&amp;&amp;</span> <span class="nx">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+	    <span class="nx">ctx</span><span class="p">.</span><span class="nx">fillText</span><span class="p">(</span><span class="nx">line</span><span class="p">,</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">);</span>
+	    <span class="nx">line</span> <span class="o">=</span> <span class="nx">words</span><span class="p">[</span><span class="nx">n</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">;</span>
+	    <span class="nx">y</span> <span class="o">+=</span> <span class="nx">lineHeight</span><span class="p">;</span>
+	  <span class="p">}</span>
+	  <span class="k">else</span> <span class="p">{</span>
+	    <span class="nx">line</span> <span class="o">=</span> <span class="nx">testLine</span><span class="p">;</span>
+	  <span class="p">}</span>
+	<span class="p">}</span>
+	<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillText</span><span class="p">(</span><span class="nx">line</span><span class="p">,</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">);</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This function should be used after you’ve set up your font styles and created any elements of your canvas you need to be displayed beneath that layer of text. The function accepts a number of arguments to function.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ctx</code> is the canvas you’re working on</li>
+  <li><code class="language-plaintext highlighter-rouge">text</code> is the text you need to split up (in this case it would be the <code class="language-plaintext highlighter-rouge">chooseQuote</code> variable)</li>
+  <li><code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> are the pixel coordinates for where to start printing the text onto the canvas<sup id="fnref:origin" role="doc-noteref"><a href="#fn:origin" class="footnote">5</a></sup></li>
+  <li><code class="language-plaintext highlighter-rouge">maxWidth</code> does what it says on the tin</li>
+  <li><code class="language-plaintext highlighter-rouge">lineHeight</code> is the number of pixels to add to <code class="language-plaintext highlighter-rouge">y</code> once <code class="language-plaintext highlighter-rouge">maxWidth</code> has been reached and you need to continue printing text on a new line</li>
+</ul>
+
+<h3 id="6-generates-the-image-to-tweet">6. Generates the image to tweet</h3>
+
+<p>Now you’ll need to bring it all together.</p>
+
+<p>Set the width and height of the canvas, using the variables you set earlier:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Set the width and height of the canvas</span>
+<span class="nx">deptcanvas</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="p">(</span><span class="nx">canvasWidth</span><span class="p">);</span>
+<span class="nx">deptcanvas</span><span class="p">.</span><span class="nx">height</span> <span class="o">=</span> <span class="p">(</span><span class="nx">canvasHeight</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Next start rendering the canvas itself. Start by telling the API that you’re drawing a 2 dimensional image.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// This tells the API that the canvas is 2 dimensional</span>
+<span class="kd">var</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nx">deptcanvas</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="dl">'</span><span class="s1">2d</span><span class="dl">'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Next start to draw in your elements. For the @DeptOfAdmin bot, I start with drawing a full size rectangle and fill the rectangle with the colour white.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Creat a full size background fill in white</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">#FFFFFF</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillRect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">canvasWidth</span><span class="p">,</span> <span class="nx">canvasHeight</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">ctx.fillRect()</code> accepts 4 arguments:</p>
+
+<ul>
+  <li>the first and second argument are the <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> coordinates where the rectangle should start drawing</li>
+  <li>the last two variables are the <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> coordinates where the rectangle should stop drawing</li>
+</ul>
+
+<p>The @DeptOfAdmin bot next imports and renders an image (the Department of Administrative Affairs logo) over the top of that rectangle.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Import the external image of the logo</span>
+<span class="c1">// Position the logo at the top left of the canvas</span>
+<span class="nx">img</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Image</span><span class="p">()</span>
+<span class="nx">img</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="nx">fs</span><span class="p">.</span><span class="nx">readFileSync</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="dl">'</span><span class="s1">/assets/</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">logo.png</span><span class="dl">'</span><span class="p">))</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">drawImage</span><span class="p">(</span><span class="nx">img</span><span class="p">,</span> <span class="nx">canvasPadding</span><span class="p">,</span> <span class="p">(</span><span class="nx">canvasPadding</span> <span class="o">*</span> <span class="mf">0.8</span><span class="p">),</span> <span class="nx">img</span><span class="p">.</span><span class="nx">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nx">img</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">ctx.drawImage()</code> command accepts 5 arguments:</p>
+
+<ol>
+  <li>the first is what to import the image file itself (in this case, defined by <code class="language-plaintext highlighter-rouge">img</code>)</li>
+  <li>the second and third are the <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> coordinates of where to draw the image<sup id="fnref:origin:1" role="doc-noteref"><a href="#fn:origin" class="footnote">5</a></sup></li>
+  <li>the fourth and fifth argument are the width and height of the image – which you can make relative to the native size of the image using <code class="language-plaintext highlighter-rouge">.width</code> and <code class="language-plaintext highlighter-rouge">.height</code></li>
+</ol>
+
+<p>Next, the @DeptOfAdmin bot draws another rectangle, filled with the random colour set in the <code class="language-plaintext highlighter-rouge">chooseColor</code> variable. It draws from below the rendered logo to fill the remainder of the canvas.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create a rectangle and fill it with a the random colour chosen earlier</span>
+<span class="c1">// Make the rectangle full width and draw it from underneath the logo to the bottom of the image</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="nx">chooseColor</span><span class="p">;</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillRect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">((</span><span class="nx">canvasPadding</span> <span class="o">*</span> <span class="mf">1.6</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="nx">img</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)),</span> <span class="nx">canvasWidth</span><span class="p">,</span> <span class="p">(</span><span class="nx">canvasHeight</span> <span class="o">-</span> <span class="p">((</span><span class="nx">canvasPadding</span> <span class="o">*</span> <span class="mf">1.6</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="nx">img</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))));</span>
+</code></pre></div></div>
+
+<p>Finally, the @DeptOfAdmin bot sets the text styles and renders the text, utilising the <code class="language-plaintext highlighter-rouge">wrapText()</code> function created earlier.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Add text</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">textBaseline</span><span class="o">=</span><span class="dl">"</span><span class="s2">top</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">font</span> <span class="o">=</span> <span class="nx">canvasFontSize</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">px 'Bitter'</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">#ffffff</span><span class="dl">"</span>
+
+<span class="c1">// If the random quote would be wider than the canvas width, break it over multiple lines</span>
+<span class="nx">wrapText</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">chooseQuote</span><span class="p">,</span> <span class="nx">canvasPadding</span><span class="p">,</span> <span class="p">((</span><span class="nx">canvasPadding</span> <span class="o">*</span> <span class="mf">1.6</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="nx">img</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="nx">canvasPadding</span><span class="p">),</span> <span class="nx">canvasWidthPadding</span><span class="p">,</span> <span class="nx">canvasLineHeight</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>For the @DeptOfAdmin bot I wrapped all of this code in another function called <code class="language-plaintext highlighter-rouge">createTwitterImage()</code>. I then can call this function as many times as necessary as part of the final function in <code class="language-plaintext highlighter-rouge">server.js</code> – the <code class="language-plaintext highlighter-rouge">sendTweet()</code> function.</p>
+
+<p><a href="https://github.com/Automattic/node-canvas">Full documentation for the <code class="language-plaintext highlighter-rouge">canvas</code> package</a> is available on Github.</p>
+
+<h3 id="7-compiles-the-tweet-and-posts-it-to-twitter">7. compiles the tweet and posts it to Twitter</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">sendTweet()</code> function relies almost entirely on the <code class="language-plaintext highlighter-rouge">twit</code> framework.</p>
+
+<p>First, set a variable that holds your Twitter API credentials:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">T</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Twit</span><span class="p">(</span><span class="nx">config</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Next, draw together <em>everything</em> from these files to make your bot tweet!</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">sendTweet</span><span class="p">()</span> <span class="p">{</span>
+
+	<span class="c1">// call the function to draw the canvas</span>
+	<span class="nx">createTwitterImage</span><span class="p">();</span>
+
+	<span class="c1">// [OPTIONAL: Tweet the text from the image as part of the body of the tweet]</span>
+	<span class="c1">// Check the character length of the quote, trim it if necessary.</span>
+	<span class="k">if</span> <span class="p">(</span> <span class="nx">chooseQuote</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">270</span> <span class="p">)</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">tweetText</span> <span class="o">=</span> <span class="nx">chooseQuote</span><span class="p">.</span><span class="nx">substring</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">270</span><span class="p">)</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">…</span><span class="dl">"</span><span class="p">;</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="kd">var</span> <span class="nx">tweetText</span> <span class="o">=</span> <span class="nx">chooseQuote</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Post the tweet</span>
+	<span class="nx">T</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="dl">'</span><span class="s1">media/upload</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span> <span class="na">media_data</span><span class="p">:</span> <span class="nx">deptcanvas</span><span class="p">.</span><span class="nx">toBuffer</span><span class="p">().</span><span class="nx">toString</span><span class="p">(</span><span class="dl">'</span><span class="s1">base64</span><span class="dl">'</span><span class="p">)</span> <span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">data</span><span class="p">,</span> <span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+
+		<span class="c1">// Sets up references to the image and text</span>
+		<span class="kd">var</span> <span class="nx">mediaIdStr</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">media_id_string</span>
+		<span class="kd">var</span> <span class="nx">params</span> <span class="o">=</span> <span class="p">{</span>
+			<span class="na">status</span><span class="p">:</span> <span class="nx">tweetText</span><span class="p">,</span>			<span class="c1">// [OPTIONAL]</span>
+			<span class="na">media_ids</span><span class="p">:</span> <span class="p">[</span><span class="nx">mediaIdStr</span><span class="p">]</span>
+		<span class="p">}</span>
+
+		<span class="c1">// Posts the tweet</span>
+		<span class="nx">T</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="dl">'</span><span class="s1">statuses/update</span><span class="dl">'</span><span class="p">,</span> <span class="nx">params</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">data</span><span class="p">,</span> <span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+		    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span>
+		<span class="p">})</span>
+
+	<span class="p">})</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>If you don’t want to tweet anything other than the image, you can skip the parts labelled as optional in the code above.</p>
+
+<p>The full <code class="language-plaintext highlighter-rouge">server.js</code> <a href="https://github.com/johnpeart/dept-of-admin-bot/blob/master/server.js">file is on Github</a>.</p>
+
+<h3 id="deploy-your-bot">Deploy your bot</h3>
+
+<p>Commit your code to Github. It will then pull into Heroku and deploy the app.</p>
+
+<h3 id="make-the-bird-sing">Make the bird sing</h3>
+
+<p>There are two final things to do to make the bot work: making Heroku trigger the bot and scheduling it to do that at set intervals.</p>
+
+<p>To make the bot run, you’ll need to visit <code class="language-plaintext highlighter-rouge">Resources</code> in the Heroku dashboard of your app. Create a “free dyno” and set it to run the same command that you set in your <code class="language-plaintext highlighter-rouge">package.json</code> file. It will be something like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>web npm start
+</code></pre></div></div>
+
+<p>Every time the bot is deployed, it trigger this command. You’ll probably want the bot to run on a schedule though. To do this, add the Heroku Scheduler add-on as well. Tell it to trigger at whatever interval you like; the @DeptOfAdmin bot runs every hour, on the hour.</p>
+
+<h3 id="thats-it">That’s it!</h3>
+
+<p>That’s all you need to create your very own bot that works just like @DeptOfAdmin. All <a href="https://github.com/johnpeart/dept-of-admin-bot">the source code from this bot</a> is on Github; feel free to adapt it for your own purposes.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:suspended" role="doc-endnote">
+      <p>Twitter has now suspended @IsItMeBot, after around 2 years of it running amok on the platform and snapping back at random people with “it’s you”. Whilst it no longer exists, you can find it’s remnants scattered across Twitter with <a href="https://twitter.com/search?q=%40isitmebot&amp;src=typed_query&amp;f=live">a quick search</a>. Needless to say, some people found it hilarious, some found it offensive, and others couldn’t figure out it was a bot at all and thought someone had specifically been tweeting at them. <a href="#fnref:suspended" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:TTOI" role="doc-endnote">
+      <p>My favourite is <a href="https://en.wikipedia.org/wiki/The_Thick_of_It">The Thick of It</a>; possibly the best comedy ever written. I have watched it so many times I find myself quoting it in actual conversations with actual people as part of my actual job. As a related aside, it still surprises me how few civil servants pick up on it or, in fact, have even seen the The Thick of It. It should be required viewing as part of your induction if you ask me! <a href="#fnref:TTOI" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:CO" role="doc-endnote">
+      <p>Presumably the Cabinet Office itself does exist in the Yes, Minister universe, but having worked there myself it would appear there is a lot of administrative overlap between the Department and its non-fiction equivalent. <a href="#fnref:CO" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:deploy" role="doc-endnote">
+      <p>You link your Github account to your Heroku account on the ‘Deploy’ page on the Heroku website. You can use the Heroku built in git system if you like; I just prefer using Github as <em>all</em> of my code is stored there. <a href="#fnref:deploy" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:origin" role="doc-endnote">
+      <p>For the canvas coordinates, the origin of the grid starts in the top-left of the image. In this instance (0,0) would be in the top-left corner, (1200,0) would be in the top-right, and (1200,675) would be in the bottom-right. <a href="#fnref:origin" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:origin:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>11 April 2020</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>digital</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

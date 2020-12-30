@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Text mining tweets from the 2016 BRIT Awards</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2016/03/12/text-mining-tweets-from-the-2016-brits/">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2016/03/12/text-mining-tweets-from-the-2016-brits/">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2016/03/12/text-mining-tweets-from-the-2016-brits/">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="Text mining tweets from the 2016 BRIT Awards">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="I've analysed more than 2GB of tweets about the 2016 BRIT Awards in the name of (pseudo) science!">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2016/03/12/text-mining-tweets-from-the-2016-brits/">
+
+<meta name="twitter:title" 			content="Text mining tweets from the 2016 BRIT Awards">
+
+<meta name="twitter:description" 	content="I've analysed more than 2GB of tweets about the 2016 BRIT Awards in the name of (pseudo) science!">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+<meta name="twitter:image:alt" 		content="Text mining tweets from the 2016 BRIT Awards">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="Text mining tweets from the 2016 BRIT Awards">
+<meta itemprop="description" content="I've analysed more than 2GB of tweets about the 2016 BRIT Awards in the name of (pseudo) science!">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">Text mining tweets from the 2016 BRIT Awards</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>You might remember that last year I <a href="http://jrpeart.com/2015/02/15/text-mining-tweets-from-the-2015-baftas/">analysed around 75,000 tweets from the BAFTAs</a> using the statistics package, <a href="https://www.r-project.org">‘R’</a>. Last month saw the 36th BRIT Awards take place at The O2 arena in London, and so I fired up Twitter again to dive into the data and produce some graphs (because I’m that fun).</p>
+
+<p>This time, there were more than 371,149 tweets over approximately 2 ½ hours. Including the metadata, it’s a 2GB file. Here’s what those tweets contain.</p>
+
+<h2 id="tweets-over-time-and-mentions">Tweets over time and mentions</h2>
+
+<h3 id="all-tweets">All tweets</h3>
+
+<p><img src="/assets/images/posts/BRITS2016_AllTweetsOverTime.png" alt="Line graph of all tweets over time" /></p>
+
+<p>The BRITs started at 20:00; I started recording tweets just before. In the first 10 minutes, the number of tweets went from around 800 every minute to almost 3,000 a minute.</p>
+
+<p>There are periodic dips in the number of tweets recorded. Given they’re at regular intervals, and that the BRITs were broadcast on ITV, they probably represent the advert breaks; everyone’s stopped tweeting and popped off to make a cup of tea.</p>
+
+<p>The most interesting part here is the tweets from 21:38 to 22:03. It’s not obvious what’s causes this drop off - but it does coincide with roughly the same time that Annie Lennox and Gary Oldman gave their moving tributes to David Bowie.</p>
+
+<h3 id="tweets-about-david-bowie">Tweets about David Bowie</h3>
+
+<p><img src="/assets/images/posts/BRITS2016_DavidBowieTweetsOverTime.png" alt="Line graph of David Bowie tweets over time" /></p>
+
+<p>Tweets about David Bowie, perhaps unsurprisingly, happened in a flurry, from 21:35 to 22:05. The first peak is likely the point at which Lennox made her tribute, and Bowie received a posthumous award. The following sharp dip in tweets - both about Bowie and in the overall stream - is likely because of an advert break ahead of Gary Oldman introducing a performance by Lorde, in which she covered some of Bowie’s greatest hits.</p>
+
+<p>Interestingly, references to Lorde are non-existent in this period. In fact, they stop at 21:05 unexpectedly, after a seemingly inexplicable peak from earlier in the night.</p>
+
+<h3 id="best-british-female-tweets">Best British Female tweets</h3>
+
+<p><img src="/assets/images/posts/BRITS2016_BritFemaleTweetsOverTime.png" alt="Line graph of Best British Female tweets" /></p>
+
+<p>Adele dominated the awards, and she also dominated the discussion amongst the nominees for Best British Female. Adele won 4 awards on the night, and closed the show, performing <em>When We Were Young</em>, the second single from her latest album, 25. These 5 events probably explain the 5 distinct peaks in the above line graph.</p>
+
+<p>Jess Glynne also performed at the awards; she peaks at around 20:39, roughly the time she performed.</p>
+
+<p><img src="/assets/images/posts/BRITS2016_BritFemaleMentions.png" alt="Bar chart of Best British Female tweets" /></p>
+
+<p>The other nominees are barely mentioned throughout the night. Looking at the total tweets for each nominee in this category, it’s clear that no-one by Adele got a look in on the night. Over 45,000 tweets referenced Adele; Jess Glynne was referenced less than 5,000 times, and the others barely even a 1,000. Laura Manning, in fact, didn’t feature in a single tweet in this data set.</p>
+
+<h3 id="tweets-about-adele">Tweets about Adele</h3>
+
+<p><img src="/assets/images/posts/BRITS2016_AdeleOverTime.png" alt="Line graph of Adele tweets over time" /></p>
+
+<p>Adele was the most referenced person at the BRITs. She also had some pretty stand-out moments on stage two.</p>
+
+<p>In her acceptance speech for her first award, she made a <a href="http://www.vanityfair.com/hollywood/2016/02/adele-kesha-brit-awards">public statement</a> in support of <a href="http://www.theguardian.com/music/2016/feb/27/kesha-profile-court-case-dr-luke-sony">Kesha</a>. It was only a few words, but it caused a spike of discussion about Kesha on Twitter, peaking at 20:09. Oddly, the spike for Adele didn’t peak until nearly 5 minutes later.</p>
+
+<p>The other thing that happened on the night was Adele breaking down in tears as she was awarded another award by none other than British astronaut <a href="https://twitter.com/astro_timpeake">Tim Peake</a>. Either something went wrong with Twitter, or the analysis has gone a bit wonky for this though; there’s barely even a mention of Tim in this data set.</p>
+
+<p>Bear in mind that this is Twitter’s streaming API that collected this data; it only provides an average of around 1% of the full number of tweets made at any one moment. So, whilst this data is representative of Twitter as a whole, it’s possible that this 1% data set didn’t contain anything about Tim Peake by pure chance.</p>
+
+<h3 id="best-british-male-tweets">Best British Male tweets</h3>
+
+<p><img src="/assets/images/posts/BRITS2016_BritMaleTweetsOverTime.png" alt="Line graph of Best British Male tweets" /></p>
+
+<p>James Bay performed and took away awards on this night too; just like Adele. Unlike Adele, James doesn’t appear to have the same following though. Where Adele had tens-of-thousands of references on Twitter, James barely scraped 2,000 in total.</p>
+
+<p>His tweets peak at around 20:19, 20:29 and 20:59. These represent the points at which he performed (once alone, once with Justin Bieber) and won the award for Best British Male.</p>
+
+<p><img src="/assets/images/posts/BRITS2016_BritMaleMentions.png" alt="Bar chart of Best British Male tweets" /></p>
+
+<p>Mark Ronson also featured comparatively highly in this data set; though it’s not clear why from the awards ceremony itself. Ronson didn’t win any awards on the night, nor was he a key performer. Compare the spikes against the observations from the overall data set, and you can see why. Ronson features in the data because he was front-and-centre in the <a href="https://www.youtube.com/watch?v=GUlk1ssXJYk">MasterCard adverts</a> that saw a YouTube supergroup recreate his single, <em>Uptown Funk</em>. The power of advertising folks - exposure.</p>
+
+<h3 id="tweets-about-the-performers-at-the-brits">Tweets about the performers at the BRITs</h3>
+
+<p><img src="/assets/images/posts/BRITS2016_PerformersTweetsOverTime.png" alt="Line graph of BRITs performer tweets over time" /></p>
+
+<p>Looking beyond the nominees for Best British soloists, and to the 9 performers on the night, we see that Adele is miles ahead of the night’s big names in terms of twitter attention for most of the night.</p>
+
+<p><img src="/assets/images/posts/BRITS2016_PerfomerMentions.png" alt="Bar chart of BRITs performers tweets" /></p>
+
+<p>Justin Bieber is the next most highly referenced performer of the night, but even he, with his millions of fans, doesn’t come close to even half the number of tweets Adele has referencing her. Seemingly no one likes Rhianna or The Weeknd, who end up at the bottom of the tweet pile.</p>
+
+<h2 id="word-cloud">Word cloud</h2>
+
+<p><img src="/assets/images/posts/BRITS2016_WordCloud.png" alt="Word cloud of all tweets" /></p>
+
+<p>Here’s a tweet cloud of the tweets in the data set. The bigger the word, the more it appears in the data set.</p>
+
+<p>The interesting thing here is that Adele isn’t the most referenced act in this cloud, instead, it’s One Direction. That’s likely because the award for British Artist Video was decided by the number of Twitter mentions, and One Direction won that contest. It could also just be that One Direction have a persistent number of Twitter mentions.</p>
+
+<h2 id="word-associations">Word associations</h2>
+
+<p><img src="/assets/images/posts/BRITS2016_Dendrogram.png" alt="Hierarchical dendrogram of all tweets" /></p>
+
+<p>This dendrogram shows how closely related one set of words is to another. Across the whole corpus, this dendrogram shows that most tweets were focused on the Best British Video award, One Direction, Justin Bieber and the Best Male and Female awards.</p>
+
+<p>The dendrogram also shows that <code class="language-plaintext highlighter-rouge">@onedirection</code> being one of the most popular to terms in the data set was not a coincidence. We see that <code class="language-plaintext highlighter-rouge">@onedirection</code> is closely related to <code class="language-plaintext highlighter-rouge">#britvidonedirection</code>, which was the hashtag voting. It’s also closely related to the term <code class="language-plaintext highlighter-rouge">drag</code> - and 1D’s song title was <code class="language-plaintext highlighter-rouge">Drag Me Down</code>.</p>
+
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>12 March 2016</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>data</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

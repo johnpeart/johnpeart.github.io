@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head prefix="og: http://ogp.me/ns#">
+	
+	<!--    SITE BUILD INFORMATION    -->
+<!--    Date built:    2020-12-30    -->
+<!--    Time built:    10:40    -->
+<!--    Site URL:    https://www.johnpe.art    -->
+<!--    Site base URL:        -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Why I made a dataset of LGBT MPs</title>
+	
+	<!-- Short description of the page (limit to 150 characters) -->
+	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
+	<meta name="author" content="John Peart" />
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines -->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+	<!-- Verify ownership -->
+	<meta name="google-site-verification" content="DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"><!-- Google Search Console -->
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="https://www.johnpe.art">
+	<base href="https://www.johnpe.art/2020/02/24/making-a-dataset-of-lgbt-mps">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.johnpe.art">
+	<link rel="canonical" href="https://www.johnpe.art/2020/02/24/making-a-dataset-of-lgbt-mps">
+	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="https://www.johnpe.art/archives">
+	
+	<!-- Gives information about the author -->
+	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://github.com/johnpeart" type="text/html">
+
+<link rel="me" href="https://www.instagram.com/johnpeart" type="text/html">
+<link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
+	
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 				content="https://www.johnpe.art/2020/02/24/making-a-dataset-of-lgbt-mps">
+
+<meta property="og:type" 			content="website" />
+
+<meta property="og:title" 			content="Why I made a dataset of LGBT MPs">
+
+
+<meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+
+<meta property="og:image:width" 		content="1200">
+
+<meta property="og:image:height" 	content="630">
+
+<meta property="og:rich_attachment" content="true" />
+
+<meta property="og:description" 		content="Make things open. It makes them better.">
+
+<meta property="og:site_name" 		content="John Peart">
+
+<meta property="og:locale" 			content="en_GB">
+
+<meta property="article:author" 		content="John Peart" />
+
+<meta property="article:publisher" 	content="John Peart" />
+	
+	<!-- Twitter Cards settings -->
+	<meta name="twitter:card" 			content="summary_large_image">
+
+<meta name="twitter:site" 			content="@johnpeart">
+
+<meta name="twitter:creator" 		content="@johnpeart">
+
+<meta name="twitter:url" 			content="https://www.johnpe.art/2020/02/24/making-a-dataset-of-lgbt-mps">
+
+<meta name="twitter:title" 			content="Why I made a dataset of LGBT MPs">
+
+<meta name="twitter:description" 	content="Make things open. It makes them better.">
+
+
+<meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+<meta name="twitter:image:alt" 		content="Why I made a dataset of LGBT MPs">
+	
+	<!-- Schema.org settings -->
+	<meta itemprop="name" content="Why I made a dataset of LGBT MPs">
+<meta itemprop="description" content="Make things open. It makes them better.">
+
+<meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
+
+	
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="#007aff">
+	<link rel="icon" href="https://www.johnpe.art/assets/images/site/favicon.svg">
+	<link rel="mask-icon" href="https://www.johnpe.art/assets/images/site/favicon-pinned-svg.svg" color="#007aff">
+	<link rel="apple-touch-icon" href="https://www.johnpe.art/assets/images/site/favicon-large-png.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
+		
+	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+
+</head>
+
+
+  <body id="blog-post" class="theme-magenta">
+	  
+  	
+<a href="#content" class="skip-link">
+	<div class="container">
+		Skip to main content
+	</div>
+</a>
+
+
+  	<header id="site-header">
+	
+	<nav role="navigation" class="container">
+		<div class="header-align-left">
+			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
+		</div>
+		
+		
+	
+		<button id="header-menu-toggle" onclick="toggleMenu()">
+				
+				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
+				  <defs/>
+			          <g id="bar1">
+			            <title>Bar</title>
+			            <g id="Graphic_9">
+			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_7">
+			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+			          <g id="bar2">
+			            <title>Bar</title>
+			            <g id="Graphic_5">
+			              <rect x="0" y="31" width="42" height="7" fill="black"/>
+			            </g>
+			          </g>
+				</svg>
+
+				<span class="sr-only">Menu</span>
+		</button>
+		
+		<div id="header-menu-links" class="header-align-right">
+			<ul class="header-menu">
+				
+					
+					<li class="header-link"><a href="/writing">Writing</a></li>
+					
+					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+					
+					<li class="header-link"><a href="//podcast.johnpe.art">Podcasts</a></li>
+					
+					<li class="header-link"><a href="//about.johnpe.art">About me</a></li>
+					
+				
+			</ul>
+		</div>
+		
+		
+	</nav>
+	
+</header>
+
+<main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">Why I made a dataset of LGBT MPs</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>How many Members of Parliament were lesbian, gay, bisexual or transgender at the time of the 2017 General Election? A niche question, for sure, but until a few weeks before that election there was no easy answer.</p>
+
+<p>You could try searching Google but you’d end up none the wiser. Wikipedia did not have the answer. In fact, it was (and still is in some cases) listing MPs based on tabloid gossip. There were some sources that did snapshots in time, like the <a href="https://globalstudies.unc.edu/lgbt-representation-and-rights-research-initiative/">The LGBT Representation and Rights Research Initiative at the University of North Carolina at Chapel Hill</a>, but — as snapshots — these lists were quickly out of date.</p>
+
+<p>Back in 2017, I worked in the <a href="https://equalities.blog.gov.uk/2017/07/14/introducing-geos-lgbt-policy-team/">LGBT Policy Team</a> in the <a href="//www.gov.uk/geo">Government Equalities Office</a>. Like every government team, we had top lines that included useful facts and statistics. The number of LGBT MPs was one of those facts we liked to include. When the election rolled round, we didn’t know the answer. At best, we knew the answer we had would be out of date in a matter of weeks and we didn’t know how quickly a third party would do the sums.</p>
+
+<p>That was a problem I decided I could fix.</p>
+
+<h2 id="start-with-user-needs">Start with user needs</h2>
+
+<p>I could have simply figured out the answer by doing a lot of Google searches and left it at that. That would have given us the answer we needed in the aftermath of the election but it wouldn’t have been a long term solution.</p>
+
+<p>We needed something that was responsive to change<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> so that our key facts were always correct in the moment. We also needed to be confident the sources were truthful and accurate; something most third parties couldn’t offer because their methodologies for collecting the data were unclear.</p>
+
+<p>Put another way, I had a pretty straight-forward user need:</p>
+
+<blockquote>
+  <p>As a policy official, I need regularly updated and independently verifiable information about LGBT MPs, so that I can use the information in my work</p>
+</blockquote>
+
+<h2 id="make-things-open-it-makes-things-better">Make things open: it makes things better</h2>
+
+<p>A clever bunch of people once came up with <a href="https://www.gov.uk/guidance/government-design-principles">some design principles</a> for what a good service looks like. For this project, perhaps the most important one is this:</p>
+
+<blockquote>
+  <p>Make things open: it makes things better.</p>
+</blockquote>
+
+<p>That’s exactly what I decided to do.</p>
+
+<p>I created <a href="https://mps.whoare.lgbt">a website</a> backed up by <a href="https://github.com/johnpeart/lgbt-mp/tree/master/_data">a simple dataset</a>. It’s open source, meaning it can be easily updated, interrogated, verified or extracted for use elsewhere.</p>
+
+<p>It’s built using <a href="https://jekyllrb.com">Jekyll</a>, which means I have been able to host it freely on <a href="https://pages.github.com">Github</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>. Anyone can contribute to the code, because <a href="https://github.com/johnpeart/lgbt-mp/">the repository</a> is public.</p>
+
+<p>Anyone can contribute data to the dataset too, and it’s as easy as updating a spreadsheet because there’s no database. It’s nothing more than a  couple of <a href="https://github.com/johnpeart/lgbt-mp/tree/master/_data">CSV files</a>.</p>
+
+<h2 id="iterate-then-iterate-again">Iterate. Then iterate again</h2>
+
+<p>I started with the minimum viable product: a dataset that listed  those MPs who were LGBT on the date the dataset was compiled. Then, I created a <em>probably overkill, but very pretty</em><sup id="fnref:portcullis" role="doc-noteref"><a href="#fn:portcullis" class="footnote">3</a></sup> website to display that data more interestingly. The website was generated dynamically as the dataset was updated. “Job done”, I thought, but the minimum viable product — the dataset — quickly became <em>less-than-minimum</em>.</p>
+
+<p>The original dataset only captured the MP, their constituency, and the source of the data. Following the election, some MPs changed constituencies, some lost their seats, and others joined Parliament for the first time. During the 2017 to 2019 Parliament, some MPs changed parties and groups too; sometimes multiple times. That meant the dataset as conceived on day 1 was, practically, no more useful than the snapshot dataset I was trying to improve on. So I iterated.</p>
+
+<p>I changed the dataset to include the date an MP took their seat, their last day in office or any changes in constituency or party if applicable. I also created a separate dataset to show all the parties in a given Parliament, even if they had no sitting LGBT MPs in their party. And I kept iterating.</p>
+
+<p>Now the dataset and website allow you to see current LGBT MPs in Parliament, but also go back to snapshots for previous Parliaments. It took a lot of <del>trial and error</del> iteration, but now the dataset is in a format that can be easily and continually updated in a future-proofed way.</p>
+
+<h2 id="it-meets-the-user-need">It meets the user need</h2>
+
+<blockquote>
+  <p>As a policy official, I need regularly updated and independently verifiable information about LGBT MPs, so that I can use the information in my work</p>
+</blockquote>
+
+<p>Does this dataset and website meet the user need it was intended to? Yes.</p>
+
+<p>Creating this dataset meant that, when I had needed the answer for work, there was a baseline source for the information that I felt like I could trust. It also meant my colleagues could easily get the answer too.</p>
+
+<p>Making the data freely available on the open web has improved the available data as well. Other people have come looking for this data, and they’ve contributed their own information sources<sup id="fnref:tweetedatme" role="doc-noteref"><a href="#fn:tweetedatme" class="footnote">4</a></sup>.</p>
+
+<p>The dataset substantially improves on what came before it, because it shows how we know each MP is LGBT. Many of the sources are directly attributable to the MP themselves, rather than third parties.</p>
+
+<p>Possibly the most important way I know this has been a useful endeavour though, is because it’s been used beyond just me and my old team. The dataset has been used by the BBC<sup id="fnref:bbc" role="doc-noteref"><a href="#fn:bbc" class="footnote">5</a></sup>, Sky News<sup id="fnref:sky" role="doc-noteref"><a href="#fn:sky" class="footnote">6</a></sup>, and Quartz<sup id="fnref:quartz" role="doc-noteref"><a href="#fn:quartz" class="footnote">7</a></sup>.</p>
+
+<h2 id="made-something-open-it-made-the-thing-better">Made something open: it made the thing better</h2>
+
+<p>If there’s a moral to this story, it’s that I made an open dataset and making it open made it better.</p>
+
+<p>This dataset isn’t the end state. There are things that need to be iterated on. You currently can’t find out how an MP identifies; which is important, because as far as we know all these MPs have a minority sexual orientation but none of them are transgender. The dataset also doesn’t discriminate between those who were out when they came into office, versus those who came out in office. So there’s still work to do.</p>
+
+<p>Looking a bit wider, the code and principles behind the work provide a foundation for other projects too: I’ve now started compiling a <a href="//ministers.whoare.lgbt">list of LGBT ministers</a> in the UK Government.</p>
+
+<p>And you never know, maybe one day I’ll be able to start a list of LGBT Prime Ministers too.</p>
+
+<blockquote>
+  <p>Visit ‘<a href="//mps.whoare.lgbt">LGBT MP</a>’ to find out which Members of Parliament are lesbian, gay, bisexual or transgender.</p>
+</blockquote>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Given how much changed during the 2017 to 2019 Parliament, we needed that more than we could have realised at the time! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Github lets you host projects for free on their website if you’re building them in Jekyll. The domain name costs me about £20 a year. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:portcullis" role="doc-endnote">
+      <p>It gave me an excuse to create [this pride inspired portcullis]. A <em>different</em> portcullis is part of the UK Parliament’s official brand identity. <a href="#fnref:portcullis" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:tweetedatme" role="doc-endnote">
+      <p>I, of course, looked to update the dataset in the wake of the December 2019 general election. In the days after the poll, I had people tweeting at me that I’d never met, letting me know which MPs I’d missed and even sending me sources. My favourite was perhaps where someone had pointed me towards a speech of newly appointed Darlington MP <a href="https://www.facebook.com/darlingtonconservativeparty/videos/2550400468415917/">Peter Gibson’s</a> in which he thanks his partner for their support during the campaign. <a href="#fnref:tweetedatme" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:bbc" role="doc-endnote">
+      <p><strong>BBC News</strong>, 11 June 2017, <a href="https://www.bbc.co.uk/news/election-2017-40232272">Election results 2017: The most diverse Parliament yet</a>; and 17 December 2019 <a href="https://www.bbc.co.uk/news/election-2019-50808536">Election 2019: Britain’s most diverse Parliament</a>. <a href="#fnref:bbc" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:sky" role="doc-endnote">
+      <p><strong>Sky News</strong>, 16 December 2019, <a href="https://news.sky.com/story/general-election-2019-heralds-the-most-diverse-parliament-for-gender-and-ethnicity-11885529">General election: 2019 heralds the most diverse parliament for gender and ethnicity</a>. <a href="#fnref:sky" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:quartz" role="doc-endnote">
+      <p><strong>Quartz</strong>, 17 December 2019, <a href="https://qz.com/1769275/new-uk-parliament-has-record-number-of-female-non-white-and-lgbtq-mps/">The UK’s new parliament is its most diverse ever</a>. <a href="#fnref:quartz" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+				
+		</section>
+		
+		
+		<footer class="post-meta">
+							
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>24 February 2020</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>digital, government, lgbt</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
+	
+</main>
+
+<footer id="site-footer">
+	
+	<div class="container footer">
+
+		<aside id="footer--wordmark">
+			
+			<p class="footer--wordmark">John Peart</p>
+			<p><a href="//johnpe.art/" class="footer--site-link">johnpe.art</a></p>
+			
+		</aside>
+		
+		<nav id="footer--links">
+			
+			<ul>
+				
+					
+					<li><a href="//about.johnpe.art" class="footer--nav-link" title="Visit the About me page">About me</a></li>
+					
+					<li><a href="/writing" class="footer--nav-link" title="Visit the Writing page">Writing</a></li>
+					
+					<li><a href="//photos.johnpe.art" class="footer--nav-link" title="Visit the Photos page">Photos</a></li>
+					
+					<li><a href="//podcast.johnpe.art" class="footer--nav-link" title="Visit the Podcasts page">Podcasts</a></li>
+					
+					<li><a href="//goals.johnpe.art" class="footer--nav-link" title="Visit the Goals page">Goals</a></li>
+					
+					<li><a href="//projects.johnpe.art" class="footer--nav-link" title="Visit the Projects page">Projects</a></li>
+					
+					<li><a href="//manuals.johnpe.art" class="footer--nav-link" title="Visit the Manuals page">Manuals</a></li>
+					
+				
+			</ul>
+			
+		</nav>
+	
+	</div>
+	
+</footer>
+    
+    
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+
+
+  </body>
+
+</html>
+

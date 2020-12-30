@@ -17,7 +17,6 @@ It's time to turn the page and set some new goals (and roll over some old ones) 
 
 ## New goals for 2021
 
-
 ### 1. Eat less meat
 
 I've spent a lot of time in 2020 thinking about my diet, and how I could get a better relationship with food. I've lost 10kg in the process. But now I've started to think not just about portion sizes and calorie counting, but also the _quality_ of that food and its environmental impact.

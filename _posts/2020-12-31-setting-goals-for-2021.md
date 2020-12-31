@@ -10,7 +10,7 @@ category: [personal]
 
 2020 might have been a global horror show but it has been a personal triumph. That is, at least when measured against [the goals I set myself 365 days ago](/2019/12/31/setting-goals-for-2020).
 
-[I achieved the things I set out to do](/2020/12/23/2020-resolutions-review). Whilst they may have been small in the grand scheme of things, they were _something_ to achieve even if everything else was falling apart around me.
+[I achieved the things I set out to do](/2020/12/21/2020-resolutions-review). Whilst they may have been small in the grand scheme of things, they were _something_ to achieve even if everything else was falling apart around me.
 
 It's time to turn the page and set some new goals (and roll over some old ones) for 2021.
 

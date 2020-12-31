@@ -18,21 +18,21 @@ It's time to turn the page and set some new goals (and roll over some old ones) 
 
 ### 1. Eat less meat
 
-I've spent a lot of time in 2020 thinking about my diet, and how I could get a better relationship with food. I've lost 10kg in the process. But now I've started to think not just about portion sizes and calorie counting, but also the _quality_ of that food and its environmental impact.
+I've spent a lot of time in 2020 thinking about my diet, and how I could get a better relationship with food. I've lost 10kg in the process. Now I've started to think not just about portion sizes and calorie counting, but also the quality of that food and its environmental impact.
 
-In any given week, I have meat basically every day; usually for both lunch and dinner. For 2021, I've resolved to eat meat less often. My objective is to go meat-free twice a week. For the purposes of tracking, the meat-free days only count if I stick to a minimum of two days in a given week.
+In any given week, I have meat basically every day; usually for both lunch and dinner. For 2021, I've resolved to eat meat less often. My objective is to go meat-free an average of twice a week.
 
-> **Success measure:** 2 vegetarian-only meal days each week
+> **Success measure:** 104 meat-free days
 
-As a stretch goal, I'll aim for 3 meat-free days in a given week.
+As a stretch goal, I'll aim for an average of 3 meat-free days in a given week.
 
-> **Stretch goal:** 3 vegetarian-only meal days each week
+> **Stretch goal:** 156 meat-free days
 
 ### 2. Quit Instagram
 
-A couple of years ago [I quit Facebook](/2018/12/18/goodbye-facebook). I don't regret it; it was a blackhole. I still use other services from Facebook though – namely, Instagram and WhatsApp – and in the last couple of years, Instagram has become much less of a highly curated photo service and much more of an algorithmically-crafted social network. It's slowly morphing into Facebook; and I don't want that for all the same reasons I don't want Facebook.
+A couple of years ago [I quit Facebook](/2018/12/18/goodbye-facebook). I don't regret it; it was a blackhole. I still use other services from Facebook though, like Instagram and WhatsApp. In the last couple of years, Instagram has become much less of a highly-curated photo service and much more of an algorithmically-crafted social network. It's slowly morphing into Facebook; and I don't want that for all the same reasons I don't want Facebook.
 
-I want to share and see great photography and art. Instagram rarely gives me that joy anymore, so I've decided the platform has outlived its usefulness to me. So I'll be shuttering my Instagram account on 1 January 2021.
+I want to share and see great photography and art. Instagram rarely gives me that joy anymore, so I've decided the platform has outlived its usefulness to me. I'll be shuttering my Instagram account on 1 January 2021.
 
 > **Success measure:** 365 days without Instagram
 

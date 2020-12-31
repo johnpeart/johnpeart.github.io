@@ -1,5 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
-html, body, div, span, applet, object, iframe, h1, h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before, h3, h4, body#photos-home nav.pagination p[class^="page--next-prev--"], body#photos-home nav.pagination .skip-link[class^="page--next-prev--"], h5, h6, p, .skip-link, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, table tfoot, table thead, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before, h3, h4, body#photos-home nav.pagination p[class^="page--next-prev--"], body#photos-home nav.pagination .skip-link[class^="page--next-prev--"], h5, h6, p, .skip-link, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, table tfoot, table thead, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -252,17 +252,17 @@ h1 { font-weight: bold; }
 
 @media only screen and (min-width: 1200px) { h1 { font-size: 82.5px; line-height: 82.5px; padding-top: 165px; padding-bottom: 82.5px; } }
 
-h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before { font-weight: bold; font-style: normal; text-align: center; text-decoration: none; text-transform: none; }
+h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before { font-weight: bold; font-style: normal; text-align: center; text-decoration: none; text-transform: none; }
 
-@media only screen and (max-width: 599px) { h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before { font-size: 27px; line-height: 33.75px; padding-top: 54px; padding-bottom: 27px; } }
+@media only screen and (max-width: 599px) { h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before { font-size: 27px; line-height: 33.75px; padding-top: 54px; padding-bottom: 27px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before { font-size: 32px; line-height: 40px; padding-top: 64px; padding-bottom: 32px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before { font-size: 32px; line-height: 40px; padding-top: 64px; padding-bottom: 32px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before { font-size: 32px; line-height: 40px; padding-top: 64px; padding-bottom: 32px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before { font-size: 32px; line-height: 40px; padding-top: 64px; padding-bottom: 32px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before { font-size: 36px; line-height: 45px; padding-top: 72px; padding-bottom: 36px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before { font-size: 36px; line-height: 45px; padding-top: 72px; padding-bottom: 36px; } }
 
-@media only screen and (min-width: 1200px) { h2, body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body ul#markdown-toc:before { font-size: 40px; line-height: 50px; padding-top: 80px; padding-bottom: 40px; } }
+@media only screen and (min-width: 1200px) { h2, body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body ul#markdown-toc:before { font-size: 40px; line-height: 50px; padding-top: 80px; padding-bottom: 40px; } }
 
 h3 { font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; }
 
@@ -276,15 +276,15 @@ h3 { font-weight: bold; font-style: normal; text-align: left; text-decoration: n
 
 @media only screen and (min-width: 1200px) { h3 { font-size: 30px; line-height: 40px; padding-top: 30px; padding-bottom: 10px; } }
 
-@media only screen and (max-width: 599px) { h2 + h3, body#blog-post section.post-body ol#markdown-toc:before + h3, body#blog-post section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
+@media only screen and (max-width: 599px) { h2 + h3, body[id$='post'] section.post-body ol#markdown-toc:before + h3, body[id$='post'] section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { h2 + h3, body#blog-post section.post-body ol#markdown-toc:before + h3, body#blog-post section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2 + h3, body[id$='post'] section.post-body ol#markdown-toc:before + h3, body[id$='post'] section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { h2 + h3, body#blog-post section.post-body ol#markdown-toc:before + h3, body#blog-post section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2 + h3, body[id$='post'] section.post-body ol#markdown-toc:before + h3, body[id$='post'] section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2 + h3, body#blog-post section.post-body ol#markdown-toc:before + h3, body#blog-post section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2 + h3, body[id$='post'] section.post-body ol#markdown-toc:before + h3, body[id$='post'] section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
 
-@media only screen and (min-width: 1200px) { h2 + h3, body#blog-post section.post-body ol#markdown-toc:before + h3, body#blog-post section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
+@media only screen and (min-width: 1200px) { h2 + h3, body[id$='post'] section.post-body ol#markdown-toc:before + h3, body[id$='post'] section.post-body ul#markdown-toc:before + h3 { padding-top: 0 !important; } }
 
 h4, body#photos-home nav.pagination p[class^="page--next-prev--"], body#photos-home nav.pagination .skip-link[class^="page--next-prev--"] { font-weight: bold; font-style: italic; text-align: left; text-decoration: none; text-transform: none; }
 
@@ -710,21 +710,21 @@ body#blog-about section#page-content > section::after { content: ""; clear: both
 
 @media only screen and (min-width: 1200px) { body#blog-about h1.page-title { font-size: 123.75px; line-height: 123.75px; } }
 
-body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { text-align: left; }
+body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { text-align: left; }
 
-@media only screen and (min-width: 600px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { float: left; } }
+@media only screen and (min-width: 600px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { float: left; } }
 
-@media only screen and (max-width: 599px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 33.75px; line-height: 38.5px; padding-top: 18px; } }
+@media only screen and (max-width: 599px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 33.75px; line-height: 38.5px; padding-top: 18px; } }
 
-@media only screen and (min-width: 600px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { width: 30%; padding-top: 0; } }
+@media only screen and (min-width: 600px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { width: 30%; padding-top: 0; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 36.4px; line-height: 45.5px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 36.4px; line-height: 45.5px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-about h2.loop-header, body#blog-about body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 42px; line-height: 50.4px; } }
+@media only screen and (min-width: 1200px) { body#blog-about h2.loop-header, body#blog-about body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ol#markdown-toc.loop-header:before, body#blog-about body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-about ul#markdown-toc.loop-header:before { font-size: 42px; line-height: 50.4px; } }
 
 body#blog-about ul.about { padding-left: 0; }
 
@@ -782,21 +782,21 @@ body#projects-home section#page-content > section::after { content: ""; clear: b
 
 @media only screen and (min-width: 1200px) { body#projects-home h1.page-title { font-size: 123.75px; line-height: 123.75px; } }
 
-body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { text-align: left; }
+body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { text-align: left; }
 
-@media only screen and (min-width: 600px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { float: left; } }
+@media only screen and (min-width: 600px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { float: left; } }
 
-@media only screen and (max-width: 599px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 33.75px; line-height: 38.5px; padding-top: 18px; } }
+@media only screen and (max-width: 599px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 33.75px; line-height: 38.5px; padding-top: 18px; } }
 
-@media only screen and (min-width: 600px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { width: 30%; padding-top: 0; } }
+@media only screen and (min-width: 600px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { width: 30%; padding-top: 0; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 30.8px; line-height: 38.5px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 36.4px; line-height: 45.5px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 36.4px; line-height: 45.5px; } }
 
-@media only screen and (min-width: 1200px) { body#projects-home h2.loop-header, body#projects-home body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 42px; line-height: 50.4px; } }
+@media only screen and (min-width: 1200px) { body#projects-home h2.loop-header, body#projects-home body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ol#markdown-toc.loop-header:before, body#projects-home body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#projects-home ul#markdown-toc.loop-header:before { font-size: 42px; line-height: 50.4px; } }
 
 body#projects-home ul.projects { padding-left: 0; }
 
@@ -850,24 +850,24 @@ body#blog-loop section#page-content > section::after { content: ""; clear: both;
 
 @media only screen and (min-width: 1200px) { body#blog-loop h1.page-title { font-size: 123.75px; line-height: 123.75px; } }
 
-body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { text-align: left; }
+body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { text-align: left; }
 
-@media only screen and (min-width: 766px) { @supports (position: sticky) or (position: -webkit-sticky) or (position: -moz-sticky) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; }
-    @media only screen and (min-width: 766px) and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { top: 55.5px; padding-bottom: 55px; } }
-    @media only screen and (min-width: 766px) and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { top: 64.5px; padding-bottom: 65px; } }
-    @media only screen and (min-width: 766px) and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { top: 72px; padding-bottom: 75px; } } } }
+@media only screen and (min-width: 766px) { @supports (position: sticky) or (position: -webkit-sticky) or (position: -moz-sticky) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; }
+    @media only screen and (min-width: 766px) and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { top: 55.5px; padding-bottom: 55px; } }
+    @media only screen and (min-width: 766px) and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { top: 64.5px; padding-bottom: 65px; } }
+    @media only screen and (min-width: 766px) and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { top: 72px; padding-bottom: 75px; } } } }
 
-@media only screen and (max-width: 599px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { font-size: 33.75px; padding-top: 18px; } }
+@media only screen and (max-width: 599px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { font-size: 33.75px; padding-top: 18px; } }
 
-@media only screen and (min-width: 600px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { float: left; } }
+@media only screen and (min-width: 600px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { float: left; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 20%; font-size: 34.375px !important; line-height: 30.8px !important; padding-top: 0; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 20%; font-size: 34.375px !important; line-height: 30.8px !important; padding-top: 0; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 25%; font-size: 41.25px !important; line-height: 33px !important; padding-top: 0; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 25%; font-size: 41.25px !important; line-height: 33px !important; padding-top: 0; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 25%; font-size: 48.75px !important; line-height: 39px !important; padding-top: 0; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 25%; font-size: 48.75px !important; line-height: 39px !important; padding-top: 0; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body#blog-post section.post-body ol#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body#blog-post section.post-body ul#markdown-toc.loop-header:before, body#blog-post section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 25%; font-size: 54px !important; line-height: 45px !important; padding-top: 0; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] section.post-body ol#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ol#markdown-toc.loop-header:before, body#blog-loop body[id$='post'] section.post-body ul#markdown-toc.loop-header:before, body[id$='post'] section.post-body body#blog-loop ul#markdown-toc.loop-header:before { width: 25%; font-size: 54px !important; line-height: 45px !important; padding-top: 0; } }
 
 body#blog-loop ul.loop { padding-left: 0; }
 
@@ -901,157 +901,157 @@ body#blog-loop ul.loop p.loop-item-title a:hover, body#blog-loop ul.loop .loop-i
 
 @media only screen and (min-width: 1200px) { body#blog-loop ul.loop { width: 75%; } }
 
-body#blog-post section.post-body > p:first-of-type, body#blog-post section.post-body > .skip-link:first-of-type { font-size: 33px; line-height: 41.25px; padding-bottom: 33px; font-weight: bold; }
+body[id$='post'] section.post-body > p:first-of-type, body[id$='post'] section.post-body > .skip-link:first-of-type { font-size: 33px; line-height: 41.25px; padding-bottom: 33px; font-weight: bold; }
 
-@media only screen and (max-width: 599px) { body#blog-post section.post-body > p:first-of-type, body#blog-post section.post-body > .skip-link:first-of-type { font-size: 24.2px; line-height: 27.5px; padding-bottom: 33px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] section.post-body > p:first-of-type, body[id$='post'] section.post-body > .skip-link:first-of-type { font-size: 24.2px; line-height: 27.5px; padding-bottom: 33px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post section.post-body > p:first-of-type, body#blog-post section.post-body > .skip-link:first-of-type { font-size: 27.5px; line-height: 30.25px; padding-bottom: 33px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] section.post-body > p:first-of-type, body[id$='post'] section.post-body > .skip-link:first-of-type { font-size: 27.5px; line-height: 30.25px; padding-bottom: 33px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post section.post-body > p:first-of-type, body#blog-post section.post-body > .skip-link:first-of-type { font-size: 27.5px; line-height: 30.25px; padding-bottom: 33px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] section.post-body > p:first-of-type, body[id$='post'] section.post-body > .skip-link:first-of-type { font-size: 27.5px; line-height: 30.25px; padding-bottom: 33px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post section.post-body > p:first-of-type, body#blog-post section.post-body > .skip-link:first-of-type { font-size: 32.5px; line-height: 35.75px; padding-bottom: 39px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] section.post-body > p:first-of-type, body[id$='post'] section.post-body > .skip-link:first-of-type { font-size: 32.5px; line-height: 35.75px; padding-bottom: 39px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post section.post-body > p:first-of-type, body#blog-post section.post-body > .skip-link:first-of-type { font-size: 37.5px; line-height: 39.6px; padding-bottom: 45px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] section.post-body > p:first-of-type, body[id$='post'] section.post-body > .skip-link:first-of-type { font-size: 37.5px; line-height: 39.6px; padding-bottom: 45px; } }
 
-body#blog-post section.post-body ul > li::before { position: absolute; content: "\2014"; left: 22px; }
+body[id$='post'] section.post-body ul > li::before { position: absolute; content: "\2014"; left: 22px; }
 
-@media only screen and (max-width: 599px) { body#blog-post section.post-body ul > li::before { left: 22px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] section.post-body ul > li::before { left: 22px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post section.post-body ul > li::before { left: -11px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] section.post-body ul > li::before { left: -11px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post section.post-body ul > li::before { left: -11px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] section.post-body ul > li::before { left: -11px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post section.post-body ul > li::before { left: -13px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] section.post-body ul > li::before { left: -13px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post section.post-body ul > li::before { left: -15px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] section.post-body ul > li::before { left: -15px; } }
 
-body#blog-post section.post-body ul#markdown-toc { background: #e9ecef; /* Text and background color for dark mode */ padding: 20px; }
+body[id$='post'] section.post-body ul#markdown-toc { background: #e9ecef; /* Text and background color for dark mode */ padding: 20px; }
 
-body#blog-post section.post-body ul#markdown-toc:before { display: block; padding: 0 20px 20px; content: "Contents"; }
+body[id$='post'] section.post-body ul#markdown-toc:before { display: block; padding: 0 20px 20px; content: "Contents"; }
 
-@media (prefers-color-scheme: dark) { body#blog-post section.post-body ul#markdown-toc { background: #495057; } }
+@media (prefers-color-scheme: dark) { body[id$='post'] section.post-body ul#markdown-toc { background: #495057; } }
 
-body#blog-post section.post-body ul#markdown-toc > li { font-weight: bold; }
+body[id$='post'] section.post-body ul#markdown-toc > li { font-weight: bold; }
 
-body#blog-post section.post-body ul#markdown-toc > li::before { display: none !important; }
+body[id$='post'] section.post-body ul#markdown-toc > li::before { display: none !important; }
 
-body#blog-post section.post-body ul#markdown-toc > li > ul { padding-left: 0; margin: 0; }
+body[id$='post'] section.post-body ul#markdown-toc > li > ul { padding-left: 0; margin: 0; }
 
-body#blog-post section.post-body ul#markdown-toc > li > ul li { margin: 0; }
+body[id$='post'] section.post-body ul#markdown-toc > li > ul li { margin: 0; }
 
-@media only screen and (min-width: 766px) { body#blog-post section.post-body ul#markdown-toc > li > ul li { padding-left: 15px; } }
+@media only screen and (min-width: 766px) { body[id$='post'] section.post-body ul#markdown-toc > li > ul li { padding-left: 15px; } }
 
-body#blog-post section.post-body ul#markdown-toc > li > ul li::before { display: none; }
+body[id$='post'] section.post-body ul#markdown-toc > li > ul li::before { display: none; }
 
-@media only screen and (min-width: 766px) { body#blog-post section.post-body ul#markdown-toc > li > ul li::before { display: inline-block; position: relative !important; left: -15px; } }
+@media only screen and (min-width: 766px) { body[id$='post'] section.post-body ul#markdown-toc > li > ul li::before { display: inline-block; position: relative !important; left: -15px; } }
 
-body#blog-post section.post-body ol#markdown-toc { background: #e9ecef; list-style-type: none; /* Text and background color for dark mode */ padding: 20px; }
+body[id$='post'] section.post-body ol#markdown-toc { background: #e9ecef; list-style-type: none; /* Text and background color for dark mode */ padding: 20px; }
 
-body#blog-post section.post-body ol#markdown-toc:before { display: block; padding: 0 20px 20px; content: "Contents"; }
+body[id$='post'] section.post-body ol#markdown-toc:before { display: block; padding: 0 20px 20px; content: "Contents"; }
 
-@media (prefers-color-scheme: dark) { body#blog-post section.post-body ol#markdown-toc { background: #495057; } }
+@media (prefers-color-scheme: dark) { body[id$='post'] section.post-body ol#markdown-toc { background: #495057; } }
 
-body#blog-post section.post-body ol#markdown-toc > li { font-weight: bold; }
+body[id$='post'] section.post-body ol#markdown-toc > li { font-weight: bold; }
 
-body#blog-post section.post-body ol#markdown-toc > li::before { display: none !important; }
+body[id$='post'] section.post-body ol#markdown-toc > li::before { display: none !important; }
 
-body#blog-post section.post-body ol#markdown-toc > li > ol { padding-left: 50px; margin: 0; }
+body[id$='post'] section.post-body ol#markdown-toc > li > ol { padding-left: 50px; margin: 0; }
 
-body#blog-post section.post-body ol#markdown-toc li:last-child > ol { padding-bottom: 11px; }
+body[id$='post'] section.post-body ol#markdown-toc li:last-child > ol { padding-bottom: 11px; }
 
-body#blog-post section.post-body twitter-widget { margin-left: auto; margin-right: auto; -webkit-font-feature-settings: normal !important; -moz-font-feature-settings: normal !important; -o-font-feature-settings: normal !important; font-feature-settings: normal !important; }
+body[id$='post'] section.post-body twitter-widget { margin-left: auto; margin-right: auto; -webkit-font-feature-settings: normal !important; -moz-font-feature-settings: normal !important; -o-font-feature-settings: normal !important; font-feature-settings: normal !important; }
 
-@media only screen and (max-width: 599px) { body#blog-post section.post-body twitter-widget { padding-bottom: 22px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] section.post-body twitter-widget { padding-bottom: 22px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post section.post-body twitter-widget { padding-bottom: 22px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] section.post-body twitter-widget { padding-bottom: 22px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post section.post-body twitter-widget { padding-bottom: 22px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] section.post-body twitter-widget { padding-bottom: 22px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post section.post-body twitter-widget { padding-bottom: 26px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] section.post-body twitter-widget { padding-bottom: 26px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post section.post-body twitter-widget { padding-bottom: 30px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] section.post-body twitter-widget { padding-bottom: 30px; } }
 
-body#blog-post section.post-body div.footnotes { padding-top: 96px; max-width: 600px; }
+body[id$='post'] section.post-body div.footnotes { padding-top: 96px; max-width: 600px; }
 
-body#blog-post section.post-body div.footnotes:before { display: block; font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; content: "Footnotes"; }
+body[id$='post'] section.post-body div.footnotes:before { display: block; font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; content: "Footnotes"; }
 
-@media only screen and (max-width: 599px) { body#blog-post section.post-body div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] section.post-body div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post section.post-body div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] section.post-body div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post section.post-body div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] section.post-body div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post section.post-body div.footnotes:before { font-size: 26px; line-height: 32.5px; padding-top: 26px; padding-bottom: 8.6666666667px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] section.post-body div.footnotes:before { font-size: 26px; line-height: 32.5px; padding-top: 26px; padding-bottom: 8.6666666667px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post section.post-body div.footnotes:before { font-size: 30px; line-height: 40px; padding-top: 30px; padding-bottom: 10px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] section.post-body div.footnotes:before { font-size: 30px; line-height: 40px; padding-top: 30px; padding-bottom: 10px; } }
 
-@media only screen and (max-width: 599px) { body#blog-post section.post-body div.footnotes { padding-top: 96px; max-width: 400px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] section.post-body div.footnotes { padding-top: 96px; max-width: 400px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post section.post-body div.footnotes { padding-top: 108px; max-width: 500px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] section.post-body div.footnotes { padding-top: 108px; max-width: 500px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post section.post-body div.footnotes { padding-top: 108px; max-width: 450px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] section.post-body div.footnotes { padding-top: 108px; max-width: 450px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post section.post-body div.footnotes { padding-top: 120px; max-width: 600px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] section.post-body div.footnotes { padding-top: 120px; max-width: 600px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post section.post-body div.footnotes { padding-top: 132px; max-width: 600px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] section.post-body div.footnotes { padding-top: 132px; max-width: 600px; } }
 
-body#blog-post section.post-body div.footnotes ul, body#blog-post section.post-body div.footnotes ol { padding-left: 32px; }
+body[id$='post'] section.post-body div.footnotes ul, body[id$='post'] section.post-body div.footnotes ol { padding-left: 32px; }
 
-@media only screen and (min-width: 766px) { body#blog-post section.post-body div.footnotes ul, body#blog-post section.post-body div.footnotes ol { padding-left: 0; } }
+@media only screen and (min-width: 766px) { body[id$='post'] section.post-body div.footnotes ul, body[id$='post'] section.post-body div.footnotes ol { padding-left: 0; } }
 
-body#blog-post section.post-body div.footnotes p, body#blog-post section.post-body div.footnotes .skip-link, body#blog-post section.post-body div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; font-weight: normal; }
+body[id$='post'] section.post-body div.footnotes p, body[id$='post'] section.post-body div.footnotes .skip-link, body[id$='post'] section.post-body div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; font-weight: normal; }
 
-@media only screen and (max-width: 599px) { body#blog-post section.post-body div.footnotes p, body#blog-post section.post-body div.footnotes .skip-link, body#blog-post section.post-body div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] section.post-body div.footnotes p, body[id$='post'] section.post-body div.footnotes .skip-link, body[id$='post'] section.post-body div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post section.post-body div.footnotes p, body#blog-post section.post-body div.footnotes .skip-link, body#blog-post section.post-body div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] section.post-body div.footnotes p, body[id$='post'] section.post-body div.footnotes .skip-link, body[id$='post'] section.post-body div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post section.post-body div.footnotes p, body#blog-post section.post-body div.footnotes .skip-link, body#blog-post section.post-body div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] section.post-body div.footnotes p, body[id$='post'] section.post-body div.footnotes .skip-link, body[id$='post'] section.post-body div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post section.post-body div.footnotes p, body#blog-post section.post-body div.footnotes .skip-link, body#blog-post section.post-body div.footnotes li { font-size: 20px; line-height: 25px; padding-bottom: 20px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] section.post-body div.footnotes p, body[id$='post'] section.post-body div.footnotes .skip-link, body[id$='post'] section.post-body div.footnotes li { font-size: 20px; line-height: 25px; padding-bottom: 20px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post section.post-body div.footnotes p, body#blog-post section.post-body div.footnotes .skip-link, body#blog-post section.post-body div.footnotes li { font-size: 22px; line-height: 26.4px; padding-bottom: 22px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] section.post-body div.footnotes p, body[id$='post'] section.post-body div.footnotes .skip-link, body[id$='post'] section.post-body div.footnotes li { font-size: 22px; line-height: 26.4px; padding-bottom: 22px; } }
 
-@media only screen and (max-width: 599px) { body#blog-post footer.post-meta { padding-top: 48px; max-width: 400px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] footer.post-meta { padding-top: 48px; max-width: 400px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post footer.post-meta { padding-top: 54px; max-width: 500px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] footer.post-meta { padding-top: 54px; max-width: 500px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post footer.post-meta { padding-top: 54px; max-width: 450px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] footer.post-meta { padding-top: 54px; max-width: 450px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post footer.post-meta { padding-top: 60px; max-width: 600px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] footer.post-meta { padding-top: 60px; max-width: 600px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post footer.post-meta { padding-top: 66px; max-width: 600px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] footer.post-meta { padding-top: 66px; max-width: 600px; } }
 
-body#blog-post footer.post-meta p, body#blog-post footer.post-meta .skip-link, body#blog-post footer.post-meta dl, body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { font-weight: normal; }
+body[id$='post'] footer.post-meta p, body[id$='post'] footer.post-meta .skip-link, body[id$='post'] footer.post-meta dl, body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { font-weight: normal; }
 
-@media only screen and (max-width: 599px) { body#blog-post footer.post-meta p, body#blog-post footer.post-meta .skip-link, body#blog-post footer.post-meta dl, body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { font-size: 18px; line-height: 13.5px; padding-top: 9px; padding-bottom: 9px; } }
+@media only screen and (max-width: 599px) { body[id$='post'] footer.post-meta p, body[id$='post'] footer.post-meta .skip-link, body[id$='post'] footer.post-meta dl, body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { font-size: 18px; line-height: 13.5px; padding-top: 9px; padding-bottom: 9px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-post footer.post-meta p, body#blog-post footer.post-meta .skip-link, body#blog-post footer.post-meta dl, body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { font-size: 18px; line-height: 13.5px; padding-top: 9px; padding-bottom: 9px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body[id$='post'] footer.post-meta p, body[id$='post'] footer.post-meta .skip-link, body[id$='post'] footer.post-meta dl, body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { font-size: 18px; line-height: 13.5px; padding-top: 9px; padding-bottom: 9px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-post footer.post-meta p, body#blog-post footer.post-meta .skip-link, body#blog-post footer.post-meta dl, body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { font-size: 18px; line-height: 13.5px; padding-top: 9px; padding-bottom: 9px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body[id$='post'] footer.post-meta p, body[id$='post'] footer.post-meta .skip-link, body[id$='post'] footer.post-meta dl, body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { font-size: 18px; line-height: 13.5px; padding-top: 9px; padding-bottom: 9px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-post footer.post-meta p, body#blog-post footer.post-meta .skip-link, body#blog-post footer.post-meta dl, body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { font-size: 22px; line-height: 16.5px; padding-top: 11px; padding-bottom: 11px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body[id$='post'] footer.post-meta p, body[id$='post'] footer.post-meta .skip-link, body[id$='post'] footer.post-meta dl, body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { font-size: 22px; line-height: 16.5px; padding-top: 11px; padding-bottom: 11px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-post footer.post-meta p, body#blog-post footer.post-meta .skip-link, body#blog-post footer.post-meta dl, body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { font-size: 26px; line-height: 20.8px; padding-top: 13px; padding-bottom: 13px; } }
+@media only screen and (min-width: 1200px) { body[id$='post'] footer.post-meta p, body[id$='post'] footer.post-meta .skip-link, body[id$='post'] footer.post-meta dl, body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { font-size: 26px; line-height: 20.8px; padding-top: 13px; padding-bottom: 13px; } }
 
-body#blog-post footer.post-meta p.footer-wordmark, body#blog-post footer.post-meta .footer-wordmark.skip-link, body#blog-post footer.post-meta dl.footer-wordmark, body#blog-post footer.post-meta dt.footer-wordmark, body#blog-post footer.post-meta dd.footer-wordmark { font-weight: bold; }
+body[id$='post'] footer.post-meta p.footer-wordmark, body[id$='post'] footer.post-meta .footer-wordmark.skip-link, body[id$='post'] footer.post-meta dl.footer-wordmark, body[id$='post'] footer.post-meta dt.footer-wordmark, body[id$='post'] footer.post-meta dd.footer-wordmark { font-weight: bold; }
 
-body#blog-post footer.post-meta dl::after { content: ""; clear: both; display: table; }
+body[id$='post'] footer.post-meta dl::after { content: ""; clear: both; display: table; }
 
-body#blog-post footer.post-meta dt, body#blog-post footer.post-meta dd { display: inline-block; }
+body[id$='post'] footer.post-meta dt, body[id$='post'] footer.post-meta dd { display: inline-block; }
 
-body#blog-post footer.post-meta dt { float: left; font-weight: bold; }
+body[id$='post'] footer.post-meta dt { float: left; font-weight: bold; }
 
-@media only screen and (max-width: 599px) { body#blog-post footer.post-meta dt { width: 40%; } }
+@media only screen and (max-width: 599px) { body[id$='post'] footer.post-meta dt { width: 40%; } }
 
-@media only screen and (min-width: 600px) { body#blog-post footer.post-meta dt { width: 25%; } }
+@media only screen and (min-width: 600px) { body[id$='post'] footer.post-meta dt { width: 25%; } }
 
-body#blog-post footer.post-meta dd { text-transform: capitalize; }
+body[id$='post'] footer.post-meta dd { text-transform: capitalize; }
 
-@media only screen and (max-width: 599px) { body#blog-post footer.post-meta dd { width: 60%; } }
+@media only screen and (max-width: 599px) { body[id$='post'] footer.post-meta dd { width: 60%; } }
 
-@media only screen and (min-width: 600px) { body#blog-post footer.post-meta dd { width: 75%; } }
+@media only screen and (min-width: 600px) { body[id$='post'] footer.post-meta dd { width: 75%; } }
 
-body#blog-post iframe { display: block; margin-left: auto; margin-right: auto; }
+body[id$='post'] iframe { display: block; margin-left: auto; margin-right: auto; }
 
 body#podcast-home section { padding-top: 100px; padding-bottom: 100px; }
 
@@ -1351,7 +1351,7 @@ body#goals-goals ul#goals-list li.totaliser { background: #e9ecef; padding: 20px
 
 @media (prefers-color-scheme: dark) { body#goals-goals ul#goals-list li.totaliser { background: #495057; } }
 
-body#goals-goals ul#goals-list li.totaliser h2, body#goals-goals ul#goals-list li.totaliser body#blog-post section.post-body ul#markdown-toc:before, body#blog-post section.post-body body#goals-goals ul#goals-list li.totaliser ul#markdown-toc:before, body#goals-goals ul#goals-list li.totaliser body#blog-post section.post-body ol#markdown-toc:before, body#blog-post section.post-body body#goals-goals ul#goals-list li.totaliser ol#markdown-toc:before { margin-top: 0; margin-bottom: 0; padding-top: 0; }
+body#goals-goals ul#goals-list li.totaliser h2, body#goals-goals ul#goals-list li.totaliser body[id$='post'] section.post-body ul#markdown-toc:before, body[id$='post'] section.post-body body#goals-goals ul#goals-list li.totaliser ul#markdown-toc:before, body#goals-goals ul#goals-list li.totaliser body[id$='post'] section.post-body ol#markdown-toc:before, body[id$='post'] section.post-body body#goals-goals ul#goals-list li.totaliser ol#markdown-toc:before { margin-top: 0; margin-bottom: 0; padding-top: 0; }
 
 body#goals-goals ul#goals-list li.totaliser progress[value]::-webkit-progress-bar { background-color: #adb5bd; }
 

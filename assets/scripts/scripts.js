@@ -19,8 +19,10 @@ for (i = 0; i < accordian.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
+      this.setAttribute('aria-expanded', 'false')
     } else {
       panel.style.display = "block";
+      this.setAttribute('aria-expanded', 'true')
     }
   });
 }

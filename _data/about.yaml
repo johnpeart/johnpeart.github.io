@@ -59,10 +59,6 @@
           end: 2015-09-01
           notes: 
             - description: "In this role I provided operational support and advice to GDS's Chief Operating Officer. I worked closely with his senior team to run the core support functions for the organisation across finance, HR and IT. I also led special projects on behalf of the COO."
-              projects:
-                  - project: "Diversity and inclusion strategy for the Government Digital Function"
-                  - project: "Internal organisation restructure"
-          hidden: true
     - organisation: "Department for Education"
       url: "//www.gov.uk/dfe"
       jobs:

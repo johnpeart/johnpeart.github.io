@@ -125,7 +125,7 @@ header#site-header nav div.header-align-right p, header#site-header nav div.head
 
 @media only screen and (min-width: 1200px) { header#site-header nav div.header-align-right p, header#site-header nav div.header-align-right body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased header#site-header nav div.header-align-right legend, header#site-header nav div.header-align-right input[type="text"], header#site-header nav div.header-align-right textarea, header#site-header nav div.header-align-right .label-hint, header#site-header nav div.header-align-right label, header#site-header nav div.header-align-right .text-input, header#site-header nav div.header-align-right .radio-input, header#site-header nav div.header-align-right button, header#site-header nav div.header-align-right a.button, header#site-header nav div.header-align-right .skip-link, header#site-header nav div.header-align-right li.header-link { font-size: 30px; line-height: 36px; padding-top: 18px; padding-bottom: 18px; } }
 
-header#site-header nav button#header-menu-toggle { display: block; position: absolute; border: none; background: none; z-index: 9999999999; left: auto; bottom: auto; right: 0; top: 0; margin: 0; font-weight: bold; }
+header#site-header nav button#header-menu-toggle { display: block; position: absolute; width: unset; min-width: unset; border: none; background: none; z-index: 9999999999; left: auto; bottom: auto; right: 0; top: 0; margin: 0; font-weight: bold; }
 
 @media only screen and (max-width: 599px) { header#site-header nav button#header-menu-toggle { padding: 19.6px 15px; } }
 

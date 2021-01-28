@@ -5,9 +5,50 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Jan 2021 00:51:33 +0000</pubDate>
-    <lastBuildDate>Thu, 28 Jan 2021 00:51:33 +0000</lastBuildDate>
+    <pubDate>Thu, 28 Jan 2021 21:44:40 +0000</pubDate>
+    <lastBuildDate>Thu, 28 Jan 2021 21:44:40 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Why I quit Instagram</title>
+        <description>&lt;p&gt;A couple of years ago, I set myself a New Year’s Resolution to quit Facebook. On 1 January 2019, I deleted my Facebook account and I haven’t looked back.&lt;/p&gt;
+
+&lt;p&gt;I did that was because &lt;a href=&quot;/2018/12/18/goodbye-facebook&quot;&gt;the costs of using Facebook outweighed the benefits&lt;/a&gt;; for me, at least.&lt;/p&gt;
+
+&lt;p&gt;Facebook isn’t just one app though; the &lt;a href=&quot;https://www.facebook.com&quot;&gt;Facebook&lt;/a&gt; we all know is one of several services owned and operated by &lt;a href=&quot;https://about.fb.com&quot;&gt;Facebook&lt;/a&gt;. So whilst I had quit Facebook &lt;em&gt;the app&lt;/em&gt;, I &lt;em&gt;didn’t&lt;/em&gt; quite Facebook &lt;em&gt;the company&lt;/em&gt;. The two other services that I used that were operated by Facebook were Instagram and WhatsApp; both of which the company acquired in the early-to-mid 2010s.&lt;/p&gt;
+
+&lt;p&gt;On 31 December 2020, I resolved to quit Instagram. On 1 January 2021, that’s exactly what I did.&lt;/p&gt;
+
+&lt;h2 id=&quot;instagram-is-turning-into-facebook&quot;&gt;Instagram is turning into Facebook&lt;/h2&gt;
+
+&lt;p&gt;Instagram was designed as a photography service. It was arguably the first successful photo sharing service of the modern social internet era. But Instagram isn’t really &lt;em&gt;that&lt;/em&gt; any more.&lt;/p&gt;
+
+&lt;p&gt;The main reason I’ve deleted Instagram is because it is slowly – through a series of intentional product decisions – morphing into the Facebook app.&lt;/p&gt;
+
+&lt;p&gt;Bolt ons to the core service like Stories (cloned from Snapchat) and Reels (cloned from TikTok) mean that Instagram is now less about intentional photography and design, and more about social networking. It is a Facebook feed with an emphasis on photos and stylised, text-based posts. Honestly, it all started going downhill when they added the algorithmic feed and it’s just kept rolling down from there.&lt;/p&gt;
+
+&lt;p&gt;If I’d wanted a running commentary on every news item, screenshots of tweets, and ranting political posts, I’d have kept my Facebook account.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-its-going&quot;&gt;How it’s going…&lt;/h2&gt;
+
+&lt;p&gt;So my account is permanently deleted. The data will be erased from the service in a couple of days time, and expunged from the backups it keeps in another couple of months.&lt;/p&gt;
+
+&lt;p&gt;Just because I’ve quit Instagram though, doesn’t mean I don’t still want to be able to share photos I like. I’ve built a new photo blog as part of this website that I’ll be updating over time. Take a look and let me know what you think!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;//photos.johnpe.art&quot;&gt;Visit my new photo blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://www.johnpe.art/2021/01/28/why-I-quit-instagram</link>
+        <guid isPermaLink="true">https://www.johnpe.art/2021/01/28/why-I-quit-instagram</guid>
+        
+        
+        <category>personal</category>
+        
+        <category>social media</category>
+        
+      </item>
     
       <item>
         <title>Setting some goals for 2021</title>
@@ -1700,62 +1741,6 @@ const 	deptcanvas = createCanvas(width, height)
         <category>government</category>
         
         <category>lgbt</category>
-        
-      </item>
-    
-      <item>
-        <title>On the occasion of my death, do this with my digital footprint</title>
-        <description>&lt;p&gt;Twitter has recently announced that &lt;a href=&quot;https://thenextweb.com/insider/2019/11/27/twitter-will-delete-inactive-accounts-starting-december/&quot;&gt;they intend to start reclaiming unused usernames&lt;/a&gt; unless the accounts are logged into at least once every 6 months. Almost as soon as they announced it, the citizens of the Web lost their collective minds and &lt;a href=&quot;https://thenextweb.com/twitter/2019/11/27/twitter-delays-deleting-inactive-accounts-to-decide-how-to-respect-dead-users/&quot;&gt;the policy was paused&lt;/a&gt; until Twitter could figure out a way to “memorialise” accounts.&lt;/p&gt;
-
-&lt;p&gt;I was fascinated by the outpouring from the distraught and bereaved of the internet. People sharing stories of parents or partners that would scroll back through tweets to remind themselves of their lost ones.&lt;/p&gt;
-
-&lt;p&gt;It got me thinking: when I die, people will start to sort out my bank accounts and my possessions. All these things are par for the course when tidying up someone’s estate; but what about my digital footprint? The files on my laptop. My blog. My social media accounts.&lt;/p&gt;
-
-&lt;p&gt;If we were still living in the pre-Internet era, the things worth keeping would be journals, photos, trinkets and furniture. You’d live on through “stuff”. Physical objects. But we don’t live in those times anymore, and as fond as I am of my IKEA furniture and assortment of lapel pin badges, the stuff worth keeping if I died isn’t found in my flat: it’s found in the cloud. Whilst it won’t clutter up a garage, rot, rust or decay, it does need sorting out, not least because like most people’s real homes, my digital house is also full of junk.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-things-worth-keeping&quot;&gt;Some things worth keeping&lt;/h2&gt;
-
-&lt;p&gt;There are some things I hope someone will take the time to keep. Take my website for example; the one you’re probably reading this on. At the time of writing it contains things I’ve written all the way back to 2010. It represents large chunks of my brain, personality, and life’s work.&lt;sup id=&quot;fnref:essays&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:essays&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; It represents the best of &lt;em&gt;me&lt;/em&gt;. Without someone paying the domain name fees and keeping the hosting going though, it will eventually just vanish.&lt;/p&gt;
-
-&lt;p&gt;Then there are my photos. I take a lot of photos. I &lt;em&gt;delete&lt;/em&gt; a lot of photos. So many, in fact, that there are entire years of my life where I have no photos at all. My collection of pictures is highly curated, and the ones I keep or publish online are truly the ones I think I should keep for decades. When I die, you won’t find boxes full of old prints, but you will find a digital treasure trove of nice pictures worth keeping.&lt;/p&gt;
-
-&lt;p&gt;If I ever get around to &lt;a href=&quot;/2019/01/27/department-of-bad-ideas&quot;&gt;finally making a podcast&lt;/a&gt; or writing a book? Keep those things too.&lt;/p&gt;
-
-&lt;p&gt;If I’m honest though, most of my digital footprint &lt;em&gt;should&lt;/em&gt; disappear because it’s not worth keeping. Which brings me to what I immediately thought when I saw the backlash against the recycling of accounts and using Twitter in the grieving process.&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-memorialise-me-on-social-media&quot;&gt;Don’t memorialise me on social media&lt;/h2&gt;
-
-&lt;p&gt;The thing I found most unsettling about the backlash on the issue of account recycling was that it was, for want of a better word, selfish. Much of the outpouring and reporting didn’t ask about what the deceased would have wanted to be done with their digital footprint, but instead asked about the bereaved&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Clearly it is impossible to know now but I don’t think every person that has passed — or even many people that have — would want their trash-talk, their 3am escapades and their hot takes on last season’s X-Factor forever preserved in this internet-era aspic.&lt;/p&gt;
-
-&lt;p&gt;Which brings me to what I want. Whatever else happens to my digital assets when I finally tap out: &lt;strong&gt;don’t memorialise my accounts on social media&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I literally can’t think of anything I’d want to see less than a performative outpouring of emotion forever plastered all over my accounts. By all means, use your own accounts to tweet a eulogy, but don’t turn my accounts into a digital tombstone.&lt;/p&gt;
-
-&lt;p&gt;In fact, &lt;em&gt;delete them&lt;/em&gt;. Erase them all. Expunge my social media from the internet. It’s just noise; I only want clear, curated signal left behind. Keep something of me that matters, not the daft musings bashed out in fewer than 280 characters.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-digital-will-of-sorts&quot;&gt;A digital will, of sorts&lt;/h2&gt;
-
-&lt;p&gt;At some point I’ll get round to writing a proper will. Something that will be legally binding and divvy up my assets. Until then consider this a digital will, of sorts. A will that’s specifically about my digital assets.&lt;/p&gt;
-
-&lt;p&gt;And my request is pretty simple really: if I conk out any time soon, keep the best stuff, delete the ephemeral junk and, for the love of God, don’t memorialise me on Twitter.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:essays&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Random side note: I have an Google Analytics account linked to this site so I can see what people look at, and it still amazes me how many people come looking for my old university essays. Presumably the questions have remained the same for coursework at my &lt;em&gt;alma matter&lt;/em&gt; and people go looking for inspiration, but it just goes to show the value of publishing things in the open sometimes. &lt;a href=&quot;#fnref:essays&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;I’m not saying the needs of the bereaved aren’t important — of course they are — but they shouldn’t be our only concern. The least you should be able to expect when you die is that people are thinking about &lt;em&gt;your&lt;/em&gt; wishes, I think. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-        <link>https://www.johnpe.art/2020/01/18/do-this-with-my-data</link>
-        <guid isPermaLink="true">https://www.johnpe.art/2020/01/18/do-this-with-my-data</guid>
-        
-        
-        <category>digital</category>
         
       </item>
     

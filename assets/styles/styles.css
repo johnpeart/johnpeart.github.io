@@ -1736,7 +1736,7 @@ body#photos-photo dl span.dl-item { display: block; position: relative; padding-
 
 body#photos-photo dl::after { content: ""; clear: both; display: table; }
 
-body#photos-photo article div.footnotes { padding-top: 96px; max-width: 600px; }
+body#photos-photo article div.footnotes { padding-top: 16px; max-width: 600px; }
 
 body#photos-photo article div.footnotes:before { display: block; font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; content: "Footnotes"; }
 
@@ -1750,15 +1750,15 @@ body#photos-photo article div.footnotes:before { display: block; font-weight: bo
 
 @media only screen and (min-width: 1200px) { body#photos-photo article div.footnotes:before { font-size: 30px; line-height: 40px; padding-top: 30px; padding-bottom: 10px; } }
 
-@media only screen and (max-width: 599px) { body#photos-photo article div.footnotes { padding-top: 96px; max-width: 400px; } }
+@media only screen and (max-width: 599px) { body#photos-photo article div.footnotes { padding-top: 16px; max-width: 400px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#photos-photo article div.footnotes { padding-top: 108px; max-width: 500px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#photos-photo article div.footnotes { padding-top: 18px; max-width: 500px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#photos-photo article div.footnotes { padding-top: 108px; max-width: 450px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#photos-photo article div.footnotes { padding-top: 18px; max-width: 450px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#photos-photo article div.footnotes { padding-top: 120px; max-width: 600px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#photos-photo article div.footnotes { padding-top: 20px; max-width: 600px; } }
 
-@media only screen and (min-width: 1200px) { body#photos-photo article div.footnotes { padding-top: 132px; max-width: 600px; } }
+@media only screen and (min-width: 1200px) { body#photos-photo article div.footnotes { padding-top: 22px; max-width: 600px; } }
 
 body#photos-photo article div.footnotes ul, body#photos-photo article div.footnotes ol { padding-left: 32px; }
 

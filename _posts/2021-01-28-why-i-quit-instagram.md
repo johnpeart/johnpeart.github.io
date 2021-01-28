@@ -9,9 +9,9 @@ category: [personal, social media]
 
 A couple of years ago, I set myself a New Year’s Resolution to quit Facebook. On 1 January 2019, I deleted my Facebook account and I haven't looked back.
 
-I did that was because [the costs of using Facebook outweighed the benefits](/2018/12/18/goodbye-facebook); for me, at least. 
+I did that because [the costs of using Facebook outweighed the benefits](/2018/12/18/goodbye-facebook); for me, at least. 
 
-Facebook isn't just one app though; the [Facebook](https://www.facebook.com) we all know is one of several services owned and operated by [Facebook](https://about.fb.com). So whilst I had quit Facebook _the app_, I _didn't_ quite Facebook _the company_. The two other services that I used that were operated by Facebook were Instagram and WhatsApp; both of which the company acquired in the early-to-mid 2010s. 
+Facebook isn't just one app though; the [Facebook](https://www.facebook.com) we all know is one of several services owned and operated by [Facebook](https://about.fb.com). So whilst I had quit Facebook _the app_, I _didn't_ quit Facebook _the company_. The two other services that I used that were operated by Facebook were Instagram and WhatsApp; both of which the company acquired in the early-to-mid 2010s. 
 
 On 31 December 2020, I resolved to quit Instagram. On 1 January 2021, that's exactly what I did.
 

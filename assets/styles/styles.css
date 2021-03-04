@@ -127,7 +127,7 @@ header#site-header nav div.header-align-right p, header#site-header nav div.head
 
 header#site-header nav button#header-menu-toggle { display: block; position: absolute; width: unset; min-width: unset; border: none; background: none; z-index: 9999999999; left: auto; bottom: auto; right: 0; top: 0; margin: 0; font-weight: bold; }
 
-@media only screen and (max-width: 599px) { header#site-header nav button#header-menu-toggle { padding: 19.6px 15px; } }
+@media only screen and (max-width: 599px) { header#site-header nav button#header-menu-toggle { padding: 14px 15px; } }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { header#site-header nav button#header-menu-toggle { padding: 19.6px 15px; } }
 

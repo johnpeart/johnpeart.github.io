@@ -5,7 +5,7 @@
 	
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-04-06    -->
-<!--    Time built:    20:53    -->
+<!--    Time built:    22:35    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -123,58 +123,36 @@
 
 
   	<header id="site-header">
-	
-	<nav role="navigation" class="container">
-		<div class="header-align-left">
-			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
-		</div>
+	<nav id="header--site-nav" role="navigation" class="container">
+		
+		<p id="header--wordmark">
+			<a class="wordmark" href="//johnpe.art/" title="Go to the home page">John Peart</a>
+		</p>
 		
 		
-	
-		<button id="header-menu-toggle" onclick="toggleMenu()">
-				
-				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
-				  <defs/>
-			          <g id="bar1">
-			            <title>Bar</title>
-			            <g id="Graphic_9">
-			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_7">
-			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_5">
-			              <rect x="0" y="31" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
+		
+		<button id="header-menu-toggle" onclick="toggleMenu()" class="closed" accesskey="m">
+				<svg id="header-menu-toggle-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+					<defs/>
+					<title>Menu icon</title>
+					<path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#1d1d1d"/>
 				</svg>
-
 				<span class="sr-only">Menu</span>
 		</button>
-		
-		<div id="header-menu-links" class="header-align-right">
-			<ul class="header-menu">
+		<ul id="header-menu-items" class="closed" aria-expanded="false">
+			
+				<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
 				
-					<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
-					
-					<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
-					
-					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
-										
-					<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+				<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
 				
-			</ul>
-		</div>
+				<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+									
+				<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+			
+		</ul>
 		
 		
 	</nav>
-	
 </header>
 
 <main id="content" class="container">
@@ -193,12 +171,12 @@
 
 <p>This year would have seen 41 countries put forward up to 3:00 minutes of something resembling popular music. All 41 entries are now never to be voted upon – <a href="/2020/03/25/this-is-not-the-song-contest">except in my virtual house party</a>.</p>
 
-<p>Every year for the last 5 years, it’s been a tradition of mine to listen to the tracks on the official Eurovision album and jot down some initial impressions. This year it’s not clear if we’re going to <em>get</em> an official album, so instead I’ve scoured the internet to listen to them on a self-compiled Eurovision playlist<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> instead. The coronavirus can’t stop me unashamedly enjoying the musical delights of a slightly geographically-expanded Europe<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>.</p>
+<p>Every year for the last 5 years, it’s been a tradition of mine to listen to the tracks on the official Eurovision album and jot down some initial impressions. This year it’s not clear if we’re going to <em>get</em> an official album, so instead I’ve scoured the internet to listen to them on a self-compiled Eurovision playlist<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> instead. The coronavirus can’t stop me unashamedly enjoying the musical delights of a slightly geographically-expanded Europe<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
 
 <p>As ever, there are some rules:</p>
 
 <ol>
-  <li>I’m only allowed to listen to each track once<sup id="fnref:1listen" role="doc-noteref"><a href="#fn:1listen" class="footnote">3</a></sup></li>
+  <li>I’m only allowed to listen to each track once<sup id="fnref:1listen" role="doc-noteref"><a href="#fn:1listen" class="footnote" rel="footnote">3</a></sup></li>
   <li>Each entry is allowed a tweet-sized piece of commentary: up to 280 characters — no more, but sometimes less</li>
 </ol>
 
@@ -274,7 +252,7 @@
 
 <h3 id="belarus--da-vidna--val">Belarus – Da vidna – VAL</h3>
 
-<p><em>Da vidna</em>, meaning “until dawn” is reminiscent of that track from <em>Made in Chelsea</em>. You know, the one with the screechy sound.<sup id="fnref:davidna" role="doc-noteref"><a href="#fn:davidna" class="footnote">4</a></sup></p>
+<p><em>Da vidna</em>, meaning “until dawn” is reminiscent of that track from <em>Made in Chelsea</em>. You know, the one with the screechy sound.<sup id="fnref:davidna" role="doc-noteref"><a href="#fn:davidna" class="footnote" rel="footnote">4</a></sup></p>
 
 <p><em>Made in Chelsea</em> and <em>Da vidna</em> have something else in common too: they’re both stilted and devoid of substance.</p>
 
@@ -380,7 +358,7 @@
 
 <h3 id="bulgaria--tears-getting-sober--victoria">Bulgaria – Tears Getting Sober – Victoria</h3>
 
-<p>Bulgaria has had some absolute <em>tunes</em> in recent years<sup id="fnref:bulgaria-tunes" role="doc-noteref"><a href="#fn:bulgaria-tunes" class="footnote">5</a></sup>. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.</p>
+<p>Bulgaria has had some absolute <em>tunes</em> in recent years<sup id="fnref:bulgaria-tunes" role="doc-noteref"><a href="#fn:bulgaria-tunes" class="footnote" rel="footnote">5</a></sup>. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.</p>
 
 <p>It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. <a href="https://www.youtube.com/watch?v=PQqUTigWKHY">Bring back Poli</a>!</p>
 
@@ -426,7 +404,7 @@
 
 <h3 id="latvia--still-breathing--samanta-tīna">Latvia – Still Breathing – Samanta Tīna</h3>
 
-<p>One of two tracks this year with an unfortunate title, given <em>the situation</em>.<sup id="fnref:coronavirus" role="doc-noteref"><a href="#fn:coronavirus" class="footnote">6</a></sup></p>
+<p>One of two tracks this year with an unfortunate title, given <em>the situation</em>.<sup id="fnref:coronavirus" role="doc-noteref"><a href="#fn:coronavirus" class="footnote" rel="footnote">6</a></sup></p>
 
 <p>Latvia takes us to the club with this over-produced track and nondescript female vocal. It throws in some (not good) rap near the end of the track before crashing into a distorted mess of an ending.</p>
 
@@ -448,7 +426,7 @@
 
 <h3 id="san-marino--freaky--senhit">San Marino – FREAKY! – Senhit</h3>
 
-<p>San Marino, the tiny nation always churning out <em>questionable</em> acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a <em>lot</em> repetition of the word “freaky”<sup id="fnref:freak" role="doc-noteref"><a href="#fn:freak" class="footnote">7</a></sup>. For once for San Marino, something I’d listen to again.</p>
+<p>San Marino, the tiny nation always churning out <em>questionable</em> acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a <em>lot</em> repetition of the word “freaky”<sup id="fnref:freak" role="doc-noteref"><a href="#fn:freak" class="footnote" rel="footnote">7</a></sup>. For once for San Marino, something I’d listen to again.</p>
 
 <h3 id="serbia--hasta-la-vista--hurricane">Serbia – Hasta la vista – Hurricane</h3>
 
@@ -563,6 +541,7 @@
 		
 		<nav id="footer--links">
 			
+			
 			<ul>
 				
 					<li><a href="//johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
@@ -575,6 +554,7 @@
 					<li><a href="//wishlist.johnpe.art" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
 				
 			</ul>
+				
 			
 		</nav>
 	

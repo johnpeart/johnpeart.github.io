@@ -5,7 +5,7 @@
 	
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-04-06    -->
-<!--    Time built:    20:53    -->
+<!--    Time built:    22:35    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -123,58 +123,36 @@
 
 
   	<header id="site-header">
-	
-	<nav role="navigation" class="container">
-		<div class="header-align-left">
-			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
-		</div>
+	<nav id="header--site-nav" role="navigation" class="container">
+		
+		<p id="header--wordmark">
+			<a class="wordmark" href="//johnpe.art/" title="Go to the home page">John Peart</a>
+		</p>
 		
 		
-	
-		<button id="header-menu-toggle" onclick="toggleMenu()">
-				
-				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
-				  <defs/>
-			          <g id="bar1">
-			            <title>Bar</title>
-			            <g id="Graphic_9">
-			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_7">
-			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_5">
-			              <rect x="0" y="31" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
+		
+		<button id="header-menu-toggle" onclick="toggleMenu()" class="closed" accesskey="m">
+				<svg id="header-menu-toggle-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+					<defs/>
+					<title>Menu icon</title>
+					<path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#1d1d1d"/>
 				</svg>
-
 				<span class="sr-only">Menu</span>
 		</button>
-		
-		<div id="header-menu-links" class="header-align-right">
-			<ul class="header-menu">
+		<ul id="header-menu-items" class="closed" aria-expanded="false">
+			
+				<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
 				
-					<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
-					
-					<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
-					
-					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
-										
-					<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+				<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
 				
-			</ul>
-		</div>
+				<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+									
+				<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+			
+		</ul>
 		
 		
 	</nav>
-	
 </header>
 
 <main id="content" class="container">
@@ -202,7 +180,7 @@
 <p>In fact there are only 4 major differences between this iPad and its larger sibling:</p>
 
 <ul>
-  <li>the new 9.7 inch model has only 2GB of RAM, compared to 4GB in the larger device<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></li>
+  <li>the new 9.7 inch model has only 2GB of RAM, compared to 4GB in the larger device<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
   <li>the new model has a new True Tone sensor that adapts the colour and intensity of the display to ambient light, making the screen more comfortable to read from</li>
   <li>this iPad features the upgraded 12 megapixel camera from the iPhone 6S</li>
   <li>and, of course, the device is physically smaller - almost indistinguishable from the iPad Air 2</li>
@@ -232,7 +210,7 @@
 
 <p>Combined with the processing muscle of the A9X, iPad Pro and Apple Pencil make apps like Adobe Draw, Photoshop mix and Pixelmator sing. Being able to manipulate content fluidly, with no lag and near perfect precision makes iPad a joy to work on creatively like no iPad before it.</p>
 
-<p>It also enables new experiences, like handwriting recognition, in a way not possible before<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>. That’s because - unlike with most styli created for iPad before - it actually works! In fact, I’ve written this entire blog post using the Apple Pencil - I haven’t typed a single key stroke.</p>
+<p>It also enables new experiences, like handwriting recognition, in a way not possible before<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. That’s because - unlike with most styli created for iPad before - it actually works! In fact, I’ve written this entire blog post using the Apple Pencil - I haven’t typed a single key stroke.</p>
 
 <p>In the past week, I’ve been using it to minute meetings, edit photos and more. Compared with a laptop it’s so much less obtrusive, and compared to a notepad and pen it’s infinitely more versatile.</p>
 
@@ -302,6 +280,7 @@
 		
 		<nav id="footer--links">
 			
+			
 			<ul>
 				
 					<li><a href="//johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
@@ -314,6 +293,7 @@
 					<li><a href="//wishlist.johnpe.art" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
 				
 			</ul>
+				
 			
 		</nav>
 	

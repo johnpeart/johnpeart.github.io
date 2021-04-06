@@ -5,7 +5,7 @@
 	
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-04-06    -->
-<!--    Time built:    20:53    -->
+<!--    Time built:    22:35    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -123,58 +123,36 @@
 
 
   	<header id="site-header">
-	
-	<nav role="navigation" class="container">
-		<div class="header-align-left">
-			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
-		</div>
+	<nav id="header--site-nav" role="navigation" class="container">
+		
+		<p id="header--wordmark">
+			<a class="wordmark" href="//johnpe.art/" title="Go to the home page">John Peart</a>
+		</p>
 		
 		
-	
-		<button id="header-menu-toggle" onclick="toggleMenu()">
-				
-				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
-				  <defs/>
-			          <g id="bar1">
-			            <title>Bar</title>
-			            <g id="Graphic_9">
-			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_7">
-			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_5">
-			              <rect x="0" y="31" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
+		
+		<button id="header-menu-toggle" onclick="toggleMenu()" class="closed" accesskey="m">
+				<svg id="header-menu-toggle-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+					<defs/>
+					<title>Menu icon</title>
+					<path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#1d1d1d"/>
 				</svg>
-
 				<span class="sr-only">Menu</span>
 		</button>
-		
-		<div id="header-menu-links" class="header-align-right">
-			<ul class="header-menu">
+		<ul id="header-menu-items" class="closed" aria-expanded="false">
+			
+				<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
 				
-					<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
-					
-					<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
-					
-					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
-										
-					<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+				<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
 				
-			</ul>
-		</div>
+				<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+									
+				<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+			
+		</ul>
 		
 		
 	</nav>
-	
 </header>
 
 <main id="content" class="container">
@@ -239,13 +217,13 @@
 
 <p>I’ve read a lot of reviews about HomePod, and they all say Siri sucks. They’re right; but whilst they argue about Siri’s AI prowess relative to Amazon’s Alexa and the Google Assistant, my quibble is with the basics. I’ve had multiple infuriating experiences trying to get Siri to perform basic commands that Apple claims it does.</p>
 
-<p>Simple things like turning off the lights<sup id="fnref:lights" role="doc-noteref"><a href="#fn:lights" class="footnote">1</a></sup> just don’t work consistently. I’ve had HomePod ignore my commands entirely, trigger commands that are totally different from what I ask for, and sometimes just straight up stop listening until you tap the capacitive touch area on the top of the HomePod itself.</p>
+<p>Simple things like turning off the lights<sup id="fnref:lights" role="doc-noteref"><a href="#fn:lights" class="footnote" rel="footnote">1</a></sup> just don’t work consistently. I’ve had HomePod ignore my commands entirely, trigger commands that are totally different from what I ask for, and sometimes just straight up stop listening until you tap the capacitive touch area on the top of the HomePod itself.</p>
 
 <p>To be clear, these things aren’t happening all the time, but they happen often enough that it’s annoying; and when you spend a few hundred quid on a speaker with smarts, you expect it to work, let alone be smart.</p>
 
 <h3 id="music-maelstrom">Music maelstrom</h3>
 
-<p>HomePod is being marketed as a music device first though: not a general smart home device. Apple advertises Siri as being your own personal “musicologist”, drawing on the entire iTunes library via Apple Music<sup id="fnref:subscription" role="doc-noteref"><a href="#fn:subscription" class="footnote">2</a></sup>.</p>
+<p>HomePod is being marketed as a music device first though: not a general smart home device. Apple advertises Siri as being your own personal “musicologist”, drawing on the entire iTunes library via Apple Music<sup id="fnref:subscription" role="doc-noteref"><a href="#fn:subscription" class="footnote" rel="footnote">2</a></sup>.</p>
 
 <p>Most of the time it barely functions at the level of “genuinely random shuffle”.</p>
 
@@ -343,6 +321,7 @@
 		
 		<nav id="footer--links">
 			
+			
 			<ul>
 				
 					<li><a href="//johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
@@ -355,6 +334,7 @@
 					<li><a href="//wishlist.johnpe.art" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
 				
 			</ul>
+				
 			
 		</nav>
 	

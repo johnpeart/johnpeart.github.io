@@ -5,7 +5,7 @@
 	
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-04-06    -->
-<!--    Time built:    20:53    -->
+<!--    Time built:    22:35    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -123,58 +123,36 @@
 
 
   	<header id="site-header">
-	
-	<nav role="navigation" class="container">
-		<div class="header-align-left">
-			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
-		</div>
+	<nav id="header--site-nav" role="navigation" class="container">
+		
+		<p id="header--wordmark">
+			<a class="wordmark" href="//johnpe.art/" title="Go to the home page">John Peart</a>
+		</p>
 		
 		
-	
-		<button id="header-menu-toggle" onclick="toggleMenu()">
-				
-				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
-				  <defs/>
-			          <g id="bar1">
-			            <title>Bar</title>
-			            <g id="Graphic_9">
-			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_7">
-			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_5">
-			              <rect x="0" y="31" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
+		
+		<button id="header-menu-toggle" onclick="toggleMenu()" class="closed" accesskey="m">
+				<svg id="header-menu-toggle-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+					<defs/>
+					<title>Menu icon</title>
+					<path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#1d1d1d"/>
 				</svg>
-
 				<span class="sr-only">Menu</span>
 		</button>
-		
-		<div id="header-menu-links" class="header-align-right">
-			<ul class="header-menu">
+		<ul id="header-menu-items" class="closed" aria-expanded="false">
+			
+				<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
 				
-					<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
-					
-					<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
-					
-					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
-										
-					<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+				<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
 				
-			</ul>
-		</div>
+				<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+									
+				<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+			
+		</ul>
 		
 		
 	</nav>
-	
 </header>
 
 <main id="content" class="container">
@@ -201,7 +179,7 @@
 
 <p>I could have simply figured out the answer by doing a lot of Google searches and left it at that. That would have given us the answer we needed in the aftermath of the election but it wouldn’t have been a long term solution.</p>
 
-<p>We needed something that was responsive to change<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> so that our key facts were always correct in the moment. We also needed to be confident the sources were truthful and accurate; something most third parties couldn’t offer because their methodologies for collecting the data were unclear.</p>
+<p>We needed something that was responsive to change<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> so that our key facts were always correct in the moment. We also needed to be confident the sources were truthful and accurate; something most third parties couldn’t offer because their methodologies for collecting the data were unclear.</p>
 
 <p>Put another way, I had a pretty straight-forward user need:</p>
 
@@ -221,13 +199,13 @@
 
 <p>I created <a href="https://mps.whoare.lgbt">a website</a> backed up by <a href="https://github.com/johnpeart/lgbt-mp/tree/master/_data">a simple dataset</a>. It’s open source, meaning it can be easily updated, interrogated, verified or extracted for use elsewhere.</p>
 
-<p>It’s built using <a href="https://jekyllrb.com">Jekyll</a>, which means I have been able to host it freely on <a href="https://pages.github.com">Github</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>. Anyone can contribute to the code, because <a href="https://github.com/johnpeart/lgbt-mp/">the repository</a> is public.</p>
+<p>It’s built using <a href="https://jekyllrb.com">Jekyll</a>, which means I have been able to host it freely on <a href="https://pages.github.com">Github</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. Anyone can contribute to the code, because <a href="https://github.com/johnpeart/lgbt-mp/">the repository</a> is public.</p>
 
 <p>Anyone can contribute data to the dataset too, and it’s as easy as updating a spreadsheet because there’s no database. It’s nothing more than a  couple of <a href="https://github.com/johnpeart/lgbt-mp/tree/master/_data">CSV files</a>.</p>
 
 <h2 id="iterate-then-iterate-again">Iterate. Then iterate again</h2>
 
-<p>I started with the minimum viable product: a dataset that listed  those MPs who were LGBT on the date the dataset was compiled. Then, I created a <em>probably overkill, but very pretty</em><sup id="fnref:portcullis" role="doc-noteref"><a href="#fn:portcullis" class="footnote">3</a></sup> website to display that data more interestingly. The website was generated dynamically as the dataset was updated. “Job done”, I thought, but the minimum viable product — the dataset — quickly became <em>less-than-minimum</em>.</p>
+<p>I started with the minimum viable product: a dataset that listed  those MPs who were LGBT on the date the dataset was compiled. Then, I created a <em>probably overkill, but very pretty</em><sup id="fnref:portcullis" role="doc-noteref"><a href="#fn:portcullis" class="footnote" rel="footnote">3</a></sup> website to display that data more interestingly. The website was generated dynamically as the dataset was updated. “Job done”, I thought, but the minimum viable product — the dataset — quickly became <em>less-than-minimum</em>.</p>
 
 <p>The original dataset only captured the MP, their constituency, and the source of the data. Following the election, some MPs changed constituencies, some lost their seats, and others joined Parliament for the first time. During the 2017 to 2019 Parliament, some MPs changed parties and groups too; sometimes multiple times. That meant the dataset as conceived on day 1 was, practically, no more useful than the snapshot dataset I was trying to improve on. So I iterated.</p>
 
@@ -245,11 +223,11 @@
 
 <p>Creating this dataset meant that, when I had needed the answer for work, there was a baseline source for the information that I felt like I could trust. It also meant my colleagues could easily get the answer too.</p>
 
-<p>Making the data freely available on the open web has improved the available data as well. Other people have come looking for this data, and they’ve contributed their own information sources<sup id="fnref:tweetedatme" role="doc-noteref"><a href="#fn:tweetedatme" class="footnote">4</a></sup>.</p>
+<p>Making the data freely available on the open web has improved the available data as well. Other people have come looking for this data, and they’ve contributed their own information sources<sup id="fnref:tweetedatme" role="doc-noteref"><a href="#fn:tweetedatme" class="footnote" rel="footnote">4</a></sup>.</p>
 
 <p>The dataset substantially improves on what came before it, because it shows how we know each MP is LGBT. Many of the sources are directly attributable to the MP themselves, rather than third parties.</p>
 
-<p>Possibly the most important way I know this has been a useful endeavour though, is because it’s been used beyond just me and my old team. The dataset has been used by the BBC<sup id="fnref:bbc" role="doc-noteref"><a href="#fn:bbc" class="footnote">5</a></sup>, Sky News<sup id="fnref:sky" role="doc-noteref"><a href="#fn:sky" class="footnote">6</a></sup>, and Quartz<sup id="fnref:quartz" role="doc-noteref"><a href="#fn:quartz" class="footnote">7</a></sup>.</p>
+<p>Possibly the most important way I know this has been a useful endeavour though, is because it’s been used beyond just me and my old team. The dataset has been used by the BBC<sup id="fnref:bbc" role="doc-noteref"><a href="#fn:bbc" class="footnote" rel="footnote">5</a></sup>, Sky News<sup id="fnref:sky" role="doc-noteref"><a href="#fn:sky" class="footnote" rel="footnote">6</a></sup>, and Quartz<sup id="fnref:quartz" role="doc-noteref"><a href="#fn:quartz" class="footnote" rel="footnote">7</a></sup>.</p>
 
 <h2 id="made-something-open-it-made-the-thing-better">Made something open: it made the thing better</h2>
 
@@ -331,6 +309,7 @@
 		
 		<nav id="footer--links">
 			
+			
 			<ul>
 				
 					<li><a href="//johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
@@ -343,6 +322,7 @@
 					<li><a href="//wishlist.johnpe.art" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
 				
 			</ul>
+				
 			
 		</nav>
 	

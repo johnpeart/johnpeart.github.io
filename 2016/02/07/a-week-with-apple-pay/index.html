@@ -5,7 +5,7 @@
 	
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-04-06    -->
-<!--    Time built:    20:53    -->
+<!--    Time built:    22:35    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -123,58 +123,36 @@
 
 
   	<header id="site-header">
-	
-	<nav role="navigation" class="container">
-		<div class="header-align-left">
-			<p class="header-wordmark"><a href="//johnpe.art/">John Peart</a></p>
-		</div>
+	<nav id="header--site-nav" role="navigation" class="container">
+		
+		<p id="header--wordmark">
+			<a class="wordmark" href="//johnpe.art/" title="Go to the home page">John Peart</a>
+		</p>
 		
 		
-	
-		<button id="header-menu-toggle" onclick="toggleMenu()">
-				
-				<svg id="header-menu-toggle-image" class="" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 42 38" width="42" height="38">
-				  <defs/>
-			          <g id="bar1">
-			            <title>Bar</title>
-			            <g id="Graphic_9">
-			              <rect x="-35527137e-22" y="0" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_7">
-			              <rect x="-35527137e-22" y="15.5" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
-			          <g id="bar2">
-			            <title>Bar</title>
-			            <g id="Graphic_5">
-			              <rect x="0" y="31" width="42" height="7" fill="black"/>
-			            </g>
-			          </g>
+		
+		<button id="header-menu-toggle" onclick="toggleMenu()" class="closed" accesskey="m">
+				<svg id="header-menu-toggle-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+					<defs/>
+					<title>Menu icon</title>
+					<path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#1d1d1d"/>
 				</svg>
-
 				<span class="sr-only">Menu</span>
 		</button>
-		
-		<div id="header-menu-links" class="header-align-right">
-			<ul class="header-menu">
+		<ul id="header-menu-items" class="closed" aria-expanded="false">
+			
+				<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
 				
-					<li class="header-link"><a href="//johnpe.art/writing">Writing</a></li>
-					
-					<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
-					
-					<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
-										
-					<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+				<li class="header-link"><a href="//photos.johnpe.art">Photos</a></li>
 				
-			</ul>
-		</div>
+				<li class="header-link"><a href="//projects.johnpe.art">Projects</a></li>
+									
+				<li class="header-link"><a href="//johnpe.art/about">About me</a></li>
+			
+		</ul>
 		
 		
 	</nav>
-	
 </header>
 
 <main id="content" class="container">
@@ -191,7 +169,7 @@
 			
 			<p>I recently decided to switch current accounts. It was a fairly painless process, thanks to the current account switching service. My direct debits transferred without me having to do anything; my new debit card arrived in the post after a few days.</p>
 
-<p>One of the conditions of switching was that the account at my old bank would be shut down. My old account was shut down on 26 January and my debit card was cancelled; but I still hadn’t received the PIN number for my <em>new</em> debit card. The PIN was lost  in the post and my new debit card couldn’t be used to make payments<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+<p>One of the conditions of switching was that the account at my old bank would be shut down. My old account was shut down on 26 January and my debit card was cancelled; but I still hadn’t received the PIN number for my <em>new</em> debit card. The PIN was lost  in the post and my new debit card couldn’t be used to make payments<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>Luckily, my new bank supports <a href="http://www.apple.com/uk/apple-pay/">Apple Pay</a>; it’s a new way to pay without needing a PIN number. So I had a way to pay for things despite the current account switching snafu, and I had the opportunity to run an interesting experiment. Could I get away with <em>only</em> paying for everything on Apple Pay until my PIN eventually arrived in the post?</p>
 
@@ -203,7 +181,7 @@
 
 <p>The first time, I had to call the bank. This was the first time I’d <em>ever</em> called this bank, so they needed to send me a code in the post. When I received that, I could register the card for payment. This was a few days before my old account was closed, so I could afford to wait.</p>
 
-<p>The day after, I decided to chance it and try setting up the card again. This time, I was presented with an SMS verification option. I received the text message, popped in the code, and <em>voila</em>; Apple Pay set up complete<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>.</p>
+<p>The day after, I decided to chance it and try setting up the card again. This time, I was presented with an SMS verification option. I received the text message, popped in the code, and <em>voila</em>; Apple Pay set up complete<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
 
 <h2 id="a-new---and-constrained---way-to-pay">A new - and constrained - way to pay</h2>
 
@@ -211,7 +189,7 @@
 
 <p>First, I could only pay in shops that supported contactless card payments. Given that I live and work in central London, this turned out to be a bigger problem than you might expect.</p>
 
-<p>Second, because Apple Pay in the UK is based on the same rules that apply to contactless card payments, I could only spend up to £30 in a single transaction<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+<p>Second, because Apple Pay in the UK is based on the same rules that apply to contactless card payments, I could only spend up to £30 in a single transaction<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
 
 <h2 id="surviving-on-apple-pay">Surviving on Apple Pay</h2>
 
@@ -225,7 +203,7 @@
 
 <p>There’s a little more peace of mind paying with Apple Pay. With contactless cards, there’s always a twinge of doubt that you might accidentally trigger a payment on the wrong card - or get <a href="http://jrpeart.com/2014/08/24/card-clash-is-a-catastrophuck/"><em>card clash</em></a>. Apple Pay only authorises a payment when it can verify your finger print or device passcode, so there’s no chance of an accidental payment; which is nice.</p>
 
-<p>The most disconcerting part of paying for Apple Pay is it’s speed. Every time I paid using Apple Pay, the phone processed the payment, and there was - what can only be described as - a pregnant pause whilst the contactless terminal caught up. It’s similar to the delays between using contactless versus Oyster on the London Underground; the latter is much, much faster<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote">4</a></sup>. The lag experienced using Apple Pay <em>doesn’t</em> happen when using contactless payment cards in stores. This delay does introduce a small moment of panic to an otherwise smooth process, as you hope your payment actually went through.</p>
+<p>The most disconcerting part of paying for Apple Pay is it’s speed. Every time I paid using Apple Pay, the phone processed the payment, and there was - what can only be described as - a pregnant pause whilst the contactless terminal caught up. It’s similar to the delays between using contactless versus Oyster on the London Underground; the latter is much, much faster<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>. The lag experienced using Apple Pay <em>doesn’t</em> happen when using contactless payment cards in stores. This delay does introduce a small moment of panic to an otherwise smooth process, as you hope your payment actually went through.</p>
 
 <h3 id="the-meal-deal-is-off">The meal deal is off</h3>
 
@@ -325,6 +303,7 @@
 		
 		<nav id="footer--links">
 			
+			
 			<ul>
 				
 					<li><a href="//johnpe.art/about" class="footer--nav-link" title="Visit the About me page">About me</a></li>
@@ -337,6 +316,7 @@
 					<li><a href="//wishlist.johnpe.art" class="footer--nav-link" title="See my wishlist">Wishlist</a></li>
 				
 			</ul>
+				
 			
 		</nav>
 	

@@ -5,9 +5,9 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Apr 2021 20:53:47 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Apr 2021 20:53:47 +0000</lastBuildDate>
-    <generator>Jekyll v4.1.1</generator>
+    <pubDate>Tue, 06 Apr 2021 22:35:00 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Apr 2021 22:35:00 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>Why I quit Instagram</title>
@@ -211,13 +211,13 @@
 
 &lt;p&gt;I like writing, so I try to keep writing. The definition of success for this goal was to write 12 blog posts this year; matching my writing pace from last year.&lt;/p&gt;
 
-&lt;p&gt;After a writing spurt at the start of the year, I lost steam on this goal. Nonetheless, including this post, I’ve written 10 blog posts in 2020, and I’ve one more to go&lt;sup id=&quot;fnref:finalpost&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:finalpost&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. That means &lt;strong&gt;91% of this goal will be completed&lt;/strong&gt; and I can count it as ‘done’.&lt;/p&gt;
+&lt;p&gt;After a writing spurt at the start of the year, I lost steam on this goal. Nonetheless, including this post, I’ve written 10 blog posts in 2020, and I’ve one more to go&lt;sup id=&quot;fnref:finalpost&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:finalpost&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. That means &lt;strong&gt;91% of this goal will be completed&lt;/strong&gt; and I can count it as ‘done’.&lt;/p&gt;
 
 &lt;h3 id=&quot;start-a-podcast&quot;&gt;Start a podcast&lt;/h3&gt;
 
 &lt;p&gt;In 2019, I had an idea for a podcast called &lt;a href=&quot;/2019/01/27/department-of-bad-ideas&quot;&gt;the Department of Bad Ideas&lt;/a&gt;. I didn’t actually get around to making it though, despite putting all the infrastructure in place. So this year, I said I’d finish it but &lt;em&gt;I haven’t&lt;/em&gt;. I recorded two episodes of the podcast, but I want to do a couple more before I publish them.&lt;/p&gt;
 
-&lt;p&gt;Despite that, &lt;strong&gt;I have still achieved 100% of this goal&lt;/strong&gt;&lt;sup id=&quot;fnref:pod&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:pod&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. The success criteria for this goal was to publish 5 episodes of a podcast, and &lt;em&gt;I did do that&lt;/em&gt;. I created a podcast for the &lt;a href=&quot;http://civilservice.lgbt&quot;&gt;Civil Service LGBT+ Network&lt;/a&gt; as part of its digital pride season. It’s called the PrideON podcast, and &lt;a href=&quot;http://civilservice.lgbt/podcast&quot;&gt;you can listen to it on the Network’s website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Despite that, &lt;strong&gt;I have still achieved 100% of this goal&lt;/strong&gt;&lt;sup id=&quot;fnref:pod&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:pod&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. The success criteria for this goal was to publish 5 episodes of a podcast, and &lt;em&gt;I did do that&lt;/em&gt;. I created a podcast for the &lt;a href=&quot;http://civilservice.lgbt&quot;&gt;Civil Service LGBT+ Network&lt;/a&gt; as part of its digital pride season. It’s called the PrideON podcast, and &lt;a href=&quot;http://civilservice.lgbt/podcast&quot;&gt;you can listen to it on the Network’s website&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;be-healthier&quot;&gt;Be healthier&lt;/h3&gt;
 
@@ -274,9 +274,9 @@
     
       <item>
         <title>Building a Twitter bot for the ‘Department of Administrative Affairs’</title>
-        <description>&lt;p&gt;A couple of years ago, I started making bots on Twitter for fun. My first bot was &lt;a href=&quot;https://twitter.com/IsItMeBot&quot;&gt;@IsItMeBot&lt;/a&gt;, and I documented &lt;a href=&quot;https://www.johnpe.art/2017/01/16/its-you-twitter-bot&quot;&gt;how I made it&lt;/a&gt; back in January 2017.&lt;sup id=&quot;fnref:suspended&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:suspended&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; In this post, I’ll share how I made my &lt;em&gt;second&lt;/em&gt; bot: &lt;a href=&quot;https://twitter.com/DeptOfAdmin&quot;&gt;@DeptOfAdmin&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;A couple of years ago, I started making bots on Twitter for fun. My first bot was &lt;a href=&quot;https://twitter.com/IsItMeBot&quot;&gt;@IsItMeBot&lt;/a&gt;, and I documented &lt;a href=&quot;https://www.johnpe.art/2017/01/16/its-you-twitter-bot&quot;&gt;how I made it&lt;/a&gt; back in January 2017.&lt;sup id=&quot;fnref:suspended&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:suspended&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; In this post, I’ll share how I made my &lt;em&gt;second&lt;/em&gt; bot: &lt;a href=&quot;https://twitter.com/DeptOfAdmin&quot;&gt;@DeptOfAdmin&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The inspiration for this bot came from a binge-watching session of &lt;a href=&quot;https://en.wikipedia.org/wiki/Yes_Minister&quot;&gt;Yes, Minister&lt;/a&gt; – my second favourite politically-satirical TV show&lt;sup id=&quot;fnref:TTOI&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:TTOI&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. It’s a show full of masterful linguistic contortions that would make a Mandarin proud even today. At the centre of that show are the internal machinations of the Department of Administrative Affairs. I guess it’s kind of a pseudo-Cabinet Office&lt;sup id=&quot;fnref:CO&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:CO&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;The inspiration for this bot came from a binge-watching session of &lt;a href=&quot;https://en.wikipedia.org/wiki/Yes_Minister&quot;&gt;Yes, Minister&lt;/a&gt; – my second favourite politically-satirical TV show&lt;sup id=&quot;fnref:TTOI&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:TTOI&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. It’s a show full of masterful linguistic contortions that would make a Mandarin proud even today. At the centre of that show are the internal machinations of the Department of Administrative Affairs. I guess it’s kind of a pseudo-Cabinet Office&lt;sup id=&quot;fnref:CO&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:CO&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;Having tinkered around with the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API&quot;&gt;HTML canvas&lt;/a&gt; and Twitter APIs, I started to wonder what the Department of Administrative Affairs might look like if it existed in 2017, rather than 1987. Almost certainly it would have a social media presence; most likely a Twitter account.&lt;/p&gt;
 
@@ -349,7 +349,7 @@
 
 &lt;p&gt;With your repository set up on Github, you’ll need to create an app on Heroku next. If you’re going to be using Heroku a lot, and in particular if you’d prefer to use its git system, then you’re best off installing &lt;a href=&quot;https://devcenter.heroku.com/articles/heroku-cli&quot;&gt;Heroku Toolbelt&lt;/a&gt; and using the Terminal to create your apps. Alternatively, you can just do it using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;New&lt;/code&gt; button on &lt;a href=&quot;https://dashboard.heroku.com/apps&quot;&gt;the Heroku dashboard&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;With your Github repository and Heroku app set up, set your Github repository as the ‘Deployment Method’ using the Heroku web interface&lt;sup id=&quot;fnref:deploy&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:deploy&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. This means that every time code is pushed to the repository on Github, it can be pulled in and built by Heroku. You can set Heroku up to do the deployment automatically, or you can disable that and do it manually if you’d prefer.&lt;/p&gt;
+&lt;p&gt;With your Github repository and Heroku app set up, set your Github repository as the ‘Deployment Method’ using the Heroku web interface&lt;sup id=&quot;fnref:deploy&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:deploy&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. This means that every time code is pushed to the repository on Github, it can be pulled in and built by Heroku. You can set Heroku up to do the deployment automatically, or you can disable that and do it manually if you’d prefer.&lt;/p&gt;
 
 &lt;h2 id=&quot;accessing-the-twitter-api&quot;&gt;Accessing the Twitter API&lt;/h2&gt;
 
@@ -713,7 +713,7 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ctx&lt;/code&gt; is the canvas you’re working on&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text&lt;/code&gt; is the text you need to split up (in this case it would be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chooseQuote&lt;/code&gt; variable)&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; are the pixel coordinates for where to start printing the text onto the canvas&lt;sup id=&quot;fnref:origin&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:origin&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; are the pixel coordinates for where to start printing the text onto the canvas&lt;sup id=&quot;fnref:origin&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:origin&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maxWidth&lt;/code&gt; does what it says on the tin&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lineHeight&lt;/code&gt; is the number of pixels to add to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; once &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maxWidth&lt;/code&gt; has been reached and you need to continue printing text on a new line&lt;/li&gt;
 &lt;/ul&gt;
@@ -762,7 +762,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;ol&gt;
   &lt;li&gt;the first is what to import the image file itself (in this case, defined by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;the second and third are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; coordinates of where to draw the image&lt;sup id=&quot;fnref:origin:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:origin&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;the second and third are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; coordinates of where to draw the image&lt;sup id=&quot;fnref:origin:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:origin&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;the fourth and fifth argument are the width and height of the image – which you can make relative to the native size of the image using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.height&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -891,12 +891,12 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;This year would have seen 41 countries put forward up to 3:00 minutes of something resembling popular music. All 41 entries are now never to be voted upon – &lt;a href=&quot;/2020/03/25/this-is-not-the-song-contest&quot;&gt;except in my virtual house party&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Every year for the last 5 years, it’s been a tradition of mine to listen to the tracks on the official Eurovision album and jot down some initial impressions. This year it’s not clear if we’re going to &lt;em&gt;get&lt;/em&gt; an official album, so instead I’ve scoured the internet to listen to them on a self-compiled Eurovision playlist&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; instead. The coronavirus can’t stop me unashamedly enjoying the musical delights of a slightly geographically-expanded Europe&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Every year for the last 5 years, it’s been a tradition of mine to listen to the tracks on the official Eurovision album and jot down some initial impressions. This year it’s not clear if we’re going to &lt;em&gt;get&lt;/em&gt; an official album, so instead I’ve scoured the internet to listen to them on a self-compiled Eurovision playlist&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; instead. The coronavirus can’t stop me unashamedly enjoying the musical delights of a slightly geographically-expanded Europe&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;As ever, there are some rules:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;I’m only allowed to listen to each track once&lt;sup id=&quot;fnref:1listen&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1listen&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;I’m only allowed to listen to each track once&lt;sup id=&quot;fnref:1listen&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1listen&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Each entry is allowed a tweet-sized piece of commentary: up to 280 characters — no more, but sometimes less&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -972,7 +972,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;h3 id=&quot;belarus--da-vidna--val&quot;&gt;Belarus – Da vidna – VAL&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Da vidna&lt;/em&gt;, meaning “until dawn” is reminiscent of that track from &lt;em&gt;Made in Chelsea&lt;/em&gt;. You know, the one with the screechy sound.&lt;sup id=&quot;fnref:davidna&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:davidna&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Da vidna&lt;/em&gt;, meaning “until dawn” is reminiscent of that track from &lt;em&gt;Made in Chelsea&lt;/em&gt;. You know, the one with the screechy sound.&lt;sup id=&quot;fnref:davidna&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:davidna&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Made in Chelsea&lt;/em&gt; and &lt;em&gt;Da vidna&lt;/em&gt; have something else in common too: they’re both stilted and devoid of substance.&lt;/p&gt;
 
@@ -1078,7 +1078,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;h3 id=&quot;bulgaria--tears-getting-sober--victoria&quot;&gt;Bulgaria – Tears Getting Sober – Victoria&lt;/h3&gt;
 
-&lt;p&gt;Bulgaria has had some absolute &lt;em&gt;tunes&lt;/em&gt; in recent years&lt;sup id=&quot;fnref:bulgaria-tunes&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bulgaria-tunes&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.&lt;/p&gt;
+&lt;p&gt;Bulgaria has had some absolute &lt;em&gt;tunes&lt;/em&gt; in recent years&lt;sup id=&quot;fnref:bulgaria-tunes&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bulgaria-tunes&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.&lt;/p&gt;
 
 &lt;p&gt;It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;Bring back Poli&lt;/a&gt;!&lt;/p&gt;
 
@@ -1124,7 +1124,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;h3 id=&quot;latvia--still-breathing--samanta-tīna&quot;&gt;Latvia – Still Breathing – Samanta Tīna&lt;/h3&gt;
 
-&lt;p&gt;One of two tracks this year with an unfortunate title, given &lt;em&gt;the situation&lt;/em&gt;.&lt;sup id=&quot;fnref:coronavirus&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:coronavirus&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;One of two tracks this year with an unfortunate title, given &lt;em&gt;the situation&lt;/em&gt;.&lt;sup id=&quot;fnref:coronavirus&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:coronavirus&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Latvia takes us to the club with this over-produced track and nondescript female vocal. It throws in some (not good) rap near the end of the track before crashing into a distorted mess of an ending.&lt;/p&gt;
 
@@ -1146,7 +1146,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;h3 id=&quot;san-marino--freaky--senhit&quot;&gt;San Marino – FREAKY! – Senhit&lt;/h3&gt;
 
-&lt;p&gt;San Marino, the tiny nation always churning out &lt;em&gt;questionable&lt;/em&gt; acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a &lt;em&gt;lot&lt;/em&gt; repetition of the word “freaky”&lt;sup id=&quot;fnref:freak&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:freak&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. For once for San Marino, something I’d listen to again.&lt;/p&gt;
+&lt;p&gt;San Marino, the tiny nation always churning out &lt;em&gt;questionable&lt;/em&gt; acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a &lt;em&gt;lot&lt;/em&gt; repetition of the word “freaky”&lt;sup id=&quot;fnref:freak&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:freak&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. For once for San Marino, something I’d listen to again.&lt;/p&gt;
 
 &lt;h3 id=&quot;serbia--hasta-la-vista--hurricane&quot;&gt;Serbia – Hasta la vista – Hurricane&lt;/h3&gt;
 
@@ -1418,7 +1418,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;h3 id=&quot;reference-slide-numbers&quot;&gt;Reference slide numbers&lt;/h3&gt;
 
-&lt;p&gt;Remind presenters to say which page or slide number they are speaking to. This only really matters if the presenter isn’t showing the slides on everyone’s screen. If you’ve circulated a presentation or document in advance don’t forget to say which page or slide you’re talking about. Again, this makes it easier for everyone to follow along&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Remind presenters to say which page or slide number they are speaking to. This only really matters if the presenter isn’t showing the slides on everyone’s screen. If you’ve circulated a presentation or document in advance don’t forget to say which page or slide you’re talking about. Again, this makes it easier for everyone to follow along&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;during-the-meeting&quot;&gt;During the meeting&lt;/h2&gt;
 
@@ -1641,7 +1641,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;I could have simply figured out the answer by doing a lot of Google searches and left it at that. That would have given us the answer we needed in the aftermath of the election but it wouldn’t have been a long term solution.&lt;/p&gt;
 
-&lt;p&gt;We needed something that was responsive to change&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; so that our key facts were always correct in the moment. We also needed to be confident the sources were truthful and accurate; something most third parties couldn’t offer because their methodologies for collecting the data were unclear.&lt;/p&gt;
+&lt;p&gt;We needed something that was responsive to change&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; so that our key facts were always correct in the moment. We also needed to be confident the sources were truthful and accurate; something most third parties couldn’t offer because their methodologies for collecting the data were unclear.&lt;/p&gt;
 
 &lt;p&gt;Put another way, I had a pretty straight-forward user need:&lt;/p&gt;
 
@@ -1661,13 +1661,13 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;I created &lt;a href=&quot;https://mps.whoare.lgbt&quot;&gt;a website&lt;/a&gt; backed up by &lt;a href=&quot;https://github.com/johnpeart/lgbt-mp/tree/master/_data&quot;&gt;a simple dataset&lt;/a&gt;. It’s open source, meaning it can be easily updated, interrogated, verified or extracted for use elsewhere.&lt;/p&gt;
 
-&lt;p&gt;It’s built using &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, which means I have been able to host it freely on &lt;a href=&quot;https://pages.github.com&quot;&gt;Github&lt;/a&gt;&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Anyone can contribute to the code, because &lt;a href=&quot;https://github.com/johnpeart/lgbt-mp/&quot;&gt;the repository&lt;/a&gt; is public.&lt;/p&gt;
+&lt;p&gt;It’s built using &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, which means I have been able to host it freely on &lt;a href=&quot;https://pages.github.com&quot;&gt;Github&lt;/a&gt;&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Anyone can contribute to the code, because &lt;a href=&quot;https://github.com/johnpeart/lgbt-mp/&quot;&gt;the repository&lt;/a&gt; is public.&lt;/p&gt;
 
 &lt;p&gt;Anyone can contribute data to the dataset too, and it’s as easy as updating a spreadsheet because there’s no database. It’s nothing more than a  couple of &lt;a href=&quot;https://github.com/johnpeart/lgbt-mp/tree/master/_data&quot;&gt;CSV files&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;iterate-then-iterate-again&quot;&gt;Iterate. Then iterate again&lt;/h2&gt;
 
-&lt;p&gt;I started with the minimum viable product: a dataset that listed  those MPs who were LGBT on the date the dataset was compiled. Then, I created a &lt;em&gt;probably overkill, but very pretty&lt;/em&gt;&lt;sup id=&quot;fnref:portcullis&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:portcullis&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; website to display that data more interestingly. The website was generated dynamically as the dataset was updated. “Job done”, I thought, but the minimum viable product — the dataset — quickly became &lt;em&gt;less-than-minimum&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I started with the minimum viable product: a dataset that listed  those MPs who were LGBT on the date the dataset was compiled. Then, I created a &lt;em&gt;probably overkill, but very pretty&lt;/em&gt;&lt;sup id=&quot;fnref:portcullis&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:portcullis&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; website to display that data more interestingly. The website was generated dynamically as the dataset was updated. “Job done”, I thought, but the minimum viable product — the dataset — quickly became &lt;em&gt;less-than-minimum&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;The original dataset only captured the MP, their constituency, and the source of the data. Following the election, some MPs changed constituencies, some lost their seats, and others joined Parliament for the first time. During the 2017 to 2019 Parliament, some MPs changed parties and groups too; sometimes multiple times. That meant the dataset as conceived on day 1 was, practically, no more useful than the snapshot dataset I was trying to improve on. So I iterated.&lt;/p&gt;
 
@@ -1685,11 +1685,11 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;Creating this dataset meant that, when I had needed the answer for work, there was a baseline source for the information that I felt like I could trust. It also meant my colleagues could easily get the answer too.&lt;/p&gt;
 
-&lt;p&gt;Making the data freely available on the open web has improved the available data as well. Other people have come looking for this data, and they’ve contributed their own information sources&lt;sup id=&quot;fnref:tweetedatme&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:tweetedatme&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Making the data freely available on the open web has improved the available data as well. Other people have come looking for this data, and they’ve contributed their own information sources&lt;sup id=&quot;fnref:tweetedatme&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:tweetedatme&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;The dataset substantially improves on what came before it, because it shows how we know each MP is LGBT. Many of the sources are directly attributable to the MP themselves, rather than third parties.&lt;/p&gt;
 
-&lt;p&gt;Possibly the most important way I know this has been a useful endeavour though, is because it’s been used beyond just me and my old team. The dataset has been used by the BBC&lt;sup id=&quot;fnref:bbc&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bbc&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, Sky News&lt;sup id=&quot;fnref:sky&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sky&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;, and Quartz&lt;sup id=&quot;fnref:quartz&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:quartz&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Possibly the most important way I know this has been a useful endeavour though, is because it’s been used beyond just me and my old team. The dataset has been used by the BBC&lt;sup id=&quot;fnref:bbc&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bbc&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, Sky News&lt;sup id=&quot;fnref:sky&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sky&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;, and Quartz&lt;sup id=&quot;fnref:quartz&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:quartz&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;made-something-open-it-made-the-thing-better&quot;&gt;Made something open: it made the thing better&lt;/h2&gt;
 

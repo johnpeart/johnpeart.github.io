@@ -36,9 +36,7 @@ Daniel Megarry writes for [Gay Times](http://www.gaytimes.co.uk/life/99374/91-ye
 How about these alternative headlines?
 
 1. “91-year-old former civil servant talks about coming out on BBC Radio 5”
-
 2. “91-year-old lesbian shares her memories of being a ‘disobedient civil servant’ on BBC Radio 5”
-
 3. “Former aide to the Prime Minister on coming out at 91-years-old”
 
 ### “Tom Daley opens up about desire to start a family with ‘beautiful’ husband Dustin Lance Black”
@@ -48,9 +46,7 @@ How about these alternative headlines?
 Now for some alternative headlines sans-“opening up”:
 
 1. “Tom Daley wants to start a family with ‘beautiful’ husband Dustin Lance Black”
-
 2. “Tom Daley talks about wanting children with his ‘beautiful’ husband Dustin Lance Black”
-
 3. Or if you were being a bit more blunt: “Married couple want kids”
 
 ### “Star Trek’s Anthony Rapp and Wilson Cruz open up about first gay kiss”
@@ -58,9 +54,7 @@ Now for some alternative headlines sans-“opening up”:
 In [this article from Pink News](http://www.pinknews.co.uk/2018/01/04/star-treks-anthony-rapp-and-wilson-cruz-open-up-about-first-gay-kiss/), Anthony Rapp and Wilson Cruz — Star Trek’s first ever same-sex couples — talk about their first kiss in the CBS and Netflix series, Star Trek Discovery. The show may have been out of this world, but this headline isn’t; some ideas:
 
 1. “Star Trek’s Anthony Rapp and Wilson Cruz reveal the details of their first onscreen kiss”
-
 2. “Star Trek’s first same-sex couple talk romance and kissing onscreen”
-
 3. “All about Anthony Rapp and Wilson Cruz’s first onscreen kiss in Star Trek Discovery”
 
 ### “‘It was love at first sight’: Policemen open up about Pride in London proposal”
@@ -68,9 +62,7 @@ In [this article from Pink News](http://www.pinknews.co.uk/2018/01/04/star-treks
 Pink News covered [this proposal at Pride in London](http://www.pinknews.co.uk/2016/06/27/it-was-love-at-first-sight-policemen-open-up-about-pride-in-london-proposal/). The use of “open up” in the headline is about as original now as proposing at Pride is. Some alternatives: 
 
 1. “‘It was love at first sight’: Policemen reveal all about their Pride in London proposal”
-
 2. “Policemen who got engaged at Pride in London say ‘it was love at first sight’”
-
 3. “‘It was love at first sight’: the story behind Pride in London policemen’s proposal”
 
 ### “Husbands who now live as a ‘throuple’ with girlfriend open up about their unusual marriage”
@@ -78,9 +70,7 @@ Pink News covered [this proposal at Pride in London](http://www.pinknews.co.uk/2
 [Attitude profile the relationship](https://attitude.co.uk/article/16444/husbands-who-now-live-as-a-throuple-with-girlfriend-open-up-about-their-unusual-marriage/) of Chris, Matt and Kate in this article. They’re a throuple. Here’s some other ways they could have introduced their relationship without making it sound like some kind of shameful secret they need to “open up” about:
 
 1. “Husbands who now live as a ‘throuple’ with girlfriend share the details of their unconventional marriage”
-
 2. “What it’s like being in a ‘throuple’ from the husbands and girlfriend who live as one”
-
 3. “Two husbands and girlfriend tell us what its like living as a ‘throuple’”
 
 ## It’s really not that hard is it?

@@ -42,6 +42,7 @@ In this instance, the Conservative and Liberal Democrat parties should seek to d
 | Statement: Mark Hoban MP (Banking Reform)                             | Jun 17, 2010 |
 | Financial Services Act 2012 — Second Reading                          | Feb 6, 2012  |
 | Financial Services Act 2012 — Third Reading                           | May 22, 2012 |
+|=======================================|
 | **TABLE 1:** Data sources – transcripts used in Alceste |
         
 I employ automated content analysis, using the Alceste software package, to analyse two sets of transcripts from the UK House of Commons, one prior to the 2010 Act, and another prior to the 2012 Act (Table 1). Speeches are likely to be most representative of actors’ motivations, and provide sufficiently reliable data for analysis. Comparing each set of debates allows us to assess motivations over time and test the hypothesis, which, if accurate, should show rhetoric as a prominent feature throughout the debates.
@@ -66,11 +67,14 @@ The exact way that Alceste completes the analysis has been extensively detailed 
 | Unique words analysed | 1,873        | 5,104          |
 | ICUs                  | 115          | 282            |
 | Classified ECUs       | 889 (81.68%) | 1,132 (65.13%) |
-| Lexical classes       | 4            | 3              |               
+| Lexical classes       | 4            | 3              |   
+|=======================================|            
 | **TABLE 3:** Basic results |
 
 ![Figure 1][fig-1]
+
 ![Figure 2][fig-2]
+
 Over 100,000 words were analysed across 397 instances of speech; Table 3 shows the basic results. Whilst the 2010 Act corpus is smaller than the 2012 Act, both attain reasonably robust classifications (82% and 65%). Figures 1-2 show the ‘descendant hierarchical classifications’; these map how closely each class is related to another. An analysis of the most significant word forms and ECUs for each class reveals similar topics of discussion running across both corpora. Classes 1, 3, and 4 in the 2010 corpus, broadly equate to Classes 3, 1, and 2 respectively in the 2012 corpus — though the size of each class is quite different. One class — ‘Consumer credit market and financial education’ — is missing from the latter corpus. One likely explanation for this is the significant amount of lobbying and media attention given to financial education during this period (cf. BBC News, 2010). This was absent from the 2012 Act debates. Some characteristic ECUs for this class include:
                 
 > **better** **protect** the **taxpayer**; **importantly**, restore **consumers'** **confidence** in **financial** **services** by **providing** **people** with greater **protection** and **education** […] 

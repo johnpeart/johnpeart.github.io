@@ -81,7 +81,7 @@ And you never know, maybe one day I’ll be able to start a list of LGBT Prime M
 
 [^2]: Github lets you host projects for free on their website if you’re building them in Jekyll. The domain name costs me about £20 a year.
 
-[^portcullis]: It gave me an excuse to create [this pride inspired portcullis]. A *different* portcullis is part of the UK Parliament’s official brand identity.
+[^portcullis]: It gave me an excuse to create [this pride inspired portcullis](https://mps.whoare.lgbt/assets/images/site/logo.svg). A *different* portcullis is part of the UK Parliament’s official brand identity.
 
 [^tweetedatme]: I, of course, looked to update the dataset in the wake of the December 2019 general election. In the days after the poll, I had people tweeting at me that I’d never met, letting me know which MPs I’d missed and even sending me sources. My favourite was perhaps where someone had pointed me towards a speech of newly appointed Darlington MP [Peter Gibson’s](https://www.facebook.com/darlingtonconservativeparty/videos/2550400468415917/) in which he thanks his partner for their support during the campaign.
 

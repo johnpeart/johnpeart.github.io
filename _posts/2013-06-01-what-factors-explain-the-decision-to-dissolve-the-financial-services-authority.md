@@ -133,67 +133,36 @@ Of course, this data set is limited, and a wider view of the debate around these
 <div class="footnotes" markdown="1">
 
 1. **Alesina, A. and Tabellini, G.** (2005) ‘Why Do Politicians Delegate?’, National Bureau of Economic Research Working Paper Series, No. 11531.
-
 2. **Bailey, A. and Schonhardt-Bailey, C.** (2008) ‘Does Deliberation Matter in FOMC Monetary Policymaking? The Volcker Revolution of 1979’, Political Analysis, 16(4), 404-427.
-
 3. **Bailey, A. and Schonhardt-Bailey, C.** (2010) ‘Deliberation and Oversight in Monetary Policy, 1976-2008’, Southern Economic Association Annual Meeting, Atlanta, 20th-22nd November, 2010.
-
 4. **BBC** (2010) ‘Election causes financial reforms to be dropped’, [online], available: <a href="http://news.bbc.co.uk/1/hi/business/8608969.stm">http://news.bbc.co.uk/1/hi/business/8608969.stm</a> [accessed 10 March 2013].
-
 5. **Boettke, P. J., Coyne, C. J. and Leeson, P. T.** (2008) ‘Institutional Stickiness and the New Development Economics’, American Journal of Economics and Sociology, 67(2), 331-358.
-
 6. **Briault, C.** (1999) ‘The Rationale for a Single National Financial Services Regulator’, Financial Services Authority Occasional Paper No. 2.
-
 7. **Chubb, J. E.** (1988) ‘Institutions, the Economy, and the Dynamics of State Elections’, The American Political Science Review, 82(1), 133-133.
-
 8. **Conservative Party.** (2010) ‘Invitation to Join the Government of Britain: The Conservative Manifesto 2010’, Conservative Policy Unit.
-
 9. **Downs, A.** (1957) ‘An economic theory of democracy’, New York :: Harper & Row.
-
 10. **<i>Financial Services Act 2010</i>**, (c.28), London: Stationery Office.
-
 11. **<i>Financial Services Act 2012</i>**, (c.21), London: Stationery Office.
-
 12. **Fiorina, M. P.** (1989) ‘Congress: keystone of the Washington establishment’, 2nd ed., London: Yale University Press.
-
 13. **Gilardi, F.** (2010) ‘Who Learns from What in Policy Diffusion Processes?’, American Journal of Political Science, 54(3), 650-666.
-
 14. **Hall, P. A. and Taylor, R. C. R.** (1996) ‘Political Science and the Three New Institutionalisms’, Political Studies, 44(5), 936-957.
-
 15. **Joint Committee on Financial Services and Markets** (1998) ‘Joint Committee on Financial Services and Markets &#8211; First Report’ London: Stationary Office
-
 16. **King, M.** (2005) ‘Epistemic Communities and the Diffusion of Ideas: Central Bank Reform in the United Kingdom’, West European Politics, 28(1), 94-123.
-
 17. **Kronberger, N. and Wagner, W.** (2000) ‘Keywords in Context: Statistical Analysis of Text Features’ in Bauer, M. W. and Gaskell, G., eds., Qualitative Researching with Text, Image and Sound: A Practical Handbook, London: SAGE, 299-317.
-
 18. **Kydland, F. E. and Prescott, E. C.** (1977) ‘Rules Rather than Discretion: The Inconsistency of Optimal Plans’, Journal of Political Economy, 85(3), 473-491.
-
 19. **Liberal Democrat Party.** (2010) ‘Liberal Democrat Manifesto 2010’, Liberal Democrat Publications.
-
 20. **Marcussen, M.** (2005) ‘Central banks on the move’, Journal of European Public Policy, 12(5), 903-923.
-
 21. **Moser, P.** (1999) ‘Checks and balances, and the supply of central bank independence’, European Economic Review, 43(8), 1569-1593.
-
 22. **North, D. C.** (1990) ‘Institutions, institutional change, and economic performance, Political economy of institutions and decisions’, Cambridge: Cambridge University Press.
-
 23. **Pierson, P.** (2000a) ‘Increasing returns, path dependence, and the study of politics’, The American Political Science Review, 94(2), 251-267.
-
 24. **Pierson, P.** (2000b) ‘The Limits of Design: Explaining Institutional Origins and Change’, Governance, 13(4), 475.
-
 25. **Riker, W. H.** (1962) ‘The theory of political coalitions’, New Haven: Yale University Press.
-
 26. **Schonhardt-Bailey, C.** (2005) ‘Measuring Ideas More Effectively: An Analysis of Bush and Kerry’s National Security Speeches’, PS: Political Science & Politics, 38(04), 701-711.
-
 27. **Schonhardt-Bailey, C.** (2008) ‘The Congressional Debate on Partial-Birth Abortion: Constitutional Gravitas and Moral Passion’, British Journal of Political Science, 38(03), 383-410.
-
 28. **Schonhardt-Bailey, C.** (2010) ‘Problems and solutions in displaying results from Alceste’, [online], available: <a href="http://personal.lse.ac.uk/SCHONHAR/">http://personal.lse.ac.uk/SCHONHAR/</a> [accessed March 2013].
-
 29. **Schonhardt-Bailey, C.** (2012) ‘Looking at Congressional Committee Decisions from Different Perspectives: Is the Added Effort Worth It?’, 5th ESRC Research Methods Festival, St Catherine’s College, Oxford 2nd-5th July 2012, 1-39
-
 30. **Schonhardt-Bailey, C., Yager, E. and Lahlou, S.** (2012) ‘Yes, Ronald Reagan’s Rhetoric Was Unique—But Statistically, How Unique?’, Presidential Studies Quarterly, 42(3), 482-513.
-
 31. **UK Cabinet Office** (2010) ‘The Coalition: Our Programme for Government’, Stationery Office, 9.
-
 32. **van der Brug, W., van der EijK, C. and Franklin, M.** (2007) ‘The Economy and the Vote: Economic Conditions and Elections in Fifteen Countries’, Cambridge University Press.
 
 </div>

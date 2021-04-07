@@ -765,6 +765,28 @@ p#header--wordmark a { display: inline-block; }
 
 p#header--wordmark a.wordmark { font-weight: bold; }
 
+p#header--wordmark a.wordmark:link { color: #1d1d1d; }
+
+@media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:link { color: #fafafa; } }
+
+p#header--wordmark a.wordmark:visited { color: #adb5bd; }
+
+@media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:visited { color: #868e96; } }
+
+p#header--wordmark a.wordmark:hover { color: #009fe3; text-decoration: none; }
+
+@media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:hover { color: #009fe3; } }
+
+p#header--wordmark a.wordmark:focus { color: #fafafa; background: #009fe3; outline: 2px #009fe3 solid; }
+
+@media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:focus { color: #fafafa; } }
+
+@media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:focus { background: #009fe3; } }
+
+@media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:focus { outline: 2px #009fe3 solid; } }
+
+p#header--wordmark a.wordmark:active { text-decoration: underline; }
+
 p#header--wordmark a.site-title { font-weight: normal; margin-left: 10px; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { p#header--wordmark a.site-title { margin-left: 15px; } }
@@ -839,11 +861,11 @@ button#header-menu-toggle svg#header-menu-toggle-image path#menuicon { fill: #ad
 
 @media (prefers-color-scheme: dark) { button#header-menu-toggle svg#header-menu-toggle-image path#menuicon { fill: #868e96; } }
 
-button#header-menu-toggle.open svg#header-menu-toggle-image path#menuicon { fill: #1d1d1d; transform-origin: center; transform: rotate(45deg); transition: 0.25s all; }
+button#header-menu-toggle.open svg#header-menu-toggle-image path#menuicon { fill: #1d1d1d; transform-origin: center; transform: rotate(45deg); transition: 0.1s all; }
 
 @media (prefers-color-scheme: dark) { button#header-menu-toggle.open svg#header-menu-toggle-image path#menuicon { fill: #fafafa; } }
 
-button#header-menu-toggle:hover svg#header-menu-toggle-image path#menuicon { fill: #009fe3; transition: 0.25s all; }
+button#header-menu-toggle:hover svg#header-menu-toggle-image path#menuicon { fill: #009fe3; transition: 0.1s all; }
 
 @media (prefers-color-scheme: dark) { button#header-menu-toggle:hover svg#header-menu-toggle-image path#menuicon { fill: #009fe3; } }
 
@@ -865,33 +887,17 @@ button#header-menu-toggle:active { outline: 2px #009fe3 solid; background: #009f
 
 @media (prefers-color-scheme: dark) { button#header-menu-toggle:active { background: #009fe3; } }
 
-button#header-menu-toggle:active svg#header-menu-toggle-image path#menuicon { fill: #fafafa; transition: 0.1s all; }
+button#header-menu-toggle:active svg#header-menu-toggle-image path#menuicon { fill: #fafafa; transform-origin: center; transform: rotate(22.5deg); transition: 0.1s all; }
 
 @media (prefers-color-scheme: dark) { button#header-menu-toggle:active svg#header-menu-toggle-image path#menuicon { fill: #fafafa; } }
 
-ul#header-menu-items { display: block; position: relative; float: none; clear: both; z-index: 1000; width: 100%; background: #fafafa; padding-left: 0; transition: all 0.25s; overflow-y: scroll; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ }
+ul#header-menu-items { display: block; position: relative; float: none; clear: both; z-index: 1000; background: #fafafa; padding-left: 0; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ }
 
 @media (prefers-color-scheme: dark) { ul#header-menu-items { background: #1d1d1d; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { ul#header-menu-items { overflow-y: hidden; } }
+ul#header-menu-items.closed { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { ul#header-menu-items { overflow-y: hidden; } }
-
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { ul#header-menu-items { overflow-y: hidden; } }
-
-@media only screen and (min-width: 1200px) { ul#header-menu-items { overflow-y: hidden; } }
-
-ul#header-menu-items.closed { height: 0px; opacity: 0; }
-
-ul#header-menu-items.open { height: calc(100vh - 56px); opacity: 1; }
-
-@media only screen and (min-width: 600px) and (max-width: 765px) { ul#header-menu-items.open { height: 70px; } }
-
-@media only screen and (min-width: 766px) and (max-width: 999px) { ul#header-menu-items.open { height: 70px; } }
-
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { ul#header-menu-items.open { height: 70px; } }
-
-@media only screen and (min-width: 1200px) { ul#header-menu-items.open { height: 70px; } }
+ul#header-menu-items.open { height: auto; width: 100%; opacity: 1; }
 
 ul#header-menu-items::-webkit-scrollbar { display: none; }
 
@@ -1693,7 +1699,7 @@ body#about-home h5.about-job-projects { text-align: left; font-size: 22px; line-
 
 @media only screen and (min-width: 1200px) { body#about-home h5.about-job-projects { padding: 30px 0; } }
 
-body#about-home button.about-job-entry--header { border: 0; border-radius: 0; background: none; color: inherit; font-family: inherit; font-size: inherit; line-height: inherit; text-decoration: none; padding: 0; margin: 0; cursor: pointer; display: block; position: relative; width: 100%; text-align: left; padding: 11px 0; border-top: 1px solid #ced4da; }
+body#about-home button.about-job-entry--header { border: 0; border-radius: 0; background: none; color: inherit; font-family: inherit; font-size: inherit; line-height: inherit; text-decoration: none; padding: 0; margin: 0; cursor: pointer; box-sizing: border-box; display: block; position: relative; width: 100%; text-align: left; padding: 11px 0; border-top: 1px solid #ced4da; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home button.about-job-entry--header { padding: 11px 0; } }
 
@@ -1705,25 +1711,9 @@ body#about-home button.about-job-entry--header { border: 0; border-radius: 0; ba
 
 @media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header { border-top: 1px solid #495057; } }
 
-body#about-home button.about-job-entry--header:hover svg#header-menu-toggle-image path#menuicon { fill: #009fe3; transition: 0.25s all; }
-
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:hover svg#header-menu-toggle-image path#menuicon { fill: #009fe3; } }
-
-body#about-home button.about-job-entry--header:focus { background: #009fe3; outline: 2px #009fe3 solid; }
-
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { background: #009fe3; } }
-
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { outline: 2px #009fe3 solid; } }
-
-body#about-home button.about-job-entry--header:active { outline: 2px #009fe3 solid; background: #009fe3; }
-
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { outline: 2px #009fe3 solid; } }
-
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { background: #009fe3; } }
-
 body#about-home button.about-job-entry--header h4.about-job-title span.about-job-title--label { max-width: calc(100% - 30px); float: left; }
 
-body#about-home button.about-job-entry--header h4.about-job-title:after { display: block; position: relative; top: 0; right: 0; left: auto; content: '+'; width: 30px; float: right; text-align: right; font-size: 22px; line-height: 1.25; color: #1d1d1d; }
+body#about-home button.about-job-entry--header h4.about-job-title:after { display: block; position: relative; top: 0; right: 0; left: auto; content: '+'; width: 30px; float: right; text-align: right; font-size: 22px; line-height: 1.25; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home button.about-job-entry--header h4.about-job-title:after { font-size: 22px; } }
 
@@ -1741,11 +1731,31 @@ body#about-home button.about-job-entry--header h4.about-job-title:after { displa
 
 @media only screen and (min-width: 1200px) { body#about-home button.about-job-entry--header h4.about-job-title:after { line-height: 1.25; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header h4.about-job-title:after { color: #fafafa; } }
+body#about-home button.about-job-entry--header p.about-time { display: block; position: relative; width: 100%; clear: both; }
 
 body#about-home button.about-job-entry--header.active h4.about-job-title:after { content: "–"; }
 
-body#about-home button.about-job-entry--header p.about-time { display: block; position: relative; width: 100%; clear: both; }
+body#about-home button.about-job-entry--header:hover { color: #009fe3; }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:hover { color: #009fe3; } }
+
+body#about-home button.about-job-entry--header:focus { color: #fafafa; background: #009fe3; outline: 3px #009fe3 solid; border: 1px #009fe3 solid; outline-offset: 3px; }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { color: #fafafa; } }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { background: #009fe3; } }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { outline: 3px #009fe3 solid; } }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { border: 1px #009fe3 solid; } }
+
+body#about-home button.about-job-entry--header:active { color: #fafafa; background: #009fe3; outline: 3px #009fe3 solid; border-top: 1px solid #009fe3; }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { color: #fafafa; } }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { background: #009fe3; } }
+
+@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { outline: 3px #009fe3 solid; } }
 
 body#about-home button.about-job-entry--header::after { content: ""; clear: both; display: table; }
 

@@ -81,7 +81,7 @@ a:visited { color: #1d1d1d; }
 
 @media (prefers-color-scheme: dark) { a:visited { color: #fafafa; } }
 
-a:hover { color: #009fe3; text-decoration: none; }
+a:hover { color: #009fe3; text-decoration: underline; }
 
 @media (prefers-color-scheme: dark) { a:hover { color: #009fe3; } }
 
@@ -175,7 +175,7 @@ sup { font-feature-settings: "ss02", "tnum", "liga", "zero", "kern", "frac"; tex
 
 sup a { text-decoration: none; }
 
-sup a:hover { text-decoration: none; }
+sup a:hover { text-decoration: underline; }
 
 sup a:focus { text-decoration: none; }
 
@@ -773,7 +773,7 @@ p#header--wordmark a.wordmark:visited { color: #1d1d1d; }
 
 @media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:visited { color: #fafafa; } }
 
-p#header--wordmark a.wordmark:hover { color: #009fe3; text-decoration: none; }
+p#header--wordmark a.wordmark:hover { color: #009fe3; text-decoration: underline; }
 
 @media (prefers-color-scheme: dark) { p#header--wordmark a.wordmark:hover { color: #009fe3; } }
 
@@ -805,7 +805,7 @@ p#header--wordmark a.site-title:visited { color: #868e96; }
 
 @media (prefers-color-scheme: dark) { p#header--wordmark a.site-title:visited { color: #adb5bd; } }
 
-p#header--wordmark a.site-title:hover { color: #009fe3; text-decoration: none; }
+p#header--wordmark a.site-title:hover { color: #009fe3; text-decoration: underline; }
 
 @media (prefers-color-scheme: dark) { p#header--wordmark a.site-title:hover { color: #009fe3; } }
 
@@ -1013,7 +1013,41 @@ aside#footer--wordmark { float: none; width: 100%; }
 
 @media only screen and (min-width: 1200px) { aside#footer--wordmark { width: 50%; } }
 
-aside#footer--wordmark p.footer--wordmark { font-weight: bold; padding-bottom: 6px; }
+aside#footer--wordmark p.footer--wordmark { font-weight: bold; padding-bottom: 0; font-size: 19.8px; line-height: 1.25; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { aside#footer--wordmark p.footer--wordmark { font-size: 19.8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { aside#footer--wordmark p.footer--wordmark { font-size: 19.8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { aside#footer--wordmark p.footer--wordmark { font-size: 23.4px; } }
+
+@media only screen and (min-width: 1200px) { aside#footer--wordmark p.footer--wordmark { font-size: 27px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { aside#footer--wordmark p.footer--wordmark { line-height: 1.25; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { aside#footer--wordmark p.footer--wordmark { line-height: 1.25; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { aside#footer--wordmark p.footer--wordmark { line-height: 1.25; } }
+
+@media only screen and (min-width: 1200px) { aside#footer--wordmark p.footer--wordmark { line-height: 1.2; } }
+
+aside#footer--wordmark a.footer--site-link { font-size: 19.8px; line-height: 1.25; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { aside#footer--wordmark a.footer--site-link { font-size: 19.8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { aside#footer--wordmark a.footer--site-link { font-size: 19.8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { aside#footer--wordmark a.footer--site-link { font-size: 23.4px; } }
+
+@media only screen and (min-width: 1200px) { aside#footer--wordmark a.footer--site-link { font-size: 27px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { aside#footer--wordmark a.footer--site-link { line-height: 1.25; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { aside#footer--wordmark a.footer--site-link { line-height: 1.25; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { aside#footer--wordmark a.footer--site-link { line-height: 1.25; } }
+
+@media only screen and (min-width: 1200px) { aside#footer--wordmark a.footer--site-link { line-height: 1.2; } }
 
 nav#footer--links { float: none; width: 100%; }
 

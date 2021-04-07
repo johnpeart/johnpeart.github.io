@@ -869,7 +869,7 @@ button#header-menu-toggle:active svg#header-menu-toggle-image path#menuicon { fi
 
 @media (prefers-color-scheme: dark) { button#header-menu-toggle:active svg#header-menu-toggle-image path#menuicon { fill: #fafafa; } }
 
-ul#header-menu-items { display: block; position: relative; float: none; clear: both; z-index: 1000; width: 100%; background: #fafafa; transition: all 0.25s; overflow-y: scroll; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ }
+ul#header-menu-items { display: block; position: relative; float: none; clear: both; z-index: 1000; width: 100%; background: #fafafa; padding-left: 0; transition: all 0.25s; overflow-y: scroll; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ }
 
 @media (prefers-color-scheme: dark) { ul#header-menu-items { background: #1d1d1d; } }
 

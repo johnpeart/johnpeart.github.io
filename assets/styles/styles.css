@@ -1321,7 +1321,7 @@ body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loo
 
 @media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before { font-size: 60px; } }
 
-body#blog-loop ul.loop { padding-left: 0; float: none; width: 100%; padding-top: 0; }
+body#blog-loop ul.loop { padding-left: 0; padding-bottom: 0; float: none; width: 100%; padding-top: 0; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop ul.loop { float: left; } }
 

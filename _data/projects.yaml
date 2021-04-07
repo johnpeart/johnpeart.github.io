@@ -54,7 +54,7 @@
   hidden: false
   projects:
   - name: "Image Maker"
-    url: "//www.johnpe.art/image-maker"
+    url: "//www.johnpe.art/michelangelo"
     notes: "A web app for creating images for social media"
     hidden: false
   - name: "Printrello"

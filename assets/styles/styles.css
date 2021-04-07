@@ -1609,6 +1609,8 @@ body#about-home section#page-content > section { padding-bottom: 0; }
 
 @media only screen and (min-width: 1200px) { body#about-home section#page-content > section { padding-bottom: 45px; } }
 
+body#about-home section#page-content > section::after { content: ""; clear: both; display: table; }
+
 body#about-home h1.page-title { font-size: 55px; padding-bottom: 15px; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home h1.page-title { font-size: 60px; } }
@@ -1804,5 +1806,47 @@ body#about-home ul.about-job-projects li::before { display: block; position: abs
 @media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home ul.about-job-projects li::before { left: 13px; } }
 
 @media only screen and (min-width: 1200px) { body#about-home ul.about-job-projects li::before { left: 15px; } }
+
+body#projects-home section#page-content > section { padding-bottom: 0; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home section#page-content > section { padding-bottom: 0; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home section#page-content > section { padding-bottom: 33px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home section#page-content > section { padding-bottom: 39px; } }
+
+@media only screen and (min-width: 1200px) { body#projects-home section#page-content > section { padding-bottom: 45px; } }
+
+body#projects-home section#page-content > section::after { content: ""; clear: both; display: table; }
+
+body#projects-home h1.page-title { font-size: 55px; padding-bottom: 15px; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h1.page-title { font-size: 60px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h1.page-title { font-size: 60px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h1.page-title { font-size: 126px; } }
+
+@media only screen and (min-width: 1200px) { body#projects-home h1.page-title { font-size: 123px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h1.page-title { padding-bottom: 30px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h1.page-title { padding-bottom: 45px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h1.page-title { padding-bottom: 45px; } }
+
+@media only screen and (min-width: 1200px) { body#projects-home h1.page-title { padding-bottom: 45px; } }
+
+body#projects-home h2.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { text-align: left; font-size: 33.75px; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h2.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 40px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h2.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 48px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h2.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 54px; } }
+
+@media only screen and (min-width: 1200px) { body#projects-home h2.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 60px; } }
+
+body#projects-home h2.projects-header.projects-blogs, body#projects-home body[id$='post'] #markdown-toc.projects-header.projects-blogs:before, body[id$='post'] body#projects-home #markdown-toc.projects-header.projects-blogs:before { padding-top: 0; }
 
 /*# sourceMappingURL=styles.css.map */

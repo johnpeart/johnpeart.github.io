@@ -53,7 +53,13 @@ collections:
     defaults:
       values:
         layout: blog/post
-        
+  guides:
+    output: true
+    permalink: /guide/:title/
+    defaults:
+      values:
+        layout: manuals/post
+             
 ##################
 # Build settings #
 ##################

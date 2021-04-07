@@ -11,9 +11,10 @@ url: "https://www.johnpe.art"
 ####################
 # Feature settings #
 ####################
+menu-subdomain: false
 menu-header: true
 menu-footer: true
-analytics: true
+analytics: false
 
 ###############
 # Asset paths #

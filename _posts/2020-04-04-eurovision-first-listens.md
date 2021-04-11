@@ -5,8 +5,6 @@ excerpt: Eurovision is cancelled, but I’ve listened to every entry for this ye
 layout: blog/post
 image: /eurovision-280-character-listens.png
 permalink: /2020/04/04/eurovision-first-listens
-redirect_from: 
-- /eurovision
 category: [eurovision]
 ---
 

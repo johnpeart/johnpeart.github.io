@@ -72,11 +72,10 @@ sass:
   sass_dir: _sass
 
 plugins:
+- jekyll-remote-theme
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-redirect-from
-
-remote_theme: johnpeart/theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

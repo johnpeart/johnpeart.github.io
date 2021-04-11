@@ -1860,7 +1860,7 @@ body#about-home h3.about-organisation a, body#about-home span.about-organisation
 
 body#about-home article:first-of-type > h3.about-organisation, body#about-home article:first-of-type > span.about-organisation.sub-legend { padding-top: 0; }
 
-body#about-home h4.about-job-title { text-align: left; padding: 0; font-style: normal; font-size: 22px; line-height: 1.25; }
+body#about-home h4.about-job-title { display: inline-block; text-align: left; padding: 0; font-style: normal; font-size: 22px; line-height: 1.25; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home h4.about-job-title { font-size: 22px; } }
 
@@ -1906,79 +1906,79 @@ body#about-home h5.about-job-projects { text-align: left; font-size: 22px; line-
 
 @media only screen and (min-width: 1200px) { body#about-home h5.about-job-projects { padding: 30px 0; } }
 
-body#about-home button.about-job-entry--header { border: 0; border-radius: 0; background: none; color: inherit; font-family: inherit; font-size: inherit; line-height: inherit; text-decoration: none; padding: 0; margin: 0; cursor: pointer; box-sizing: border-box; display: block; position: relative; width: 100%; text-align: left; padding: 11px 0; border-top: 1px solid #ced4da; }
+body#about-home summary.about-job-entry { /* Hide the marker completely. */ list-style-image: '+'; display: block; position: relative; width: 100%; text-align: left; box-sizing: content-box; padding: 11px 0; border-top: 1px solid #ced4da; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home button.about-job-entry--header { padding: 11px 0; } }
+body#about-home summary.about-job-entry::-webkit-details-marker { display: none; }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home button.about-job-entry--header { padding: 11px 0; } }
+body#about-home summary.about-job-entry:before { display: block; position: relative; top: 0; right: 0; left: auto; content: '+'; width: 30px; float: right; text-align: right; font-weight: bold; font-size: 22px; line-height: 1; }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home button.about-job-entry--header { padding: 13px 0; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home summary.about-job-entry:before { font-size: 22px; } }
 
-@media only screen and (min-width: 1200px) { body#about-home button.about-job-entry--header { padding: 15px 0; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home summary.about-job-entry:before { font-size: 22px; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header { border-top: 1px solid #495057; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home summary.about-job-entry:before { font-size: 26px; } }
 
-body#about-home button.about-job-entry--header h4.about-job-title span.about-job-title--label { max-width: calc(100% - 30px); float: left; }
+@media only screen and (min-width: 1200px) { body#about-home summary.about-job-entry:before { font-size: 30px; } }
 
-body#about-home button.about-job-entry--header h4.about-job-title:after { display: block; position: relative; top: 0; right: 0; left: auto; content: '+'; width: 30px; float: right; text-align: right; font-size: 22px; line-height: 1.25; }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home summary.about-job-entry { padding: 11px 0; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home button.about-job-entry--header h4.about-job-title:after { font-size: 22px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home summary.about-job-entry { padding: 11px 0; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home button.about-job-entry--header h4.about-job-title:after { font-size: 22px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home summary.about-job-entry { padding: 13px 0; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home button.about-job-entry--header h4.about-job-title:after { font-size: 26px; } }
+@media only screen and (min-width: 1200px) { body#about-home summary.about-job-entry { padding: 15px 0; } }
 
-@media only screen and (min-width: 1200px) { body#about-home button.about-job-entry--header h4.about-job-title:after { font-size: 30px; } }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry { border-top: 1px solid #495057; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home button.about-job-entry--header h4.about-job-title:after { line-height: 1.25; } }
+body#about-home summary.about-job-entry h4.about-job-title { max-width: calc(100% - 30px); float: left; }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home button.about-job-entry--header h4.about-job-title:after { line-height: 1.25; } }
+body#about-home summary.about-job-entry p.about-time, body#about-home summary.about-job-entry body#wishlist-home fieldset#toggle-purchased legend.about-time, body#wishlist-home fieldset#toggle-purchased body#about-home summary.about-job-entry legend.about-time, body#about-home summary.about-job-entry button.about-time, body#about-home summary.about-job-entry a.about-time.button, body#about-home summary.about-job-entry .about-time.text-input, body#about-home summary.about-job-entry .about-time.radio-input, body#about-home summary.about-job-entry label.about-time, body#about-home summary.about-job-entry .about-time.label-hint, body#about-home summary.about-job-entry input.about-time[type="text"], body#about-home summary.about-job-entry textarea.about-time { display: block; position: relative; width: 100%; clear: both; }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home button.about-job-entry--header h4.about-job-title:after { line-height: 1.25; } }
+body#about-home summary.about-job-entry:hover { color: #009fe3; }
 
-@media only screen and (min-width: 1200px) { body#about-home button.about-job-entry--header h4.about-job-title:after { line-height: 1.25; } }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:hover { color: #009fe3; } }
 
-body#about-home button.about-job-entry--header p.about-time, body#about-home button.about-job-entry--header body#wishlist-home fieldset#toggle-purchased legend.about-time, body#wishlist-home fieldset#toggle-purchased body#about-home button.about-job-entry--header legend.about-time, body#about-home button.about-job-entry--header button.about-time, body#about-home button.about-job-entry--header a.about-time.button, body#about-home button.about-job-entry--header .about-time.text-input, body#about-home button.about-job-entry--header .about-time.radio-input, body#about-home button.about-job-entry--header label.about-time, body#about-home button.about-job-entry--header .about-time.label-hint, body#about-home button.about-job-entry--header input.about-time[type="text"], body#about-home button.about-job-entry--header textarea.about-time { display: block; position: relative; width: 100%; clear: both; }
+body#about-home summary.about-job-entry:focus { color: #1d1d1d; background: unset; border-top: none; outline: 3px #009fe3 solid; outline-offset: 3px; }
 
-body#about-home button.about-job-entry--header.active h4.about-job-title:after { content: "–"; }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { color: #fafafa; } }
 
-body#about-home button.about-job-entry--header:hover { color: #009fe3; }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { background: unset; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:hover { color: #009fe3; } }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { border-top: none; } }
 
-body#about-home button.about-job-entry--header:focus { color: #fafafa; background: #009fe3; outline: 3px #009fe3 solid; border: 1px #009fe3 solid; outline-offset: 3px; }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { outline: 3px #009fe3 solid; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { color: #fafafa; } }
+body#about-home summary.about-job-entry:active { color: #fafafa; background: #009fe3; border-top: none; outline: 3px #009fe3 solid; outline-offset: 0px; }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { background: #009fe3; } }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { color: #fafafa; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { outline: 3px #009fe3 solid; } }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { background: #009fe3; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:focus { border: 1px #009fe3 solid; } }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { border-top: none; } }
 
-body#about-home button.about-job-entry--header:active { color: #fafafa; background: #009fe3; outline: 3px #009fe3 solid; border-top: 1px solid #009fe3; }
+@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { outline: 3px #009fe3 solid; } }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { color: #fafafa; } }
+body#about-home summary.about-job-entry::after { content: ""; clear: both; display: table; }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { background: #009fe3; } }
+body#about-home details.about-job-entry { display: block; position: relative; margin: 0; padding: 0; }
 
-@media (prefers-color-scheme: dark) { body#about-home button.about-job-entry--header:active { outline: 3px #009fe3 solid; } }
+body#about-home details.about-job-entry[open] summary::-webkit-details-marker { display: none; }
 
-body#about-home button.about-job-entry--header::after { content: ""; clear: both; display: table; }
+body#about-home details.about-job-entry[open] summary:before { content: '–'; }
 
-body#about-home header.about-job-entry--header { padding: 11px 0; border-top: 1px solid #ced4da; }
+body#about-home div.about-job-entry { padding: 11px 0; border-top: 1px solid #ced4da; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home header.about-job-entry--header { padding: 11px 0; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home div.about-job-entry { padding: 11px 0; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home header.about-job-entry--header { padding: 11px 0; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home div.about-job-entry { padding: 11px 0; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home header.about-job-entry--header { padding: 13px 0; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home div.about-job-entry { padding: 13px 0; } }
 
-@media only screen and (min-width: 1200px) { body#about-home header.about-job-entry--header { padding: 15px 0; } }
+@media only screen and (min-width: 1200px) { body#about-home div.about-job-entry { padding: 15px 0; } }
 
-@media (prefers-color-scheme: dark) { body#about-home header.about-job-entry--header { border-top: 1px solid #495057; } }
+@media (prefers-color-scheme: dark) { body#about-home div.about-job-entry { border-top: 1px solid #495057; } }
 
-body#about-home section.about-details { display: none; padding-top: 20px; padding-bottom: 20px; }
+body#about-home section.about-details { padding-top: 20px; padding-bottom: 20px; }
 
 body#about-home section.about-details p:last-of-type, body#about-home section.about-details body#wishlist-home fieldset#toggle-purchased legend:last-of-type, body#wishlist-home fieldset#toggle-purchased body#about-home section.about-details legend:last-of-type, body#about-home section.about-details button:last-of-type, body#about-home section.about-details a.button:last-of-type, body#about-home section.about-details .text-input:last-of-type, body#about-home section.about-details .radio-input:last-of-type, body#about-home section.about-details label:last-of-type, body#about-home section.about-details .label-hint:last-of-type, body#about-home section.about-details input[type="text"]:last-of-type, body#about-home section.about-details textarea:last-of-type { padding-bottom: 0; }
 
@@ -2323,6 +2323,18 @@ body#wishlist-home h1.page-title { font-size: 55px; padding-bottom: 15px; }
 @media only screen and (min-width: 1200px) { body#wishlist-home h1.page-title { padding-bottom: 45px; } }
 
 body#wishlist-home aside.intro-text span.item-giftidea { position: relative; color: #fafafa; background: #009fe3; border: 1px solid #009fe3; border-radius: 6px; padding: 0px 7px; text-transform: uppercase; font-variant: small-caps !important; font-size: 70%; top: -5px; vertical-align: middle; }
+
+body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { text-align: left; font-size: 33.75px; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 40px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 48px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 54px; } }
+
+@media only screen and (min-width: 1200px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 60px; } }
+
+body#wishlist-home h2.about-career, body#wishlist-home legend.about-career, body#wishlist-home body[id$='post'] #markdown-toc.about-career:before, body[id$='post'] body#wishlist-home #markdown-toc.about-career:before { padding-top: 0; }
 
 body#wishlist-home ul { padding: 0; margin: 0; list-style: none !important; }
 

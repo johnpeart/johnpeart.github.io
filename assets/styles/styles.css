@@ -1906,7 +1906,7 @@ body#about-home h5.about-job-projects { text-align: left; font-size: 22px; line-
 
 @media only screen and (min-width: 1200px) { body#about-home h5.about-job-projects { padding: 30px 0; } }
 
-body#about-home summary.about-job-entry { /* Hide the marker completely. */ list-style-image: '+'; display: block; position: relative; width: 100%; text-align: left; box-sizing: content-box; padding: 11px 0; border-top: 1px solid #ced4da; }
+body#about-home summary.about-job-entry { /* Hide the marker completely. */ list-style-image: none; display: block; position: relative; width: 100%; text-align: left; box-sizing: content-box; padding: 11px 0; border-top: 1px solid #ced4da; }
 
 body#about-home summary.about-job-entry::-webkit-details-marker { display: none; }
 

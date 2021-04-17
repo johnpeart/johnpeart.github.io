@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
-html, body, div, span, applet, object, iframe, h1, h2, body[id$='post'] #markdown-toc:before, h3, span.sub-legend, h4, h5, h6, p, body#wishlist-home fieldset#toggle-purchased legend, input[type="text"], textarea, .label-hint, .text-input, .radio-input, button, a.button, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, table thead, table tfoot, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, span.sub-legend, h4, h5, h6, p, body#wishlist-home fieldset#toggle-purchased legend, input[type="text"], textarea, .label-hint, .text-input, .radio-input, button, a.button, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, table thead, table tfoot, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -268,31 +268,31 @@ h1.display { font-size: 66px; line-height: 1; padding: 82.5px 0 6.6px 0; }
 
 @media only screen and (min-width: 1200px) { h1.display { padding: 246px 0 16.4px 0; } }
 
-h2, body[id$='post'] #markdown-toc:before, legend { font-weight: bold; font-style: normal; text-align: center; text-decoration: none; text-transform: none; font-size: 27px; line-height: 1.25; padding: 54px 0 27px 0; }
+h2, legend { font-weight: bold; font-style: normal; text-align: center; text-decoration: none; text-transform: none; font-size: 27px; line-height: 1.25; padding: 54px 0 27px 0; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { h2, body[id$='post'] #markdown-toc:before, legend { font-size: 32px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2, legend { font-size: 32px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { h2, body[id$='post'] #markdown-toc:before, legend { font-size: 32px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2, legend { font-size: 32px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, body[id$='post'] #markdown-toc:before, legend { font-size: 36px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, legend { font-size: 36px; } }
 
-@media only screen and (min-width: 1200px) { h2, body[id$='post'] #markdown-toc:before, legend { font-size: 40px; } }
+@media only screen and (min-width: 1200px) { h2, legend { font-size: 40px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { h2, body[id$='post'] #markdown-toc:before, legend { line-height: 1.25; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2, legend { line-height: 1.25; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { h2, body[id$='post'] #markdown-toc:before, legend { line-height: 1.25; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2, legend { line-height: 1.25; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, body[id$='post'] #markdown-toc:before, legend { line-height: 1.25; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, legend { line-height: 1.25; } }
 
-@media only screen and (min-width: 1200px) { h2, body[id$='post'] #markdown-toc:before, legend { line-height: 1.25; } }
+@media only screen and (min-width: 1200px) { h2, legend { line-height: 1.25; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { h2, body[id$='post'] #markdown-toc:before, legend { padding: 64px 0 32px 0; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2, legend { padding: 64px 0 32px 0; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { h2, body[id$='post'] #markdown-toc:before, legend { padding: 64px 0 32px 0; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2, legend { padding: 64px 0 32px 0; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, body[id$='post'] #markdown-toc:before, legend { padding: 72px 0 36px 0; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2, legend { padding: 72px 0 36px 0; } }
 
-@media only screen and (min-width: 1200px) { h2, body[id$='post'] #markdown-toc:before, legend { padding: 80px 0 40px 0; } }
+@media only screen and (min-width: 1200px) { h2, legend { padding: 80px 0 40px 0; } }
 
 h3, span.sub-legend { font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; font-size: 22px; line-height: 1.25; padding: 22px 0 14.52px 0; }
 
@@ -372,7 +372,7 @@ h5 { font-weight: bold; font-style: normal; text-align: left; text-decoration: n
 
 @media only screen and (min-width: 1200px) { h5 { padding: 30px 0; } }
 
-h2 + h3, body[id$='post'] #markdown-toc:before + h3, h2 + span.sub-legend, body[id$='post'] #markdown-toc:before + span.sub-legend, legend + h3, legend + span.sub-legend { padding-top: 0 !important; }
+h2 + h3, h2 + span.sub-legend, legend + h3, legend + span.sub-legend { padding-top: 0 !important; }
 
 h3 + h4, span.sub-legend + h4 { margin: 0; padding-top: 0 !important; }
 
@@ -455,6 +455,80 @@ table thead { border-bottom: 2px solid #1d1d1d; }
 table tfoot { border-top: 2px solid #1d1d1d; }
 
 @media (prefers-color-scheme: dark) { table tfoot { border-top: 2px solid #fafafa; } }
+
+details { display: block; position: relative; margin: 0; padding: 0; }
+
+details[open] summary::-webkit-details-marker, details[open] summary::marker { display: none; }
+
+details[open] summary:before { content: '–'; }
+
+summary { /* Hide the marker completely. */ list-style-image: none; display: block; position: relative; text-align: left; box-sizing: border-box; padding: 11px 0; border-top: 1px solid #ced4da; }
+
+summary::marker, summary::-webkit-details-marker { display: none; }
+
+summary:before { display: block; position: relative; top: 0; right: 0; left: auto; content: '+'; width: 30px; float: right; text-align: right; font-weight: bold; font-size: 22px; line-height: 1; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { summary:before { font-size: 22px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { summary:before { font-size: 22px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { summary:before { font-size: 26px; } }
+
+@media only screen and (min-width: 1200px) { summary:before { font-size: 30px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { summary { padding: 11px 0; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { summary { padding: 11px 0; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { summary { padding: 13px 0; } }
+
+@media only screen and (min-width: 1200px) { summary { padding: 15px 0; } }
+
+@media (prefers-color-scheme: dark) { summary { border-top: 1px solid #495057; } }
+
+summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { max-width: calc(100% - 30px); float: left; display: inline-block; text-align: left; padding: 0; font-style: normal; cursor: pointer; font-size: 22px; line-height: 1.25; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { font-size: 22px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { font-size: 22px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { font-size: 26px; } }
+
+@media only screen and (min-width: 1200px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { font-size: 30px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { line-height: 1.25; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { line-height: 1.25; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { line-height: 1.25; } }
+
+@media only screen and (min-width: 1200px) { summary h1, summary h2, summary legend, summary h3, summary span.sub-legend, summary h4, summary h5, summary h6 { line-height: 1.25; } }
+
+summary:hover { color: #009fe3; }
+
+@media (prefers-color-scheme: dark) { summary:hover { color: #009fe3; } }
+
+summary:focus { color: #1d1d1d; background: unset; border-top: 1px transparent solid; outline: 3px #009fe3 solid; outline-offset: 3px; }
+
+@media (prefers-color-scheme: dark) { summary:focus { color: #fafafa; } }
+
+@media (prefers-color-scheme: dark) { summary:focus { background: unset; } }
+
+@media (prefers-color-scheme: dark) { summary:focus { border-top: 1px transparent solid; } }
+
+@media (prefers-color-scheme: dark) { summary:focus { outline: 3px #009fe3 solid; } }
+
+summary:active { color: #fafafa; background: #009fe3; border-top: 1px transparent solid; outline: 3px #009fe3 solid; outline-offset: 0px; }
+
+@media (prefers-color-scheme: dark) { summary:active { color: #fafafa; } }
+
+@media (prefers-color-scheme: dark) { summary:active { background: #009fe3; } }
+
+@media (prefers-color-scheme: dark) { summary:active { border-top: 1px transparent solid; } }
+
+@media (prefers-color-scheme: dark) { summary:active { outline: 3px #009fe3 solid; } }
+
+summary::after { content: ""; clear: both; display: table; }
 
 .hll { background-color: #495057; }
 
@@ -1476,55 +1550,55 @@ body#blog-loop h1.page-title { font-size: 55px; padding-bottom: 15px; }
 
 @media only screen and (min-width: 1200px) { body#blog-loop h1.page-title { padding-bottom: 45px; } }
 
-body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { text-align: left; position: relative; position: relative; width: 100%; top: 0; padding-top: 27px; float: none; font-size: 33.75px; line-height: 0.8; }
+body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { text-align: left; position: relative; position: relative; width: 100%; top: 0; padding-top: 27px; float: none; font-size: 33.75px; line-height: 0.8; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: -webkit-sticky; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: sticky; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: sticky; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: sticky; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: sticky; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: sticky; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: sticky; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { position: sticky; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { position: sticky; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { width: 20%; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { width: 20%; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { width: 25%; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { width: 25%; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { width: 25%; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { width: 25%; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { width: 25%; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { width: 25%; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { padding-top: 32px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { padding-top: 32px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { padding-top: 32px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { padding-top: 32px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { padding-top: 36px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { padding-top: 36px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { padding-top: 40px; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { padding-top: 40px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { float: left; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { float: left; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { float: left; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { float: left; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { float: left; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { float: left; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { float: left; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { float: left; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { font-size: 40px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { font-size: 40px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { font-size: 48px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { font-size: 48px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { font-size: 54px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { font-size: 54px; } }
 
-@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop body[id$='post'] #markdown-toc.loop-header:before, body[id$='post'] body#blog-loop #markdown-toc.loop-header:before, body#blog-loop legend.loop-header { font-size: 60px; } }
+@media only screen and (min-width: 1200px) { body#blog-loop h2.loop-header, body#blog-loop legend.loop-header { font-size: 60px; } }
 
 body#blog-loop ul.loop { padding-left: 0; padding-bottom: 0; float: none; width: 100%; padding-top: 0; }
 
@@ -1612,13 +1686,33 @@ body[id$='post'] section.post-body ul > li::before { position: absolute; content
 
 body[id$='post'] #markdown-toc { background: #e9ecef; padding: 20px; }
 
-body[id$='post'] #markdown-toc:before { display: block; padding: 0 20px 20px; content: "Contents"; }
-
 @media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc { background: #495057; } }
 
 body[id$='post'] #markdown-toc > li > a { font-weight: bold; }
 
 body[id$='post'] #markdown-toc > li::before { display: none !important; }
+
+body[id$='post'] #markdown-toc a:link { color: #1d1d1d; text-decoration: none; }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc a:link { color: #fafafa; } }
+
+body[id$='post'] #markdown-toc a:visited { color: #1d1d1d; }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc a:visited { color: #fafafa; } }
+
+body[id$='post'] #markdown-toc a:hover { color: #009fe3; text-decoration: underline; }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc a:hover { color: #009fe3; } }
+
+body[id$='post'] #markdown-toc a:focus { color: #fafafa; background: #009fe3; outline: 2px #009fe3 solid; }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc a:focus { color: #fafafa; } }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc a:focus { background: #009fe3; } }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] #markdown-toc a:focus { outline: 2px #009fe3 solid; } }
+
+body[id$='post'] #markdown-toc a:active { text-decoration: underline; }
 
 body[id$='post'] ul#markdown-toc > li > ul { padding-left: 0; margin: 0; }
 
@@ -1655,6 +1749,12 @@ body[id$='post'] ol#markdown-toc { list-style-type: none; }
 body[id$='post'] ol#markdown-toc > li > ol { padding-left: 50px; margin: 0; }
 
 body[id$='post'] ol#markdown-toc li:last-child > ol { padding-bottom: 11px; }
+
+body[id$='post'] details.table-of-contents[open] { border-bottom: 1px solid #ced4da; }
+
+@media (prefers-color-scheme: dark) { body[id$='post'] details.table-of-contents[open] { border-bottom: 1px solid #495057; } }
+
+body[id$='post'] details.table-of-contents #markdown-toc { background: none; padding: 15px 0; }
 
 body[id$='post'] div.twitter-tweet { margin-left: auto; margin-right: auto; -webkit-font-feature-settings: normal !important; -moz-font-feature-settings: normal !important; -o-font-feature-settings: normal !important; font-feature-settings: normal !important; padding: 0 0 22px 0; }
 
@@ -1834,17 +1934,17 @@ body#about-home h1.page-title { font-size: 55px; padding-bottom: 15px; }
 
 @media only screen and (min-width: 1200px) { body#about-home h1.page-title { padding-bottom: 45px; } }
 
-body#about-home h2.about-header, body#about-home legend.about-header, body#about-home body[id$='post'] #markdown-toc.about-header:before, body[id$='post'] body#about-home #markdown-toc.about-header:before { text-align: left; font-size: 33.75px; }
+body#about-home h2.about-header, body#about-home legend.about-header { text-align: left; font-size: 33.75px; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home h2.about-header, body#about-home legend.about-header, body#about-home body[id$='post'] #markdown-toc.about-header:before, body[id$='post'] body#about-home #markdown-toc.about-header:before { font-size: 40px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home h2.about-header, body#about-home legend.about-header { font-size: 40px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home h2.about-header, body#about-home legend.about-header, body#about-home body[id$='post'] #markdown-toc.about-header:before, body[id$='post'] body#about-home #markdown-toc.about-header:before { font-size: 48px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home h2.about-header, body#about-home legend.about-header { font-size: 48px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home h2.about-header, body#about-home legend.about-header, body#about-home body[id$='post'] #markdown-toc.about-header:before, body[id$='post'] body#about-home #markdown-toc.about-header:before { font-size: 54px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home h2.about-header, body#about-home legend.about-header { font-size: 54px; } }
 
-@media only screen and (min-width: 1200px) { body#about-home h2.about-header, body#about-home legend.about-header, body#about-home body[id$='post'] #markdown-toc.about-header:before, body[id$='post'] body#about-home #markdown-toc.about-header:before { font-size: 60px; } }
+@media only screen and (min-width: 1200px) { body#about-home h2.about-header, body#about-home legend.about-header { font-size: 60px; } }
 
-body#about-home h2.about-header.about-career, body#about-home legend.about-header.about-career, body#about-home body[id$='post'] #markdown-toc.about-header.about-career:before, body[id$='post'] body#about-home #markdown-toc.about-header.about-career:before { padding-top: 0; }
+body#about-home h2.about-header.about-career, body#about-home legend.about-header.about-career { padding-top: 0; }
 
 body#about-home h3.about-organisation, body#about-home span.about-organisation.sub-legend { font-size: 25.3px; }
 
@@ -1906,19 +2006,7 @@ body#about-home h5.about-job-projects { text-align: left; font-size: 22px; line-
 
 @media only screen and (min-width: 1200px) { body#about-home h5.about-job-projects { padding: 30px 0; } }
 
-body#about-home summary.about-job-entry { /* Hide the marker completely. */ list-style-image: none; display: block; position: relative; width: 100%; text-align: left; box-sizing: content-box; padding: 11px 0; border-top: 1px solid #ced4da; }
-
-body#about-home summary.about-job-entry::-webkit-details-marker { display: none; }
-
-body#about-home summary.about-job-entry:before { display: block; position: relative; top: 0; right: 0; left: auto; content: '+'; width: 30px; float: right; text-align: right; font-weight: bold; font-size: 22px; line-height: 1; }
-
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home summary.about-job-entry:before { font-size: 22px; } }
-
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#about-home summary.about-job-entry:before { font-size: 22px; } }
-
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#about-home summary.about-job-entry:before { font-size: 26px; } }
-
-@media only screen and (min-width: 1200px) { body#about-home summary.about-job-entry:before { font-size: 30px; } }
+body#about-home summary.about-job-entry { padding: 11px 0; }
 
 @media only screen and (min-width: 600px) and (max-width: 765px) { body#about-home summary.about-job-entry { padding: 11px 0; } }
 
@@ -1928,43 +2016,11 @@ body#about-home summary.about-job-entry:before { display: block; position: relat
 
 @media only screen and (min-width: 1200px) { body#about-home summary.about-job-entry { padding: 15px 0; } }
 
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry { border-top: 1px solid #495057; } }
-
 body#about-home summary.about-job-entry h4.about-job-title { max-width: calc(100% - 30px); float: left; }
 
 body#about-home summary.about-job-entry p.about-time, body#about-home summary.about-job-entry body#wishlist-home fieldset#toggle-purchased legend.about-time, body#wishlist-home fieldset#toggle-purchased body#about-home summary.about-job-entry legend.about-time, body#about-home summary.about-job-entry button.about-time, body#about-home summary.about-job-entry a.about-time.button, body#about-home summary.about-job-entry .about-time.text-input, body#about-home summary.about-job-entry .about-time.radio-input, body#about-home summary.about-job-entry label.about-time, body#about-home summary.about-job-entry .about-time.label-hint, body#about-home summary.about-job-entry input.about-time[type="text"], body#about-home summary.about-job-entry textarea.about-time { display: block; position: relative; width: 100%; clear: both; }
 
-body#about-home summary.about-job-entry:hover { color: #009fe3; }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:hover { color: #009fe3; } }
-
-body#about-home summary.about-job-entry:focus { color: #1d1d1d; background: unset; border-top: none; outline: 3px #009fe3 solid; outline-offset: 3px; }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { color: #fafafa; } }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { background: unset; } }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { border-top: none; } }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:focus { outline: 3px #009fe3 solid; } }
-
-body#about-home summary.about-job-entry:active { color: #fafafa; background: #009fe3; border-top: none; outline: 3px #009fe3 solid; outline-offset: 0px; }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { color: #fafafa; } }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { background: #009fe3; } }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { border-top: none; } }
-
-@media (prefers-color-scheme: dark) { body#about-home summary.about-job-entry:active { outline: 3px #009fe3 solid; } }
-
-body#about-home summary.about-job-entry::after { content: ""; clear: both; display: table; }
-
 body#about-home details.about-job-entry { display: block; position: relative; margin: 0; padding: 0; }
-
-body#about-home details.about-job-entry[open] summary::-webkit-details-marker { display: none; }
-
-body#about-home details.about-job-entry[open] summary:before { content: '–'; }
 
 body#about-home div.about-job-entry { padding: 11px 0; border-top: 1px solid #ced4da; }
 
@@ -2042,17 +2098,17 @@ body#projects-home h1.page-title { font-size: 55px; padding-bottom: 15px; }
 
 @media only screen and (min-width: 1200px) { body#projects-home h1.page-title { padding-bottom: 45px; } }
 
-body#projects-home h2.projects-header, body#projects-home legend.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { text-align: left; font-size: 33.75px; }
+body#projects-home h2.projects-header, body#projects-home legend.projects-header { text-align: left; font-size: 33.75px; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 40px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header { font-size: 40px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 48px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header { font-size: 48px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 54px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header { font-size: 54px; } }
 
-@media only screen and (min-width: 1200px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header, body#projects-home body[id$='post'] #markdown-toc.projects-header:before, body[id$='post'] body#projects-home #markdown-toc.projects-header:before { font-size: 60px; } }
+@media only screen and (min-width: 1200px) { body#projects-home h2.projects-header, body#projects-home legend.projects-header { font-size: 60px; } }
 
-body#projects-home h2.projects-header.projects-blogs, body#projects-home legend.projects-header.projects-blogs, body#projects-home body[id$='post'] #markdown-toc.projects-header.projects-blogs:before, body[id$='post'] body#projects-home #markdown-toc.projects-header.projects-blogs:before { padding-top: 0; }
+body#projects-home h2.projects-header.projects-blogs, body#projects-home legend.projects-header.projects-blogs { padding-top: 0; }
 
 body#projects-home article.project-entry { padding: 11px 0; border-top: 1px solid #ced4da; }
 
@@ -2288,7 +2344,7 @@ body#goals-goals ul#goals-list li.totaliser { background: #e9ecef; padding: 20px
 
 @media (prefers-color-scheme: dark) { body#goals-goals ul#goals-list li.totaliser { background: #495057; } }
 
-body#goals-goals ul#goals-list li.totaliser h2, body#goals-goals ul#goals-list li.totaliser legend, body#goals-goals ul#goals-list li.totaliser body[id$='post'] #markdown-toc:before, body[id$='post'] body#goals-goals ul#goals-list li.totaliser #markdown-toc:before { margin-top: 0; margin-bottom: 0; padding-top: 0; }
+body#goals-goals ul#goals-list li.totaliser h2, body#goals-goals ul#goals-list li.totaliser legend { margin-top: 0; margin-bottom: 0; padding-top: 0; }
 
 body#goals-goals ul#goals-list li.totaliser progress[value]::-webkit-progress-bar { background-color: #adb5bd; }
 
@@ -2324,17 +2380,17 @@ body#wishlist-home h1.page-title { font-size: 55px; padding-bottom: 15px; }
 
 body#wishlist-home aside.intro-text span.item-giftidea { position: relative; color: #fafafa; background: #009fe3; border: 1px solid #009fe3; border-radius: 6px; padding: 0px 7px; text-transform: uppercase; font-variant: small-caps !important; font-size: 70%; top: -5px; vertical-align: middle; }
 
-body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { text-align: left; font-size: 33.75px; }
+body#wishlist-home h2, body#wishlist-home legend { text-align: left; font-size: 33.75px; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 40px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#wishlist-home h2, body#wishlist-home legend { font-size: 40px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 48px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#wishlist-home h2, body#wishlist-home legend { font-size: 48px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 54px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#wishlist-home h2, body#wishlist-home legend { font-size: 54px; } }
 
-@media only screen and (min-width: 1200px) { body#wishlist-home h2, body#wishlist-home legend, body#wishlist-home body[id$='post'] #markdown-toc:before, body[id$='post'] body#wishlist-home #markdown-toc:before { font-size: 60px; } }
+@media only screen and (min-width: 1200px) { body#wishlist-home h2, body#wishlist-home legend { font-size: 60px; } }
 
-body#wishlist-home h2.about-career, body#wishlist-home legend.about-career, body#wishlist-home body[id$='post'] #markdown-toc.about-career:before, body[id$='post'] body#wishlist-home #markdown-toc.about-career:before { padding-top: 0; }
+body#wishlist-home h2.about-career, body#wishlist-home legend.about-career { padding-top: 0; }
 
 body#wishlist-home ul { padding: 0; margin: 0; list-style: none !important; }
 
@@ -2510,23 +2566,23 @@ body#manuals-home article.project { padding: 11px 0; border-top: 1px solid #ced4
 
 @media (prefers-color-scheme: dark) { body#manuals-home article.project { border-top: 1px solid #495057; } }
 
-body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; padding: 0; font-size: 22px; line-height: 1.25; }
+body#manuals-home h2.project-name, body#manuals-home legend.project-name { font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; padding: 0; font-size: 22px; line-height: 1.25; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { font-size: 22px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { font-size: 22px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { font-size: 22px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { font-size: 22px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { font-size: 26px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { font-size: 26px; } }
 
-@media only screen and (min-width: 1200px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { font-size: 30px; } }
+@media only screen and (min-width: 1200px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { font-size: 30px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { line-height: 1.25; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { line-height: 1.25; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { line-height: 1.25; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { line-height: 1.25; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { line-height: 1.25; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { line-height: 1.25; } }
 
-@media only screen and (min-width: 1200px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name, body#manuals-home body[id$='post'] #markdown-toc.project-name:before, body[id$='post'] body#manuals-home #markdown-toc.project-name:before { line-height: 1.25; } }
+@media only screen and (min-width: 1200px) { body#manuals-home h2.project-name, body#manuals-home legend.project-name { line-height: 1.25; } }
 
 body#manuals-home a.project-url:link { color: #009fe3; text-decoration: none; }
 
@@ -2551,5 +2607,23 @@ body#manuals-home a.project-url:focus { color: #fafafa; background: #009fe3; out
 body#manuals-home a.project-url:active { text-decoration: underline; }
 
 body#manuals-home p.project-notes, body#manuals-home button.project-notes, body#manuals-home a.project-notes.button, body#manuals-home .project-notes.text-input, body#manuals-home .project-notes.radio-input, body#manuals-home label.project-notes, body#manuals-home .project-notes.label-hint, body#manuals-home input.project-notes[type="text"], body#manuals-home textarea.project-notes, body#manuals-home body#wishlist-home fieldset#toggle-purchased legend.project-notes, body#wishlist-home fieldset#toggle-purchased body#manuals-home legend.project-notes { padding: 0; }
+
+body.theme-eurovision summary span.country, body.theme-eurovision summary span.song-artist { display: block; width: 100%; }
+
+body.theme-eurovision summary span.song-artist { font-weight: normal; color: #868e96; }
+
+@media (prefers-color-scheme: dark) { body.theme-eurovision summary span.song-artist { color: #ced4da; } }
+
+body.theme-eurovision summary:hover, body.theme-eurovision summary:hover span { color: #009fe3; }
+
+@media (prefers-color-scheme: dark) { body.theme-eurovision summary:hover, body.theme-eurovision summary:hover span { color: #009fe3; } }
+
+body.theme-eurovision summary:focus, body.theme-eurovision summary:focus span { color: #1d1d1d; }
+
+@media (prefers-color-scheme: dark) { body.theme-eurovision summary:focus, body.theme-eurovision summary:focus span { color: #fafafa; } }
+
+body.theme-eurovision summary:active, body.theme-eurovision summary:active span { color: #fafafa; }
+
+@media (prefers-color-scheme: dark) { body.theme-eurovision summary:active, body.theme-eurovision summary:active span { color: #fafafa; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -27,8 +27,7 @@ I’ve listened to the songs in the order they appear on the [official Contest a
 
 So let’s hop in...
 
-1. This will become a table of contents (this text will be scraped).
-{:toc}
+{% include blog/toc.html %}
 
 ## First semi-final
 

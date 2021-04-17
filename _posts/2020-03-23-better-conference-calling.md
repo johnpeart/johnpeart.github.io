@@ -4,8 +4,6 @@ author: John Peart
 excerpt: Having a conference call isn’t harder than a face-to-face meeting, it’s just different. Here are some tips to doing it better.
 layout: blog/post
 permalink: /2020/03/23/better-conference-calling
-redirect_from: 
-- /2020/03/23/better-conference-calling/
 category: [work, digital]
 ---
 
@@ -15,8 +13,7 @@ You might be flinching at the idea of having to hold one-to-ones, team meetings 
 
 I’m fortunate that my career to date has prepared me for this moment. I’ve managed teams across multiple sites, and I’ve regularly led conference calls with participants in the dozens. For those new to the world of multi-site working, I thought I’d share some tips for running better video and telephone conference calls. These are all things I try to do when I’m holding conference calls. Some of these tips work for face-to-face meetings too, but they’re even more important when you’re doing things remotely.
 
-1. TABLE OF CONTENTS.
-{:toc}
+{% include blog/toc.html %}
 
 ## Hygiene checks
 

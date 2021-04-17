@@ -29,8 +29,7 @@ In lieu of an officially curated album, I’ve listened to the songs in alphabet
 
 So let’s hop in...
 
-1. TABLE OF CONTENTS.
-{:toc}
+{% include blog/toc.html %}
 
 ## First semi-final
 

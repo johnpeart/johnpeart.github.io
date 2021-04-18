@@ -462,6 +462,26 @@ details[open] summary::-webkit-details-marker, details[open] summary::marker { d
 
 details[open] summary:before { content: '–'; }
 
+details p, details body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased details legend, details input[type="text"], details textarea, details .label-hint, details label, details .text-input, details .radio-input, details button, details a.button { padding: 0 0 11px 0; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { details p, details body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased details legend, details input[type="text"], details textarea, details .label-hint, details label, details .text-input, details .radio-input, details button, details a.button { padding: 0 0 11px 0; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { details p, details body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased details legend, details input[type="text"], details textarea, details .label-hint, details label, details .text-input, details .radio-input, details button, details a.button { padding: 0 0 11px 0; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { details p, details body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased details legend, details input[type="text"], details textarea, details .label-hint, details label, details .text-input, details .radio-input, details button, details a.button { padding: 0 0 13px 0; } }
+
+@media only screen and (min-width: 1200px) { details p, details body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased details legend, details input[type="text"], details textarea, details .label-hint, details label, details .text-input, details .radio-input, details button, details a.button { padding: 0 0 15px 0; } }
+
+details p:last-child, details body#wishlist-home fieldset#toggle-purchased legend:last-child, body#wishlist-home fieldset#toggle-purchased details legend:last-child, details input[type="text"]:last-child, details textarea:last-child, details .label-hint:last-child, details label:last-child, details .text-input:last-child, details .radio-input:last-child, details button:last-child, details a.button:last-child { padding-bottom: 22px; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { details p:last-child, details body#wishlist-home fieldset#toggle-purchased legend:last-child, body#wishlist-home fieldset#toggle-purchased details legend:last-child, details input[type="text"]:last-child, details textarea:last-child, details .label-hint:last-child, details label:last-child, details .text-input:last-child, details .radio-input:last-child, details button:last-child, details a.button:last-child { padding-bottom: 22px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { details p:last-child, details body#wishlist-home fieldset#toggle-purchased legend:last-child, body#wishlist-home fieldset#toggle-purchased details legend:last-child, details input[type="text"]:last-child, details textarea:last-child, details .label-hint:last-child, details label:last-child, details .text-input:last-child, details .radio-input:last-child, details button:last-child, details a.button:last-child { padding-bottom: 22px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { details p:last-child, details body#wishlist-home fieldset#toggle-purchased legend:last-child, body#wishlist-home fieldset#toggle-purchased details legend:last-child, details input[type="text"]:last-child, details textarea:last-child, details .label-hint:last-child, details label:last-child, details .text-input:last-child, details .radio-input:last-child, details button:last-child, details a.button:last-child { padding-bottom: 26px; } }
+
+@media only screen and (min-width: 1200px) { details p:last-child, details body#wishlist-home fieldset#toggle-purchased legend:last-child, body#wishlist-home fieldset#toggle-purchased details legend:last-child, details input[type="text"]:last-child, details textarea:last-child, details .label-hint:last-child, details label:last-child, details .text-input:last-child, details .radio-input:last-child, details button:last-child, details a.button:last-child { padding-bottom: 30px; } }
+
 summary { /* Hide the marker completely. */ list-style-image: none; display: block; position: relative; text-align: left; box-sizing: border-box; padding: 11px 0; border-top: 1px solid #ced4da; }
 
 summary::marker, summary::-webkit-details-marker { display: none; }

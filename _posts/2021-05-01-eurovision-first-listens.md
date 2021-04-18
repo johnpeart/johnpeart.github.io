@@ -22,7 +22,7 @@ entries:
     
     After a 20 year wait though, all I can think is: what a waste of an opening!
     
-    The track grabs you with a dramatic 15 seconds intro and then *meh*.
+    The track grabs you with a dramatic 15 second intro and then… *meh*.
     
 - country: "Australia"
   emoji: "🇦🇺"
@@ -33,7 +33,7 @@ entries:
   commentary: |
     This track's instrumentation sounds like it's ripped from a SEGA MegaDrive: and I freaking love it. It's weird, whacky and exactly what I want from my pop.
     
-    The angelic, little vocal runs *Montaigne* peppers throughout beautifully clash with the mechanical tones in the track.
+    The angelic, little vocal runs that Montaigne peppers throughout beautifully clash with the mechanical tones in the track.
 
 - country: "Austria"
   emoji: "🇦🇹"
@@ -42,11 +42,11 @@ entries:
   semifinal: 2
   semifinal-runningorder: 5
   commentary: |
-    "Is this what you wanted?" Vincent asks in this slightly angry, impassioned song that's seemingly about the end of a relationship.
+    "*Is this what you wanted?*", Vincent asks in this slightly angry, impassioned song that's seemingly about the end of a relationship.
     
     Sorry, *Vince*. No. It isn't.
     
-    It's certainly a well put-together ballad, but ballad nonetheless; and I only want happiness in my Eurovision 2021.
+    It's certainly a well put-together ballad, but a ballad nonetheless; and I only want happiness in my Eurovision 2021.
 
 - country: "Azerbaijan"
   emoji: "🇦🇿"
@@ -55,7 +55,7 @@ entries:
   semifinal: 1
   semifinal-runningorder: 14
   commentary: |
-    There's a nice throwback in the lyrics of this track to Efendi's defunct track from *the-Eurovision-that-never-was*, but that's probably the best thing about this Anglo-Azerbaijani lyrical mashup. 
+    There's a nice throwback in the lyrics of this track to Efendi's defunct track from [*the Eurovision that never was*](https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled), but that's probably the best thing about this Anglo-Azerbaijani lyrical mashup. 
     
     It's got energy and fight, but it doesn't *slap* like last year's entry.
     
@@ -101,7 +101,7 @@ entries:
   commentary: |
     Cyprus has really zeroed in on the club-floor-filler over the last few years and this is another classic of the genre. 
     
-    The chorus has a memorable hook, and the wider a spiky instrumentation is complemented by Elena's solid vocal. It's no [Fuego](https://www.youtube.com/watch?v=eDSgs6syrgg), but it's good.
+    The chorus has a memorable hook, and the wider, spiky instrumentation is complemented by Elena's solid vocal. It's no [Fuego](https://www.youtube.com/watch?v=eDSgs6syrgg), but it's good.
     
 - country: "Czech Republic"
   emoji: "🇨🇿"
@@ -132,7 +132,7 @@ entries:
   semifinal: 2
   semifinal-runningorder: 2
   commentary: |
-    The synthesisers are out in force in this track setting a dark and moody backdrop for this driving ballad about heartbreak and relationship breakdown.
+    The synthesisers are out in force in this track, setting a dark and moody backdrop for this driving ballad about heartbreak and relationship breakdown.
     
     An incredibly abrupt ending ruins an otherwise well produced, even if middle-of-the-road, track.
     
@@ -152,9 +152,9 @@ entries:
   song: "Voilà"
   artist: "Barbara Pravi"
   commentary: |
-    Take a piano. Add some understated but slowly escalating strings. Layer on top a female vocal with plenty of swagger, arrogance and sass. What do you get?
+    Take a piano. Add some understated but slowly escalating strings. Layer on top a female vocal with plenty of swagger, arrogance and sass. 
     
-    Oh yeah, almost every French entry for the last 65 years. 
+    What do you get? Oh yeah, almost every French entry for the last 65 years. 
     
     Including this one. *Voila!*
     
@@ -187,7 +187,7 @@ entries:
   semifinal: 2
   semifinal-runningorder: 4
   commentary: |
-    This song is a grower, not a shower. It takes about a minute to get into itself, and when it does it's pretty fun!
+    This song is a grower, not a shower. It takes about a minute to get into itself but when it does, it's pretty fun!
     
     Stefania gives a strong vocal. The instrumentation is relatively simple but the production is full of momentum. There are few dull moments once it gets into gear.
     
@@ -246,7 +246,7 @@ entries:
     
     Featuring a gut-shattering bass line coupled with lyrics that appear to have been inspired by the [Legend of Zelda](https://www.polygon.com/zelda-breath-of-the-wild-guide-walkthrough/2017/6/6/15729716/blood-moon-effects-duration-weapons-items-enemies); it is just odd.
     
-    Samanta's vocals though are absolutely thwacking.
+    Samanta's vocals are absolutely thwacking though.
     
 - country: "Lithuania"
   emoji: "🇱🇹"
@@ -277,7 +277,7 @@ entries:
   semifinal: 2
   semifinal-runningorder: 7
   commentary: |
-    Sometimes what you want from Eurovision is quirky. Molodova has a good track record of bringing the quirky. 
+    Sometimes what you want from Eurovision is something quirky; Molodova has a good track record of bringing the quirky. 
     
     And I have to be honest, from the country that brought us the [Epic Sax Guy](https://www.youtube.com/watch?v=pHXDMe6QV-U), this carbon-copy dance-floor filler is a bit disappointing.
     
@@ -345,7 +345,7 @@ entries:
   semifinal: 1
   semifinal-runningorder: 13
   commentary: |
-    The title of this track probably wasn't intended to be self-referential. It is largely forgettable save for some intriguing vocal production, and the *bold* lyrical choice to repeatedly and unironically belt out the phrase "self love".
+    The title of this track probably wasn't intended to be self-referential. It is largely forgettable, save for some intriguing vocal production, and the *bold* lyrical choice to repeatedly and unironically belt out the phrase "self love".
     
 - country: "Russia"
   emoji: "🇷🇺"
@@ -363,11 +363,11 @@ entries:
   semifinal: 2
   semifinal-runningorder: 1
   commentary: |    
-    Given the hype that surrounded this track when it came out, I was expecting much more. 
+    Given the hype surrounding this track when it came out, I was expecting much more. 
     
-    It's a good song, and a fun collaboration between last year's entrant with *Flo Rida*. But that's it: it's good, not *great*. 
+    It's a good song, and a fun collaboration between last year's entrant and the one-and-only *Flo Rida*. But that's it: it's good, not *great*. 
     
-    It feels a bit too *Billboard 100* and not enough *Eurovision*.
+    It feels a bit too *Billboard 100* and not *Eurovision* enough .
     
 - country: "Serbia"
   emoji: "🇷🇸"
@@ -376,7 +376,7 @@ entries:
   semifinal: 2
   semifinal-runningorder: 9
   commentary: |
-    This track follows a suspiciously familiar format to Hurricane's defunct 2020 entry, *Hasta la vista*. Whilst it's fun and in-your-face dance track that throws in a nice key change, it's just not as good as their first attempt.
+    This track follows a suspiciously familiar format to Hurricane's defunct 2020 entry, *Hasta la vista*. Whilst it's a fun and in-your-face dance track featuring a good key change, it's just not as good as their first attempt.
     
 - country: "Slovenia"
   emoji: "🇸🇮"
@@ -387,7 +387,7 @@ entries:
   commentary: |
     One of two entries with this title, and neither of them hit home. This minimalist ballad has a strong vocal but the overall package is just disjointed. 
     
-    The peak of the song, which is like an X-Factor winner's single, is short lived and the whole song ends rounds out too abruptly.
+    The peak of the song, which is like an X-Factor winner's single, is short lived and the whole song rounds out too abruptly at the end.
     
 - country: "Spain"
   emoji: "🇪🇸"
@@ -436,9 +436,9 @@ entries:
   commentary: |
     For once, the Beeb has put some effort in. 
     
-    This peppy track could squash itself bang in the middle of UK Top 40. It's good.
+    This peppy track could squash itself bang in the middle of the UK Top 40. It's good.
       
-    That said, there's just something *missing* from it. It's like a plane careering down the runway, ready to take off and not building up quite enough speed.
+    That said, there's just something *missing* from it. It's like a plane careering down the runway, ready to take off but not building up *quite* enough speed.
     
 ---
 

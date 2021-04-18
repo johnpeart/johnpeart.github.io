@@ -5,8 +5,8 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Apr 2021 11:44:25 +0000</pubDate>
-    <lastBuildDate>Sat, 17 Apr 2021 11:44:25 +0000</lastBuildDate>
+    <pubDate>Sun, 18 Apr 2021 01:02:57 +0000</pubDate>
+    <lastBuildDate>Sun, 18 Apr 2021 01:02:57 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -904,7 +904,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;So let’s hop in…&lt;/p&gt;
 
-&lt;details class=&quot;table-of-contents&quot; open=&quot;&quot;&gt;
+&lt;details class=&quot;table-of-contents&quot;&gt;
   &lt;summary&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;&lt;/summary&gt;
 
 &lt;ol id=&quot;markdown-toc&quot;&gt;
@@ -1326,7 +1326,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;I’m fortunate that my career to date has prepared me for this moment. I’ve managed teams across multiple sites, and I’ve regularly led conference calls with participants in the dozens. For those new to the world of multi-site working, I thought I’d share some tips for running better video and telephone conference calls. These are all things I try to do when I’m holding conference calls. Some of these tips work for face-to-face meetings too, but they’re even more important when you’re doing things remotely.&lt;/p&gt;
 
-&lt;details class=&quot;table-of-contents&quot; open=&quot;&quot;&gt;
+&lt;details class=&quot;table-of-contents&quot;&gt;
   &lt;summary&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;&lt;/summary&gt;
 
 &lt;ol id=&quot;markdown-toc&quot;&gt;

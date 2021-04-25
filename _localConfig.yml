@@ -1,0 +1,90 @@
+######################
+# Site configuration #
+######################
+title: "John Peart" 
+description: "I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code."
+author: "John Peart"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000"
+
+####################
+# Feature settings #
+####################
+menu-subdomain: false
+menu-header: true
+menu-footer: true
+analytics: false
+
+###############
+# Asset paths #
+###############
+image-path: "/assets/images"
+css-path: "/assets/styles"
+js-path: "/assets/scripts"
+social-media-image: "/assets/images/site/social-media.png"
+favicon: "/favicon.ico"
+favicon-svg: "/assets/images/site/favicon.svg"
+favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
+favicon-large-png: "/assets/images/site/favicon-large-png.png"
+theme-colour: "#009fe3"
+
+#######################
+# <link rel="me" ...> #
+#######################
+# Twitter
+twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
+twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
+# Mastodon
+mastodon-url: "https://mastodon.social/@johnpeart"
+mastodon-handle: "johnpeart@mastodon.social"
+# Github
+github-url:  "https://github.com/johnpeart"
+github-handle:  "johnpeart"
+
+###############
+# Collections #
+###############
+
+collections:
+  archive:
+    output: true
+    permalink: /archive/:path/
+    defaults:
+      values:
+        layout: blog/post
+  guides:
+    output: true
+    permalink: /guide/:title/
+    defaults:
+      values:
+        layout: manuals/post
+             
+##################
+# Build settings #
+##################
+remote_theme: johnpeart/theme
+permalink: pretty
+markdown: kramdown
+future: false
+highlighter: rouge
+sass:
+  sass_dir: _sass
+
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-redirect-from
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -475,5 +475,5 @@ So let’s hop in...
 
 ## Summing up
 
-Phew! That was a wild ride. 39 entries later, we safely say that it would be nice to take a trip to [Valletta](https://www.visitmalta.com/en/valletta) in 2022; don't you?
+Phew! That was a wild ride. 39 entries later, I think it would be nice to take a trip to [Valletta](https://www.visitmalta.com/en/valletta) in 2022; don't you?
 

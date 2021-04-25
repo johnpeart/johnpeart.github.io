@@ -3,7 +3,7 @@ title: "A digital scoreboard and voting system for your Eurovision house party"
 author: John Peart
 excerpt: 
 layout: blog/post
-permalink: /2021/05/01/eurovision-scoreboard
+permalink: /2021/05/11/eurovision-scoreboard
 category: [eurovision]
 theme: eurovision    
 ---

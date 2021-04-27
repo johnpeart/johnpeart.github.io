@@ -2842,6 +2842,34 @@ body#photos-photo div.footnotes p, body#photos-photo div.footnotes button, body#
 
 body#photos-photo div.footnotes a.reversefootnote { text-decoration: none; font-family: "JP", ui-monospace, "SFMono-Regular", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", Roboto, "Segoe UI", Arial, sans-serif !important; }
 
+body[id^="email"] section#page-content::after { content: ""; clear: both; display: table; }
+
+body[id^="email"] div#email-fields { display: grid; grid-template-areas: "fields fields" "style output" "update update"; grid-template-columns: 1fr 1fr; grid-gap: 30px; }
+
+body[id^="email"] fieldset#radios--style { grid-area: style; }
+
+body[id^="email"] fieldset#inputs--fields { grid-area: fields; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr; grid-gap: 30px; }
+
+body[id^="email"] fieldset#radios--output { grid-area: output; }
+
+body[id^="email"] fieldset#button--update-and-copy { grid-area: update; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; grid-template-areas: "title title" "update copy"; grid-gap: 30px; }
+
+body[id^="email"] fieldset#button--update-and-copy button { margin-bottom: 10px; }
+
+body[id^="email"] div#email-preview { max-width: 600px; }
+
+body[id^="email"] table { width: unset; border-collapse: unset; font-size: unset; line-height: unset; margin: unset; padding: unset; }
+
+body[id^="email"] table tr { border: unset; }
+
+body[id^="email"] table th, body[id^="email"] table td { padding: unset; vertical-align: unset; border: unset; }
+
+body[id^="email"] table thead, body[id^="email"] table tfoot { font-weight: unset; }
+
+body[id^="email"] table thead { border: unset; }
+
+body[id^="email"] table tfoot { border: unset; }
+
 body.theme-eurovision summary span.country, body.theme-eurovision summary span.song-artist { display: block; width: 100%; }
 
 body.theme-eurovision summary span.song-artist { font-weight: normal; color: #868e96; }

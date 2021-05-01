@@ -3,7 +3,7 @@ title: "I listened to all this year’s Eurovision tracks, so you don’t have t
 author: John Peart
 excerpt: "Thoughts on the entries for the 2018 Eurovision Song Contest in 280 characters or less."
 layout: blog/post
-image: /eurovision-280-character-listens.png
+image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2018/04/18/eurovision-first-listens
 redirect_from:
 - /2018/04/18/eurovision-first-listens/

@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about the website I built for the podcast."
 layout: blog/post
 theme: yellow
-image: /dept-of-bad-ideas.png
+image: https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png
 permalink: /2019/02/11/department-of-bad-ideas-hosting-and-website
 category: [podcast]
 theme: podcast

@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "One month with Apple’s “intelligent assistant” and the HomePod."
 layout: blog/post
 theme: apple
-image: /hey-siri.png
+image: https://www.johnpe.art/assets/images/social/hey-siri.png
 permalink: /2018/03/31/hey-siri-homepod-review
 category: [digital]
 ---

@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "For once, I did what I said I was going to do."
 layout: blog/post
 permalink: /2020/12/21/2020-resolutions-review
-image: /2020-goals.png
+image: https://www.johnpe.art/assets/images/social/2020-goals.png
 category: [personal]
 ---
 

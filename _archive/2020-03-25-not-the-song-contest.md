@@ -3,7 +3,7 @@ title: "This is ‘Not the Song Contest’"
 author: John Peart
 excerpt: "Just because Eurovision is cancelled doesn’t mean I can’t have a Eurovision house party. You can join in too!"
 layout: blog/post
-image: /not-the-song-contest.png
+image: https://www.johnpe.art/assets/images/social/not-the-song-contest.png
 permalink: /2020/03/25/this-is-not-the-song-contest
 category: [digital, eurovision]
 ---

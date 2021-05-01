@@ -3,7 +3,7 @@ title: "How TfL keeps screwing me for delay refunds"
 author: John Peart
 excerpt: "Let me tell you about my ongoing woes with Finsbury Park station."
 layout: blog/post
-image: /tfl-refunds.png
+image: https://www.johnpe.art/assets/images/social/tfl-refunds.png
 permalink: /2018/06/10/tfl-delay-refunds
 category: [services]
 ---

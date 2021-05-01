@@ -3,7 +3,7 @@ title: I listened to this year’s defunct Eurovision 2020 entries so you don’
 author: John Peart
 excerpt: Eurovision is cancelled, but I’ve listened to every entry for this year’s Contest anyway. Preview, review and snark for every entry, in 280 characters or less.
 layout: blog/post
-image: /eurovision-280-character-listens.png
+image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2020/04/04/eurovision-first-listens
 category: [eurovision]
 ---

@@ -3,7 +3,7 @@ title: I listened to this year’s Eurovision 2021 entries so you don’t have t
 author: John Peart
 excerpt: Eurovision is back. Yippee! I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less.
 layout: blog/post
-image: /eurovision-280-character-listens.png
+image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2021/05/01/eurovision-first-listens
 redirect_from: 
 - /eurovision

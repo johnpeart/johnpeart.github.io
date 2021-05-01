@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "Fixing the most overused phrase in LGBT media."
 layout: blog/post
 theme: magenta
-image: /opening-up.png
+image: https://www.johnpe.art/assets/images/social/opening-up.png
 permalink: /2018/03/17/opening-up-lgbt-media
 category: [diversity, LGBT, design]
 ---

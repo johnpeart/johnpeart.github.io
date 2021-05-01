@@ -3,7 +3,7 @@ title: "I listened to every Eurovision 2017 track, so you don't have to"
 author: John Peart
 excerpt: "Here we are again. First impressions of every track, in the order they'll appear, in less than a tweet each."
 layout: blog/post
-image: /eurovision-280-character-listens.png
+image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2017/04/21/eurovision-first-listens
 redirect_from: 
 - /2017/04/21/eurovision-first-listens/

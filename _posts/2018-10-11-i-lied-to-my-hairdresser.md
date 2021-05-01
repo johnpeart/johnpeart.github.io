@@ -7,7 +7,7 @@ Image: /i-lied-to-my-hairdresser.png
 layout: blog/post
 theme: magenta
 category: [diversity, LGBT]
-image: /i-lied-to-my-hairdresser.png
+image: https://www.johnpe.art/assets/images/social/i-lied-to-my-hairdresser.png
 ---
 I went for a haircut recently, and I lied to the person who cut my hair. 
 

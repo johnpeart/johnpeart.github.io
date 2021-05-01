@@ -3,7 +3,7 @@ title: "The most broken junctions in Westminster"
 author: John Peart
 excerpt: "Has anyone actually considered pedestrians when they’re designing these things?"
 layout: blog/post
-image: /whitehalls-broken-junctions.png
+image: https://www.johnpe.art/assets/images/social/whitehalls-broken-junctions.png
 permalink: /2018/02/18/whitehalls-broken-junctions
 category: [services, design]
 ---

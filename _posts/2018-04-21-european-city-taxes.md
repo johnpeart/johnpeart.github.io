@@ -3,7 +3,6 @@ title: "On European city taxes and tourism"
 author: John Peart
 excerpt: "I’ve been travelling around Europe on holiday. This is some thinking about city taxes and opportunities."
 layout: blog/post
-image: https://www.johnpe.art/assets/images/social/thoughts-city-taxes.png
 permalink: /2018/04/21/european-city-taxes
 category: [services, government]
 ---

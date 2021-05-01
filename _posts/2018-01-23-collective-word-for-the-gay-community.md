@@ -4,7 +4,6 @@ author: John Peart
 excerpt: "Is it LGBT? LGBTQ? LGBTI? LGBTQIA2S? What about queer? Maybe big data holds the answer."
 layout: blog/post
 theme: magenta
-image: https://www.johnpe.art/assets/images/social/gay-collective-term.png
 permalink: /2018/01/23/collective-word-for-the-gay-community
 category: [diversity, LGBT, data]
 ---

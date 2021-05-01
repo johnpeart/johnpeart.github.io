@@ -3,7 +3,6 @@ published: true
 title: I lied to my hairdresser
 excerpt: “Do you have a girlfriend?”
 permalink: /2018/10/11/i-lied-to-my-hairdresser
-Image: /i-lied-to-my-hairdresser.png
 layout: blog/post
 theme: magenta
 category: [diversity, LGBT]

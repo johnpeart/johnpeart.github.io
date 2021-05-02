@@ -69,8 +69,8 @@
     url: "//twitter.com/deptofadmin/"
     notes: "A Twitterbot for the fictional Department of Administrative Affairs"
     hidden: false
-  - name: "@DeptOfMemes"
-    url: "//twitter.com/deptofmemes/"
+  - name: "@DeptForMemes"
+    url: "//twitter.com/deptformemes/"
     notes: "A Twitterbot that tweets out memes in the style of political branding"
     hidden: false
 

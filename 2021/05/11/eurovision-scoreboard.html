@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 	
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Manuals</title>
+	<title>A digital scoreboard and voting system for your Eurovision house party</title>
 	
 	<!-- Short description of the page (limit to 150 characters) -->
 	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
@@ -27,10 +27,10 @@
 	
 	<!-- Base URLS, duplicate URLs and feeds -->
 	<meta name="url" content="https://www.johnpe.art">
-	<base href="https://www.johnpe.art/manuals/">
+	<base href="https://www.johnpe.art/2021/05/11/eurovision-scoreboard">
 	<!-- Links to top level resource in an hierarchical structure -->
 	<link rel="index" href="https://www.johnpe.art">
-	<link rel="canonical" href="https://www.johnpe.art/manuals/">
+	<link rel="canonical" href="https://www.johnpe.art/2021/05/11/eurovision-scoreboard">
 	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
 	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
 	<link rel="archives" href="https://www.johnpe.art/archives">
@@ -44,11 +44,11 @@
 <link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
 	
 	<!-- Facebook Open Graph settings -->
-	<meta property="og:url" 				content="https://www.johnpe.art/manuals/">
+	<meta property="og:url" 				content="https://www.johnpe.art/2021/05/11/eurovision-scoreboard">
 
 <meta property="og:type" 			content="website" />
 
-<meta property="og:title" 			content="Manuals">
+<meta property="og:title" 			content="A digital scoreboard and voting system for your Eurovision house party">
 
 
 <meta property="og:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
@@ -60,7 +60,7 @@
 
 <meta property="og:rich_attachment" content="true" />
 
-<meta property="og:description" 		content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.">
+<meta property="og:description" 		content="Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Conte...">
 
 <meta property="og:site_name" 		content="John Peart">
 
@@ -77,20 +77,20 @@
 
 <meta name="twitter:creator" 		content="@johnpeart">
 
-<meta name="twitter:url" 			content="https://www.johnpe.art/manuals/">
+<meta name="twitter:url" 			content="https://www.johnpe.art/2021/05/11/eurovision-scoreboard">
 
-<meta name="twitter:title" 			content="Manuals">
+<meta name="twitter:title" 			content="A digital scoreboard and voting system for your Eurovision house party">
 
-<meta name="twitter:description" 	content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.">
+<meta name="twitter:description" 	content="Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Conte...">
 
 
 <meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/site/social-media.png">
 
-<meta name="twitter:image:alt" 		content="Manuals">
+<meta name="twitter:image:alt" 		content="A digital scoreboard and voting system for your Eurovision house party">
 	
 	<!-- Schema.org settings -->
-	<meta itemprop="name" content="Manuals">
-<meta itemprop="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.">
+	<meta itemprop="name" content="A digital scoreboard and voting system for your Eurovision house party">
+<meta itemprop="description" content="Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Conte...">
 
 <meta itemprop="image" content="https://www.johnpe.art/assets/images/site/social-media.png">
 
@@ -111,7 +111,7 @@
 </head>
 
 
-  <body id="manuals-home">
+  <body id="blog-post" class="theme-eurovision">
 	  
   	
 <a href="#content" class="skip-link">
@@ -160,27 +160,114 @@
 </header>
 
 <main id="content" class="container">
+						
+	<article id="post-content">
+		
+		<header class="post-title">
+
+			<h1 class="post-title">A digital scoreboard and voting system for your Eurovision house party</h1>			
+
+		</header>
+
+		<section class="post-body">
+			
+			<p>Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Contest house party.</p>
+
+<p>Hours before the party, I had a bright idea to hack together a <a href="/2019/06/02/building-a-eurovision-scoreboard">digital scoreboard</a> for the event. The scoreboard took votes from a Google Form. It allowed my guests – and dozens of others across the country, in fact – to vote for their favourite entries and see the will of the people in near real time.</p>
+
+<figure class="image">
+	<img src="https://www.johnpe.art/assets/images/posts/eurovision-scoreboard.jpg" alt="A screenshot of my 2019 Eurovision Scoreboard." />
+	<figcaption>
+		<strong>Figure 1:</strong>
+		This is what the 2019 version of my Eurovision scoreboard looked like.
+		
+	</figcaption>
+</figure>
+
+<p>At my gathering, I had it set up on a TV in my living room. Every 30 seconds it pinged out to Google to get the total score, and then did some maths to round it to the classic 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 Eurovision points scale.</p>
+
+<p>It was fun! But it was a hack. It did the job, but it didn’t do it especially well, and it lacked features like showing who was winning.</p>
+
+<p>These were things I had started to build out during my <a href="/2020/03/25/this-is-not-the-song-contest">all-digital Eurovision house party</a> last year. This year, it’s third time lucky.</p>
+
+<h2 id="a-new-scoreboard-for-2021">A new scoreboard for 2021</h2>
+
+<p>For 2021, my digital scoreboard has had some upgrades. It’s been totally rebuilt and given a facelift inspired by this year’s “<a href="https://eurovision.tv/theme">Open Up</a>” branding.</p>
+
+<figure class="image">
+	<img src="https://www.johnpe.art/assets/images/posts/eurovision-scoreboard-2021.png" alt="A screenshot of my 2021 Eurovision Scoreboard." />
+	<figcaption>
+		<strong>Figure 2:</strong>
+		This is what the new  scoreboard looks like.
+		<a href="https://www.johnpe.art/euroboard" title="Open I call it Euroboard in new window" target="_blank">I call it Euroboard</a>.
+	</figcaption>
+</figure>
+
+<p>I’ll update this blogpost with how it was built later this month. For now, let me tell you a bit about what it can do!</p>
+
+<h3 id="realtime-scoreboard-and-voting">Realtime scoreboard and voting</h3>
+
+<p>This year’s scoreboard should update in realtime. Every time someone submits a vote, the scores should update instantly on the scoreboard.</p>
+
+<p>The Google Forms for voting are gone too. There’s now a voting system build into the website; much easier than the previous form.</p>
+
+<h3 id="all-three-events">All three events</h3>
+
+<p>My previous scoreboard was designed for the grand final. This year, there’s a scoreboard for every event: both semi-finals<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> and the grand final on the Saturday.</p>
+
+<h3 id="see-whos-winning">See who’s winning</h3>
+
+<p>It’s easier than before to see who’s in the lead. First, second and third place entries will be highlighted throughout the show.</p>
+
+<p>The scoreboard can also switch its layout between the running order of the acts on stage and a leaderboard style layout, where each act will be listed first to last.</p>
+
+<h3 id="now-playing">Now playing</h3>
+
+<p>Losing track of what’s going on? Not anymore! The scoreboard can show you which artist is on screen <em>now</em> with a little now playing animation.</p>
+
+<h3 id="message-center">Message center</h3>
+
+<p>It’s going to be weird not being together like usual, isn’t it?</p>
+
+<p>I thought I’d bring a little bit of <em>me</em> into your living room. Messages and shoutouts will pop up on screen as we go through the show, including some small Easter eggs.</p>
+
+<h2 id="get-involved">Get involved</h2>
+
+<p>So it’s new and improved, and you can use it too!</p>
+
+<p>If you’d like to have a digitally-enabled, socially-distant Eurovision, visit <a href="https://www.johnpe.art/euroboard">the Euroboard</a> on 18, 20 and 22 May 2021.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Don’t even <em>pretend</em> that you didn’t know there were semi-finals. Embrace your zany, Eurovision-loving side. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
 				
-	<section id="page-content">
-
-		<h1 class="page-title">Manuals</h1>
-
-		<aside class="intro-text">
-    
-    
-    
-</aside>
-
-<section>    
-    
-    <article class="project">
-        <h2 class="project-name"><a href="https://www.johnpe.art/guide/nes-frame/" class="project-url">NES frame</a></h2>
-        <p class="project-excerpt">A 3.5-inch screen embedded in a classic Nintendo NES games cartridge, powered by Raspberry Pi and mounted in a 3D box frame.</p>
-    </article>
-    
-</section>
+		</section>
+		
+		
+		<footer class="post-meta">
 							
-	</section>
+			<aside class="post-meta">
+				
+				<dl class="meta-data">
+					
+					<dt class="post-date">Published:</dt><dd>11 May 2021</dd>
+			
+					
+					<dt class="post-categories">Categories:</dt>
+					<dd>eurovision</dd>
+					
+				
+				</dl>
+				
+			</aside>
+		
+		</footer>
+		
+	</article>
 	
 </main>
 

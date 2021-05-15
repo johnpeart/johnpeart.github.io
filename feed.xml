@@ -5,8 +5,8 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 May 2021 13:21:06 +0000</pubDate>
-    <lastBuildDate>Sat, 15 May 2021 13:21:06 +0000</lastBuildDate>
+    <pubDate>Sat, 15 May 2021 15:43:56 +0000</pubDate>
+    <lastBuildDate>Sat, 15 May 2021 15:43:56 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -1661,298 +1661,634 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;So let’s hop in…&lt;/p&gt;
 
-&lt;details class=&quot;table-of-contents&quot;&gt;
-  &lt;summary&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;&lt;/summary&gt;
+&lt;h2 id=&quot;the-entries&quot;&gt;The entries&lt;/h2&gt;
 
-&lt;ol id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#first-semi-final&quot; id=&quot;markdown-toc-first-semi-final&quot;&gt;First semi-final&lt;/a&gt;    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#australia--dont-break-me--montaigne&quot; id=&quot;markdown-toc-australia--dont-break-me--montaigne&quot;&gt;Australia – Don’t Break Me – Montaigne&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#azerbaijan--cleopatra--efendi&quot; id=&quot;markdown-toc-azerbaijan--cleopatra--efendi&quot;&gt;Azerbaijan – Cleopatra – Efendi&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#belarus--da-vidna--val&quot; id=&quot;markdown-toc-belarus--da-vidna--val&quot;&gt;Belarus – Da vidna – VAL&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#belgium--release-me--hooverphonic&quot; id=&quot;markdown-toc-belgium--release-me--hooverphonic&quot;&gt;Belgium – Release Me – Hooverphonic&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#croatia--divlji-vjetre--damir-kedžo&quot; id=&quot;markdown-toc-croatia--divlji-vjetre--damir-kedžo&quot;&gt;Croatia – Divlji vjetre – Damir Kedžo&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cyprus--running--sandro&quot; id=&quot;markdown-toc-cyprus--running--sandro&quot;&gt;Cyprus – Running – Sandro&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#ireland--story-of-my-life--lesley-roy&quot; id=&quot;markdown-toc-ireland--story-of-my-life--lesley-roy&quot;&gt;Ireland – Story of My Life – Lesley Roy&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#israel--feker-libi--eden-alene&quot; id=&quot;markdown-toc-israel--feker-libi--eden-alene&quot;&gt;Israel – Feker libi – Eden Alene&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#lithuania--on-fire--the-roop&quot; id=&quot;markdown-toc-lithuania--on-fire--the-roop&quot;&gt;Lithuania – On Fire – The Roop&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#malta--all-of-my-love--destiny&quot; id=&quot;markdown-toc-malta--all-of-my-love--destiny&quot;&gt;Malta – All of My Love – Destiny&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#north-macedonia--you--vasil&quot; id=&quot;markdown-toc-north-macedonia--you--vasil&quot;&gt;North Macedonia – You – Vasil&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#norway--attention--ulrikke&quot; id=&quot;markdown-toc-norway--attention--ulrikke&quot;&gt;Norway – Attention – Ulrikke&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#romania--alcohol-you--roxen&quot; id=&quot;markdown-toc-romania--alcohol-you--roxen&quot;&gt;Romania – Alcohol You – Roxen&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#russia--uno--little-big&quot; id=&quot;markdown-toc-russia--uno--little-big&quot;&gt;Russia – Uno – Little Big&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#slovenia--voda--ana-soklič&quot; id=&quot;markdown-toc-slovenia--voda--ana-soklič&quot;&gt;Slovenia – Voda – Ana Soklič&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#sweden--move--the-mamas&quot; id=&quot;markdown-toc-sweden--move--the-mamas&quot;&gt;Sweden – Move – The Mamas&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#ukraine--solovey--go_a&quot; id=&quot;markdown-toc-ukraine--solovey--go_a&quot;&gt;Ukraine – Solovey – Go_A&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#second-semi-final&quot; id=&quot;markdown-toc-second-semi-final&quot;&gt;Second semi-final&lt;/a&gt;    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#austria--alive--vincent-bueno&quot; id=&quot;markdown-toc-austria--alive--vincent-bueno&quot;&gt;Austria – Alive – Vincent Bueno&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#albania--fall-from-the-sky--arilena-ara&quot; id=&quot;markdown-toc-albania--fall-from-the-sky--arilena-ara&quot;&gt;Albania – Fall from the Sky – Arilena Ara&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#armenia--chains-on-you--athena-manoukian&quot; id=&quot;markdown-toc-armenia--chains-on-you--athena-manoukian&quot;&gt;Armenia – Chains on You – Athena Manoukian&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bulgaria--tears-getting-sober--victoria&quot; id=&quot;markdown-toc-bulgaria--tears-getting-sober--victoria&quot;&gt;Bulgaria – Tears Getting Sober – Victoria&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#czech-republic--kemama--benny-cristo&quot; id=&quot;markdown-toc-czech-republic--kemama--benny-cristo&quot;&gt;Czech Republic – Kemama – Benny Cristo&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#denmark--yes--ben--tan&quot; id=&quot;markdown-toc-denmark--yes--ben--tan&quot;&gt;Denmark – Yes – Ben &amp;amp; Tan&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#estonia--what-love-is--uku-suviste&quot; id=&quot;markdown-toc-estonia--what-love-is--uku-suviste&quot;&gt;Estonia – What Love Is – Uku Suviste&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#finland--looking-back--aksel&quot; id=&quot;markdown-toc-finland--looking-back--aksel&quot;&gt;Finland – Looking Back – Aksel&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#georgia--take-me-as-i-am--tornike-kipiani&quot; id=&quot;markdown-toc-georgia--take-me-as-i-am--tornike-kipiani&quot;&gt;Georgia – Take Me as I Am – Tornike Kipiani&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#greece--supergirl--stefania&quot; id=&quot;markdown-toc-greece--supergirl--stefania&quot;&gt;Greece – Supergirl – Stefania&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#iceland--think-about-things--daði-og-gagnamagnið&quot; id=&quot;markdown-toc-iceland--think-about-things--daði-og-gagnamagnið&quot;&gt;Iceland – Think About Things – Daði og Gagnamagnið&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#latvia--still-breathing--samanta-tīna&quot; id=&quot;markdown-toc-latvia--still-breathing--samanta-tīna&quot;&gt;Latvia – Still Breathing – Samanta Tīna&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#moldova--prison--natalia-gordienko&quot; id=&quot;markdown-toc-moldova--prison--natalia-gordienko&quot;&gt;Moldova – Prison – Natalia Gordienko&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#poland--empires--alicja&quot; id=&quot;markdown-toc-poland--empires--alicja&quot;&gt;Poland – Empires – Alicja&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#portugal--medo-de-sentir--elisa&quot; id=&quot;markdown-toc-portugal--medo-de-sentir--elisa&quot;&gt;Portugal – Medo de sentir – Elisa&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#san-marino--freaky--senhit&quot; id=&quot;markdown-toc-san-marino--freaky--senhit&quot;&gt;San Marino – FREAKY! – Senhit&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#serbia--hasta-la-vista--hurricane&quot; id=&quot;markdown-toc-serbia--hasta-la-vista--hurricane&quot;&gt;Serbia – Hasta la vista – Hurricane&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#switzerland--répondez-moi--gjons-tears&quot; id=&quot;markdown-toc-switzerland--répondez-moi--gjons-tears&quot;&gt;Switzerland – Répondez-moi – Gjon’s Tears&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-big-5-and-last-years-winner&quot; id=&quot;markdown-toc-the-big-5-and-last-years-winner&quot;&gt;The Big 5 and last year’s winner&lt;/a&gt;    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#france--mon-alliée-the-best-in-me-tom-leeb&quot; id=&quot;markdown-toc-france--mon-alliée-the-best-in-me-tom-leeb&quot;&gt;France – Mon alliée (The Best in Me) – Tom Leeb&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#germany-violent-thing-ben-dolic&quot; id=&quot;markdown-toc-germany-violent-thing-ben-dolic&quot;&gt;Germany – Violent Thing – Ben Dolic&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#italy--fai-rumore-diodato&quot; id=&quot;markdown-toc-italy--fai-rumore-diodato&quot;&gt;Italy – Fai rumore – Diodato&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#netherlands--grow--jeangu-macrooy&quot; id=&quot;markdown-toc-netherlands--grow--jeangu-macrooy&quot;&gt;Netherlands – Grow – Jeangu Macrooy&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#spain--universo--blas-cantó&quot; id=&quot;markdown-toc-spain--universo--blas-cantó&quot;&gt;Spain – Universo – Blas Cantó&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#united-kingdom--my-last-breath--james-newman&quot; id=&quot;markdown-toc-united-kingdom--my-last-breath--james-newman&quot;&gt;United Kingdom – My Last Breath – James Newman&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#summing-up&quot; id=&quot;markdown-toc-summing-up&quot;&gt;Summing up&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;fieldset id=&quot;toggle-esc-entries&quot;&gt;
+
+    &lt;legend&gt;Toggle entries&lt;/legend&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-all&quot; value=&quot;all&quot; checked=&quot;&quot; /&gt;
+      &lt;label for=&quot;esc-all&quot;&gt;All entries&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-sf1&quot; value=&quot;sf1&quot; /&gt;
+      &lt;label for=&quot;esc-sf1&quot;&gt;Semi-final one&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-sf2&quot; value=&quot;sf2&quot; /&gt;
+      &lt;label for=&quot;esc-sf2&quot;&gt;Semi-final two&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-final&quot; value=&quot;final&quot; /&gt;
+      &lt;label for=&quot;esc-final&quot;&gt;Grand final&lt;/label&gt;
+    &lt;/div&gt;
+
+&lt;/fieldset&gt;
+
+&lt;div id=&quot;esc-entries&quot; data-show=&quot;all&quot;&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Australia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Don’t Break Me by Montaigne&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;The Aussies keep churning out Eurovision class acts; this year is no exception. This is a cool and punchy track that makes great use of text painting in the lyrics to compliment the swooping instrumentation. It rises and falls throughout to keep you engaged for all three minutes.&lt;/p&gt;
 
 &lt;/details&gt;
 
-&lt;h2 id=&quot;first-semi-final&quot;&gt;First semi-final&lt;/h2&gt;
-
-&lt;h3 id=&quot;australia--dont-break-me--montaigne&quot;&gt;Australia – Don’t Break Me – Montaigne&lt;/h3&gt;
-
-&lt;p&gt;The Aussies keep churning out Eurovision class acts; this year is no exception. This is a cool and punchy track that makes great use of text painting in the lyrics to compliment the swooping instrumentation. It rises and falls throughout to keep you engaged for all three minutes.&lt;/p&gt;
-
-&lt;h3 id=&quot;azerbaijan--cleopatra--efendi&quot;&gt;Azerbaijan – Cleopatra – Efendi&lt;/h3&gt;
-
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Azerbaijan&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Cleopatra by Efendi&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;I always thought Cleopatra was Egyptian and yet, despite Egypt being eligible to enter Eurovision, this ode to the queen comes from Azerbaijan.&lt;/p&gt;
 
 &lt;p&gt;Obviously inspired by &lt;a href=&quot;https://www.youtube.com/watch?v=Ovt7YGHAj8I&quot;&gt;last year’s fan favourite&lt;/a&gt;, it’s replete with faux-throat singing, but with substantially more sex and sass. Solid.&lt;/p&gt;
 
-&lt;h3 id=&quot;belarus--da-vidna--val&quot;&gt;Belarus – Da vidna – VAL&lt;/h3&gt;
+&lt;/details&gt;
 
-&lt;p&gt;&lt;em&gt;Da vidna&lt;/em&gt;, meaning “until dawn” is reminiscent of that track from &lt;em&gt;Made in Chelsea&lt;/em&gt;. You know, the one with the screechy sound.&lt;sup id=&quot;fnref:davidna&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:davidna&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Belarus&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Da vidna by VAL&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;&lt;em&gt;Da vidna&lt;/em&gt;, meaning “until dawn” is reminiscent of that track from &lt;em&gt;Made in Chelsea&lt;/em&gt;. You know, &lt;a href=&quot;https://www.youtube.com/watch?v=dX3k_QDnzHE&quot;&gt;the one with the screechy sound&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Made in Chelsea&lt;/em&gt; and &lt;em&gt;Da vidna&lt;/em&gt; have something else in common too: they’re both stilted and devoid of substance.&lt;/p&gt;
 
-&lt;h3 id=&quot;belgium--release-me--hooverphonic&quot;&gt;Belgium – Release Me – Hooverphonic&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Belgium&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Release Me by Hooverphonic&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;You know when you’re in a pub and you ask for Coke but you get Pepsi? Sure it looks like Coke, but the taste? Just a bit &lt;em&gt;off&lt;/em&gt;. That’s this song.&lt;/p&gt;
 
 &lt;p&gt;It’s almost a good jazz lounge number. It’s &lt;em&gt;fine&lt;/em&gt;. It’s just a bit discordant and, like Pepsi, a poor imitation of the original.&lt;/p&gt;
 
-&lt;h3 id=&quot;croatia--divlji-vjetre--damir-kedžo&quot;&gt;Croatia – Divlji vjetre – Damir Kedžo&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Croatia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Divlji vjetre by Damir Kedžo&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;As it’s sung in Croatian, I’ve taken the liberty of looking up the lyrics for this one. What I’m getting is pathetic; a pathetic fallacy that is.&lt;/p&gt;
 
 &lt;p&gt;It’s also naff.&lt;/p&gt;
 
 &lt;p&gt;This is basically &lt;a href=&quot;https://www.youtube.com/watch?v=O9MvdMqKvpU&amp;amp;feature=youtu.be&amp;amp;t=70&quot;&gt;that song from Pocahontas&lt;/a&gt; but without the colonial overtones or the musical genius of Alan Menken.&lt;/p&gt;
 
-&lt;h3 id=&quot;cyprus--running--sandro&quot;&gt;Cyprus – Running – Sandro&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Cyprus&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Running by Sandro&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;I &lt;em&gt;think&lt;/em&gt; what we’re meant to take away from this song is that this artist is struggling with his mental health. (&lt;em&gt;Great! #TimeToTalk etc.&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;What I &lt;em&gt;actually&lt;/em&gt; took away from this is that maybe Sandro is &lt;em&gt;really&lt;/em&gt; into marathons. I do like this, I just think it gets a &lt;em&gt;little&lt;/em&gt; repetitive.&lt;/p&gt;
 
-&lt;h3 id=&quot;ireland--story-of-my-life--lesley-roy&quot;&gt;Ireland – Story of My Life – Lesley Roy&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Ireland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Story of My Life by Lesley Roy&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Well Lesley &lt;em&gt;clearly&lt;/em&gt; likes P!nk.&lt;/p&gt;
 
 &lt;p&gt;I’m not much of a P!nk fan, but I can appreciate a thumping good pop song and &lt;em&gt;this&lt;/em&gt; is one of those. It’s uptempo, chirpy, and has a driving bass line for a fun three minutes.&lt;/p&gt;
 
-&lt;h3 id=&quot;israel--feker-libi--eden-alene&quot;&gt;Israel – Feker libi – Eden Alene&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Israel&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Feker libi by Eden &lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;&lt;em&gt;Feker libi&lt;/em&gt; (or “my sweetheart” in English) is a very confused song. One minute it’s a 90s house track, praying to the Earth mother; the next it’s a Bollywood banging &lt;a href=&quot;https://www.youtube.com/watch?v=Yc5OyXmHD0w&quot;&gt;Pussycat Dolls rip-off&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you can look past the frantic and a bit out-of-place middle-eight, it’s pretty good!&lt;/p&gt;
 
-&lt;h3 id=&quot;lithuania--on-fire--the-roop&quot;&gt;Lithuania – On Fire – The Roop&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Lithuania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;On Fire by The Roop&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;I so desperately wanted to make a good “&lt;em&gt;The Roop&lt;/em&gt; is &lt;em&gt;On Fire&lt;/em&gt;” joke here, but this track does not deserve my best wit. This is quirky and there’s an ear-worming synth riff throughout, but it does not exceed the sum of its parts. Disappointing, at best.&lt;/p&gt;
 
-&lt;h3 id=&quot;malta--all-of-my-love--destiny&quot;&gt;Malta – All of My Love – Destiny&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Malta&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;All of My Love by Destiny&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;The song builds very quickly from a quiet piano ballad, to a powerhouse with drivingly rhythmic instrumentation. It’s hard to identify the catchy riff that your ear is meant to latch on to, but there’s no doubting that singer, Destiny, has got &lt;em&gt;lungs&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;north-macedonia--you--vasil&quot;&gt;North Macedonia – You – Vasil&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;North Macedonia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;You by Vasil&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;The recently renamed &lt;del&gt;Former Yugoslav Republic of&lt;/del&gt; North Macedonia has ditched boastful ballads this year and gone for a sexed-up, Latino-type song about dancing.&lt;/p&gt;
 
 &lt;p&gt;The vocals are a tad bland, but the instrumentation is varied and lay down a fun beat.&lt;/p&gt;
 
-&lt;h3 id=&quot;norway--attention--ulrikke&quot;&gt;Norway – Attention – Ulrikke&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Norway&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Attention by Ulrikke&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;“I just want your attention”, sings Ulrikke in the pre-chorus of the Norwegian entry. Well, Ulrikke, you’ll have to try harder than this.&lt;/p&gt;
 
 &lt;p&gt;The song takes an age to get started, and it only really grabs you after about 2 minutes. It’s pleasant enough; just not very catchy.&lt;/p&gt;
 
-&lt;h3 id=&quot;romania--alcohol-you--roxen&quot;&gt;Romania – Alcohol You – Roxen&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Romania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Alcohol You by Roxen&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;What is Roxen drinking?&lt;/p&gt;
 
 &lt;p&gt;If this were any true metaphor for alcohol, it would feel a lot better in the moment and the hangover would at least be memorable. This dreary and confused entry is closer to drinking bleach than alcohol; it’s shit and you’ll regret it once it’s done.&lt;/p&gt;
 
-&lt;h3 id=&quot;russia--uno--little-big&quot;&gt;Russia – Uno – Little Big&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Russia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Uno by Little Big&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;It has been apparent for sometime that things are &lt;em&gt;not good&lt;/em&gt; in Russia, but now we know why: they’re still living in the 1990s.&lt;/p&gt;
 
 &lt;p&gt;This, somehow, manages to be &lt;em&gt;even more annoying&lt;/em&gt; than &lt;a href=&quot;https://en.wikipedia.org/wiki/Aqua_(band)&quot;&gt;Aqua’s&lt;/a&gt; infamous back catalogue, which – let’s not forget – includes a song about &lt;a href=&quot;https://en.wikipedia.org/wiki/Barbie_Girl&quot;&gt;plastic dolls&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;slovenia--voda--ana-soklič&quot;&gt;Slovenia – Voda – Ana Soklič&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Slovenia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Voda by Ana Soklič&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Who knew that the Slovenians were so enthusiastic about one &lt;a href=&quot;https://en.wikipedia.org/wiki/Vodafone&quot;&gt;the world’s largest telecommunications companies&lt;/a&gt;?&lt;/p&gt;
 
 &lt;p&gt;In reality, I have absolutely no idea what the lyrics to this song are about, as I can’t find the English translation; but it is inoffensive enough to pass three minutes.&lt;/p&gt;
 
-&lt;h3 id=&quot;sweden--move--the-mamas&quot;&gt;Sweden – Move – The Mamas&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Sweden&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Move by The Mamas&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iEEuG5XML-A&quot;&gt;Last year’s Swedish backing singers&lt;/a&gt; would have taken centre-stage this year in this soul and gospel track.&lt;/p&gt;
 
 &lt;p&gt;This is another great entry in a string of amazing Eurovision entries from my favourite European nation. I am unashamedly biased at this point. Sweden can do no wrong!&lt;/p&gt;
 
-&lt;h3 id=&quot;ukraine--solovey--go_a&quot;&gt;Ukraine – Solovey – Go_A&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Ukraine&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Solovey by Go_A&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Oh &lt;a href=&quot;https://youtu.be/slHboKF9PIQ?t=12&quot;&gt;Christ on a hamster wheel&lt;/a&gt;, didn’t we collectively learn &lt;em&gt;anything&lt;/em&gt; from this style of music &lt;a href=&quot;https://youtu.be/IEu0F5uobVo?t=8&quot;&gt;last year&lt;/a&gt;?&lt;/p&gt;
 
 &lt;p&gt;According to their &lt;a href=&quot;https://eurovision.tv/participant/go_a&quot;&gt;official profile&lt;/a&gt;, Go_A think that “Ukrainian folklore and electronic music are a perfect match”. They are wrong. Go_Away. Now.&lt;/p&gt;
 
-&lt;h2 id=&quot;second-semi-final&quot;&gt;Second semi-final&lt;/h2&gt;
+&lt;/details&gt;
 
-&lt;h3 id=&quot;austria--alive--vincent-bueno&quot;&gt;Austria – Alive – Vincent Bueno&lt;/h3&gt;
-
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Austria&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Alive by Vincent Bueno&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Bare with this, because the first 30 seconds are a bit crap. They’re obscuring some excellent bass-thwacking that comes a little later.&lt;/p&gt;
 
 &lt;p&gt;It’s a bit all over the place and can’t catch a consistent feeling of pace, but it’s enough to jolt you awake after some snoozing ballads.&lt;/p&gt;
 
-&lt;h3 id=&quot;albania--fall-from-the-sky--arilena-ara&quot;&gt;Albania – Fall from the Sky – Arilena Ara&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Albania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Fall from the Sky by Arilena Ara&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This song takes a while to get going. The first two verses and choruses are basically a write-off.&lt;/p&gt;
 
 &lt;p&gt;Yes, that’s most of the song but then, then there is the final bridge and final chorus. They’re punchy, dramatic, and &lt;em&gt;probably not worth the wait&lt;/em&gt; but I enjoyed them anyway.&lt;/p&gt;
 
-&lt;h3 id=&quot;armenia--chains-on-you--athena-manoukian&quot;&gt;Armenia – Chains on You – Athena Manoukian&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Armenia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Chains on You by Athena Manoukian&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;The Armenians have apparently discovered the existence of steel drums, unambiguously sadomasochistic lyrics, and contemporary hip-hop. So basically the artist thinks she’s Rihanna. Except, you know, without all the production value or &lt;a href=&quot;https://youtu.be/jI6jGlQhTU4?t=132&quot;&gt;the Pitch Perfect spin-offs&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;bulgaria--tears-getting-sober--victoria&quot;&gt;Bulgaria – Tears Getting Sober – Victoria&lt;/h3&gt;
+&lt;/details&gt;
 
-&lt;p&gt;Bulgaria has had some absolute &lt;em&gt;tunes&lt;/em&gt; in recent years&lt;sup id=&quot;fnref:bulgaria-tunes&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bulgaria-tunes&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.&lt;/p&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Bulgaria&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Tears Getting Sober by Victoria&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;Bulgaria has had some absolute &lt;em&gt;tunes&lt;/em&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;in&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=OMmm-G078LM&quot;&gt;recent&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=vC-1tdGDFQc&quot;&gt;years&lt;/a&gt;. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.&lt;/p&gt;
 
 &lt;p&gt;It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;Bring back Poli&lt;/a&gt;!&lt;/p&gt;
 
-&lt;h3 id=&quot;czech-republic--kemama--benny-cristo&quot;&gt;Czech Republic – Kemama – Benny Cristo&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Czech Republic&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Kemama by Benny Cristo&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;The Czech’s have been on an upward trajectory the last few years. &lt;a href=&quot;https://www.youtube.com/watch?v=NJxLKFZKhNs&quot;&gt;Last year’s entry&lt;/a&gt; was great, if you ignored the &lt;a href=&quot;https://youtu.be/NJxLKFZKhNs?t=37&quot;&gt;shit cockney accent&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This year’s entry is also pretty good. And it’s produced by someone called &lt;em&gt;Glowsticks&lt;/em&gt;, which is just &lt;em&gt;extremely&lt;/em&gt; on brand for Eurovision.&lt;/p&gt;
 
-&lt;h3 id=&quot;denmark--yes--ben--tan&quot;&gt;Denmark – Yes – Ben &amp;amp; Tan&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Denmark&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Yes by Ben &amp;amp; Tan&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;The Danes have apparently taken inspiration from their near-&lt;em&gt;ish&lt;/em&gt; Dutch neighbours with this country song that sounds remarkably similar to &lt;a href=&quot;https://www.youtube.com/watch?v=zvCBSSwgtg4&quot;&gt;a Lumineers track&lt;/a&gt; in the chorus.&lt;/p&gt;
 
 &lt;p&gt;It’s a “yes” from me.&lt;/p&gt;
 
-&lt;h3 id=&quot;estonia--what-love-is--uku-suviste&quot;&gt;Estonia – What Love Is – Uku Suviste&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Estonia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;What Love Is by Uku Suviste&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;I’m a sucker for a good power ballad and &lt;em&gt;this&lt;/em&gt; is &lt;em&gt;not a good power ballad&lt;/em&gt;. It has all the right components: a slow opening, kicking into a bold chorus. When it comes to it though, it never &lt;em&gt;truly&lt;/em&gt; lets rip and that’s why it fails.&lt;/p&gt;
 
-&lt;h3 id=&quot;finland--looking-back--aksel&quot;&gt;Finland – Looking Back – Aksel&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Finland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Looking Back by Aksel&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Given the only winning entry Finland’s ever had in Eurovision was a bunch of &lt;a href=&quot;https://www.youtube.com/watch?v=gAh9NRGNhUU&quot;&gt;hard rocking, latex monsters&lt;/a&gt;, this is about as far away from that as you can get. That is to say it is comparatively dull.&lt;/p&gt;
 
 &lt;p&gt;Unrelatedly, I can’t excuse Aksel’s &lt;em&gt;laissez-faire&lt;/em&gt; view of motoring offences.&lt;/p&gt;
 
-&lt;h3 id=&quot;georgia--take-me-as-i-am--tornike-kipiani&quot;&gt;Georgia – Take Me as I Am – Tornike Kipiani&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Georgia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Take Me as I Am by Tornike Kipiani&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This guy seems not to have gotten over his latest relationship breakdown.&lt;/p&gt;
 
 &lt;p&gt;Why do I say that? Well, it’s obviously &lt;em&gt;totally proportionate&lt;/em&gt; to release a song where you scream “why don’t you love me?” into a microphone as part of a grunge track.&lt;/p&gt;
 
 &lt;p&gt;Awkward.&lt;/p&gt;
 
-&lt;h3 id=&quot;greece--supergirl--stefania&quot;&gt;Greece – Supergirl – Stefania&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Greece&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Supergirl by Stefania&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Top marks for the obvious message of womens’ empowerment contained in this track’s lyrics.&lt;/p&gt;
 
 &lt;p&gt;The song has a driving rhythm and some peculiar backing music replete with some kind of presumably Greek-native instrument; but there’s nothing that stands out as particularly interesting.&lt;/p&gt;
 
-&lt;h3 id=&quot;iceland--think-about-things--daði-og-gagnamagnið&quot;&gt;Iceland – Think About Things – Daði og Gagnamagnið&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Iceland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Think About Things by Daði og Gagnamagnið&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;I don’t care what anyone else says, this is &lt;em&gt;fucking brilliant&lt;/em&gt;.  It’s got whimsy lyrics, 1980s stylings to the instrumentation, and a top-notch beat. Oh, &lt;em&gt;and&lt;/em&gt; it’s got a totally insane slowed-down-and-then-sped-up bridge into the final chorus. &lt;em&gt;Douze points!&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;latvia--still-breathing--samanta-tīna&quot;&gt;Latvia – Still Breathing – Samanta Tīna&lt;/h3&gt;
+&lt;/details&gt;
 
-&lt;p&gt;One of two tracks this year with an unfortunate title, given &lt;em&gt;the situation&lt;/em&gt;.&lt;sup id=&quot;fnref:coronavirus&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:coronavirus&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Latvia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Still Breathing by Samanta Tīna&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;One of two tracks this year with an unfortunate title, given &lt;em&gt;the situation&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Latvia takes us to the club with this over-produced track and nondescript female vocal. It throws in some (not good) rap near the end of the track before crashing into a distorted mess of an ending.&lt;/p&gt;
 
-&lt;h3 id=&quot;moldova--prison--natalia-gordienko&quot;&gt;Moldova – Prison – Natalia Gordienko&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Moldova&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Prison by Natalia Gordienko&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This is a fairly &lt;em&gt;meh&lt;/em&gt; pop ballad from the Moldovans. It keeps rolling with a decent ebb and flow, switching up between piano-leading verses and more punchy choruses. It’s enough to keep you interested, but it’s ultimately a bit anti-climactic.&lt;/p&gt;
 
-&lt;h3 id=&quot;poland--empires--alicja&quot;&gt;Poland – Empires – Alicja&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Poland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Empires by Alicja&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Singer Alicja appears to be quite pre-occupied with combustion in this kind-of-orchestrally instrumented track. There are a lot of destructive metaphors.&lt;/p&gt;
 
 &lt;p&gt;It’s kind of like a James Bond theme, if Bond themes were a bit shit and done on a shoe string rather than by &lt;a href=&quot;https://www.youtube.com/watch?v=SaolVEJEjV4&quot;&gt;drag queens&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;portugal--medo-de-sentir--elisa&quot;&gt;Portugal – Medo de sentir – Elisa&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Portugal&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Medo de sentir by Elisa&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Ah, Portugal. Another year, another expectedly dreary entry.&lt;/p&gt;
 
 &lt;p&gt;It’s a ballad. It’s very monotone. It would have been a good moment to pop to the loo because you wouldn’t have missed much.&lt;/p&gt;
 
-&lt;h3 id=&quot;san-marino--freaky--senhit&quot;&gt;San Marino – FREAKY! – Senhit&lt;/h3&gt;
+&lt;/details&gt;
 
-&lt;p&gt;San Marino, the tiny nation always churning out &lt;em&gt;questionable&lt;/em&gt; acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a &lt;em&gt;lot&lt;/em&gt; repetition of the word “freaky”&lt;sup id=&quot;fnref:freak&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:freak&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. For once for San Marino, something I’d listen to again.&lt;/p&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;San Marino&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;FREAKY! by Senhit&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;San Marino, the tiny nation always churning out &lt;em&gt;questionable&lt;/em&gt; acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a &lt;em&gt;lot&lt;/em&gt; repetition of the word “freaky”. For once for San Marino, something I’d listen to again.&lt;/p&gt;
 
-&lt;h3 id=&quot;serbia--hasta-la-vista--hurricane&quot;&gt;Serbia – Hasta la vista – Hurricane&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Serbia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Hasta la vista by Hurricane&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This song &lt;em&gt;starts&lt;/em&gt; with a false-&lt;em&gt;stop&lt;/em&gt; and I am not a fan. What I am a fan of is the high-energy &lt;em&gt;hasta la vistas&lt;/em&gt; peppered throughout this early-2000s style, girl-band song.&lt;/p&gt;
 
 &lt;p&gt;Objectively, it’s probably &lt;em&gt;not a good song&lt;/em&gt;, but it’s got a fun Eurovision prime-era vibe to it.&lt;/p&gt;
 
-&lt;h3 id=&quot;switzerland--répondez-moi--gjons-tears&quot;&gt;Switzerland – Répondez-moi – Gjon’s Tears&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Switzerland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Répondez-moi by Gjon’s Tears&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This is a very emotive entry. There’s something haunting about Gjon’s voice, and the stripped back instrumentation compliments his falsetto in interesting ways. It is also in French, which is novel for a Swiss entry nowadays.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-big-5-and-last-years-winner&quot;&gt;The Big 5 and last year’s winner&lt;/h2&gt;
+&lt;/details&gt;
 
-&lt;h3 id=&quot;france--mon-alliée-the-best-in-me-tom-leeb&quot;&gt;France – Mon alliée (The Best in Me) – Tom Leeb&lt;/h3&gt;
-
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;France&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Mon alliée (The Best in Me) by Tom Leeb&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;You can always rely on the French for a meandering ballad, and this year they’ve delivered in spades. Unless my ears deceive me, I think there are &lt;em&gt;two&lt;/em&gt; key changes (top work, France). The lyrics, however, are awfully gushing and the song itself is just colourless.&lt;/p&gt;
 
-&lt;h3 id=&quot;germany-violent-thing-ben-dolic&quot;&gt;Germany – Violent Thing – Ben Dolic&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Germany&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Violent Thing by Ben Dolic&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;There’s one reliable thing about a nation that regularly doesn’t &lt;em&gt;open&lt;/em&gt; its nightclubs until after midnight, and it’s that it knows how to throw a party. The Germans have brought this fun, slick bop to &lt;em&gt;this&lt;/em&gt; party and it is totally my vibe. It could have been a contender.&lt;/p&gt;
 
-&lt;h3 id=&quot;italy--fai-rumore-diodato&quot;&gt;Italy – Fai rumore – Diodato&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Italy&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Fai rumore by Diodato&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;Italy has &lt;a href=&quot;https://www.youtube.com/watch?v=1TOMqZV2jA8&quot;&gt;good&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=M-aoyPa41Ic&quot;&gt;years&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=81M-mp5t8uM&quot;&gt;bad&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YfnhDfy8AjU&quot;&gt;years&lt;/a&gt;. This, I think, is a bad year.&lt;/p&gt;
 
 &lt;p&gt;It’s basically just a middle-aged, white guy shouting at a microphone too much for three-minutes. Par for the course for Italy in the 2010s, but not a great start to the 2020s.&lt;/p&gt;
 
-&lt;h3 id=&quot;netherlands--grow--jeangu-macrooy&quot;&gt;Netherlands – Grow – Jeangu Macrooy&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Netherlands&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Grow by Jeangu Macrooy&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This is utterly miserable. For the first minute and a half it’s almost one continuous note of instrumentation with a near monotone vocal.&lt;/p&gt;
 
 &lt;p&gt;After that, it just gets &lt;em&gt;weird&lt;/em&gt;. It very, &lt;em&gt;very&lt;/em&gt; slowly builds to a crescendo and just as you think it might be getting &lt;em&gt;somewhere&lt;/em&gt;; it stops.&lt;/p&gt;
 
-&lt;h3 id=&quot;spain--universo--blas-cantó&quot;&gt;Spain – Universo – Blas Cantó&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Spain&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Universo by Blas Cantó&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;This song is a great example of how lyrics can sound really impressive in their native language, and then turn to utter gibberish when translated into English.&lt;/p&gt;
 
 &lt;p&gt;There is an excellent falsetto at 2:30 that I bet would have gotten &lt;em&gt;totally butchered&lt;/em&gt; live. Gutted we’ll miss that.&lt;/p&gt;
 
-&lt;h3 id=&quot;united-kingdom--my-last-breath--james-newman&quot;&gt;United Kingdom – My Last Breath – James Newman&lt;/h3&gt;
+&lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;United Kingdom&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;My Last Breath by James Newman&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
 &lt;p&gt;It’s supremely unfortunate that in the year the UK enters an &lt;em&gt;good&lt;/em&gt; song, Eurovision gets cancelled. It’s also unfortunate that we chose a song with &lt;em&gt;this title&lt;/em&gt; in the same year the world is swept by a respiratory virus pandemic.&lt;/p&gt;
 
 &lt;p&gt;I just wish the song didn’t end 25 seconds early.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;/div&gt;
 
 &lt;h2 id=&quot;summing-up&quot;&gt;Summing up&lt;/h2&gt;
 
@@ -1967,18 +2303,6 @@ const 	deptcanvas = createCanvas(width, height)
     &lt;/li&gt;
     &lt;li id=&quot;fn:1listen&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;As always, I watched the UK’s national selection. That means I’ve heard the UK entry more than once; but that’s the only exception I’m allowed. &lt;a href=&quot;#fnref:1listen&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:davidna&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;It’s M83’s song, ‘&lt;a href=&quot;https://www.youtube.com/watch?v=dX3k_QDnzHE&quot;&gt;Midnight City&lt;/a&gt;’. &lt;a href=&quot;#fnref:davidna&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:bulgaria-tunes&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Like in &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;2016&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=OMmm-G078LM&quot;&gt;2017&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/watch?v=vC-1tdGDFQc&quot;&gt;2018&lt;/a&gt;. &lt;a href=&quot;#fnref:bulgaria-tunes&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:coronavirus&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;You know, literally &lt;a href=&quot;https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled&quot;&gt;the reason the contest has been cancelled&lt;/a&gt;! &lt;a href=&quot;#fnref:coronavirus&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:freak&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;By my count, there are no fewer than 41 uses of “freaky” and 6 uses of “freaking” in this freaking song. &lt;a href=&quot;#fnref:freak&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;

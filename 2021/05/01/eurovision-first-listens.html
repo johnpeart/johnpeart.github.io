@@ -2,29 +2,29 @@
 <html lang="en">
 
   <head prefix="og: http://ogp.me/ns#">
-	
+
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-05-15    -->
-<!--    Time built:    01:01    -->
+<!--    Time built:    12:20    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	
+
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>I listened to this year’s Eurovision 2021 entries so you don’t have to</title>
-	
+
 	<!-- Short description of the page (limit to 150 characters) -->
 	<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
 	<meta name="description" content="I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code." />
 	<meta name="author" content="John Peart" />
-	
+
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
-	
+
 	<!-- Base URLS, duplicate URLs and feeds -->
 	<meta name="url" content="https://www.johnpe.art">
 	<base href="https://www.johnpe.art/2021/05/01/eurovision-first-listens">
@@ -34,7 +34,7 @@
 	<link rel="alternate" href="https://www.johnpe.art/feed.xml" type="application/rss+xml" title="John Peart">
 	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
 	<link rel="archives" href="https://www.johnpe.art/archives">
-	
+
 	<!-- Gives information about the author -->
 	<link rel="me" href="https://twitter.com/johnpeart" type="text/html">
 
@@ -42,7 +42,7 @@
 
 
 <link rel="me" href="https://mastodon.social/@johnpeart" type="text/html">
-	
+
 	<!-- Facebook Open Graph settings -->
 	<meta property="og:url" 				content="https://www.johnpe.art/2021/05/01/eurovision-first-listens">
 
@@ -69,7 +69,7 @@
 <meta property="article:author" 		content="John Peart" />
 
 <meta property="article:publisher" 	content="John Peart" />
-	
+
 	<!-- Twitter Cards settings -->
 	<meta name="twitter:card" 			content="summary_large_image">
 
@@ -87,14 +87,14 @@
 <meta name="twitter:image" 			content="https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png">
 
 <meta name="twitter:image:alt" 		content="I listened to this year’s Eurovision 2021 entries so you don’t have to">
-	
+
 	<!-- Schema.org settings -->
 	<meta itemprop="name" content="I listened to this year’s Eurovision 2021 entries so you don’t have to">
 <meta itemprop="description" content="Eurovision is back. Yippee! I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less.">
 
 <meta itemprop="image" content="https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png">
 
-	
+
 	<!-- Favicons -->
 	<!-- Place favicon.ico in the root directory - no tag necessary -->
 	<meta name="theme-color" content="#009fe3">
@@ -104,14 +104,15 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://www.johnpe.art/assets/styles/styles.css">
-		
+
 	<script type="text/javascript" src="https://www.johnpe.art/assets/scripts/scripts.js" async></script>
+	
 	
 
 </head>
 
 
-  <body id="blog-post" class="theme-eurovision">
+  <body id="blog-post">
 	  
   	
 <a href="#content" class="skip-link">
@@ -188,13 +189,41 @@
 
 <h2 id="the-entries">The entries</h2>
 
-<details>
+<fieldset id="toggle-esc-entries">
+
+    <legend>Toggle entries</legend>
+
+    <div class="radio-input">
+      <input type="radio" name="toggle-esc-entries" id="esc-all" value="all" checked="" />
+      <label for="esc-all">All entries</label>
+    </div>
+
+    <div class="radio-input">
+      <input type="radio" name="toggle-esc-entries" id="esc-sf1" value="sf1" />
+      <label for="esc-sf1">Semi-final one</label>
+    </div>
+
+    <div class="radio-input">
+      <input type="radio" name="toggle-esc-entries" id="esc-sf2" value="sf2" />
+      <label for="esc-sf2">Semi-final two</label>
+    </div>
+
+    <div class="radio-input">
+      <input type="radio" name="toggle-esc-entries" id="esc-final" value="final" />
+      <label for="esc-final">Grand final</label>
+    </div>
+
+</fieldset>
+
+<div id="esc-entries" data-show="all">
+
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Albania</span>
-		<span class="song-artist">Karma by Anxhela Peristeri</span>
-	</span>
+    <span class="entry">
+        <span class="country">Albania</span>
+        <span class="song-artist">Karma by Anxhela Peristeri</span>
+    </span>
 </h3>
 </summary>
 <p>This is apparently Anxhela’s second attempt at getting to Eurovision – her first was in 2001. She got here. Good for her.</p>
@@ -205,13 +234,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Australia</span>
-		<span class="song-artist">Technicolour by Montaigne</span>
-	</span>
+    <span class="entry">
+        <span class="country">Australia</span>
+        <span class="song-artist">Technicolour by Montaigne</span>
+    </span>
 </h3>
 </summary>
 <p>This track’s instrumentation sounds like it’s ripped from a SEGA MegaDrive: and I freaking love it. It’s weird, whacky and exactly what I want from my pop.</p>
@@ -220,13 +249,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Austria</span>
-		<span class="song-artist">Amen by Vincent Bueno</span>
-	</span>
+    <span class="entry">
+        <span class="country">Austria</span>
+        <span class="song-artist">Amen by Vincent Bueno</span>
+    </span>
 </h3>
 </summary>
 <p>“<em>Is this what you wanted?</em>”, Vincent asks in this slightly angry, impassioned song that’s seemingly about the end of a relationship.</p>
@@ -237,13 +266,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Azerbaijan</span>
-		<span class="song-artist">Mata Hari by Efendi</span>
-	</span>
+    <span class="entry">
+        <span class="country">Azerbaijan</span>
+        <span class="song-artist">Mata Hari by Efendi</span>
+    </span>
 </h3>
 </summary>
 <p>There’s a nice throwback in the lyrics of this track to Efendi’s defunct track from <a href="https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled"><em>the Eurovision that never was</em></a>, but that’s probably the best thing about this Anglo-Azerbaijani lyrical mashup.</p>
@@ -252,13 +281,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Belgium</span>
-		<span class="song-artist">The Wrong Place by Hooverphonic</span>
-	</span>
+    <span class="entry">
+        <span class="country">Belgium</span>
+        <span class="song-artist">The Wrong Place by Hooverphonic</span>
+    </span>
 </h3>
 </summary>
 <p>Imagine you’re a pebble being dragged along by the current of a river. That’s what this song is like. An unending, flowing rhythm that just kind of pulls you along.</p>
@@ -267,13 +296,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Bulgaria</span>
-		<span class="song-artist">Growing Up is Getting Old by Victoria</span>
-	</span>
+    <span class="entry">
+        <span class="country">Bulgaria</span>
+        <span class="song-artist">Growing Up is Getting Old by Victoria</span>
+    </span>
 </h3>
 </summary>
 <p>Doing something unusual is not, well, <em>unusual</em> in Eurovision, and few things say “I’m trying to be quirky” like a ticking clock in your backing track.</p>
@@ -282,13 +311,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Croatia</span>
-		<span class="song-artist">Tick-Tock by Albina</span>
-	</span>
+    <span class="entry">
+        <span class="country">Croatia</span>
+        <span class="song-artist">Tick-Tock by Albina</span>
+    </span>
 </h3>
 </summary>
 <p>You’ll probably drift off a bit in the verses of this track; but the choruses? The choruses are where the action is in this dance track.</p>
@@ -297,13 +326,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Cyprus</span>
-		<span class="song-artist">El Diablo by Elena Tsagrinou</span>
-	</span>
+    <span class="entry">
+        <span class="country">Cyprus</span>
+        <span class="song-artist">El Diablo by Elena Tsagrinou</span>
+    </span>
 </h3>
 </summary>
 <p>Cyprus has really zeroed in on the club-floor-filler over the last few years and this is another classic of the genre.</p>
@@ -312,13 +341,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Czech Republic</span>
-		<span class="song-artist">Omaga by Benny Cristo</span>
-	</span>
+    <span class="entry">
+        <span class="country">Czech Republic</span>
+        <span class="song-artist">Omaga by Benny Cristo</span>
+    </span>
 </h3>
 </summary>
 <p>This fresh, floor-filling bop catches your ear immediately and it keeps it for the full three minutes.</p>
@@ -327,13 +356,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Denmark</span>
-		<span class="song-artist">Øve Os På Hinanden by Fyr Og Flamme</span>
-	</span>
+    <span class="entry">
+        <span class="country">Denmark</span>
+        <span class="song-artist">Øve Os På Hinanden by Fyr Og Flamme</span>
+    </span>
 </h3>
 </summary>
 <p>This brought a smile to my face within the first few seconds. It starts with some brilliant electric guitar riffs and synth piano, and it gets more fun from there.</p>
@@ -342,13 +371,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Estonia</span>
-		<span class="song-artist">The Lucky One by Uku Suviste</span>
-	</span>
+    <span class="entry">
+        <span class="country">Estonia</span>
+        <span class="song-artist">The Lucky One by Uku Suviste</span>
+    </span>
 </h3>
 </summary>
 <p>The synthesisers are out in force in this track, setting a dark and moody backdrop for this driving ballad about heartbreak and relationship breakdown.</p>
@@ -357,13 +386,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Finland</span>
-		<span class="song-artist">Dark Side by Blind Channel</span>
-	</span>
+    <span class="entry">
+        <span class="country">Finland</span>
+        <span class="song-artist">Dark Side by Blind Channel</span>
+    </span>
 </h3>
 </summary>
 <p>This is a ripping rock number with some just-the-right-side of R-rated lyrics and echoes of ‘Who let the dogs out?’ in the backing vocals.</p>
@@ -372,13 +401,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="" data-final="true">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">France</span>
-		<span class="song-artist">Voilà by Barbara Pravi</span>
-	</span>
+    <span class="entry">
+        <span class="country">France</span>
+        <span class="song-artist">Voilà by Barbara Pravi</span>
+    </span>
 </h3>
 </summary>
 <p>Take a piano. Add some understated but slowly escalating strings. Layer on top a female vocal with plenty of swagger, arrogance and sass.</p>
@@ -389,13 +418,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Georgia</span>
-		<span class="song-artist">You by Tornike Kipiani</span>
-	</span>
+    <span class="entry">
+        <span class="country">Georgia</span>
+        <span class="song-artist">You by Tornike Kipiani</span>
+    </span>
 </h3>
 </summary>
 <p>I’ve never taken LSD, but if I <em>had</em> taken it, I imagine that this is what it would make me feel like.</p>
@@ -404,13 +433,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="" data-final="true">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Germany</span>
-		<span class="song-artist">I Don’t Feel Hate by Jendrik</span>
-	</span>
+    <span class="entry">
+        <span class="country">Germany</span>
+        <span class="song-artist">I Don’t Feel Hate by Jendrik</span>
+    </span>
 </h3>
 </summary>
 <p>This is very sincere and very weird. There are some absolutely <em>incredible</em> – by which I mean <em>totally non-sensical</em> – choices in the production here.</p>
@@ -421,13 +450,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Greece</span>
-		<span class="song-artist">Last Dance by Stefania</span>
-	</span>
+    <span class="entry">
+        <span class="country">Greece</span>
+        <span class="song-artist">Last Dance by Stefania</span>
+    </span>
 </h3>
 </summary>
 <p>This song is a grower, not a shower. It takes about a minute to get into itself but when it does, it’s pretty fun!</p>
@@ -436,13 +465,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Iceland</span>
-		<span class="song-artist">10 Years by Daði og Gagnamagnið</span>
-	</span>
+    <span class="entry">
+        <span class="country">Iceland</span>
+        <span class="song-artist">10 Years by Daði og Gagnamagnið</span>
+    </span>
 </h3>
 </summary>
 <p>If the 2020 Contest had taken place, Daði was the one to beat. So the question is, can Daði top last year’s absolute tune?</p>
@@ -453,13 +482,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Ireland</span>
-		<span class="song-artist">Maps by Lesley Roy</span>
-	</span>
+    <span class="entry">
+        <span class="country">Ireland</span>
+        <span class="song-artist">Maps by Lesley Roy</span>
+    </span>
 </h3>
 </summary>
 <p>This is a punchy pop number with way too much going on. There are no peaks and troughs to it: it’s just peak, starting high and not letting up from there.</p>
@@ -468,13 +497,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Israel</span>
-		<span class="song-artist">Set Me Free by Eden Alene</span>
-	</span>
+    <span class="entry">
+        <span class="country">Israel</span>
+        <span class="song-artist">Set Me Free by Eden Alene</span>
+    </span>
 </h3>
 </summary>
 <p>This starts out pretty tame and then <em>wham</em>: the beat kicks in and it’s party time.</p>
@@ -483,13 +512,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="" data-final="true">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Italy</span>
-		<span class="song-artist">Zitti e buoni by Måneskin</span>
-	</span>
+    <span class="entry">
+        <span class="country">Italy</span>
+        <span class="song-artist">Zitti e buoni by Måneskin</span>
+    </span>
 </h3>
 </summary>
 <p>This alt-rock entry is a bit unusual for Italy. It makes a nice change from the <em>drunk dad shouting into a microphone at a wedding</em> genre that has dominated their entries in recent years.</p>
@@ -498,13 +527,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Latvia</span>
-		<span class="song-artist">The Moon is Rising by Samanta Tīna</span>
-	</span>
+    <span class="entry">
+        <span class="country">Latvia</span>
+        <span class="song-artist">The Moon is Rising by Samanta Tīna</span>
+    </span>
 </h3>
 </summary>
 <p>I don’t know what to make of this. It’s less a song and more a piece of performance art.</p>
@@ -515,13 +544,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Lithuania</span>
-		<span class="song-artist">Discoteque by The Roop</span>
-	</span>
+    <span class="entry">
+        <span class="country">Lithuania</span>
+        <span class="song-artist">Discoteque by The Roop</span>
+    </span>
 </h3>
 </summary>
 <p>Just like The Roop’s entry last year, this song is an <em>experience</em> for the ears. Nothing about this track sounds like disco to me, despite the title, but it is energising.</p>
@@ -530,13 +559,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Malta</span>
-		<span class="song-artist">Je Me Casse by Destiny</span>
-	</span>
+    <span class="entry">
+        <span class="country">Malta</span>
+        <span class="song-artist">Je Me Casse by Destiny</span>
+    </span>
 </h3>
 </summary>
 <p>Last year Destiny brought a whacking ballad and <em>lungs</em> to the table. This year, she’s bringing a sax-infused clap-back banger.</p>
@@ -545,13 +574,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Moldova</span>
-		<span class="song-artist">Sugar by Natalia Gordienko</span>
-	</span>
+    <span class="entry">
+        <span class="country">Moldova</span>
+        <span class="song-artist">Sugar by Natalia Gordienko</span>
+    </span>
 </h3>
 </summary>
 <p>Sometimes what you want from Eurovision is something quirky; Molodova has a good track record of bringing the quirky.</p>
@@ -560,13 +589,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="" data-final="true">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Netherlands</span>
-		<span class="song-artist">Birth Of A New Age by Jeangu Macrooy</span>
-	</span>
+    <span class="entry">
+        <span class="country">Netherlands</span>
+        <span class="song-artist">Birth Of A New Age by Jeangu Macrooy</span>
+    </span>
 </h3>
 </summary>
 <p>Jeangu’s vocals on this track are rich and interesting.</p>
@@ -577,13 +606,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">North Macedonia</span>
-		<span class="song-artist">Here I stand by Vasil</span>
-	</span>
+    <span class="entry">
+        <span class="country">North Macedonia</span>
+        <span class="song-artist">Here I stand by Vasil</span>
+    </span>
 </h3>
 </summary>
 <p>Every year, one entry has to play the part of knock-off West End musical number; seemingly this year that role falls to North Macedonia.</p>
@@ -592,29 +621,28 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Norway</span>
-		<span class="song-artist">Fallen Angel by TIX</span>
-	</span>
+    <span class="entry">
+        <span class="country">Norway</span>
+        <span class="song-artist">Fallen Angel by TIX</span>
+    </span>
 </h3>
 </summary>
 <p>This feels like a song a millennial teenager might have written during their “indie phase”. It’s been ripped right out of the mid to late 2000s. Think <em>Owl City</em>.</p>
 
 <p>The lyrics are pining, the instrumentation is ever-so-slightly overproduced, and the vocals are appropriately droning.</p>
 
-
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Poland</span>
-		<span class="song-artist">The Ride by RAFAŁ</span>
-	</span>
+    <span class="entry">
+        <span class="country">Poland</span>
+        <span class="song-artist">The Ride by RAFAŁ</span>
+    </span>
 </h3>
 </summary>
 <p>To an extent, it doesn’t matter if this is good or not; the Polish diaspora is a very strong voting contingent.</p>
@@ -623,13 +651,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Portugal</span>
-		<span class="song-artist">Love is on My Side by The Black Mamba</span>
-	</span>
+    <span class="entry">
+        <span class="country">Portugal</span>
+        <span class="song-artist">Love is on My Side by The Black Mamba</span>
+    </span>
 </h3>
 </summary>
 <p>Whilst the timbre of The Black Mamba’s lead vocalist is intriguing, this song is just <em>boring</em>.</p>
@@ -640,26 +668,26 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Romania</span>
-		<span class="song-artist">Amnesia by ROXEN</span>
-	</span>
+    <span class="entry">
+        <span class="country">Romania</span>
+        <span class="song-artist">Amnesia by ROXEN</span>
+    </span>
 </h3>
 </summary>
 <p>The title of this track probably wasn’t intended to be self-referential. It is largely forgettable, save for some intriguing vocal production, and the <em>bold</em> lyrical choice to repeatedly and unironically belt out the phrase “self love”.</p>
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Russia</span>
-		<span class="song-artist">Russian Woman by Manizha</span>
-	</span>
+    <span class="entry">
+        <span class="country">Russia</span>
+        <span class="song-artist">Russian Woman by Manizha</span>
+    </span>
 </h3>
 </summary>
 <p>A large part of this entry is punctuated by what appears to be a guitar in need of tuning. It’s very, <em>very</em> annoying.</p>
@@ -668,13 +696,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">San Marino</span>
-		<span class="song-artist">Adrenalina by Senhit</span>
-	</span>
+    <span class="entry">
+        <span class="country">San Marino</span>
+        <span class="song-artist">Adrenalina by Senhit</span>
+    </span>
 </h3>
 </summary>
 <p>Given the hype surrounding this track when it came out, I was expecting much more.</p>
@@ -685,26 +713,26 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Serbia</span>
-		<span class="song-artist">Loco Loco by Hurricane</span>
-	</span>
+    <span class="entry">
+        <span class="country">Serbia</span>
+        <span class="song-artist">Loco Loco by Hurricane</span>
+    </span>
 </h3>
 </summary>
 <p>This track follows a suspiciously familiar format to Hurricane’s defunct 2020 entry, <em>Hasta la vista</em>. Whilst it’s a fun and in-your-face dance track featuring a good key change, it’s just not as good as their first attempt.</p>
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Slovenia</span>
-		<span class="song-artist">Amen by Ana Soklič</span>
-	</span>
+    <span class="entry">
+        <span class="country">Slovenia</span>
+        <span class="song-artist">Amen by Ana Soklič</span>
+    </span>
 </h3>
 </summary>
 <p>One of two entries with this title, and neither of them hit home. This minimalist ballad has a strong vocal but the overall package is just disjointed.</p>
@@ -713,13 +741,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="" data-final="true">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Spain</span>
-		<span class="song-artist">Voy A Quedarme by Blas Cantó</span>
-	</span>
+    <span class="entry">
+        <span class="country">Spain</span>
+        <span class="song-artist">Voy A Quedarme by Blas Cantó</span>
+    </span>
 </h3>
 </summary>
 <p>People say French is the language of love; this song is evidence to the contrary. (It’s Spanish).</p>
@@ -728,13 +756,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Sweden</span>
-		<span class="song-artist">Voices by Tusse</span>
-	</span>
+    <span class="entry">
+        <span class="country">Sweden</span>
+        <span class="song-artist">Voices by Tusse</span>
+    </span>
 </h3>
 </summary>
 <p>This is, as usual, a polished piece of perfectly-produced pop from the Swedes. You’d expect that from a country that takes Eurovision almost too seriously.</p>
@@ -743,13 +771,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="2" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Switzerland</span>
-		<span class="song-artist">Tout l’univers by Gjon’s Tears</span>
-	</span>
+    <span class="entry">
+        <span class="country">Switzerland</span>
+        <span class="song-artist">Tout l’univers by Gjon’s Tears</span>
+    </span>
 </h3>
 </summary>
 <p>The translated lyrics for this song reveal a non-sensical string of metaphors but <em>it doesn’t matter</em>.</p>
@@ -758,13 +786,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="1" data-final="false">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">Ukraine</span>
-		<span class="song-artist">SHUM by GO_A</span>
-	</span>
+    <span class="entry">
+        <span class="country">Ukraine</span>
+        <span class="song-artist">SHUM by GO_A</span>
+    </span>
 </h3>
 </summary>
 <p>The best part of this song is when it ends.</p>
@@ -775,13 +803,13 @@
 
 </details>
 
-<details>
+<details class="esc-entry" data-semifinal="" data-final="true">
 <summary>
 <h3>
-	<span class="entry">
-		<span class="country">United Kingdom</span>
-		<span class="song-artist">Embers by James Newman</span>
-	</span>
+    <span class="entry">
+        <span class="country">United Kingdom</span>
+        <span class="song-artist">Embers by James Newman</span>
+    </span>
 </h3>
 </summary>
 <p>For once, the Beeb has put some effort in.</p>
@@ -791,6 +819,8 @@
 <p>That said, there’s just something <em>missing</em> from it. It’s like a plane careering down the runway, ready to take off but not building up <em>quite</em> enough speed.</p>
 
 </details>
+
+</div>
 
 <h2 id="summing-up">Summing up</h2>
 

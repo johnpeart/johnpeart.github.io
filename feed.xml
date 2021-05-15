@@ -5,8 +5,8 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 May 2021 01:01:46 +0000</pubDate>
-    <lastBuildDate>Sat, 15 May 2021 01:01:46 +0000</lastBuildDate>
+    <pubDate>Sat, 15 May 2021 12:20:05 +0000</pubDate>
+    <lastBuildDate>Sat, 15 May 2021 12:20:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -112,13 +112,41 @@
 
 &lt;h2 id=&quot;the-entries&quot;&gt;The entries&lt;/h2&gt;
 
-&lt;details&gt;
+&lt;fieldset id=&quot;toggle-esc-entries&quot;&gt;
+
+    &lt;legend&gt;Toggle entries&lt;/legend&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-all&quot; value=&quot;all&quot; checked=&quot;&quot; /&gt;
+      &lt;label for=&quot;esc-all&quot;&gt;All entries&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-sf1&quot; value=&quot;sf1&quot; /&gt;
+      &lt;label for=&quot;esc-sf1&quot;&gt;Semi-final one&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-sf2&quot; value=&quot;sf2&quot; /&gt;
+      &lt;label for=&quot;esc-sf2&quot;&gt;Semi-final two&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;radio-input&quot;&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;toggle-esc-entries&quot; id=&quot;esc-final&quot; value=&quot;final&quot; /&gt;
+      &lt;label for=&quot;esc-final&quot;&gt;Grand final&lt;/label&gt;
+    &lt;/div&gt;
+
+&lt;/fieldset&gt;
+
+&lt;div id=&quot;esc-entries&quot; data-show=&quot;all&quot;&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Albania&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Karma by Anxhela Peristeri&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Albania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Karma by Anxhela Peristeri&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This is apparently Anxhela’s second attempt at getting to Eurovision – her first was in 2001. She got here. Good for her.&lt;/p&gt;
@@ -129,13 +157,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Australia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Technicolour by Montaigne&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Australia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Technicolour by Montaigne&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This track’s instrumentation sounds like it’s ripped from a SEGA MegaDrive: and I freaking love it. It’s weird, whacky and exactly what I want from my pop.&lt;/p&gt;
@@ -144,13 +172,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Austria&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Amen by Vincent Bueno&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Austria&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Amen by Vincent Bueno&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;“&lt;em&gt;Is this what you wanted?&lt;/em&gt;”, Vincent asks in this slightly angry, impassioned song that’s seemingly about the end of a relationship.&lt;/p&gt;
@@ -161,13 +189,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Azerbaijan&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Mata Hari by Efendi&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Azerbaijan&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Mata Hari by Efendi&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;There’s a nice throwback in the lyrics of this track to Efendi’s defunct track from &lt;a href=&quot;https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled&quot;&gt;&lt;em&gt;the Eurovision that never was&lt;/em&gt;&lt;/a&gt;, but that’s probably the best thing about this Anglo-Azerbaijani lyrical mashup.&lt;/p&gt;
@@ -176,13 +204,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Belgium&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;The Wrong Place by Hooverphonic&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Belgium&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;The Wrong Place by Hooverphonic&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Imagine you’re a pebble being dragged along by the current of a river. That’s what this song is like. An unending, flowing rhythm that just kind of pulls you along.&lt;/p&gt;
@@ -191,13 +219,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Bulgaria&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Growing Up is Getting Old by Victoria&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Bulgaria&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Growing Up is Getting Old by Victoria&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Doing something unusual is not, well, &lt;em&gt;unusual&lt;/em&gt; in Eurovision, and few things say “I’m trying to be quirky” like a ticking clock in your backing track.&lt;/p&gt;
@@ -206,13 +234,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Croatia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Tick-Tock by Albina&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Croatia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Tick-Tock by Albina&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;You’ll probably drift off a bit in the verses of this track; but the choruses? The choruses are where the action is in this dance track.&lt;/p&gt;
@@ -221,13 +249,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Cyprus&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;El Diablo by Elena Tsagrinou&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Cyprus&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;El Diablo by Elena Tsagrinou&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Cyprus has really zeroed in on the club-floor-filler over the last few years and this is another classic of the genre.&lt;/p&gt;
@@ -236,13 +264,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Czech Republic&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Omaga by Benny Cristo&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Czech Republic&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Omaga by Benny Cristo&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This fresh, floor-filling bop catches your ear immediately and it keeps it for the full three minutes.&lt;/p&gt;
@@ -251,13 +279,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Denmark&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Øve Os På Hinanden by Fyr Og Flamme&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Denmark&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Øve Os På Hinanden by Fyr Og Flamme&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This brought a smile to my face within the first few seconds. It starts with some brilliant electric guitar riffs and synth piano, and it gets more fun from there.&lt;/p&gt;
@@ -266,13 +294,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Estonia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;The Lucky One by Uku Suviste&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Estonia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;The Lucky One by Uku Suviste&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;The synthesisers are out in force in this track, setting a dark and moody backdrop for this driving ballad about heartbreak and relationship breakdown.&lt;/p&gt;
@@ -281,13 +309,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Finland&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Dark Side by Blind Channel&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Finland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Dark Side by Blind Channel&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This is a ripping rock number with some just-the-right-side of R-rated lyrics and echoes of ‘Who let the dogs out?’ in the backing vocals.&lt;/p&gt;
@@ -296,13 +324,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;&quot; data-final=&quot;true&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;France&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Voilà by Barbara Pravi&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;France&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Voilà by Barbara Pravi&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Take a piano. Add some understated but slowly escalating strings. Layer on top a female vocal with plenty of swagger, arrogance and sass.&lt;/p&gt;
@@ -313,13 +341,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Georgia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;You by Tornike Kipiani&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Georgia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;You by Tornike Kipiani&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;I’ve never taken LSD, but if I &lt;em&gt;had&lt;/em&gt; taken it, I imagine that this is what it would make me feel like.&lt;/p&gt;
@@ -328,13 +356,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;&quot; data-final=&quot;true&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Germany&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;I Don’t Feel Hate by Jendrik&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Germany&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;I Don’t Feel Hate by Jendrik&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This is very sincere and very weird. There are some absolutely &lt;em&gt;incredible&lt;/em&gt; – by which I mean &lt;em&gt;totally non-sensical&lt;/em&gt; – choices in the production here.&lt;/p&gt;
@@ -345,13 +373,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Greece&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Last Dance by Stefania&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Greece&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Last Dance by Stefania&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This song is a grower, not a shower. It takes about a minute to get into itself but when it does, it’s pretty fun!&lt;/p&gt;
@@ -360,13 +388,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Iceland&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;10 Years by Daði og Gagnamagnið&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Iceland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;10 Years by Daði og Gagnamagnið&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;If the 2020 Contest had taken place, Daði was the one to beat. So the question is, can Daði top last year’s absolute tune?&lt;/p&gt;
@@ -377,13 +405,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Ireland&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Maps by Lesley Roy&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Ireland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Maps by Lesley Roy&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This is a punchy pop number with way too much going on. There are no peaks and troughs to it: it’s just peak, starting high and not letting up from there.&lt;/p&gt;
@@ -392,13 +420,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Israel&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Set Me Free by Eden Alene&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Israel&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Set Me Free by Eden Alene&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This starts out pretty tame and then &lt;em&gt;wham&lt;/em&gt;: the beat kicks in and it’s party time.&lt;/p&gt;
@@ -407,13 +435,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;&quot; data-final=&quot;true&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Italy&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Zitti e buoni by Måneskin&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Italy&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Zitti e buoni by Måneskin&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This alt-rock entry is a bit unusual for Italy. It makes a nice change from the &lt;em&gt;drunk dad shouting into a microphone at a wedding&lt;/em&gt; genre that has dominated their entries in recent years.&lt;/p&gt;
@@ -422,13 +450,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Latvia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;The Moon is Rising by Samanta Tīna&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Latvia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;The Moon is Rising by Samanta Tīna&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;I don’t know what to make of this. It’s less a song and more a piece of performance art.&lt;/p&gt;
@@ -439,13 +467,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Lithuania&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Discoteque by The Roop&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Lithuania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Discoteque by The Roop&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Just like The Roop’s entry last year, this song is an &lt;em&gt;experience&lt;/em&gt; for the ears. Nothing about this track sounds like disco to me, despite the title, but it is energising.&lt;/p&gt;
@@ -454,13 +482,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Malta&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Je Me Casse by Destiny&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Malta&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Je Me Casse by Destiny&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Last year Destiny brought a whacking ballad and &lt;em&gt;lungs&lt;/em&gt; to the table. This year, she’s bringing a sax-infused clap-back banger.&lt;/p&gt;
@@ -469,13 +497,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Moldova&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Sugar by Natalia Gordienko&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Moldova&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Sugar by Natalia Gordienko&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Sometimes what you want from Eurovision is something quirky; Molodova has a good track record of bringing the quirky.&lt;/p&gt;
@@ -484,13 +512,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;&quot; data-final=&quot;true&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Netherlands&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Birth Of A New Age by Jeangu Macrooy&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Netherlands&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Birth Of A New Age by Jeangu Macrooy&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Jeangu’s vocals on this track are rich and interesting.&lt;/p&gt;
@@ -501,13 +529,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;North Macedonia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Here I stand by Vasil&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;North Macedonia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Here I stand by Vasil&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Every year, one entry has to play the part of knock-off West End musical number; seemingly this year that role falls to North Macedonia.&lt;/p&gt;
@@ -516,29 +544,28 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Norway&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Fallen Angel by TIX&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Norway&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Fallen Angel by TIX&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This feels like a song a millennial teenager might have written during their “indie phase”. It’s been ripped right out of the mid to late 2000s. Think &lt;em&gt;Owl City&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;The lyrics are pining, the instrumentation is ever-so-slightly overproduced, and the vocals are appropriately droning.&lt;/p&gt;
 
-
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Poland&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;The Ride by RAFAŁ&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Poland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;The Ride by RAFAŁ&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;To an extent, it doesn’t matter if this is good or not; the Polish diaspora is a very strong voting contingent.&lt;/p&gt;
@@ -547,13 +574,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Portugal&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Love is on My Side by The Black Mamba&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Portugal&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Love is on My Side by The Black Mamba&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Whilst the timbre of The Black Mamba’s lead vocalist is intriguing, this song is just &lt;em&gt;boring&lt;/em&gt;.&lt;/p&gt;
@@ -564,26 +591,26 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Romania&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Amnesia by ROXEN&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Romania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Amnesia by ROXEN&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;The title of this track probably wasn’t intended to be self-referential. It is largely forgettable, save for some intriguing vocal production, and the &lt;em&gt;bold&lt;/em&gt; lyrical choice to repeatedly and unironically belt out the phrase “self love”.&lt;/p&gt;
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Russia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Russian Woman by Manizha&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Russia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Russian Woman by Manizha&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;A large part of this entry is punctuated by what appears to be a guitar in need of tuning. It’s very, &lt;em&gt;very&lt;/em&gt; annoying.&lt;/p&gt;
@@ -592,13 +619,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;San Marino&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Adrenalina by Senhit&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;San Marino&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Adrenalina by Senhit&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;Given the hype surrounding this track when it came out, I was expecting much more.&lt;/p&gt;
@@ -609,26 +636,26 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Serbia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Loco Loco by Hurricane&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Serbia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Loco Loco by Hurricane&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This track follows a suspiciously familiar format to Hurricane’s defunct 2020 entry, &lt;em&gt;Hasta la vista&lt;/em&gt;. Whilst it’s a fun and in-your-face dance track featuring a good key change, it’s just not as good as their first attempt.&lt;/p&gt;
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Slovenia&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Amen by Ana Soklič&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Slovenia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Amen by Ana Soklič&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;One of two entries with this title, and neither of them hit home. This minimalist ballad has a strong vocal but the overall package is just disjointed.&lt;/p&gt;
@@ -637,13 +664,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;&quot; data-final=&quot;true&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Spain&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Voy A Quedarme by Blas Cantó&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Spain&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Voy A Quedarme by Blas Cantó&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;People say French is the language of love; this song is evidence to the contrary. (It’s Spanish).&lt;/p&gt;
@@ -652,13 +679,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Sweden&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Voices by Tusse&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Sweden&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Voices by Tusse&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This is, as usual, a polished piece of perfectly-produced pop from the Swedes. You’d expect that from a country that takes Eurovision almost too seriously.&lt;/p&gt;
@@ -667,13 +694,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Switzerland&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Tout l’univers by Gjon’s Tears&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Switzerland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Tout l’univers by Gjon’s Tears&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;The translated lyrics for this song reveal a non-sensical string of metaphors but &lt;em&gt;it doesn’t matter&lt;/em&gt;.&lt;/p&gt;
@@ -682,13 +709,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;Ukraine&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;SHUM by GO_A&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Ukraine&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;SHUM by GO_A&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;The best part of this song is when it ends.&lt;/p&gt;
@@ -699,13 +726,13 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;&quot; data-final=&quot;true&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
-	&lt;span class=&quot;entry&quot;&gt;
-		&lt;span class=&quot;country&quot;&gt;United Kingdom&lt;/span&gt;
-		&lt;span class=&quot;song-artist&quot;&gt;Embers by James Newman&lt;/span&gt;
-	&lt;/span&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;United Kingdom&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Embers by James Newman&lt;/span&gt;
+    &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;For once, the Beeb has put some effort in.&lt;/p&gt;
@@ -715,6 +742,8 @@
 &lt;p&gt;That said, there’s just something &lt;em&gt;missing&lt;/em&gt; from it. It’s like a plane careering down the runway, ready to take off but not building up &lt;em&gt;quite&lt;/em&gt; enough speed.&lt;/p&gt;
 
 &lt;/details&gt;
+
+&lt;/div&gt;
 
 &lt;h2 id=&quot;summing-up&quot;&gt;Summing up&lt;/h2&gt;
 

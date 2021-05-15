@@ -5,8 +5,8 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 May 2021 16:09:09 +0000</pubDate>
-    <lastBuildDate>Sat, 15 May 2021 16:09:09 +0000</lastBuildDate>
+    <pubDate>Sat, 15 May 2021 16:18:42 +0000</pubDate>
+    <lastBuildDate>Sat, 15 May 2021 16:18:42 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -139,6 +139,7 @@
 &lt;/fieldset&gt;
 
 &lt;div id=&quot;esc-entries&quot; data-show=&quot;all&quot;&gt;
+
 
 &lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
@@ -1691,6 +1692,35 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;div id=&quot;esc-entries&quot; data-show=&quot;all&quot;&gt;
 
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Albania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Fall from the Sky by Arilena Ara&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;This song takes a while to get going. The first two verses and choruses are basically a write-off.&lt;/p&gt;
+
+&lt;p&gt;Yes, that’s most of the song but then, then there is the final bridge and final chorus. They’re punchy, dramatic, and &lt;em&gt;probably not worth the wait&lt;/em&gt; but I enjoyed them anyway.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Armenia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Chains on You by Athena Manoukian&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;The Armenians have apparently discovered the existence of steel drums, unambiguously sadomasochistic lyrics, and contemporary hip-hop. So basically the artist thinks she’s Rihanna. Except, you know, without all the production value or &lt;a href=&quot;https://youtu.be/jI6jGlQhTU4?t=132&quot;&gt;the Pitch Perfect spin-offs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/details&gt;
+
 &lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
@@ -1701,6 +1731,21 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;The Aussies keep churning out Eurovision class acts; this year is no exception. This is a cool and punchy track that makes great use of text painting in the lyrics to compliment the swooping instrumentation. It rises and falls throughout to keep you engaged for all three minutes.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Austria&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Alive by Vincent Bueno&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;Bare with this, because the first 30 seconds are a bit crap. They’re obscuring some excellent bass-thwacking that comes a little later.&lt;/p&gt;
+
+&lt;p&gt;It’s a bit all over the place and can’t catch a consistent feeling of pace, but it’s enough to jolt you awake after some snoozing ballads.&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -1728,9 +1773,17 @@ const 	deptcanvas = createCanvas(width, height)
     &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
-&lt;p&gt;&lt;em&gt;Da vidna&lt;/em&gt;, meaning “until dawn” is reminiscent of that track from &lt;em&gt;Made in Chelsea&lt;/em&gt;. You know, &lt;a href=&quot;https://www.youtube.com/watch?v=dX3k_QDnzHE&quot;&gt;the one with the screechy sound&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Da vidna&lt;/em&gt;, meaning “until dawn” is reminiscent of that track from &lt;em&gt;Made in Chelsea&lt;/em&gt;. You know, the one with the screechy sound.&lt;sup id=&quot;fnref:davidna&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:davidna&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Made in Chelsea&lt;/em&gt; and &lt;em&gt;Da vidna&lt;/em&gt; have something else in common too: they’re both stilted and devoid of substance.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:davidna&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;It’s M83’s song, ‘&lt;a href=&quot;https://www.youtube.com/watch?v=dX3k_QDnzHE&quot;&gt;Midnight City&lt;/a&gt;’. &lt;a href=&quot;#fnref:davidna&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 
 &lt;/details&gt;
 
@@ -1746,6 +1799,29 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;p&gt;You know when you’re in a pub and you ask for Coke but you get Pepsi? Sure it looks like Coke, but the taste? Just a bit &lt;em&gt;off&lt;/em&gt;. That’s this song.&lt;/p&gt;
 
 &lt;p&gt;It’s almost a good jazz lounge number. It’s &lt;em&gt;fine&lt;/em&gt;. It’s just a bit discordant and, like Pepsi, a poor imitation of the original.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Bulgaria&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Tears Getting Sober by Victoria&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;Bulgaria has had some absolute &lt;em&gt;tunes&lt;/em&gt; in recent years&lt;sup id=&quot;fnref:bulgaria-tunes&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bulgaria-tunes&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.&lt;/p&gt;
+
+&lt;p&gt;It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;Bring back Poli&lt;/a&gt;!&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:bulgaria-tunes&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Like in &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;2016&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=OMmm-G078LM&quot;&gt;2017&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/watch?v=vC-1tdGDFQc&quot;&gt;2018&lt;/a&gt;. &lt;a href=&quot;#fnref:bulgaria-tunes&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 
 &lt;/details&gt;
 
@@ -1778,225 +1854,6 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;p&gt;I &lt;em&gt;think&lt;/em&gt; what we’re meant to take away from this song is that this artist is struggling with his mental health. (&lt;em&gt;Great! #TimeToTalk etc.&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;What I &lt;em&gt;actually&lt;/em&gt; took away from this is that maybe Sandro is &lt;em&gt;really&lt;/em&gt; into marathons. I do like this, I just think it gets a &lt;em&gt;little&lt;/em&gt; repetitive.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Ireland&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Story of My Life by Lesley Roy&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;Well Lesley &lt;em&gt;clearly&lt;/em&gt; likes P!nk.&lt;/p&gt;
-
-&lt;p&gt;I’m not much of a P!nk fan, but I can appreciate a thumping good pop song and &lt;em&gt;this&lt;/em&gt; is one of those. It’s uptempo, chirpy, and has a driving bass line for a fun three minutes.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Israel&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Feker libi by Eden &lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;&lt;em&gt;Feker libi&lt;/em&gt; (or “my sweetheart” in English) is a very confused song. One minute it’s a 90s house track, praying to the Earth mother; the next it’s a Bollywood banging &lt;a href=&quot;https://www.youtube.com/watch?v=Yc5OyXmHD0w&quot;&gt;Pussycat Dolls rip-off&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you can look past the frantic and a bit out-of-place middle-eight, it’s pretty good!&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Lithuania&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;On Fire by The Roop&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;I so desperately wanted to make a good “&lt;em&gt;The Roop&lt;/em&gt; is &lt;em&gt;On Fire&lt;/em&gt;” joke here, but this track does not deserve my best wit. This is quirky and there’s an ear-worming synth riff throughout, but it does not exceed the sum of its parts. Disappointing, at best.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Malta&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;All of My Love by Destiny&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;The song builds very quickly from a quiet piano ballad, to a powerhouse with drivingly rhythmic instrumentation. It’s hard to identify the catchy riff that your ear is meant to latch on to, but there’s no doubting that singer, Destiny, has got &lt;em&gt;lungs&lt;/em&gt;.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;North Macedonia&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;You by Vasil&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;The recently renamed &lt;del&gt;Former Yugoslav Republic of&lt;/del&gt; North Macedonia has ditched boastful ballads this year and gone for a sexed-up, Latino-type song about dancing.&lt;/p&gt;
-
-&lt;p&gt;The vocals are a tad bland, but the instrumentation is varied and lay down a fun beat.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Norway&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Attention by Ulrikke&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;“I just want your attention”, sings Ulrikke in the pre-chorus of the Norwegian entry. Well, Ulrikke, you’ll have to try harder than this.&lt;/p&gt;
-
-&lt;p&gt;The song takes an age to get started, and it only really grabs you after about 2 minutes. It’s pleasant enough; just not very catchy.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Romania&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Alcohol You by Roxen&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;What is Roxen drinking?&lt;/p&gt;
-
-&lt;p&gt;If this were any true metaphor for alcohol, it would feel a lot better in the moment and the hangover would at least be memorable. This dreary and confused entry is closer to drinking bleach than alcohol; it’s shit and you’ll regret it once it’s done.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Russia&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Uno by Little Big&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;It has been apparent for sometime that things are &lt;em&gt;not good&lt;/em&gt; in Russia, but now we know why: they’re still living in the 1990s.&lt;/p&gt;
-
-&lt;p&gt;This, somehow, manages to be &lt;em&gt;even more annoying&lt;/em&gt; than &lt;a href=&quot;https://en.wikipedia.org/wiki/Aqua_(band)&quot;&gt;Aqua’s&lt;/a&gt; infamous back catalogue, which – let’s not forget – includes a song about &lt;a href=&quot;https://en.wikipedia.org/wiki/Barbie_Girl&quot;&gt;plastic dolls&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Slovenia&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Voda by Ana Soklič&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;Who knew that the Slovenians were so enthusiastic about one &lt;a href=&quot;https://en.wikipedia.org/wiki/Vodafone&quot;&gt;the world’s largest telecommunications companies&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;In reality, I have absolutely no idea what the lyrics to this song are about, as I can’t find the English translation; but it is inoffensive enough to pass three minutes.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Sweden&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Move by The Mamas&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iEEuG5XML-A&quot;&gt;Last year’s Swedish backing singers&lt;/a&gt; would have taken centre-stage this year in this soul and gospel track.&lt;/p&gt;
-
-&lt;p&gt;This is another great entry in a string of amazing Eurovision entries from my favourite European nation. I am unashamedly biased at this point. Sweden can do no wrong!&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Ukraine&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Solovey by Go_A&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;Oh &lt;a href=&quot;https://youtu.be/slHboKF9PIQ?t=12&quot;&gt;Christ on a hamster wheel&lt;/a&gt;, didn’t we collectively learn &lt;em&gt;anything&lt;/em&gt; from this style of music &lt;a href=&quot;https://youtu.be/IEu0F5uobVo?t=8&quot;&gt;last year&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;According to their &lt;a href=&quot;https://eurovision.tv/participant/go_a&quot;&gt;official profile&lt;/a&gt;, Go_A think that “Ukrainian folklore and electronic music are a perfect match”. They are wrong. Go_Away. Now.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Austria&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Alive by Vincent Bueno&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;Bare with this, because the first 30 seconds are a bit crap. They’re obscuring some excellent bass-thwacking that comes a little later.&lt;/p&gt;
-
-&lt;p&gt;It’s a bit all over the place and can’t catch a consistent feeling of pace, but it’s enough to jolt you awake after some snoozing ballads.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Albania&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Fall from the Sky by Arilena Ara&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;This song takes a while to get going. The first two verses and choruses are basically a write-off.&lt;/p&gt;
-
-&lt;p&gt;Yes, that’s most of the song but then, then there is the final bridge and final chorus. They’re punchy, dramatic, and &lt;em&gt;probably not worth the wait&lt;/em&gt; but I enjoyed them anyway.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Armenia&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Chains on You by Athena Manoukian&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;The Armenians have apparently discovered the existence of steel drums, unambiguously sadomasochistic lyrics, and contemporary hip-hop. So basically the artist thinks she’s Rihanna. Except, you know, without all the production value or &lt;a href=&quot;https://youtu.be/jI6jGlQhTU4?t=132&quot;&gt;the Pitch Perfect spin-offs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Bulgaria&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Tears Getting Sober by Victoria&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;Bulgaria has had some absolute &lt;em&gt;tunes&lt;/em&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;in&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=OMmm-G078LM&quot;&gt;recent&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=vC-1tdGDFQc&quot;&gt;years&lt;/a&gt;. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.&lt;/p&gt;
-
-&lt;p&gt;It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. &lt;a href=&quot;https://www.youtube.com/watch?v=PQqUTigWKHY&quot;&gt;Bring back Poli&lt;/a&gt;!&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -2058,6 +1915,19 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;France&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Mon alliée (The Best in Me) by Tom Leeb&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;You can always rely on the French for a meandering ballad, and this year they’ve delivered in spades. Unless my ears deceive me, I think there are &lt;em&gt;two&lt;/em&gt; key changes (top work, France). The lyrics, however, are awfully gushing and the song itself is just colourless.&lt;/p&gt;
+
+&lt;/details&gt;
+
 &lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
@@ -2072,6 +1942,19 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;p&gt;Why do I say that? Well, it’s obviously &lt;em&gt;totally proportionate&lt;/em&gt; to release a song where you scream “why don’t you love me?” into a microphone as part of a grunge track.&lt;/p&gt;
 
 &lt;p&gt;Awkward.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Germany&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Violent Thing by Ben Dolic&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;There’s one reliable thing about a nation that regularly doesn’t &lt;em&gt;open&lt;/em&gt; its nightclubs until after midnight, and it’s that it knows how to throw a party. The Germans have brought this fun, slick bop to &lt;em&gt;this&lt;/em&gt; party and it is totally my vibe. It could have been a contender.&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -2103,6 +1986,51 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Ireland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Story of My Life by Lesley Roy&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;Well Lesley &lt;em&gt;clearly&lt;/em&gt; likes P!nk.&lt;/p&gt;
+
+&lt;p&gt;I’m not much of a P!nk fan, but I can appreciate a thumping good pop song and &lt;em&gt;this&lt;/em&gt; is one of those. It’s uptempo, chirpy, and has a driving bass line for a fun three minutes.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Israel&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Feker libi by Eden &lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;&lt;em&gt;Feker libi&lt;/em&gt; (or “my sweetheart” in English) is a very confused song. One minute it’s a 90s house track, praying to the Earth mother; the next it’s a Bollywood banging &lt;a href=&quot;https://www.youtube.com/watch?v=Yc5OyXmHD0w&quot;&gt;Pussycat Dolls rip-off&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you can look past the frantic and a bit out-of-place middle-eight, it’s pretty good!&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Italy&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Fai rumore by Diodato&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;Italy has &lt;a href=&quot;https://www.youtube.com/watch?v=1TOMqZV2jA8&quot;&gt;good&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=M-aoyPa41Ic&quot;&gt;years&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=81M-mp5t8uM&quot;&gt;bad&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YfnhDfy8AjU&quot;&gt;years&lt;/a&gt;. This, I think, is a bad year.&lt;/p&gt;
+
+&lt;p&gt;It’s basically just a middle-aged, white guy shouting at a microphone too much for three-minutes. Par for the course for Italy in the 2010s, but not a great start to the 2020s.&lt;/p&gt;
+
+&lt;/details&gt;
+
 &lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
@@ -2112,9 +2040,43 @@ const 	deptcanvas = createCanvas(width, height)
     &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
-&lt;p&gt;One of two tracks this year with an unfortunate title, given &lt;em&gt;the situation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;One of two tracks this year with an unfortunate title, given &lt;em&gt;the situation&lt;/em&gt;.&lt;sup id=&quot;fnref:coronavirus&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:coronavirus&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Latvia takes us to the club with this over-produced track and nondescript female vocal. It throws in some (not good) rap near the end of the track before crashing into a distorted mess of an ending.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:coronavirus&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;You know, literally &lt;a href=&quot;https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled&quot;&gt;the reason the contest has been cancelled&lt;/a&gt;! &lt;a href=&quot;#fnref:coronavirus&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Lithuania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;On Fire by The Roop&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;I so desperately wanted to make a good “&lt;em&gt;The Roop&lt;/em&gt; is &lt;em&gt;On Fire&lt;/em&gt;” joke here, but this track does not deserve my best wit. This is quirky and there’s an ear-worming synth riff throughout, but it does not exceed the sum of its parts. Disappointing, at best.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Malta&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;All of My Love by Destiny&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;The song builds very quickly from a quiet piano ballad, to a powerhouse with drivingly rhythmic instrumentation. It’s hard to identify the catchy riff that your ear is meant to latch on to, but there’s no doubting that singer, Destiny, has got &lt;em&gt;lungs&lt;/em&gt;.&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -2128,6 +2090,51 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;/h3&gt;
 &lt;/summary&gt;
 &lt;p&gt;This is a fairly &lt;em&gt;meh&lt;/em&gt; pop ballad from the Moldovans. It keeps rolling with a decent ebb and flow, switching up between piano-leading verses and more punchy choruses. It’s enough to keep you interested, but it’s ultimately a bit anti-climactic.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Netherlands&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Grow by Jeangu Macrooy&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;This is utterly miserable. For the first minute and a half it’s almost one continuous note of instrumentation with a near monotone vocal.&lt;/p&gt;
+
+&lt;p&gt;After that, it just gets &lt;em&gt;weird&lt;/em&gt;. It very, &lt;em&gt;very&lt;/em&gt; slowly builds to a crescendo and just as you think it might be getting &lt;em&gt;somewhere&lt;/em&gt;; it stops.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;North Macedonia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;You by Vasil&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;The recently renamed &lt;del&gt;Former Yugoslav Republic of&lt;/del&gt; North Macedonia has ditched boastful ballads this year and gone for a sexed-up, Latino-type song about dancing.&lt;/p&gt;
+
+&lt;p&gt;The vocals are a tad bland, but the instrumentation is varied and lay down a fun beat.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Norway&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Attention by Ulrikke&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;“I just want your attention”, sings Ulrikke in the pre-chorus of the Norwegian entry. Well, Ulrikke, you’ll have to try harder than this.&lt;/p&gt;
+
+&lt;p&gt;The song takes an age to get started, and it only really grabs you after about 2 minutes. It’s pleasant enough; just not very catchy.&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -2161,6 +2168,36 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;/details&gt;
 
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Romania&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Alcohol You by Roxen&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;What is Roxen drinking?&lt;/p&gt;
+
+&lt;p&gt;If this were any true metaphor for alcohol, it would feel a lot better in the moment and the hangover would at least be memorable. This dreary and confused entry is closer to drinking bleach than alcohol; it’s shit and you’ll regret it once it’s done.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Russia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Uno by Little Big&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;It has been apparent for sometime that things are &lt;em&gt;not good&lt;/em&gt; in Russia, but now we know why: they’re still living in the 1990s.&lt;/p&gt;
+
+&lt;p&gt;This, somehow, manages to be &lt;em&gt;even more annoying&lt;/em&gt; than &lt;a href=&quot;https://en.wikipedia.org/wiki/Aqua_(band)&quot;&gt;Aqua’s&lt;/a&gt; infamous back catalogue, which – let’s not forget – includes a song about &lt;a href=&quot;https://en.wikipedia.org/wiki/Barbie_Girl&quot;&gt;plastic dolls&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/details&gt;
+
 &lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
@@ -2170,7 +2207,15 @@ const 	deptcanvas = createCanvas(width, height)
     &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
-&lt;p&gt;San Marino, the tiny nation always churning out &lt;em&gt;questionable&lt;/em&gt; acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a &lt;em&gt;lot&lt;/em&gt; repetition of the word “freaky”. For once for San Marino, something I’d listen to again.&lt;/p&gt;
+&lt;p&gt;San Marino, the tiny nation always churning out &lt;em&gt;questionable&lt;/em&gt; acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a &lt;em&gt;lot&lt;/em&gt; repetition of the word “freaky”&lt;sup id=&quot;fnref:freak&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:freak&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. For once for San Marino, something I’d listen to again.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:freak&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;By my count, there are no fewer than 41 uses of “freaky” and 6 uses of “freaking” in this freaking song. &lt;a href=&quot;#fnref:freak&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 
 &lt;/details&gt;
 
@@ -2189,72 +2234,18 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;/details&gt;
 
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
 &lt;summary&gt;
 &lt;h3&gt;
     &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Switzerland&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Répondez-moi by Gjon’s Tears&lt;/span&gt;
+        &lt;span class=&quot;country&quot;&gt;Slovenia&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Voda by Ana Soklič&lt;/span&gt;
     &lt;/span&gt;
 &lt;/h3&gt;
 &lt;/summary&gt;
-&lt;p&gt;This is a very emotive entry. There’s something haunting about Gjon’s voice, and the stripped back instrumentation compliments his falsetto in interesting ways. It is also in French, which is novel for a Swiss entry nowadays.&lt;/p&gt;
+&lt;p&gt;Who knew that the Slovenians were so enthusiastic about one &lt;a href=&quot;https://en.wikipedia.org/wiki/Vodafone&quot;&gt;the world’s largest telecommunications companies&lt;/a&gt;?&lt;/p&gt;
 
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;France&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Mon alliée (The Best in Me) by Tom Leeb&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;You can always rely on the French for a meandering ballad, and this year they’ve delivered in spades. Unless my ears deceive me, I think there are &lt;em&gt;two&lt;/em&gt; key changes (top work, France). The lyrics, however, are awfully gushing and the song itself is just colourless.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Germany&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Violent Thing by Ben Dolic&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;There’s one reliable thing about a nation that regularly doesn’t &lt;em&gt;open&lt;/em&gt; its nightclubs until after midnight, and it’s that it knows how to throw a party. The Germans have brought this fun, slick bop to &lt;em&gt;this&lt;/em&gt; party and it is totally my vibe. It could have been a contender.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Italy&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Fai rumore by Diodato&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;Italy has &lt;a href=&quot;https://www.youtube.com/watch?v=1TOMqZV2jA8&quot;&gt;good&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=M-aoyPa41Ic&quot;&gt;years&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=81M-mp5t8uM&quot;&gt;bad&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=YfnhDfy8AjU&quot;&gt;years&lt;/a&gt;. This, I think, is a bad year.&lt;/p&gt;
-
-&lt;p&gt;It’s basically just a middle-aged, white guy shouting at a microphone too much for three-minutes. Par for the course for Italy in the 2010s, but not a great start to the 2020s.&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;false&quot; data-final=&quot;true&quot;&gt;
-&lt;summary&gt;
-&lt;h3&gt;
-    &lt;span class=&quot;entry&quot;&gt;
-        &lt;span class=&quot;country&quot;&gt;Netherlands&lt;/span&gt;
-        &lt;span class=&quot;song-artist&quot;&gt;Grow by Jeangu Macrooy&lt;/span&gt;
-    &lt;/span&gt;
-&lt;/h3&gt;
-&lt;/summary&gt;
-&lt;p&gt;This is utterly miserable. For the first minute and a half it’s almost one continuous note of instrumentation with a near monotone vocal.&lt;/p&gt;
-
-&lt;p&gt;After that, it just gets &lt;em&gt;weird&lt;/em&gt;. It very, &lt;em&gt;very&lt;/em&gt; slowly builds to a crescendo and just as you think it might be getting &lt;em&gt;somewhere&lt;/em&gt;; it stops.&lt;/p&gt;
+&lt;p&gt;In reality, I have absolutely no idea what the lyrics to this song are about, as I can’t find the English translation; but it is inoffensive enough to pass three minutes.&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -2270,6 +2261,49 @@ const 	deptcanvas = createCanvas(width, height)
 &lt;p&gt;This song is a great example of how lyrics can sound really impressive in their native language, and then turn to utter gibberish when translated into English.&lt;/p&gt;
 
 &lt;p&gt;There is an excellent falsetto at 2:30 that I bet would have gotten &lt;em&gt;totally butchered&lt;/em&gt; live. Gutted we’ll miss that.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Sweden&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Move by The Mamas&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iEEuG5XML-A&quot;&gt;Last year’s Swedish backing singers&lt;/a&gt; would have taken centre-stage this year in this soul and gospel track.&lt;/p&gt;
+
+&lt;p&gt;This is another great entry in a string of amazing Eurovision entries from my favourite European nation. I am unashamedly biased at this point. Sweden can do no wrong!&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;2&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Switzerland&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Répondez-moi by Gjon’s Tears&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;This is a very emotive entry. There’s something haunting about Gjon’s voice, and the stripped back instrumentation compliments his falsetto in interesting ways. It is also in French, which is novel for a Swiss entry nowadays.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;details class=&quot;esc-entry&quot; data-semifinal=&quot;1&quot; data-final=&quot;false&quot;&gt;
+&lt;summary&gt;
+&lt;h3&gt;
+    &lt;span class=&quot;entry&quot;&gt;
+        &lt;span class=&quot;country&quot;&gt;Ukraine&lt;/span&gt;
+        &lt;span class=&quot;song-artist&quot;&gt;Solovey by Go_A&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h3&gt;
+&lt;/summary&gt;
+&lt;p&gt;Oh &lt;a href=&quot;https://youtu.be/slHboKF9PIQ?t=12&quot;&gt;Christ on a hamster wheel&lt;/a&gt;, didn’t we collectively learn &lt;em&gt;anything&lt;/em&gt; from this style of music &lt;a href=&quot;https://youtu.be/IEu0F5uobVo?t=8&quot;&gt;last year&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;According to their &lt;a href=&quot;https://eurovision.tv/participant/go_a&quot;&gt;official profile&lt;/a&gt;, Go_A think that “Ukrainian folklore and electronic music are a perfect match”. They are wrong. Go_Away. Now.&lt;/p&gt;
 
 &lt;/details&gt;
 

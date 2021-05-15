@@ -411,7 +411,7 @@ entries:
   song: "Russian Woman"
   artist: "Manizha"
   semifinal: 1
-  semifinal-runningorder: 0
+  semifinal-runningorder: 3
   final: false
   final-runningorder: 0
   commentary: |
@@ -487,7 +487,7 @@ entries:
   song: "Tout l'univers"
   artist: "Gjon's Tears"
   semifinal: 2
-  semifinal-runningorder: 0
+  semifinal-runningorder: 16
   final: false
   final-runningorder: 0
   commentary: |
@@ -500,7 +500,7 @@ entries:
   song: "SHUM"
   artist: "GO_A"
   semifinal: 1
-  semifinal-runningorder: 0
+  semifinal-runningorder: 15
   final: false
   final-runningorder: 0
   commentary: |

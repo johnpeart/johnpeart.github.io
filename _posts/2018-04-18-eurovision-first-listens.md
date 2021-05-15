@@ -36,7 +36,7 @@ entries:
   song: "Mall"
   artist: "Eugent Bushpepa"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     Don’t be confused by the title; this isn’t an ode to capitalism. No, this song translates literally as “Yearning”.
 
@@ -58,7 +58,7 @@ entries:
   song: "Lie To Me"
   artist: "Mikolas Josef"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     I’m not a fan of rap in Eurovision. Sure it’s “different”, but whilst Mikolas thinks he’s pulling off some Justin Timberlake or Eminem swagger, he’s really joining the likes of [Daz Sampson](https://youtu.be/OYgE7O0OLyw).
 
@@ -69,7 +69,7 @@ entries:
   song: "When We’re Old"
   artist: "Ieva Zasimauskaite"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     This is like a lullaby performed by a Lithuanian version of Ellie Goulding.
 
@@ -82,7 +82,7 @@ entries:
   song: "Toy"
   artist: ""
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     Both my eyebrows raised about 3 inches up my forehead when I listened to this. It is totally bonkers — and I freaking love it.
 
@@ -106,7 +106,7 @@ entries:
   song: "La Forza"
   artist: "Elina Nechayeva"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     Estonia have gone full-tilt into an operatic style for this surprising number. I have no basis on which to judge this; it’s very much out of my comfort zone.
 
@@ -117,7 +117,7 @@ entries:
   song: "Bones"
   artist: ""
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     Another year, another great track from Bulgaria; they’re clearly desperate to win.
 
@@ -152,7 +152,7 @@ entries:
   song: "Nobody But You"
   artist: "Cesar Sampson"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     So this guy clearly thinks he’s Austria’s Rag and Bone Man. Parallels aside, this is excellent.
 
@@ -174,7 +174,7 @@ entries:
   song: "Monsters"
   artist: "Saara Aalto"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     There’s some blatant Gaga mimicry happening in this track, right from the title. But, it doesn’t matter; it’s good.
 
@@ -209,7 +209,7 @@ entries:
   song: "Together"
   artist: "Ryan O’Shaughnessy"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     Ireland is dangerously close to having its crown as best performing country taken away from it, and this will not be enough to defend the title.
 
@@ -220,7 +220,7 @@ entries:
   song: "Fuego"
   artist: "Eleni Foureira"
   semifinal: 1
-  final: false
+  final: true
   commentary: |
     This is one of the better Cypriot tracks from recent years. I still want to set “fuego” to it.
 
@@ -231,7 +231,7 @@ entries:
   song: "That’s How You Write a Song"
   artist: "Alexander Rybak"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     According to Alexander Rybak’s song, there are only two steps to write a song: believe in it, and roll with it.
 
@@ -253,7 +253,7 @@ entries:
   song: "Nova Deca"
   artist: "Sanja Ilić & Balkania"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     This is a bit weird. There’s lots of throat-singing, plenty of odd microphone effects going on, and it’s a bit hard to follow. It all comes together in a bit of an unsatisfying *goulash*.
 
@@ -273,7 +273,7 @@ entries:
   song: "Higher Ground"
   artist: "Rasmussen"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     Is this a missing track from the 1998 Disney classic *Mulan*? Is *Donny Osmand* calling for a truce with the Huns?
 
@@ -297,7 +297,7 @@ entries:
   song: "My Lucky Day"
   artist: "DoReDoS"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     This has lolly-pop Euro-trash written all over it. Moldova, clearly buoyed by their success with leg-tapping saxophones from last year, have produced a less good version of that for this year.
 
@@ -308,7 +308,7 @@ entries:
   song: "Outlaw"
   artist: " ‘Em — Waylon"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     You can always rely on The Netherlands to bring country to the Contest. This year, it’s a country rock number, and it is *great*!
 
@@ -319,7 +319,7 @@ entries:
   song: "We Got Love"
   artist: "Jessica Mauboy"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     If only every country entering the Contest could pop out a slick bop like Australia seems to do so effortlessly.
 
@@ -363,7 +363,7 @@ entries:
   song: "Vislát Nyár"
   artist: "AWS"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     As you might expect, I was not a ‘goth’. I’m therefore lost by “Goodbye Summer”.
 
@@ -387,7 +387,7 @@ entries:
   song: "Dance You Off"
   artist: "Benjamin Ingrosso"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     If this track were represented as a Venn diagram of what I like about Eurovision songs, then this would be at the intersection of “good hook”, “great beat”, and “solid vocals”.
 
@@ -409,7 +409,7 @@ entries:
   song: "Hvala, Ne!"
   artist: "Lea Sirk"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     This songs title translates as “No thanks!”, and that roughly sums up my thoughts about this *drop-the-bass* thumper.
 
@@ -420,7 +420,7 @@ entries:
   song: "Under the Ladder"
   artist: "MÉLOVIN"
   semifinal: 2
-  final: false
+  final: true
   commentary: |
     Being under a ladder is usually considered to be bad luck.
 

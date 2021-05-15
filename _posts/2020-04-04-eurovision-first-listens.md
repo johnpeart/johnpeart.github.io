@@ -36,9 +36,11 @@ entries:
   semifinal: 1
   final: false
   commentary: |
-    *Da vidna*, meaning “until dawn” is reminiscent of that track from *Made in Chelsea*. You know, [the one with the screechy sound](https://www.youtube.com/watch?v=dX3k_QDnzHE).
+    *Da vidna*, meaning “until dawn” is reminiscent of that track from *Made in Chelsea*. You know, the one with the screechy sound.[^davidna]
 
     *Made in Chelsea* and *Da vidna* have something else in common too: they’re both stilted and devoid of substance.
+
+    [^davidna]: It’s M83’s song, ‘[Midnight City](https://www.youtube.com/watch?v=dX3k_QDnzHE)’.
 
 - country: "Belgium"
   emoji: ""
@@ -231,9 +233,11 @@ entries:
   semifinal: 2
   final: false
   commentary: |
-    Bulgaria has had some absolute *tunes* [in](https://www.youtube.com/watch?v=PQqUTigWKHY) [recent](https://www.youtube.com/watch?v=OMmm-G078LM) [years](https://www.youtube.com/watch?v=vC-1tdGDFQc). But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.
+    Bulgaria has had some absolute *tunes* in recent years[^bulgaria-tunes]. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.
 
     It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. [Bring back Poli](https://www.youtube.com/watch?v=PQqUTigWKHY)!
+
+    [^bulgaria-tunes]: Like in [2016](https://www.youtube.com/watch?v=PQqUTigWKHY), [2017](https://www.youtube.com/watch?v=OMmm-G078LM), and [2018](https://www.youtube.com/watch?v=vC-1tdGDFQc).
 
 - country: "Czech Republic"
   emoji: ""
@@ -317,10 +321,11 @@ entries:
   semifinal: 2
   final: false
   commentary: |
-    One of two tracks this year with an unfortunate title, given *the situation*.
+    One of two tracks this year with an unfortunate title, given *the situation*.[^coronavirus]
 
     Latvia takes us to the club with this over-produced track and nondescript female vocal. It throws in some (not good) rap near the end of the track before crashing into a distorted mess of an ending.
 
+    [^coronavirus]: You know, literally [the reason the contest has been cancelled](https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled)!
 - country: "Moldova"
   emoji: ""
   song: "Prison"
@@ -359,7 +364,9 @@ entries:
   semifinal: 2
   final: false
   commentary: |
-    San Marino, the tiny nation always churning out *questionable* acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a *lot* repetition of the word “freaky”. For once for San Marino, something I’d listen to again.
+    San Marino, the tiny nation always churning out *questionable* acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a *lot* repetition of the word “freaky”[^freak]. For once for San Marino, something I’d listen to again.
+
+    [^freak]: By my count, there are no fewer than 41 uses of “freaky” and 6 uses of “freaking” in this freaking song.
 
 - country: "Serbia"
   emoji: ""
@@ -380,7 +387,6 @@ entries:
   final: false
   commentary: |
     This is a very emotive entry. There’s something haunting about Gjon’s voice, and the stripped back instrumentation compliments his falsetto in interesting ways. It is also in French, which is novel for a Swiss entry nowadays.
-
 
 - country: "France"
   emoji: ""

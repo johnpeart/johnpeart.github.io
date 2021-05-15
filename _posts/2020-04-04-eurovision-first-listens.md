@@ -461,7 +461,7 @@ As ever, there are some rules:
 1. I'm only allowed to listen to each track once[^1listen]
 2. Each entry is allowed a tweet-sized piece of commentary: up to 280 characters — no more, but sometimes less
 
-In lieu of an officially curated album, I’ve listened to the songs in alphabetical order *by artist* this year. The final running order wasn’t agreed before the contest was called off this year, so below they are presented in alphabetical order by country, grouped into their respective semi-finals.
+In lieu of an officially curated album, I’ve listened to the songs in alphabetical order *by artist* this year.
 
 [^1listen]: As always, I watched the UK’s national selection. That means I’ve heard the UK entry more than once; but that's the only exception I'm allowed.
 

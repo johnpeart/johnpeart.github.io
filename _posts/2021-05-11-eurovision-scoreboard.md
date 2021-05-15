@@ -1,16 +1,15 @@
 ---
 title: "A digital scoreboard and voting system for your Eurovision house party"
 author: John Peart
-excerpt: 
+excerpt:
 layout: blog/post
 permalink: /2021/05/11/eurovision-scoreboard
 category: [eurovision]
-theme: eurovision    
 ---
 
 Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Contest house party.
 
-Hours before the party, I had a bright idea to hack together a [digital scoreboard](/2019/06/02/building-a-eurovision-scoreboard) for the event. The scoreboard took votes from a Google Form. It allowed my guests – and dozens of others across the country, in fact – to vote for their favourite entries and see the will of the people in near real time. 
+Hours before the party, I had a bright idea to hack together a [digital scoreboard](/2019/06/02/building-a-eurovision-scoreboard) for the event. The scoreboard took votes from a Google Form. It allowed my guests – and dozens of others across the country, in fact – to vote for their favourite entries and see the will of the people in near real time.
 
 {% include figure.html
 url="/posts/eurovision-scoreboard.jpg" alt="A screenshot of my 2019 Eurovision Scoreboard." figure="1" caption="This is what the 2019 version of my Eurovision scoreboard looked like" %}
@@ -23,7 +22,7 @@ These were things I had started to build out during my [all-digital Eurovision h
 
 ## A new scoreboard for 2021
 
-For 2021, my digital scoreboard has had some upgrades. It's been totally rebuilt and given a facelift inspired by this year's “[Open Up](https://eurovision.tv/theme)” branding. 
+For 2021, my digital scoreboard has had some upgrades. It's been totally rebuilt and given a facelift inspired by this year's “[Open Up](https://eurovision.tv/theme)” branding.
 
 {% include figure.html
 url="/posts/eurovision-scoreboard-2021.png" alt="A screenshot of my 2021 Eurovision Scoreboard." figure="2" caption="This is what the new  scoreboard looks like" linktext="I call it Euroboard" link="https://www.johnpe.art/euroboard" %}
@@ -54,12 +53,12 @@ Losing track of what's going on? Not anymore! The scoreboard can show you which 
 
 ### Message center
 
-It's going to be weird not being together like usual, isn't it? 
+It's going to be weird not being together like usual, isn't it?
 
 I thought I'd bring a little bit of _me_ into your living room. Messages and shoutouts will pop up on screen as we go through the show, including some small Easter eggs.
 
 ## Get involved
 
-So it's new and improved, and you can use it too! 
+So it's new and improved, and you can use it too!
 
 If you'd like to have a digitally-enabled, socially-distant Eurovision, visit [the Euroboard](https://www.johnpe.art/euroboard) on 18, 20 and 22 May 2021.

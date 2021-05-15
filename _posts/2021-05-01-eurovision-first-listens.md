@@ -8,6 +8,7 @@ permalink: /2021/05/01/eurovision-first-listens
 redirect_from:
 - /eurovision
 category: [eurovision]
+theme: eurovision
 
 entries:
 - country: "Albania"

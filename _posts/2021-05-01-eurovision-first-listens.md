@@ -60,7 +60,7 @@ entries:
   artist: "Efendi"
   semifinal: 1
   semifinal-runningorder: 14
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     There's a nice throwback in the lyrics of this track to Efendi's defunct track from [*the Eurovision that never was*](https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled), but that's probably the best thing about this Anglo-Azerbaijani lyrical mashup.
@@ -73,7 +73,7 @@ entries:
   artist: "Hooverphonic"
   semifinal: 1
   semifinal-runningorder: 11
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Imagine you're a pebble being dragged along by the current of a river. That's what this song is like. An unending, flowing rhythm that just kind of pulls you along.
@@ -112,7 +112,7 @@ entries:
   artist: "Elena Tsagrinou"
   semifinal: 1
   semifinal-runningorder: 8
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Cyprus has really zeroed in on the club-floor-filler over the last few years and this is another classic of the genre.
@@ -257,7 +257,7 @@ entries:
   artist: "Eden Alene"
   semifinal: 1
   semifinal-runningorder: 12
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This starts out pretty tame and then *wham*: the beat kicks in and it's party time.
@@ -296,7 +296,7 @@ entries:
   artist: "The Roop"
   semifinal: 1
   semifinal-runningorder: 1
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Just like The Roop's entry last year, this song is an *experience* for the ears. Nothing about this track sounds like disco to me, despite the title, but it is energising.
@@ -309,7 +309,7 @@ entries:
   artist: "Destiny"
   semifinal: 1
   semifinal-runningorder: 16
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Last year Destiny brought a whacking ballad and *lungs* to the table. This year, she's bringing a sax-infused clap-back banger.
@@ -361,7 +361,7 @@ entries:
   artist: "TIX"
   semifinal: 1
   semifinal-runningorder: 9
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This feels like a song a millennial teenager might have written during their "indie phase". It's been ripped right out of the mid to late 2000s. Think *Owl City*.
@@ -413,7 +413,7 @@ entries:
   artist: "Manizha"
   semifinal: 1
   semifinal-runningorder: 3
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     A large part of this entry is punctuated by what appears to be a guitar in need of tuning. It's very, *very* annoying.
@@ -476,7 +476,7 @@ entries:
   artist: "Tusse"
   semifinal: 1
   semifinal-runningorder: 4
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This is, as usual, a polished piece of perfectly-produced pop from the Swedes. You'd expect that from a country that takes Eurovision almost too seriously.

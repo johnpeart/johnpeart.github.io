@@ -502,7 +502,7 @@ entries:
   artist: "GO_A"
   semifinal: 1
   semifinal-runningorder: 15
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     The best part of this song is when it ends.

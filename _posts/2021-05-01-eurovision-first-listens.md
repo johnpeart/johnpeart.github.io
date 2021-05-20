@@ -17,7 +17,7 @@ entries:
   artist: "Anxhela Peristeri"
   semifinal: 2
   semifinal-runningorder: 11
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This is apparently Anxhela's second attempt at getting to Eurovision – her first was in 2001. She got here. Good for her.
@@ -86,7 +86,7 @@ entries:
   artist: "Victoria"
   semifinal: 2
   semifinal-runningorder: 13
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Doing something unusual is not, well, *unusual* in Eurovision, and few things say "I'm trying to be quirky" like a ticking clock in your backing track.
@@ -164,7 +164,7 @@ entries:
   artist: "Blind Channel"
   semifinal: 2
   semifinal-runningorder: 14
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This is a ripping rock number with some just-the-right-side of R-rated lyrics and echoes of 'Who let the dogs out?' in the backing vocals.
@@ -216,7 +216,7 @@ entries:
   artist: "Stefania"
   semifinal: 2
   semifinal-runningorder: 4
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This song is a grower, not a shower. It takes about a minute to get into itself but when it does, it's pretty fun!
@@ -229,7 +229,7 @@ entries:
   artist: "Daði og Gagnamagnið"
   semifinal: 2
   semifinal-runningorder: 8
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     If the 2020 Contest had taken place, Daði was the one to beat. So the question is, can Daði top last year's absolute tune?
@@ -322,7 +322,7 @@ entries:
   artist: "Natalia Gordienko"
   semifinal: 2
   semifinal-runningorder: 7
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Sometimes what you want from Eurovision is something quirky; Molodova has a good track record of bringing the quirky.
@@ -386,7 +386,7 @@ entries:
   song: "Love is on My Side"
   semifinal: 2
   semifinal-runningorder: 12
-  final: false
+  final: true
   final-runningorder: 0
   artist: "The Black Mamba"
   commentary: |
@@ -426,7 +426,7 @@ entries:
   artist: "Senhit"
   semifinal: 2
   semifinal-runningorder: 1
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     Given the hype surrounding this track when it came out, I was expecting much more.
@@ -441,7 +441,7 @@ entries:
   artist: "Hurricane"
   semifinal: 2
   semifinal-runningorder: 9
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     This track follows a suspiciously familiar format to Hurricane's defunct 2020 entry, *Hasta la vista*. Whilst it's a fun and in-your-face dance track featuring a good key change, it's just not as good as their first attempt.
@@ -489,7 +489,7 @@ entries:
   artist: "Gjon's Tears"
   semifinal: 2
   semifinal-runningorder: 16
-  final: false
+  final: true
   final-runningorder: 0
   commentary: |
     The translated lyrics for this song reveal a non-sensical string of metaphors but *it doesn't matter*.

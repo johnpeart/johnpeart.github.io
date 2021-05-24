@@ -113,7 +113,7 @@ function formatWorkSignature(name, role, team, address, phone, email) {
 		<tr>
 			<td rowspan="4" valign="top" style="min-width: 140px; max-width: 140px; padding-right: 10px; vertical-align: top;">
 				<div style="border-left: 2px solid #d40072; padding-left: 6px;">
-					<img border="0" alt="Logo" width="40" style="display: block; width:40px; height:auto; border:0; clear: both; margin-bottom: 6px;" src="https://johnpe.art/assets/images/email/work-logo.png">
+					<img border="0" alt="Logo" width="40" style="display: block; width:40px; height:auto; border:0; clear: both; margin-bottom: 6px;" src="https://www.johnpe.art/assets/images/email/work-logo.png">
 					<span style="display: block; font-size: 10pt; line-height: 1.2">Department for<br>Digital, Culture,<br>Media &amp; Sport</span>
 				</div>
 			</td>

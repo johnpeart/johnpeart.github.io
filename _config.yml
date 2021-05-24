@@ -6,7 +6,7 @@ description: "I’m John Peart. I’m a policy professional with an interest in 
 author: "John Peart"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://johnpe.art"
+url: "https://www.johnpe.art"
 
 ####################
 # Feature settings #

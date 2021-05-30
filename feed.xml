@@ -5,8 +5,8 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 May 2021 14:03:12 +0000</pubDate>
-    <lastBuildDate>Sun, 30 May 2021 14:03:12 +0000</lastBuildDate>
+    <pubDate>Sun, 30 May 2021 14:08:05 +0000</pubDate>
+    <lastBuildDate>Sun, 30 May 2021 14:08:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -16,7 +16,7 @@
 &lt;p&gt;Hours before the party, I had a bright idea to hack together a &lt;a href=&quot;/2019/06/02/building-a-eurovision-scoreboard&quot;&gt;digital scoreboard&lt;/a&gt; for the event. The scoreboard took votes from a Google Form. It allowed my guests – and dozens of others across the country, in fact – to vote for their favourite entries and see the will of the people in near real time.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;https://www.johnpe.art/assets/images/posts/eurovision-scoreboard.jpg&quot; alt=&quot;A screenshot of my 2019 Eurovision Scoreboard.&quot; /&gt;
+	&lt;img src=&quot;https://image.johnpe.art/assets/images/posts/2019/06/02/building-a-eurovision-scoreboard/eurovision-scoreboard.jpg&quot; alt=&quot;A screenshot of my 2019 Eurovision Scoreboard.&quot; /&gt;
 	&lt;figcaption&gt;
 		&lt;strong&gt;Figure 1:&lt;/strong&gt;
 		This is what the 2019 version of my Eurovision scoreboard looked like.
@@ -35,7 +35,7 @@
 &lt;p&gt;For 2021, my digital scoreboard has had some upgrades. It’s been totally rebuilt and given a facelift inspired by this year’s “&lt;a href=&quot;https://eurovision.tv/theme&quot;&gt;Open Up&lt;/a&gt;” branding.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;https://www.johnpe.art/assets/images/posts/eurovision-scoreboard-2021.png&quot; alt=&quot;A screenshot of my 2021 Eurovision Scoreboard.&quot; /&gt;
+	&lt;img src=&quot;https://image.johnpe.art/assets/images/posts/2021/05/11/eurovision-scoreboard/eurovision-scoreboard-2021.png&quot; alt=&quot;A screenshot of my 2021 Eurovision Scoreboard.&quot; /&gt;
 	&lt;figcaption&gt;
 		&lt;strong&gt;Figure 2:&lt;/strong&gt;
 		This is what the new  scoreboard looks like.
@@ -1051,7 +1051,7 @@
 &lt;p&gt;I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the &lt;a href=&quot;https://badideas.podcast.johnpe.art&quot;&gt;Department of Bad Ideas&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;https://www.johnpe.art/assets/images/posts/department-of-administrative-affairs.png&quot; alt=&quot;The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right&quot; /&gt;
+	&lt;img src=&quot;https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png&quot; alt=&quot;The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right&quot; /&gt;
 	&lt;figcaption&gt;
 		&lt;strong&gt;Figure 1:&lt;/strong&gt;
 		The recently refreshed brand identity for the Department of Administrative Affairs.
@@ -1168,7 +1168,7 @@
 &lt;p&gt;This bot is built using a framework called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;twit&lt;/code&gt;, which relies on Node.js, so you’ll need to add that buildpack first. Select the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Add buildpack&lt;/code&gt; button and then choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nodejs&lt;/code&gt; from the officially supported buildpacks.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;https://www.johnpe.art/assets/images/posts/deptofadmin-add-buildpacks.png&quot; alt=&quot;The Add Build Packs screen in Heroku Dashboard&quot; /&gt;
+	&lt;img src=&quot;https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png&quot; alt=&quot;The Add Build Packs screen in Heroku Dashboard&quot; /&gt;
 	&lt;figcaption&gt;
 		&lt;strong&gt;Figure 2:&lt;/strong&gt;
 		The Add Buildpacks screen in Heroku Dashboard.
@@ -1326,7 +1326,7 @@
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Create the variable&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;colours&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// Enter a list of comma separated values &lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// Enter a list of comma separated values&lt;/span&gt;
 	&lt;span class=&quot;c1&quot;&gt;// Either hex codes or rgb() values work&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
@@ -1356,11 +1356,11 @@
 		&lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
 		&lt;span class=&quot;nx&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; 	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nx&quot;&gt;registerFont&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-	&lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-	&lt;span class=&quot;nx&quot;&gt;Canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-	&lt;span class=&quot;nx&quot;&gt;Image&lt;/span&gt; 
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; 	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;registerFont&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;Canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;Image&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1442,7 +1442,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 &lt;p&gt;The HTML Canvas API does not support multi-line or wrapping text natively. Unless you know your text isn’t going to be wider than the image itself, you’ll need to create a function to split the text across multiple lines.&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// A function to split longer quotes over multiple lines, &lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// A function to split longer quotes over multiple lines,&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;// for use as part of the canvas&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;wrapText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;maxWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lineHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;

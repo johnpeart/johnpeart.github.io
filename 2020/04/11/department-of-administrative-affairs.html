@@ -5,7 +5,7 @@
 
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-05-30    -->
-<!--    Time built:    14:03    -->
+<!--    Time built:    14:08    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -192,7 +192,7 @@
 <p>I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the <a href="https://badideas.podcast.johnpe.art">Department of Bad Ideas</a>.</p>
 
 <figure class="image">
-	<img src="https://www.johnpe.art/assets/images/posts/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" />
+	<img src="https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" />
 	<figcaption>
 		<strong>Figure 1:</strong>
 		The recently refreshed brand identity for the Department of Administrative Affairs.
@@ -309,7 +309,7 @@
 <p>This bot is built using a framework called <code class="language-plaintext highlighter-rouge">twit</code>, which relies on Node.js, so you’ll need to add that buildpack first. Select the <code class="language-plaintext highlighter-rouge">Add buildpack</code> button and then choose <code class="language-plaintext highlighter-rouge">nodejs</code> from the officially supported buildpacks.</p>
 
 <figure class="image">
-	<img src="https://www.johnpe.art/assets/images/posts/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" />
+	<img src="https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" />
 	<figcaption>
 		<strong>Figure 2:</strong>
 		The Add Buildpacks screen in Heroku Dashboard.
@@ -467,7 +467,7 @@
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create the variable</span>
 <span class="kd">var</span> <span class="nx">colours</span> <span class="o">=</span> <span class="p">[</span>
-	<span class="c1">// Enter a list of comma separated values </span>
+	<span class="c1">// Enter a list of comma separated values</span>
 	<span class="c1">// Either hex codes or rgb() values work</span>
 <span class="p">]</span>
 
@@ -497,11 +497,11 @@
 		<span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">fs</span><span class="dl">'</span><span class="p">),</span>
 		<span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">path</span><span class="dl">'</span><span class="p">)</span>
 
-<span class="kd">const</span> 	<span class="p">{</span> 
-	<span class="nx">registerFont</span><span class="p">,</span> 
-	<span class="nx">createCanvas</span><span class="p">,</span> 
-	<span class="nx">Canvas</span><span class="p">,</span> 
-	<span class="nx">Image</span> 
+<span class="kd">const</span> 	<span class="p">{</span>
+	<span class="nx">registerFont</span><span class="p">,</span>
+	<span class="nx">createCanvas</span><span class="p">,</span>
+	<span class="nx">Canvas</span><span class="p">,</span>
+	<span class="nx">Image</span>
 <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">canvas</span><span class="dl">'</span><span class="p">)</span>
 </code></pre></div></div>
 
@@ -583,7 +583,7 @@ const 	deptcanvas = createCanvas(width, height)
 
 <p>The HTML Canvas API does not support multi-line or wrapping text natively. Unless you know your text isn’t going to be wider than the image itself, you’ll need to create a function to split the text across multiple lines.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// A function to split longer quotes over multiple lines, </span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// A function to split longer quotes over multiple lines,</span>
 <span class="c1">// for use as part of the canvas</span>
 <span class="kd">function</span> <span class="nx">wrapText</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="nx">text</span><span class="p">,</span> <span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">maxWidth</span><span class="p">,</span> <span class="nx">lineHeight</span><span class="p">)</span> <span class="p">{</span>
 	<span class="kd">var</span> <span class="nx">words</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>

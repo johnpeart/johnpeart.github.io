@@ -15,17 +15,17 @@ So when I was deciding how I could bring some added fun to my Eurovision house p
 
 ## What I built
 
-Described simply, I built a webpage with a grid layout. In each cell of the grid was a country name and a score — which was pulled in from a [Google Sheet](https://docs.google.com/spreadsheets/d/1tbhEoWuhBg5H5l61VMsqy-qywp4LCzj5ZsoD9dSvftw/edit#gid=282133841) roughly every 30 seconds. 
+Described simply, I built a webpage with a grid layout. In each cell of the grid was a country name and a score — which was pulled in from a [Google Sheet](https://docs.google.com/spreadsheets/d/1tbhEoWuhBg5H5l61VMsqy-qywp4LCzj5ZsoD9dSvftw/edit#gid=282133841) roughly every 30 seconds.
 
 It looks like this:
 
-![](/assets/images/posts/eurovision-scoreboard.jpg "The scoreboard")
+![](https://image.johnpe.art/assets/images/posts/2019/06/02/building-a-eurovision-scoreboard/eurovision-scoreboard.jpg "The scoreboard")
 
 To 'vote', you filled in a [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdwHZqxdzQE5wc5OHp1rHfUU3wWk-ZU2aJqs5EEtsbI-wV23g/viewform) and gave each country a score on the usual 1 to 12 Eurovision voting scale. The Google Sheet then aggregated the votes and gave an average score for each song.
 
 ## Starting with a boilerplate
 
-As with most of my digital projects nowadays, I find it quickest to use [Jekyll](https://www.jekyllrb.com). It was entirely unnecessary to use Jekyll to do this — but it does have the benefit of building remotely on Github Pages without a faff, and it wallpapers over some of the significant gaps in my javascript skills. 
+As with most of my digital projects nowadays, I find it quickest to use [Jekyll](https://www.jekyllrb.com). It was entirely unnecessary to use Jekyll to do this — but it does have the benefit of building remotely on Github Pages without a faff, and it wallpapers over some of the significant gaps in my javascript skills.
 
 I'm not going to go into how to put a Jekyll site together — the official documentation is simple enough that most people can follow it. I won't go over the very rudimentary HTML and CSS I've used to create the scoreboard either — if you know how to code at a fairly rudimentary level, you'll be able to replicate it.
 
@@ -47,13 +47,13 @@ Guests awarded their points by submitting the form at the end each performance[^
 
 ### Link your Google Form to a Google Sheet
 
-Google Form created, I next linked this to a Google Sheet. This means every time someone makes a form submission, it saves their response to a spreadsheet. 
+Google Form created, I next linked this to a Google Sheet. This means every time someone makes a form submission, it saves their response to a spreadsheet.
 
 It's almost too easy to do: you just click a button on the top of the form! In my case, I needed to create a new Sheets file, but you could also link it to an existing spreadsheet if you had one you'd already been working in.
 
 ### Calculate the scores
 
-The next task is to aggregate the scores. 
+The next task is to aggregate the scores.
 
 Each form submission is added to the workbook as a row in a sheet (I'll call this the 'Responses sheet' for brevity). So to get the aggregated scores, in a new sheet I:
 
@@ -70,7 +70,7 @@ All this resulted in a final score for each entry.
 
 In order to retrieve the data for the scoreboard, I published the Google Sheet, which makes it available publicly to anyone with the link[^2].
 
-[^2]: It is technically possible to make this work without making the Google Sheet publicly visible, but that would involve all sorts of tricky authentication that was too much of a hassle. 
+[^2]: It is technically possible to make this work without making the Google Sheet publicly visible, but that would involve all sorts of tricky authentication that was too much of a hassle.
 
 To publish the sheet, go to `File > Publish to the web`, and click `Publish`. I also ticked the `Automatically republish when changes are made` box.
 
@@ -89,7 +89,7 @@ You need to know the `YOUR-SPREADSHEET-ID` — which will be a long random alpha
 ## Getting the data out of Google Sheets
 
 > **Before you go further**, I should say that I'm very much a javascript novice. I pieced this together from various StackOverflow threads, so whilst I can tell you *what* I did, I can't necessarily explain to you why it works!
-> 
+>
 > There's probably a much simpler way of writing this code — if there is, please do let me know and [amend the code on Github](https://github.com/johnpeart/scoreboard).
 
 ### Load the data
@@ -115,7 +115,7 @@ function loadScript(url, callback)
 }
 ```
 
-The `url` argument is constructed from the `YOUR-SPREADSHEET-ID` you hunted down earlier. 
+The `url` argument is constructed from the `YOUR-SPREADSHEET-ID` you hunted down earlier.
 
 Whereas the URL for the document in a browser will load the Google Sheets app, I needed the data in a raw format. Google offers a JSONP API for this purpose. The URL we need for our script's `url` argument is in this format:
 
@@ -123,7 +123,7 @@ Whereas the URL for the document in a browser will load the Google Sheets app, I
 https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&callback=YOUR-CALLBACK
 ```
 
-You replace `YOUR-SPREADSHEET-ID` with the ID you kept hold of earlier. 
+You replace `YOUR-SPREADSHEET-ID` with the ID you kept hold of earlier.
 
 In order to manipulate the data you need to include a callback too — that's where `YOUR-CALLBACK` comes in. In my case, I called it `onDataLoaded`; which we'll come back to.
 
@@ -148,7 +148,7 @@ In the javascript file, I used some Liquid markup to iterate through each row of
 {%raw%}
 ```javascript
 var onDataLoaded = (data) => {
-	 
+
 	{% for entry in site.data.data %}
 	    var {{ entry.Name | remove: " " }} = data.feed.entry.find((entry) => entry.title.$t == '{{ entry.CellReference }}').content.$t
 	    document.getElementById('entry-{{ entry.Name | remove: " " }}').innerHTML = {{ entry.Name | remove: " " }}
@@ -162,30 +162,30 @@ var onDataLoaded = (data) => {
 
 So I can now get the data, and I can place the data I need in the places I want; but it only loads once. The feed will update automatically (because I set it to publish changes automatically at the start), but the page won't know that so the scores only update when the page refreshes.
 
-To get around this, I created a `getNewData()` function. This function triggers the `loadScript()` function every *n* seconds thanks to a `setInterval()`. 
+To get around this, I created a `getNewData()` function. This function triggers the `loadScript()` function every *n* seconds thanks to a `setInterval()`.
 
 ```javascript
 function getNewData() {
 
 	setInterval(
-		function(){ 
-		
+		function(){
+
 			loadScript("https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&callback=onDataLoaded")
-			
-			// Output to the console that the data has been checked, 
+
+			// Output to the console that the data has been checked,
 			// so you know it's working even if there are no changes.
 			console.log("Updated data");
-			
-		}, 
+
+		},
 	30000);
-	
+
 }
 ```
 
 
 ### Load the script, and keep checking it
 
-This new `getNewData()` function becomes part of our initial `loadScript()` function call, when the page has finished loading. 
+This new `getNewData()` function becomes part of our initial `loadScript()` function call, when the page has finished loading.
 
 I wrapped the `loadScript()` in a `window.onload`, calling the URL and the `getNewData` function, like this:
 
@@ -209,10 +209,10 @@ window.onload = function() {
 
 function getNewData() {
 	setInterval(
-		function(){ 
+		function(){
 			loadScript("https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&callback=onDataLoaded")
 			console.log("Updated data");
-		}, 
+		},
 	30000);
 }
 
@@ -235,7 +235,7 @@ function loadScript(url, callback)
 
 
 var onDataLoaded = (data) => {
-	 
+
 	{% for entry in site.data.data %}
 	    var {{ entry.Name | remove: " " }} = data.feed.entry.find((entry) => entry.title.$t == '{{ entry.CellReference }}').content.$t
 	    document.getElementById('entry-{{ entry.Name | remove: " " }}').innerHTML = {{ entry.Name | remove: " " }}

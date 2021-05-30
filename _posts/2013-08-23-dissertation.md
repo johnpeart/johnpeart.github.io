@@ -49,7 +49,7 @@ In 2010, Hix, Høyland & Vivyan published a paper on the Bank of England's Monet
 
 Two questions emerge:
 
-1. Firstly, does it matter if the Chancellor has the ability to control the committee's policy outputs based on the members he appoints? If he is simply ensuring that the MPC acts as an economic counter-weight to his fiscal policy; should this be an area of concern? 
+1. Firstly, does it matter if the Chancellor has the ability to control the committee's policy outputs based on the members he appoints? If he is simply ensuring that the MPC acts as an economic counter-weight to his fiscal policy; should this be an area of concern?
 2. Secondly, and more importantly, does this relationship actually hold? A wealth of literature suggests that it may not.
 
 Hix et al.'s model is based on an implicit rational choice theory assumption, in the vein of Tsebelis (1990), Shepsle (2010) and others. They claim they are unconcerned with how an individual member's preferences are formed, but that “it is sufficient for [them] to assume that MPC members [have] reasonably stable underlying monetary policy preferences, such that a member with more hawkish policy preferences will tend to prefer more restrictive interest rates relative to others,” (Hix et al. 2010 p.738). If this assumption is correct, then their posited relationship between appointments, preferences and policy outputs is likely to hold; the question of who controls the appointment process then becomes a real area of concern that must be addressed in order to establish (or re-establish) the credible commitment to independent institutions. If, however, preferences are not stable and the assumption is incorrect, then the observed relationship becomes less significant. Instead different questions arise about the level of oversight and control necessary in independent institutions. This leads us to the question; are preferences stable over time?
@@ -169,7 +169,7 @@ The following sections detail my results and a discussion of my findings, along 
 
 ## Results and discussion
 
-More than 1.6 million words and 615 ICUs were assessed to obtain the initial classifications and select members for in-depth analysis. Table 3 shows the basic statistics. 
+More than 1.6 million words and 615 ICUs were assessed to obtain the initial classifications and select members for in-depth analysis. Table 3 shows the basic statistics.
 
 Figures 1, 2 and 3 show the descendant hierarchical classifications for each of the initial corpora. The descendant classifications show the relationships between classes and the distribution of the discussion. Each class has also been labelled based on an assessment of the significant word forms and ECUs for each class (these are not provided by Alceste, but assigned by the researcher).
 
@@ -228,24 +228,24 @@ A logical contradiction can be understood as a reversal of a member's position. 
 
 Andrew Sentance is perhaps the most striking case. In 2008, Sentance appears particularly concerned with the “downside risks” to economic activity and inflation, presenting this view consistently throughout this period. Some representative ECUs include:
 
-> “[…] I am particularly concerned about the downside risks to economic activity created by the current financial turmoil and its impact on economic activity, globally and domestically.”  
-> 
+> “[…] I am particularly concerned about the downside risks to economic activity created by the current financial turmoil and its impact on economic activity, globally and domestically.”
+>
 > **Data 1**: Sentance, Oct 2008.
 
-> “That shifts the focus for policy action more clearly onto the downside risks for inflation from a prolonged period of weak economic activity. […]”  
-> 
+> “That shifts the focus for policy action more clearly onto the downside risks for inflation from a prolonged period of weak economic activity. […]”
+>
 > **Data 2**: Sentance, Oct 2008.
 
 Sentance clearly believes the financial crisis creates downward pressures on growth and inflation – his preferences could be interpreted as ensuring the MPC focuses on ensuring those downside risks don't become realities.
 
 Cross-data analysis reveals a change in this view over time. 2010 and 2011 show Sentance rejecting a so-called “pre-occupation” with downside risks:
 
-> “[…] the UK economy grew by over 4 percent , which is still the strongest rate of GDP growth we have seen in any calendar year since the late 1980s. ([…] There is a risk that we are making the same mistake again because of the preoccupation with downside risks following the financial crisis.)”  
-> 
+> “[…] the UK economy grew by over 4 percent , which is still the strongest rate of GDP growth we have seen in any calendar year since the late 1980s. ([…] There is a risk that we are making the same mistake again because of the preoccupation with downside risks following the financial crisis.)”
+>
 > **Data 3**: Sentance, Nov 2010.
 
-> “[…] too much faith is being put on the impact of a large 'output gap' pushing down on inflation and not enough weight has been put on the upward pressure from the global environment and the exchange rate.”  
-> 
+> “[…] too much faith is being put on the impact of a large 'output gap' pushing down on inflation and not enough weight has been put on the upward pressure from the global environment and the exchange rate.”
+>
 > **Data 4**: Sentance, Feb 2011.
 
 A focus on downside risks shifts to concerns of upside pressures on inflation. This is clear evidence of a logical contradiction. Sentance has accepted two opposing arguments and used them to form a preference on the need for policy action; moreover he has rejected the former preference in order to create the latter.
@@ -256,28 +256,28 @@ These changes are found in ECUs with a high Chi2 value and thus this espoused co
 
 Adam Posen is another case; his preference change concerns his views on the real effect of monetary policy on the broader economy. In 2009, he broadly endorses the notion of the 'neutrality of money' (Hayek and Klausinger 2012 p.110) – that, over the economic cycle, monetary policy has no real effect on growth or employment – and that the MPC could do very little to prevent financial crises.
 
-> “[…] monetary policy really cannot do anything about bubbles. […]”  
-> 
+> “[…] monetary policy really cannot do anything about bubbles. […]”
+>
 > **Data 5**: Posen, Dec 2009.
 
-> “There is no dependable relationship between central bank's instrument interest rates, real or nominal, with either housing price growth or equity market appreciation […]”  
-> 
+> “There is no dependable relationship between central bank's instrument interest rates, real or nominal, with either housing price growth or equity market appreciation […]”
+>
 > **Data 6**: Posen, Dec 2009.
 
-> “[…] central banks do not control broad money growth – they only control short-term interest rates and (at best) narrow money growth. […]”  
-> 
+> “[…] central banks do not control broad money growth – they only control short-term interest rates and (at best) narrow money growth. […]”
+>
 > **Data 7**: Posen, Dec 2009.
 
 Posen's argument is based on empirics; the MPC cannot do more, he argues, because they do not have the necessary policy instruments.
 
 In 2010, this position appears to soften, with Posen arguing the MPC can and should “do more” to improve growth prospects for the economy. Posen is making the case for policy activism, arguing central bank independence should be about taking action, not 'keeping up appearances' of independence:
 
-> “Getting unduly caught up in protecting the appearance of central bank independence is doubly mistaken: first, it will not do any good because it is not that appearance which delivers desirable results; […]”  
-> 
+> “Getting unduly caught up in protecting the appearance of central bank independence is doubly mistaken: first, it will not do any good because it is not that appearance which delivers desirable results; […]”
+>
 > **Data 8**: Posen, June 2010.
 
-> “The case for doing more is about activism for sustaining a period of recovery from a low point, thereby preventing us from getting stuck in a long-term trap.”  
-> 
+> “The case for doing more is about activism for sustaining a period of recovery from a low point, thereby preventing us from getting stuck in a long-term trap.”
+>
 > **Data 9**: Posen, Sept 2010.
 
 Interestingly, Posen's voting record on the base rate doesn't reveal this preferences change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank's Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
@@ -286,18 +286,18 @@ Interestingly, Posen's voting record on the base rate doesn't reveal this prefer
 
 Charles Bean exhibits further evidence of preference change. In 2003 he argues that inflation targeting is a sufficient framework for preventing asset price bubbles and imbalances:
 
-> “Are there grounds for thinking the objective is overly focussed on inflation? My own view is no. […]”  
-> 
+> “Are there grounds for thinking the objective is overly focussed on inflation? My own view is no. […]”
+>
 > **Data 10**: Bean, Mar 2003.
 
-> “So the answer to the question posed in the title is: yes, 'flexible' inflation targets are enough. […]”  
-> 
+> “So the answer to the question posed in the title is: yes, 'flexible' inflation targets are enough. […]”
+>
 > **Data 11**: Bean, Mar 2003.
 
 That a member believes the MPC's mandate is appropriately focussed on inflation is unsurprising, but Bean clearly believes inflation-targeting alone is sufficient to tackle any economic phenomena. By implication, he believes the MPC's policy instruments are sufficient. Of course, this is in the context of one of the longest periods of growth on record for the UK. Preference change comes in the wake of the financial crisis:
 
-> “[…] In my view, […] a modest increase in the official interest rate is unlikely to do much to restrain a credit-asset-price boom that is in full swing.”  
-> 
+> “[…] In my view, […] a modest increase in the official interest rate is unlikely to do much to restrain a credit-asset-price boom that is in full swing.”
+>
 > **Data 12**: Bean, Nov 2008.
 
 Where previously, Bean felt the policy framework in place was sufficient to ensure growth and price stability, he now seems to more explicitly recognise the limits of monetary policy. Again, all of these ECUs are significant at the 1% level and are strongly representative of the discourse in these periods.
@@ -318,14 +318,14 @@ Preference development can be understood as strengthening an existing position s
 
 King's change is in relation to the level of policy activism necessary to control inflation. In 2004, King seems to take a relatively relaxed attitude to ensuring inflation expectations remain anchored to target:
 
-> “It is less likely now that a shock to inflation would lead to a further and persistent deviation of inflation from target. There is a belief that inflation will soon return to target. As a result, a surprise movement in inflation is expected to be temporary and so less likely to lead employers and employees to adjust their desired prices and wages.”  
-> 
+> “It is less likely now that a shock to inflation would lead to a further and persistent deviation of inflation from target. There is a belief that inflation will soon return to target. As a result, a surprise movement in inflation is expected to be temporary and so less likely to lead employers and employees to adjust their desired prices and wages.”
+>
 > **Data 13**: King, Oct 2004.
 
 This changes in 2008, when King is seemingly more concerned with the problem of de-anchoring of expectations:
 
-> “But there should be no doubt that the MPC is prepared to take whatever action is needed to return inflation to the 2 percent target and to keep expectations of inflation in the medium term anchored to the target.”  
-> 
+> “But there should be no doubt that the MPC is prepared to take whatever action is needed to return inflation to the 2 percent target and to keep expectations of inflation in the medium term anchored to the target.”
+>
 > **Data 14**: King, Oct 2008.
 
 Whilst both ECUs here show a concern for inflation expectation anchoring, only the latter emphasizes the degree of policy activism necessary to achieve it. This is likely due to the scale of inflation at the time; in 2004, inflation was within 1% of the target, yet in 2008 reported inflation was over 1% higher than the target of 2.0% and rising. We might view the prevailing conditions as having prompted this preference change.
@@ -338,26 +338,26 @@ Preference stability can be considered as a reaffirmation of a pre-existing view
 
 Andrew Sentance is one example and shows stability through his views on the basics of the inflation-targeting framework; he consistently reiterates the importance of inflation targeting over the “medium term”.
 
-> “Rather, this is a time when we need to stick to the basics of monetary policy – targeting price stability, using the well-established processes of the MPC, focussing on the real economy and taking a medium-term, forward-looking perspective.”  
-> 
+> “Rather, this is a time when we need to stick to the basics of monetary policy – targeting price stability, using the well-established processes of the MPC, focussing on the real economy and taking a medium-term, forward-looking perspective.”
+>
 > **Data 15**: Sentance, Sept 2008.
 
-> “The UK Monetary Policy Committee quite rightly has an emphasis on the medium-term. […]”  
-> 
+> “The UK Monetary Policy Committee quite rightly has an emphasis on the medium-term. […]”
+>
 > **Data 16**: Sentance, Nov 2011.
 
 On the topic of credibility, Sentance shows similar stability with strong warnings about the eroding credibility of the MPC:
 
-> “If we are not able to do that, the credibility of the framework and the target will be undermined. […]”  
-> 
+> “If we are not able to do that, the credibility of the framework and the target will be undermined. […]”
+>
 > **Data 17**: Sentance, Apr 2008.
 
-> “If we continue to experience above-target inflation, while the MPC sets policy to head off the opposite risk – of deflation, confidence in the inflation target and the credibility of the MPC risk being eroded.”  
-> 
+> “If we continue to experience above-target inflation, while the MPC sets policy to head off the opposite risk – of deflation, confidence in the inflation target and the credibility of the MPC risk being eroded.”
+>
 > **Data 18**: Sentance, Oct 2010.
 
-> “I do worry that the MPC's credibility and commitment to the inflation target may already have been eroded by not adjusting policy settings soon enough […]”  
-> 
+> “I do worry that the MPC's credibility and commitment to the inflation target may already have been eroded by not adjusting policy settings soon enough […]”
+>
 > **Data 19**: Sentance, Apr 2011.
 
 Sentance values the importance of credibility very highly – and consistently so. There is obvious preference stability in this case; a preference that the MPC takes action to ensure its credibility. Arguably these ECUs also show development but that would depend on a subjective interpretation of the strength of language used.
@@ -366,22 +366,22 @@ Sentance values the importance of credibility very highly – and consistently s
 
 Edward George is probably the best example of a member that shows stable preferences, showing stability across most of the areas that the corpus touches upon. The ECUs reveal a consistent view that George believes price stability is not an “end in itself”, often with identical phrasing.
 
-> “[…] In this sense price stability is not simply an end in itself. Our aim, like yours in the Eurozone …”  
-> 
+> “[…] In this sense price stability is not simply an end in itself. Our aim, like yours in the Eurozone …”
+>
 > **Data 20**: George, Feb 1999.
 
-> “But it is important to understand that effective price stability would not be intended simply as an end in itself…”  
-> 
+> “But it is important to understand that effective price stability would not be intended simply as an end in itself…”
+>
 > **Data 21**: Sentance, Apr 2011.
 
 George also has a constant focus on the imbalances between the internationally-exposed and the domestically-oriented sectors of the economy, caused by an appreciation in the value of Sterling. This position is stable across several years, from at least 1998 to 2002:
 
-> “Nor does it mean that we simply ignore the plight of the adversely affected sectors. We are concerned – as you are – with the health of every sector of the economy, we fully appreciate the interdependence of the different sectors, […]”  
-> 
+> “Nor does it mean that we simply ignore the plight of the adversely affected sectors. We are concerned – as you are – with the health of every sector of the economy, we fully appreciate the interdependence of the different sectors, […]”
+>
 > **Data 22**: George, May 1999.
 
-> “And that in effect is what we have done through our recent interest rate cuts. This approach is not, however, without risks. It involves accepting – at least while the dampening external influences persist – a growing imbalance between the internationally-exposed and the domestically-oriented sectors.”  
-> 
+> “And that in effect is what we have done through our recent interest rate cuts. This approach is not, however, without risks. It involves accepting – at least while the dampening external influences persist – a growing imbalance between the internationally-exposed and the domestically-oriented sectors.”
+>
 > **Data 23**: George, Jun 2001.
 
 Over a long period of time, George reasserts the view that there is very little the MPC can do to protect the internationally-exposed sectors of the economy. The MPC can only promote growth among the domestically-oriented sectors – even at those other businesses' expense. This is reiterated over many years and shows a clear preference influenced by the perceived limits of monetary policy.
@@ -411,17 +411,17 @@ The case of Christopher Allsopp is a unique one. The data used in this instance 
 
 Charles Bean and Mervyn King both present further evidence in favour of the hypothesis, though not in the terms previously theorised. Rather than show change explicitly, both members reference the implicit effects of a committee structure to their decision-making (and thus preference forming) process:
 
-> “… Of course, the environment here is a long way from that inhabited by the MPC, but the results are certainly consistent with my own perception of the value of having a committee make the monetary policy decisions.”  
-> 
+> “… Of course, the environment here is a long way from that inhabited by the MPC, but the results are certainly consistent with my own perception of the value of having a committee make the monetary policy decisions.”
+>
 > **Data 24**: Bean, Oct 2003.
 
-> “… It is important that our views are known to each other before we cast our votes because that is part of the process of making up our mind.”  
-> 
+> “… It is important that our views are known to each other before we cast our votes because that is part of the process of making up our mind.”
+>
 > **Data 25**: King, May 2002.
 
-> “This is the motivation behind the MPC and explains its two key features. First, it is a committee of experts who, before making their decision, discuss their interpretation of the economic data and learn from each other.  
-> […] The greatest debate among the Committee usually occurs during the quarterly forecast round which often stimulates fresh thinking.”  
-> 
+> “This is the motivation behind the MPC and explains its two key features. First, it is a committee of experts who, before making their decision, discuss their interpretation of the economic data and learn from each other.
+> […] The greatest debate among the Committee usually occurs during the quarterly forecast round which often stimulates fresh thinking.”
+>
 > **Data 26**: King, May 2007.
 
 Both members endorse the idea that decision-making by committee has inherent value. They claim that the committee enables members to update their opinions and preferences, and make more informed decisions. Whilst this doesn't show evidence of preference change as I previously outlined, it is nonetheless significant that members explicitly make note of this. Taken together with the prior evidence, there is clear support for the hypothesis; preferences can change.
@@ -486,74 +486,74 @@ Whilst this classification is imprecise, it is precise enough for the purposes o
 
 <div class="footnotes"  markdown="1">
 
-1. **Anonymous (2010a)** ‘A monetary policy committee divided’, Financial Times, 21 October 2010, 18.  
-2. **Anonymous (2010b)** ‘[Hawk v Dove – the MPC dilemma](http://www.telegraph.co.uk/finance/economics/8138064/Hawk-v-Dove-the-MPC-dilemma.html)’, The Telegraph [accessed 10 Janary 2013].  
-3. **Anonymous (2011a)** ‘[Bank of England MPC: Who sets interest rates?](http://www.bbc.co.uk/news/business-12997437)’, BBC News Business[accessed 10 Janary 2013].  
-4. **Anonymous (2011b)** ‘Policy dilemma’, Business Europe, 51(1), 2-3.  
-5. **Bailey, A. and Schonhardt-Bailey, C. (2008)** ‘Does Deliberation Matter in FOMC Monetary Policymaking? The Volcker Revolution of 1979’, Political Analysis, 16(4), 404-427.  
-6. **Bailey, A. and Schonhardt-Bailey, C. (2010)** ‘Deliberation and Oversight in Monetary Policy, 1976-2008’ (chapter of forthcoming monograph, Deliberating Monetary Policy), conference paper, presented at Southern Economic Association Annual Meeting, Atlanta, 20-22 November 2010, 2-48.  
-7. **Bailey, A. and Schonhardt-Bailey, C. (2013, forthcoming)** Deliberating American Monetary Policy: A textual analysis, MIT Press.  
-8. **Bank of England (2011)** ‘[Inflation Report](http://www.bankofengland.co.uk/publications/Pages/inflationreport/default.aspx)’, Bank of England  [accessed 15 January 2013].  
-9. **Bank of England Act 1998**, c.11, United Kingdom: Stationery Press.  
-10. **Barabas, J. (2004)** ‘How Deliberation Affects Policy Opinions’, American Political Science Review, 98(4), 687-701.  
-11. **Barro, R. J. and Gordon, D. B. (1983)** ‘Rules, discretion and reputation in a model of monetary policy’, Journal of Monetary Economics, 12(1), 101-121.  
-12. **Baumgartner, F. R. and Jones, B. D. (2002)** Policy dynamics, Chicago: University of Chicago Press, 293-306.  
-13. **Bean, C. and Jenkinson, N. (2001)** ‘The formulation of monetary policy at the Bank of England’, Bank of England. Quarterly Bulletin, 41(4), 14. 434-441.  
-14. **Blinder, A. S. (2007)** ‘Monetary policy by committee: Why and how?’, European Journal of Political Economy, 23(1), 106-123.  
-15. **Blinder, A. S. and Morgan, J. (2005)** ‘Are Two Heads Better Than One? Monetary Policy By Committee’, Journal of Money, Credit and Banking, 37(5), 798-811.  
-16. **Brown, G. (2003a)** [Remit for the Monetary Policy Committee, April 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/remitletter2003.pdf), HM Treasury  [accessed 20 March 2013].  
-17. **Brown, G. (2003b)** [Remit of the Monetary Policy Committee and the New Inflation Target, December 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/chancellorletter031210.pdf), HM Treasury  [accessed 20 March 2013].  
-18. **Chang, K. H. (2003)** Appointing Central Bankers: The Politics of Monetary Policy in the United States and the European Monetary Union, Political Economy of Institutions and Decisions, New York: Cambridge University Press, 37-90.  
-19. **Chu, B. (2011)** ‘[Posen urges bankers to prevent second recession](http://www.independent.co.uk/news/business/news/posen-urges-bankers-to-prevent-second-recession-2347152.html)’, The Independent (Business)  [accessed 10 January 2013].  
-20. **Chubb, J. E. (1988)** ‘Institutions, the Economy, and the Dynamics of State Elections’, The American Political Science Review, 82(1), 133-133.  
-21. **Cukierman, A., Web, S. B. and Neyapti, B. (1992)** ‘Measuring the Independence of Central Banks and Its Effect on Policy Outcomes’, The World Bank Economic Review, 6(3), 353.  
-22. **Fincher, C. (2011)** ‘[Factbox – Bank of England doves in ascendancy](http://uk.reuters.com/article/2011/07/07/uk-britain-boe-mpc-idUKTRE7660YA20110707)’, Reuters UK [accessed 10 March 2013].  
-23. **Hall, P. A. and Taylor, R. C. R. (1996)** ‘Political Science and the Three New Institutionalisms’, Political Studies, 44(5), 936-957.  
-24. **Hayek, F. A. and Klausinger, H. (2012)** Business Cycles, Chicago: Chicago University, 45-166.  
-25. **Hix, S., Høyland, B. and Vivyan, N. (2010)** ‘From doves to hawks: A spatial analysis of voting in the Monetary Policy Committee of the Bank of England’, European Journal of Political Research, 49(6), 731-758.  
-26. **Jones, B. D. (2003)** ‘Bounded Rationality and Political Science: Lessons from Public Administration and Public Policy’, Journal of Public Administration Research and Theory, 13(4), 395-412.  
-27. **King, M. (2005)** ‘Epistemic Communities and the Diffusion of Ideas: Central Bank Reform in the United Kingdom’, West European Politics, 28(1), 94-123.  
-28. **Kronberger, N. and Wagner, W. (2000)** ‘Keywords in Context: Statistical Analysis of Text Features’ in Bauer, M. W. and Gaskell, G., (eds.), Qualitative Researching with Text, Image and Sound: A Practical Handbook, London: SAGE, 299-317.  
-29. **Kydland, F. E. and Prescott, E. C. (1977)** ‘Rules Rather than Discretion: The Inconsistency of Optimal Plans’, Journal of Political Economy, 85(3), 473-491.  
-30. **Lindblom, C. E. (1959)** ‘The Science of “Muddling Through”‘, Public Administration Review, 19(2), 79-88.  
-31. **Lombardelli, C., Proudman, J. and Talbot, J. (2005)** ‘Committees Versus Individuals: An Experimental Analysis of Monetary Policy Decision Making’, International Journal of Central Banking, 1(1), 181-205.  
-32. **Marcussen, M. (2005)** ‘Central banks on the move’, Journal of European Public Policy, 12(5), 903-923.  
-33. **Mattich, A. (2011)** ‘[Bank of England Dove’s Threat Highlights Lack of Accountability](http://blogs.wsj.com/source/2011/03/28/bank-of-england-doves-threat-highlights-lack-of-accountability/)’, The Wall Street Journal (The Source) [accessed 10 January 2013].  
-34. **McNamara, K. (2002)** ‘Rational Fictions: Central Bank Independence and the Social Logic of Delegation’, West European Politics, 25(1), 47-76.  
-35. **Meade, E. E. (2005)** ‘The FOMC: Preferences, Voting, and Consensus’, Review – Federal Reserve Bank of St. Louis, 87(2), 93-101.  
-36. **Moser, P. (1999)** ‘Checks and balances, and the supply of central bank independence’, European Economic Review, 43(8), 1569-1593.  
-37. **Nordhaus, W. D. (1975)** ‘The Political Business Cycle’, The Review of Economic Studies, 42(2), 169-190.  
-38. **Organisation for Economic Cooperation and Development (OECD) (2012)** ‘[Main Economic Indicators (Edition: November 2012)](http://dx.doi.org/10.5257/oecd/mei/2012-11)’, OECD [accessed 15 January 2013].  
-39. **Rogoff, K. (1985)** ‘The Optimal Degree of Commitment to an Intermediate Monetary Target’, The Quarterly Journal of Economics, 100(4), 1169-1189.  
-40. **Schonhardt-Bailey, C. (2005)** ‘Measuring Ideas More Effectively: An Analysis of Bush and Kerry’s National Security Speeches’, PS: Political Science & Politics, 38(4), 701-711.  
-41. **Schonhardt-Bailey, C. (2008)** ‘The Congressional Debate on Partial-Birth Abortion: Constitutional Gravitas and Moral Passion’, British Journal of Political Science, 38(3), 383-410.  
-42. **Schonhardt-Bailey, C. (2010)** ‘[Problems and solutions in displaying results from Alceste](http://personal.lse.ac.uk/SCHONHAR/)’, [accessed March 2013].  
-43. **Schonhardt-Bailey, C. (2012)** ‘Looking at Congressional Committee Decisions from Different Perspectives: Is the Added Effort Worth It?’, conference paper, presented at 5th ESRC Research Methods Festival, St Catherine’s College, Oxford, 2-5 July 2012, 1-39 .  
-44. **Schonhardt-Bailey, C., Yager, E. and Lahlou, S. (2012)** ‘Yes, Ronald Reagan’s Rhetoric Was Unique—But Statistically, How Unique?’, Presidential Studies Quarterly, 42(3), 482-513.  
-45. **Shepsle, K. A. (2010)** Analyzing politics : rationality, behavior, and institutions, The new institutionalism in American politics series, 2nd ed., New York: W.W. Norton, 15-38.  
-46. **Sibert, A. (2003)** ‘Monetary Policy Committees: Individual and Collective Reputations’, The Review of Economic Studies, 70(3), 649-665.  
-47. **Simon, H. A. (1957)** Models of man: social and rational: mathematical essays on rational human behavior in a social setting, New York: John Wiley.  
-48. **Simon, H. A. (1997)** Administrative behaviour : a study of decision-making processes in administrative organizations, 4th ed., New York: Free Press.  
-49. **Thatcher, M. and Sweet, A. S. (2002)** ‘Theory and Practice of Delegation to Non-Majoritarian Institutions’, West European Politics, 25(1), 1-22.  
-50. **Tsebelis, G. (1990)** Nested games: rational choice in comparative politics, California series on social choice and political economy, Berkeley: California University Press.  
-51. **van der Brug, W., van der EijK, C. and Franklin, M. (2007)** The Economy and the Vote: Economic Conditions and Elections in Fifteen Countries, New York: Cambridge University Press.  
-52. **Wildavsky, A. B. (1964)** The politics of the budgetary process, Boston: Little, Brown, 127-144.  
+1. **Anonymous (2010a)** ‘A monetary policy committee divided’, Financial Times, 21 October 2010, 18.
+2. **Anonymous (2010b)** ‘[Hawk v Dove – the MPC dilemma](http://www.telegraph.co.uk/finance/economics/8138064/Hawk-v-Dove-the-MPC-dilemma.html)’, The Telegraph [accessed 10 Janary 2013].
+3. **Anonymous (2011a)** ‘[Bank of England MPC: Who sets interest rates?](http://www.bbc.co.uk/news/business-12997437)’, BBC News Business[accessed 10 Janary 2013].
+4. **Anonymous (2011b)** ‘Policy dilemma’, Business Europe, 51(1), 2-3.
+5. **Bailey, A. and Schonhardt-Bailey, C. (2008)** ‘Does Deliberation Matter in FOMC Monetary Policymaking? The Volcker Revolution of 1979’, Political Analysis, 16(4), 404-427.
+6. **Bailey, A. and Schonhardt-Bailey, C. (2010)** ‘Deliberation and Oversight in Monetary Policy, 1976-2008’ (chapter of forthcoming monograph, Deliberating Monetary Policy), conference paper, presented at Southern Economic Association Annual Meeting, Atlanta, 20-22 November 2010, 2-48.
+7. **Bailey, A. and Schonhardt-Bailey, C. (2013, forthcoming)** Deliberating American Monetary Policy: A textual analysis, MIT Press.
+8. **Bank of England (2011)** ‘[Inflation Report](http://www.bankofengland.co.uk/publications/Pages/inflationreport/default.aspx)’, Bank of England  [accessed 15 January 2013].
+9. **Bank of England Act 1998**, c.11, United Kingdom: Stationery Press.
+10. **Barabas, J. (2004)** ‘How Deliberation Affects Policy Opinions’, American Political Science Review, 98(4), 687-701.
+11. **Barro, R. J. and Gordon, D. B. (1983)** ‘Rules, discretion and reputation in a model of monetary policy’, Journal of Monetary Economics, 12(1), 101-121.
+12. **Baumgartner, F. R. and Jones, B. D. (2002)** Policy dynamics, Chicago: University of Chicago Press, 293-306.
+13. **Bean, C. and Jenkinson, N. (2001)** ‘The formulation of monetary policy at the Bank of England’, Bank of England. Quarterly Bulletin, 41(4), 14. 434-441.
+14. **Blinder, A. S. (2007)** ‘Monetary policy by committee: Why and how?’, European Journal of Political Economy, 23(1), 106-123.
+15. **Blinder, A. S. and Morgan, J. (2005)** ‘Are Two Heads Better Than One? Monetary Policy By Committee’, Journal of Money, Credit and Banking, 37(5), 798-811.
+16. **Brown, G. (2003a)** [Remit for the Monetary Policy Committee, April 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/remitletter2003.pdf), HM Treasury  [accessed 20 March 2013].
+17. **Brown, G. (2003b)** [Remit of the Monetary Policy Committee and the New Inflation Target, December 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/chancellorletter031210.pdf), HM Treasury  [accessed 20 March 2013].
+18. **Chang, K. H. (2003)** Appointing Central Bankers: The Politics of Monetary Policy in the United States and the European Monetary Union, Political Economy of Institutions and Decisions, New York: Cambridge University Press, 37-90.
+19. **Chu, B. (2011)** ‘[Posen urges bankers to prevent second recession](http://www.independent.co.uk/news/business/news/posen-urges-bankers-to-prevent-second-recession-2347152.html)’, The Independent (Business)  [accessed 10 January 2013].
+20. **Chubb, J. E. (1988)** ‘Institutions, the Economy, and the Dynamics of State Elections’, The American Political Science Review, 82(1), 133-133.
+21. **Cukierman, A., Web, S. B. and Neyapti, B. (1992)** ‘Measuring the Independence of Central Banks and Its Effect on Policy Outcomes’, The World Bank Economic Review, 6(3), 353.
+22. **Fincher, C. (2011)** ‘[Factbox – Bank of England doves in ascendancy](http://uk.reuters.com/article/2011/07/07/uk-britain-boe-mpc-idUKTRE7660YA20110707)’, Reuters UK [accessed 10 March 2013].
+23. **Hall, P. A. and Taylor, R. C. R. (1996)** ‘Political Science and the Three New Institutionalisms’, Political Studies, 44(5), 936-957.
+24. **Hayek, F. A. and Klausinger, H. (2012)** Business Cycles, Chicago: Chicago University, 45-166.
+25. **Hix, S., Høyland, B. and Vivyan, N. (2010)** ‘From doves to hawks: A spatial analysis of voting in the Monetary Policy Committee of the Bank of England’, European Journal of Political Research, 49(6), 731-758.
+26. **Jones, B. D. (2003)** ‘Bounded Rationality and Political Science: Lessons from Public Administration and Public Policy’, Journal of Public Administration Research and Theory, 13(4), 395-412.
+27. **King, M. (2005)** ‘Epistemic Communities and the Diffusion of Ideas: Central Bank Reform in the United Kingdom’, West European Politics, 28(1), 94-123.
+28. **Kronberger, N. and Wagner, W. (2000)** ‘Keywords in Context: Statistical Analysis of Text Features’ in Bauer, M. W. and Gaskell, G., (eds.), Qualitative Researching with Text, Image and Sound: A Practical Handbook, London: SAGE, 299-317.
+29. **Kydland, F. E. and Prescott, E. C. (1977)** ‘Rules Rather than Discretion: The Inconsistency of Optimal Plans’, Journal of Political Economy, 85(3), 473-491.
+30. **Lindblom, C. E. (1959)** ‘The Science of “Muddling Through”‘, Public Administration Review, 19(2), 79-88.
+31. **Lombardelli, C., Proudman, J. and Talbot, J. (2005)** ‘Committees Versus Individuals: An Experimental Analysis of Monetary Policy Decision Making’, International Journal of Central Banking, 1(1), 181-205.
+32. **Marcussen, M. (2005)** ‘Central banks on the move’, Journal of European Public Policy, 12(5), 903-923.
+33. **Mattich, A. (2011)** ‘[Bank of England Dove’s Threat Highlights Lack of Accountability](http://blogs.wsj.com/source/2011/03/28/bank-of-england-doves-threat-highlights-lack-of-accountability/)’, The Wall Street Journal (The Source) [accessed 10 January 2013].
+34. **McNamara, K. (2002)** ‘Rational Fictions: Central Bank Independence and the Social Logic of Delegation’, West European Politics, 25(1), 47-76.
+35. **Meade, E. E. (2005)** ‘The FOMC: Preferences, Voting, and Consensus’, Review – Federal Reserve Bank of St. Louis, 87(2), 93-101.
+36. **Moser, P. (1999)** ‘Checks and balances, and the supply of central bank independence’, European Economic Review, 43(8), 1569-1593.
+37. **Nordhaus, W. D. (1975)** ‘The Political Business Cycle’, The Review of Economic Studies, 42(2), 169-190.
+38. **Organisation for Economic Cooperation and Development (OECD) (2012)** ‘[Main Economic Indicators (Edition: November 2012)](http://dx.doi.org/10.5257/oecd/mei/2012-11)’, OECD [accessed 15 January 2013].
+39. **Rogoff, K. (1985)** ‘The Optimal Degree of Commitment to an Intermediate Monetary Target’, The Quarterly Journal of Economics, 100(4), 1169-1189.
+40. **Schonhardt-Bailey, C. (2005)** ‘Measuring Ideas More Effectively: An Analysis of Bush and Kerry’s National Security Speeches’, PS: Political Science & Politics, 38(4), 701-711.
+41. **Schonhardt-Bailey, C. (2008)** ‘The Congressional Debate on Partial-Birth Abortion: Constitutional Gravitas and Moral Passion’, British Journal of Political Science, 38(3), 383-410.
+42. **Schonhardt-Bailey, C. (2010)** ‘[Problems and solutions in displaying results from Alceste](http://personal.lse.ac.uk/SCHONHAR/)’, [accessed March 2013].
+43. **Schonhardt-Bailey, C. (2012)** ‘Looking at Congressional Committee Decisions from Different Perspectives: Is the Added Effort Worth It?’, conference paper, presented at 5th ESRC Research Methods Festival, St Catherine’s College, Oxford, 2-5 July 2012, 1-39 .
+44. **Schonhardt-Bailey, C., Yager, E. and Lahlou, S. (2012)** ‘Yes, Ronald Reagan’s Rhetoric Was Unique—But Statistically, How Unique?’, Presidential Studies Quarterly, 42(3), 482-513.
+45. **Shepsle, K. A. (2010)** Analyzing politics : rationality, behavior, and institutions, The new institutionalism in American politics series, 2nd ed., New York: W.W. Norton, 15-38.
+46. **Sibert, A. (2003)** ‘Monetary Policy Committees: Individual and Collective Reputations’, The Review of Economic Studies, 70(3), 649-665.
+47. **Simon, H. A. (1957)** Models of man: social and rational: mathematical essays on rational human behavior in a social setting, New York: John Wiley.
+48. **Simon, H. A. (1997)** Administrative behaviour : a study of decision-making processes in administrative organizations, 4th ed., New York: Free Press.
+49. **Thatcher, M. and Sweet, A. S. (2002)** ‘Theory and Practice of Delegation to Non-Majoritarian Institutions’, West European Politics, 25(1), 1-22.
+50. **Tsebelis, G. (1990)** Nested games: rational choice in comparative politics, California series on social choice and political economy, Berkeley: California University Press.
+51. **van der Brug, W., van der EijK, C. and Franklin, M. (2007)** The Economy and the Vote: Economic Conditions and Elections in Fifteen Countries, New York: Cambridge University Press.
+52. **Wildavsky, A. B. (1964)** The politics of the budgetary process, Boston: Little, Brown, 127-144.
 53. **World Bank, (2013)** ‘[GDP growth (annual %)](http://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/countries/1W-GB?display=default)’, World Bank [accessed 15 January 2013].
 
 </div>
 
-[fig-1]: {{ '/assets/images/posts/dissertation-F1.png  "Figure 1"' | prepend: site.baseurl | prepend: site.url }}
-[fig-2]: {{ '/assets/images/posts/dissertation-F2.png  "Figure 2"' | prepend: site.baseurl | prepend: site.url }}
-[fig-3]: {{ '/assets/images/posts/dissertation-F3.png  "Figure 3"' | prepend: site.baseurl | prepend: site.url }}
-[fig-4]: {{ '/assets/images/posts/dissertation-F4.png  "Figure 4"' | prepend: site.baseurl | prepend: site.url }}
-[fig-5]: {{ '/assets/images/posts/dissertation-F5.png  "Figure 5"' | prepend: site.baseurl | prepend: site.url }}
-[fig-6]: {{ '/assets/images/posts/dissertation-F6.png  "Figure 6"' | prepend: site.baseurl | prepend: site.url }}
-[fig-7]: {{ '/assets/images/posts/dissertation-F7.png  "Figure 7"' | prepend: site.baseurl | prepend: site.url }}
-[fig-8]: {{ '/assets/images/posts/dissertation-F8.png  "Figure 8"' | prepend: site.baseurl | prepend: site.url }}
-[fig-9]: {{ '/assets/images/posts/dissertation-F9.png  "Figure 9"' | prepend: site.baseurl | prepend: site.url }}
-[fig-10]: {{ '/assets/images/posts/dissertation-F10.png  "Figure 10"' | prepend: site.baseurl | prepend: site.url }}
-[fig-11]: {{ '/assets/images/posts/dissertation-F11.png  "Figure 11"' | prepend: site.baseurl | prepend: site.url }}
-[fig-12]: {{ '/assets/images/posts/dissertation-F12.png  "Figure 12"' | prepend: site.baseurl | prepend: site.url }}
-[fig-13]: {{ '/assets/images/posts/dissertation-F13.png  "Figure 13"' | prepend: site.baseurl | prepend: site.url }}
-[app-1]: {{ '/assets/images/posts/Dissertation-Appendix-1.png  "Table 5"' | prepend: site.baseurl | prepend: site.url }}
-[app-4]: {{ '/assets/images/posts/Dissertation-Appendix-4.png  "Table 6"' | prepend: site.baseurl | prepend: site.url }}
+[fig-1]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F1.png  "Figure 1"
+[fig-2]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F2.png  "Figure 2"
+[fig-3]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F3.png  "Figure 3"
+[fig-4]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F4.png  "Figure 4"
+[fig-5]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F5.png  "Figure 5"
+[fig-6]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F6.png  "Figure 6"
+[fig-7]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F7.png  "Figure 7"
+[fig-8]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F8.png  "Figure 8"
+[fig-9]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F9.png  "Figure 9"
+[fig-10]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F10.png  "Figure 10"
+[fig-11]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F11.png  "Figure 11"
+[fig-12]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F12.png  "Figure 12"
+[fig-13]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/dissertation-F13.png  "Figure 13"
+[app-1]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/Dissertation-Appendix-1.png  "Table 5"
+[app-4]: https://image.johnpe.art/assets/images/posts/2013/08/23/dissertation/Dissertation-Appendix-4.png  "Table 6"

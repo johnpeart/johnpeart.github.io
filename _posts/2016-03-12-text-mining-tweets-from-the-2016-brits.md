@@ -16,17 +16,17 @@ This time, there were more than 371,149 tweets over approximately 2 &frac12; hou
 
 ![Line graph of all tweets over time][AllTime]
 
-The BRITs started at 20:00; I started recording tweets just before. In the first 10 minutes, the number of tweets went from around 800 every minute to almost 3,000 a minute. 
+The BRITs started at 20:00; I started recording tweets just before. In the first 10 minutes, the number of tweets went from around 800 every minute to almost 3,000 a minute.
 
 There are periodic dips in the number of tweets recorded. Given they're at regular intervals, and that the BRITs were broadcast on ITV, they probably represent the advert breaks; everyone's stopped tweeting and popped off to make a cup of tea.
 
-The most interesting part here is the tweets from 21:38 to 22:03. It's not obvious what's causes this drop off - but it does coincide with roughly the same time that Annie Lennox and Gary Oldman gave their moving tributes to David Bowie. 
+The most interesting part here is the tweets from 21:38 to 22:03. It's not obvious what's causes this drop off - but it does coincide with roughly the same time that Annie Lennox and Gary Oldman gave their moving tributes to David Bowie.
 
 ### Tweets about David Bowie
 
 ![Line graph of David Bowie tweets over time][BowieTime]
 
-Tweets about David Bowie, perhaps unsurprisingly, happened in a flurry, from 21:35 to 22:05. The first peak is likely the point at which Lennox made her tribute, and Bowie received a posthumous award. The following sharp dip in tweets - both about Bowie and in the overall stream - is likely because of an advert break ahead of Gary Oldman introducing a performance by Lorde, in which she covered some of Bowie's greatest hits. 
+Tweets about David Bowie, perhaps unsurprisingly, happened in a flurry, from 21:35 to 22:05. The first peak is likely the point at which Lennox made her tribute, and Bowie received a posthumous award. The following sharp dip in tweets - both about Bowie and in the overall stream - is likely because of an advert break ahead of Gary Oldman introducing a performance by Lorde, in which she covered some of Bowie's greatest hits.
 
 Interestingly, references to Lorde are non-existent in this period. In fact, they stop at 21:05 unexpectedly, after a seemingly inexplicable peak from earlier in the night.
 
@@ -46,11 +46,11 @@ The other nominees are barely mentioned throughout the night. Looking at the tot
 
 ![Line graph of Adele tweets over time][AdeleTime]
 
-Adele was the most referenced person at the BRITs. She also had some pretty stand-out moments on stage two. 
+Adele was the most referenced person at the BRITs. She also had some pretty stand-out moments on stage two.
 
 In her acceptance speech for her first award, she made a [public statement](http://www.vanityfair.com/hollywood/2016/02/adele-kesha-brit-awards) in support of [Kesha](http://www.theguardian.com/music/2016/feb/27/kesha-profile-court-case-dr-luke-sony). It was only a few words, but it caused a spike of discussion about Kesha on Twitter, peaking at 20:09. Oddly, the spike for Adele didn't peak until nearly 5 minutes later.
 
-The other thing that happened on the night was Adele breaking down in tears as she was awarded another award by none other than British astronaut [Tim Peake](https://twitter.com/astro_timpeake). Either something went wrong with Twitter, or the analysis has gone a bit wonky for this though; there's barely even a mention of Tim in this data set. 
+The other thing that happened on the night was Adele breaking down in tears as she was awarded another award by none other than British astronaut [Tim Peake](https://twitter.com/astro_timpeake). Either something went wrong with Twitter, or the analysis has gone a bit wonky for this though; there's barely even a mention of Tim in this data set.
 
 Bear in mind that this is Twitter's streaming API that collected this data; it only provides an average of around 1% of the full number of tweets made at any one moment. So, whilst this data is representative of Twitter as a whole, it's possible that this 1% data set didn't contain anything about Tim Peake by pure chance.
 
@@ -80,7 +80,7 @@ Justin Bieber is the next most highly referenced performer of the night, but eve
 
 ![Word cloud of all tweets][AllWordCloud]
 
-Here's a tweet cloud of the tweets in the data set. The bigger the word, the more it appears in the data set. 
+Here's a tweet cloud of the tweets in the data set. The bigger the word, the more it appears in the data set.
 
 The interesting thing here is that Adele isn't the most referenced act in this cloud, instead, it's One Direction. That's likely because the award for British Artist Video was decided by the number of Twitter mentions, and One Direction won that contest. It could also just be that One Direction have a persistent number of Twitter mentions.
 
@@ -94,14 +94,14 @@ The dendrogram also shows that `@onedirection` being one of the most popular to 
 
 
 
-[AdeleTime]: /assets/images/posts/BRITS2016_AdeleOverTime.png
-[AllTime]: /assets/images/posts/BRITS2016_AllTweetsOverTime.png
-[FemaleMentions]: /assets/images/posts/BRITS2016_BritFemaleMentions.png
-[FemaleTime]: /assets/images/posts/BRITS2016_BritFemaleTweetsOverTime.png
-[MaleMentions]: /assets/images/posts/BRITS2016_BritMaleMentions.png
-[MaleTime]: /assets/images/posts/BRITS2016_BritMaleTweetsOverTime.png
-[BowieTime]: /assets/images/posts/BRITS2016_DavidBowieTweetsOverTime.png
-[AllDendrogram]: /assets/images/posts/BRITS2016_Dendrogram.png
-[PerformersMentions]: /assets/images/posts/BRITS2016_PerfomerMentions.png
-[PerformersTime]: /assets/images/posts/BRITS2016_PerformersTweetsOverTime.png
-[AllWordCloud]: /assets/images/posts/BRITS2016_WordCloud.png
+[AdeleTime]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_AdeleOverTime.png
+[AllTime]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_AllTweetsOverTime.png
+[FemaleMentions]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritFemaleMentions.png
+[FemaleTime]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritFemaleTweetsOverTime.png
+[MaleMentions]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritMaleMentions.png
+[MaleTime]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritMaleTweetsOverTime.png
+[BowieTime]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_DavidBowieTweetsOverTime.png
+[AllDendrogram]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_Dendrogram.png
+[PerformersMentions]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_PerfomerMentions.png
+[PerformersTime]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_PerformersTweetsOverTime.png
+[AllWordCloud]: https://image.johnpe.art/assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_WordCloud.png

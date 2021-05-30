@@ -6,15 +6,15 @@ permalink: /2016/03/07/lunch-demand-management-and-flow/
 category: [services]
 ---
 
-I was in Wasabi last week buying lunch, and I noticed a peculiar phenomenon; everyone was queuing wrong. 
+I was in Wasabi last week buying lunch, and I noticed a peculiar phenomenon; everyone was queuing wrong.
 
 It wasn't their fault. They probably didn't notice it. In fact, it's probably more accurate to say they were *being queued* wrong. They were victims of an invisible decision — and I only noticed it because of [this book](http://www.amazon.co.uk/Whitehall-Effect-Became-Public-Services-ebook/dp/B00P947JU6/) and many conversations with [clever](https://twitter.com/louisedowne) [people](https://www.twitter.com/janethughes) [at](https://www.twitter.com/cjwferguson) [work](https://twitter.com/fitzsimple).
 
 ## Demand and flow.
 
-My local Wasabi has two food service areas — one for cold food and one for hot — and between them is a payment area with 4 tills. These tills are split to serve the different food services; 2 for cold, 2 for hot. 
+My local Wasabi has two food service areas — one for cold food and one for hot — and between them is a payment area with 4 tills. These tills are split to serve the different food services; 2 for cold, 2 for hot.
 
-How the food service works with the tills is an example of poor demand management resulting in poor service. 
+How the food service works with the tills is an example of poor demand management resulting in poor service.
 
 ## Cold food transactions are pretty simple.
 
@@ -31,7 +31,7 @@ A hot food transaction is broken into two parts. Each customer is effectively se
 
 The first part is selecting and being served the food. Hot food is counter-service; the Wasabi hot menu is made of a combination of separate components, and each meal must be served to order.
 
-The second part is paying. To pay, you stay in the same line, but it's a new queue. Your food server queues your food up along the counter and the cashier serves the next available customer. 
+The second part is paying. To pay, you stay in the same line, but it's a new queue. Your food server queues your food up along the counter and the cashier serves the next available customer.
 
 You might assume this is a very efficient way of running the service, and that it gets you served fastest. Practically, it's very slow; customers get disjointed service and find themselves repeating their orders at multiple staff.
 
@@ -53,19 +53,19 @@ The problem with Wasabi's hot food service is that they've optimised each *part*
 
 An optimised counter service is creating an unmanageable backlog at the tills. For Wasabi, the constraint on the speed of service for hot food is not in how fast the food can be put into cardboard containers — it's in how fast the cashiers can process payments.
 
-![***Figure 1:** Only optimising parts of the service creates backlogs and slows down the whole system. Here one staff member serves food, the other takes payments.*](/assets/images/posts/QueuingItWrong.gif "Image: Customers are served faster at the food counter than they are at the tills; this creates a backlog at the tills and slows down service at the food counter.")
+![***Figure 1:** Only optimising parts of the service creates backlogs and slows down the whole system. Here one staff member serves food, the other takes payments.*](https://image.johnpe.art/assets/images/posts/2016/03/07/lunch-demand-management-and-flow/QueuingItWrong.gif "Image: Customers are served faster at the food counter than they are at the tills; this creates a backlog at the tills and slows down service at the food counter.")
 
 A more efficient service would *not* be based on improving the speed of each *part* of the service, but on improving flow and end-to-end service times. By focusing on the whole, you implicitly optimise the parts.
 
 You may be thinking there will be perfectly valid reasons why Wasabi has a division of labour at the counter; health and safety being one.[^1] So let's talk about a coffee, because our major chains have very different ways of serving their customers that illustrate the same problem.
 
-Take Costa and Caffé Nero. The queuing system in Costa (and in Starbucks, for that matter) is almost identical to Wasabi - though the elements are reversed. You queue for the till to pay, then you queue again whilst a different person makes your coffee. 
+Take Costa and Caffé Nero. The queuing system in Costa (and in Starbucks, for that matter) is almost identical to Wasabi - though the elements are reversed. You queue for the till to pay, then you queue again whilst a different person makes your coffee.
 
 Making coffee takes longer than pressing buttons on a till. The result is a backlog at the coffee counter, where the barista (not unreasonably) can't keep up. This is a frustrating experience for me as a customer because I never know where I am in line or whether the latte put down is for me (because the three people in front just ordered the same drink).
 
-Compare that to the experience at Caffé Nero. You're dealt with by one person; they take your order, make it, and take your payment. You still get queues, of course, but the flow of customers is constrained in different ways. 
+Compare that to the experience at Caffé Nero. You're dealt with by one person; they take your order, make it, and take your payment. You still get queues, of course, but the flow of customers is constrained in different ways.
 
-![***Figure 2:** Focussing on flow throughout the system creates better service. Here, two staff serve customers end-to-end, removing the second queue - the service failure.*](/assets/images/posts/QueuingItRight.gif "Image: Customers are served by one member of staff all the way through their transaction. The queue is dealt with faster under the same constraints as before because the service failure (i.e. the second queue) is designed out of the system.")
+![***Figure 2:** Focussing on flow throughout the system creates better service. Here, two staff serve customers end-to-end, removing the second queue - the service failure.*](https://image.johnpe.art/assets/images/posts/2016/03/07/lunch-demand-management-and-flow/QueuingItRight.gif "Image: Customers are served by one member of staff all the way through their transaction. The queue is dealt with faster under the same constraints as before because the service failure (i.e. the second queue) is designed out of the system.")
 
 Customers are dealt with end-to-end. It's every barista's job to manage the whole queue. As a customer not only does it feel better, it feels faster - and that's because it is. There's no need to queue twice and there's no system induced backlog - that service failure has been designed out of the system.
 
@@ -73,9 +73,9 @@ Now, the constraint isn't created by any one part of the service. The constraint
 
 ## Funny, what you learn at lunch time
 
-I know from my time working in front-line services that staff are told to complete tasks as quickly as possible. You aren't told to manage entire transactions from start to finish. 
+I know from my time working in front-line services that staff are told to complete tasks as quickly as possible. You aren't told to manage entire transactions from start to finish.
 
-When you realise that, to the customer, completing a transaction is more important than being passed to the next *part* of the transaction, you begin to see how services can be improved. 
+When you realise that, to the customer, completing a transaction is more important than being passed to the next *part* of the transaction, you begin to see how services can be improved.
 
 When it comes to multi-part transactions, you don't get economies of scale by specialisation; you get backlogs and bottlenecks. So here's some free advice for Wasabi and Costa - optimise your queues for flow, not for speed; it's better for your customers.
 

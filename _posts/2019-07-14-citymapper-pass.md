@@ -13,13 +13,13 @@ Citymapper is a company that started as an app that helped you get from A-to-B a
 
 Citymapper Pass is a subscription to a range of public transport services. You sign up in the app, paying for your first week in advance, and Citymapper send you a branded pre-paid MasterCard in the post which you use in lieu of an Oyster card. They’re apparently also working on a virtual card that would let you pay with your smartphone too, presumably via Apple or Android Pay.
 
-![Citymapper Pass](/assets/images/posts/citymapperpass2.jpg)
+![Citymapper Pass](https://image.johnpe.art/assets/images/posts/2019/07/14/trying-out-citymapper-pass/citymapperpass2.jpg)
 
 ## The offer -- ‘Super’ versus ‘Super Duper’
 
 The Citymapper Pass offers free or discounted access to different modes of transport depending on whether you sign up for the ‘Super Pass’ or ‘Super Duper Pass’
 
-The ‘Super Pass’ is essentially a Transport for London Zone 1 to 2 weekly travel card. This means you can take trains, tubes or buses within Zone 2 at no additional charge from Monday at 00:00 to Sunday at 23:59. Usually, this would cost you £35.10 per week -- but in a clear loss-leading activity, Citymapper charge you only £31.00 a week. 
+The ‘Super Pass’ is essentially a Transport for London Zone 1 to 2 weekly travel card. This means you can take trains, tubes or buses within Zone 2 at no additional charge from Monday at 00:00 to Sunday at 23:59. Usually, this would cost you £35.10 per week -- but in a clear loss-leading activity, Citymapper charge you only £31.00 a week.
 
 The ‘Super Duper Pass’ costs a bit more, at £39.00 per week, and includes the same travel card. It also includes unlimited use of London’s Santander Cycles, and £10.00 per week toward taxi fares.
 
@@ -33,7 +33,7 @@ On the face of it, both of these packages are a pretty good deal. The base packa
 
 ### Auto-renewals
 
-Have you ever had that thing where you get to the barriers at the tube station at 8:00am in the morning, and suddenly *beep beep beep*, **access denied** because you forgot to renew your travel card? Well that’s a thing of the past thanks to the Pass. 
+Have you ever had that thing where you get to the barriers at the tube station at 8:00am in the morning, and suddenly *beep beep beep*, **access denied** because you forgot to renew your travel card? Well that’s a thing of the past thanks to the Pass.
 
 It renews itself every Sunday afternoon, ready for your Monday morning commute. No more standing in line at the top-up machines, or dealing with TfL’s infuriatingly bad Oyster app[^1].
 
@@ -53,19 +53,19 @@ As great as London is, sometimes you don’t want to be in London; or sometimes 
 
 It sounds great, right? Until you realise that they still charge you for the privilege. £2 for each week you pause your account. Why it costs money to have your card dormant is beyond me; and this is obviously worse than just buying a travel card in that if you don’t need your travel card, you just don’t renew it whilst you’re away.
 
-Worse still, if you’re away for a fortnight, not a week, you can pause again but you get charged per week of delay -- not even per pause-period.  
+Worse still, if you’re away for a fortnight, not a week, you can pause again but you get charged per week of delay -- not even per pause-period.
 
 ### No reminder to pause or keep pausing
 
 The benefit of Citymapper Pass auto-renewing is also a curse when you consider that the default is to re-subscribe the next week without warning. That’s because it never reminds you that the deadline to pause or cancel is coming up.
 
-It would be nice if, having seen I’ve paused for a week of holiday, Citymapper would warn me that the pass was about to reactivate, so that I don’t accidentally pay for another week at full price when I don’t need it. 
+It would be nice if, having seen I’ve paused for a week of holiday, Citymapper would warn me that the pass was about to reactivate, so that I don’t accidentally pay for another week at full price when I don’t need it.
 
 ### Delay refunds
 
 TfL services are regularly and routinely delayed; and if they are by more than 15 minutes, you can get a refund. But *how* you get a refund on a delayed service using Citymapper Pass is entirely lost on me -- it appears you just *can’t*![^2]
 
-[^2]: **Update**, 30 August 2019: It seems that CityMapper have updated their guidance on this now. As this is just a pre-paid Mastercard, you add the card to your TfL account in the normal way to process a refund. 
+[^2]: **Update**, 30 August 2019: It seems that CityMapper have updated their guidance on this now. As this is just a pre-paid Mastercard, you add the card to your TfL account in the normal way to process a refund.
 
 It would be nice if this was done automatically, or if it was just clear that you’ll never get it back.
 

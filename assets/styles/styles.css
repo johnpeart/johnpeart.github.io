@@ -486,7 +486,7 @@ details *:last-child { padding-bottom: 0; }
 
 details > div.container { width: calc(100% - (15px * 2)); margin: 0 0 0 30px; padding: 0; }
 
-summary { /* Hide the marker completely. */ list-style-image: none; display: block; position: relative; text-align: left; box-sizing: border-box; padding: 11px 0; border-top: 1px solid #ced4da; }
+summary { /* Hide the marker completely. */ list-style-image: none; display: block; position: relative; text-align: left; box-sizing: border-box; cursor: pointer; padding: 11px 0; border-top: 1px solid #ced4da; }
 
 summary::marker, summary::-webkit-details-marker { display: none; list-style-image: none; content: ''; width: 0; height: 0; }
 
@@ -1540,91 +1540,83 @@ body#images-home details[open] { padding-bottom: 30px; }
 
 body#images-home details[open] > summary { margin-bottom: 7.5px; }
 
-body#images-home summary::before { float: left; }
+body#images-home a.file-button { display: inline-block; border-radius: 7.5px; font-size: 15.4px; line-height: 0.875; }
 
-body#images-home a.file-button, body#images-home button.file-button { display: inline-block; height: 27.5px; width: 27.5px; min-width: unset; min-height: unset; line-height: 27.5px; font-size: 16px; text-decoration: none; vertical-align: middle; background: #e9ecef; color: #1d1d1d; text-align: center; border: 1px solid transparent; border-radius: 10px; margin-inline-start: 5px; }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home a.file-button { font-size: 15.4px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home a.file-button, body#images-home button.file-button { height: 27.5px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home a.file-button { font-size: 15.4px; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home a.file-button, body#images-home button.file-button { height: 27.5px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home a.file-button { font-size: 18.2px; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home a.file-button, body#images-home button.file-button { height: 32.5px; } }
+@media only screen and (min-width: 1200px) { body#images-home a.file-button { font-size: 21px; } }
 
-@media only screen and (min-width: 1200px) { body#images-home a.file-button, body#images-home button.file-button { height: 37.5px; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home a.file-button { line-height: 0.875; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home a.file-button, body#images-home button.file-button { width: 27.5px; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home a.file-button { line-height: 0.875; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home a.file-button, body#images-home button.file-button { width: 27.5px; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home a.file-button { line-height: 0.875; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home a.file-button, body#images-home button.file-button { width: 32.5px; } }
+@media only screen and (min-width: 1200px) { body#images-home a.file-button { line-height: 0.84; } }
 
-@media only screen and (min-width: 1200px) { body#images-home a.file-button, body#images-home button.file-button { width: 37.5px; } }
+body#images-home a.file-button:link, body#images-home a.file-button:visited { padding: 15px; background: #868e96; color: #fafafa; text-decoration: none; }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home a.file-button, body#images-home button.file-button { line-height: 27.5px; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:link, body#images-home a.file-button:visited { background: #ced4da; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home a.file-button, body#images-home button.file-button { line-height: 27.5px; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:link, body#images-home a.file-button:visited { color: #1d1d1d; } }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home a.file-button, body#images-home button.file-button { line-height: 32.5px; } }
+body#images-home a.file-button:hover { background: #009fe3; color: #fafafa; }
 
-@media only screen and (min-width: 1200px) { body#images-home a.file-button, body#images-home button.file-button { line-height: 37.5px; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:hover { background: #009fe3; } }
 
-@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home a.file-button, body#images-home button.file-button { font-size: 16px; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:hover { color: #fafafa; } }
 
-@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home a.file-button, body#images-home button.file-button { font-size: 16px; } }
+body#images-home a.file-button:focus { color: #fafafa; background: #009fe3; outline: 2px #009fe3 solid; border-radius: 0px; }
 
-@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home a.file-button, body#images-home button.file-button { font-size: 20px; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:focus { color: #fafafa; } }
 
-@media only screen and (min-width: 1200px) { body#images-home a.file-button, body#images-home button.file-button { font-size: 24px; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:focus { background: #009fe3; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button, body#images-home button.file-button { background: #343a40; } }
+@media (prefers-color-scheme: dark) { body#images-home a.file-button:focus { outline: 2px #009fe3 solid; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button, body#images-home button.file-button { color: #fafafa; } }
+body#images-home summary.foldername > h3, body#images-home summary.foldername > span.sub-legend { max-width: 90%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-body#images-home a.file-button:link, body#images-home button.file-button:link { background: #e9ecef; color: #1d1d1d; }
+body#images-home summary.file-info { display: block; }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:link, body#images-home button.file-button:link { background: #343a40; } }
+body#images-home summary.file-info span.filename, body#images-home summary.file-info span.filedate { display: block; }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:link, body#images-home button.file-button:link { color: #fafafa; } }
+body#images-home summary.file-info span.filename { font-weight: bold; }
 
-body#images-home a.file-button:visited, body#images-home button.file-button:visited { background: #e9ecef; color: #1d1d1d; }
+body#images-home summary.file-info span.filedate { color: #adb5bd; font-weight: normal; }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:visited, body#images-home button.file-button:visited { background: #343a40; } }
+body#images-home details.file { font-size: 22px; line-height: 1.25; background: #e9ecef; padding: 7.5px; margin-bottom: 15px; border-radius: 15px; }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:visited, body#images-home button.file-button:visited { color: #fafafa; } }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home details.file { font-size: 22px; } }
 
-body#images-home a.file-button:hover, body#images-home button.file-button:hover { background: #009fe3; color: #1d1d1d; }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home details.file { font-size: 22px; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:hover, body#images-home button.file-button:hover { background: #009fe3; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home details.file { font-size: 26px; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:hover, body#images-home button.file-button:hover { color: #fafafa; } }
+@media only screen and (min-width: 1200px) { body#images-home details.file { font-size: 30px; } }
 
-body#images-home a.file-button:focus, body#images-home button.file-button:focus { color: #fafafa; background: #009fe3; outline: 2px #009fe3 solid; border-radius: 0px; }
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#images-home details.file { line-height: 1.25; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:focus, body#images-home button.file-button:focus { color: #fafafa; } }
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#images-home details.file { line-height: 1.25; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:focus, body#images-home button.file-button:focus { background: #009fe3; } }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#images-home details.file { line-height: 1.25; } }
 
-@media (prefers-color-scheme: dark) { body#images-home a.file-button:focus, body#images-home button.file-button:focus { outline: 2px #009fe3 solid; } }
+@media only screen and (min-width: 1200px) { body#images-home details.file { line-height: 1.2; } }
 
-body#images-home a.file-button:active, body#images-home button.file-button:active { text-decoration: none; }
+@media (prefers-color-scheme: dark) { body#images-home details.file { background: #343a40; } }
 
-body#images-home div.file-info { display: block; float: left; }
+body#images-home details.file > summary { border: none; border-radius: 7.5px; padding: 7.5px; }
 
-body#images-home div.file-info span.filename, body#images-home div.file-info span.filedate { display: block; }
+body#images-home details.file > summary::before { text-align: right; }
 
-body#images-home div.file-info span.filename { font-weight: bold; }
+body#images-home details.file > summary:focus, body#images-home details.file > summary:active { outline: none; box-shadow: 0 0 0 2pt #009fe3; }
 
-body#images-home div.file-info span.filedate { color: #adb5bd; font-weight: normal; }
+body#images-home div.file-buttons { position: relative; display: block; width: 100%; }
 
-body#images-home div.file-buttons { display: block; float: right; }
-
-body#images-home ul.files { padding: 0; }
-
-body#images-home li.file { padding: 15px 0; border-top: 1px solid #ced4da; }
-
-@media (prefers-color-scheme: dark) { body#images-home li.file { border-top: 1px solid #495057; } }
-
-body#images-home li.file::after { content: ""; clear: both; display: table; }
+body#images-home div.folder-info { margin-bottom: 15px; }
 
 body#blog-home .colophon { max-width: 750px; }
 

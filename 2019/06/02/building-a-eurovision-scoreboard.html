@@ -5,7 +5,7 @@
 
 	<!--    SITE BUILD INFORMATION    -->
 <!--    Date built:    2021-05-30    -->
-<!--    Time built:    02:06    -->
+<!--    Time built:    14:02    -->
 <!--    Site URL:    https://www.johnpe.art    -->
 <!--    Site base URL:        -->
 
@@ -185,7 +185,7 @@
 
 <p>It looks like this:</p>
 
-<p><img src="/assets/images/posts/eurovision-scoreboard.jpg" alt="" title="The scoreboard" /></p>
+<p><img src="https://image.johnpe.art/assets/images/posts/2019/06/02/building-a-eurovision-scoreboard/eurovision-scoreboard.jpg" alt="" title="The scoreboard" /></p>
 
 <p>To ‘vote’, you filled in a <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwHZqxdzQE5wc5OHp1rHfUU3wWk-ZU2aJqs5EEtsbI-wV23g/viewform">Google Form</a> and gave each country a score on the usual 1 to 12 Eurovision voting scale. The Google Sheet then aggregated the votes and gave an average score for each song.</p>
 
@@ -308,7 +308,7 @@
 <p>In the javascript file, I used some Liquid markup to iterate through each row of <code class="language-plaintext highlighter-rouge">data.csv</code>, to convert any country names into usable variables, and then replace the HTML. What would have been more than 50 lines of code to write then became 4 lines<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">onDataLoaded</span> <span class="o">=</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-	 
+
 	<span class="p">{</span><span class="o">%</span> <span class="k">for</span> <span class="nx">entry</span> <span class="k">in</span> <span class="nx">site</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span> <span class="o">%</span><span class="p">}</span>
 	    <span class="kd">var</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">feed</span><span class="p">.</span><span class="nx">entry</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">entry</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">title</span><span class="p">.</span><span class="nx">$t</span> <span class="o">==</span> <span class="dl">'</span><span class="s1">{{ entry.CellReference }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">content</span><span class="p">.</span><span class="nx">$t</span>
 	    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">entry-{{ entry.Name | remove: " " }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span>
@@ -326,17 +326,17 @@
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">getNewData</span><span class="p">()</span> <span class="p">{</span>
 
 	<span class="nx">setInterval</span><span class="p">(</span>
-		<span class="kd">function</span><span class="p">(){</span> 
-		
+		<span class="kd">function</span><span class="p">(){</span>
+
 			<span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">)</span>
-			
-			<span class="c1">// Output to the console that the data has been checked, </span>
+
+			<span class="c1">// Output to the console that the data has been checked,</span>
 			<span class="c1">// so you know it's working even if there are no changes.</span>
 			<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Updated data</span><span class="dl">"</span><span class="p">);</span>
-			
-		<span class="p">},</span> 
+
+		<span class="p">},</span>
 	<span class="mi">30000</span><span class="p">);</span>
-	
+
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -363,10 +363,10 @@
 
 <span class="kd">function</span> <span class="nx">getNewData</span><span class="p">()</span> <span class="p">{</span>
 	<span class="nx">setInterval</span><span class="p">(</span>
-		<span class="kd">function</span><span class="p">(){</span> 
+		<span class="kd">function</span><span class="p">(){</span>
 			<span class="nx">loadScript</span><span class="p">(</span><span class="dl">"</span><span class="s2">https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&amp;callback=onDataLoaded</span><span class="dl">"</span><span class="p">)</span>
 			<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Updated data</span><span class="dl">"</span><span class="p">);</span>
-		<span class="p">},</span> 
+		<span class="p">},</span>
 	<span class="mi">30000</span><span class="p">);</span>
 <span class="p">}</span>
 
@@ -389,7 +389,7 @@
 
 
 <span class="kd">var</span> <span class="nx">onDataLoaded</span> <span class="o">=</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-	 
+
 	<span class="p">{</span><span class="o">%</span> <span class="k">for</span> <span class="nx">entry</span> <span class="k">in</span> <span class="nx">site</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span> <span class="o">%</span><span class="p">}</span>
 	    <span class="kd">var</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">feed</span><span class="p">.</span><span class="nx">entry</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">entry</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">title</span><span class="p">.</span><span class="nx">$t</span> <span class="o">==</span> <span class="dl">'</span><span class="s1">{{ entry.CellReference }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">content</span><span class="p">.</span><span class="nx">$t</span>
 	    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">entry-{{ entry.Name | remove: " " }}</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="p">{{</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">Name</span> <span class="o">|</span> <span class="na">remove</span><span class="p">:</span> <span class="dl">"</span><span class="s2"> </span><span class="dl">"</span> <span class="p">}}</span>

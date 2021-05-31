@@ -9,7 +9,7 @@ category: [government, data]
 
 > This essay was written as a summative part of my undergraduate studies at the London School of Economics.
 
-In 1997, the ‘Bank of England’ was granted independence and tasked with maintaining price stability in the UK. At the same time, the Bank’s regulatory responsibilities were removed, and the ‘Financial Services Authority’ (‘FSA’) was formed. 
+In 1997, the ‘Bank of England’ was granted independence and tasked with maintaining price stability in the UK. At the same time, the Bank’s regulatory responsibilities were removed, and the ‘Financial Services Authority’ (‘FSA’) was formed.
 
 The ‘Financial Crisis’, prompted changes to the FSA’s powers. The Labour Government granted it extra responsibilities in the Financial Services Act 2010, including a focus on financial stability. Six-months later, a general election and a new ‘Coalition Government’, decided to dissolve the FSA, and replace the old regulatory structure with an entirely new set of bodies (Financial Services Act 2012).
 
@@ -44,7 +44,7 @@ In this instance, the Conservative and Liberal Democrat parties should seek to d
 | Financial Services Act 2012 — Third Reading                           | May 22, 2012 |
 |=======================================|
 | **TABLE 1:** Data sources – transcripts used in Alceste |
-        
+
 I employ automated content analysis, using the Alceste software package, to analyse two sets of transcripts from the UK House of Commons, one prior to the 2010 Act, and another prior to the 2012 Act (Table 1). Speeches are likely to be most representative of actors’ motivations, and provide sufficiently reliable data for analysis. Comparing each set of debates allows us to assess motivations over time and test the hypothesis, which, if accurate, should show rhetoric as a prominent feature throughout the debates.
 
 The exact way that Alceste completes the analysis has been extensively detailed (cf. Bailey & Schonhardt-Bailey, 2008; 2010; Schonhardt-Bailey, 2005, 2008, 2010, 2012; Schonhardt-Bailey et al., 2012) but it can be considered a complete methodology due to the combination of “sophisticated statistical methods” to produce its results (Kronberger & Wagner, 2000:306). Simplistically, the software finds co-occurrences of language from a set of sampling units (‘Initial Contextual Units’ or ICUs; represented here by each change in speaker), based on sentence structure and word use (‘Elementary Contextual Units’ or ‘ECUs’), such that each topic (‘lexical class’) is as statistically unique as possible (ibid). Each ECU and word form, (and any passive variable assigned by the researcher) is assigned a Chi2 value, representing significance (Table 2). Higher value ECUs and word forms are most representative of their classes, and can be considered important in the context of the whole corpus. This is Alceste’s main methodological contribution — it can show which parts of the debate are most significant, and thus which parts are likely to be most influential and representative of actors’ motivations.
@@ -57,7 +57,7 @@ The exact way that Alceste completes the analysis has been extensively detailed 
 | 1% (**)             | less than 10.80 |
 | <1% (***)           | more than 10.80 |
 |=======================================|
-|**TABLE 2:** Chi2 significance tables|                
+|**TABLE 2:** Chi2 significance tables|
 
 ## Findings
 
@@ -67,8 +67,8 @@ The exact way that Alceste completes the analysis has been extensively detailed 
 | Unique words analysed | 1,873        | 5,104          |
 | ICUs                  | 115          | 282            |
 | Classified ECUs       | 889 (81.68%) | 1,132 (65.13%) |
-| Lexical classes       | 4            | 3              |   
-|=======================================|            
+| Lexical classes       | 4            | 3              |
+|=======================================|
 | **TABLE 3:** Basic results |
 
 ![Figure 1][fig-1]
@@ -76,36 +76,36 @@ The exact way that Alceste completes the analysis has been extensively detailed 
 ![Figure 2][fig-2]
 
 Over 100,000 words were analysed across 397 instances of speech; Table 3 shows the basic results. Whilst the 2010 Act corpus is smaller than the 2012 Act, both attain reasonably robust classifications (82% and 65%). Figures 1-2 show the ‘descendant hierarchical classifications’; these map how closely each class is related to another. An analysis of the most significant word forms and ECUs for each class reveals similar topics of discussion running across both corpora. Classes 1, 3, and 4 in the 2010 corpus, broadly equate to Classes 3, 1, and 2 respectively in the 2012 corpus — though the size of each class is quite different. One class — ‘Consumer credit market and financial education’ — is missing from the latter corpus. One likely explanation for this is the significant amount of lobbying and media attention given to financial education during this period (cf. BBC News, 2010). This was absent from the 2012 Act debates. Some characteristic ECUs for this class include:
-                
-> **better** **protect** the **taxpayer**; **importantly**, restore **consumers'** **confidence** in **financial** **services** by **providing** **people** with greater **protection** and **education** […] 
+
+> **better** **protect** the **taxpayer**; **importantly**, restore **consumers'** **confidence** in **financial** **services** by **providing** **people** with greater **protection** and **education** […]
 > ***(2010 corpus, Cl.2)***
 
-> **Citizens** **Advice** **welcomes** the **establishment** of the **consumer** **financial** **education** **body**, saying that it is a **step** change that will **benefit** **consumers** enormously. 
+> **Citizens** **Advice** **welcomes** the **establishment** of the **consumer** **financial** **education** **body**, saying that it is a **step** change that will **benefit** **consumers** enormously.
 > ***(2010 corpus, Cl.2)***
 
 Overall, the class speaks very little to the hypothesis and can be discounted from the analysis. The 2012 corpus sees more focus on how regulation contributed to the Crisis, and how it should be reformed (72% compared to 32%). At the same time, almost one-third less discussion focuses on the details of the legislation. This shows a shift in the kind of debate occurring during these two phases.
 
 The 2010 corpus is far more confrontational from the Conservatives, but based in evidence. Many of the ECUs highlight the 2010 Act as simple rebranding of the existing regulatory framework:
 
-> The **Treasury** **Committee** […] said that the proposals are a “largely **cosmetic** measure”, and that “merely **rebranding** the **tripartite** **standing** **committee** will do **little** in itself”. 
+> The **Treasury** **Committee** […] said that the proposals are a “largely **cosmetic** measure”, and that “merely **rebranding** the **tripartite** **standing** **committee** will do **little** in itself”.
 > ***(Osborne, 2010 corpus)***
 
-> […] **Jacques** **De** **Larosiare** has **said** **explicitly** about the Conservative proposals — that he supports them. The Bundesbank in Germany is now taking **control** of **prudential** **regulation** of **banking**, and the Belgian **Central** **Bank** is doing the same. 
+> […] **Jacques** **De** **Larosiare** has **said** **explicitly** about the Conservative proposals — that he supports them. The Bundesbank in Germany is now taking **control** of **prudential** **regulation** of **banking**, and the Belgian **Central** **Bank** is doing the same.
 > ***(Osborne, 2010 corpus)***
 
-> If **countries** all **over** the **world** are **learning** the **lesson** that **central** **banks** have to be deeply **involved** in **prudential** **supervision**, we should **learn** it in the **United** **Kingdom**. 
+> If **countries** all **over** the **world** are **learning** the **lesson** that **central** **banks** have to be deeply **involved** in **prudential** **supervision**, we should **learn** it in the **United** **Kingdom**.
 > ***(Osborne, 2010 corpus)***
 
 The language in this class is clearly and deliberately partisan, but it is also mostly based in fact and evidence. It highlights the Labour Government’s refusal to accept the new orthodoxy, but focus is on institutional, not political failure. This seems to support the critical junctures thesis — a paradigm shift has occurred in the debate and the focus is on policy failure.
 
 This type of argumentation disappears in the 2012 corpus and is replaced by rhetoric highlighting Labour’s incompetence. This is exhibited in the ‘Parliamentary language and rhetoric’ class. Much of this class can be safely discounted from the analysis; it is dominated by language unique to the style of debate in the UK Parliament:
 
-> It is a **pleasure** to **follow** the eloquent **contribution** of the **Hon.** **Member** for **Leeds** **East** (Mr. **Mudie**). He declared to the **house** that he had dropped his **speech**, but I do not think that anyone noticed. 
+> It is a **pleasure** to **follow** the eloquent **contribution** of the **Hon.** **Member** for **Leeds** **East** (Mr. **Mudie**). He declared to the **house** that he had dropped his **speech**, but I do not think that anyone noticed.
 > ***(2012 corpus, Cl.2)***
 
 The remainder of the 2012 corpus sees members mocking the Labour Party over claims that they eradicated ‘boom-and-bust’ economics. These only attain high significance in this corpus, and are clearly aimed at discrediting the opposition Labour Party.
 
-> Will the **Chancellor** **assure** the **House** and the country that he will never display the sort of complacency so aptly **demonstrated** by the **Right** **Hon.** **Member** for **Kirkcaldy** and **Cowdenbeath** (Mr. **Brown**), who **said** in 2007 that we were entering a **golden** **age** of prosperity in the **City** of **London**? 
+> Will the **Chancellor** **assure** the **House** and the country that he will never display the sort of complacency so aptly **demonstrated** by the **Right** **Hon.** **Member** for **Kirkcaldy** and **Cowdenbeath** (Mr. **Brown**), who **said** in 2007 that we were entering a **golden** **age** of prosperity in the **City** of **London**?
 > ***(2012 corpus, Cl.2)***
 
 These comments come from back-bench MPs, and government ministers alike. Moreover, these are the most significant ECUs in this class — at the 1% level; they are prominent and important to the context of the debates as a whole. This is certainly an indication that the coalition parties — but in particular the Conservatives — sought to use the 2012 Act as a way of further ridiculing the previous government’s economic record. Very few ECUs touch on institutional and policy failure as the impetus for reform; the most significant parts of the discussion are focused purely on the record of the previous government.
@@ -117,13 +117,13 @@ Factor analysis reveals the links between each actor and the classes. Figure 3 r
 In both corpora, Conservative party members dominate the ‘Parliamentary language and rhetoric’ classes, where the Labour and Liberal Democrat parties are most closely associated with the substantive details of the legislation. Of note is the position of the Chancellor (and Shadow Chancellor) in both debates; George Osborne and Alistair Darling occupy similar semantic space (debating the technicalities of the legislation) in the 2010 corpus, but George Osborne and Ed Balls in the second corpus are very distinctly different. Again we see that in the earlier debates, the Conservatives took a stance that was mostly based on evidence (Class #3), later switching to a position of rhetoric (Class #2). The Liberal Democrats remain very distinct from their coalition partner during both corpora, suggesting that there may be a difference of opinion between them. This would certainly be consistent with their manifestos, in which only the Conservatives offer substantive policy suggestions (Conservative Party, 2010; Liberal Democrat Party, 2010). There seems to be a consistent attempt to ‘win the arguments’ against the FSA by the Conservative Party, and this continues throughout the two sets of legislation. However, the evidence shows a stark difference in the substantive content of those arguments. The 2010 corpus exposes predominantly academic arguments, whereas the 2012 corpus shows a shift towards rhetoric. Both are clearly targeted at exposing the inadequacy of the existing framework, but play against the critical junctures thesis.
 
 If the critical junctures theory is correct in positing a cycle of policy failure, paradigm shift and emulation, then it seemingly doesn’t apply in the case of the FSA. If it did apply, we would expect to see consistent, policy-failure-based argument against the FSA, and that this argument be more prevalent in the later corpus, when the Conservatives, as the proponents of the policy, would need to most strongly make their case to gain the support of their coalition partners. Instead, we see simple rhetoric and arguments of political failure. There is no paradigm shift apparent in this latter corpus; and no policy failure to spark it. Instead, we see party politics taking centre stage in the Parliamentary debates.
-                
+
 ![Figure 3][fig-3]
 
 ![Figure 4][fig-4]
-                
+
 ## Conclusion
-                
+
 This paper set out to explore the reasons for the dissolution of the FSA in the Financial Services Act 2012. The results from the content analysis seem to support a hypothesis of partisan politics as the driving force behind this decision, with academic argument giving way to rhetoric and opportunistic ‘point-scoring’. The critical junctures thesis proves insufficient for explaining the proliferation of the 2012 Act. Where the critical junctures thesis relies on policy failure as a necessary condition for paradigm shift, no such policy failure occurs consistently throughout both legislative cases highlighted here. Instead, it is likely the electoral pay-offs play a large part in decision to disband the FSA; it acts as tool to highlight the inadequacy of the previous government’s economic policy. Future research may wish to look at these motivations in more detail.
 
 The implications of these findings may be significant. If parties engage in wide-scale regulatory reform on a regular basis, this has the potential to create uncertainty in markets — something that would act against the long-term interests of economic growth and prosperity. Moreover, if the driver of policy arguments in these areas is not academic, but rhetorical, then there is a risk those optimal institutional arrangements are thrown aside in favour of sub-optimal solutions purely to allow governing parties to ‘make a point’.
@@ -167,7 +167,7 @@ Of course, this data set is limited, and a wider view of the debate around these
 
 </div>
 
-[fig-1]: /assets/images/posts/GV227-FIGURE-1.png "Figure 1"
-[fig-2]: /assets/images/posts/GV227-FIGURE-2.png "Figure 2"
-[fig-3]: /assets/images/posts/GV227-FIGURE-3.png "Figure 3"
-[fig-4]: /assets/images/posts/GV227-FIGURE-4.png "Figure 4"
+[fig-1]: https://image.johnpe.art/assets/images/posts/2013/06/01/what-factors-explain-the-decision-to-dissolve-the-financial-services-authority/GV227-FIGURE-1.png "Figure 1"
+[fig-2]: https://image.johnpe.art/assets/images/posts/2013/06/01/what-factors-explain-the-decision-to-dissolve-the-financial-services-authority/GV227-FIGURE-2.png "Figure 2"
+[fig-3]: https://image.johnpe.art/assets/images/posts/2013/06/01/what-factors-explain-the-decision-to-dissolve-the-financial-services-authority/GV227-FIGURE-3.png "Figure 3"
+[fig-4]: https://image.johnpe.art/assets/images/posts/2013/06/01/what-factors-explain-the-decision-to-dissolve-the-financial-services-authority/GV227-FIGURE-4.png "Figure 4"

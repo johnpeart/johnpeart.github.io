@@ -15,11 +15,11 @@ A Twitterbot (sometimes 'Twitter Bot', or simply 'Bot') is a bit of code that au
 
 A good friend recently came up with a cracking idea for a Twitter Bot:
 
-<blockquote class="twitter-tweet" align="center" data-lang="en"><p lang="en" dir="ltr">I want a bot that will reply &quot;it&#39;s you&quot; whenever someone tweets &quot;is it me or&quot;</p><p>&mdash; Jim Dickinson (@jim_dickinson) <a href="https://twitter.com/jim_dickinson/status/819973617043828736">January 13, 2017</a></p></blockquote> 
+<blockquote class="twitter-tweet" align="center" data-lang="en"><p lang="en" dir="ltr">I want a bot that will reply &quot;it&#39;s you&quot; whenever someone tweets &quot;is it me or&quot;</p><p>&mdash; Jim Dickinson (@jim_dickinson) <a href="https://twitter.com/jim_dickinson/status/819973617043828736">January 13, 2017</a></p></blockquote>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And another good friend reckoned I could make that very Twitterbot. He was wrong - for a total of approximately 3 days. 
+And another good friend reckoned I could make that very Twitterbot. He was wrong - for a total of approximately 3 days.
 
 I spent the past Saturday creating it: knowing not a single thing about how to go about it. But thanks to some failed attempts at Python, a quick brush up on rudimentary Ruby, a Twitter gem, and some free cloud infrastructure, I created [@IsItMeBot](https://twitter.com/isitmebot).
 
@@ -49,15 +49,15 @@ To access the Twitter API, you need a consumer key, consumer secret, access toke
 
 Clicking 'Create New App' takes you to a short form where you give your app a name, a description, a website to link back to and a callback URL. The callback URL isn't necessary for this bot, so I left it blank, ticked the box to accept the conditions and submitted the form.
 
-![](/assets/images/posts/createnewapp.png)
+![](https://image.johnpe.art/assets/images/posts/2017/01/16/its-you-twitter-bot/createnewapp.png)
 
 Now the app is created, the keys, tokens and secrets can be found in the 'Keys and Access Tokens' screen. They'll look something like: `rhIWCXREwLu0RswdLttqpXjAH`. (*Don't worry, that one isn't real*)
 
 ### Prepare your hosting environment
 
-With the Twitter account created and API keys generated, I needed to create somewhere to put my bot once it was created. 
+With the Twitter account created and API keys generated, I needed to create somewhere to put my bot once it was created.
 
-Heroku is a Platform as a Service. It's free for small projects like this one. 
+Heroku is a Platform as a Service. It's free for small projects like this one.
 
 I created a new app using the web interface (you can also use `heroku create` in the Terminal when you're in the project folder, but I prefer the website). I gave it a name (all in lower case) and choose a runtime region. I went for Europe, because it's closer to me.
 
@@ -85,7 +85,7 @@ This tells the computer to link this folder to a specific app on Heroku.
 
 This is a simple bot, but Ruby apps on Heroku need a few files to always be there to get things working.
 
-First, I created a `Gemfile`. This tells the app which Ruby gems to install when the app is building and where they come from. 
+First, I created a `Gemfile`. This tells the app which Ruby gems to install when the app is building and where they come from.
 
 ```ruby
 source 'https://rubygems.org'
@@ -148,7 +148,7 @@ This adds all files in the directory to the git repository
 $ git commit -am "a comment about what I did here"
 ```
 
-This commits any changes to the code. 
+This commits any changes to the code.
 
 ```
 $ git push heroku master

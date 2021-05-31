@@ -13,7 +13,7 @@ Back in 2019, when we were allowed to see people in real life and have fun, I co
 Hours before the party, I had a bright idea to hack together a [digital scoreboard](/2019/06/02/building-a-eurovision-scoreboard) for the event. The scoreboard took votes from a Google Form. It allowed my guests – and dozens of others across the country, in fact – to vote for their favourite entries and see the will of the people in near real time.
 
 {% include figure.html
-url="/posts/eurovision-scoreboard.jpg" alt="A screenshot of my 2019 Eurovision Scoreboard." figure="1" caption="This is what the 2019 version of my Eurovision scoreboard looked like" %}
+url="https://image.johnpe.art/assets/images/posts/2019/06/02/building-a-eurovision-scoreboard/eurovision-scoreboard.jpg" alt="A screenshot of my 2019 Eurovision Scoreboard." figure="1" caption="This is what the 2019 version of my Eurovision scoreboard looked like" %}
 
 At my gathering, I had it set up on a TV in my living room. Every 30 seconds it pinged out to Google to get the total score, and then did some maths to round it to the classic 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 Eurovision points scale.
 
@@ -26,7 +26,7 @@ These were things I had started to build out during my [all-digital Eurovision h
 For 2021, my digital scoreboard has had some upgrades. It's been totally rebuilt and given a facelift inspired by this year's “[Open Up](https://eurovision.tv/theme)” branding.
 
 {% include figure.html
-url="/posts/eurovision-scoreboard-2021.png" alt="A screenshot of my 2021 Eurovision Scoreboard." figure="2" caption="This is what the new  scoreboard looks like" linktext="I call it Euroboard" link="https://www.johnpe.art/euroboard" %}
+url="https://image.johnpe.art/assets/images/posts/2021/05/11/eurovision-scoreboard/eurovision-scoreboard-2021.png" alt="A screenshot of my 2021 Eurovision Scoreboard." figure="2" caption="This is what the new  scoreboard looks like" linktext="I call it Euroboard" link="https://www.johnpe.art/euroboard" %}
 
 I'll update this blogpost with how it was built later this month. For now, let me tell you a bit about what it can do!
 

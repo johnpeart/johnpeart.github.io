@@ -7,7 +7,7 @@ permalink: /2018/02/04/theme-hosptial-gender-equality
 category: [diversity, digital]
 ---
 
-Twenty year’s ago this month, [Theme Hospital](https://en.wikipedia.org/wiki/Theme_Hospital) was released in Europe on the PlayStation[^1]. After two decades, the game still has a special place in the hearts of many. I recently started playing it again, prompted by news that [the original game’s developers were reviving the classic](https://www.twopointhospital.com). 
+Twenty year’s ago this month, [Theme Hospital](https://en.wikipedia.org/wiki/Theme_Hospital) was released in Europe on the PlayStation[^1]. After two decades, the game still has a special place in the hearts of many. I recently started playing it again, prompted by news that [the original game’s developers were reviving the classic](https://www.twopointhospital.com).
 
 As I sat building rooms, curing cases of “Bloaty Head”, and hiring staff, I noticed something: Theme Hospital isn’t *just* a hospital management simulator. **It’s a lesson in gender politics.**
 
@@ -22,19 +22,19 @@ The tutorial for Theme Hospital is brief, and there are only 4 steps to it:
 
 The gender stereotyping starts at step 2 of that process, where the only receptionists you can hire are women.
 
-![](/assets/images/posts/theme-hospital-receptionist.png)
+![](https://image.johnpe.art/assets/images/posts/2018/02/04/theme-hosptial-gender-equality/theme-hospital-receptionist.png)
 
 **It is not possible to hire a receptionist that is a man.** They are always white women. Always the same, blonde, white woman.
 
 Now you might be thinking what I thought. This a game from 1997; maybe there just wasn’t enough disk space to be able to create alternate receptionist character sprites. The only voiceovers in the game are women too. But then I noticed the doctors: **all the doctors in Theme Hospital are men.**
 
-![](/assets/images/posts/theme-hospital-doctors.png)
+![](https://image.johnpe.art/assets/images/posts/2018/02/04/theme-hosptial-gender-equality/theme-hospital-doctors.png)
 
 The doctors have lots of character sprites. They’re young and old, black and white, and beardy, hairy or bald. Even the ‘assistant’ — who is a man — is clearly a doctor.
 
-![](/assets/images/posts/theme-hospital-assistant.png)
+![](https://image.johnpe.art/assets/images/posts/2018/02/04/theme-hosptial-gender-equality/theme-hospital-assistant.png)
 
-When you get a little further into the first level, you start hiring nurses and caretakers. **Nurses are women, caretakers are men.** 
+When you get a little further into the first level, you start hiring nurses and caretakers. **Nurses are women, caretakers are men.**
 
 There’s ethnic and age diversity amongst the nurses too, but they are only ever of one gender. The caretakers, similarly to the receptionists, are always the same homogenous, older men.
 
@@ -46,7 +46,7 @@ Despite its success, Theme Hospital probably didn’t shape anyone’s entire pe
 
 A little way into Theme Hospital and the game mechanics slowly get more complex. Not only do you have to hire more people to make your hospital run effectively, but you also need to retain them — before they all apparently run off to be game developers for better money.
 
-![](/assets/images/posts/theme-hospital-paygap.png)
+![](https://image.johnpe.art/assets/images/posts/2018/02/04/theme-hosptial-gender-equality/theme-hospital-paygap.png)
 
 Doctors, nurses and caretakers all demand wage increases as their skills increase or their environment worsens: just like in real life. And just like in real life, men are more likely to ask for bigger pay rises and start from a higher base. **This is the gender pay gap in action, in a 1998 video game.**
 

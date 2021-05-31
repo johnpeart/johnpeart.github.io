@@ -8,7 +8,7 @@ permalink: /2018/01/23/collective-word-for-the-gay-community
 category: [diversity, LGBT, data]
 ---
 
-There are a lot of collective terms[^1] used to describe people with minority sexual orientations and gender identities. If people are familiar with any terms at all, I would guess most people know about the acronym **LGBT** — which stands for ‘lesbian, gay, bisexual and transgender’. 
+There are a lot of collective terms[^1] used to describe people with minority sexual orientations and gender identities. If people are familiar with any terms at all, I would guess most people know about the acronym **LGBT** — which stands for ‘lesbian, gay, bisexual and transgender’.
 
 Sometimes you also see variants on that acronym. **LGBTI**, with the **I** meaning ‘intersex’; **LGBTQ** where **Q** means ‘queer’ or ‘questioning’. Sometimes people add a **plus** or a **star** to denote those who don’t use one of those labels but, nonetheless, aren’t straight or cisgendered. Some people just opt for ‘queer’ to avoid acronyms entirely. These acronyms are usually followed up by the word “community”.
 
@@ -18,11 +18,11 @@ Whatever way you choose to describe the collective, it’s a subject of fierce d
 
 ## A term that reflects the language we use
 
-The language we use choose when talking about SOGIE minorities reflects our own identities. I identify as gay; so I use that label, and I use the label LGBT because it represents me. I don’t identify as queer and I rarely, if ever, would use the term “queer communities”. 
+The language we use choose when talking about SOGIE minorities reflects our own identities. I identify as gay; so I use that label, and I use the label LGBT because it represents me. I don’t identify as queer and I rarely, if ever, would use the term “queer communities”.
 
 Our language choices also reflect how we understand what we’re describing. Lots of people don’t know what being ‘two-spirited’ means, so they probably don’t use **LGBTQ2S** as their acronym; but they might know to say a two-spirit person is LGBT.
 
-**This implies there is a common denominator to our use of language in relation to SOGIE minorities.** If that’s a correct assumption, it should be observable; and what we observe, whilst not right for everyone all the time, should be the right term for most people, most of the time. 
+**This implies there is a common denominator to our use of language in relation to SOGIE minorities.** If that’s a correct assumption, it should be observable; and what we observe, whilst not right for everyone all the time, should be the right term for most people, most of the time.
 
 ## Ngrams and search terms
 
@@ -39,13 +39,13 @@ Using these two sources, I’ve looked for the terms `LGBT`, `LGBTQ`, `LGBTI`, `
 
 At the time of writing, Google’s Ngram Viewer covers books printed between 1800 and 2008. The chart below shows the frequencies of the search terms across all books in Google’s corpus, as a percentage of all words in the corpus.
 
-{% include figure.html   
-	url="/posts/ngram-viewer-lgbt-queer.png" 
+{% include figure.html
+	url="https://image.johnpe.art/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/ngram-viewer-lgbt-queer.png"
 	alt="Chart showing counts of search terms. Queer is by far the most popular term from 1800 through 2008."
-	figure="1" 
+	figure="1"
 	caption="Ngram frequencies of the terms LGBT, LGBTI, LGBTQ, Queer and SOGI"
-	linktext="Interactive chart" 
-	link="https://books.google.com/ngrams/interactive_chart?content=Queer%2CLGBT%2CLGBTI%2CLGBTQ%2CSOGI&year_start=1800&year_end=2000&corpus=15&smoothing=2&share=&direct_url=t1%3B%2CQueer%3B%2Cc0%3B.t1%3B%2CLGBT%3B%2Cc0%3B.t1%3B%2CLGBTI%3B%2Cc0%3B.t1%3B%2CLGBTQ%3B%2Cc0%3B.t1%3B%2CSOGI%3B%2Cc0" 
+	linktext="Interactive chart"
+	link="https://books.google.com/ngrams/interactive_chart?content=Queer%2CLGBT%2CLGBTI%2CLGBTQ%2CSOGI&year_start=1800&year_end=2000&corpus=15&smoothing=2&share=&direct_url=t1%3B%2CQueer%3B%2Cc0%3B.t1%3B%2CLGBT%3B%2Cc0%3B.t1%3B%2CLGBTI%3B%2Cc0%3B.t1%3B%2CLGBTQ%3B%2Cc0%3B.t1%3B%2CSOGI%3B%2Cc0"
 %}
 
 ### 1. ‘Queer’ is clearly the most popular
@@ -64,17 +64,17 @@ If you were basing a choice purely on the books people printed since 1800 in som
 
 ## What Google Trends shows
 
-Google’s Trends tool allows us to look at search term data since 2004. Whilst this isn’t all the way back to the start of the Google search engine, it’s pretty close. 
+Google’s Trends tool allows us to look at search term data since 2004. Whilst this isn’t all the way back to the start of the Google search engine, it’s pretty close.
 
-The graph below shows, from 2004 to present, the relative popularity of terms people actually used when searching on Google. 
+The graph below shows, from 2004 to present, the relative popularity of terms people actually used when searching on Google.
 
-{% include figure.html   
-	url="/posts/google-trends-lgbt-queer.png" 
+{% include figure.html
+	url="https://image.johnpe.art/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-lgbt-queer.png"
 	alt="Chart showing relative popularity of search terms. Queer is declining in popularity, as LGBT gains."
 	figure="2"
 	caption="Relative popularity of the search terms LGBT, LGBTI, LGBTQ, Queer and SOGI"
 	linktext="Interactive charts"
-	link="https://trends.google.co.uk/trends/explore?date=all&q=LGBT,LGBTI,LGBTQ,Queer,SOGI" 
+	link="https://trends.google.co.uk/trends/explore?date=all&q=LGBT,LGBTI,LGBTQ,Queer,SOGI"
 %}
 
 ### 1. LGBT is currently the most popular search term
@@ -91,15 +91,15 @@ Unlike the Ngram corpus, `SOGI` very rarely appears as a term. This likely speak
 
 ### 4. The use of language varies between countries
 
-As you might expect, the most popular terms in different countries are, well, different. Canada, Mexico and mainland Europe tend to search for `Queer` whereas the US and UK tend to search for `LGBT`. 
+As you might expect, the most popular terms in different countries are, well, different. Canada, Mexico and mainland Europe tend to search for `Queer` whereas the US and UK tend to search for `LGBT`.
 
-{% include figure.html   
-	url="/posts/google-trends-world-lgbt-queer.png" 
+{% include figure.html
+	url="https://image.johnpe.art/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-world-lgbt-queer.png"
 	alt="Chart showing most popular search terms by country."
 	figure="3"
 	caption="Most popular search terms by country"
 	linktext="Interactive charts"
-	link="https://trends.google.co.uk/trends/explore?date=all&q=LGBT,LGBTI,LGBTQ,Queer,SOGI" 
+	link="https://trends.google.co.uk/trends/explore?date=all&q=LGBT,LGBTI,LGBTQ,Queer,SOGI"
 %}
 
 Broadly speaking, if you look just at the UK’s data, it mirror the global trends for language use overall; though the use of `Queer` is less common than it is worldwide.
@@ -110,13 +110,13 @@ Broadly speaking, if you look just at the UK’s data, it mirror the global tren
 
 ## So what’s the answer?
 
-As with all things in life, it appears the answer is “it depends”. If you’re going strictly by the numbers, it would appear that `Queer` is the most popular global term to refer to SOGIE minority communities. But those figures are skewed in two important ways. 
+As with all things in life, it appears the answer is “it depends”. If you’re going strictly by the numbers, it would appear that `Queer` is the most popular global term to refer to SOGIE minority communities. But those figures are skewed in two important ways.
 
 Firstly, there are unknown numbers of erroneous occurances of the word `Queer` in the data - like where ‘queer’ means something else in the context it appears, or because of ‘Queer as Folk’. It’s entirely possible that `Queer` was never the most popular term, it just appears most frequently in a different context.
 
 Secondly, and seemingly too obviously: not many people get to publish books. If you judge the content of books as representative of everyday language — whenever they were published — you’re probably wrong. More weight should arguably be given to search terms now, than to word counts from books. That’s because they represent what people actually *say* — or, more accurately, *type* — to Google.
 
-The question of balancing these competing sets of data then comes down to your own judgment. In my view search data represents a broader base of language; `Queer` has, on those terms, had its day. 
+The question of balancing these competing sets of data then comes down to your own judgment. In my view search data represents a broader base of language; `Queer` has, on those terms, had its day.
 
 **So, what do you call a collective of lesbian, gay, bisexual and transgender people?** The answer, according to Google, is “LGBT” people.
 

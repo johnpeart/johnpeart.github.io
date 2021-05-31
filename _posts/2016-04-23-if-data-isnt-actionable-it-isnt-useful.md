@@ -6,13 +6,13 @@ permalink: /2016/04/23/actionable-data
 category: [data]
 ---
 
-In case you haven't heard: the world runs on data. 
+In case you haven't heard: the world runs on data.
 
-Government loves data. Departments are swimming in it. 
+Government loves data. Departments are swimming in it.
 
 Policy data. Operational data. Delivery data. Demographic data.
 
-Put enough civil servants on a problem and, much like [Shakespeare-writing monkeys](https://en.m.wikipedia.org/wiki/Infinite_monkey_theorem), eventually they'll start making spreadsheets. Inevitably, that spreadsheet will probably reach a boardroom. 
+Put enough civil servants on a problem and, much like [Shakespeare-writing monkeys](https://en.m.wikipedia.org/wiki/Infinite_monkey_theorem), eventually they'll start making spreadsheets. Inevitably, that spreadsheet will probably reach a boardroom.
 
 Trackers, dashboards, reports; they go by many names. They have one thing in common: they're mostly useless because they're not actionable.
 
@@ -24,7 +24,7 @@ Here are some ideas for making management information better:
 
 ## Show progress and a trend
 
-Actionable management data enables you to see where you are, and where you're going. There are a lot of ways to show this; most of them are numerical, involving percentages and ratios. 
+Actionable management data enables you to see where you are, and where you're going. There are a lot of ways to show this; most of them are numerical, involving percentages and ratios.
 
 The point is that your data should allow you to compare the current state of today's delivery against the expected end result. That's useful because you know where you are in a journey and how far you've got to go.
 
@@ -32,30 +32,30 @@ Useful data needs to be relative if it's useful for decision making; you don't j
 
 Data should look less like this:
 
-![](/assets/images/posts/actionable-data-1.jpg)
+![](https://image.johnpe.art/assets/images/posts/2016/04/23/actionable-data/actionable-data-1.jpg)
 
 And more like this:
 
-![](/assets/images/posts/actionable-data-2.jpg)
+![](https://image.johnpe.art/assets/images/posts/2016/04/23/actionable-data/actionable-data-2.jpg)
 
 
 ## Be immediately understandable
 
 Data should be comprehensible at a glance. Anything that obscures your understanding will obscure your decision making process.
 
-RAG ratings are the enemy of decision making. 
+RAG ratings are the enemy of decision making.
 
-![](/assets/images/posts/actionable-data-3.jpg)
+![](https://image.johnpe.art/assets/images/posts/2016/04/23/actionable-data/actionable-data-3.jpg)
 
 You might be thinking, "*but everyone uses RAG ratings*", and they do but ask yourself this: what's the quantifiable difference between **amber** and **amber / green**?
 
 There isn't one; or at least it's different to everyone you ask. That's because the distinctions are completely arbitrary - they're colours, not metrics.
 
-If you need a key to understand your data, you blew it. 
+If you need a key to understand your data, you blew it.
 
 ## Show context
 
-Numbers need to be contextual to show where action is required. Don't present numbers in absence of information needed to make it meaningful. 
+Numbers need to be contextual to show where action is required. Don't present numbers in absence of information needed to make it meaningful.
 
 If you're generating sales, show your sales relative to the potential sales.
 

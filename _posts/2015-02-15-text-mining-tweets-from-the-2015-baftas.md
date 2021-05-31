@@ -29,44 +29,44 @@ So what did I find?
 
 ### Tweets about Best Actor nominees
 
-<img src="/assets/images/posts/baftas-BestActorVolume.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-BestActorVolume.png" class="img-responsive" />
 The graph above shows the number of tweets that include the surname of the Best Actor nominees.
 
 If Twitter is a barometer of the popularity of silver screen stars, then it seems Eddie Redmayne was the darling of the evening; and he, of course, bagged the prize for Best Actor. Perhaps most surprising is the disparity between tweets mentioning Redmayne and Cumberbatch, and the rest of the field. Equally surprising perhaps, is that Benedict Cumberbatch &#8211; and indeed the Imitation Game, for which he was nominated &#8211; didn&#8217;t walk away with any awards.
 
-<img src="/assets/images/posts/baftas-BestActor.png" class="img-responsive"/>
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-BestActor.png" class="img-responsive"/>
 Looking at the time series data, it&#8217;s easy to spot the time that Redmayne picked up his award for Best Actor. Around half of all tweets captured at 22:31 mentioned Eddie Redmayne).
 
 However, if you were going to place bets, based on all the tweets leading up to 22:21, you&#8217;d have thought Cumberbatch was a shoe in for the award. He was certainly more popular on Twitter up until that point.
 
 ### Tweets about Best Actress nominees
 
-<img src="/assets/images/posts/baftas-BestActressVolume.png" class="img-responsive"/>
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-BestActressVolume.png" class="img-responsive"/>
 It seems the Best Actor nominees stole the show entirely too. Of all the tweets mentioning Best Actress nominees, Julianne Moore comes out on top &#8211; unsurprisingly, given that she won the Best Actress category. However, Moore didn&#8217;t get even a quarter of the mentions of Eddie Redmayne did.
 
 Unconscious bias on the part of BAFTA tweeters? Perhaps. But it&#8217;s equally likely that the films these leading actresses were in just weren&#8217;t as popular this year (I hadn&#8217;t even heard of *Still Alice* before the BAFTAs!).
 
-<img src="/assets/images/posts/baftas-BestActress.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-BestActress.png" class="img-responsive" />
 Throughout the whole night, the tweets about these leading women were far lower than those of Best Actor nominees. Based on the spikes earlier in the night though, again, you might have expected Felicity Jones to have walked away with the award. Twitter spikes are certainly proving to be incredibly misleading!
 
 ### Tweets about Best Film nominees
 
-<img src="/assets/images/posts/baftas-BestFilmVolume.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-BestFilmVolume.png" class="img-responsive" />
 Boyhood walked away with the BAFTA for Best Film, but The Theory of Everything was the most talked about of the Best Film nominees.
 
 The interesting thing about these results is that, whilst Benedict Cumberbatch was a popular topic of discussion on Twitter, the film he starred in was not. Perhaps that says it all about why it walked away without one of the famous mask trophies to its name.
 
-<img src="/assets/images/posts/baftas-BestFilm.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-BestFilm.png" class="img-responsive" />
 Of course, films are generally referenced across many categories at the BAFTAs, with the exception of the Imitation Game, each of the Best Film nominees walked away with at least one award. That likely explains the spikes as we look across the time series data.
 
 ## Most frequent terms
 
 ### Frequent Terms in tweets with #EEBAFTAs
 
-<img src="/assets/images/posts/baftas-MostFreqTerms.png" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-MostFreqTerms.png" />
 When you think about the BAFTAs, or for-that-matter, the Oscars and Golden Globes, what are the things you think about?
 
-- The red carpet? *Check*.  
+- The red carpet? *Check*.
 - Who won the awards? *Check*.
 
 Twitter data seems to back up both your hunches. The most frequently used terms in the tweets from the evening are shown in the graph above.
@@ -75,19 +75,19 @@ Aside from the most popular actor of the evening &#8211; Eddie Redmayne &#8211; 
 
 ### Frequent Terms in Best Actor tweets
 
-<img src="/assets/images/posts/baftas-TermsBestActor.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-TermsBestActor.png" class="img-responsive" />
 It seems Stephen Hawking was, in fact, the main reason for `stephen` being a top term in the overall corpus. `hawking` is the fourth most popular term in the corpus for Best Actor tweets.
 
 Similar to the overall volume graphs, above, both Eddie Redmayne and Benedict Cumberbatch are the most frequently referenced in this corpus. Perhaps oddly, their first names are used more frequently than their last names. *How very familiar of you, Twitter*.
 
 ### Frequent Terms in Best Actress tweets
 
-<img src="/assets/images/posts/baftas-TermsBestActress.png" class="img-responsive"/>
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-TermsBestActress.png" class="img-responsive"/>
 Julianne Moore tops the frequent terms list for Best Actress &#8211; unsurprisingly &#8211; as does the film for which she won the award, Still Alice. In a strange reversal of trend, most people refer to Julianne Moore by her surname.
 
 ### Frequent Terms in Best Film tweets
 
-<img src="/assets/images/posts/baftas-TermsBestFilm.png" class="img-responsive"/>
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-TermsBestFilm.png" class="img-responsive"/>
 The Theory of Everything is referred to more often than the other Best Film nominations here, congruent with the data previously seen. It seems everyone is wanting to wish a congratulations in this corpus too.
 
 ## Word clouds
@@ -98,19 +98,19 @@ The word clouds here are limited to the 500 most frequent terms. I won&#8217;t t
 
 ### Word cloud of tweets with #EEBAFTAs
 
-<img src="/assets/images/posts/baftas-WordCloudAllTweets.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-WordCloudAllTweets.png" class="img-responsive" />
 
 ### Word cloud of Best Actor tweets
 
-<img src="/assets/images/posts/baftas-WordCloudBestActor.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-WordCloudBestActor.png" class="img-responsive" />
 
 ### Word cloud of Best Actress tweets
 
-<img src="/assets/images/posts/baftas-WordCloudBestActress.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-WordCloudBestActress.png" class="img-responsive" />
 
 ### Word cloud of Best Film tweets
 
-<img src="/assets/images/posts/baftas-WordCloudBestFilm.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-WordCloudBestFilm.png" class="img-responsive" />
 
 ## Associations between terms
 
@@ -120,21 +120,21 @@ Using clustering of the data, and removing the most sparse terms from each of th
 
 ### Association of terms in all tweets with #EEBAFTAs
 
-<img src="/assets/images/posts/baftas-DendrogramAllTweets.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-DendrogramAllTweets.png" class="img-responsive" />
 Perhaps unsurprisingly, for the all tweets corpus, `#EEBAFTAs` forms the first cluster (top left). You would expect this, given every tweet in this corpus contains `#EEBAFTAs`. How the rest of the corpus breaks down is more interesting.
 
 Terms relating to the announcement of awards and the red carpet itself dominate the corpus. *The Theory of Everything* forms the most cohesive cluster below this level (terms: `actor`, `leading`, `eddie`, `reedman`, `hawking`, `stephen`). This shows the popularity of the film on Twitter during this time.
 
 ### Association of terms in Best Actor tweets
 
-<img src="/assets/images/posts/baftas-DendrogramBestActor.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-DendrogramBestActor.png" class="img-responsive" />
 Unlike the whole corpus, `#EEBAFTAs` is not the most cohesive cluster in the Best Actor corpus. Instead, two large groups of clusters emerge &#8211; the most significant (right) purely relating to Eddie Redmayne and Benedict Cumberbatch.
 
 The left tree of the dendrogram is comparatively much less focused, splitting into many branches before terms emerge as dominant. This second cluster group is dominated again by Benedict Cumberbatch, but also his spouse, Sophie Hunter.
 
 ### Association of terms in Best Actress tweets
 
-<img src="/assets/images/posts/baftas-DendrogramBestActress.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-DendrogramBestActress.png" class="img-responsive" />
 The Best Actress corpus is more similar to the main corpus, in that #EEBAFTAs is quickly shown as a dominant term in the clustering, as is the winner of the category &#8211; Julianne Moore.
 
 For the rest of the diagram, the clustering is much less focussed. This is likely related to the corpus size. As this corpus is much smaller than the previous two, the amount of sparse terms eliminated through data manipulation is likely lower. As such, the clustering has more terms to work with.
@@ -143,7 +143,7 @@ Perhaps most interestingly in this corpus, Julianne Moore&#8217;s film &#8211; *
 
 ### Association of terms in Best Film tweets
 
-<img src="/assets/images/posts/baftas-DendrogramBestFilm.png" class="img-responsive" />
+<img src="https://image.johnpe.art/assets/images/posts/2015/02/15/text-mining-tweets-from-the-2015-baftas/baftas-DendrogramBestFilm.png" class="img-responsive" />
 The Best Film corpus calls out #EEBAFTAs as a key cluster early on, and is most related to *The Theory of Everything* (terms: `theory`, `everything`) and *Boyhood*. *Birdman*, *The Imitation Game* and *The Grand Budapest Hotel* are distinct from these two films.
 
 As you might expect, we see the films appear near their winning categories in the clustering too &#8211; *Boyhood* being associated with best film, *Birdman* with cinematography, and so on.

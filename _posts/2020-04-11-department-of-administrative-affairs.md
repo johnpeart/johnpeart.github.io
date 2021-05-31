@@ -22,11 +22,11 @@ The inspiration for this bot came from a binge-watching session of [Yes, Ministe
 
 Having tinkered around with the [HTML canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) and Twitter APIs, I started to wonder what the Department of Administrative Affairs might look like if it existed in 2017, rather than 1987. Almost certainly it would have a social media presence; most likely a Twitter account.
 
-[Sir Humphrey Appleby’s](https://en.wikipedia.org/wiki/Humphrey_Appleby) many, many witticisms were prime content for a bot. I decided that the [@DeptOfAdmin](https://twitter.com/DeptOfAdmin) bot needed to immortalise some of his famous words. I created a fictitious brand identity for the Department, and then I set about coding the bot. 
+[Sir Humphrey Appleby’s](https://en.wikipedia.org/wiki/Humphrey_Appleby) many, many witticisms were prime content for a bot. I decided that the [@DeptOfAdmin](https://twitter.com/DeptOfAdmin) bot needed to immortalise some of his famous words. I created a fictitious brand identity for the Department, and then I set about coding the bot.
 
 Now, roughly once an hour, the Department of Administrative Affairs tweets something that looks like this:
 
-<blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">We invest in nuclear bunkers as a department. Administration won&#39;t stop just because the country&#39;s been destroyed! Annihilation will be bad enough without anarchy to make things even worse! <a href="https://t.co/PNzIMoGBtP">pic.twitter.com/PNzIMoGBtP</a></p>&mdash; Department of Administrative Affairs (@DeptOfAdmin) <a href="https://twitter.com/DeptOfAdmin/status/1244089645610172416?ref_src=twsrc%5Etfw">March 29, 2020</a></blockquote> 
+<blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">We invest in nuclear bunkers as a department. Administration won&#39;t stop just because the country&#39;s been destroyed! Annihilation will be bad enough without anarchy to make things even worse! <a href="https://t.co/PNzIMoGBtP">pic.twitter.com/PNzIMoGBtP</a></p>&mdash; Department of Administrative Affairs (@DeptOfAdmin) <a href="https://twitter.com/DeptOfAdmin/status/1244089645610172416?ref_src=twsrc%5Etfw">March 29, 2020</a></blockquote>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -35,7 +35,7 @@ It takes a random quote from a pre-defined list, generates an image dynamically 
 I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the [Department of Bad Ideas](https://badideas.podcast.johnpe.art).
 
 {% include figure.html
-url="/posts/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" figure="1" caption="The recently refreshed brand identity for the Department of Administrative Affairs" linktext="This mirrors my new podcast, the Department of Bad Ideas"
+url="https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" figure="1" caption="The recently refreshed brand identity for the Department of Administrative Affairs" linktext="This mirrors my new podcast, the Department of Bad Ideas"
 link="https://badideas.podcast.johnpe.art" %}
 
 I’ve written a somewhat step-by-step of the process, if you wanted to create you *own* bot, below.
@@ -63,7 +63,7 @@ If you want to create a bot like mine, this is what you'll need:
 
 ## Setting up your code repository
 
-To start, you will need somewhere to put the code and somewhere to execute it in the cloud. 
+To start, you will need somewhere to put the code and somewhere to execute it in the cloud.
 
 Create a folder on your computer where you’ll store this project and initialise it as a git repository. You can do both these things in one go using [the Github Desktop app](https://desktop.github.com). If you’d prefer to use the Terminal (*I don’t!*), you’ll need to use something like these commands:
 
@@ -83,11 +83,11 @@ With your repository set up on Github, you’ll need to create an app on Heroku 
 
 With your Github repository and Heroku app set up, set your Github repository as the ‘Deployment Method’ using the Heroku web interface[^deploy]. This means that every time code is pushed to the repository on Github, it can be pulled in and built by Heroku. You can set Heroku up to do the deployment automatically, or you can disable that and do it manually if you’d prefer.
 
-[^deploy]: You link your Github account to your Heroku account on the ‘Deploy’ page on the Heroku website. You can use the Heroku built in git system if you like; I just prefer using Github as *all* of my code is stored there. 
+[^deploy]: You link your Github account to your Heroku account on the ‘Deploy’ page on the Heroku website. You can use the Heroku built in git system if you like; I just prefer using Github as *all* of my code is stored there.
 
 ## Accessing the Twitter API
 
-With the code repository and hosting set up and linked together, next you will to [register for access to the Twitter API](https://developer.twitter.com). Make sure you’re logged in with the account you intend to tweet from and not your *personal* account. 
+With the code repository and hosting set up and linked together, next you will to [register for access to the Twitter API](https://developer.twitter.com). Make sure you’re logged in with the account you intend to tweet from and not your *personal* account.
 
 The registration process has changed to get access to the Twitter API – it’s now a bit harder to get access to just tinker around – so I’ll skip setting up an account here. For the purposes of creating your bot, you’ll need to get a:
 
@@ -115,12 +115,12 @@ I’d suggest the following pairings:
 
 ## Add Buildpacks
 
-Whilst you’re on the `Settings` tab, you may as well also set up your buildpacks. These are scripts that run when your app is deployed. They configure your hosting environment and install any software needed by your app to function properly. 
+Whilst you’re on the `Settings` tab, you may as well also set up your buildpacks. These are scripts that run when your app is deployed. They configure your hosting environment and install any software needed by your app to function properly.
 
 This bot is built using a framework called `twit`, which relies on Node.js, so you’ll need to add that buildpack first. Select the `Add buildpack` button and then choose `nodejs` from the officially supported buildpacks.
 
 {% include figure.html
-url="/posts/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" figure="2" caption="The Add Buildpacks screen in Heroku Dashboard" %}
+url="https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" figure="2" caption="The Add Buildpacks screen in Heroku Dashboard" %}
 
 In order to generate the images that our bot will tweet, you need access to the graphics library Cairo. There is no official buildpack for this library and its dependencies, but unofficial versions do exist. I’m currently using [this one](https://github.com/sky-uk/heroku-buildpack-cairo) that’s been maintained by Sky. (Yes, the people who do broadband and TV). Select the `Add buildpack` button again, and enter the following URL:
 
@@ -130,7 +130,7 @@ https://github.com/sky-uk/heroku-buildpack-cairo.git
 
 ## Sketch out your designs
 
-Before you start coding, you should sketch out some designs for your graphics. This will help to simplify how you code your bot because it will give you an idea of dimensions and relative sizes of various elements. 
+Before you start coding, you should sketch out some designs for your graphics. This will help to simplify how you code your bot because it will give you an idea of dimensions and relative sizes of various elements.
 
 The bot will generate images based on a compound of text, simple shapes and colours, or more complex imagery you provide. Sketching out your designs will help you figure out how you could reproduce the design in code too.
 
@@ -143,14 +143,14 @@ The @DeptOfAdmin bot generates its images in 4 stages. It:
 
 All of this could be done entirely with code or entirely with images because this is a simple composition. Anything you can create with the [HTML canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) can be dynamically generated. For anything more complex it would likely be simpler to create images and to import them into the canvas instead. The @DeptOfAdmin bot uses a combination of the two.
 
-As you’re sketching out your designs, make sure you have figured out the dimensions of each element as well the overall size of the image. 
+As you’re sketching out your designs, make sure you have figured out the dimensions of each element as well the overall size of the image.
 
 Twitter crops images to two main sizes; they are:
 
 - landscape orientation rectangles of a maximum 1,200 pixels by 675 pixels
 - squares of a maximum 1200 pixels by 1200 pixels
 
-The @DeptOfAdmin bot creates images that are 1,200 pixels by 675 pixels so that all the text is displayed properly on Twitter’s mobile apps and on the web. 
+The @DeptOfAdmin bot creates images that are 1,200 pixels by 675 pixels so that all the text is displayed properly on Twitter’s mobile apps and on the web.
 
 Any final image assets you create for import onto the canvas need be at least the same size as they need to be displayed on the canvas to avoid pixelation. They also need to take into account pixel density; so if you’re making a 1200 pixel by 675 pixel canvas and the canvas will output a 2400 pixel by 1350 pixel image – so it’s @2x size – then your assets also need to be @2x size.
 
@@ -196,7 +196,7 @@ You can create custom scripts that trigger various files and commands as part of
 }
 ```
 
-There are several frameworks that are required to generate the images and post them to Twitter. They can only be installed thanks to the buildpacks you have already set up Heroku. 
+There are several frameworks that are required to generate the images and post them to Twitter. They can only be installed thanks to the buildpacks you have already set up Heroku.
 
 ```JSON
 "dependencies": {
@@ -209,7 +209,7 @@ There are several frameworks that are required to generate the images and post t
 }
 ```
 
-The version numbers here don’t matter too much; these were just the versions that were available when I last updated the app. 
+The version numbers here don’t matter too much; these were just the versions that were available when I last updated the app.
 
 The [full list of supported options](https://docs.npmjs.com/files/package.json) for `package.json` can be found on the Node.js website and the [package I created for the @DeptOfAdmin bot is on Github](https://github.com/johnpeart/dept-of-admin-bot/blob/master/package.json).
 
@@ -272,7 +272,7 @@ For `colors.js`:
 ```javascript
 // Create the variable
 var colours = [
-	// Enter a list of comma separated values 
+	// Enter a list of comma separated values
 	// Either hex codes or rgb() values work
 ]
 
@@ -301,11 +301,11 @@ var 	Twit = require('twit'),
 		fs = require('fs'),
 		path = require('path')
 
-const 	{ 
-	registerFont, 
-	createCanvas, 
-	Canvas, 
-	Image 
+const 	{
+	registerFont,
+	createCanvas,
+	Canvas,
+	Image
 } = require('canvas')
 ```
 
@@ -323,7 +323,7 @@ colors = require(path.join(__dirname, 'colors.js'));
 
 #### 2. Import font files
 
-To use the custom fonts, you’ll first need to import them and then register them. First, create a function used to import the file. 
+To use the custom fonts, you’ll first need to import them and then register them. First, create a function used to import the file.
 
 ```javascript
 // This function can be used to import fonts
@@ -395,7 +395,7 @@ The `createCanvas` function accepts two arguments – the `width` of the canvas,
 The HTML Canvas API does not support multi-line or wrapping text natively. Unless you know your text isn’t going to be wider than the image itself, you’ll need to create a function to split the text across multiple lines.
 
 ```javascript
-// A function to split longer quotes over multiple lines, 
+// A function to split longer quotes over multiple lines,
 // for use as part of the canvas
 function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
 	var words = text.split(' ');
@@ -419,7 +419,7 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
 }
 ```
 
-This function should be used after you’ve set up your font styles and created any elements of your canvas you need to be displayed beneath that layer of text. The function accepts a number of arguments to function. 
+This function should be used after you’ve set up your font styles and created any elements of your canvas you need to be displayed beneath that layer of text. The function accepts a number of arguments to function.
 
 - `ctx` is the canvas you’re working on
 - `text` is the text you need to split up (in this case it would be the `chooseQuote` variable)
@@ -429,7 +429,7 @@ This function should be used after you’ve set up your font styles and created 
 
 ### 6. Generates the image to tweet
 
-Now you’ll need to bring it all together. 
+Now you’ll need to bring it all together.
 
 Set the width and height of the canvas, using the variables you set earlier:
 
@@ -446,7 +446,7 @@ Next start rendering the canvas itself. Start by telling the API that you’re d
 var ctx = deptcanvas.getContext('2d');
 ```
 
-Next start to draw in your elements. For the @DeptOfAdmin bot, I start with drawing a full size rectangle and fill the rectangle with the colour white. 
+Next start to draw in your elements. For the @DeptOfAdmin bot, I start with drawing a full size rectangle and fill the rectangle with the colour white.
 
 ```javascript
 // Creat a full size background fill in white
@@ -454,7 +454,7 @@ ctx.fillStyle = "#FFFFFF";
 ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 ```
 
-`ctx.fillRect()` accepts 4 arguments: 
+`ctx.fillRect()` accepts 4 arguments:
 
 - the first and second argument are the `x` and `y` coordinates where the rectangle should start drawing
 - the last two variables are the `x` and `y` coordinates where the rectangle should stop drawing
@@ -475,7 +475,7 @@ The `ctx.drawImage()` command accepts 5 arguments:
 2. the second and third are the `x` and `y` coordinates of where to draw the image[^origin]
 3. the fourth and fifth argument are the width and height of the image – which you can make relative to the native size of the image using `.width` and `.height`
 
-Next, the @DeptOfAdmin bot draws another rectangle, filled with the random colour set in the `chooseColor` variable. It draws from below the rendered logo to fill the remainder of the canvas. 
+Next, the @DeptOfAdmin bot draws another rectangle, filled with the random colour set in the `chooseColor` variable. It draws from below the rendered logo to fill the remainder of the canvas.
 
 ```javascript
 // Create a rectangle and fill it with a the random colour chosen earlier
@@ -512,7 +512,7 @@ var T = new Twit(config);
 
 Next, draw together *everything* from these files to make your bot tweet!
 
-```javascript 
+```javascript
 function sendTweet() {
 
 	// call the function to draw the canvas
@@ -546,9 +546,9 @@ function sendTweet() {
 }
 ```
 
-If you don’t want to tweet anything other than the image, you can skip the parts labelled as optional in the code above. 
+If you don’t want to tweet anything other than the image, you can skip the parts labelled as optional in the code above.
 
-The full `server.js` [file is on Github](https://github.com/johnpeart/dept-of-admin-bot/blob/master/server.js). 
+The full `server.js` [file is on Github](https://github.com/johnpeart/dept-of-admin-bot/blob/master/server.js).
 
 ### Deploy your bot
 

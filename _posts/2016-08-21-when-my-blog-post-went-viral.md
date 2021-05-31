@@ -6,26 +6,26 @@ permalink: /2016/08/21/when-my-blog-post-went-viral
 category: [data]
 ---
 
-I recently got frustrated at the silence of some of my friends and family after the horrific events at Pulse nightclub in Orlando, and [I wrote them a letter](http://jrpeart.com/2016/06/14/to-my-heterosexual-friends-orlando-shootings). I didn't expect anyone to actually read it - I don't write for other people, I write because it's a creative outlet - but they did.
+I recently got frustrated at the silence of some of my friends and family after the horrific events at Pulse nightclub in Orlando, and [I wrote them a letter](/2016/06/14/to-my-heterosexual-friends-orlando-shootings). I didn't expect anyone to actually read it - I don't write for other people, I write because it's a creative outlet - but they did.
 
-In fact, **a lot** of people did. 
+In fact, **a lot** of people did.
 
-I like numbers, so I thought I'd share the numbers and some of the unintended consequences behind this micro-period of blogging virality. 
+I like numbers, so I thought I'd share the numbers and some of the unintended consequences behind this micro-period of blogging virality.
 
 ## Google Analytics
 
 On a weekly basis, my blog usually gets a few hundred visitors. In the week following the publication of this blog post, I saw **more than 300,000 people** reading my blog.
 
-![Graph](/assets/images/posts/viral-blog-post-google-by-hour.png)
-![Graph](/assets/images/posts/viral-blog-post-google-by-day.png)
+![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-google-by-hour.png)
+![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-google-by-day.png)
 
 For comparison, almost as many people read this blog post as a piece published by one of the countries biggest LGBT publications. Attitude wrote a piece on their website not long after the tragedy, and according to a subsequent editorial, their post had 327,309 views. This blog post had 323,662 views over 10 days.
 
-On average, people spent 4 minutes and 54 seconds on the page - but there was a very high bounce rate[^1] too; 95.44%. That suggests they read it all the way to the end, and then they left. 
+On average, people spent 4 minutes and 54 seconds on the page - but there was a very high bounce rate[^1] too; 95.44%. That suggests they read it all the way to the end, and then they left.
 
 And apparently people from every continent on the planet read the post. Most, not unpredictably, came from the USA.
 
-![Graph](/assets/images/posts/viral-blog-post-globe.png)
+![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-globe.png)
 
 [^1]: Bounce rate is the number of people that land on one page and then leave the site without changing pages
 
@@ -35,15 +35,15 @@ Facebook doesn't share very much information about how content is shared and use
 
 ## Twitter
 
-Twitter has a much more versatile analytics platform to demonstrate how content is shared and used across its social network. 
+Twitter has a much more versatile analytics platform to demonstrate how content is shared and used across its social network.
 
-The blog post had more than 85,000 impressions on Twitter during June, which represents a 203,123.1% increase over the average impressions of my usual Twitter content. 
+The blog post had more than 85,000 impressions on Twitter during June, which represents a 203,123.1% increase over the average impressions of my usual Twitter content.
 
-![Graph](/assets/images/posts/viral-blog-post-twitter-graph.png)
+![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-twitter-graph.png)
 
 ## Kind words
 
-Perhaps the most interesting part of this period of virality was the number of people that reached out to me by email, on Facebook messenger, and on Twitter. 
+Perhaps the most interesting part of this period of virality was the number of people that reached out to me by email, on Facebook messenger, and on Twitter.
 
 Clearly this tragic event had touched people, and this letter helped them to process it and educate others. I received a lot of kind words, like these from a school teacher in Ireland:
 
@@ -69,4 +69,4 @@ Charming.
 
 ## Virality and numbers
 
-So there you have it - a glimpse into what happens when you accidentally create a viral blog post and it spreads around the world in a matter of hours. 
+So there you have it - a glimpse into what happens when you accidentally create a viral blog post and it spreads around the world in a matter of hours.

@@ -6,6 +6,7 @@ layout: blog/post
 permalink: /2021/05/11/eurovision-scoreboard
 image: "https://johnpe.art/euroboard/assets/images/site/social-media.png"
 category: [eurovision]
+published: false
 ---
 
 Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Contest house party.
@@ -23,43 +24,40 @@ These were things I had started to build out during my [all-digital Eurovision h
 
 ## A new scoreboard for 2021
 
-For 2021, my digital scoreboard has had some upgrades. It's been totally rebuilt and given a facelift inspired by this year's “[Open Up](https://eurovision.tv/theme)” branding.
+For 2021, my digital scoreboard has been totally rebuilt and given a facelift inspired by this year's “[Open Up](https://eurovision.tv/theme)” branding.
 
 {% include figure.html
 url="https://image.johnpe.art/assets/images/posts/2021/05/11/eurovision-scoreboard/eurovision-scoreboard-2021.png" alt="A screenshot of my 2021 Eurovision Scoreboard." figure="2" caption="This is what the new  scoreboard looks like" linktext="I call it Euroboard" link="https://www.johnpe.art/euroboard" %}
 
-I'll update this blogpost with how it was built later this month. For now, let me tell you a bit about what it can do!
+Aside from a visual refresh, this year’s scoreboard brings some new functionality too. Here are some of the upgrades for 2021:
 
-### Realtime scoreboard and voting
-
-This year's scoreboard should update in realtime. Every time someone submits a vote, the scores should update instantly on the scoreboard.
-
-The Google Forms for voting are gone too. There's now a voting system build into the website; much easier than the previous form.
-
-### All three events
-
-My previous scoreboard was designed for the grand final. This year, there's a scoreboard for every event: both semi-finals[^1] and the grand final on the Saturday.
+- **Realtime scoreboard and voting:**: the scoreboard now updates in realtime; every time someone votes, the scores update instantly on screen. 
+- **A new voting screen:** voting happens on the same website as the scoreboard; no more ugly or clunky Google Forms.
+- **All three events:** rather than just the grand final, this year, I was able to enable a scoreboard for both semi-finals too[^1].
+- **See who’s winning:** the first, second and third place entries – according to those taking part – are highlighted on screen throughout the show, and the scoreboard can also switch its layout between the running order of the acts on stage and a leaderboard style layout, where each act will be listed first to last.
+- **Now playing:** I’ve built in a “now playing” feature to highlight which country is on screen *right now*. (Or at least, right now in my house!)
+- **Message center:** the site has functionality to let messages and shoutouts pop up on screen during the show, including some small Easter egg messages.
 
 [^1]: Don't even _pretend_ that you didn't know there were semi-finals. Embrace your zany, Eurovision-loving side.
 
-### See who's winning
+## The final product
 
-It's easier than before to see who's in the lead. First, second and third place entries will be highlighted throughout the show.
+The finished product is available online at [www.johnpe.art/euroboard](https://www.johnpe.art/euroboard).
 
-The scoreboard can also switch its layout between the running order of the acts on stage and a leaderboard style layout, where each act will be listed first to last.
+It’s hosted on [GitHub Pages](https://pages.github.com) as a static site built in [Jekyll](https://www.jekyllrb.com), and it connects out to a [Firebase](http://firebase.google.com) database. That means that, for my small-scale ambitions, hosting it doesn’t cost a penny!
 
-### Now playing
+## Building it
 
-Losing track of what's going on? Not anymore! The scoreboard can show you which artist is on screen _now_ with a little now playing animation.
+This was my first time using Firebase to build a website. Rather than go over how to build the whole site, I’ll just focus on how I worked with Firebase’s Realtime Database features to enable the functionality above.
 
-### Message center
+### Connecting to the database
 
-It's going to be weird not being together like usual, isn't it?
+### Checking for network connectivity
 
-I thought I'd bring a little bit of _me_ into your living room. Messages and shoutouts will pop up on screen as we go through the show, including some small Easter eggs.
+### Security rules
 
-## Get involved
+### Get data
 
-So it's new and improved, and you can use it too!
+### Set data
 
-If you'd like to have a digitally-enabled, socially-distant Eurovision, visit [the Euroboard](https://www.johnpe.art/euroboard) on 18, 20 and 22 May 2021.
+### Update data

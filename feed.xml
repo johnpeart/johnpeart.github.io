@@ -5,91 +5,18 @@
     <description>I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.</description>
     <link>https://www.johnpe.art/</link>
     <atom:link href="https://www.johnpe.art/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Jun 2021 01:00:29 +0000</pubDate>
-    <lastBuildDate>Sun, 27 Jun 2021 01:00:29 +0000</lastBuildDate>
+    <pubDate>Sun, 27 Jun 2021 21:42:27 +0000</pubDate>
+    <lastBuildDate>Sun, 27 Jun 2021 21:42:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>A digital scoreboard and voting system for your Eurovision house party</title>
-        <description>&lt;p&gt;Back in 2019, when we were allowed to see people in real life and have fun, I combined my loves of voting, Eurovision and technology to augment my Song Contest house party.&lt;/p&gt;
-
-&lt;p&gt;Hours before the party, I had a bright idea to hack together a &lt;a href=&quot;/2019/06/02/building-a-eurovision-scoreboard&quot;&gt;digital scoreboard&lt;/a&gt; for the event. The scoreboard took votes from a Google Form. It allowed my guests – and dozens of others across the country, in fact – to vote for their favourite entries and see the will of the people in near real time.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;https://image.johnpe.art/assets/images/posts/2019/06/02/building-a-eurovision-scoreboard/eurovision-scoreboard.jpg&quot; alt=&quot;A screenshot of my 2019 Eurovision Scoreboard.&quot; /&gt;
-	&lt;figcaption&gt;
-		&lt;strong&gt;Figure 1:&lt;/strong&gt;
-		This is what the 2019 version of my Eurovision scoreboard looked like.
-		
-	&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;At my gathering, I had it set up on a TV in my living room. Every 30 seconds it pinged out to Google to get the total score, and then did some maths to round it to the classic 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 Eurovision points scale.&lt;/p&gt;
-
-&lt;p&gt;It was fun! But it was a hack. It did the job, but it didn’t do it especially well, and it lacked features like showing who was winning.&lt;/p&gt;
-
-&lt;p&gt;These were things I had started to build out during my &lt;a href=&quot;/2020/03/25/this-is-not-the-song-contest&quot;&gt;all-digital Eurovision house party&lt;/a&gt; last year. This year, it’s third time lucky.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-new-scoreboard-for-2021&quot;&gt;A new scoreboard for 2021&lt;/h2&gt;
-
-&lt;p&gt;For 2021, my digital scoreboard has had some upgrades. It’s been totally rebuilt and given a facelift inspired by this year’s “&lt;a href=&quot;https://eurovision.tv/theme&quot;&gt;Open Up&lt;/a&gt;” branding.&lt;/p&gt;
-
-&lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;https://image.johnpe.art/assets/images/posts/2021/05/11/eurovision-scoreboard/eurovision-scoreboard-2021.png&quot; alt=&quot;A screenshot of my 2021 Eurovision Scoreboard.&quot; /&gt;
-	&lt;figcaption&gt;
-		&lt;strong&gt;Figure 2:&lt;/strong&gt;
-		This is what the new  scoreboard looks like.
-		&lt;a href=&quot;https://www.johnpe.art/euroboard&quot; title=&quot;Open I call it Euroboard in new window&quot; target=&quot;_blank&quot;&gt;I call it Euroboard&lt;/a&gt;.
-	&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’ll update this blogpost with how it was built later this month. For now, let me tell you a bit about what it can do!&lt;/p&gt;
-
-&lt;h3 id=&quot;realtime-scoreboard-and-voting&quot;&gt;Realtime scoreboard and voting&lt;/h3&gt;
-
-&lt;p&gt;This year’s scoreboard should update in realtime. Every time someone submits a vote, the scores should update instantly on the scoreboard.&lt;/p&gt;
-
-&lt;p&gt;The Google Forms for voting are gone too. There’s now a voting system build into the website; much easier than the previous form.&lt;/p&gt;
-
-&lt;h3 id=&quot;all-three-events&quot;&gt;All three events&lt;/h3&gt;
-
-&lt;p&gt;My previous scoreboard was designed for the grand final. This year, there’s a scoreboard for every event: both semi-finals&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and the grand final on the Saturday.&lt;/p&gt;
-
-&lt;h3 id=&quot;see-whos-winning&quot;&gt;See who’s winning&lt;/h3&gt;
-
-&lt;p&gt;It’s easier than before to see who’s in the lead. First, second and third place entries will be highlighted throughout the show.&lt;/p&gt;
-
-&lt;p&gt;The scoreboard can also switch its layout between the running order of the acts on stage and a leaderboard style layout, where each act will be listed first to last.&lt;/p&gt;
-
-&lt;h3 id=&quot;now-playing&quot;&gt;Now playing&lt;/h3&gt;
-
-&lt;p&gt;Losing track of what’s going on? Not anymore! The scoreboard can show you which artist is on screen &lt;em&gt;now&lt;/em&gt; with a little now playing animation.&lt;/p&gt;
-
-&lt;h3 id=&quot;message-center&quot;&gt;Message center&lt;/h3&gt;
-
-&lt;p&gt;It’s going to be weird not being together like usual, isn’t it?&lt;/p&gt;
-
-&lt;p&gt;I thought I’d bring a little bit of &lt;em&gt;me&lt;/em&gt; into your living room. Messages and shoutouts will pop up on screen as we go through the show, including some small Easter eggs.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-involved&quot;&gt;Get involved&lt;/h2&gt;
-
-&lt;p&gt;So it’s new and improved, and you can use it too!&lt;/p&gt;
-
-&lt;p&gt;If you’d like to have a digitally-enabled, socially-distant Eurovision, visit &lt;a href=&quot;https://www.johnpe.art/euroboard&quot;&gt;the Euroboard&lt;/a&gt; on 18, 20 and 22 May 2021.&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Don’t even &lt;em&gt;pretend&lt;/em&gt; that you didn’t know there were semi-finals. Embrace your zany, Eurovision-loving side. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+        <title></title>
+        <description>
 </description>
-        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-        <link>https://www.johnpe.art/2021/05/11/eurovision-scoreboard</link>
-        <guid isPermaLink="true">https://www.johnpe.art/2021/05/11/eurovision-scoreboard</guid>
+        <pubDate>Sun, 27 Jun 2021 21:42:27 +0000</pubDate>
+        <link>https://www.johnpe.art/2021/06/27/2021-06-28-dont-be-an-ally-do-allying/</link>
+        <guid isPermaLink="true">https://www.johnpe.art/2021/06/27/2021-06-28-dont-be-an-ally-do-allying/</guid>
         
-        
-        <category>eurovision</category>
         
       </item>
     

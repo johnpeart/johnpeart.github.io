@@ -6,6 +6,6 @@ layout: blog/post
 permalink: /2020/06/28/do-allying
 category: [lgbt]
 theme: magenta
-published:false
+published: false
 ---
 

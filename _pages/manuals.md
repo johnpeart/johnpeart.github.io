@@ -1,0 +1,4 @@
+---
+layout: manuals
+title: Manuals
+---

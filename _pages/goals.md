@@ -1,0 +1,4 @@
+---
+layout: goals
+title: Goals
+---

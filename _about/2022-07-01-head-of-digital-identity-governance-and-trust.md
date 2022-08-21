@@ -11,7 +11,7 @@ I lead policy that supports the development of the digital identity market in th
 
 In my role I lead teams that are working to: 
 
-1. develop and maintain 'The UK digital identity and attributes trust framework'
+1. develop and maintain the UK digital identity and attributes trust framework
 2. establish a new governing body – the Office for Digital Identities and Attributes
 
 The trust framework aims to make it easier and more secure for people to use services that enable them to prove who they are or information about themselves. It is a set of rules for organisations to follow if they want to provide secure and trustworthy digital identity and/or attribute solutions.

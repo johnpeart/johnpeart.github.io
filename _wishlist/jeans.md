@@ -1,0 +1,8 @@
+---
+list: "Clothing"
+name: "Jeans"
+price: 0.00
+purchased: false
+gift-idea: true
+---
+32 inch waist, 32 inch leg; black or blue

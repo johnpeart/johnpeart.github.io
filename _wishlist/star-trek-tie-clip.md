@@ -1,8 +1,8 @@
 ---
 list: "Accessories"
 name: "Star Trek tie clip"
-price: 7.23
+price: 20.00
 purchased: false
-link: "https://www.etsy.com/uk/listing/219786152/super-tie-clip-26-styles-superman"
+link: "https://www.etsy.com/uk/listing/620684106/star-trek-tie-pin"
 gift-idea: true
 ---

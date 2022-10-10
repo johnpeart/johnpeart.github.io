@@ -2,7 +2,8 @@
 list: "Music"
 name: "Eurovision Song Contest 2022 album"
 extra-details: "On CD"
-price: 0.00
+price: 15.00
+link: "https://www.amazon.co.uk/Eurovision-Song-Contest-Turin-2022/dp/B09TMSBP93/"
 purchased: false
 gift-idea: true
 ---

@@ -2,9 +2,9 @@
 list: "Games"
 name: "Hyrule Warriors: Age of Calamity"
 extra-details: "Nintendo Switch"
-price: 49.99
+price: 40.00
 purchased: false
-link: "https://store.nintendo.co.uk/nintendo-switch-game/hyrule-warriors-age-of-calamity/12691877.html"
+link: "https://www.amazon.co.uk/Hyrule-Warriors-Calamity-Nintendo-Switch/dp/B08HP4ZGKP/"
 gift-idea: true
 ---
 Nintendo Switch

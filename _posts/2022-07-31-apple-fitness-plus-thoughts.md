@@ -3,7 +3,7 @@ title: "Thoughts on Apple Fitness+ from a fitness newbie"
 author: John Peart
 excerpt: "6 months trying to fix my broken body via home workouts."
 layout: post
-permalink: /2022/01/01/setting-goals-for-2022
+permalink: /2022/07/31/apple-fitness-plus-thoughts
 image: https://image.johnpe.art/assets/images/social/goals/goals.png
 category: [personal]
 ---

@@ -6,4 +6,4 @@ link: "https://amzn.eu/d/9UIkg0v"
 purchased: false
 gift-idea: true
 ---
-With removable grilling plates.
+With removable grilling plates

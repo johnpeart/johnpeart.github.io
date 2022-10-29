@@ -6,4 +6,4 @@ link: "https://amzn.eu/d/c0dwKJR"
 purchased: false
 gift-idea: false
 ---
-White.
+White

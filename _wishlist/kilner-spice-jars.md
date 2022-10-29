@@ -1,8 +1,8 @@
 ---
 list: "Homeware and Kitchen"
-name: "Kilner square spice jars"
-price: 20.00
-link: "https://amzn.eu/d/c0dwKJR"
+name: "George Foreman grill"
+price: 70.00
+link: "https://amzn.eu/d/9UIkg0v"
 purchased: false
 gift-idea: true
 ---

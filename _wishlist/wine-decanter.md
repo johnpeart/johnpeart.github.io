@@ -1,8 +1,8 @@
 ---
 list: "Homeware and Kitchen"
-name: "Wok with lid"
+name: "Wine decanter"
 price: 0.00
 purchased: false
 gift-idea: true
 ---
-For use with an induction hob
+In a modern style

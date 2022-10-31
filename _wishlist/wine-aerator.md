@@ -1,9 +1,8 @@
 ---
 list: "Homeware and Kitchen"
-name: "Electric wine aerator and pourer"
-extra-details: "With removable grilling plates."
-price: 35.00
-link: "https://amzn.eu/d/fKMqUTH"
+name: "Wine aerator"
+price: 15.00
+link: "https://www.amazon.co.uk/Hotder-Wine-Aerator-Decanter-Black/dp/B009YHROJK"
 purchased: false
 gift-idea: true
 ---

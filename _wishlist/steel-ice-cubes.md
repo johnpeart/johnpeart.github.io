@@ -5,4 +5,4 @@ price: 0.00
 purchased: false
 gift-idea: true
 ---
-*Ice cubes without the water!*
+Ice cubes without the water!

@@ -1,5 +1,5 @@
 ---
-list: "Accessories"
+list: "Clothing and accessories"
 name: "Star Trek tie clip"
 price: 20.00
 purchased: false

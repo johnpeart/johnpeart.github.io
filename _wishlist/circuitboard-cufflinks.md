@@ -1,5 +1,5 @@
 ---
-list: "Accessories"
+list: "Clothing and accessories"
 name: "Circuit board cufflinks"
 price: 22.00
 purchased: true

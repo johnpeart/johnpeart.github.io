@@ -1,5 +1,5 @@
 ---
-list: "Accessories"
+list: "Clothing and accessories"
 name: "Star Wars Stormtrooper tie clip"
 price: 17.00
 purchased: false

@@ -1,5 +1,5 @@
 ---
-list: "Clothing"
+list: "Clothing and accessories"
 name: "Polo shirts"
 price: 0.00
 purchased: false

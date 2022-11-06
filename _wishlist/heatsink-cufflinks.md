@@ -1,5 +1,5 @@
 ---
-list: "Accessories"
+list: "Clothing and accessories"
 name: "Heatsink cufflinks"
 price: 13.00
 purchased: false

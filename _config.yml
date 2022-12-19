@@ -43,6 +43,10 @@ mastodon:
   username: johnpeart
   instance: mastodon.social
   
+## LinkedIn
+linkedin-url: "https://linkedin.com/in/jrpeart"
+linkedin-handle: "jrpeart"
+  
 # Github
 github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"

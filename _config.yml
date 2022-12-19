@@ -35,9 +35,14 @@ theme-colour: "#009fe3"
 # Twitter
 twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
 twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
+
 # Mastodon
 mastodon-url: "https://mastodon.social/@johnpeart"
 mastodon-handle: "johnpeart@mastodon.social"
+mastodon:
+  username: johnpeart
+  instance: mastodon.social
+  
 # Github
 github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"
@@ -84,6 +89,10 @@ future: false
 highlighter: true
 sass:
   sass_dir: _sass
+
+# Include these files/folders that are excluded by default
+include: 
+- "/.well-known"
 
 plugins:
 - jekyll-remote-theme

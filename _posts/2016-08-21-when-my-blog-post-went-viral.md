@@ -16,8 +16,8 @@ I like numbers, so I thought I'd share the numbers and some of the unintended co
 
 On a weekly basis, my blog usually gets a few hundred visitors. In the week following the publication of this blog post, I saw **more than 300,000 people** reading my blog.
 
-![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-google-by-hour.png)
-![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-google-by-day.png)
+![Graph](/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-google-by-hour.png)
+![Graph](/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-google-by-day.png)
 
 For comparison, almost as many people read this blog post as a piece published by one of the countries biggest LGBT publications. Attitude wrote a piece on their website not long after the tragedy, and according to a subsequent editorial, their post had 327,309 views. This blog post had 323,662 views over 10 days.
 
@@ -25,7 +25,7 @@ On average, people spent 4 minutes and 54 seconds on the page - but there was a 
 
 And apparently people from every continent on the planet read the post. Most, not unpredictably, came from the USA.
 
-![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-globe.png)
+![Graph](/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-globe.png)
 
 [^1]: Bounce rate is the number of people that land on one page and then leave the site without changing pages
 
@@ -39,7 +39,7 @@ Twitter has a much more versatile analytics platform to demonstrate how content 
 
 The blog post had more than 85,000 impressions on Twitter during June, which represents a 203,123.1% increase over the average impressions of my usual Twitter content.
 
-![Graph](https://image.johnpe.art/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-twitter-graph.png)
+![Graph](/assets/images/posts/2016/08/21/when-my-blog-post-went-viral/viral-blog-post-twitter-graph.png)
 
 ## Kind words
 

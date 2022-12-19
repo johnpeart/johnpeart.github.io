@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "Another year, another set of goals."
 layout: post
 permalink: /2019/12/31/setting-goals-for-2020
-image: https://image.johnpe.art/assets/images/social/goals/goals.png
+image: /assets/images/social/goals/goals.png
 category: [personal]
 ---
 

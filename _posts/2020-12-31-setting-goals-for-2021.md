@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "Time to up the ante."
 layout: post
 permalink: /2020/12/31/setting-goals-for-2021
-image: https://image.johnpe.art/assets/images/social/goals/goals.png
+image: /assets/images/social/goals/goals.png
 category: [personal]
 ---
 

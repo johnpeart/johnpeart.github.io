@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "6 months trying to fix my broken body via home workouts."
 layout: post
 permalink: /2022/07/31/apple-fitness-plus-thoughts
-image: https://image.johnpe.art/assets/images/social/goals/goals.png
+image: /assets/images/social/goals/goals.png
 category: [personal]
 ---
 
@@ -30,7 +30,7 @@ That's not what happens though. The first time â€“ and, in fact, _every_ time â€
 
 {% 
   include figure.html 
-  url="https://image.johnpe.art/assets/images/posts/2022/07/31/apple-fitness-plus-thoughts/apple-fitnessplus-apple-tv-screenshot.jpg" 
+  url="/assets/images/posts/2022/07/31/apple-fitness-plus-thoughts/apple-fitnessplus-apple-tv-screenshot.jpg" 
   alt="A screenshot of the Apple Fitness+ app on Apple TV" 
   figure="1" 
   caption="The first experience of Apple Fitness+ is labyrinthian to the uninitiated. Just look at this screenshot from the Apple TV" 

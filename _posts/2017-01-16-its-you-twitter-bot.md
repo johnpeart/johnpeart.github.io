@@ -48,7 +48,7 @@ To access the Twitter API, you need a consumer key, consumer secret, access toke
 
 Clicking 'Create New App' takes you to a short form where you give your app a name, a description, a website to link back to and a callback URL. The callback URL isn't necessary for this bot, so I left it blank, ticked the box to accept the conditions and submitted the form.
 
-![](https://image.johnpe.art/assets/images/posts/2017/01/16/its-you-twitter-bot/createnewapp.png)
+![](/assets/images/posts/2017/01/16/its-you-twitter-bot/createnewapp.png)
 
 Now the app is created, the keys, tokens and secrets can be found in the 'Keys and Access Tokens' screen. They'll look something like: `rhIWCXREwLu0RswdLttqpXjAH`. (*Don't worry, that one isn't real*)
 

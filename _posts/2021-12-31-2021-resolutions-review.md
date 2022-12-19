@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "A qualified success for 2021."
 layout: post
 permalink: /2021/12/21/2020-resolutions-review
-image: https://image.johnpe.art/assets/images/social/goals/goals.png
+image: /assets/images/social/goals/goals.png
 category: [personal]
 ---
 

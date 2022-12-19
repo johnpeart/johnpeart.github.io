@@ -34,7 +34,7 @@ It takes a random quote from a pre-defined list, generates an image dynamically 
 I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the [Department of Bad Ideas](https://badideas.podcast.johnpe.art).
 
 {% include figure.html
-url="https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" figure="1" caption="The recently refreshed brand identity for the Department of Administrative Affairs" linktext="This mirrors my new podcast, the Department of Bad Ideas"
+url="/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" figure="1" caption="The recently refreshed brand identity for the Department of Administrative Affairs" linktext="This mirrors my new podcast, the Department of Bad Ideas"
 link="https://badideas.podcast.johnpe.art" %}
 
 I’ve written a somewhat step-by-step of the process, if you wanted to create you *own* bot, below.
@@ -119,7 +119,7 @@ Whilst you’re on the `Settings` tab, you may as well also set up your buildpac
 This bot is built using a framework called `twit`, which relies on Node.js, so you’ll need to add that buildpack first. Select the `Add buildpack` button and then choose `nodejs` from the officially supported buildpacks.
 
 {% include figure.html
-url="https://image.johnpe.art/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" figure="2" caption="The Add Buildpacks screen in Heroku Dashboard" %}
+url="/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" figure="2" caption="The Add Buildpacks screen in Heroku Dashboard" %}
 
 In order to generate the images that our bot will tweet, you need access to the graphics library Cairo. There is no official buildpack for this library and its dependencies, but unofficial versions do exist. I’m currently using [this one](https://github.com/sky-uk/heroku-buildpack-cairo) that’s been maintained by Sky. (Yes, the people who do broadband and TV). Select the `Add buildpack` button again, and enter the following URL:
 

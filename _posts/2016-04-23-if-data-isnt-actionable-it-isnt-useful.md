@@ -32,11 +32,11 @@ Useful data needs to be relative if it's useful for decision making; you don't j
 
 Data should look less like this:
 
-![](https://image.johnpe.art/assets/images/posts/2016/04/23/actionable-data/actionable-data-1.jpg)
+![](/assets/images/posts/2016/04/23/actionable-data/actionable-data-1.jpg)
 
 And more like this:
 
-![](https://image.johnpe.art/assets/images/posts/2016/04/23/actionable-data/actionable-data-2.jpg)
+![](/assets/images/posts/2016/04/23/actionable-data/actionable-data-2.jpg)
 
 
 ## Be immediately understandable
@@ -45,7 +45,7 @@ Data should be comprehensible at a glance. Anything that obscures your understan
 
 RAG ratings are the enemy of decision making.
 
-![](https://image.johnpe.art/assets/images/posts/2016/04/23/actionable-data/actionable-data-3.jpg)
+![](/assets/images/posts/2016/04/23/actionable-data/actionable-data-3.jpg)
 
 You might be thinking, "*but everyone uses RAG ratings*", and they do but ask yourself this: what's the quantifiable difference between **amber** and **amber / green**?
 

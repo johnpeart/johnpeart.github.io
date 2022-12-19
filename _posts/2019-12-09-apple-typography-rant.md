@@ -59,10 +59,10 @@ Reader, I'll level with you. I could overlook these totally bananas inconsistenc
 I mean, *just look at them*![^3]
 
 {% include figure.html
-url="https://image.johnpe.art/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-tv-wordmarks.png" alt="Apple's Apple TV+ and Apple TV 4K wordmarks." figure="1" caption="Apple's TV+ and TV 4K wordmarks, x-height differences highlighted and zoomed in" %}
+url="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-tv-wordmarks.png" alt="Apple's Apple TV+ and Apple TV 4K wordmarks." figure="1" caption="Apple's TV+ and TV 4K wordmarks, x-height differences highlighted and zoomed in" %}
 
 {% include figure.html
-url="https://image.johnpe.art/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-music-wordmarks.png" alt="Apple's Apple Music wordmarks in both title and small caps cases." figure="2" caption="Apple Music wordmarks, x-height and cap height differences highlighted and zoomed in" %}
+url="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-music-wordmarks.png" alt="Apple's Apple Music wordmarks in both title and small caps cases." figure="2" caption="Apple Music wordmarks, x-height and cap height differences highlighted and zoomed in" %}
 
 The text's x-height is different in each.
 

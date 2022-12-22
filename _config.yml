@@ -54,8 +54,10 @@ github-handle:  "johnpeart"
 ###############
 # Collections #
 ###############
-
 collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
   pages:
     output: true
     permalink: /:path/

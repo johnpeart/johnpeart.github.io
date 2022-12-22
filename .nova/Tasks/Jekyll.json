@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "bundle exec jekyll serve --liveReload -o"
+      "script" : "bundle exec jekyll serve --liveReload --future -o"
     }
   },
   "openLogOnRun" : "start"

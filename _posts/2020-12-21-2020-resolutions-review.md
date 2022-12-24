@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "For once, I did what I said I was going to do."
 layout: post
 permalink: /2020/12/21/2020-resolutions-review
-image: https://www.johnpe.art/assets/images/social/2020-goals.png
+image: https://www.johnpe.art/assets/images/social/goals.png
 category: [personal]
 ---
 
@@ -22,7 +22,7 @@ On New Year's Eve 2019, [I set myself 7 goals for 2020](/2019/12/31/setting-goal
 6. do dry January
 7. save £5,000 by the end of the year 
 
-I followed the same structure as the past few years. These goals were bitesized, measurable and [published on the open internet](//goals.johnpe.art) so that I kept myself honest. They were deliberately over-stretching because I didn't expect to achieve all of them; but the goal was to achieve 80% of what I set out to do overall.
+I followed the same structure as the past few years. These goals were bitesized, measurable and [published on the open internet](//www.johnpe.art/goals) so that I kept myself honest. They were deliberately over-stretching because I didn't expect to achieve all of them; but the goal was to achieve 80% of what I set out to do overall.
 
 ## How did I do?
 

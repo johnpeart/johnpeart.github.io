@@ -20,7 +20,7 @@ This time last year I set myself [a series of goals](/2020/12/31/setting-goals-f
 6. drink less alcohol
 7. save some money
 
-Each of these goals were bitesized, measurable and [published online](//goals.johnpe.art) so that I would stick to them. 
+Each of these goals were bitesized, measurable and [published online](//www.johnpe.art/goals) so that I would stick to them. 
 
 My aim is to set stretching goals, and – because they are stretching – achieve 80% of everything. After I exceeded a couple of goals last year though, I also set myself stretch goals this year. 
 

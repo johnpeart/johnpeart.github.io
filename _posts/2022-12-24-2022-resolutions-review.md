@@ -32,7 +32,7 @@ Having spent the final three months of 2021 looking a new job, I started the yea
 
 In parallel, in March, I decided I was fed up of paying someone else's mortgage and took the leap to get one of my own. That purchase was meant to complete by July. Instead, it completed in October and I moved to my new home.
 
-So the start of 2022 start with job chaos. The end of it has been filled with home-buying and moving chaos. 
+So 2022 started with job chaos. It ended filled with home-buying and moving chaos. 
 
 Little wonder then, that my attention has been otherwise divided and focused on matters _other than_ my 2022 goals. 
 

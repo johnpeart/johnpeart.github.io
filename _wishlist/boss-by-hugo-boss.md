@@ -6,4 +6,4 @@ purchased: true
 gift-idea: true
 link: "https://www.boots.com/boss-bottled-eau-de-toilette-100ml-10012151"
 ---
-Eau de toulette aftershave; size and costs vary.
+Aftershave; size and costs vary.

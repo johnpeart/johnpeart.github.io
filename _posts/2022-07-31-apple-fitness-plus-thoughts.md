@@ -38,7 +38,9 @@ That's not what happens though. The first time â€“ and, in fact, _every_ time â€
 
 There's no onboarding experience to speak of. You just have to _know_ what you're looking for. The experience is akin to browsing the Netflix catalogue; carousel after carousel of seemingly unrelated content, in a seemingly random order. That's not an experience that makes sense for a first time user, let alone a fitness newbie. I don't think it even makes sense now, after 6 months of using the service.
 
-I've been doing most of my workouts immediately after I get up in the morning; bleary-eyed at 6:30am. That's not the moment in time where you want to be _browsing_ a catalogue of workouts. A sensible interface would be actively guiding me to suitable workouts. It would also queue them up based on my current workout, my past workouts and my wider preferences. My iPhone is recording every workout I have used on the service. My Apple Watch is tracking my steps, my calorie burn and more. My device has the data; I would have expected that data to tailor my experience.
+I've been doing most of my workouts immediately after I get up in the morning; bleary-eyed at 6:30am. That's not the moment in time where you want to be _browsing_ a catalogue of workouts. 
+
+A sensible interface would be actively guiding me to suitable workouts. It would also queue them up based on my current workout, my past workouts and my wider preferences. My iPhone is recording every workout I have used on the service. My Apple Watch is tracking my steps, my calorie burn and more. My device has the data; I would have expected that data to tailor my experience.
 
 ## The content
 

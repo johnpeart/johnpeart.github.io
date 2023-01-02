@@ -2,7 +2,6 @@
 title: "A week abroad with Revolut"
 excerpt: "I've been to Sweden recently, and I didn't take any cash with me. Instead, I took a Revolut card."
 layout: post
-permalink: /2016/05/28/week-abroad-with-revolut
 category:
   - digital
 ---

@@ -3,7 +3,6 @@ title: "What do you call a collective of lesbian, gay, bi and trans people?"
 author: John Peart
 excerpt: "Is it LGBT? LGBTQ? LGBTI? LGBTQIA2S? What about queer? Maybe big data holds the answer."
 layout: post
-permalink: /2018/01/23/collective-word-for-the-gay-community
 category:
   - diversity
   - LGBT
@@ -41,14 +40,14 @@ Using these two sources, I’ve looked for the terms `LGBT`, `LGBTQ`, `LGBTI`, `
 
 At the time of writing, Google’s Ngram Viewer covers books printed between 1800 and 2008. The chart below shows the frequencies of the search terms across all books in Google’s corpus, as a percentage of all words in the corpus.
 
-{% include figure.html
-	url="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/ngram-viewer-lgbt-queer.png"
-	alt="Chart showing counts of search terms. Queer is by far the most popular term from 1800 through 2008."
-	figure="1"
-	caption="Ngram frequencies of the terms LGBT, LGBTI, LGBTQ, Queer and SOGI"
-	linktext="Interactive chart"
-	link="https://books.google.com/ngrams/interactive_chart?content=Queer%2CLGBT%2CLGBTI%2CLGBTQ%2CSOGI&year_start=1800&year_end=2000&corpus=15&smoothing=2&share=&direct_url=t1%3B%2CQueer%3B%2Cc0%3B.t1%3B%2CLGBT%3B%2Cc0%3B.t1%3B%2CLGBTI%3B%2Cc0%3B.t1%3B%2CLGBTQ%3B%2Cc0%3B.t1%3B%2CSOGI%3B%2Cc0"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/ngram-viewer-lgbt-queer.png" alt="Chart showing counts of search terms. Queer is by far the most popular term from 1800 through 2008.">
+  <figcaption>
+    <strong>Figure 1:</strong>
+    Ngram frequencies of the terms LGBT, LGBTI, LGBTQ, Queer and SOGI.
+    <a href="https://books.google.com/ngrams/interactive_chart?content=Queer%2CLGBT%2CLGBTI%2CLGBTQ%2CSOGI&amp;year_start=1800&amp;year_end=2000&amp;corpus=15&amp;smoothing=2&amp;share=&amp;direct_url=t1%3B%2CQueer%3B%2Cc0%3B.t1%3B%2CLGBT%3B%2Cc0%3B.t1%3B%2CLGBTI%3B%2Cc0%3B.t1%3B%2CLGBTQ%3B%2Cc0%3B.t1%3B%2CSOGI%3B%2Cc0" title="Open Interactive chart in new window" target="_blank">Interactive chart</a>.
+  </figcaption>
+</figure>
 
 ### 1. ‘Queer’ is clearly the most popular
 
@@ -70,14 +69,14 @@ Google’s Trends tool allows us to look at search term data since 2004. Whilst 
 
 The graph below shows, from 2004 to present, the relative popularity of terms people actually used when searching on Google.
 
-{% include figure.html
-	url="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-lgbt-queer.png"
-	alt="Chart showing relative popularity of search terms. Queer is declining in popularity, as LGBT gains."
-	figure="2"
-	caption="Relative popularity of the search terms LGBT, LGBTI, LGBTQ, Queer and SOGI"
-	linktext="Interactive charts"
-	link="https://trends.google.co.uk/trends/explore?date=all&q=LGBT,LGBTI,LGBTQ,Queer,SOGI"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-lgbt-queer.png" alt="Chart showing relative popularity of search terms. Queer is declining in popularity, as LGBT gains.">
+  <figcaption>
+    <strong>Figure 2:</strong>
+    Relative popularity of the search terms LGBT, LGBTI, LGBTQ, Queer and SOGI.
+    <a href="https://trends.google.co.uk/trends/explore?date=all&amp;q=LGBT,LGBTI,LGBTQ,Queer,SOGI" title="Open Interactive charts in new window" target="_blank">Interactive charts</a>.
+  </figcaption>
+</figure>
 
 ### 1. LGBT is currently the most popular search term
 
@@ -95,14 +94,14 @@ Unlike the Ngram corpus, `SOGI` very rarely appears as a term. This likely speak
 
 As you might expect, the most popular terms in different countries are, well, different. Canada, Mexico and mainland Europe tend to search for `Queer` whereas the US and UK tend to search for `LGBT`.
 
-{% include figure.html
-	url="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-world-lgbt-queer.png"
-	alt="Chart showing most popular search terms by country."
-	figure="3"
-	caption="Most popular search terms by country"
-	linktext="Interactive charts"
-	link="https://trends.google.co.uk/trends/explore?date=all&q=LGBT,LGBTI,LGBTQ,Queer,SOGI"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-world-lgbt-queer.png" alt="Chart showing most popular search terms by country.">
+  <figcaption>
+    <strong>Figure 3:</strong>
+    Most popular search terms by country.
+    <a href="https://trends.google.co.uk/trends/explore?date=all&amp;q=LGBT,LGBTI,LGBTQ,Queer,SOGI" title="Open Interactive charts in new window" target="_blank">Interactive charts</a>.
+  </figcaption>
+</figure>
 
 Broadly speaking, if you look just at the UK’s data, it mirror the global trends for language use overall; though the use of `Queer` is less common than it is worldwide.
 

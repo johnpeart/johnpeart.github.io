@@ -3,7 +3,6 @@ title: "Diversity: don’t civil servants have something better to be doing?"
 author: John Peart
 excerpt: "If every public service is created by straight, white, middle-class men, the result is ‘great’ services for straight, white, middle-class men."
 layout: post
-permalink: /2017/05/12/diversity-in-public-services
 category:
   - diversity
   - LGBT

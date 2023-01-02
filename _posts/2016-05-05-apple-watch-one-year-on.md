@@ -2,7 +2,6 @@
 title: "A year with Apple Watch"
 excerpt: "Last year, I wrote about what it was like living with Apple Watch after 2 weeks. 12 months on, is it any use?"
 layout: post
-permalink: /2016/05/05/a-year-with-apple-watch
 category:
   - digital
 ---

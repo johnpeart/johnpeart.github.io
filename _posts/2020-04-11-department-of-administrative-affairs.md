@@ -3,7 +3,6 @@ title: Building a Twitter bot for the ‘Department of Administrative Affairs’
 author: John Peart
 excerpt: What it might look like if Sir Humphrey Appleby's department – the Department of Administrative Affairs – had access to Twitter as part of “Yes, Minister”, and how to build your own.
 layout: post
-permalink: /2020/04/11/department-of-administrative-affairs
 category:
   - digital
 redirect_from:
@@ -34,9 +33,14 @@ It takes a random quote from a pre-defined list, generates an image dynamically 
 
 I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the [Department of Bad Ideas](https://badideas.podcast.johnpe.art).
 
-{% include figure.html
-url="/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right" figure="1" caption="The recently refreshed brand identity for the Department of Administrative Affairs" linktext="This mirrors my new podcast, the Department of Bad Ideas"
-link="https://badideas.podcast.johnpe.art" %}
+<figure>
+  <img src="/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right">
+  <figcaption>
+    <strong>Figure 1:</strong>
+    The recently refreshed brand identity for the Department of Administrative Affairs.
+    <a href="https://badideas.podcast.johnpe.art" title="Open This mirrors my new podcast, the Department of Bad Ideas in new window" target="_blank">This mirrors my new podcast, the Department of Bad Ideas</a>.
+  </figcaption>
+</figure>
 
 I’ve written a somewhat step-by-step of the process, if you wanted to create you *own* bot, below.
 
@@ -119,8 +123,14 @@ Whilst you’re on the `Settings` tab, you may as well also set up your buildpac
 
 This bot is built using a framework called `twit`, which relies on Node.js, so you’ll need to add that buildpack first. Select the `Add buildpack` button and then choose `nodejs` from the officially supported buildpacks.
 
-{% include figure.html
-url="/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard" figure="2" caption="The Add Buildpacks screen in Heroku Dashboard" %}
+<figure>
+  <img src="/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard">
+  <figcaption>
+    <strong>Figure 2:</strong>
+    The Add Buildpacks screen in Heroku Dashboard.
+
+  </figcaption>
+</figure>
 
 In order to generate the images that our bot will tweet, you need access to the graphics library Cairo. There is no official buildpack for this library and its dependencies, but unofficial versions do exist. I’m currently using [this one](https://github.com/sky-uk/heroku-buildpack-cairo) that’s been maintained by Sky. (Yes, the people who do broadband and TV). Select the `Add buildpack` button again, and enter the following URL:
 
@@ -184,13 +194,13 @@ Aside from the questions that the questionnaire guides you through, there are so
 
 The `main` setting tells the server which file stores the primary code for your bot. In the case of the @DeptOfAdmin bot, this was called `server.js`.
 
-```JSON
+```js
 "main": "server.js"
 ```
 
 You can create custom scripts that trigger various files and commands as part of `package.json`. This command is the one used by Heroku to start your bot. It doesn’t matter what keyword you choose; for @DeptOfAdmin I used `start` as the script keyword, and told it to trigger the `server.js` file.
 
-```JSON
+```js
 "scripts": {
 	"start": "node server.js"
 }
@@ -198,7 +208,7 @@ You can create custom scripts that trigger various files and commands as part of
 
 There are several frameworks that are required to generate the images and post them to Twitter. They can only be installed thanks to the buildpacks you have already set up Heroku.
 
-```JSON
+```js
 "dependencies": {
 	"canvas": "2.6.1",
 	"express": "4.17.1",

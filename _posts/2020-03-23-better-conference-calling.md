@@ -3,7 +3,6 @@ title: How to hold better video and telephone conference calls
 author: John Peart
 excerpt: Having a conference call isn’t harder than a face-to-face meeting, it’s just different. Here are some tips to doing it better.
 layout: post
-permalink: /2020/03/23/better-conference-calling
 category:
   - work
   - digital
@@ -19,7 +18,7 @@ I’m fortunate that my career to date has prepared me for this moment. I’ve m
 
 ### Keep meetings short
 
-Unless there is a very good reason, time limit your calls to no more than 30 minutes. In my experience, conference calls — especially over the phone — are harder to keep paying attention to. You have to actively listen a lot more than you would face-to-face. That can be draining, so keep your meetings short and no more than 30 minutes without a very good reason. 
+Unless there is a very good reason, time limit your calls to no more than 30 minutes. In my experience, conference calls — especially over the phone — are harder to keep paying attention to. You have to actively listen a lot more than you would face-to-face. That can be draining, so keep your meetings short and no more than 30 minutes without a very good reason.
 
 ### Use the best technology you have
 
@@ -55,7 +54,7 @@ This is especially important if you’re the chair. In fact, if you’re chairin
 
 ### Do a roll-call
 
-Check who’s dialled in. Doing this will, obviously, let you know who’s made it and who hasn’t. More importantly it helps you to structure your call and to write up a note of what was discussed. 
+Check who’s dialled in. Doing this will, obviously, let you know who’s made it and who hasn’t. More importantly it helps you to structure your call and to write up a note of what was discussed.
 
 ### Mute people
 
@@ -81,18 +80,18 @@ Remind presenters to say which page or slide number they are speaking to. This o
 
 ### Refer back to the agenda
 
-Introduce each agenda item as the meeting progresses. Very briefly set context for the item, referring back to the agenda. This helps to maintain meeting structure and, again, makes the meeting easier for everyone to follow. 
+Introduce each agenda item as the meeting progresses. Very briefly set context for the item, referring back to the agenda. This helps to maintain meeting structure and, again, makes the meeting easier for everyone to follow.
 
 ### Seek specific, predictable feedback
 
 Ask direct questions of specific people. Don’t just open up each item for general comments from everyone; that’s the fastest way to invite people to talk over each other and to lose control of the agenda. Instead, ask specific people to comment and ask them a direct question.
 
-|:--|:--|
+|:----|:--|
 | **Don’t ask**  | “Does anyone have any comments?” |
 | **Do ask** | “Dan, what do you think this means for your delivery timelines?” |
 {:.first-col-min-width-25}
 
-For larger meetings, ask participants to speak in a consistent pattern. Use your roll-call list to ask each participant to speak in turn when you are soliciting feedback. Participants will be less tempted to interrupt if they know their chance to speak will arise predictably. 
+For larger meetings, ask participants to speak in a consistent pattern. Use your roll-call list to ask each participant to speak in turn when you are soliciting feedback. Participants will be less tempted to interrupt if they know their chance to speak will arise predictably.
 
 |:--|:--|
 | **Don’t ask**  | “Does *anyone* have any comments?” |
@@ -119,12 +118,12 @@ When the call is done, hang up. Don’t be tempted to hang around in a sub-group
 
 Send a summary of the discussion and any actions to participants. Don’t assume your technology has worked flawlessly or that everyone was paying attention all the time. Send a written record to confirm that everyone knows what was discussed, what was agreed and what the next steps are.  This doesn’t need to be a verbatim transcript of the meeting; a summary of key points is usually sufficient. This is also helpful, obviously, for those who couldn’t make the call.
 
-## That’s it! 
+## That’s it!
 {:.no_toc}
 
 It is not an impossible task to keep your team going just because you don’t sit next to them. Conference calls can be just as effective as face-to-face meetings. You just need to prepare for them and effectively structure them. The more you do it, the easier it will get; and who knows, by the time this pandemic is finished you might prefer them to in-person meetings!
 
 > **All posts in this series**
-> 
+>
 > 1. [How to hold better video and telephone conference calls](/2020/03/23/better-conference-calling)
 > 2. [How to be a better communicator when your team is working remotely](/2020/03/28/better-communicating-when-working-remotely)

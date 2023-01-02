@@ -5,7 +5,6 @@ excerpt: "This speech was delivered in my capacity as a member of NUS’ Nationa
 
 layout: post
 
-permalink: /2009/12/10/the-challenge-of-student-engagement/
 
 category:
   - archive

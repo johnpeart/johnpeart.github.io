@@ -2,7 +2,6 @@
 title: "Who would win Eurovision if population size mattered?"
 excerpt: "Every country gets the same douze points when voting in the Eurovision Song Contest. But what if they didn't?"
 layout: post
-permalink: /2015/04/27/eurovision-voting-by-population-size/
 redirect_from: 
 - /2015/4/27/eurovision-voting-by-population-size/
 - /2015/04/27/archive/eurovision-voting-by-population-size/

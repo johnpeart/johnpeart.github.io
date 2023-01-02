@@ -3,7 +3,6 @@ title: "Creating a scoreboard for my Eurovision house party"
 author: John Peart
 excerpt: "I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it."
 layout: post
-permalink: /2019/06/02/building-a-eurovision-scoreboard
 category:
   - digital
   - eurovision
@@ -98,6 +97,7 @@ You need to know the `YOUR-SPREADSHEET-ID` — which will be a long random alpha
 
 The first thing I needed was a function that could load the data. I created a function `loadScript()` which accepts two arguments — the `url` of the Google Sheet and a `callback` to trigger once it's loaded.
 
+{% raw %}
 ```javascript
 function loadScript(url, callback)
 {
@@ -116,6 +116,7 @@ function loadScript(url, callback)
     head.appendChild(script);
 }
 ```
+{% endraw %}
 
 The `url` argument is constructed from the `YOUR-SPREADSHEET-ID` you hunted down earlier.
 
@@ -147,14 +148,14 @@ In the javascript file, I used some Liquid markup to iterate through each row of
 
 [^3]: I could have achieved the same thing in javascript, but I was in a rush and didn't want to brush up on javascript arrays!
 
-{%raw%}
+{% raw %}
 ```javascript
 var onDataLoaded = (data) => {
 
-	{% for entry in site.data.data %}
+	{%- for entry in site.data.data -%}
 	    var {{ entry.Name | remove: " " }} = data.feed.entry.find((entry) => entry.title.$t == '{{ entry.CellReference }}').content.$t
 	    document.getElementById('entry-{{ entry.Name | remove: " " }}').innerHTML = {{ entry.Name | remove: " " }}
-	{% endfor %}
+	{%- endfor -%}
 
 }
 ```
@@ -203,7 +204,7 @@ This means that, after the page has loaded, the script will download the data fr
 
 Put all that together, and you get this:
 
-{%raw%}
+{% raw %}
 ```javascript
 window.onload = function() {
 	loadScript("https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&callback=onDataLoaded", getNewData)
@@ -238,10 +239,10 @@ function loadScript(url, callback)
 
 var onDataLoaded = (data) => {
 
-	{% for entry in site.data.data %}
+	{%- for entry in site.data.data -%}
 	    var {{ entry.Name | remove: " " }} = data.feed.entry.find((entry) => entry.title.$t == '{{ entry.CellReference }}').content.$t
 	    document.getElementById('entry-{{ entry.Name | remove: " " }}').innerHTML = {{ entry.Name | remove: " " }}
-	{% endfor %}
+	{%- endfor -%}
 
 }
 ```

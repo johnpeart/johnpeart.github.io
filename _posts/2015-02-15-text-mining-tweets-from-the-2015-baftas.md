@@ -2,7 +2,6 @@
 title: "Text mining tweets from the 2015 BAFTAs"
 excerpt: "I decided to do some content analysis of the 2015 BAFTA awards using live streaming data from Twitter. If you like graphs, you'll love this."
 layout: post
-permalink: /2015/02/15/text-mining-tweets-from-the-2015-baftas/
 category:
   - data
 ---

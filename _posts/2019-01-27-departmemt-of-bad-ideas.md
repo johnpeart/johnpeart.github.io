@@ -4,7 +4,6 @@ author: John Peart
 excerpt: "It’s one of my new year’s resolutions: and here’s the plan."
 layout: post
 image: "https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png"
-permalink: /2019/01/27/department-of-bad-ideas
 category:
   - podcast
 ---

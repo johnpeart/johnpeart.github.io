@@ -4,7 +4,6 @@ author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas. This series of posts tell you a bit about how I’m doing it, in case you want to make your own."
 layout: post
 image: https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png
-permalink: /2019/02/11/getting-started-department-of-bad-ideas
 category:
   - podcast
 ---

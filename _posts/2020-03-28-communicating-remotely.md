@@ -3,7 +3,6 @@ title: How to be a better communicator when your team is working remotely
 author: John Peart
 excerpt: Sharing a few simple tips to help you communicate better with your colleagues when emails and instant messages take the place of face-to-face conversation.
 layout: post
-permalink: /2020/03/28/better-communicating-when-working-remotely
 category:
   - work
   - digital

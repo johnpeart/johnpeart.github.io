@@ -3,7 +3,6 @@ title: "Reviewing my progress against my 2021 goals"
 author: John Peart
 excerpt: "A qualified success for 2021."
 layout: post
-permalink: /2021/12/21/2020-resolutions-review
 image: /assets/images/social/goals/goals.png
 category:
   - personal
@@ -21,9 +20,9 @@ This time last year I set myself [a series of goals](/2020/12/31/setting-goals-f
 6. drink less alcohol
 7. save some money
 
-Each of these goals were bitesized, measurable and [published online](//www.johnpe.art/goals) so that I would stick to them. 
+Each of these goals were bitesized, measurable and [published online](//www.johnpe.art/goals) so that I would stick to them.
 
-My aim is to set stretching goals, and – because they are stretching – achieve 80% of everything. After I exceeded a couple of goals last year though, I also set myself stretch goals this year. 
+My aim is to set stretching goals, and – because they are stretching – achieve 80% of everything. After I exceeded a couple of goals last year though, I also set myself stretch goals this year.
 
 ## How did I do?
 
@@ -31,7 +30,7 @@ It's been a difficult year again in 2021. *You know, with Covid and everything*.
 
 ### 1. Eat less meat
 
-**I've achieved this goal.** My goal was to go meat-free twice a week throughout this year. My stretch goal was to do it three times a week. I went consciously meat-free on 97 days this year – just shy of twice a week, on average. No doubt, I forgot to record some others too. 
+**I've achieved this goal.** My goal was to go meat-free twice a week throughout this year. My stretch goal was to do it three times a week. I went consciously meat-free on 97 days this year – just shy of twice a week, on average. No doubt, I forgot to record some others too.
 
 I probably only achieved this goal by accident. I was sticking to it much more rigidly in the first half of the year; largely thanks to fastidious meal planning. That means this goal didn't have the desired outcome, which was to form new healthier eating habits.
 
@@ -45,7 +44,7 @@ This was easier to stick to than I expected but, unlike when I quit Facebook in 
 
 ### 3. Be more mindful
 
-**I didn't achieve this goal.** The aim here was to do some "mindfulness" at least once a day for 5 minutes. 
+**I didn't achieve this goal.** The aim here was to do some "mindfulness" at least once a day for 5 minutes.
 
 I tried really hard to make this stick, and it just didn't. I tried *Headspace* app. I tried the *Breathe* app on my Apple Watch. Nothing stuck. I eventually gave up after the first month of failing day-in-day-out.
 
@@ -53,13 +52,13 @@ I have found a greater affinity for going on long walks and listening to podcast
 
 ### 4. Give something back
 
-**I abandoned this goal – but for a good reason!** I kept this goal around from 2020 because I wanted to help a charity out. But that hasn't worked out. 
+**I abandoned this goal – but for a good reason!** I kept this goal around from 2020 because I wanted to help a charity out. But that hasn't worked out.
 
-In more positive news, I've become the Chair of the [Civil Service LGBT+ Network](https://www.civilservice.lgbt). I think that commitment to 'giving something back' probably warrants having not found a trustee or governor's position. 
+In more positive news, I've become the Chair of the [Civil Service LGBT+ Network](https://www.civilservice.lgbt). I think that commitment to 'giving something back' probably warrants having not found a trustee or governor's position.
 
 ### 5. Keep writing blog posts
 
-**I didn't achieve this goal.** I was meant to write a blog post once a month this year, as I have for a number of years now. I set myself a stretch goal to do 18 blog posts in total. I didn't write anywhere near that number. 
+**I didn't achieve this goal.** I was meant to write a blog post once a month this year, as I have for a number of years now. I set myself a stretch goal to do 18 blog posts in total. I didn't write anywhere near that number.
 
 Honestly, I just had nothing I felt I wanted to write about. So I didn't write it. I did, write a few posts for the Civil Service LGBT+ Network though, so I think that counts for something!
 

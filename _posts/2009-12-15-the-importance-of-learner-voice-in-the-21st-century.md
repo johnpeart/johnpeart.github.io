@@ -5,7 +5,6 @@ excerpt: "This speech was delivered in my capacity as a member of NUS National E
 
 layout: post
 
-permalink: /2009/12/15/the-importance-of-learner-voice-in-the-21st-century/
 
 category:
   - archive

@@ -3,7 +3,6 @@ title: "Apple’s peculiar typographic choices"
 author: John Peart
 excerpt: "You will not be able to un-see this once you have noticed it."
 layout: post
-permalink: /2019/12/09/apples-peculiar-typography-choices
 category:
   - digital
   - design
@@ -60,11 +59,23 @@ Reader, I'll level with you. I could overlook these totally bananas inconsistenc
 
 I mean, *just look at them*![^3]
 
-{% include figure.html
-url="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-tv-wordmarks.png" alt="Apple's Apple TV+ and Apple TV 4K wordmarks." figure="1" caption="Apple's TV+ and TV 4K wordmarks, x-height differences highlighted and zoomed in" %}
+<figure>
+  <img src="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-tv-wordmarks.png" alt="Apple's Apple TV+ and Apple TV 4K wordmarks.">
+  <figcaption>
+    <strong>Figure 1:</strong>
+    Apple's TV+ and TV 4K wordmarks, x-height differences highlighted and zoomed in.
 
-{% include figure.html
-url="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-music-wordmarks.png" alt="Apple's Apple Music wordmarks in both title and small caps cases." figure="2" caption="Apple Music wordmarks, x-height and cap height differences highlighted and zoomed in" %}
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-music-wordmarks.png" alt="Apple's Apple Music wordmarks in both title and small caps cases.">
+  <figcaption>
+    <strong>Figure 2:</strong>
+    Apple Music wordmarks, x-height and cap height differences highlighted and zoomed in.
+
+  </figcaption>
+</figure>
 
 The text's x-height is different in each.
 

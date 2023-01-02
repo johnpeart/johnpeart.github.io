@@ -5,7 +5,6 @@ excerpt: "“It is the job of reviews to make recommendations and the job of Gov
 
 layout: post
 
-permalink: /2010/10/24/fees-or-taxes-that-is-the-question/
 
 category:
   - archive

@@ -2,7 +2,6 @@
 title: "A 21st century health service: fax machines, print outs and misinformation"
 excerpt: "Who knew that changing GPs surgery would be so hard in 2016?"
 layout: post
-permalink: /2016/11/02/21st-century-health-service
 category:
   - digital
   - services

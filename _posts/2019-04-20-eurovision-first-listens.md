@@ -4,8 +4,7 @@ author: John Peart
 excerpt: "I’ve listened to every entry to this year’s Eurovision Song Contest so you don’t have to. Preview, review and snark for every entry, in 280 characters or less."
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
-permalink: /2019/04/20/eurovision-first-listens
-tags:
+category:
   - eurovision
 
 entries:

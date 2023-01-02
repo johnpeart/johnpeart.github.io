@@ -2,7 +2,6 @@
 title: "What factors explain the decision to dissolve the Financial Services Authority?"
 excerpt: "This piece explores the arguments used during two phases of regulatory reform of the financial services sector. I use content analysis of Parliamentary debates to understand the causes of these policy changes."
 layout: post
-permalink: /2013/06/01/what-factors-explain-the-decision-to-dissolve-the-financial-services-authority/
 category:
   - government
   - data
@@ -43,8 +42,8 @@ In this instance, the Conservative and Liberal Democrat parties should seek to d
 | Statement: Mark Hoban MP (Banking Reform)                             | Jun 17, 2010 |
 | Financial Services Act 2012 — Second Reading                          | Feb 6, 2012  |
 | Financial Services Act 2012 — Third Reading                           | May 22, 2012 |
-|=======================================|
-| **TABLE 1:** Data sources – transcripts used in Alceste |
+
+***TABLE 1:** Data sources – transcripts used in Alceste*
 
 I employ automated content analysis, using the Alceste software package, to analyse two sets of transcripts from the UK House of Commons, one prior to the 2010 Act, and another prior to the 2012 Act (Table 1). Speeches are likely to be most representative of actors’ motivations, and provide sufficiently reliable data for analysis. Comparing each set of debates allows us to assess motivations over time and test the hypothesis, which, if accurate, should show rhetoric as a prominent feature throughout the debates.
 
@@ -57,8 +56,8 @@ The exact way that Alceste completes the analysis has been extensively detailed 
 | 5% (*)              | less than 6.63  |
 | 1% (**)             | less than 10.80 |
 | <1% (***)           | more than 10.80 |
-|=======================================|
-|**TABLE 2:** Chi2 significance tables|
+
+***TABLE 2:** Chi2 significance tables*
 
 ## Findings
 
@@ -69,8 +68,8 @@ The exact way that Alceste completes the analysis has been extensively detailed 
 | ICUs                  | 115          | 282            |
 | Classified ECUs       | 889 (81.68%) | 1,132 (65.13%) |
 | Lexical classes       | 4            | 3              |
-|=======================================|
-| **TABLE 3:** Basic results |
+
+***TABLE 3:** Basic results*
 
 ![Figure 1][fig-1]
 

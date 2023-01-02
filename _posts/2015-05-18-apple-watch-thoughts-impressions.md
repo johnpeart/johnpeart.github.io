@@ -2,7 +2,6 @@
 title: "Two weeks with Apple Watch"
 excerpt: "Apple Watch is here. I've got one. And this is what it's like to live with."
 layout: post
-permalink: /2015/05/18/apple-watch-thoughts-impressions/
 redirect_from: 
 - /2015/5/18/apple-watch-thoughts-impressions/
 - /2015/05/18/archive/apple-watch-thoughts-impressions/

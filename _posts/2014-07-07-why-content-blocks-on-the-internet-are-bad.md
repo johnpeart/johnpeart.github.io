@@ -2,7 +2,6 @@
 title: "Why content blocks on the Internet are bad"
 excerpt: "Despite it’s inventor, Tim Berners-Lee’s proclamation that the World Wide Web was “for everyone”, many countries around the world are treating the Web and Internet in ways that make it less open and free, and more like an Orwellian dystopia."
 layout: post
-permalink: /2014/07/07/why-content-blocks-on-the-internet-are-bad/
 category:
   - digital
 ---

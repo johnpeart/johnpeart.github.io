@@ -4,8 +4,7 @@ author: John Peart
 excerpt: "Thoughts on the entries for the 2018 Eurovision Song Contest in 280 characters or less."
 layout: post
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
-permalink: /2018/04/18/eurovision-first-listens
-tags:
+category:
   - eurovision
 
 entries:
@@ -504,5 +503,6 @@ As I did last year, I’m setting a strict tweet-sized limit on my thoughts. Twi
 [^1]: Of course, Portugal — as last year’s winner — along with France, Germany, Italy, Spain, and the United Kingdom — as the biggest financial contributors — automatically qualify for the final and are presented in alphabetical order at the end.
 
 ## The entries
+
 
 {% include blog/eurovision.html %}

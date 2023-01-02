@@ -3,7 +3,6 @@ title: "Living with Apple Watch Series 4"
 author: John Peart
 excerpt: "At the foothills of ambient computing, the Apple Watch Series 4 fixes most everything I disliked about the original hardware, without fixing the flaws in the software."
 layout: post
-permalink: /2018/11/28/apple-watch-series-4-impressions
 category:
   - digital
 ---

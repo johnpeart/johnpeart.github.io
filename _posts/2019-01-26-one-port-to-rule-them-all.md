@@ -3,7 +3,6 @@ title: "I’ve fallen in love with a USB connector"
 author: John Peart
 excerpt: "The USB Type C connector: one port to rule them all."
 layout: post
-permalink: /2019/01/26/one-port-to-rule-them-all
 category:
   - digital
 ---

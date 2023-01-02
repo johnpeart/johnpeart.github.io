@@ -3,7 +3,6 @@ title: "Thoughts on Apple Fitness+ from a fitness newbie"
 author: John Peart
 excerpt: "6 months trying to fix my broken body via home workouts."
 layout: post
-permalink: /2022/07/31/apple-fitness-plus-thoughts
 image: /assets/images/social/goals/goals.png
 category:
   - personal
@@ -23,23 +22,24 @@ Signing up for Fitness+ is a typically effortless process, as with any in-app pu
 
 The effortlessness stopped pretty much immediately after signing up, however.
 
-I expected to be given some kind of induction to the service. To be asked how active I was, how active I wanted to be, or what my goals were for using the service; that kind of thing. 
+I expected to be given some kind of induction to the service. To be asked how active I was, how active I wanted to be, or what my goals were for using the service; that kind of thing.
 
 Over time, I expected to be given guidance on what to focus on next. The Apple Watch does all this for its general activity tracking, after all.
 
-That's not what happens though. The first time – and, in fact, _every_ time – you load the app, you are presented with a seemingly endless wall of complexity and noise. 
+That's not what happens though. The first time – and, in fact, _every_ time – you load the app, you are presented with a seemingly endless wall of complexity and noise.
 
-{% 
-  include figure.html 
-  url="/assets/images/posts/2022/07/31/apple-fitness-plus-thoughts/apple-fitnessplus-apple-tv-screenshot.jpg" 
-  alt="A screenshot of the Apple Fitness+ app on Apple TV" 
-  figure="1" 
-  caption="The first experience of Apple Fitness+ is labyrinthian to the uninitiated. Just look at this screenshot from the Apple TV" 
-%}
+<figure>
+  <img src="/assets/images/posts/2022/07/31/apple-fitness-plus-thoughts/apple-fitnessplus-apple-tv-screenshot.jpg" alt="A screenshot of the Apple Fitness+ app on Apple TV">
+  <figcaption>
+    <strong>Figure 1:</strong>
+    The first experience of Apple Fitness+ is labyrinthian to the uninitiated. Just look at this screenshot from the Apple TV.
+
+  </figcaption>
+</figure>
 
 There's no onboarding experience to speak of. You just have to _know_ what you're looking for. The experience is akin to browsing the Netflix catalogue; carousel after carousel of seemingly unrelated content, in a seemingly random order. That's not an experience that makes sense for a first time user, let alone a fitness newbie. I don't think it even makes sense now, after 6 months of using the service.
 
-I've been doing most of my workouts immediately after I get up in the morning; bleary-eyed at 6:30am. That's not the moment in time where you want to be _browsing_ a catalogue of workouts. 
+I've been doing most of my workouts immediately after I get up in the morning; bleary-eyed at 6:30am. That's not the moment in time where you want to be _browsing_ a catalogue of workouts.
 
 A sensible interface would be actively guiding me to suitable workouts. It would also queue them up based on my current workout, my past workouts and my wider preferences. My iPhone is recording every workout I have used on the service. My Apple Watch is tracking my steps, my calorie burn and more. My device has the data; I would have expected that data to tailor my experience.
 
@@ -51,9 +51,9 @@ After trying out a few different workout types – core, strength, HIIT, yoga a
 
 There are dozens upon dozens of 5, 10 and 20 minute sessions available on the service. Each session is pre-recorded. They all start with a warm up of varying lengths – the longer the session, the longer the warm up – and very short cooldowns. A typical 10 minute workout has about 1 minute of warm-up, 8 minutes of workout and 1 minute of cooldown.
 
-Increasingly, I've found myself falling back on the same 4 or 5 workouts, and pushing myself to do them more intensely. As I mentioned, the interface design doesn't really help you find other workouts that would build on the session you've just completed. So, faced with too many choices, I've just opted to keep things simple. That does mean that the content can feel stale pretty quickly, but that's to be expected from a pre-recorded service. 
+Increasingly, I've found myself falling back on the same 4 or 5 workouts, and pushing myself to do them more intensely. As I mentioned, the interface design doesn't really help you find other workouts that would build on the session you've just completed. So, faced with too many choices, I've just opted to keep things simple. That does mean that the content can feel stale pretty quickly, but that's to be expected from a pre-recorded service.
 
-The videos themselves are, perhaps not unexpectedly, incredibly well produced. It's the most expensive looking exercise video you've ever seen; in my case, presented in glorious 4K on a 50 inch premium screen. The studio is pristine. Everything has a high-level of polish. 
+The videos themselves are, perhaps not unexpectedly, incredibly well produced. It's the most expensive looking exercise video you've ever seen; in my case, presented in glorious 4K on a 50 inch premium screen. The studio is pristine. Everything has a high-level of polish.
 
 And, of course, the trainers themselves are immaculately presented; but never to a point where I've felt intimidated by the physical prowess of the people on screen. *Well, except for Molly*[^molly]. They're also seemingly nice people! I've been told trainers on other services can get a bit shouty; the tone of these trainers, and the structure of these sessions, is always encouraging and confidence building.
 

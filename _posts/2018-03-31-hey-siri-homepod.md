@@ -3,7 +3,6 @@ title: "Hey Siri, bring the beat in."
 author: John Peart
 excerpt: "One month with Apple’s “intelligent assistant” and the HomePod."
 layout: post
-permalink: /2018/03/31/hey-siri-homepod-review
 category:
   - digital
 ---

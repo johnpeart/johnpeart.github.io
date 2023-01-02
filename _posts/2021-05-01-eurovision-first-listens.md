@@ -4,7 +4,6 @@ author: John Peart
 excerpt: Eurovision is back. Yippee! I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less.
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
-permalink: /2021/05/01/eurovision-first-listens
 redirect_from:
 - /eurovision
 category:

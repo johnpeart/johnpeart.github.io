@@ -3,7 +3,6 @@ title: "#LGBTsurvey: things that didn’t surprise me"
 author: John Peart
 excerpt: "My third post in a series of reflections on the #LGBTsurvey, as one of the team who shaped it."
 layout: post
-permalink: /2018/12/05/national-lgbt-survey-what-didnt-surprise-me
 category:
   - government
   - diversity

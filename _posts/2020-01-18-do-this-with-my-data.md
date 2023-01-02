@@ -3,7 +3,6 @@ title: "On the occasion of my death, do this with my digital footprint"
 author: John Peart
 excerpt: "Whatever you do, please don’t memorialise me on social media."
 layout: post
-permalink: /2020/01/18/do-this-with-my-data
 category:
   - digital
 ---

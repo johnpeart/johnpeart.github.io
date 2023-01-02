@@ -4,8 +4,7 @@ author: John Peart
 excerpt: "Here we are again. First impressions of every track, in the order they'll appear, in less than a tweet each."
 layout: post
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
-permalink: /2017/04/21/eurovision-first-listens
-tags:
+category:
   - eurovision
 
 entries:

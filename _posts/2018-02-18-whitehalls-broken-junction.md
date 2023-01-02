@@ -3,7 +3,6 @@ title: "The most broken junctions in Westminster"
 author: John Peart
 excerpt: "Has anyone actually considered pedestrians when they’re designing these things?"
 layout: post
-permalink: /2018/02/18/whitehalls-broken-junctions
 category:
   - services
   - design
@@ -15,14 +14,14 @@ That route is definitely the shortest to get you from point A to point B. In ord
 
 It’s baffling because it is completely ignorant of the actual behaviours exhibited by people using this junction.
 
-{% include figure.html
-	url="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial.png"
-	alt="An aerial map of the junction at Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street."
-	figure="1"
-	caption="The junction of Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street"
-	linktext="Aerial photography from Apple Maps"
-	link="https://maps.apple.com/?q=51.501367,-0.129838&sll=51.501367,-0.129838&sspn=0.003009,0.007918&t=h"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial.png" alt="An aerial map of the junction at Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street.">
+  <figcaption>
+    <strong>Figure 1:</strong>
+    The junction of Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street.
+    <a href="https://maps.apple.com/?q=51.501367,-0.129838&amp;sll=51.501367,-0.129838&amp;sspn=0.003009,0.007918&amp;t=h" title="Open Aerial photography from Apple Maps in new window" target="_blank">Aerial photography from Apple Maps</a>.
+  </figcaption>
+</figure>
 
 I’m not familiar with the process by which town planning decisions get made. I’m told it’s a particularly tricky profession; there’s a royal institute for learning how to do town planning, so it must be hard. It strikes me though that anyone who had spent more than 2 minutes observing the flows of activity at this junction would know the crossings are in the wrong place.
 
@@ -30,12 +29,13 @@ This is a very busy junction as far as traffic is concerned. It’s not as busy 
 
 You can cross the road on Birdcage Walk to St James Park; you can cross the road from St James Park to the Churchill War Rooms, crossing Horse Guard’s Road. What you *can’t* do, in one crossing, is safely go from Storey’s Gate straight to the War Rooms (or in my case, usually, to the Cabinet Office or Foreign Office buildings).
 
-{% include figure.html
-	url="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-sketch.png"
-	alt="A sketch of the junction. I have added a red box where there should be an additional crossing."
-	figure="2"
-	caption="A sketch of the junction, including the obvious thing town planners missed"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-sketch.png" alt="A sketch of the junction. I have added a red box where there should be an additional crossing.">
+  <figcaption>
+    <strong>Figure 2:</strong>
+    A sketch of the junction, including the obvious thing town planners missed.
+  </figcaption>
+</figure>
 
 Hundreds of pedestrians a day must be faced with this seemingly innocuous navigation dilemma; and I’d wager most of them risk it and walk straight out in front of traffic.
 
@@ -45,25 +45,25 @@ It’s not the only junction designed with a total absence of common sense in We
 
 To put this in context, these are busy roads directly connected to Trafalgar Square and they are *really* wide - you could get at least 4 lanes of traffic down these roads with room for parking. These are not easy roads to cross without high-degrees of risk taking.
 
-{% include figure.html
-	url="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial2.png"
-	alt="An aerial map of the junction of the Mall and Horse Guards Road."
-	figure="3"
-	caption="The junction of the Mall and Horse Guards Road"
-	linktext="Aerial photography from Apple Maps"
-	link="https://maps.apple.com/?q=51.505856,-0.130749&sll=51.505856,-0.130749&sspn=0.003009,0.007918&t=h"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial2.png" alt="An aerial map of the junction of the Mall and Horse Guards Road.">
+  <figcaption>
+    <strong>Figure 3:</strong>
+    The junction of the Mall and Horse Guards Road.
+    <a href="https://maps.apple.com/?q=51.505856,-0.130749&amp;sll=51.505856,-0.130749&amp;sspn=0.003009,0.007918&amp;t=h" title="Open Aerial photography from Apple Maps in new window" target="_blank">Aerial photography from Apple Maps</a>.
+  </figcaption>
+</figure>
 
 Worse, one of the crossings photographed above is currently being removed - so if you’re on the wrong side of the road, you can’t cross at a pedestrian crossing at all without a 5 minute walk back the way you came.
 
-{% include figure.html
-	url="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial3.png"
-	alt="An aerial map of the junction at Parliament Square."
-	figure="4"
-	caption="The junction at Parliament Square"
-	linktext="Aerial photography from Apple Maps"
-	link="https://maps.apple.com/?q=51.501061,-0.126233&sll=51.501061,-0.126233&sspn=0.003462,0.005816&t=h"
-%}
+<figure>
+  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial3.png" alt="An aerial map of the junction at Parliament Square.">
+  <figcaption>
+    <strong>Figure 4:</strong>
+    The junction at Parliament Square.
+    <a href="https://maps.apple.com/?q=51.501061,-0.126233&amp;sll=51.501061,-0.126233&amp;sspn=0.003462,0.005816&amp;t=h" title="Open Aerial photography from Apple Maps in new window" target="_blank">Aerial photography from Apple Maps</a>.
+  </figcaption>
+</figure>
 
 Parliament Square is another example of these odd little design decisions. There are pedestrian crossings on 3 sides of this crossroads, but not all four.
 

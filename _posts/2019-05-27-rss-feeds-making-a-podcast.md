@@ -4,12 +4,9 @@ author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about how I got the RSS feed to work for the podcast."
 layout: post
 image: https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png
-permalink: /2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting
 category:
   - podcast
 ---
-
-{%raw%}
 
 As I mentioned in [my last post](/2019/02/11/department-of-bad-ideas-hosting-and-website), getting a podcast on to the Internet has turned out to be more difficult than I thought it would be. Creating the basic website was fairly straightforward, thanks to some [tools I’d used before](https://jekyllrb.com). Where I came unstuck was the RSS feed. 
 
@@ -120,10 +117,10 @@ Once you’ve put together the skeleton of your feed together and marked up the 
 The basic code uses a loop, based on the `_episodes` archive I created earlier, and it looks like this:
 
 ```liquid
-{% assign episodes = site.episodes | sort_by: date | reverse %}
-{% for episode in episodes %}
+{%- assign episodes = site.episodes | sort_by: date | reverse -%}
+{%- for episode in episodes -%}
 	// The RSS feed details needed for each episode
-{% endfor %}
+{%- endfor -%}
 ```
 
 This code takes the YAML front matter from each episode, and put it into the RSS feed in reverse date order (newest on top).
@@ -145,8 +142,6 @@ Github Pages doesn't support HTTP HEAD requests: so I needed to think of an alte
 This *doesn't* require you to move your site or RSS feed itself. You can just move your audio files, because the RSS feed will point Apple Podcasts (and the validator) towards the HTTP HEAD request-supporting server.
 
 *That's it!* You're all set to host your podcast — now on to the recording.
-
-{%endraw%}
 
 > **All posts in this series**
 > 

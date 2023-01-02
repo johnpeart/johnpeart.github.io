@@ -3,7 +3,6 @@ title: "Reviewing my progress against my 2019 goals"
 author: John Peart
 excerpt: "Better luck next time."
 layout: post
-permalink: /2019/12/26/2019-resolutions-review
 category:
   - personal
 ---

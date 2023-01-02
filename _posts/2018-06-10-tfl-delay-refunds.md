@@ -3,7 +3,6 @@ title: "How TfL keeps screwing me for delay refunds"
 author: John Peart
 excerpt: "Let me tell you about my ongoing woes with Finsbury Park station."
 layout: post
-permalink: /2018/06/10/tfl-delay-refunds
 category:
   - services
 ---

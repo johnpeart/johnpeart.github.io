@@ -3,8 +3,7 @@ title: "First listens of every Eurovision 2016 entry"
 excerpt: "I've done the hard work to make your Eurovision experience simple once again this year. Here are my first impressions of this year's Eurovision Song Contest entries."
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
-permalink: /2016/04/17/eurovision-first-listens
-tags:
+category:
   - eurovision
 
 entries:

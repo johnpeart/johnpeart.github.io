@@ -2,7 +2,6 @@
 title: Are we all expendable?
 excerpt: "It’s a simple fact that TfL no longer needs people to perform many of the basic services that customers on the tube network now require."
 layout: post
-permalink: /2014/02/04/are-we-all-expendable/
 category:
   - digital
 ---

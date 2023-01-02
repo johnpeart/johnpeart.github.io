@@ -2,7 +2,6 @@
 title: "One week with iPad Pro and Apple Pencil"
 excerpt: "I've purchased the new 9.7 inch iPad Pro - the latest in Apple's iPad range - along with the Apple Pencil. Here's what I make of it."
 layout: post
-permalink: /2016/04/04/ipad-pro-9-inch-apple-pencil-review
 category:
   - digital
 ---

@@ -2,7 +2,6 @@
 title: "Quantified Self: analysing my Twitter data using the R statistical package"
 excerpt: "I've made 22,417 tweets over 2,187 days on Twitter. That makes for a lot of data to explore my quantified self."
 layout: post
-permalink: /2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/
 category:
   - data
   - digital

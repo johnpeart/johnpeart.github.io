@@ -5,8 +5,6 @@ excerpt: "You can’t expect students to pay more for the same, or worse, more f
 
 layout: post
 
-permalink: /2010/10/26/the-dearing-compact-is-dead/
-
 category:
   - archive
   - education

@@ -3,7 +3,6 @@ title: "Why I made a dataset of LGBT MPs"
 author: John Peart
 excerpt: "Make things open. It makes them better."
 layout: post
-permalink: /2020/02/24/making-a-dataset-of-lgbt-mps
 category:
   - digital
   - government

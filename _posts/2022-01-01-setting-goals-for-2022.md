@@ -5,7 +5,8 @@ excerpt: "Resolutions for a new year."
 layout: post
 permalink: /2022/01/01/setting-goals-for-2022
 image: /assets/images/social/goals/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 A new year is here. That means it's time for some new goal setting.

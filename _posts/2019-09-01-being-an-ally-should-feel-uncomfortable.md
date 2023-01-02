@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "If you don’t feel uncomfortable, you’re doing it wrong"
 layout: post
 permalink: /2019/09/01/being-an-ally-should-feel-uncomfortable
-category: [diversity, LGBT]
+category:
+  - diversity
+  - LGBT
 ---
 
 I was talking to a colleague recently about LGBT allies.

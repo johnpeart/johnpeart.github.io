@@ -3,7 +3,8 @@ title: "You’re queuing it wrong"
 excerpt: "Lessons learnt over lunch about demand management and flow."
 layout: post
 permalink: /2016/03/07/lunch-demand-management-and-flow/
-category: [services]
+category:
+  - services
 ---
 
 I was in Wasabi last week buying lunch, and I noticed a peculiar phenomenon; everyone was queuing wrong.

@@ -5,7 +5,8 @@ excerpt: "6 months trying to fix my broken body via home workouts."
 layout: post
 permalink: /2022/07/31/apple-fitness-plus-thoughts
 image: /assets/images/social/goals/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 If you know me, you know I am the antithesis of a fitness junkie. Whilst I do a fair bit of _gay-walking_ – that is, walking at extreme pace even on a light stroll – being near a gym is not my idea of 'fun'.

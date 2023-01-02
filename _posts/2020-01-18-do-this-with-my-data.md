@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "Whatever you do, please don’t memorialise me on social media."
 layout: post
 permalink: /2020/01/18/do-this-with-my-data
-category: [digital]
+category:
+  - digital
 ---
 
 Twitter has recently announced that [they intend to start reclaiming unused usernames](https://thenextweb.com/insider/2019/11/27/twitter-will-delete-inactive-accounts-starting-december/) unless the accounts are logged into at least once every 6 months. Almost as soon as they announced it, the citizens of the Web lost their collective minds and [the policy was paused](https://thenextweb.com/twitter/2019/11/27/twitter-delays-deleting-inactive-accounts-to-decide-how-to-respect-dead-users/) until Twitter could figure out a way to "memorialise" accounts.

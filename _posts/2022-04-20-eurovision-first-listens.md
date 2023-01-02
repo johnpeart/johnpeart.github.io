@@ -7,7 +7,8 @@ image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-lis
 permalink: /2022/04/20/eurovision-first-listens
 redirect_from:
 - /eurovision
-category: [eurovision]
+category:
+  - eurovision
 
 entries:
 - country: "Albania"

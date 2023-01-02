@@ -3,7 +3,8 @@ title: "If data isn’t actionable, it’s not useful"
 excerpt: "Data should empower our decision making; so why is it so often useless?"
 layout: post
 permalink: /2016/04/23/actionable-data
-category: [data]
+category:
+  - data
 ---
 
 In case you haven't heard: the world runs on data.

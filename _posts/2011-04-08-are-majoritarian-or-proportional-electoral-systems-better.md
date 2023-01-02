@@ -3,7 +3,8 @@ title: Are majoritarian or proportional electoral systems better?
 excerpt: "This essay will assess the consequences of different types of electoral system in relation to the formation of different structures of parliament."
 layout: post
 permalink: /2011/04/08/are-majoritarian-or-proportional-electoral-systems-better/
-category: [government]
+category:
+  - government
 ---
 
 > This essay was written as a formative part of my undergraduate studies at the London School of Economics. 

@@ -3,7 +3,8 @@ title: Does Hobbes’ employment of natural rights take him in an absolutist dir
 excerpt: "This piece use Thomas Hobbes' theory of human nature to explore his view that absolutism, preferably centred in a monarchy, is the best form of government."
 layout: post
 permalink: /2011/04/08/does-hobbes-employment-of-natural-rights-take-him-in-an-absolutist-direction/
-category: [government]
+category:
+  - government
 ---
 
 > This essay was written as a formative part of my undergraduate studies at the London School of Economics.

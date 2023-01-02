@@ -4,7 +4,10 @@ author: John Peart
 excerpt: "Fixing the most overused phrase in LGBT media."
 layout: post
 permalink: /2018/03/17/opening-up-lgbt-media
-category: [diversity, LGBT, design]
+category:
+  - diversity
+  - LGBT
+  - design
 ---
 
 There is a bizarre phenomenon sweeping chunks of the LGBT media of late: everyone seems to be “opening up”. Everyone’s at it, from [91-year-old former civil servants](http://www.gaytimes.co.uk/life/99374/91-year-old-opens-gay-live-bbc-radio-5/), to [Tom Daley](https://attitude.co.uk/article/16037/tom-daley-opens-up-about-desire-to-start-a-family-with-beautiful-husband-dustin-lance-black/), to [Star Trekkers](http://www.pinknews.co.uk/2018/01/04/star-treks-anthony-rapp-and-wilson-cruz-open-up-about-first-gay-kiss/). 

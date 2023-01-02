@@ -5,7 +5,8 @@ excerpt: "A qualified success for 2021."
 layout: post
 permalink: /2021/12/21/2020-resolutions-review
 image: /assets/images/social/goals/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 It's New Year's Eve. That means it's time to look back on the goals I set myself for 2021.

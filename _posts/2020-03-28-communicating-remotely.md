@@ -4,7 +4,9 @@ author: John Peart
 excerpt: Sharing a few simple tips to help you communicate better with your colleagues when emails and instant messages take the place of face-to-face conversation.
 layout: post
 permalink: /2020/03/28/better-communicating-when-working-remotely
-category: [work, digital]
+category:
+  - work
+  - digital
 ---
 
 Many of us are adapting to working exclusively from our homes at the moment. That mean’s we’re learning to communicate with each other all over again.

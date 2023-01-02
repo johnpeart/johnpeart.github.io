@@ -5,7 +5,8 @@ excerpt: "Another year, another set of goals."
 layout: post
 permalink: /2019/12/31/setting-goals-for-2020
 image: /assets/images/social/goals/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 2019 has been, on the whole, pretty successful.

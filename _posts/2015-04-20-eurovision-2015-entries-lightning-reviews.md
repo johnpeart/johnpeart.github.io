@@ -4,7 +4,8 @@ excerpt: "Save yourself the 120 minutes it takes to listen to all 40 of this yea
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2015/04/20/eurovision-first-listens
-category: [eurovision]
+category:
+  - eurovision
 
 entries:
 - country: "Moldova"

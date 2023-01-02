@@ -3,7 +3,8 @@ title: "What factors have contributed to the spread of ‘liberal economic insti
 excerpt: "This piece looks at the factors driving the spread of neo-liberal institutions around the world, assessing several conflicting opinions from the literature."
 layout: post
 permalink: /2013/06/09/what-factors-have-contributed-to-the-spread-of-liberal-economic-institutions-cross-nationally/
-category: [government]
+category:
+  - government
 ---
 
 > This essay was written as a formative part of my undergraduate studies at the London School of Economics.

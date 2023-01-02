@@ -3,7 +3,8 @@ title: Why does central bank independence vary across countries and over time?
 excerpt: "This paper assesses the various theories explaining the growth of independent central banks and highlights factors that might explain variations in central bank independence."
 layout: post
 permalink: /2013/06/09/why-does-central-bank-independence-vary-across-countries-and-over-time/
-category: [government]
+category:
+  - government
 ---
 
 > This essay was written as a formative part of my undergraduate studies at the London School of Economics.

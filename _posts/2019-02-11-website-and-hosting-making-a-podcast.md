@@ -5,7 +5,8 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 layout: post
 image: https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png
 permalink: /2019/02/11/department-of-bad-ideas-hosting-and-website
-category: [podcast]
+category:
+  - podcast
 ---
 
 Getting a podcast on to the internet was more difficult than I thought it would be. Step one was building the website.

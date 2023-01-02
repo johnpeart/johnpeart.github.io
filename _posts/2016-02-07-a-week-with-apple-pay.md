@@ -3,7 +3,8 @@ title: "Surviving a week with Apple Pay"
 excerpt: "My new PIN number got lost in the post. I've spent the last week with nothing but Apple Pay."
 layout: post
 permalink: /2016/02/07/a-week-with-apple-pay/
-category: [digital]
+category:
+  - digital
 ---
 
 I recently decided to switch current accounts. It was a fairly painless process, thanks to the current account switching service. My direct debits transferred without me having to do anything; my new debit card arrived in the post after a few days.

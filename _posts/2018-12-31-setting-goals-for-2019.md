@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "Iterating my goals in the open."
 layout: post
 permalink: /2018/12/31/setting-goals-for-2019
-category: [personal]
+category:
+  - personal
 ---
 
 Measured against my own metrics, 2018 was an abject failure.

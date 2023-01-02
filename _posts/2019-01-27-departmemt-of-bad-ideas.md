@@ -5,7 +5,8 @@ excerpt: "It’s one of my new year’s resolutions: and here’s the plan."
 layout: post
 image: "https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png"
 permalink: /2019/01/27/department-of-bad-ideas
-category: [podcast]
+category:
+  - podcast
 ---
 
 > **Update:** The Department for Bad Ideas will launch in 2020. It will look slightly different to the format described below. 

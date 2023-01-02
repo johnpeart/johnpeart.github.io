@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "Better luck next time."
 layout: post
 permalink: /2019/12/26/2019-resolutions-review
-category: [personal]
+category:
+  - personal
 ---
 
 This year, for the second time, I publicly set myself some goals for the year ahead. New Year's resolutions but in the open, so that I'm accountable to whoever was checking in.

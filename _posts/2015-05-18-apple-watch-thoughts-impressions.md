@@ -6,7 +6,8 @@ permalink: /2015/05/18/apple-watch-thoughts-impressions/
 redirect_from: 
 - /2015/5/18/apple-watch-thoughts-impressions/
 - /2015/05/18/archive/apple-watch-thoughts-impressions/
-category: [digital]
+category:
+  - digital
 ---
 
 Digital technology is now so pervasive in our lives that an increasing number of people talk of “digital detox”. We're increasingly desperate to get away from the incessant pinging of our phones and tablets; anything to stop us from drowning in a tsunami of Likes, emails, retweets and instant messages. 

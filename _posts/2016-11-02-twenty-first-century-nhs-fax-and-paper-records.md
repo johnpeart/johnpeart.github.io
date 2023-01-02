@@ -3,7 +3,9 @@ title: "A 21st century health service: fax machines, print outs and misinformati
 excerpt: "Who knew that changing GPs surgery would be so hard in 2016?"
 layout: post
 permalink: /2016/11/02/21st-century-health-service
-category: [digital, services]
+category:
+  - digital
+  - services
 ---
 
 I recently moved 8.5 miles across London. Along with all the other joys of moving house, I've needed to change GP surgeries too. This was my experience: and it wasn't good.

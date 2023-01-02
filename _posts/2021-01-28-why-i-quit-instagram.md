@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "If I'd wanted a running commentary on every news item, screenshots of tweets, and ranting political posts, I'd have kept my Facebook account."
 layout: post
 permalink: /2021/01/28/why-I-quit-instagram
-category: [personal, digital]
+category:
+  - personal
+  - digital
 ---
 
 A couple of years ago, I set myself a New Year’s Resolution to quit Facebook. On 1 January 2019, I deleted my Facebook account and I haven't looked back.

@@ -5,7 +5,8 @@ excerpt: "Thoughts on the entries for the 2018 Eurovision Song Contest in 280 ch
 layout: post
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
 permalink: /2018/04/18/eurovision-first-listens
-category: ["eurovision"]
+tags:
+  - eurovision
 
 entries:
 - country: "Azerbaijan"

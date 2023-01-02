@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "TL;DR – 2022 has not gone according to plan."
 layout: post
 image: https://www.johnpe.art/assets/images/social/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 Since 2018, I've been setting myself [goals for the year ahead](https://www.johnpe.art/goals/) and tracking them publicly. I did the same this year.

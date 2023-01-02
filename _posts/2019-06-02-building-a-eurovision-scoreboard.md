@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it."
 layout: post
 permalink: /2019/06/02/building-a-eurovision-scoreboard
-category: [digital, eurovision]
+category:
+  - digital
+  - eurovision
 ---
 
 Loads of people watch Eurovision for the [outrageous costumes](https://youtu.be/hfjHJneVonE?t=42), [hit](https://youtu.be/Pfo-8z86x80)-and-[miss](https://youtu.be/Eu5kgSeZHfw?t=19) music, and [general titivation](https://youtu.be/VJ920cN2HmA?t=90). I appreciate all that stuff too, of course, but what I'm *really* living for on the night of the Eurovision grand final is the **voting**.

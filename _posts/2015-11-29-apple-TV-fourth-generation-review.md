@@ -3,7 +3,8 @@ title: "Apple TV - the revolution is coming, probably"
 excerpt: "Last month, Apple released its fourth generation set-top box. This is what it's like to live with."
 layout: post
 permalink: /2015/11/29/apple-tv-fourth-generation-review/
-category: [digital]
+category:
+  - digital
 ---
 
 Apple TV has been the ugly duckling of Apple's device range for a while. Apple has updated every other device category in its range multiple times since the launch of the 3rd generation set-top box a little over 3 years ago. But ever since the release of Walt Isaacson's biography on Apple's former chief, in which Steve Jobs claimed to have "cracked" the interface, the tech media has been snapping at the company's heels, eager for an update. And last month, they got one.

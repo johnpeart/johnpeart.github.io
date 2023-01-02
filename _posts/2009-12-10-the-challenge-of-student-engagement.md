@@ -7,7 +7,9 @@ layout: post
 
 permalink: /2009/12/10/the-challenge-of-student-engagement/
 
-category: [archive, education]
+category:
+  - archive
+  - education
 ---
 
 > This speech was delivered in my capacity as a member of NUS’ National Executive Council at the Quality Strategy Network's December 2009 Symposium.

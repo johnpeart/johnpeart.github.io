@@ -4,7 +4,10 @@ author: John Peart
 excerpt: "Make things open. It makes them better."
 layout: post
 permalink: /2020/02/24/making-a-dataset-of-lgbt-mps
-category: [digital, government, lgbt]
+category:
+  - digital
+  - government
+  - lgbt
 ---
 
 How many Members of Parliament were lesbian, gay, bisexual or transgender at the time of the 2017 General Election? A niche question, for sure, but until a few weeks before that election there was no easy answer. 

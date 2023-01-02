@@ -3,7 +3,8 @@ title: How does the method of aggregating votes influence the outcome of electio
 excerpt: "This paper demonstrates the influence that different methods of aggregating votes can have on elections"
 layout: post
 permalink: /2012/05/22/how-does-the-method-of-aggregating-votes-influence-the-outcome-of-elections/
-category: [government]
+category:
+  - government
 ---
 
 > This essay was written as a formative part of my undergraduate studies at the London School of Economics.

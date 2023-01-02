@@ -7,7 +7,9 @@ layout: post
 
 permalink: /2010/10/24/fees-or-taxes-that-is-the-question/
 
-category: [archive, education]
+category:
+  - archive
+  - education
 ---
 
 > This piece was originally written for the student newspaper of the London School of Economics, The Beaver.

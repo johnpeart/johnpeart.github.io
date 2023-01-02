@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "And if they do need instructions, they shouldn’t have handles on both sides."
 layout: post
 permalink: /2020/02/26/doors-dont-need-instructions
-category: [design]
+category:
+  - design
 ---
 
 Every day, I walk into my office and head to my desk on the fourth floor. On route, I pass through a set of big, fairly heavy, double doors. On the frame is a little label that says “PULL”. I always push.

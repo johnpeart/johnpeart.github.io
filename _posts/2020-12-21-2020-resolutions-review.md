@@ -5,7 +5,8 @@ excerpt: "For once, I did what I said I was going to do."
 layout: post
 permalink: /2020/12/21/2020-resolutions-review
 image: https://www.johnpe.art/assets/images/social/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 For the past three years, I've been trying to get better at setting goals for myself and sticking to them. 

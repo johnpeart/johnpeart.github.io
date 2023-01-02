@@ -4,7 +4,8 @@ author: John Peart
 excerpt: What it might look like if Sir Humphrey Appleby's department – the Department of Administrative Affairs – had access to Twitter as part of “Yes, Minister”, and how to build your own.
 layout: post
 permalink: /2020/04/11/department-of-administrative-affairs
-category: [digital]
+category:
+  - digital
 redirect_from:
 - /department-of-administrative-affairs/
 ---

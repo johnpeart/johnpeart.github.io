@@ -3,7 +3,9 @@ title: "What factors explain the decision to dissolve the Financial Services Aut
 excerpt: "This piece explores the arguments used during two phases of regulatory reform of the financial services sector. I use content analysis of Parliamentary debates to understand the causes of these policy changes."
 layout: post
 permalink: /2013/06/01/what-factors-explain-the-decision-to-dissolve-the-financial-services-authority/
-category: [government, data]
+category:
+  - government
+  - data
 ---
 
 > This essay was written as a summative part of my undergraduate studies at the London School of Economics.

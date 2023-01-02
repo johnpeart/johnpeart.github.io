@@ -4,7 +4,10 @@ author: John Peart
 excerpt: "My second post in a series of reflections on the #LGBTsurvey, as one of the team who shaped it."
 layout: post
 permalink: /2018/12/04/national-lgbt-survey-what-surprised-me
-category: [government, diversity, LGBT]
+category:
+  - government
+  - diversity
+  - LGBT
 ---
 
 In July 2017, the Government Equalities Office launched the national LGBT survey. I was part of the team that helped create the survey and the LGBT Action Plan that followed it. Now, I'm taking stock of what has been a significant piece of work that I was proud to be a part of. 

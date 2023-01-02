@@ -3,7 +3,9 @@ title: LCARS clock
 author: John Peart
 excerpt: "A Raspberry Pi powered clock, in the style of an LCARS terminal from Star Trek."
 layout: post
-category: ["Raspberry Pi", "Star Trek"]
+category:
+  - Raspberry Pi
+  - Star Trek
 ---
 
 *LCARS clock* is a project I built in 2021 as a gift for my dad for Christmas 2021. These instructions explain how to operate the device and its component parts.

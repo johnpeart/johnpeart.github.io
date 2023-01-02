@@ -7,7 +7,9 @@ layout: post
 
 permalink: /2009/12/15/the-importance-of-learner-voice-in-the-21st-century/
 
-category: [archive, education]
+category:
+  - archive
+  - education
 ---
 
 > This speech was delivered in my capacity as a member of NUS’ National Executive Council at the University of Portsmouth’s Learning and Teaching Conference in December 2009.

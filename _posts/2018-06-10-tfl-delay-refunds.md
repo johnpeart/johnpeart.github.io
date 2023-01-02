@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "Let me tell you about my ongoing woes with Finsbury Park station."
 layout: post
 permalink: /2018/06/10/tfl-delay-refunds
-category: [services]
+category:
+  - services
 ---
 
 Let me tell you about my ongoing woes with Finsbury Park station. I admit upfront that this is a first-class, first-world problem; but I make no apologies. 

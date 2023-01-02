@@ -3,7 +3,9 @@ title: How do appointment processes affect the policy outputs of monetary policy
 excerpt: "If preferences are fixed, the Chancellor has a lot of control over monetary policy even in a system of apparent independence. But are preferences fixed?"
 layout: post
 permalink: /dissertation/
-category: [government, data]
+category:
+  - government
+  - data
 ---
 
 > This dissertation was written as a summative part of my undergraduate studies at the London School of Economics.

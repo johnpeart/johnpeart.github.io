@@ -3,7 +3,8 @@ title: "One week with iPad Pro and Apple Pencil"
 excerpt: "I've purchased the new 9.7 inch iPad Pro - the latest in Apple's iPad range - along with the Apple Pencil. Here's what I make of it."
 layout: post
 permalink: /2016/04/04/ipad-pro-9-inch-apple-pencil-review
-category: [digital]
+category:
+  - digital
 ---
 
 In pitching the iPad Pro at its subdued media event in March, Apple set its sights on the millions of people using computers that are more than 5 years old. This iPad, they think, is good enough and powerful enough to completely replace your ageing Windows PC.

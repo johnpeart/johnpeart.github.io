@@ -5,7 +5,8 @@ excerpt: "Time to up the ante."
 layout: post
 permalink: /2020/12/31/setting-goals-for-2021
 image: /assets/images/social/goals/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 2020 might have been a global horror show but it has been a personal triumph. That is, at least when measured against [the goals I set myself 365 days ago](/2019/12/31/setting-goals-for-2020).

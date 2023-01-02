@@ -5,7 +5,8 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 layout: post
 image: https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png
 permalink: /2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting
-category: [podcast]
+category:
+  - podcast
 ---
 
 {%raw%}

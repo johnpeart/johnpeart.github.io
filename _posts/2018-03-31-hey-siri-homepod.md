@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "One month with Apple’s “intelligent assistant” and the HomePod."
 layout: post
 permalink: /2018/03/31/hey-siri-homepod-review
-category: [digital]
+category:
+  - digital
 ---
 
 In July last year, Apple announced they were releasing a smart speaker: the HomePod. It took more than 6 months for them to release it, but now it’s here. 

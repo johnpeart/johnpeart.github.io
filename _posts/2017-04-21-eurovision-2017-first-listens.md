@@ -5,7 +5,8 @@ excerpt: "Here we are again. First impressions of every track, in the order they
 layout: post
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
 permalink: /2017/04/21/eurovision-first-listens
-category: ["eurovision"]
+tags:
+  - eurovision
 
 entries:
 

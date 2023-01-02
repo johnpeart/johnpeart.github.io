@@ -5,7 +5,8 @@ excerpt: "I’ve listened to every entry to this year’s Eurovision Song Contes
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2019/04/20/eurovision-first-listens
-category: ["eurovision"]
+tags:
+  - eurovision
 
 entries:
 - country: "Cyprus"

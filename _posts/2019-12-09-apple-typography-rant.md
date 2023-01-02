@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "You will not be able to un-see this once you have noticed it."
 layout: post
 permalink: /2019/12/09/apples-peculiar-typography-choices
-category: [digital, design]
+category:
+  - digital
+  - design
 ---
 
 I have noticed something that I cannot *un-notice* from a company that is renowned for its attention to detail. It has to do with typography[^1].

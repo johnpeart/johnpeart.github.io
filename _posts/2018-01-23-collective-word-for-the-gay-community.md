@@ -4,7 +4,10 @@ author: John Peart
 excerpt: "Is it LGBT? LGBTQ? LGBTI? LGBTQIA2S? What about queer? Maybe big data holds the answer."
 layout: post
 permalink: /2018/01/23/collective-word-for-the-gay-community
-category: [diversity, LGBT, data]
+category:
+  - diversity
+  - LGBT
+  - data
 ---
 
 There are a lot of collective terms[^1] used to describe people with minority sexual orientations and gender identities. If people are familiar with any terms at all, I would guess most people know about the acronym **LGBT** — which stands for ‘lesbian, gay, bisexual and transgender’.

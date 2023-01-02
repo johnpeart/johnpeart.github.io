@@ -4,7 +4,10 @@ author: John Peart
 excerpt: "The first part in a series of reflections on the #LGBTsurvey as one of the team who shaped it."
 layout: post
 permalink: /2018/10/01/national-lgbt-survey-why-its-important
-category: [government, diversity, LGBT]
+category:
+  - government
+  - diversity
+  - LGBT
 ---
 
 In July 2017, the Government Equalities Office launched the national LGBT survey. I helped create that survey, in my role as Head of LGB Policy at GEO, and as part of a small but dedicated team.

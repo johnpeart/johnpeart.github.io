@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "I’ve been travelling around Europe on holiday. This is some thinking about city taxes and opportunities."
 layout: post
 permalink: /2018/04/21/european-city-taxes
-category: [services, government]
+category:
+  - services
+  - government
 ---
 
 I’ve been travelling around Europe by train for the last two weeks. In that time, I’ve visited Brussels, Berlin, Prague, Budapest, Vienna and Paris. In each of the locations so far, I’ve been charged a “city” or “tourist” tax. 

@@ -3,7 +3,8 @@ title: "Text mining tweets from the 2016 BRIT Awards"
 excerpt: "I've analysed more than 2GB of tweets about the 2016 BRIT Awards in the name of (pseudo) science!"
 layout: post
 permalink: /2016/03/12/text-mining-tweets-from-the-2016-brits/
-category: [data]
+category:
+  - data
 ---
 
 You might remember that last year I [analysed around 75,000 tweets from the BAFTAs](http://jrpeart.com/2015/02/15/text-mining-tweets-from-the-2015-baftas/) using the statistics package, ['R'](https://www.r-project.org). Last month saw the 36th BRIT Awards take place at The O2 arena in London, and so I fired up Twitter again to dive into the data and produce some graphs (because I'm that fun).

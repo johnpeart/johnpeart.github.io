@@ -3,7 +3,8 @@ title: "Card clash is a catastrophuck"
 excerpt: "'Card Clash' has been driving me insane for months. It's a piece of marketing so pointless, it makes me furious every time I see it. So I decided to fix it."
 layout: post
 permalink: /2014/08/24/card-clash-is-a-catastrophuck/
-category: [services]
+category:
+  - services
 ---
 Londoners are travelling around in a state of fear. There&#8217;s a threat looming that can take all your monies and ruin all your journeys. Or at least that&#8217;s what Transport for London (TfL) seems to want you to think when they warn you of the terror that is &#8220;Card Clash&#8221;.
 

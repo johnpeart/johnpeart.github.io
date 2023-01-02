@@ -3,7 +3,9 @@ title: "Quantified Self: analysing my Twitter data using the R statistical packa
 excerpt: "I've made 22,417 tweets over 2,187 days on Twitter. That makes for a lot of data to explore my quantified self."
 layout: post
 permalink: /2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/
-category: [data, digital]
+category:
+  - data
+  - digital
 ---
 I am a prolific tweeter. At the time of writing this blog post, I’ve been on Twitter for a little under 6 years. In those 2,187 days, I’ve tweeted 22,417 times. (That’s an average of 10.25 tweets every day, or about a tweet every 2.5 hours).
 

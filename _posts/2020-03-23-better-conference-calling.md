@@ -4,7 +4,9 @@ author: John Peart
 excerpt: Having a conference call isn’t harder than a face-to-face meeting, it’s just different. Here are some tips to doing it better.
 layout: post
 permalink: /2020/03/23/better-conference-calling
-category: [work, digital]
+category:
+  - work
+  - digital
 ---
 
 The current coronavirus pandemic is forcing new ways of working for teams across the world. Many people are, perhaps for the first time, getting intimately acquainted with the wonderful world of remote working and — inevitably — video and telephone conference calls.

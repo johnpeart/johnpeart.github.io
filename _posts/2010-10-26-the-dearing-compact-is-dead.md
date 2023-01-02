@@ -7,7 +7,9 @@ layout: post
 
 permalink: /2010/10/26/the-dearing-compact-is-dead/
 
-category: [archive, education]
+category:
+  - archive
+  - education
 ---
 
 > This piece was originally written for the student newspaper of the London School of Economics, The Beaver.

@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "Has anyone actually considered pedestrians when they’re designing these things?"
 layout: post
 permalink: /2018/02/18/whitehalls-broken-junctions
-category: [services, design]
+category:
+  - services
+  - design
 ---
 
 If you’re at my office on Great Smith Street, and you want to get to, say, the Cabinet Office building at 1 Horse Guard’s Road, your best route is to walk straight up Storey’s Gate.

@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "At the foothills of ambient computing, the Apple Watch Series 4 fixes most everything I disliked about the original hardware, without fixing the flaws in the software."
 layout: post
 permalink: /2018/11/28/apple-watch-series-4-impressions
-category: [digital]
+category:
+  - digital
 ---
 
 It feels like a long time ago now, but it was only 2015 when I bought the original Apple Watch Sport. [I wrote about my experiences with it two weeks after it arrived in the post](http://johnpe.art/2015/05/18/apple-watch-thoughts-impressions/), and then one year on [I wrote a retrospective of what it was like to live with long term](http://johnpe.art/2016/05/05/a-year-with-apple-watch). 

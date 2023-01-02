@@ -4,7 +4,8 @@ excerpt: "I've done the hard work to make your Eurovision experience simple once
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2016/04/17/eurovision-first-listens
-category: ["eurovision"]
+tags:
+  - eurovision
 
 entries:
 - country: "Finland"

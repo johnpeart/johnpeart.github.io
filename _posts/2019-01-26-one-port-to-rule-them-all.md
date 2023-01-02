@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "The USB Type C connector: one port to rule them all."
 layout: post
 permalink: /2019/01/26/one-port-to-rule-them-all
-category: [digital]
+category:
+  - digital
 ---
 
 Plugs, sockets and ports are weird. You can virtually guarantee that when you buy a new thing, whether it’s something ordinary like a phone or a laptop or something mundane like a power drill — it’ll come with some kind of cable in the box. 

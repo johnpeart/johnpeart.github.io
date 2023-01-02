@@ -4,7 +4,9 @@ author: John Peart
 excerpt: "This game, still popular two decades after its release, has accidental lessons in gender stereotyping and the gender pay gap."
 layout: post
 permalink: /2018/02/04/theme-hosptial-gender-equality
-category: [diversity, digital]
+category:
+  - diversity
+  - digital
 ---
 
 Twenty year’s ago this month, [Theme Hospital](https://en.wikipedia.org/wiki/Theme_Hospital) was released in Europe on the PlayStation[^1]. After two decades, the game still has a special place in the hearts of many. I recently started playing it again, prompted by news that [the original game’s developers were reviving the classic](https://www.twopointhospital.com).

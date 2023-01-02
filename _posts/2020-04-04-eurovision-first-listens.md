@@ -5,7 +5,8 @@ excerpt: "Eurovision is cancelled, but I’ve listened to every entry for this y
 layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2020/04/04/eurovision-first-listens
-category: ["eurovision"]
+tags:
+  - eurovision
 
 entries:
 - country: "Australia"

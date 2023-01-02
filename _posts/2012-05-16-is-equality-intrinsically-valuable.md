@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "This piece will assess the worth of equality by looking at instrumental and non-instrumental versions of egalitarianism."
 layout: post
 permalink: /2012/05/16/is-equality-intrinsically-valuable/
-category: [government]
+category:
+  - government
 ---
 
 > This essay was written as a formative part of my undergraduate studies at the London School of Economics.

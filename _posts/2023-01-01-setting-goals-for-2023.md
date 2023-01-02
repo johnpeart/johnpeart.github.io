@@ -4,7 +4,8 @@ author: John Peart
 excerpt: "New year. New goals."
 layout: post
 image: /assets/images/social/goals/goals.png
-category: [personal]
+category:
+  - personal
 ---
 
 It's the most wonderful time of the year! 

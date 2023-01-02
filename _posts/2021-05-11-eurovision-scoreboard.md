@@ -5,7 +5,8 @@ excerpt:
 layout: post
 permalink: /2021/05/11/eurovision-scoreboard
 image: "https://johnpe.art/euroboard/assets/images/site/social-media.png"
-category: [eurovision]
+category:
+  - eurovision
 published: false
 ---
 

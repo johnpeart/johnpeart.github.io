@@ -13,8 +13,6 @@ You might be flinching at the idea of having to hold one-to-ones, team meetings 
 
 I’m fortunate that my career to date has prepared me for this moment. I’ve managed teams across multiple sites, and I’ve regularly led conference calls with participants in the dozens. For those new to the world of multi-site working, I thought I’d share some tips for running better video and telephone conference calls. These are all things I try to do when I’m holding conference calls. Some of these tips work for face-to-face meetings too, but they’re even more important when you’re doing things remotely.
 
-{% include blog/toc.html %}
-
 ## Hygiene checks
 
 ### Keep meetings short

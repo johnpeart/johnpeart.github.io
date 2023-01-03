@@ -65,6 +65,7 @@ webmentions:
     - http://www.jrpeart.com
     - http://johnpeart.org
     - http://www.johnpeart.org
+  js: false
 
 ###############
 # Collections #

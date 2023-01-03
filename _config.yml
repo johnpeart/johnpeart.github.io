@@ -52,6 +52,29 @@ github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"
 
 ###############
+# WebMentions #
+###############
+webmentions:
+  username: www.johnpe.art
+  cache_folder: .cache
+  cache_bad_uris_for: 5
+  legacy_domains:
+    - http://johnpe.art
+    - http://www.johnpe.art
+    - http://jrpeart.com
+    - http://www.jrpeart.com
+    - http://johnpeart.org
+    - http://www.johnpeart.org
+  templates:
+    count: _includes/webmentions/count.html
+    likes: _includes/webmentions/likes.html
+    links: _includes/webmentions/links.html
+    posts: _includes/webmentions/posts.html
+    replies: _includes/webmentions/replies.html
+    reposts: _includes/webmentions/reposts.html
+    webmentions: _includes/webmentions/webmentions.html
+
+###############
 # Collections #
 ###############
 collections:

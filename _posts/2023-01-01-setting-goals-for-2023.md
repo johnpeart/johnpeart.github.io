@@ -12,7 +12,7 @@ It's the most wonderful time of the year!
 
 It's 1 January. The day I set myself some goals for the year ahead.
 
-[2022's goals may not have gone according to plan](/2022/01/01/setting-goals-for-2022), but whilst I didn't achieve my explicit goals, I did reach some big milestones. 
+[2022's goals may not have gone according to plan](/2022/01/01/setting-goals-for-2022/), but whilst I didn't achieve my explicit goals, I did reach some big milestones. 
 
 I'm a home owner now. I'm back in a job that I feel excited about. The stage is set for a good 2023 for me... at least, I hope so.
 

@@ -1,0 +1,4 @@
+---
+layout: loop
+title: Archives
+---

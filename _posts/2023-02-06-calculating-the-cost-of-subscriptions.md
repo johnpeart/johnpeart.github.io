@@ -5,7 +5,6 @@ layout: post
 category:
   - personal
   - technology
-  - post
 published: true
 ---
 
@@ -379,6 +378,16 @@ I'm spending almost £53 a month on subscription streaming services and wider co
 
 I'm locked into a deal on my Sky package for another 12 months, but everything else is up for grabs.
 
-I've already decided to cancel Paramount+. If I cut Disney+, Amazon Prime and shrink my Apple One bundle to just the iCloud+ features, that could save me nearly £40. Some of that I can realise *right now*, and some of I'll have to wait a few months, but that's still a substantial saving across the rest of this year; by my reckoning about £275.
+I've already decided to cancel Paramount+. If I cut Disney+, Amazon Prime and shrink my Apple One bundle to just the iCloud+ features, that could save me nearly £40. Some of that I can realise *right now*, and some of I'll have to wait a few months, but that's still a substantial saving across the rest of this year.
 
-## So what?
+## That's a chunk o' change
+
+I think I can save myself around £275 if I cut back my streaming consumption to something more sensible this year. That's a lot of money to put towards something more useful.
+
+Subscription services seem like a fantastic deal; all you can eat for a set monthly or annual price. But there's a catch. Without keeping an eye on them though, the costs can – as I've shown – quickly spiral. 
+
+So I'm going to cut back. And cutting back doesn't really mean missing out. The great thing about a lot of these packages is that if you're really desperate, you can subscribe for one month and then cancel again. 
+
+So that's what I'm going to do. 
+
+Subscribe. Binge. Cancel. Wait. Repeat.

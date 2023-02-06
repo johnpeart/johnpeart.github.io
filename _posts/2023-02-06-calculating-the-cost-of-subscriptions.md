@@ -10,29 +10,43 @@ published: true
 
 This year, like many years before it, one of my goals is to save some money. One good way to know how to save some money is to understand where all your money is going; and for me, that means looking at what I'm spending on subscriptions.
 
-Subscriptions are a money menace. They hook you in with a small monthly price but, soon enough, you've spent a large amount of money without really even realising it. So this month, I've gone through all my App Store subscriptions and all the apps on my phone to see which subscriptions I have and which ones can go the way of the Dodo. 
+Why subscriptions? They are a money menace. They hook you in with a small monthly price but, before too long and multiple subscriptions later, you've spent a large amount of money without even realising it. 
+
+Over the last month, I've gone through all my App Store subscriptions and all the apps on my phone, to see which ones I have and which ones can go the way of the Dodo. 
 
 ## Streaming services
 
-Back in the day, you'd pay a chunk of money to Sky or Virgin and you'd get all the TV you ever really needed. Then streaming happened, and you got even more TV than you needed at a cheaper price. At this point, if you're like me, you cancelled your TV bundle and just had Netflix (and a TV Licence entirely so you could watch Doctor Who and Eurovision, obviously).
+Back in the day, you'd get all your TV through the BBC and probably a cable or satellite subscription. That would give you all the TV there was, and all the TV you ever really needed. 
 
-As of 1 January 2023, I was subscribed to numerous streaming services.
+Then streaming happened. That mean you got *even more* TV than you ever really needed, at a cheaper price. 
 
-### Sky
+If you're like me, at this point you just went all in on Netflix[^TVLicence]. Netflix isn't the only name in streaming now though. As of 1 January 2023, I was subscribed to numerous streaming services.
 
-I wanted to get a TV for my bedroom and tried really, really hard to resist the urge to splurge on a super expensive LG OLED. Instead, I snagged a Black Friday deal and subscribed to Sky Glass and Sky Ultimate. The Sky Ultimate subscription also includes Netflix, which is usually £6.99, which means I can binge as many back episodes of Star Trek as I want *and you're not going to stop me!* 
+[^TVLicence]: While keeping your TV Licence... so you could watch Doctor Who and Eurovision, obviously.
 
-Whilst this is certainly the opposite of cord-cutting, it is a pretty good deal as a bundle and – unlike in the old days where you'd just get a set top box – the TV and soundbar come with it!
+### Sky *and* Netflix
+
+If you thought Sky just did ugly satellite dishes on the side of  your home, you'd be wrong! 
+
+Late last year I wanted to get a TV for my bedroom in my new place. I shopped around and was incredibly proud of myself for having resisted the urge to splurge on a super expensive LG OLED. Instead, I snagged a Black Friday deal and subscribed to [Sky Glass](https://www.sky.com/glass). Alongside it, I got a discounted, 18 month subscription to Sky Ultimate. That bundle gives me access to the core Sky entertainment bundle. It also includes Netflix – usually £6.99 a month – meaning I can binge as many back episodes of Star Trek as I want *and you're not going to stop me!* 
+
+Whilst this is probably the opposite of cord-cutting, it is a pretty good deal as a bundle and – unlike in the old days where you'd just get a power-hungry and ugly set-top box – the TV and soundbar come with it!
 
 ### Disney+
 
-After Netflix, Disney+ is probably the next big beast of the streaming market. I've subscribed to it for two years, subscribing to the annual bundle to save a slither on the costs. Whilst I've enjoyed the Mandolorian, and watched all the Avengers movies for the first time, I'm not convinced this is worth keeping as an annual subscription. It's on the chopping block when my subscription expires in April.
+After Netflix, Disney+ is probably the biggest beast of the streaming market. I've subscribed to it for two years, choosing the annual bundle to save a slither on the costs. 
+
+Whilst I've enjoyed the Mandolorian, and watched all the Avengers movies for the first time, I'm not convinced this is worth keeping as an annual subscription. There isn't enough good, original content to keep me stuck in the ecosystem year-round.
+
+It's on the chopping block when my subscription expires in April.
 
 ### Paramount+
 
-Paramount+ should be my favourite streaming service. Paramount owns Star Trek. If there was one service that I'd be willing to pay good money for, it's Paramount+. Except Paramount+ doesn't actually have all of Star Trek on it, and the rest of its catalogue is dire. 
+Paramount+ should be my favourite streaming service. Paramount owns Star Trek. I _love_ Star Trek. If there was one service that I should be willing to pay good money for, it's Paramount+. Except Paramount+ doesn't actually have all of Star Trek on it, and the rest of its catalogue is dire. 
 
 So, after a 1 week trial and a 1 month subscription to catch up on a couple of shows I couldn't watch anywhere else, it's a goner already.
+
+### Costs so far...
 
 {%  include blog/apps.html   
     type="list"
@@ -97,9 +111,11 @@ I am actually subscribed to two more streaming services, but they come as part o
 
 The ubiquitous mega-bundle that is Amazon Prime is one of my longest running subscriptions. I buy a large amount of everything I buy through Amazon – which is exactly what Jeff Bezos wants.
 
-The bundle keeps getting bigger – recently they added free, random music streaming with no ads, for example – and it also keeps getting pricer. Whilst I'm grandfathered in at a lower cost until August, it's going up to £95 after that. 
+The bundle keeps getting bigger and it also keeps getting pricer. Whilst I'm grandfathered in at a lower cost until August, it's going up to £95 after that. 
 
-I do use a lot of Amazon's services – especially the delivery services and Prime TV. It's unlikely I'll be able to cancel this, but I am going to give it a go when renewal time comes around, and see if I can displace my spend elsewhere.
+I do use a lot of Amazon's services; especially the delivery services and, to a lesser extent, Prime TV[^Picard]. I think I'm going to struggle to cancel this practically, but I am going to give it a go when renewal time comes around.
+
+[^Picard]: At the moment, I'm clinging on for the third and final season of Picard – another Star Trek show. 
 
 {%  include blog/apps.html   
     type="sheet"
@@ -119,13 +135,13 @@ There is actually more than one Apple One bundle. I've been flitting between the
 
 Right now, I'm on the cheaper one, which includes TV, music, games, and storage. Alongside that storage – which Apple calls iCloud+ – you also get the ability to use a custom email domain, [Hide My Email](https://support.apple.com/en-gb/HT210425) and [Private Relay](https://support.apple.com/en-gb/HT212614).
 
-That's a lot for £16.95. It's also a substantial saving over subscribing to multiple of these services individually.
+That's a lot for £16.95. It's also a substantial saving over subscribing to several of these services individually.
 
-The problem is, I've realised I barely use it all. Apple TV+ has one show I like[^TV]. I don't really use Apple Music because I am a creature of habit and just listen to music I already own.  I play precisely one game on Apple Arcade that I wish was just released as a standalone purchase[^Arcade]. 
+The problem is, I barely use it all. Apple TV+ has one show I like[^TV]. I don't really use Apple Music; I am a creature of habit and just listen to music I already own. I play precisely one game on Apple Arcade that I wish was just released as a standalone purchase[^Arcade]. 
 
-The one thing I do use is the storage and the iCloud+ features; but those are available for a few quid each month.
+The one thing I *do* use is the storage and the iCloud+ features; but those are available separately for a few quid each month.
 
-I'm actually spending far more on music, TV and games now than I would have before on my phone and I'm not getting the benefit. So, I am going to cancel this subscription and just buy the things I want, not stream them, and see how that works.
+I'm actually spending far more on music, TV and games now than I would have before, by virtue of having signed up to this content bundle. I don't think I'm seeing the benefit. So, maybe I should cancel this subscription and just buy the things I want – not stream them – and see how that works.
 
 [^TV]: _Severance_. It's so good. You should subscribe to Apple TV+ just for a month to binge it.
 
@@ -174,9 +190,9 @@ There's a good segue from Apple Arcade into other gaming platforms. The one I us
 
 ### PlayStation Plus
 
-I've been a PlayStation Plus subscriber since I have owned a PlayStation 4; all the way back in 2014. I probably use it at least once a week, and  I usually manage to snag an extension to it at a discount. 
+I've been a PlayStation Plus subscriber since I have owned a PlayStation 4; all the way back in 2014. I probably use it at least once a week, and I usually manage to snag an extension to it at a discount. 
 
-If I don't pay for it, I can't play online games, and I do that a lot, do it's not really a contender for a slash and burn on subscriptions.
+If I don't pay for it, I can't play online games, and I do that a lot, so it's not really a contender for a slash and burn on subscriptions.
 
 {%  include blog/apps.html   
     type="sheet"
@@ -232,9 +248,9 @@ On the plus side, that's £5.99 a year saved! On the flip side, having recently 
 
 ### Podcasting
 
-I listen to a lot of podcasts; or at least, a lot more than I used to. I'm listening to so many now that I have found myself preferring that to listening to music when I'm on the go.
+I listen to a lot of podcasts. A lot more than I used to, at least. I'm listening to so many now that I have found myself preferring it to listening to music when I'm on the go.
 
-I could use the free and built-in Apple Podcasts app but I find it entirely unreliable to the point where it breaks regularly and won't let me download episodes. So, instead, Overcast is currently my podcasting app of choice, and it's available for free with ads, or at a fair (and probably, thankfully, too cheap) price. 
+I could use the free and built-in Apple Podcasts app but I find it entirely unreliable. So, instead, Overcast is currently my podcasting app of choice. It's available for free with ads, or at a fair (and probably, thankfully, too cheap) price. 
 
 {%  include blog/apps.html   
     type="sheet"
@@ -250,7 +266,7 @@ I could use the free and built-in Apple Podcasts app but I find it entirely unre
 
 ### Development
 
-Working Copy and Nova are both paid software that then requires an annual payment to get access to the next year's worth of features. They aren't *technically* a subscription – you get to use what you already have without paying – but the software keeps getting better and better over time so you want to be up-to-date. 
+Working Copy and Nova are both paid softwares that require an annual payment to get access to the following year's worth of features and bug fixes. They aren't *technically* a subscription – you get to keep using what you already have without paying – but the software keeps getting better and better over time, so it pays to be up-to-date. 
 
 I could probably stretch out my subscription cycles here a little this year to save a few pounds here and there.
 
@@ -278,7 +294,9 @@ I could probably stretch out my subscription cycles here a little this year to s
 
 ### Contacts and calendar
 
-I feel slightly ridiculous saying that I subscribe to calendar and contact apps that, collectively, cost £60 a year; but I am, because they make my life admin a lot easier and faster. Fantastical in particular is the best calendar app I've used on iPhone, iPad or the Mac.  I do wish that the developer would strip out some of the superfluous features and focus on creating a more consumer oriented experience (recent feature additions are clearly for people who are _not me_), enabling a cheaper price, but I don't think it will happen!
+I feel *slightly* ridiculous saying that I subscribe to calendar and contacts apps that, collectively, cost £60 a year; but I do, because they make my life admin a lot easier and faster. Fantastical and Cardhop are great, cross-platform apps. Fantastical in particular is the best calendar app I've ever used.
+
+They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it's really hard to go back to life in the slow lane. So I'll have to suck it up.
 
 {%  include blog/apps.html   
     type="list"
@@ -374,19 +392,21 @@ Mostly on the streaming services, I think.
     frequency="month"
 %}
 
-I'm spending almost £53 a month on subscription streaming services and wider content bundles. That seems excessive given how little TV I actually watch. 
+I'm spending almost £53 a month on subscription streaming services and wider content bundles. That seems excessive given how little of those services I am consuming. 
 
 I'm locked into a deal on my Sky package for another 12 months, but everything else is up for grabs.
 
-I've already decided to cancel Paramount+. If I cut Disney+, Amazon Prime and shrink my Apple One bundle to just the iCloud+ features, that could save me nearly £40. Some of that I can realise *right now*, and some of I'll have to wait a few months, but that's still a substantial saving across the rest of this year.
+I've already decided to cancel Paramount+. If I cut Disney+, Amazon Prime and shrink my Apple One bundle to just the iCloud+ features, that could save me nearly £40 a month. I could buy 4 albums a month for that. Or a box set. Or just save the cash. 
+
+Some of these saving I can realise *right now*. Some of I'll have to wait a few months. Either way, it'll still be a substantial saving across the rest of this year.
 
 ## That's a chunk o' change
 
 I think I can save myself around £275 if I cut back my streaming consumption to something more sensible this year. That's a lot of money to put towards something more useful.
 
-Subscription services seem like a fantastic deal; all you can eat for a set monthly or annual price. But there's a catch. Without keeping an eye on them though, the costs can – as I've shown – quickly spiral. 
+Subscription services seem like a fantastic deal; all you can eat for a set monthly or annual price. But there's a catch. Without keeping an eye on them, the costs can – as I've shown – quickly spiral. 
 
-So I'm going to cut back. And cutting back doesn't really mean missing out. The great thing about a lot of these packages is that if you're really desperate, you can subscribe for one month and then cancel again. 
+So I'm going to cut back. Cutting back doesn't really mean missing out either. The great thing about a lot of these packages is that if you're really desperate, you can subscribe for one month and then cancel again. 
 
 So that's what I'm going to do. 
 

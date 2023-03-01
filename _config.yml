@@ -107,6 +107,8 @@ collections:
 remote_theme: johnpeart/theme
 permalink: pretty
 markdown: kramdown
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
 future: false
 highlighter: true
 sass:

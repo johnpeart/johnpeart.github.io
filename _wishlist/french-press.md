@@ -6,4 +6,4 @@ purchased: false
 link: "https://www.johnlewis.com/le-creuset-stoneware-coffee-press-1l/satin-black/p4845115"
 gift-idea: true
 ---
-1 litre. Satin black or teal.
+1 litre. Satin black.

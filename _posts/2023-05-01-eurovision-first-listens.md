@@ -20,7 +20,7 @@ entries:
   semifinal-runningorder: 14
   final-runningorder: 
   lyric: |
-    Don’t know what’s going on
+    Don’t know what’s going on \
     But I want to make it stop
   commentary: |
     If you want melodramatic female warbling, you’re in luck! But pure Albanian zeitgeist this is not; after a mere 30 seconds, we get vibes of *Ruslana’s* "[Wild Dances](https://www.youtube.com/watch?v=VD6of9YQMMc)", circa 2004. 
@@ -37,8 +37,8 @@ entries:
   semifinal-runningorder: 2
   final-runningorder: 
   lyric: |
-    I just wanna make art,
-    Read books and just find someone,
+    I just wanna make art, \
+    Read books and just find someone, \
     Who likes me enough to kiss my face
   commentary: |
     A light piano and many layered vocal define the first 90 seconds of this Armenian entry. 
@@ -75,7 +75,7 @@ entries:
   semifinal-runningorder: 13
   final-runningorder: 
   lyric: |
-    Give me two years and your dinner will be free
+    Give me two years and your dinner will be free \
     Gas station Champagne is on me
   commentary: |
     Move over [*Charlie Brown*](https://www.youtube.com/watch?v=ByZLnPG0Vkk), you’ve been upstaged. 
@@ -108,7 +108,7 @@ entries:
   semifinal-runningorder: 5
   final-runningorder: 
   lyric: |
-    They’ll never kill this fire
+    They’ll never kill this fire \
     Your love will take me higher
   commentary: |
     Imagine the scene...
@@ -131,7 +131,7 @@ entries:
   semifinal-runningorder: 7
   final-runningorder: 
   lyric: |
-    Mommy kissed the moron
+    Mommy kissed the moron \
     ‘Trajna Nina’ armageddon-granny
   commentary: |
     There’s a lot of strange noises going on in this bizarre track. 
@@ -168,7 +168,7 @@ entries:
   semifinal-runningorder: 13
   final-runningorder: 
   lyric: |
-    You can take your hands back!
+    You can take your hands back! \
     No one wants more boys dead.
   commentary: |
     The Czech Republic has ripped a page out of the Ukrainian Eurovision playbook for its 2023 offering, with a song that’s reminiscent of *Go_A*'s “[Shum(https://www.youtube.com/watch?v=lqvzDkgok_g)”, which for some reason was very popular and I never really got it. 
@@ -185,7 +185,7 @@ entries:
   semifinal-runningorder: 1
   final-runningorder: 
   lyric: |
-    If we could go back to the start
+    If we could go back to the start \
     Bet we’d still be falling apart
   commentary: |
     If *Owl City* and *Carly Rae Jepsen* were to *collab*, I imagine that this would be the result. 
@@ -204,7 +204,7 @@ entries:
   semifinal-runningorder: 4
   final-runningorder: 
   lyric: |
-    There is always time
+    There is always time \
     To get back on track
   commentary: |
     You could be forgiven for mistaking this song for the lament of a project manager at a failing construction project. If you did think that, you would be wrong; and that’s the power of metaphor, my friends! 
@@ -221,7 +221,7 @@ entries:
   semifinal-runningorder: 15
   final-runningorder: 
   lyric: |
-    There’s no tomorrow when I grab a pint tightly like a
+    There’s no tomorrow when I grab a pint tightly like a \
     Cha cha cha
   commentary: |
     *Käärijä* is clearly the kid whose parents allowed him to smash guitars up in their garage to let out his teen angst.
@@ -240,7 +240,7 @@ entries:
   semifinal-runningorder: 
   final-runningorder: 
   lyric: |
-    I kill myself
+    I kill myself \
     To give them life
   commentary: |
     Is it another very French *chanson*? The first fifty or so seconds lulls you into that trap, as La Zarra does a riff on “Heads shoulders, knees and toes”. It’s sultry, it’s *en francais*. It’s exactly what you would expect from this proud nation. 
@@ -259,7 +259,7 @@ entries:
   semifinal-runningorder: 11
   final-runningorder: 
   lyric: |
-    Words getting worthless
+    Words getting worthless \
     ('Cause) Love is a wordless
   commentary: |
     *TikTok* is doing a weird thing to songs; its making them start the wrong. More and more, artists are starting with their key hook; usually the chorus, not the verse. 
@@ -278,8 +278,8 @@ entries:
   semifinal-runningorder: 
   final-runningorder: 
   lyric: |
-    Blood and glitter
-    Sweet and bitter
+    Blood and glitter \
+    Sweet and bitter \
     We’re so happy we could die
   commentary: |
     I, for one, am glad that the Germans have taken a long, hard look at themselves and realised that their 2022 Eurovision entry was pitiful, and that they needed to do something drastically different. Different is what we got.
@@ -296,7 +296,7 @@ entries:
   semifinal-runningorder: 8
   final-runningorder: 
   lyric: |
-    Lost souls make sure no one loses their way
+    Lost souls make sure no one loses their way \
     Hurt ones can’t stand seeing others in pain
   commentary: |
     Victor’s got a voice that reminds me of *James Arthur*. It’s a rich tone but he’s evidently got a limited range; so all the musical interest in this fairly swift track comes from the instrumentation. 
@@ -367,7 +367,7 @@ entries:
   semifinal-runningorder: 
   final-runningorder: 
   lyric: |
-    I’ll be there to tell you you’re wrong, 
+    I’ll be there to tell you you’re wrong, \
     You’re wrong and you know it
   commentary: |
     My God is this dreary. 
@@ -420,7 +420,7 @@ entries:
   semifinal-runningorder: 2
   final-runningorder: 
   lyric: |
-    I feel better
+    I feel better \
     In my sweater
   commentary: |
     According to the bods on the official Eurovision Song Contest website, this song is about social anxiety and leaving a party to go off and join your *other* friends in a quieter environment. This makes me think that the trio comprising *The Busker* are just as socially awkward as me. To this, I say *buddies, I’m here for you*.
@@ -437,7 +437,7 @@ entries:
   semifinal-runningorder: 10
   final-runningorder: 
   lyric: |
-    I sang her so many songs
+    I sang her so many songs \
     Until she wanted to kiss me
   commentary: |
     Moldova has been a reliable source of quirk and comedy in recent contests. Friends, I regret to inform you that they’ve abandoned that this year. 
@@ -456,7 +456,7 @@ entries:
   semifinal-runningorder: 14
   final-runningorder: 
   lyric: |
-    I don't find any joy anymore
+    I don't find any joy anymore \
     From the same old cycle
   commentary: |
     Someone give these two a hug? The lyrics of this mid-tempo ballad are utterly without hope. 
@@ -475,7 +475,7 @@ entries:
   semifinal-runningorder: 1
   final-runningorder: 
   lyric: |
-    She, queen of the kings, running so fast, beating the wind.
+    She, queen of the kings, running so fast, beating the wind. \
     Nothing in this world can stop the spread of her wings
   commentary: |
     Apparently this song is blowing up on *TikTok*. I’m too old to keep up with all these fads that the youths are into these days, but to me *TikTok* seems like *YouTube* speed-running. Everything is overclocked to the point where quality gets crunched in something shorter and with less room to breathe. 
@@ -494,8 +494,8 @@ entries:
   semifinal-runningorder: 9
   final-runningorder: 
   lyric: |
-    Tell me
-    Now was it worth it?
+    Tell me \
+    Now was it worth it? \
     Playin’ me dirty, but now who’s laughing baby?
   commentary: |
     This is unexpected. 
@@ -514,7 +514,7 @@ entries:
   semifinal-runningorder: 5
   final-runningorder: 
   lyric: |
-    The doctor says there's nothing to be done,
+    The doctor says there's nothing to be done, \
     “Lost cause”, I saw him writing!
   commentary: |
     In this entry, we have something obviously and recognisably from Portugal – sung in Portuguese, and with stereotyped instrumentation. It’s also obviously *not* Portuguese too. It has a vague *chanson* vibe to it; reminiscent of the wildly popular French entry, “Voilà”, from 2021. 
@@ -549,8 +549,8 @@ entries:
   semifinal-runningorder: 12
   final-runningorder: 
   lyric: |
-    Come on baby
-    Come and find me
+    Come on baby \
+    Come and find me \
     I can smell you like an animal
   commentary: |
     I joke pretty much every year that there might not be any talent left in San Marino. This tiny country with a population no larger than Cardiff seems to churn out terrible music more often than most. It’s the country that churned out [this guy](https://www.youtube.com/watch?v=KYKFKgwVbV4). [Twice](https://www.youtube.com/watch?v=l5arNtTYK1s). So yeah, dire. 
@@ -569,7 +569,7 @@ entries:
   semifinal-runningorder: 3
   final-runningorder: 
   lyric: |
-    I just wanna close my eyes
+    I just wanna close my eyes \
     And just get it over with
   commentary: |
     There is a lot of pent-up rage and angst that’s spilling out all over these three minutes of techno-pop. 
@@ -586,7 +586,7 @@ entries:
   semifinal-runningorder: 10
   final-runningorder: 
   lyric: |
-    The first rain will wash away all the fake glitter, 
+    The first rain will wash away all the fake glitter, \
     So it stops stealing the magic from the dance floors
   commentary: |
     The Slovenian people have gifted the people of Europe (and Australia) a “softboi” rock song this year.
@@ -605,7 +605,7 @@ entries:
   semifinal-runningorder: 
   final-runningorder: 
   lyric: |
-    May they bury me in the moon
+    May they bury me in the moon \
     So that I’ll see you every night
   commentary: |
     If Ukraine hadn’t been able to enter the contest last year, it’s very likely we’d be somewhere sunny and warm for Eurovision this year; like Madrid or Barcelona. Alas, it was not to be. 
@@ -624,8 +624,8 @@ entries:
   semifinal-runningorder: 11
   final-runningorder: 
   lyric: |
-    No, I don't care about the pain
-    I’ll walk through fire and through rain
+    No, I don't care about the pain \
+    I’ll walk through fire and through rain \
     Just to get closer to you
   commentary: |
     I make no secret of the fact that I adore *Loreen’s music. Her 2012 Eurovision winning track, “Euphoria”, is sublime. I want it played at my funeral. Her 2013 album, “Heal”, took my appreciation to another level. So you’d expect me to be excited for her return and to love “Tattoo”. For the record, I am and I do. 
@@ -646,7 +646,7 @@ entries:
   semifinal-runningorder: 8
   final-runningorder: 
   lyric: |
-    I don't wanna be a soldier, soldier
+    I don't wanna be a soldier, soldier \
     I don't wanna have to play with real blood
   commentary: |
     Switzerland has had a wild ride the past few years. In 2019 they brought extreme sex, with “She got me”. In 2021 we saw *Gjon’s Tears* belt out a brilliant song whilst dancing like an octopus. Last year, the Swiss fell completely off the wagon with a dreary and miserable ballad about snivelling children. 
@@ -665,7 +665,7 @@ entries:
   semifinal-runningorder: 
   final-runningorder: 19
   lyric: |
-    Despite the pain
+    Despite the pain \
     I continue my fight
   commentary: |
     For a brief moment, I was convinced that this Ukranian entry was headed in a *Phantom of the Opera* direction, with those big and brassy opening blasts. Unfortunately, it was not to be. No, our reigning champs have instead given us a heavily orchestrated rap that is lyrically tapping into themes of the nation’s current situation. Poignant and powerful, and musically distinct from pretty much anything else in the contest this year. 
@@ -682,8 +682,8 @@ entries:
   semifinal-runningorder: 
   final-runningorder: 26
   lyric: |
-    When you said you were leavin'
-    To work on your mental health
+    When you said you were leavin' \
+    To work on your mental health \
     You didn't mention the cheating
   commentary: |
     I’m still *up in space, man*, after last year’s stratospheric performance from Sam Ryder. It proved that we can do well at Eurovision if we can capture the zeitgeist and put some proper effort in. 

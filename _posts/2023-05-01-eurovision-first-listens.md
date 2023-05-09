@@ -171,7 +171,7 @@ entries:
     You can take your hands back! \
     No one wants more boys dead.
   commentary: |
-    The Czech Republic has ripped a page out of the Ukrainian Eurovision playbook for its 2023 offering, with a song that’s reminiscent of *Go_A*'s “[Shum(https://www.youtube.com/watch?v=lqvzDkgok_g)”, which for some reason was very popular and I never really got it. 
+    The Czech Republic has ripped a page out of the Ukrainian Eurovision playbook for its 2023 offering, with a song that’s reminiscent of *Go_A*'s “[Shum](https://www.youtube.com/watch?v=lqvzDkgok_g)”, which for some reason was very popular and I never really got it. 
     
     A blend of 6 female vocals atop a mechanised and intentionally overproduced instrumentation makes for an intense three minutes.
 
@@ -226,7 +226,7 @@ entries:
   commentary: |
     *Käärijä* is clearly the kid whose parents allowed him to smash guitars up in their garage to let out his teen angst.
     
-    “It’s crazy, it’s party!” says the artist when describing this "rap-electronic-schlager-metal fusion" anthem to the bods at Eurovision. Crazy it certainly is. A party, for me at least, it is not. More of a confused, noisy, crashing mess.Yes, I realise that makes me sound like an old man, but I’m in my 30s now and that’s my vibe. 
+    “It’s crazy, it’s party!” says the artist when describing this "rap-electronic-schlager-metal fusion" anthem to the bods at Eurovision. Crazy it certainly is. A party, for me at least, it is not. More of a confused, noisy, crashing mess. Yes, I realise that makes me sound like an old man, but I’m in my 30s now and that’s my vibe. 
     
     Questionable stylistic choices aside, I can at least get behind the spirit of the song which – if I were to summarise – appears to be suggesting you get absolutely mullered on pints and forget the horror of the daily life.
 
@@ -355,7 +355,7 @@ entries:
     
     After a powerful triple blast of dramatic strings, we are thrown into a pretty predictable and generic pop bop. We never see those heady blasts again, and they are honestly the most interesting part of the song. 
     
-    Lyrically, Noa spends her time espousing the virtuous characteristics of mythical beasts. 
+    Lyrically, *Noa* spends her time espousing the virtuous characteristics of mythical beasts. 
 
 - country: "Italy"
   shortcode: ""
@@ -480,7 +480,7 @@ entries:
   commentary: |
     Apparently this song is blowing up on *TikTok*. I’m too old to keep up with all these fads that the youths are into these days, but to me *TikTok* seems like *YouTube* speed-running. Everything is overclocked to the point where quality gets crunched in something shorter and with less room to breathe. 
     
-    This song is *very that*; a song that’s the result of a lot of caffeine! It’s tempo is blazingly fast, and it hits you like a wall of sound.
+    This song is *very that*; a song that’s the result of a lot of caffeine! Its tempo is blazingly fast, and it hits you like a wall of sound.
     
     As a song, it feels pretty unimpressive. But, its the first performance we’ll see in the first semi-final, and in that position I can imagine it’ll hit you like the first espresso of the morning.
 
@@ -563,7 +563,7 @@ entries:
   shortcode: ""
   emoji: "🇷🇸"
   artist: "Luke Black"
-  song: "Samo mi se spava (Само ми се спава)"
+  song: "Samo mi se spava"
   semifinal: 1
   final: FALSE
   semifinal-runningorder: 3
@@ -628,7 +628,7 @@ entries:
     I’ll walk through fire and through rain \
     Just to get closer to you
   commentary: |
-    I make no secret of the fact that I adore *Loreen’s music. Her 2012 Eurovision winning track, “Euphoria”, is sublime. I want it played at my funeral. Her 2013 album, “Heal”, took my appreciation to another level. So you’d expect me to be excited for her return and to love “Tattoo”. For the record, I am and I do. 
+    I make no secret of the fact that I adore *Loreen’s music. Her 2012 Eurovision winning track, “Euphoria”, is sublime. I want it played at my funeral. Her album, “Heal”, took my appreciation to another level. So you’d expect me to be excited for her return and to love “Tattoo”. For the record, I am and I do. 
 
     But this isn’t just sycophancy. I listened to the entire album blind, without looking at which song was playing or which country it was. I got all the way to Sweden before I sat up in my chair and thought, “wow”. 
     

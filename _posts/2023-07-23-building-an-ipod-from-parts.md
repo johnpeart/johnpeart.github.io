@@ -38,7 +38,7 @@ Building your own iPod Classic requires sourcing only a dozen or so parts, some 
 
 The most expensive component is the logic board. Where all the other components seem to be fresh off a production line, the logic boards aren't. They're usually recovered from old, thrown away models and so are in increasingly rare supply. 
 
-In all, the parts cost around £100 to £150 depending on the generation of iPod you want and the storage capacity.
+In all, the parts cost around £100 to £150 depending on the generation of iPod you want, plus cost of the storage.
 
 ## It doesn't take long to build
 

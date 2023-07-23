@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-1 -2 800 400" width="800" height="400">
+  <defs/>
+  <style>
+    #ipod-wave-left,
+    #ipod-wave-right {
+      fill: none;
+      stroke: #adb5bd;
+      stroke-width: 8px;
+    }
+    #ipod-housing,
+    #ipod-wheel,
+    #ipod-button,
+    #ipod-screen {
+      stroke-width: 4px;
+    }
+    
+    #ipod-housing,
+    #ipod-wheel,
+    #ipod-button,
+    #ipod-screen,
+    #ipod-housing {
+      fill: none;
+      stroke: #009FE3;
+    }
+  </style>
+  <g id="Canvas_1_iPod">
+    <title>iPod</title>
+    
+      <path id="ipod-housing" d="M 328 48 L 472 48 C 481.9411 48 490 56.058875 490 66 L 490 330 C 490 339.94113 481.9411 348 472 348 L 328 348 C 318.05887 348 310 339.94113 310 330 L 310 66 C 310 56.058875 318.05887 48 328 48 Z" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="ipod-wheel" cx="400" cy="261" r="56.0000973472943" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle id="ipod-button" cx="400" cy="261" r="20.2000351145597" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="ipod-screen" d="M 327.5069 61.5 L 473.5069 61.5 C 475.16376 61.5 476.5069 62.843146 476.5069 64.5 L 476.5069 173.5 C 476.5069 175.15685 475.16376 176.5 473.5069 176.5 L 327.5069 176.5 C 325.85005 176.5 324.5069 175.15685 324.5069 173.5 L 324.5069 64.5 C 324.5069 62.843146 325.85005 61.5 327.5069 61.5 Z" stroke-linecap="round" stroke-linejoin="round"/>
+  
+      <path id="ipod-wave-left" d="M 9.432569 200 C 9.432569 200 20 200 30 200 C 40 200 40.97222 220 50.97222 220 C 60.97222 220 60.97222 160 70.97222 160 C 80.97222 160 80.97222 240 90.97222 240 C 100.97222 240 100.97222 180 110.97222 180 C 120.97222 180 120.97222 210 130.97222 210 C 140.97222 210 140.97222 120 150.97222 120 C 160.97222 120 160.97222 260 170.97222 260 C 180.97222 260 180.97222 200 190.97222 200 C 200.97222 200 200.97222 280 210.97222 280 C 220.97222 280 220.97222 160 230.97222 160 C 240.97222 160 240.97222 240 250.97222 240 C 260.97222 240 260.97222 180 270.97222 180 C 280.97222 180 280.97222 200 290.97222 200 C 300.97222 200 299.97222 200 299.97222 200" stroke-linecap="round" stroke-linejoin="round"/>
+    
+      <path id="ipod-wave-right" d="M 499.4861 200 C 499.4861 200 498.5139 200 508.5139 200 C 518.5139 200 518.5139 220 528.5139 220 C 538.5139 220 538.5139 160 548.5139 160 C 558.5139 160 558.5139 240 568.5139 240 C 578.5139 240 578.5139 180 588.5139 180 C 598.5139 180 598.5139 280 608.5139 280 C 618.5139 280 618.5139 160 628.5139 160 C 638.5139 160 638.5139 220 648.5139 220 C 658.5139 220 658.5139 120 668.5139 120 C 678.5139 120 678.5139 260 688.5139 260 C 698.5139 260 698.5139 180 708.5139 180 C 718.5139 180 718.5139 260 728.5139 260 C 738.5139 260 738.5139 160 748.5139 160 C 758.5139 160 760 200 770 200 C 780 200 790 200 790 200" stroke-linecap="round" stroke-linejoin="round"/>
+    
+  </g>
+</svg>

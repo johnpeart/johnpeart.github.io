@@ -56,7 +56,7 @@ github-handle:  "johnpeart"
 ###############
 webmentions:
   username: www.johnpe.art
-  cache_folder: .cache
+  cache_folder: _data
   cache_bad_uris_for: 5
   legacy_domains:
     - http://johnpe.art
@@ -66,6 +66,12 @@ webmentions:
     - http://johnpeart.org
     - http://www.johnpeart.org
   js: false
+  syndication:
+    mastodon: 
+      endpoint: https://brid.gy/publish/mastodon
+      response_mapping:
+        syndication: $.url
+        username: $.user.screen_name
 
 ###############
 # Collections #

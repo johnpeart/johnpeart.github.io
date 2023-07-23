@@ -15,17 +15,17 @@ I've found a new hobby: retro tech. Specifically, old Apple tech.
 
 I can’t recall what started this new megalomania; that is unimportant now. What matters is that I’ve now accumulated a small collection of iPods [Classic](https://en.wikipedia.org/wiki/IPod_Classic), [Nano](https://en.wikipedia.org/wiki/IPod_Nano), and even [Hi-Fi](https://en.m.wikipedia.org/wiki/IPod_Hi-Fi).
 
-I bought the first one from eBay; a refurbished model from a reputable seller. Taking it out of its box, plugging it in and listening to its tiny hard disk whir into life made filled me with nostalgia for a bygone era. 
+I bought the first one from eBay; a refurbished model from a reputable seller. Taking it out of its box, plugging it in and listening to its tiny hard disk whir into life filled me with nostalgia for a bygone era. 
 
-Shortly thereafter, I found tens of thousands of other people, rocking their iPods on [r/iPod](https://www.reddit.com/r/ipod/). Many of them were modding them with parts they bought online; new face plates and SSDs to replace the aging hard-drives.
+Shortly thereafter, I found tens of thousands of other people, rocking their iPods on [r/iPod](https://www.reddit.com/r/ipod/). Many of them were modding them with parts they bought online; new face plates in never-available colours, and SSDs to replace the aging hard-drives.
 
-It got me thinking: could I build my own iPod, from spare parts? 
+It got me thinking: could you roll your own iPod... from spare parts? 
 
-The answer was "yes". Or at least, it is if you want to build a 5th, 6th or 7th generation iPod Classic.
+The answer is "yes".
 
 ## There aren't many pieces to find
 
-Building your own iPod only requires sourcing a dozen or so parts, some of which you can get as a bundle. I used AliExpress to get most them, but there are plenty of eBay sellers for these parts too[^aliexpress]. You need:
+Building your own iPod Classic requires sourcing only a dozen or so parts, some of which you can get as a bundle. I used AliExpress to get most them, but there are plenty of eBay sellers for these parts too[^aliexpress]. You need:
 
 - a logic board
 - a display
@@ -42,15 +42,17 @@ In all, the parts cost around £100 to £150 depending on the generation of iPod
 
 ## It doesn't take long to build
 
-Once you have all the parts, it's actually incredibly simple to put together. I did it in about 30 minutes, following pieces of  tutorials from [iFixit](https://www.ifixit.com/Device/iPod_Classic).
+Once you have all the parts, it's actually incredibly simple to put together. I did it in about 30 minutes[^time], following pieces of  tutorials from [iFixit](https://www.ifixit.com/Device/iPod_Classic).
 
-After I'd reconstituted my kit-bashed iPod, I plugged it into my Mac and I was off to the races. An hour later and I was able to plug in some authentic Apple EarPods and start listening to 
+After I'd reconstituted my kit-bashed iPod, I plugged it into my Mac and I was off to the races. An hour later and I was able to plug in some authentic Apple EarPods and start listening to my tunes.
 
-It took longer to restore the software on the device and to sync the dozens of gigabytes of music I had on my Mac than it did to put the thing together!
+[^time]: It took longer to restore the software on the device and to sync the dozens of gigabytes of music I had on my Mac, than it did to put the thing together!
 
 ## How many iPods is too many iPods?
 
-Of course, having found building one iPod so easy, I went off to build several. Four iPods Classic now adorn my office shelves. Aside from the 80GB, 7th generation model I bought pre-made, I've now constructed:
+Of course, having found building one iPod so easy[^easy], I went off to build several. Four iPods Classic now adorn my office shelves. Aside from the 7th generation model I bought pre-made, I've now constructed:
+
+[^easy]: Or at least, easy if you want to build a 5th, 6th or 7th generation iPod Classic. Other iPods are harder because of parts availability and because most other, non-Classic iPod models use soldered parts that you can't replace.
 
 - a 5th generation 'thin' model in white with an iFlash Solo SD card for storage
 - a 7th generation 'thin' model in a MacBook style – a matt silver front-plate with black click wheel – and an SSD

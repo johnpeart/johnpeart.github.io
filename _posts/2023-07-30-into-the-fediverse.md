@@ -14,7 +14,7 @@ Since *Space Karen*[^spaceKaren] bought Twitter, I’ve been looking at how I ca
 
 I've dipped my toe in the waters, creating social media accounts on services like Mastodon[^mastodon] and PixelFed[^pixelfed]. But why stop there?
 
-The distinctive thing about lots of federated social services is that they’re built on top of an open web standards like *ActivityPub* and *Webmention*. These are standards that *any* website can adopt to plug themselves into the Fediverse. 
+The distinctive thing about lots of federated social services is that they’re built on top of open web standards like *ActivityPub* and *Webmention*. These are standards that *any* website can adopt to plug themselves into the Fediverse. 
 
 So that's what I've done!
 

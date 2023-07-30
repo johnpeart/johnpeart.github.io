@@ -3,7 +3,7 @@ title: "Into the Fediverse"
 author: "John Peart"
 excerpt: "Connecting my personal website up to the Fediverse"
 layout: post
-image: "https://www.johnpe.art/assets/images/2023/07/30/into-the-fediverse/social-media.png"
+image: "https://www.johnpe.art/assets/images/posts/2023/07/30/into-the-fediverse/social-media.png"
 category:
   - making
 ---

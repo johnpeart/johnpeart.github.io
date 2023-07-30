@@ -36,7 +36,7 @@ I've used [Aaron Gustafson's](https://www.aaron-gustafson.com/notebook/enabling-
 
 You can test this out right now. 
 
-If you're on Mastodon, you can ['like' or 'boost' this Mastodon post]() and your avatar should show up in the new likes and reposts sections at bottom of this page up to 24 hours later. 
+If you're on Mastodon, you can ['like' or 'boost' this Mastodon post](https://mastodon.social/@johnpeart/110801702170479349) and your avatar should show up in the new likes and reposts sections at bottom of this page up to 24 hours later. 
 
 This should also work on other Fediverse platforms that use *ActivityPub* and *Webmention* too; just try to 'favourite' or 'like', 'boost' or 'repost' anything containing a link to a blog post on this site.
 

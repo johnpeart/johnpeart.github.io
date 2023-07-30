@@ -3,14 +3,14 @@ title: "Into the Fediverse"
 author: "John Peart"
 excerpt: "Connecting my personal website up to the Fediverse"
 layout: post
-image: "https://www.johnpe.art/assets/images/2023/08/01/into-the-fediverse/social-media.png"
+image: "https://www.johnpe.art/assets/images/2023/07/30/into-the-fediverse/social-media.png"
 category:
   - making
 ---
 
 Since *Space Karen*[^spaceKaren] bought Twitter, I’ve been looking at how I can make my presence on the World Wide Web more decentralised. 
 
-![Social media icons: hearts and reposts](/assets/images/posts/2023/08/01/into-the-fediverse/icons.svg)
+![Social media icons: hearts and reposts](/assets/images/posts/2023/07/30/into-the-fediverse/icons.svg)
 
 I've dipped my toe in the waters, creating social media accounts on services like Mastodon[^mastodon] and PixelFed[^pixelfed]. But why stop there?
 

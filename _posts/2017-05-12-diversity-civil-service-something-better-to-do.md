@@ -10,7 +10,7 @@ category:
 
 I volunteer for the cross-government network for lesbian, gay, bisexual and trans civil servants, the Civil Service Rainbow Alliance (CSRA). 
 
-As part of my role, I lead communications and events, including [our website][ukcsra], [social][fb] [media][tw] [channels][in], and [newsletter][join-us]. Over the past few months, as CSRA continues to become more visible and widely known in the Civil Service, we've been getting an increasing number of questions asking a simple question: "don't civil servants have something better to be doing?"
+As part of my role, I lead communications and events, including [our website][civilservicelgbt], [social][fb] [media][tw] [channels][in], and [newsletter][join-us]. Over the past few months, as CSRA continues to become more visible and widely known in the Civil Service, we've been getting an increasing number of questions asking a simple question: "don't civil servants have something better to be doing?"
 
 Everyone working on CSRA projects does so in their spare time or as their 'corporate contribution' to the Civil Service, so the question here is possibly borne a little from misunderstanding. It's worth responding to that question though.
 
@@ -61,11 +61,11 @@ For service delivery teams and policy people it boils down to this: you are not 
 
 [^1]: In the Civil Service, senior managers are known as Band A, or Grade 7 and Grade 6.
 
-[ukcsra]: http://ukcsra.com "Visit the CSRA website"
-[join-us]: http://ukcsra.com/join-us/ "Join the mailing list"
-[fb]: http://facebook.com/ukcsra "Like on Facebook"
-[tw]: http://twitter.com/ukcsra "Follow on Twitter"
-[in]: http://instagram.com/ukcsra "Follow in Instagram"
+[civilservicelgbt]: http://civilservice.lgbt "Visit the CSRA website"
+[join-us]: http://civilservice.lgbt/join-us/ "Join the mailing list"
+[fb]: http://facebook.com/civilservicelgbt "Like on Facebook"
+[tw]: http://twitter.com/cslgbt "Follow on Twitter"
+[in]: http://instagram.com/civilservicelgbt "Follow in Instagram"
 [snapchat1]: http://www.huffingtonpost.co.za/2017/01/25/snapchat-filters-are-harming-black-womens-self-image_a_21658358/
 [snapchat2]: https://www.linkedin.com/pulse/what-snapchat-recognizing-my-face-can-teach-us-building-toni-oloko
 [snapchat3]: https://youtu.be/AqPHordzhdw?t=1312

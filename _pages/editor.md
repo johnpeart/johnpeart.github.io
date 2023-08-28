@@ -4,6 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: editor
 title: "Editor"
-permalink: "/editor"
 ---
 

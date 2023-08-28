@@ -1,8 +1,8 @@
 ---
-title: "I listened to all this year’s Eurovision tracks, so you don’t have to"
+title: "I listened to every Eurovision 2018 entry, so you don’t have to"
 author: John Peart
 excerpt: "Thoughts on the entries for the 2018 Eurovision Song Contest in 280 characters or less."
-layout: post
+layout: post-eurovision
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
 category:
   - eurovision
@@ -496,13 +496,6 @@ It’s April, and that means that the Eurovision Song Contest is nearly here. Th
 
 Since 2015, I’ve been doing ‘first-listen’ commentary on all the entries in the hopes that someone is spared the pain of the worst of Europe’s music.
 
-This year, I’ll be listening to each track just once, in the order they appear on the official album. They’re presented below in the order they will perform in the semi-finals[^1].
+This year, I’ll be listening to each track just once, in the order they appear on the official album. They’re presented below in alphabetical order, grouped by their respective semi-finals and final. Portugal — as last year’s winner — France, Germany, Italy, Spain, and the United Kingdom — as the biggest financial contributors — automatically qualify for the final, so don't appear in the semi-final lists.
 
 As I did last year, I’m setting a strict tweet-sized limit on my thoughts. Twitter have doubled the character limit to 280 characters though, which means double the snark for 2018.
-
-[^1]: Of course, Portugal — as last year’s winner — along with France, Germany, Italy, Spain, and the United Kingdom — as the biggest financial contributors — automatically qualify for the final and are presented in alphabetical order at the end.
-
-## The entries
-
-
-{% include blog/eurovision.html %}

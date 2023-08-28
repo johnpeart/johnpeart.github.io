@@ -1,8 +1,8 @@
 ---
-title: "I listened to this year’s Eurovision 2022 entries so you don’t have to"
+title: "I listened to every Eurovision 2022 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less."
-layout: post
+layout: post-eurovision
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
 redirect_from:
 - /eurovision
@@ -619,6 +619,23 @@ entries:
     Friends, for once, there's no hiding behind the sofa whilst you hide in shame about our entry. This is the year you can stand proudly in front of your TV and wave that Union flag triumphantly.
 
     If this doesn't finish on the left hand of the scoreboard, then it'll be a genuine travesty.
+    
+summing-up: |
+  
+  So who’s going to win? Your guess is as good as mine; and I’m no octopus.
+  
+  I do have my favourites though.
+  
+  Sweden is, as ever, a wonderful song. Its dizzying melodic and lyrical qualities really get me in the gut.
+  
+  The UK, amazingly, is sending a powerhouse song with an incredible vocalist. It stands out amongst a down-tempo pack.
+  
+  Greece, though doubtfully a high ranking entry, is beautifully produced. To do half a minute of pure, punchy vocal takes guts.
+  
+  Spain gets this year’s award for sexiest song, and Norway gets the award for *What The Actual Just Happened?!*
+  
+  But my televotes are worth a mere fraction of the UK’s 12 point potential. The choice is yours! Don’t miss it. It’ll be a blast.
+
 
 ---
 
@@ -630,31 +647,9 @@ For 7 years, I’ve shared my gut-reactions on this blog for absolutely no reaso
 
 Once again, I’m sticking to my self imposed rules:
 
-1. I'm only allowed to listen to each entry once[^1listen]
+1. I'm only allowed to listen to each entry once
 2. Each entry is allowed a tweet-sized piece of commentary: meaning a maximum of 280 characters
-
-[^1listen]: The one exception is, as ever, the UK entry. I’ve heard that several times already; but that's the only exception I'm allowed.
 
 I've listened to the entries in the order they appear on the [official Eurovision album](https://music.apple.com/gb/album/eurovision-song-contest-turin-2022/1616187397). They are presented in alphabetical order, below. You can also filter by semi final.
 
 So let’s get stuck in...
-
-## The entries
-
-{% include blog/eurovision.html %}
-
-## Summing up
-
-So who’s going to win? Your guess is as good as mine; and I’m no octopus.
-
-I do have my favourites though.
-
-Sweden is, as ever, a wonderful song. Its dizzying melodic and lyrical qualities really get me in the gut.
-
-The UK, amazingly, is sending a powerhouse song with an incredible vocalist. It stands out amongst a down-tempo pack.
-
-Greece, though doubtfully a high ranking entry, is beautifully produced. To do half a minute of pure, punchy vocal takes guts.
-
-Spain gets this year’s award for sexiest song, and Norway gets the award for *What The Actual Just Happened?!*
-
-But my televotes are worth a mere fraction of the UK’s 12 point potential. The choice is yours! Don’t miss it. It’ll be a blast.

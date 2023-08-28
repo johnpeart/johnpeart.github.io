@@ -1,7 +1,7 @@
 ---
-title: "First listens of every Eurovision 2016 entry"
+title: "I listened to every Eurovision 2016 entry, so you don’t have to"
 excerpt: "I've done the hard work to make your Eurovision experience simple once again this year. Here are my first impressions of this year's Eurovision Song Contest entries."
-layout: post
+layout: post-eurovision
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 category:
   - eurovision
@@ -361,12 +361,6 @@ entries:
     I maintain this is a weak choice compared with others the UK could've picked; but it's not awful, and it'll probably get the 1D-tween vote.
 ---
 
-The Eurovision Song Contest's 2016 album, featuring all the acts entering the contest this year, was released yesterday. I've deliberately avoided listening to this year's line up until today[^1].
-
-[^1]: I have heard the UK's entry, because I watched the BBC selection, but I've not heard the rest.
+The Eurovision Song Contest's 2016 album, featuring all the acts entering the contest this year, was released yesterday. With the exception of the UK entry, I've deliberately avoided listening to this year's line up until today.
 
 In 140 characters or fewer, here are my first impressions of each of the 43 entries.
-
-## The entries
-
-{% include blog/eurovision.html %}

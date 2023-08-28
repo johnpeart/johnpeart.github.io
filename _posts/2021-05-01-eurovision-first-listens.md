@@ -1,8 +1,8 @@
 ---
-title: I listened to this year’s Eurovision 2021 entries so you don’t have to
+title: "I listened to every Eurovision 2021 entry, so you don’t have to"
 author: John Peart
 excerpt: Eurovision is back. Yippee! I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less.
-layout: post
+layout: post-eurovision
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 redirect_from:
 - /eurovision
@@ -523,6 +523,8 @@ entries:
 
     That said, there's just something *missing* from it. It's like a plane careering down the runway, ready to take off but not building up *quite* enough speed.
 
+summing-up: |
+  Phew! That was a wild ride. 39 entries later, I think it would be nice to take a trip to [Valletta](https://www.visitmalta.com/en/valletta) in 2022; don't you?
 ---
 
 Like a phoenix out of the ashes, the Eurovision Song Contest has risen and is returning to our screens this month. Huzzah!
@@ -531,20 +533,10 @@ I don't know about you, but I cannot wait for _gay Christmas_. So much so that I
 
 In preparing this blogpost, I had the same rules as ever:
 
-1. I'm only allowed to listen to each entry once[^1listen]
+1. I'm only allowed to listen to each entry once
 2. Each entry is allowed a tweet-sized piece of commentary: meaning a maximum of 280 characters
-
-[^1listen]: As always, I've followed the UK’s national selection process – which this year was just re-announcing the same artist with a new song. That means I’ve heard the UK entry more than once; but that's the only exception I'm allowed.
 
 This year, I've listened to the entries in the order they appear on the [official Eurovision album](https://music.apple.com/gb/album/eurovision-song-contest-rotterdam-2021/1560995557). They are presented in alphabetical order, below.
 
 So let’s hop in...
-
-## The entries
-
-{% include blog/eurovision.html %}
-
-## Summing up
-
-Phew! That was a wild ride. 39 entries later, I think it would be nice to take a trip to [Valletta](https://www.visitmalta.com/en/valletta) in 2022; don't you?
 

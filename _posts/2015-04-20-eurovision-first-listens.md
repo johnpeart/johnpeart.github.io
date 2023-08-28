@@ -1,7 +1,7 @@
 ---
 title: "I listened to every Eurovision 2015 entry, so you don't have to"
 excerpt: "Save yourself the 120 minutes it takes to listen to all 40 of this year's Eurovision entries; I've done the hard work, so you don't have to."
-layout: post
+layout: post-eurovision
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2015/04/20/eurovision-first-listens
 category:
@@ -413,7 +413,3 @@ entries:
 Today, marks the release of the official 2015 Eurovision Song Contest album. With reading that, I'm sure you're already firing up Spotify, but wait!
 
 You don't need to listen to all 40 in the hopes of finding the diamonds in the rough; I've done the hard work for you. In what is likely the biggest demonstration of how much of a life I don't have, I've already listened to all 40 official entries - they've been on YouTube and Spotify for months - and below are lightning reviews of all 40 entrants! You're welcome.
-
-## The entries
-
-{% include blog/eurovision.html %}

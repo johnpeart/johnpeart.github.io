@@ -1,8 +1,8 @@
 ---
-title: "I listened to every Eurovision 2017 track, so you don't have to"
+title: "I listened to every Eurovision 2017 entry, so you don’t have to"
 author: John Peart
 excerpt: "Here we are again. First impressions of every track, in the order they'll appear, in less than a tweet each."
-layout: post
+layout: post-eurovision
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
 category:
   - eurovision
@@ -376,7 +376,3 @@ It's become a little tradition of mine to give first impressions of the year's E
 This year, as last, I'm doing it in strict 140 character form: tweet sized commentary on every track.
 
 I've listened to them all in the order they will be performed, rather than the order they appear on the album; for no other reason than because I can.
-
-## The entries
-
-{% include blog/eurovision.html %}

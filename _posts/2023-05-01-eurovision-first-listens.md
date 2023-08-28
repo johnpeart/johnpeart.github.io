@@ -1,8 +1,8 @@
 ---
-title: "I listened to this year’s Eurovision 2023 entries so you don’t have to"
+title: "I listened to every Eurovision 2023 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to a few quippy comments."
-layout: post
+layout: post-eurovision
 image: "https://www.johnpe.art/assets/images/social/eurovision.png"
 redirect_from:
 - /eurovision
@@ -696,6 +696,18 @@ entries:
     
     It is however in the doomful final slot of the show, possibly sealing its fate to score badly from the outset.       
 
+summing-up: |
+  There's a lot to like in this year's Eurovision Song Contest entries. 
+  
+  The qualifiers from the semi-finals are more unpredictable than ever. The jury votes will no longer happen following last year's vote rigging scandals, so it's all on the public vote. 
+  
+  The first semi-final seems like the weaker of the two to me. I'd expect some weird selections from that crop, and some great songs to get knocked out from the second semi-final. 
+  
+  As for some of my favourites: **Sweden** has, as usual, brought its A-game. A powerhouse anthem that will shake down the rafters of the M&S Bank Arena in Liverpool. **Austria** is a bit bonkers, but in the best possible way. **Denmark**'s entry is very much my vibe. **Poland** is set to bring the sexy. **Lithuania** is memorable and enchanting. And, for the second year in a row, I actually have some hope for our own chances, here in the **United Kingdom**.
+  
+  Wooden spoons go to **Romania**, **Croatia**, and **Finland**.
+  
+  But those are just my opinions. The beauty of Eurovision is that we all get an opinion; it's one of the biggest referenda you can take part in! Go find your Eurovibes, tune in and vote on 9, 11 and 13 May 2023 at 8:00pm on BBC One.
 
 ---
 
@@ -707,29 +719,10 @@ Every year since 2015 I've shared my gut reactions on this blog for absolutely n
 
 Usually I have some fairly strictly imposed rules: I'm only allowed to listen to each entry once, and I'm allowed a tweet-sized comment on each one.
 
-But what even *is* a tweet-sized comment any more? Since *Space Karen* took over the bird site, you can post up to 10,000 characters now. So, much like *Dua Lipa*, I've got new rules.
+But what even *is* a tweet-sized comment any more? Since *Space Karen* took over *the bird site*, you can post up to 10,000 characters now. So, much like *Dua Lipa*, I've got new rules.
 
 This year, I've listened to the entirety of the [official Eurovision album](https://music.apple.com/gb/album/eurovision-song-contest-liverpool-2023/1679320437) in one go, without looking at which song is which. I've then gone back and listened to each song again, before putting finger to keyboard.
 
 As for length of commentary, I am ditching my 280 character limit. It's all about vibes now. If it's a crap song, I'll write a little. If it's a great song, I'll write a lot. 
 
 So let’s get stuck in...
-
-## The entries
-
-{% include blog/eurovision.html %}
-
-## Summing up
-
-There's a lot to like in this year's Eurovision Song Contest entries. 
-
-The qualifiers from the semi-finals are more unpredictable than ever. The jury votes will no longer happen following last year's vote rigging scandals, so it's all on the public vote. 
-
-The first semi-final seems like the weaker of the two to me. I'd expect some weird selections from that crop, and some great songs to get knocked out from the second semi-final. 
-
-As for some of my favourites: **Sweden** has, as usual, brought its A-game. A powerhouse anthem that will shake down the rafters of the M&S Bank Arena in Liverpool. **Austria** is a bit bonkers, but in the best possible way. **Denmark**'s entry is very much my vibe. **Poland** is set to bring the sexy. **Lithuania** is memorable and enchanting. And, for the second year in a row, I actually have some hope for our own chances, here in the **United Kingdom**.
-
-Wooden spoons go to **Romania**, **Croatia**, and **Finland**.
-
-But those are just my opinions. The beauty of Eurovision is that we all get an opinion; it's one of the biggest referenda you can take part in! Go find your Eurovibes, tune in and vote on 9, 11 and 13 May 2023 at 8:00pm on BBC One.
-

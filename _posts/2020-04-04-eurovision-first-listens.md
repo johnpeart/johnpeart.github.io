@@ -1,8 +1,8 @@
 ---
-title: "I listened to this year’s defunct Eurovision 2020 entries so you don’t have to"
+title: "I listened to every defunct Eurovision 2020 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "Eurovision is cancelled, but I’ve listened to every entry for this year’s Contest anyway. Preview, review and snark for every entry, in 280 characters or less."
-layout: post
+layout: post-eurovision
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 category:
   - eurovision
@@ -448,6 +448,9 @@ entries:
     It’s supremely unfortunate that in the year the UK enters a *good* song, Eurovision gets cancelled. It’s also unfortunate that we chose a song with *this title* in the same year the world is swept by a respiratory virus pandemic.
 
     I just wish the song didn’t end 25 seconds early.
+    
+summing-up: |
+  So that’s every Eurovision song that won’t get to compete this year. 41 tracks that history will probably forget. In many cases, probably for the best anyway.
 
 ---
 
@@ -455,27 +458,13 @@ The Eurovision Song Contest will not take place in 2020. At least, not as we kno
 
 This year would have seen 41 countries put forward up to 3:00 minutes of something resembling popular music. All 41 entries are now never to be voted upon – *except in my virtual house party, of course*.
 
-Every year for the last 5 years, it’s been a tradition of mine to listen to the tracks on the official Eurovision album and jot down some initial impressions. This year it’s not clear if we’re going to *get* an official album, so instead I’ve scoured the internet to listen to them on a self-compiled Eurovision playlist[^1] instead. The coronavirus can’t stop me unashamedly enjoying the musical delights of a slightly geographically-expanded Europe[^2].
-
-[^1]: It’s on [Apple Music](https://music.apple.com/gb/playlist/eurovision-2020/pl.u-d2b0MA2CMvNb28), if you want to listen. Malta’s entry is missing because they appear not to have released it on the UK streaming services; so I watched the YouTube video.
-
-[^2]: To be eligible to enter the Eurovision Song Contest, you need to be a member of the European Broadcasting Union. Membership of the Union requires you to be geographically in the [European Broadcasting Area](https://en.wikipedia.org/wiki/European_Broadcasting_Area) or, in recent years, be the country of Australia.
+Every year for the last 5 years, it’s been a tradition of mine to listen to the tracks on the official Eurovision album and jot down some initial impressions. This year it’s not clear if we’re going to *get* an official album, so instead I’ve scoured the internet to listen to them on a self-compiled Eurovision playlist instead. The coronavirus can’t stop me unashamedly enjoying the musical delights of a slightly geographically-expanded Europe.
 
 As ever, there are some rules:
 
-1. I'm only allowed to listen to each track once[^1listen]
+1. I'm only allowed to listen to each track once
 2. Each entry is allowed a tweet-sized piece of commentary: up to 280 characters — no more, but sometimes less
 
 In lieu of an officially curated album, I’ve listened to the songs in alphabetical order *by artist* this year.
 
-[^1listen]: As always, I watched the UK’s national selection. That means I’ve heard the UK entry more than once; but that's the only exception I'm allowed.
-
 So let’s hop in...
-
-## The entries
-
-{% include blog/eurovision.html %}
-
-## Summing up
-
-So that’s every Eurovision song that won’t get to compete this year. 41 tracks that history will probably forget. In many cases, probably for the best anyway.

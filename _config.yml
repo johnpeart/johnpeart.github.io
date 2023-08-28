@@ -50,6 +50,10 @@ linkedin-handle: "jrpeart"
 # Github
 github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"
+github:
+  username: "johnpeart"
+  repo: "johnpeart.github.io"
+  branch: "main"
 
 ###############
 # WebMentions #

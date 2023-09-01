@@ -1,13 +1,13 @@
 ---
 title: "I listened to every Eurovision 2015 entry, so you don't have to"
 excerpt: "Save yourself the 120 minutes it takes to listen to all 40 of this year's Eurovision entries; I've done the hard work, so you don't have to."
-layout: post-eurovision
+layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 permalink: /2015/04/20/eurovision-first-listens
 category:
   - eurovision
 
-entries:
+eurovision-entries:
 - country: "Moldova"
   emoji: "🇲🇩"
   song: "I Want Your Love"

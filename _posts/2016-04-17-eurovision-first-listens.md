@@ -1,12 +1,12 @@
 ---
 title: "I listened to every Eurovision 2016 entry, so you don’t have to"
 excerpt: "I've done the hard work to make your Eurovision experience simple once again this year. Here are my first impressions of this year's Eurovision Song Contest entries."
-layout: post-eurovision
+layout: post
 image: https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png
 category:
   - eurovision
 
-entries:
+eurovision-entries:
 - country: "Finland"
   song: "Sing It Away"
   artist: "Sandhja"

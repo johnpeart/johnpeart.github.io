@@ -2,12 +2,12 @@
 title: "I listened to every Eurovision 2018 entry, so you don’t have to"
 author: John Peart
 excerpt: "Thoughts on the entries for the 2018 Eurovision Song Contest in 280 characters or less."
-layout: post-eurovision
+layout: post
 image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
 category:
   - eurovision
 
-entries:
+eurovision-entries:
 - country: "Azerbaijan"
   emoji: ""
   song: "X My Heart"

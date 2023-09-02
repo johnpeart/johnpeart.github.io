@@ -18,7 +18,7 @@ I'm a home owner now. I'm back in a job that I feel excited about. The stage is 
 
 Just like [the last 5 attempts](/goals/), my goals have to be specific, measurable and time-bound. I'm creating multiple goals so if one goes off course, I'm not tempted to throw in this endeavour entirely. The definition of success for any individual goal is completing at least 80% of the goal, and overall is 80% across the goals. My progress will be tracked in the open, to keep myself accountable[^accountable].
 
-[^accountable]: Or put another way, so that [Ben-Jack](‪https://mastodon.social‬/@sparksofben) can nag me.
+[^accountable]: Or put another way, so that [Ben-Jack](https://mastodon.social/@sparksofben) can nag me.
 
 ## My goals for 2023
 

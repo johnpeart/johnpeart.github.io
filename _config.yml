@@ -17,7 +17,7 @@ header-menu:
   - link: "/about"
     label: "About me"
     
-# Header menu
+# Footer menu
 footer-menu:
   - link: "/about"
     label: "About me"

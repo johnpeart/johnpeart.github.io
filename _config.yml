@@ -1,6 +1,4 @@
-######################
-# Site configuration #
-######################
+# Site settings
 title: "John Peart" 
 description: "I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code."
 author: "John Peart"
@@ -8,17 +6,35 @@ author: "John Peart"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.johnpe.art"
 
-####################
-# Feature settings #
-####################
-menu-subdomain: false
-menu-header: true
-menu-footer: true
-analytics: true
+# Header menu
+header-menu:
+  - link: "/writing"
+    label: "Writing"
+  - link: "/photos"
+    label: "Photos"
+  - link: "/projects"
+    label: "Projects"
+  - link: "/about"
+    label: "About me"
+    
+# Header menu
+footer-menu:
+  - link: "/about"
+    label: "About me"
+  - link: "/writing"
+    label: "Writing"
+  - link: "/photos"
+    label: "Photos"
+  - link: "/projects"
+    label: "Projects"
+  - link: "/goals"
+    label: "Goals"
+  - link: "/podcast"
+    label: "Podcasts"
+  - link: "/manuals"
+    label: "Manuals"
 
-###############
-# Asset paths #
-###############
+# Assets
 image-path: "/assets/images"
 css-path: "/assets/styles"
 js-path: "/assets/scripts"
@@ -29,9 +45,7 @@ favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
 favicon-large-png: "/assets/images/site/favicon-large-png.png"
 theme-colour: "#009fe3"
 
-#######################
-# <link rel="me" ...> #
-#######################
+# <link rel="me" ...>
 # Twitter
 twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
 twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
@@ -50,14 +64,14 @@ linkedin-handle: "jrpeart"
 # Github
 github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"
+
+# Editor
 github:
   username: "johnpeart"
   repo: "johnpeart.github.io"
   branch: "main"
 
-###############
-# WebMentions #
-###############
+# WebMentions
 webmentions:
   username: www.johnpe.art
   cache_folder: _data
@@ -77,9 +91,7 @@ webmentions:
         syndication: $.url
         username: $.user.screen_name
 
-###############
-# Collections #
-###############
+# Collections
 collections:
   posts:
     output: true
@@ -111,9 +123,7 @@ collections:
       values:
         layout: manuals/post
              
-##################
-# Build settings #
-##################
+# Jekyll build settings
 remote_theme: johnpeart/theme
 permalink: pretty
 markdown: kramdown

@@ -29,10 +29,6 @@ footer-menu:
     label: "Projects"
   - link: "/goals"
     label: "Goals"
-  - link: "/podcast"
-    label: "Podcasts"
-  - link: "/manuals"
-    label: "Manuals"
 
 # Assets
 image-path: "/assets/images"

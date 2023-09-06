@@ -46,7 +46,7 @@ The other nominees are barely mentioned throughout the night. Looking at the tot
 
 ![Line graph of Adele tweets over time][AdeleTime]
 
-Adele was the most referenced person at the BRITs. She also had some pretty stand-out moments on stage two.
+Adele was the most referenced person at the BRITs. She also had some pretty stand-out moments on stage too.
 
 In her acceptance speech for her first award, she made a [public statement](http://www.vanityfair.com/hollywood/2016/02/adele-kesha-brit-awards) in support of [Kesha](http://www.theguardian.com/music/2016/feb/27/kesha-profile-court-case-dr-luke-sony). It was only a few words, but it caused a spike of discussion about Kesha on Twitter, peaking at 20:09. Oddly, the spike for Adele didn't peak until nearly 5 minutes later.
 

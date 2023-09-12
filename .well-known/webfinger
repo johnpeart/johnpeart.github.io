@@ -3,8 +3,8 @@
 {
   "subject": "acct:{{ site.mastodon.username }}@{{ site.mastodon.instance }}",
   "aliases": [
-    "https://mastodon.social/@{{ site.mastodon.username }}",
-    "https://mastodon.social/users/{{ site.mastodon.username }}"
+    "https://{{ site.mastodon.instance }}/@{{ site.mastodon.username }}",
+    "https://{{ site.mastodon.instance }}/users/{{ site.mastodon.username }}"
   ],
   "links": [
     {

@@ -102,16 +102,16 @@ collections:
       values:
         layout: post
   about:
-    output: true
+    output: false
   projects:
-    output: true
+    output: false
   goals:
-    output: true
+    output: false
     permalink: /goals/:path/
   wishlist:
-    output: true
+    output: false
   podcasts:
-    output: true
+    output: false
   manuals:
     output: true
     permalink: /manual/:title/

@@ -10,8 +10,8 @@ url: "https://www.johnpe.art"
 header-menu:
   - link: "/writing"
     label: "Writing"
-  - link: "/photos"
-    label: "Photos"
+  # - link: "//465.onl"
+  #   label: "465"
   - link: "/projects"
     label: "Projects"
   - link: "/about"
@@ -29,6 +29,8 @@ footer-menu:
     label: "Projects"
   - link: "/goals"
     label: "Goals"
+  # - link: "//465.onl"
+  #   label: "465"
 
 # Assets
 image-path: "/assets/images"

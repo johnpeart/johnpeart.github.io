@@ -122,7 +122,7 @@ Each ICU in this paper represents an individual speech or article made by indivi
 
 First, individual members must have served at least two years on the MPC. Members serving less than two years, or for which no data were available, were excluded. This was to ensure a time-related element to the analysis. In addition, I wanted to ensure that the dataset was not unnecessarily biased towards discussion of the financial crisis, as much of that discussion is likely to be less relevant to the concept of 'underlying monetary policy preferences'. To do this, I needed to exclude those presently on the committee. This had to be balanced against a further consideration however; excluding all current members would have meant losing those members that prior research had indicated could be most revealing – such as the Chair (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)). To ensure there was a balance between these two considerations, two further criteria were applied. Members assessed must have either (a) left the committee, having finished their term, or (b) been on the committee for at least two full terms if they are still serving members. These criteria helped to balance the aforementioned trade off and were intended to maintain the robustness of the dataset. Details of members included or excluded, given the above criteria, are shown in Appendix 1.
 
-<div style="overflow-x:auto;" markdown="1">
+<div class="mobile-overflow" markdown="1">
 
 | Hawks           | Centrists           | Doves                |
 |-----------------|---------------------|----------------------|
@@ -147,7 +147,7 @@ First, individual members must have served at least two years on the MPC. Member
 
 The literature suggests that different members of a committee will be more or less likely to update their preferences based on whether their priors are moderate or extreme (Barabas 2004). My methodology exploits this conclusion, dividing members along a single dimension for the purposes of selecting individuals for in-depth analysis. Using the results from Hix et al. (2010), three corpora were compiled representing the 'hawks', the 'doves' and the 'centrists'. My hypothesis is not, however, concerned with aggregate preferences, but individuals. Hence, I use the results of these initial corpora to find the most statistically significant members. The significance of members, (or indeed any part of the results) is given by the Chi2 value, with one degree of freedom, of the passive variables. The critical values are shown in Table 2.
 
-<div style="overflow-x:auto;" markdown="1">
+<div class="mobile-overflow" markdown="1">
 
 | Statistical significance | Chi value       |
 |--------------------------|-----------------|
@@ -177,7 +177,7 @@ Figures 1, 2 and 3 show the descendant hierarchical classifications for each of 
 ![Figure 2: Dendrograms for hawks corpus][fig-2]
 ![Figure 3: Dendrograms for centrists corpus][fig-3]
 
-<div style="overflow-x:auto;" markdown="1">
+<div class="mobile-overflow" markdown="1">
 
 |                                               | Hawks       | Centrists   | Doves       |
 |-----------------------------------------------|------------:|------------:|------------:|
@@ -199,7 +199,7 @@ Further assessment of the classes reveals that, as predicted, some of the discou
 
 After the process of narrowing the data was completed, eight members remained for assessment; Andrew Sentance (hawk), Mervyn King, Edward George, Charles Bean (centrists), Sushil Wadhwani, Adam Posen, Christopher Allsopp, and DeAnne Julius (doves). The basic results are shown in Table 4, and relevant descendant hierarchical classifications are shown on the following pages. All members attain a robust rate of ECU classification.
 
-<div style="overflow-x:auto;" markdown="1">
+<div class="mobile-overflow" markdown="1">
 
 |          | Total words | Unique words | Passive variables | ICUs | Classified ECUs | Lexical Classes |
 |----------|-------------:|--------------:|-------------------:|------:|-----------------:|-----------------:|

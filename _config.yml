@@ -110,7 +110,7 @@ collections:
   projects:
     output: false
   goals:
-    output: false
+    output: true
     permalink: /goals/:path/
   wishlist:
     output: false

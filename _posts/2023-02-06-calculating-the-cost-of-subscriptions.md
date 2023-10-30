@@ -48,7 +48,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
 
 ### Costs so far...
 
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     position="first"
     image="sky.jpg"
@@ -57,7 +57,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
     price="11.00"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="sky.jpg"
     alt="Sky logo."
@@ -65,19 +65,19 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
     price="15.00"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="netflix.jpg"
     alt="Netflix logo."
     name="Netflix"
     price="included"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="subtotal"
     total="26.00"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="disneyplus.jpg"
     alt="Disney Plus logo."
@@ -85,12 +85,12 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
     price="79.99"
     frequency="year"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="subtotal"
     total="32.67"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="paramountplus.jpg"
     alt="Paramount Plus logo."
@@ -98,7 +98,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
     price="6.99"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="total"
     position="last"
     total="39.66"
@@ -119,7 +119,7 @@ I do use a lot of Amazon's services; especially the delivery services and, to a 
 
 [^Picard]: At the moment, I'm clinging on for the third and final season of Picard – another Star Trek show.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="amazon.jpg"
     alt="Amazon Prime app icon"
@@ -149,7 +149,7 @@ I'm actually spending far more on music, TV and games now than I would have befo
 
 [^Arcade]: _Mini Motorways_. It's a successor to _Mini Metro_. They're both hyper-simple but stupidly complex games where you attempt to build a working transport network. It's incredibly addictive.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     position="first"
     image="appleone.jpg"
@@ -158,28 +158,28 @@ I'm actually spending far more on music, TV and games now than I would have befo
     price="16.95"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="applemusic.jpg"
     alt="Apple Music logo."
     name="Apple Music"
     price="included"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="appletvplus.jpg"
     alt="Apple TV Plus logo."
     name="Apple TV+"
     price="included"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="applearcade.jpg"
     alt="Apple Arcade logo."
     name="Apple Arcade"
     price="included"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     position="last"
     image="icloudplus.jpg"
@@ -198,7 +198,7 @@ I've been a PlayStation Plus subscriber since I have owned a PlayStation 4; all 
 
 If I don't pay for it, I can't play online games, and I do that a lot, so it's not really a contender for a slash and burn on subscriptions.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="playstation.jpg"
     alt="PlayStation iOS app icon"
@@ -220,7 +220,7 @@ The essential, non-negotiable subscription at the moment is 1Password. It's been
 
 Everyone should have a password manager, and I won't be giving up mine given how much value I get for it for such a small cost.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="1password.jpg"
     alt="1Password iOS app icon"
@@ -238,7 +238,7 @@ Last month Twitter killed third-party apps unceremoniously. Tweetbot – my Twit
 
 On the plus side, that's £5.99 a year saved! On the flip side, having recently [migrated to Mastodon](https://mastodon.social/@johnpeart), I've now subscribed to _Ivory_; a new app by the same developer. It comes at a higher price too – £14.99 a year.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="tweetbot.jpg"
     alt="Tweetbot for Twitter iOS app icon"
@@ -256,7 +256,7 @@ I listen to a lot of podcasts. A lot more than I used to, at least. I'm listenin
 
 I could use the free and built-in Apple Podcasts app but I find it entirely unreliable. So, instead, Overcast is currently my podcasting app of choice. It's available for free with ads, or at a fair (and probably, thankfully, too cheap) price.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="overcast.jpg"
     alt="Overcast iOS app icon"
@@ -274,7 +274,7 @@ Working Copy and Nova are both paid softwares that require an annual payment-typ
 
 I could probably stretch out my subscription cycles here a little this year to save a few pounds here and there.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="workingcopy.jpg"
     alt="Working Copy iOS app icon"
@@ -285,7 +285,7 @@ I could probably stretch out my subscription cycles here a little this year to s
     price="17.99"
 %}
 
-{%  include blog/apps.html
+{%  include apps.html
     type="sheet"
     image="nova.jpg"
     alt="Nova iOS app icon"
@@ -302,7 +302,7 @@ I feel *slightly* ridiculous saying that I subscribe to calendar and contacts ap
 
 They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it's really hard to go back to life in the slow lane. So I'll have to suck it up.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     position="first"
     image="flexibits.jpg"
@@ -311,14 +311,14 @@ They are pricey though. I wish that the developer would strip out some of the mo
     price="59.99"
     frequency="year"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="fantastical.jpg"
     alt="Fantastical logo."
     name="Fantastical"
     price="included"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     position="last"
     image="cardhop.jpg"
@@ -335,7 +335,7 @@ Where could I save some money?
 
 Mostly on the streaming services, I think.
 
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     position="first"
     image="sky.jpg"
@@ -344,19 +344,19 @@ Mostly on the streaming services, I think.
     price="15.00"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="netflix.jpg"
     alt="Netflix logo."
     name="Netflix"
     price="included"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="subtotal"
     total="15.00"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="paramountplus.jpg"
     alt="Paramount Plus logo."
@@ -364,7 +364,7 @@ Mostly on the streaming services, I think.
     price="6.99"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="disneyplus.jpg"
     alt="Disney Plus logo."
@@ -372,7 +372,7 @@ Mostly on the streaming services, I think.
     price="79.99"
     frequency="year"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="amazon.jpg"
     alt="Amazon Prime app icon"
@@ -383,7 +383,7 @@ Mostly on the streaming services, I think.
     price="95.00"
     frequency="year"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="list"
     image="appleone.jpg"
     alt="Apple One logo."
@@ -391,7 +391,7 @@ Mostly on the streaming services, I think.
     price="16.95"
     frequency="month"
 %}
-{%  include blog/apps.html
+{%  include apps.html
     type="total"
     position="last"
     total="53.52"

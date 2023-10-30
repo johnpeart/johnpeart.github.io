@@ -14,7 +14,7 @@ category:
 
 The Raspberry Pi runs custom software to display the time and date. It also shows *Yellow Alert* and *Red Alert* statuses when important dates are approaching, such as anniversaries and birthdays.
 
-{% include blog/toc.html %}
+{% include toc.html %}
 
 ## Controlling *LCARS clock*
 

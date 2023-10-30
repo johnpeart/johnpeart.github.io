@@ -3,7 +3,7 @@ title: "I listened to every Eurovision 2022 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less."
 layout: post
-image: "https://www.johnpe.art/assets/images/social/eurovision-280-character-listens.png"
+image: /social/eurovision-280-character-listens.png
 redirect_from:
 - /eurovision
 category:

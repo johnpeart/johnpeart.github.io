@@ -3,7 +3,7 @@ title: "Reviewing my progress against my 2022 goals"
 author: John Peart
 excerpt: "TL;DR – 2022 has not gone according to plan."
 layout: post
-image: https://www.johnpe.art/assets/images/social/goals.png
+image: /social/goals.png
 category:
   - personal
 ---

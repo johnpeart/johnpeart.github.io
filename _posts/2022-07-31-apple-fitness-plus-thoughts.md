@@ -3,7 +3,7 @@ title: "Thoughts on Apple Fitness+ from a fitness newbie"
 author: John Peart
 excerpt: "6 months trying to fix my broken body via home workouts."
 layout: post
-image: /assets/images/social/goals/goals.png
+image: /social/goals/goals.png
 category:
   - personal
 ---

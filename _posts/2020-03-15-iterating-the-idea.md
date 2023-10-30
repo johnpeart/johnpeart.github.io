@@ -3,7 +3,7 @@ title: "A podcast in the making: iterating on the idea"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll talk about some changes I’m making to the plan for my new podcast."
 layout: post
-image: https://www.johnpe.art/assets/images/social/dept-of-bad-ideas.png
+image: /social/dept-of-bad-ideas.png
 category:
   - podcast
 ---

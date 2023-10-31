@@ -1,5 +1,5 @@
 ---
-title: "Making “Web mentions” look more conversational"
+title: "Making “Webmentions” look more conversational"
 author: "John Peart"
 excerpt: "Pruning back the CSS garden. Repainting the HTML walls."
 layout: post

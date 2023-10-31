@@ -7,7 +7,7 @@ image: /posts/2023/10/31/making-webmentions-look-more-conversational/social-medi
 emoji: ["🧹","🫧","🧽","✨","💬"]
 ---
 
-I recently added support for [federated social networking features to my website](/2023/07/30/into-the-fediverse/). If you're on a service like Mastodon, and you with a post that links to something on my website, it'll show up a little while later *on my actual website*! Cool, right?!
+I recently added support for [federated social networking features to my website](/2023/07/30/into-the-fediverse/). If you're on a service like Mastodon, and you interact with a post that links to something on my website, it'll show up a little while later *on my actual website*! Cool, right?!
 
 ## The boring bit
 
@@ -38,4 +38,4 @@ Now my social web interactions show up like a massive group chat. Replies and me
 
 I think this makes each post feel a bit more conversational. A bit more *alive*.
 
-Try it out for yourself. [Reply to, like, repost or boost this post on Mastodon]() and a couple of hours later, you'll be a part of the conversation at the bottom of this post.
+Try it out for yourself. [Reply to, like, repost or boost this post on Mastodon](https://mastodon.social/@johnpeart/111330169324420012) and a couple of hours later, you'll be a part of the conversation at the bottom of this post.

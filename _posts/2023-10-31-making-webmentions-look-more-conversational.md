@@ -38,7 +38,7 @@ The social web is a conversation. It should look like one.
   </figcaption>
 </figure>
 
-Now my social web interactions show up like a massive group chat. Replies and mentions of my posts show up in speech bubbles. Likes and reposts – and now also bookmarks – are no longer just counter up, but show up in the flow of the of other Webmentions. 
+Now my social web interactions show up like a massive group chat. Replies and mentions of my posts show up in speech bubbles. Likes and reposts – and now also bookmarks – are no longer just counted up, but show up in the flow of the of other Webmentions. 
 
 I think this makes each post feel a bit more conversational. A bit more *alive*.
 

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/johnpeart/jekyll-webmention_io.git
-  revision: c0b5e6a1484d01eaca9a8dcfd8b2e0a5552fc21f
+  revision: c91e41b5b3928eb732c2701cc02137f708c275cc
   specs:
     jekyll-webmention_io (4.0.0)
       activesupport (~> 7.0, >= 7.0.4.3)
@@ -120,7 +120,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.3)
-    racc (1.7.1)
+    racc (1.7.2)
     rake (13.1.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
@@ -163,4 +163,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.26
+   2.4.10

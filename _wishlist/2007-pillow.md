@@ -6,4 +6,4 @@ purchased: true
 link: "https://throwboy.com/collections/throwboy-pillows/products/2007"
 gift-idea: true
 ---
-Shipped from outside UK; postage c. £30
+Shipped from outside UK; postage c. £30.

@@ -6,4 +6,4 @@ purchased: false
 link: "https://www.amazon.co.uk/Brilliant-Ashford-Crystal-Highball-10-5oz/dp/B0763SJP31"
 gift-idea: true
 ---
-Example linked
+Example linked.

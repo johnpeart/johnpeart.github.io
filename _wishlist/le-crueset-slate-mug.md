@@ -6,4 +6,4 @@ purchased: false
 link: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
 gift-idea: true
 ---
-350ml; satin black finish
+350ml; satin black finish.

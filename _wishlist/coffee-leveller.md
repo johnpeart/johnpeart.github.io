@@ -6,4 +6,4 @@ purchased: true
 link: "https://amzn.eu/d/7UDcICh"
 gift-idea: true
 ---
-51mm diameter
+51mm diameter.

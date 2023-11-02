@@ -6,4 +6,4 @@ purchased: true
 link: "https://www.amazon.co.uk/dp/B0B3JVSGGZ"
 gift-idea: false
 ---
-PlayStation 4
+PlayStation 4.

@@ -6,4 +6,4 @@ purchased: true
 link: "https://store.steampowered.com/app/1252330/DEATHLOOP/"
 gift-idea: true
 ---
-PC
+PC.

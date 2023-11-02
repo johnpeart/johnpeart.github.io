@@ -6,4 +6,4 @@ purchased: true
 link: "https://store.steampowered.com/app/1496790/Gotham_Knights/"
 gift-idea: false
 ---
-Steam
+Steam.

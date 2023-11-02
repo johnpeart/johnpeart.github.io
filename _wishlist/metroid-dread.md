@@ -6,4 +6,4 @@ purchased: true
 link: "https://www.amazon.co.uk/dp/B097BP5DLQ/"
 gift-idea: true
 ---
-Nintendo Switch
+Nintendo Switch.

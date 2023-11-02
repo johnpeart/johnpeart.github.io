@@ -5,4 +5,4 @@ price: 0.00
 purchased: false
 gift-idea: true
 ---
-For use with an induction hob
+For use with an induction hob.

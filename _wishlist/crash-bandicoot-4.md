@@ -6,4 +6,4 @@ purchased: true
 link: "https://www.amazon.co.uk/Crash-BandicootTM-About-Time-Tote/dp/B08CBNQ4YM/"
 gift-idea: false
 ---
-PlayStation 4
+PlayStation 4.

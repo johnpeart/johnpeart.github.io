@@ -5,4 +5,4 @@ price: 0.00
 purchased: true
 gift-idea: true
 ---
-In a modern style
+In a modern style.

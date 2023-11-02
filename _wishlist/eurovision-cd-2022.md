@@ -6,4 +6,4 @@ link: "https://www.amazon.co.uk/Eurovision-Song-Contest-Turin-2022/dp/B09TMSBP93
 purchased: false
 gift-idea: true
 ---
-Compact Disc (retro!)
+Compact Disc. Retro!

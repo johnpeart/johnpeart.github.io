@@ -1,8 +1,8 @@
 ---
 list: "Clothing and accessories"
-name: "Mock turtle neck jumpers"
+name: "Hugo by Hugo Boss"
 price: 0.00
 purchased: false
 gift-idea: true
 ---
-Size S
+Aftershave; size and costs vary.

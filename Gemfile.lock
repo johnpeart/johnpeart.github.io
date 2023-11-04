@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/johnpeart/jekyll-webmention_io.git
-  revision: 2de32d9ee12709c41a0498d585871563c86c18ea
+  revision: 8b4a5c27406b48649896fd09429b39c3bab5b546
   specs:
     jekyll-webmention_io (4.0.0)
       activesupport (~> 7.0, >= 7.0.4.3)
@@ -163,4 +163,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.4.10
+   2.3.26

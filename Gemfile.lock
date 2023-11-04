@@ -1,6 +1,13 @@
 GIT
+  remote: https://github.com/johnpeart/jekyll-epoch-time.git
+  revision: a3b182ff13e37b3789fb418437f03f4fba9becda
+  specs:
+    jekyll-epoch-time (1.0)
+      jekyll (~> 4.0)
+
+GIT
   remote: https://github.com/johnpeart/jekyll-webmention_io.git
-  revision: fc6a06d0badf94962530945f31b7c429656c952d
+  revision: 5be5ea2560112c2d4882e40665c9acc9419415c2
   specs:
     jekyll-webmention_io (4.0.0)
       activesupport (~> 7.0, >= 7.0.4.3)
@@ -80,6 +87,8 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-remote-theme (0.4.3)
@@ -120,7 +129,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.3)
-    racc (1.7.2)
+    racc (1.7.3)
     rake (13.1.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
@@ -154,7 +163,9 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3)
+  jekyll-epoch-time!
   jekyll-feed
+  jekyll-paginate-v2
   jekyll-redirect-from
   jekyll-remote-theme
   jekyll-sass-converter (~> 2.0)

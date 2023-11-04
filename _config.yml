@@ -76,6 +76,7 @@ webmentions:
   username: www.johnpe.art
   cache_folder: _data
   cache_bad_uris_for: 5
+  collections: true
   legacy_domains:
     - http://johnpe.art
     - http://www.johnpe.art
@@ -102,9 +103,6 @@ collections:
   archive:
     output: true
     permalink: /archive/:path/
-    defaults:
-      values:
-        layout: post
   about:
     output: false
   projects:
@@ -119,9 +117,49 @@ collections:
   manuals:
     output: true
     permalink: /manual/:title/
-    defaults:
-      values:
-        layout: manuals/post
+  reply:
+    output: true
+    permalink: /reply/:epoch
+
+defaults:
+  - scope:
+      type: "archive"
+    values:
+      layout: post
+      categories: ["Archived"]
+  - scope:
+      type: "manuals"
+    values:
+      layout: post
+      categories: ["Manual"]
+  - scope:
+      type: "note"
+    values:
+      layout: "quick-post"
+      categories: ["Notes"]
+  - scope:
+      type: "list"
+    values:
+      layout: "quick-post"
+      categories: ["Lists"]
+  - scope:
+      type: "polaroid"
+    values:
+      layout: "quick-post"
+      categories: ["Photos"]
+  - scope:
+      type: "reply"
+    values:
+      layout: "reply"
+      categories: ["Reply"]
+
+pagination:
+  enabled: true
+  collection: posts, reply, note, list, polaroid
+  per_page: 10
+  permalink: '/stream/:num/'
+  sort_field: 'date'
+  sort_reverse: true
 
 # Jekyll build settings
 remote_theme: johnpeart/theme

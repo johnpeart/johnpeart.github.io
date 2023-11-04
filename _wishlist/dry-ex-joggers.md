@@ -6,4 +6,4 @@ price: 29.90
 purchased: false
 gift-idea: true
 ---
-From Uniqlo. Size M.
+From Uniqlo. Size S.

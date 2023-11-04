@@ -10,29 +10,18 @@ url: "https://www.johnpe.art"
 header-menu:
   - link: "/writing"
     label: "Writing"
+  - link: "/stream"
+    label: "Stream"
   # - link: "//465.onl"
   #   label: "465"
-  - link: "/projects"
-    label: "Projects"
   - link: "/about"
     label: "About me"
-
-# Footer menu
-footer-menu:
-  - link: "/about"
-    label: "About me"
-  - link: "/writing"
-    label: "Writing"
-  # - link: "/photos"
-  #   label: "Photos"
   - link: "/projects"
     label: "Projects"
   - link: "/goals"
     label: "Goals"
   - link: "/wishlist"
     label: "Wishlist"
-  # - link: "//465.onl"
-  #   label: "465"
 
 # Assets
 image-path: "/assets/images"
@@ -119,7 +108,16 @@ collections:
     permalink: /manual/:title/
   reply:
     output: true
-    permalink: /reply/:epoch
+    permalink: /reply/:epoch/
+  note:
+      output: true
+      permalink: /note/:epoch/
+  list:
+    output: true
+    permalink: /list/:epoch/
+  polaroid:
+    output: true
+    permalink: /photo/:epoch/
 
 defaults:
   - scope:

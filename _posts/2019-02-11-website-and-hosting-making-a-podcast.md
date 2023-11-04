@@ -3,7 +3,7 @@ title: "A podcast in the making: setting up a website"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about the website I built for the podcast."
 layout: post
-image: /social/dept-of-bad-ideas.png
+image: /social/podcasts/dept-of-bad-ideas.png
 category:
   - podcast
 ---
@@ -26,9 +26,9 @@ This isn’t “Web Design 101”, so I won’t go over the specifics of how to 
 
 ### Collections
 
-Jekyll has a concept called “Collections” which help you to organise groups of documents. A set of blog posts would be an example of a collection. 
+Jekyll has a concept called “Collections” which help you to organise groups of documents. A set of blog posts would be an example of a collection.
 
-I set up two collections, one called `_episodes` and one called `_posts` so that I could address each separately. This allows me to easily organise the posts and episodes in the repository, and address each collection for the purposes of building the post loops and feeds (in this case using `site.episodes` and `site.posts`). 
+I set up two collections, one called `_episodes` and one called `_posts` so that I could address each separately. This allows me to easily organise the posts and episodes in the repository, and address each collection for the purposes of building the post loops and feeds (in this case using `site.episodes` and `site.posts`).
 
 I could have achieved a similar thing using post categories or by filtering the default `site.posts` collection by something like `page.layout`, but this reduced the complexity in the code and kept things neater in terms of file structure.
 
@@ -40,7 +40,7 @@ Again, I could have achieved this using some `if` statements in one layout inste
 
 ### Mostly vanilla CSS
 
-The features available in modern browsers continue to expand at an uneven but breakneck pace. I’m usually one for diving into these new features and littering them all over my projects, but this time I wanted to keep things simple and also backwards compatible with some older browsers. 
+The features available in modern browsers continue to expand at an uneven but breakneck pace. I’m usually one for diving into these new features and littering them all over my projects, but this time I wanted to keep things simple and also backwards compatible with some older browsers.
 
 Instead of using newer features like [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) — which I love, but has its growing pains) — I decided to keep a simple one or two column layout across the site, and use tried and tested techniques like floats. This made the code a bit more complex, but thanks to the wonders of Sass and mixins, the code was easy for me to read in its uncompiled form.
 
@@ -48,12 +48,12 @@ I did use one more modern feature: `position: sticky`. This isn’t a prime time
 
 ## Next up...
 
-The advantage of using Github Pages is that it’s totally free, it’s easy to use and it’s pretty reliable. It isn’t a full and foolproof solution for podcasting though, as I soon discovered. 
+The advantage of using Github Pages is that it’s totally free, it’s easy to use and it’s pretty reliable. It isn’t a full and foolproof solution for podcasting though, as I soon discovered.
 
 In my next post, I’ll share a bit more about the difficulties of setting up an RSS feed for podcasts using Github Pages and how I solved that by starting to get to grips with Amazon Web Services S3 service.
 
 > **All posts in this series**
-> 
+>
 > 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
 > 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
 > 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
@@ -61,5 +61,5 @@ In my next post, I’ll share a bit more about the difficulties of setting up an
 > 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
 
 > You can find out more about the **Department of Bad Ideas** on [the podcast’s new website](//badideas.podcast.johnpe.art).
-> 
+>
 > You can also subscribe on Apple Podcasts or on Spotify. Just search for “Department of Bad Ideas”.

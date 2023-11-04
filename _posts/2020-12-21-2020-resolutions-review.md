@@ -3,12 +3,12 @@ title: "Reviewing my progress against my 2020 goals"
 author: John Peart
 excerpt: "For once, I did what I said I was going to do."
 layout: post
-image: /social/goals.png
+image: /social/goals/goals.png
 category:
   - personal
 ---
 
-For the past three years, I've been trying to get better at setting goals for myself and sticking to them. 
+For the past three years, I've been trying to get better at setting goals for myself and sticking to them.
 
 When I tried this the first time [it didn't work out so well](/2018/12/16/ive-failed-my-2018-goals). Last year things [worked out only a little better](/2019/12/26/2019-resolutions-review). 2020 though, this was going to be the year I achieved my goals!
 
@@ -20,13 +20,13 @@ On New Year's Eve 2019, [I set myself 7 goals for 2020](/2019/12/31/setting-goal
 4. publish 5 episodes of a podcast
 5. lose 10kg of weight
 6. do dry January
-7. save £5,000 by the end of the year 
+7. save £5,000 by the end of the year
 
 I followed the same structure as the past few years. These goals were bitesized, measurable and [published on the open internet](//www.johnpe.art/goals) so that I kept myself honest. They were deliberately over-stretching because I didn't expect to achieve all of them; but the goal was to achieve 80% of what I set out to do overall.
 
 ## How did I do?
 
-Despite everything that's happened in the hellscape that is the year 2020, things have gone remarkably well. As at 21 December 2020, **83% of my goals have have been completed** giving each goal an equal weighting. 
+Despite everything that's happened in the hellscape that is the year 2020, things have gone remarkably well. As at 21 December 2020, **83% of my goals have have been completed** giving each goal an equal weighting.
 
 Here's a blow-by-blow account of progress on each goal.
 
@@ -43,9 +43,9 @@ I'm going to keep this goal for next year and try again.
 
 ~~I'm a bit of a loner~~ *I enjoy my own company* which means I can be a bit of a rubbish friend. This year I tried to be a better one.
 
-The success criteria for this was to meet up with at least 12 friends; one a month. Given the whole coronavirus situation, 'meet up' obviously became 'have a video call with' a lot of people; and given everyone wanted to have those in *Lockdown #1*, I caught up with many more than 12 friends. 
+The success criteria for this was to meet up with at least 12 friends; one a month. Given the whole coronavirus situation, 'meet up' obviously became 'have a video call with' a lot of people; and given everyone wanted to have those in *Lockdown #1*, I caught up with many more than 12 friends.
 
-This goal became too easy, so I made it harder: I had to be sociable once a month, whether that was a Zoom quiz or an actual, real life interaction. 
+This goal became too easy, so I made it harder: I had to be sociable once a month, whether that was a Zoom quiz or an actual, real life interaction.
 
 Thanks to an abundance of other friends who were also desperate for something resembling normality, **I have achieved 100% of this goal**.
 
@@ -59,7 +59,7 @@ After a writing spurt at the start of the year, I lost steam on this goal. Nonet
 
 ### Start a podcast
 
-In 2019, I had an idea for a podcast called [the Department of Bad Ideas](/2019/01/27/department-of-bad-ideas). I didn't actually get around to making it though, despite putting all the infrastructure in place. So this year, I said I'd finish it but *I haven't*. I recorded two episodes of the podcast, but I want to do a couple more before I publish them. 
+In 2019, I had an idea for a podcast called [the Department of Bad Ideas](/2019/01/27/department-of-bad-ideas). I didn't actually get around to making it though, despite putting all the infrastructure in place. So this year, I said I'd finish it but *I haven't*. I recorded two episodes of the podcast, but I want to do a couple more before I publish them.
 
 Despite that, **I have still achieved 100% of this goal**[^pod]. The success criteria for this goal was to publish 5 episodes of a podcast, and *I did do that*. I created a podcast for the [Civil Service LGBT+ Network](http://civilservice.lgbt) as part of its digital pride season. It's called the PrideON podcast, and [you can listen to it on the Network's website](http://civilservice.lgbt/podcast).
 
@@ -67,9 +67,9 @@ Despite that, **I have still achieved 100% of this goal**[^pod]. The success cri
 
 ### Be healthier
 
-You know when people say they're going on a diet in January and then it lasts about 5 minutes before they get back on the chocolate and booze? That used to be me; but not this year. 
+You know when people say they're going on a diet in January and then it lasts about 5 minutes before they get back on the chocolate and booze? That used to be me; but not this year.
 
-The success criteria for this goal was to lose 10kg of weight, starting out at 80kg on 1 January 2020. As I write this I weigh exactly 70kg. **So I have achieved 100% of this goal** but, more importantly, I think I have a much healthier relationship with food than I did at the start of the year. 
+The success criteria for this goal was to lose 10kg of weight, starting out at 80kg on 1 January 2020. As I write this I weigh exactly 70kg. **So I have achieved 100% of this goal** but, more importantly, I think I have a much healthier relationship with food than I did at the start of the year.
 
 ### Dry January
 
@@ -79,7 +79,7 @@ This was a pretty straightforward goal. The success criteria was to not drink al
 
 For the third year in a row, I started the year aiming to save some money for a house deposit. For the last two years I have failed to achieve it. This year I met the goal and blew past it.
 
-The success criteria for this goal was to save £5,000. I saved more than £9,500 this year, **achieving more than 190% of my goal**. 
+The success criteria for this goal was to save £5,000. I saved more than £9,500 this year, **achieving more than 190% of my goal**.
 
 I suspect the pandemic, home-working and lack of going out has contributed substantially to this; but I'll take it!
 

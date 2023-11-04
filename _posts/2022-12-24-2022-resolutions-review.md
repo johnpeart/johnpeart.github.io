@@ -3,7 +3,7 @@ title: "Reviewing my progress against my 2022 goals"
 author: John Peart
 excerpt: "TL;DR – 2022 has not gone according to plan."
 layout: post
-image: /social/goals.png
+image: /social/goals/goals.png
 category:
   - personal
 ---
@@ -33,14 +33,14 @@ Having spent the final three months of 2021 looking a new job, I started the yea
 
 In parallel, in March, I decided I was fed up of paying someone else's mortgage and took the leap to get one of my own. That purchase was meant to complete by July. Instead, it completed in October and I moved to my new home.
 
-So 2022 started with job chaos. It ended filled with home-buying and moving chaos. 
+So 2022 started with job chaos. It ended filled with home-buying and moving chaos.
 
-Little wonder then, that my attention has been otherwise divided and focused on matters _other than_ my 2022 goals. 
+Little wonder then, that my attention has been otherwise divided and focused on matters _other than_ my 2022 goals.
 
 ## So, we try again
 
-2022 was a drama and 2022 is a write-off. 2023 should, I hope, be much more stable. 
+2022 was a drama and 2022 is a write-off. 2023 should, I hope, be much more stable.
 
-_So, we try again._ A new year, and a new set of goals. Let's see if I can stick to them this time. 
+_So, we try again._ A new year, and a new set of goals. Let's see if I can stick to them this time.
 
 > You can see my progress with this year's goals by visiting my [goals dashboard](/goals/2022).

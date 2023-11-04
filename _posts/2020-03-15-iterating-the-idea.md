@@ -3,32 +3,32 @@ title: "A podcast in the making: iterating on the idea"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll talk about some changes I’m making to the plan for my new podcast."
 layout: post
-image: /social/dept-of-bad-ideas.png
+image: /social/podcasts/dept-of-bad-ideas.png
 category:
   - podcast
 ---
 
-Last year, I said I wanted to create a podcast. I called it [the Department of Bad Ideas](//badideas.podcast.johnpe.art). 
+Last year, I said I wanted to create a podcast. I called it [the Department of Bad Ideas](//badideas.podcast.johnpe.art).
 
 I did a lot of preparatory work for the podcast last year. I [built a website](/2019/02/11/department-of-bad-ideas-hosting-and-website), and I got the RSS feeds listed in the [Apple Podcasts and Spotify listings](/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting). I also recorded a [teaser episode that you can listen to already](//badideas.podcast.johnpe.art). What I *didn’t* do was actually record the main episodes.
 
-This year, I want to get this thing done. 
+This year, I want to get this thing done.
 
 I’ve been thinking about what held me back last year. I’ve also taken some time to think about the concept for the podcast, and how it can be improved. So I’ve made some changes.
 
 ## Fewer people to arrange
 
-I think I made my learning curve a bit too steep. The original idea for the podcast was to record a head-to-head between two people with me adjudicating; but that has been a logistical nightmare. 
+I think I made my learning curve a bit too steep. The original idea for the podcast was to record a head-to-head between two people with me adjudicating; but that has been a logistical nightmare.
 
 People want to get involved, but they haven’t been able to always source someone to pair up with. It means actually recording each episode is more difficult too, with microphones everywhere.
 
-So I’ve changed the format. 
+So I’ve changed the format.
 
 Each episode will have one guest, and we’ll have a league table for all contestants as we go.
 
 ## Changing the structure
 
-The original format, with two guests, would have provided roughly 45 minutes of airtime: 15 minutes for each guest. As I’m changing to having only one guest, I’ve needed to change the structure of the show too. 
+The original format, with two guests, would have provided roughly 45 minutes of airtime: 15 minutes for each guest. As I’m changing to having only one guest, I’ve needed to change the structure of the show too.
 
 I’ve added an additional round — The Big Idea — and made changes to the final round so that it’s a bit more straightforward.
 
@@ -40,7 +40,7 @@ These changes should make the episode last for 30 minutes in total. This is slig
 
 ## Clearer guidance for guests
 
-I created a PDF guide for prospective guests last year, trying to explain all the various bits they needed to do. 
+I created a PDF guide for prospective guests last year, trying to explain all the various bits they needed to do.
 
 I wasn’t happy with the end product. It was bloated, didn’t really guide people through what they needed to do, and contained a lot of typos (I keep finding them!).
 
@@ -54,7 +54,7 @@ I’ve got one confirmed guest already; someone I work with. I have a list of ab
 
 
 > **All posts in this series**
-> 
+>
 > 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
 > 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
 > 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
@@ -62,5 +62,5 @@ I’ve got one confirmed guest already; someone I work with. I have a list of ab
 > 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
 
 > You can find out more about the **Department of Bad Ideas** on [the podcast’s new website](//badideas.podcast.johnpe.art).
-> 
+>
 > You can also subscribe on Apple Podcasts or on Spotify. Just search for “Department of Bad Ideas”.

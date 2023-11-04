@@ -3,12 +3,12 @@ title: "A podcast in the making: the RSS feed and hosting"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about how I got the RSS feed to work for the podcast."
 layout: post
-image: /social/dept-of-bad-ideas.png
+image: /social/podcasts/dept-of-bad-ideas.png
 category:
   - podcast
 ---
 
-As I mentioned in [my last post](/2019/02/11/department-of-bad-ideas-hosting-and-website), getting a podcast on to the Internet has turned out to be more difficult than I thought it would be. Creating the basic website was fairly straightforward, thanks to some [tools I’d used before](https://jekyllrb.com). Where I came unstuck was the RSS feed. 
+As I mentioned in [my last post](/2019/02/11/department-of-bad-ideas-hosting-and-website), getting a podcast on to the Internet has turned out to be more difficult than I thought it would be. Creating the basic website was fairly straightforward, thanks to some [tools I’d used before](https://jekyllrb.com). Where I came unstuck was the RSS feed.
 
 If you don’t know already, podcast feeds are just RSS feeds with a set of specific tags to make things like the Apple Podcasts listings work.
 
@@ -29,18 +29,18 @@ All I’ve needed to do is figure out the markup needed to generate the feed.
 
 ### The basic file structure
 
-The first thing I did was create a `podcast.rss` file and used the `_episodes` collection I’ve create the feed. 
+The first thing I did was create a `podcast.rss` file and used the `_episodes` collection I’ve create the feed.
 
 ### The skeleton markup
 
-There are *a lot* of XML tags to include in an RSS feed for podcasts. Linking these to sensible things in your `_config.yml` and post front matter is also a bit confusing. 
+There are *a lot* of XML tags to include in an RSS feed for podcasts. Linking these to sensible things in your `_config.yml` and post front matter is also a bit confusing.
 
 To get started, you need to wrap the whole thing in `<rss>` and `<channel>` tags, like this:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
-	<channel>				
+	<channel>
 
 		// Your feed here
 
@@ -71,7 +71,7 @@ The things you’ll want to set up are:
 | `lang` | The language of your podcast, in recognised format i.e. `en` |
 | `launch-date` | When you started the show, in reverse date format, i.e. `2019-01-01` |
 | `copyright` | Add whatever you need to in here; remember to use encoded symbols like `&#xA9;` for &#xA9; |
-| `podcast-feed` | Use this as the URL for your feed on your site. | 
+| `podcast-feed` | Use this as the URL for your feed on your site. |
 
 That’s most of what you might want to add as site variables so that you can populate your feed’s channel information.
 
@@ -144,7 +144,7 @@ This *doesn't* require you to move your site or RSS feed itself. You can just mo
 *That's it!* You're all set to host your podcast — now on to the recording.
 
 > **All posts in this series**
-> 
+>
 > 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
 > 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
 > 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
@@ -152,5 +152,5 @@ This *doesn't* require you to move your site or RSS feed itself. You can just mo
 > 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
 
 > You can find out more about the **Department of Bad Ideas** on [the podcast’s new website](//badideas.podcast.johnpe.art).
-> 
+>
 > You can also subscribe on Apple Podcasts or on Spotify. Just search for “Department of Bad Ideas”.

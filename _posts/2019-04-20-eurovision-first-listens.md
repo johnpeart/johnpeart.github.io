@@ -3,7 +3,7 @@ title: "I listened to every Eurovision 2019 entry, so you don’t have to"
 author: John Peart
 excerpt: "Preview, review and snark for every entry, in 280 characters or less."
 layout: post
-image: /social/eurovision-280-character-listens.png
+image: /social/eurovision/eurovision-280-character-listens.png
 category:
   - eurovision
 
@@ -504,43 +504,43 @@ eurovision-entries:
     *Sigh*. It’s hard to believe that the same country that produced Ruth Lorenzo, and the *epic* “Dancing in the Rain” also produced this *monstrosity*.
 
     OK, the positives: It is fast moving. It’s very Spanish. It’s *fun*, I guess. None of that negates the fact that it is a truly awful song.
-    
+
 summing-up: |
 
   So that’s it! All 41 entries in fewer than 280 characters each.
-  
+
   As you might have guessed, I think this is going to be very, very, *very* long Contest, folks. There’s a higher-than-usual proportion of pretty bad ballads, and some unmoving dance tracks too. The semi-finals will *hopefully* chuck out most of the dreck, but it won’t be able to get rid of all of it.
-  
+
   I’ll wrap up with some of my worst and best songs of the Contest, based purely on the album production.
-  
+
   ### The Worst
-  
+
   It’s a hotly contested field for the bottom of the pack this year. Ordinarily, I find a mere handful of songs that I genuinely despise, but this year, I think the worst tracks have to be:
-  
+
   - Georgia
   - Israel
   - San Marino
   - Portugal
   - Poland
-  
+
   Now, remember friends, that the worst songs aren’t necessarily they worst scoring songs: weird voting structures, international geo-politics, and wild cultural differences across Europe result in some strange outcomes. That said, those are the songs I liked the least.
-  
+
   ### The Best
-  
+
   I’ve started to get a pretty good ear for the top of the pack over the years, and whilst I could make an ill-informed attempt to predict the winner[^win], I won’t. Instead, I’ll pick out some songs I liked the most:
-  
+
   - Sweden
   - Italy
   - Estonia
   - France
   - Azerbaijan
-  
+
   *My* winner is Sweden; I love a good Swedish pop song, and I love the gospel tones in this. It’s very reminiscent of last year’s Austrian entry.
-  
+
   But who is *actually* going to win? You decide! Tune in on 14, 16 and 18 May 2019.
-  
+
   [^win]: I do actually have a pretty decent track record of predicting acts in the Top 5, and have called the winner in 4 of the last 7 years — but let’s put that down to luck more than skill!
-  
+
 ---
 
 It’s almost that time of year again when we get to enjoy the collective musical efforts of the European continent (and Australia). That’s right; the Eurovision Song Contest is back, and this year our host city is Tel Aviv in Israel.

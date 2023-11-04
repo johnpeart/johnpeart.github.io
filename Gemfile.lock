@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/johnpeart/jekyll-webmention_io.git
-  revision: 69dfbb5a3a1c6ce7bbabb9420b59855f56c83bc4
+  revision: 09a3e6c40b6c3a2b85901ddd6ed63d28350a3770
   specs:
     jekyll-webmention_io (4.0.0)
       activesupport (~> 7.0, >= 7.0.4.3)

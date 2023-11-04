@@ -155,9 +155,10 @@ pagination:
   enabled: true
   collection: posts, reply, note, list, polaroid
   per_page: 10
-  permalink: '/stream/:num/'
   sort_field: 'date'
   sort_reverse: true
+  permalink: '/stream/:num/'
+  title: ":title • Page :num"
 
 # Jekyll build settings
 remote_theme: johnpeart/theme

@@ -4,4 +4,4 @@ title: "Goals"
 link: "/goals"
 hidden: false
 ---
-A dashbaord to track progress against my personal goals.
+A dashboard to track progress against my personal goals.

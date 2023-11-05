@@ -158,7 +158,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
   permalink: '/stream/:num/'
-  title: ":title • Page :num"
+  title: ":title"
 
 # Jekyll build settings
 remote_theme: johnpeart/theme

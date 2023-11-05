@@ -1,6 +1,7 @@
 ---
 layout: wishlist
 title: Wishlist
+permalink: /wishlist
 ---
 
 These are the things I want to get at some point. Some things I expect to buy myself; others I probably wouldn't spend the money on but would be great as a gift.

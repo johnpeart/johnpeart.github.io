@@ -1,6 +1,7 @@
 ---
 layout: stream
 title: "Stream"
+permalink: /stream
 pagination:
   enabled: true
 ---

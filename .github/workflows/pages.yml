@@ -39,6 +39,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - run: JEKYLL_ENV=production bundle exec jekyll build
+      - run: bundle exec jekyll webmention # defaults output to '/_site'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1 # This will automatically upload an artifact from the '/_site' directory
 

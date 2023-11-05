@@ -1,7 +1,7 @@
 ---
 type: "Tools"
 title: "Printrello"
-link: "//printrello.github.io"
+link: "//www.johnpe.art/printrello/"
 hidden: false
 ---
 A web app for turning Trello boards into printable dashboards.

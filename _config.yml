@@ -157,7 +157,7 @@ pagination:
   per_page: 10
   sort_field: 'date'
   sort_reverse: true
-  permalink: '/stream/:num/'
+  permalink: '/:num/'
   title: ":title"
 
 # Jekyll build settings
@@ -170,6 +170,7 @@ future: false
 highlighter: true
 sass:
   sass_dir: _sass
+  style: compressed
 
 # Include these files/folders that are excluded by default
 include:

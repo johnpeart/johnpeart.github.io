@@ -1,5 +1,5 @@
 ---
 layout: podcasts
 title: Podcasts
-permalink: /podcast
+permalink: /podcast/
 ---

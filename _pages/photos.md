@@ -1,7 +1,7 @@
 ---
 layout: photos
 title: "Photos"
-permalink: /photos
+permalink: /photos/
 pagination:
   enabled: true
   collection: polaroid

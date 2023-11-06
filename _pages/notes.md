@@ -1,7 +1,7 @@
 ---
 layout: stream
 title: "Notes"
-permalink: /notes
+permalink: /notes/
 pagination:
   enabled: true
   collection: note

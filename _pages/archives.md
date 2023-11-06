@@ -1,5 +1,5 @@
 ---
 layout: loop
 title: Archives
-permalink: /archives
+permalink: /archives/
 ---

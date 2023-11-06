@@ -1,5 +1,5 @@
 ---
 layout: loop
 title: Writing
-permalink: /writing
+permalink: /writing/
 ---

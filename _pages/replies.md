@@ -1,7 +1,7 @@
 ---
 layout: stream
 title: "Replies"
-permalink: /replies
+permalink: /replies/
 pagination:
   enabled: true
   collection: reply

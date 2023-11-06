@@ -1,5 +1,5 @@
 ---
 layout: goals
 title: Goals
-permalink: /goals
+permalink: /goals/
 ---

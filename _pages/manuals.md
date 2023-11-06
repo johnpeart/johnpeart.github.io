@@ -1,5 +1,5 @@
 ---
 layout: manuals
 title: Manuals
-permalink: /manuals
+permalink: /manuals/
 ---

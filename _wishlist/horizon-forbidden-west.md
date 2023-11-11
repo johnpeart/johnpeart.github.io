@@ -1,9 +1,9 @@
 ---
 list: "Games"
 name: "Horizon: Forbidden West"
-price: 44.99
+price: 50.00
 purchased: false
-link: "https://www.amazon.co.uk/PlayStation-9720690-Horizon-Forbidden-West/dp/B09FBFDKZZ/"
+link: "https://store.playstation.com/en-gb/product/EP9000-PPSA01521_00-FORBIDDENWESTPS5/"
 gift-idea: false
 ---
-PlayStation 5.
+Digital download. PlayStation 4 and PlayStation 5.

@@ -12,8 +12,6 @@ header-menu:
     label: "Writing"
   - link: "/stream"
     label: "Stream"
-  # - link: "//465.onl"
-  #   label: "465"
   - link: "/about"
     label: "About me"
   - link: "/projects"
@@ -86,6 +84,9 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:title/
+  pages:
+    output: true
+    permalink: /:path/
   archive:
     output: true
     permalink: /archive/:path/
@@ -115,6 +116,9 @@ collections:
   polaroid:
     output: true
     permalink: /photo/:epoch/
+  music:
+    output: true
+    permalink: /music/:epoch/
 
 defaults:
   - scope:
@@ -147,10 +151,15 @@ defaults:
     values:
       layout: "reply"
       categories: ["Reply"]
+  - scope:
+      type: "music"
+    values:
+      layout: "quick-post"
+      categories: ["Music"]
 
 pagination:
   enabled: true
-  collection: posts, reply, note, list, polaroid
+  collection: posts, reply, note, list, polaroid, music, share
   per_page: 10
   sort_field: 'date'
   sort_reverse: true

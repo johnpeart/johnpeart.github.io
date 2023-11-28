@@ -107,6 +107,9 @@ collections:
   reply:
     output: true
     permalink: /reply/:epoch/
+  share:
+    output: true
+    permalink: /share/:epoch/
   note:
       output: true
       permalink: /note/:epoch/
@@ -151,6 +154,11 @@ defaults:
     values:
       layout: "reply"
       categories: ["Reply"]
+  - scope:
+      type: "share"
+    values:
+      layout: "share"
+      categories: ["Share"]
   - scope:
       type: "music"
     values:

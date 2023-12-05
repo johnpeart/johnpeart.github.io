@@ -3,7 +3,7 @@ title: "Making “Webmentions” look more conversational"
 author: "John Peart"
 excerpt: "Pruning back the CSS garden. Repainting the HTML walls."
 layout: post
-image: /posts/2023/10/31/making-webmentions-look-more-conversational/social-media.png
+image: /posts/2023/10/31/making-webmentions-look-more-conversational/social-media.jpg
 categories:
 - making
 - indie web

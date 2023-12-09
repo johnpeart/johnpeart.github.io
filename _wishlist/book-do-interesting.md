@@ -1,5 +1,5 @@
 ---
-list: "Book"
+list: "Books"
 name: "Do Interesting: Notice. Collect. Share."
 price: 0.00
 purchased: false

@@ -4,7 +4,7 @@ author: "John Peart"
 excerpt: "One. Thing. At. A. Time."
 layout: post
 image: /posts/2023/12/09/recipies-are-broken/social-media.png
-emoji: ["🍅","🥕","🥬","🧀","🌽"]
+emoji: ["🍅","🥕","🥬","🧅","🌽"]
 categories: 
   - cooking
   - design 

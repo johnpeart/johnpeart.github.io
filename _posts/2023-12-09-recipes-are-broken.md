@@ -19,11 +19,11 @@ You might think this is a gripe about SEO optimisation and the [3,000 word essay
 
 If you want to tell me how your over-indulgent facsimile of your mum's homemade apple pie makes you quiver with every mouthful, you go right ahead. It's a free internet. I can scroll.
 
-No my objection is simpler: why can't these recipe writers provide an easy to follow list?
+No, my objection is simpler: why can't these recipe writers provide an easy-to-follow list?
 
 ## It's not 1 step if it contains multiple tasks
 
-Here's [an example of a recipe, for a bean and halloumi stew](https://www.bbcgoodfood.com/recipes/bean-halloumi-stew), that purports to have just 3 steps. Here's step 1:
+Here's [an example of a recipe for a bean and halloumi stew](https://www.bbcgoodfood.com/recipes/bean-halloumi-stew) that purports to have just 3 steps. Here's step 1:
 
 > **Step 1** \
 > Heat 2 tbsp of oil in a frying pan over a medium heat. Add the onion and pepper, along with a pinch of salt and fry for 10 mins or until softened. Add the garlic, pesto and ground coriander, and cook for 1 min. Tip in the beans and tomatoes along with ½ can of water, then bring to a simmer and cook uncovered for 10 mins.
@@ -48,6 +48,6 @@ How hard was that?!
 
 ## One. Thing. At. A. Time.
 
-You may laugh at my inability to parse a short paragraph. You may be right. But cooking is stressful enough without the extra overhead of deciphering these tomes. Recipes should be simple, ordered lists of individual tasks and with clear timings for each task.
+You may laugh at my inability to parse a short paragraph. You may be right. But for the culinarily disinclined, like me, cooking is stressful enough without the extra overhead of deciphering these tomes. Recipes should be simple, ordered lists of individual tasks and with clear timings for each task.
 
 So please, food bloggers and recipe writers: I will wade through your life's story. I will scroll through your ads. I will buy your branded products. But, for the love of Nigella, *please* write your recipes as *one thing at a time*.

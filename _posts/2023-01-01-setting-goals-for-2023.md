@@ -3,7 +3,7 @@ title: "Setting some goals for 2023"
 author: John Peart
 excerpt: "New year. New goals."
 layout: post
-image: /social/goals/goals.png
+image: social/goals/goals.png
 category:
   - personal
 ---

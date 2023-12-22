@@ -16,9 +16,9 @@ eurovision-entries:
   artist: "Albina and Familja Kelmendi"
   song: "Duje"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 14
-  final-runningorder:
+  final-runningorder: 10
   lyric: |
     Don’t know what’s going on \
     But I want to make it stop
@@ -33,9 +33,9 @@ eurovision-entries:
   artist: "Brunette"
   song: "Future Lover"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 2
-  final-runningorder:
+  final-runningorder: 17
   lyric: |
     I just wanna make art, \
     Read books and just find someone, \
@@ -53,9 +53,9 @@ eurovision-entries:
   artist: "Voyager"
   song: "Promise"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 16
-  final-runningorder:
+  final-runningorder: 15
   lyric: |
     Have you ever done anything like this before?
   commentary: |
@@ -71,9 +71,9 @@ eurovision-entries:
   artist: "Teya and Salena"
   song: "Who the Hell Is Edgar?"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 13
-  final-runningorder:
+  final-runningorder: 1
   lyric: |
     Give me two years and your dinner will be free \
     Gas station Champagne is on me
@@ -104,9 +104,9 @@ eurovision-entries:
   artist: "Gustaph"
   song: "Because of You"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 5
-  final-runningorder:
+  final-runningorder: 16
   lyric: |
     They’ll never kill this fire \
     Your love will take me higher
@@ -127,9 +127,9 @@ eurovision-entries:
   artist: "Let 3"
   song: "Mama ŠČ!"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 7
-  final-runningorder:
+  final-runningorder: 25
   lyric: |
     Mommy kissed the moron \
     ‘Trajna Nina’ armageddon-granny
@@ -146,9 +146,9 @@ eurovision-entries:
   artist: "Andrew Lambrou"
   song: "Break a Broken Heart"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 6
-  final-runningorder:
+  final-runningorder: 7
   lyric: |
     Oh I miss your kiss, gasoline and a matchstick
   commentary: |
@@ -158,15 +158,15 @@ eurovision-entries:
 
     A male vocalist with a mid-tempo, high energy ballad about heartbreak. It’s a big song, a big vocal and a wall of sound in the instrumentation, rising to a powerful crescendo on the crest of a soaring falsetto hook in the chorus.
 
-- country: "Czech Republic"
+- country: "Czechia"
   shortcode: ""
   emoji: "🇨🇿"
   artist: "Vesna"
   song: "My Sister's Crown"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 13
-  final-runningorder:
+  final-runningorder: 14
   lyric: |
     You can take your hands back! \
     No one wants more boys dead.
@@ -200,9 +200,9 @@ eurovision-entries:
   artist: "Alika"
   song: "Bridges"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 4
-  final-runningorder:
+  final-runningorder: 12
   lyric: |
     There is always time \
     To get back on track
@@ -217,9 +217,9 @@ eurovision-entries:
   artist: "Käärijä"
   song: "Cha Cha Cha"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 15
-  final-runningorder:
+  final-runningorder: 13
   lyric: |
     There’s no tomorrow when I grab a pint tightly like a \
     Cha cha cha
@@ -238,7 +238,7 @@ eurovision-entries:
   semifinal: FALSE
   final: TRUE
   semifinal-runningorder:
-  final-runningorder:
+  final-runningorder: 6
   lyric: |
     I kill myself \
     To give them life
@@ -276,7 +276,7 @@ eurovision-entries:
   semifinal: FALSE
   final: TRUE
   semifinal-runningorder:
-  final-runningorder:
+  final-runningorder: 21
   lyric: |
     Blood and glitter \
     Sweet and bitter \
@@ -345,9 +345,9 @@ eurovision-entries:
   artist: "Noa Kirel"
   song: "Unicorn"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 9
-  final-runningorder:
+  final-runningorder: 23
   lyric: |
     I got the power of a unicorn
   commentary: |
@@ -365,7 +365,7 @@ eurovision-entries:
   semifinal: FALSE
   final: TRUE
   semifinal-runningorder:
-  final-runningorder:
+  final-runningorder: 11
   lyric: |
     I’ll be there to tell you you’re wrong, \
     You’re wrong and you know it
@@ -400,9 +400,9 @@ eurovision-entries:
   artist: "Monika Linkytė"
   song: "Stay"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 15
-  final-runningorder:
+  final-runningorder: 22
   lyric: |
     Čiūto tūto
   commentary: |
@@ -433,9 +433,9 @@ eurovision-entries:
   artist: "Pasha Parfeni"
   song: "Soarele și luna"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 10
-  final-runningorder:
+  final-runningorder: 18
   lyric: |
     I sang her so many songs \
     Until she wanted to kiss me
@@ -471,9 +471,9 @@ eurovision-entries:
   artist: "Alessandra"
   song: "Queen of Kings"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 1
-  final-runningorder:
+  final-runningorder: 20
   lyric: |
     She, queen of the kings, running so fast, beating the wind. \
     Nothing in this world can stop the spread of her wings
@@ -490,9 +490,9 @@ eurovision-entries:
   artist: "Blanka"
   song: "Solo"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 9
-  final-runningorder:
+  final-runningorder: 4
   lyric: |
     Tell me \
     Now was it worth it? \
@@ -510,9 +510,9 @@ eurovision-entries:
   artist: "Mimicat"
   song: "Ai coração"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 5
-  final-runningorder:
+  final-runningorder: 2
   lyric: |
     The doctor says there's nothing to be done, \
     “Lost cause”, I saw him writing!
@@ -565,9 +565,9 @@ eurovision-entries:
   artist: "Luke Black"
   song: "Samo mi se spava"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 3
-  final-runningorder:
+  final-runningorder: 5
   lyric: |
     I just wanna close my eyes \
     And just get it over with
@@ -582,9 +582,9 @@ eurovision-entries:
   artist: "Joker Out"
   song: "Carpe Diem"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 10
-  final-runningorder:
+  final-runningorder: 24
   lyric: |
     The first rain will wash away all the fake glitter, \
     So it stops stealing the magic from the dance floors
@@ -603,7 +603,7 @@ eurovision-entries:
   semifinal: FALSE
   final: TRUE
   semifinal-runningorder:
-  final-runningorder:
+  final-runningorder: 8
   lyric: |
     May they bury me in the moon \
     So that I’ll see you every night
@@ -620,9 +620,9 @@ eurovision-entries:
   artist: "Loreen"
   song: "Tattoo"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 11
-  final-runningorder:
+  final-runningorder: 9
   lyric: |
     No, I don't care about the pain \
     I’ll walk through fire and through rain \
@@ -642,9 +642,9 @@ eurovision-entries:
   artist: "Remo Forrer"
   song: "Watergun"
   semifinal: 1
-  final: FALSE
+  final: TRUE
   semifinal-runningorder: 8
-  final-runningorder:
+  final-runningorder: 3
   lyric: |
     I don't wanna be a soldier, soldier \
     I don't wanna have to play with real blood

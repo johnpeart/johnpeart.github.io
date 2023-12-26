@@ -1,5 +1,5 @@
 ---
-date: 2023-11-28 10:05
+date: 2023-11-18 19:00
 title: "That! Feels! Good!"
 artist: "Jessie Ware"
 rating: 5
@@ -8,3 +8,7 @@ stream:
   itunes: "https://music.apple.com/gb/album/whats-your-pleasure-the-platinum-pleasure-edition/1563411093"
 published: false
 ---
+
+I saw Jessie Ware at Alexandra Palace tonight as part of the ‘That! Feels! Good!’ tour. 
+
+It was transcendent. A wonderful mix of disco and r’n’b that had everyone singing, dancing and vibing along. 

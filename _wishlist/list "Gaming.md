@@ -1,7 +1,7 @@
 ---
 list: "Gaming"
-name: "Suicide Squad: Kill the Justice League"
-price: 70.00
+name: "Remnant 2"
+price: 40.00
 purchased: false
 ---
 PS5

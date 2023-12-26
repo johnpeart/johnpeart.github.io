@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Star Wars: Squadrons"
 price: 29.99
 purchased: true

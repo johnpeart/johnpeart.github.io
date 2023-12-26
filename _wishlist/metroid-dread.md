@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Metroid: Dread"
 price: 49.99
 purchased: true

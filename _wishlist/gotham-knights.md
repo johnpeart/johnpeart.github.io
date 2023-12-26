@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Gotham Knights"
 price: 50.00
 purchased: true

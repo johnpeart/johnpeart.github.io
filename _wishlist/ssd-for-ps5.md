@@ -1,5 +1,5 @@
 ---
-list: "Consoles and accessories"
+list: "Gaming"
 name: "2TB SSD with heatsink for PS5"
 price: 120.00
 purchased: true

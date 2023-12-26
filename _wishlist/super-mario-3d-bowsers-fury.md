@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Super Mario 3D World + Bowser's Fury"
 price: 49.99
 purchased: true

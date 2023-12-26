@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Immortals: Fenyx Rising"
 price: 51.99
 purchased: true

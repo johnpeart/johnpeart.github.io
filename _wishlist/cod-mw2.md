@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Call of Duty: Modern Warfare II"
 price: 60.00
 purchased: true

@@ -1,5 +1,5 @@
 ---
-list: "Consoles and accessories"
+list: "Gaming"
 name: "Nintendo Switch Wireless Pro Controller"
 price: 44.99
 purchased: true

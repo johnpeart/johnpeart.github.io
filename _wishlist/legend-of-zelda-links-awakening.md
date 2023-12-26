@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "The Legend of Zelda: Link's Awakening"
 price: 37.99
 purchased: true

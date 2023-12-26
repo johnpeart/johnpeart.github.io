@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Crash Bandicoot 4: It's About Time"
 price: 54.99
 purchased: true

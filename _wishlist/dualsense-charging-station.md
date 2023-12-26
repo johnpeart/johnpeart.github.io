@@ -1,5 +1,5 @@
 ---
-list: "Consoles and accessories"
+list: "Gaming"
 name: "PlayStation 5 DualSense Charging Station"
 price: 25.00
 purchased: true

@@ -1,5 +1,5 @@
 ---
-list: "Consoles and accessories"
+list: "Gaming"
 name: "Nintendo Switch Accessory Set"
 price: 16.99
 purchased: true

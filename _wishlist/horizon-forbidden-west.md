@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Horizon: Forbidden West"
 price: 50.00
 purchased: false

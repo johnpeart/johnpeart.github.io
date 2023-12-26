@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Deathloop"
 price: 49.99
 purchased: true

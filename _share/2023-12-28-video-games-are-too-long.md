@@ -13,7 +13,7 @@ reply_to:
     image: "https://lede-admin.aftermath.site/wp-content/uploads/sites/55/2023/12/Assassins-Creed®-Mirage2023-11-3-10-40-0.jpg"
     date: 2023-12-07
     content: |
-      I installed it, I met some people, I had an adventure, the story wrapped, I am now free to get on with my life
+      "I installed it, I met some people, I had an adventure, the story wrapped, I am now free to get on with my life"
 
 ---
 

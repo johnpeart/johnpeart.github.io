@@ -3,7 +3,7 @@ title: "Reviewing my progress against my 2020 goals"
 author: John Peart
 excerpt: "For once, I did what I said I was going to do."
 layout: post
-image: social/goals/goals.png
+image: /social/goals/goals.png
 category:
   - personal
 ---

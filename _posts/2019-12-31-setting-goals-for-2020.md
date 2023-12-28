@@ -3,14 +3,14 @@ title: "Setting some goals for 2020"
 author: John Peart
 excerpt: "Another year, another set of goals."
 layout: post
-image: social/goals/goals.png
+image: /social/goals/goals.png
 category:
   - personal
 ---
 
 2019 has been, on the whole, pretty successful.
 
-I worked on [things that really mattered](https://www.gov.uk/government/publications/lgbt-action-plan-annual-progress-report-2018-to-2019), and I [got a new job](https://twitter.com/johnpeart/status/1152232805159620608). I saw [the Northern Lights](https://www.instagram.com/p/BtE4fqhF56n/) in Iceland and [giant turtles](https://www.instagram.com/p/BxUlsKSl3EY/) in Mauritius. And I nearly spontaneously combust as I [showcased the Civil Service at its best at Pride](https://twitter.com/ClareMoriarty/status/1147623334018015232?s=20).
+I worked on [things that really mattered](https://www.gov.uk/government/publications/lgbt-action-plan-annual-progress-report-2018-to-2019), and I got a new job. I saw the Northern Lights in Iceland and giant turtles in Mauritius. And I nearly spontaneously combust as I [showcased the Civil Service at its best at Pride](https://twitter.com/ClareMoriarty/status/1147623334018015232?s=20).
 
 On top of all that, I achieved [a pretty big chunk of the goals](/2019/12/26/2019-resolutions-review) I set myself this year. 
 

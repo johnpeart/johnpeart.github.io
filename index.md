@@ -1,16 +1,6 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
 <h1 class="display">Hello.</h1>
 
 <p>I’m <a href="/about" title="Find out more about me">John Peart</a>. I’m a policy professional with an interest in technology, services and diversity.</p>
-
-<p>I do a lot of <a href="/writing" title="Read my blog">writing</a> and <a href="/projects" title="See my latest projects">build things in code</a>.</p>
-
-<p>You can find me on
-		<a href="{{ site.mastodon-url }}" title="Follow me on Mastodon">Mastodon</a>,
-		<a href="{{ site.linkedin-url }}" title="Connect with me on LinkedIn">LinkedIn</a> and
-		<a href="{{ site.github-url }}" title="Find me on Github">Github</a>.</p>

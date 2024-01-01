@@ -22,7 +22,7 @@ I set multiple separate targets. I set more than one so that if I fail at one, I
 
 I don’t really enjoy reading. I never have. Those people that enjoy sitting quietly in a corner and chewing through a thousand pages in a weekend? Not me. 
 
-Weirdly, I buy them all the time! I flick through a couple chapters, and then they just sit on my shelves in near-pristine condition, waiting for their remaining pages to be flicked through. Especially fiction books; those are the worst.
+Weirdly, I buy books all the time! I flick through a couple chapters, and then they just sit on my shelves in near-pristine condition, waiting for their remaining pages to be perused. Especially fiction books; those are the worst.
 
 I feel like I’m missing out on some great ideas though. So, this year, my goal is to try to read more. One book, of any kind, each month.
 

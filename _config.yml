@@ -33,30 +33,31 @@ favicon-large-png: "/assets/images/site/favicon-large-png.png"
 theme-colour: "#009fe3"
 
 # <link rel="me" ...>
-# Twitter
-twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
-twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
-
 # Mastodon
-mastodon-url: "https://mastodon.social/@johnpeart"
-mastodon-handle: "johnpeart@mastodon.social"
+
 mastodon:
-  username: johnpeart
-  instance: mastodon.social
+  username: "johnpeart"
+  instance: "mastodon.social"
+  url: "https://mastodon.social/@johnpeart"
+  handle: "johnpeart@mastodon.social"
 
 ## LinkedIn
-linkedin-url: "https://linkedin.com/in/jrpeart"
-linkedin-handle: "jrpeart"
+linkedin:
+  url: "https://linkedin.com/in/jrpeart"
+  handle: "jrpeart"
 
 # Github
-github-url:  "https://github.com/johnpeart"
-github-handle:  "johnpeart"
-
-# Editor
 github:
+  url:  "https://github.com/johnpeart"
+  github-handle:  "johnpeart"
   username: "johnpeart"
   repo: "johnpeart.github.io"
   branch: "main"
+
+# Gravatar
+gravatar:
+  url: "https://gravatar.com/johnpeart"
+  username: "johnpeart"
 
 # WebMentions
 webmentions:

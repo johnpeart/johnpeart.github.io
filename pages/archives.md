@@ -1,5 +1,5 @@
 ---
-layout: loop
+layout: writing
 title: Archives
 permalink: /archives/
 ---

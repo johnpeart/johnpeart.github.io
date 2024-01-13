@@ -22,7 +22,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.1.1)
+    activesupport (7.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -32,16 +32,15 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
-    base64 (0.1.1)
-    bigdecimal (3.1.4)
+    base64 (0.2.0)
+    bigdecimal (3.1.5)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
-    drb (2.1.1)
+    domain_name (0.6.20240107)
+    drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -69,7 +68,7 @@ GEM
       http (~> 5.0)
       link-header-parser (~> 5.0)
       nokogiri (>= 1.13)
-    jekyll (4.3.2)
+    jekyll (4.3.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -85,8 +84,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-feed (0.17.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -102,14 +99,14 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.6.3)
+    json (2.7.1)
     jsonpath (1.0.7)
       multi_json
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    link-header-parser (5.0.0)
+    link-header-parser (5.1.1)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -118,17 +115,17 @@ GEM
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
     mercenary (0.4.0)
-    minitest (5.20.0)
+    minitest (5.21.1)
     multi_json (1.15.0)
-    mutex_m (0.1.2)
-    nokogiri (1.15.4-arm64-darwin)
+    mutex_m (0.2.0)
+    nokogiri (1.16.0-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.4-x86_64-linux)
+    nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     openssl (3.2.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (5.0.3)
+    public_suffix (5.0.4)
     racc (1.7.3)
     rake (13.1.0)
     rb-fsevent (0.11.2)
@@ -147,9 +144,6 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.8.2)
     unicode-display_width (2.5.0)
     webmention (7.0.0)
       http (~> 5.0)
@@ -164,7 +158,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3)
   jekyll-epoch-time!
-  jekyll-feed
   jekyll-paginate-v2
   jekyll-redirect-from
   jekyll-remote-theme

@@ -189,16 +189,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Include these files/folders that are excluded by default
-include:
-- "/.well-known"
-
-plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-redirect-from
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

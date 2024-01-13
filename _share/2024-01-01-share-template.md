@@ -10,10 +10,11 @@ reply_to:
   post:
     title: "Article title"
     url: "https://www.example.com/2024/01/01/url-of-post"
-    image: "https://www.johnpe.art/assets/images/site/social-media.png" # optional
+    image: "https://www.johnpe.art/assets/images/site/social-media-share.png" # optional
     date: 2024-01-01 09:00 # date of publication
     content: |
       “A quote from the article”
+image: "https://www.johnpe.art/assets/images/site/social-media-share.png"
 
 published: false
 ---

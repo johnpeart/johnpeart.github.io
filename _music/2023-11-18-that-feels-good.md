@@ -10,4 +10,4 @@ published: true
 
 I saw Jessie Ware at Alexandra Palace tonight as part of the ‘That! Feels! Good!’ tour.
 
-It was transcendent. A wonderful mix of disco and r’n’b that had everyone singing, dancing and vibing along.
+It was transcendent. A wonderful mix of disco and r‘n’b that had everyone singing, dancing and vibing along.

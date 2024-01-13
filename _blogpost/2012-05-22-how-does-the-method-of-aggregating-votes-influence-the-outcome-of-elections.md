@@ -34,11 +34,11 @@ Of course, the preceding arguments have very much focussed on institutions being
 
 If we are truly concerned with the democratic implications of electoral systems, our principle concern should be the gap between the package of social outcomes governments create and the expressed opinions that individuals make. It is impossible to create coherent packages without electoral systems, but they have side-effects. Electoral systems are reductive, which brings us a narrower field of choice than we might otherwise have, however, they also help us to coordinate around viable candidates and parties that represent us in some fashion; if they didn’t, we simply wouldn’t vote for them. It is possible to minimize the democratic deficit between these outcomes and preferences through the choice of electoral system, but which one to choose depends on the type of government people want. If they want a government that is genuinely representative – as far as possible within the previously mentioned constraints – then they should choose a proportional electoral system. If they prefer the stability and performance gains of a plurality system, this should be their choice. A better pursuit however may be to look for the electoral “sweet spot”[^9] – to get the best of both worlds, accepting that there never will be the perfect outcome.
 
-[^1]: Condorcet, M. (1785). “Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix”, France: De l’Imprimerie royale.
-[^2]: Arrow, K. (1951). “Social choice and individual values”, London: Chapman & Hall.
-[^3]: Duverger, M. (1954), “Political parties: their organization and activity in the modern state”. Methuen: Wiley.
+[^1]: Condorcet, M. (1785). “Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix”, France: De l’Imprimerie royale.
+[^2]: Arrow, K. (1951). “Social choice and individual values”, London: Chapman & Hall.
+[^3]: Duverger, M. (1954), “Political parties: their organization and activity in the modern state”. Methuen: Wiley.
 [^4]: Capoccia, G. (2002). “The Political Consequences of Electoral Laws: The German System at Fifty” In: “West European Politics” London: Frank Cass. Vol. 25, No. 3. pp.171-202.
-[^5]: Sartori, G. (1986). “The influence of electoral systems: faulty laws or faulty method?” In: “Electoral Laws and their Political Consequences”, New York: Agathon Press. p.57.
+[^5]: Sartori, G. (1986). “The influence of electoral systems: faulty laws or faulty method?” In: “Electoral Laws and their Political Consequences”, New York: Agathon Press. p.57.
 [^6]: Downs, A. (1957). “An Economic Theory of Democracy”. New York: Harper & Row.
 [^7]: Tsebelis, G. (2002). “Veto Players: How Political Instituions Work”. New York: Princeton.
 [^8]: Lipset, S.M & Rokkan, S. (1967). ‘Cleavage Structures, Party Systems, and Voter Alignments: An Introduction’, In: “Party Systems and Voter Alignments: Cross- National Perspectives”. London: Collier Macmillan, pp.1-64.

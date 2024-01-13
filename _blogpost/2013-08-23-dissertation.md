@@ -5,6 +5,7 @@ layout: post
 category:
   - government
   - data
+permalink: /dissertation
 ---
 
 > This dissertation was written as a summative part of my undergraduate studies at the London School of Economics.

@@ -82,12 +82,9 @@ webmentions:
 
 # Collections
 collections:
-  posts:
+  blogpost:
     output: true
     permalink: /:year/:month/:day/:title/
-  pages:
-    output: true
-    permalink: /:path/
   archive:
     output: true
     permalink: /archive/:path/
@@ -117,7 +114,7 @@ collections:
   list:
     output: true
     permalink: /list/:epoch/
-  polaroid:
+  photo:
     output: true
     permalink: /photo/:epoch/
   music:
@@ -125,6 +122,11 @@ collections:
     permalink: /music/:epoch/
 
 defaults:
+  - scope:
+      type: "blogpost"
+    values:
+      layout: post
+      categories: ["Blogpost"]
   - scope:
       type: "archive"
     values:
@@ -138,17 +140,17 @@ defaults:
   - scope:
       type: "note"
     values:
-      layout: "quick-post"
+      layout: "post"
       categories: ["Notes"]
   - scope:
       type: "list"
     values:
-      layout: "quick-post"
+      layout: "post"
       categories: ["Lists"]
   - scope:
-      type: "polaroid"
+      type: "photo"
     values:
-      layout: "quick-post"
+      layout: "post"
       categories: ["Photos"]
   - scope:
       type: "reply"
@@ -163,12 +165,12 @@ defaults:
   - scope:
       type: "music"
     values:
-      layout: "quick-post"
+      layout: "post"
       categories: ["Music"]
 
 pagination:
   enabled: true
-  collection: posts, reply, note, list, polaroid, music, share
+  collection: blogpost, reply, note, list, photo, music, share
   per_page: 10
   sort_field: 'date'
   sort_reverse: true

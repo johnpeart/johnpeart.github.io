@@ -4,5 +4,5 @@ title: "Photos"
 permalink: /photos/
 pagination:
   enabled: true
-  collection: polaroid
+  collection: photo
 ---

@@ -82,6 +82,8 @@ webmentions:
 
 # Collections
 collections:
+  feed:
+    output: true
   blogpost:
     output: true
     permalink: /:year/:month/:day/:title/

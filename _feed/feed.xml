@@ -1,5 +1,6 @@
 ---
 layout: rss/all
+title: All posts
 permalink: /feed.xml
 redirect_from:
 - /feed

@@ -5,7 +5,7 @@ reply_to:
     name: "Robb Knight"
     url: "https://rknight.me/"
   post:
-    name: "Please, Expose your RSS"
+    title: "Please, Expose your RSS"
     description: "I noticed a lot of people don't have a link to their RSS feeds on their sites or have the correct metadata for auto-discovery"
     url: "https://rknight.me/blog/please-expose-your-rss/"
     image: "https://rknight.me/assets/ogi/blogplease-expose-your-rss.png"

@@ -9,7 +9,7 @@ reply_to:
     description: "I noticed a lot of people don't have a link to their RSS feeds on their sites or have the correct metadata for auto-discovery"
     url: "https://rknight.me/blog/please-expose-your-rss/"
     image: "https://rknight.me/assets/ogi/blogplease-expose-your-rss.png"
-    date: 2024-01-16
+    date: 2024-11-06
     # content: |
       
 ---

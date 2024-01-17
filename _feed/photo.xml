@@ -1,5 +1,6 @@
 ---
 layout: rss/filtered
 title: Photos
+excerpt: "Photos I've taken."
 permalink: /feed/photo.xml
 ---

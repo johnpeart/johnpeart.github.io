@@ -14,7 +14,7 @@ reply_to:
     # image: ""
     date: 2024-01-23
     content: |
-      “I don’t have a problem with being reminded of the rules - but I do have a problem with almost all of these training modules, and it’s this: they tend to treat grown adults like children”
+      I don’t have a problem with being reminded of the rules - but I do have a problem with almost all of these training modules, and it’s this: they tend to treat grown adults like children
 ---
 
 At this rate, I’m going to have to get an “I agree with Giles” t-shirt.

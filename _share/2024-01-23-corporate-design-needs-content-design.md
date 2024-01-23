@@ -8,7 +8,7 @@ reply_to:
     name: ""
     url: ""
   post:
-    name: "Corporate training needs content design"
+    title: "Corporate training needs content design"
     description: "Not cartoons"
     url: "https://gilest.org/corp-training.html"
     # image: ""

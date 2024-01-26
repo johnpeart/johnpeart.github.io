@@ -5,11 +5,12 @@ organisation: "Department for Science, Innovation and Technology"
 dates:
   start: 2022-07-01
   end: present
+permalink: /about/department-for-science-innovation-and-technology--head-of-digital-identity-governance-policy-and-delivery
 ---
 
-I lead policy that supports the development of the digital identity market in the UK. 
+I lead policy that supports the development of the digital identity market in the UK.
 
-In my role, I currently lead teams that are working to establish a new governing body – the Office for Digital Identities and Attributes. The governing body will provide a coordinating and oversight role for the digital identity market. 
+In my role, I currently lead teams that are working to establish a new governing body – the Office for Digital Identities and Attributes. The governing body will provide a coordinating and oversight role for the digital identity market.
 
 I am also the service owner leading a digital delivery team developing the 'Digital Verification Services register'; a new service that will make it easy and safe to find and use trusted digital identity and attribute providers in the UK. I also lead policy and delivery to establish the 'information gateway', enabling private sector access to public authority data for the purpose of identity verification and eligibility checking.
 

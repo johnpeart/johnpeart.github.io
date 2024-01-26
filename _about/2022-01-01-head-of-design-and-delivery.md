@@ -8,8 +8,9 @@ dates:
 projects:
 - project: "Safe To Be Me"
   url: "https://www.safetobeme.gov.uk/"
+permalink: /about/government-equalities-office--head-of-design-and-delivery
 ---
 
-In this role I worked across a multi-departmental team leading the digital product management, creative production and operational delivery of the UK Government's first ever international LGBT+ rights conference, *Safe To Be Me*. 
+In this role I worked across a multi-departmental team leading the digital product management, creative production and operational delivery of the UK Government's first ever international LGBT+ rights conference, *Safe To Be Me*.
 
-The conference was unfortunately cancelled in April 2022, leading me to look for new opportunities. Before it's cancellation, *Safe To Be Me* was intended bring together governments, business and civil society leaders from across the world to advance the fundamental rights and freedoms of LGBT+ people globally. 
+The conference was unfortunately cancelled in April 2022, leading me to look for new opportunities. Before it's cancellation, *Safe To Be Me* was intended bring together governments, business and civil society leaders from across the world to advance the fundamental rights and freedoms of LGBT+ people globally.

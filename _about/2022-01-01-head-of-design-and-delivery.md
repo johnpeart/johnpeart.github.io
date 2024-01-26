@@ -7,7 +7,7 @@ dates:
   end: 2022-06-30
 projects:
 - project: "Safe To Be Me"
-  url: "https://www.safetobeme.gov.uk/"
+  url: "https://webarchive.nationalarchives.gov.uk/ukgwa/timeline/https://www.safetobeme.gov.uk/en/home/"
 permalink: /about/government-equalities-office--head-of-design-and-delivery
 ---
 

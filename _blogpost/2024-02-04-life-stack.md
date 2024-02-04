@@ -11,7 +11,7 @@ categories:
 
 What’s the stuff I rely on to get stuff done? 
 
-I recently stumbled upon [Aaron Parecki’s “life stack”]; a list of all the tools, services and other things he says he uses to manage his life. It’s a cool list.
+I recently stumbled upon [Aaron Parecki’s “life stack”](https://aaronparecki.com/life-stack/); a list of all the tools, services and other things he says he uses to manage his life. It’s a cool list.
 
 I like the idea of a list of my life’s essentials. So I’m going to ~~steal~~ *borrow* the idea and make my own list of everything I use; maybe every day, maybe every few days, but at least once a week, and that I can’t live without.
 

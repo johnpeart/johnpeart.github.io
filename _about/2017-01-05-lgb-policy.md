@@ -14,6 +14,7 @@ projects:
     url: "https://equalities.blog.gov.uk/2017/11/15/all-different-all-equal-how-were-investing-in-tackling-bullying-in-schools/"
   - project: "The Future Operation of Civil Partnership: Gathering Further Information"
     url: "https://www.gov.uk/government/publications/the-future-operation-of-civil-partnership-gathering-further-information"
+permalink: /about/government-equalities-office--head-of-lgb-policy
 ---
 
 In this role I led a team responsible for improving outcomes for people who were lesbian, gay, bisexual or who had another minority sexual orientation. As part of this role, I led strategy and policy development relating to sexual orientation issues, and was the lead policy official for civil partnerships and same-sex marriage.

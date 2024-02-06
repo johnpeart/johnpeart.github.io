@@ -5,6 +5,7 @@ organisation: "London School of Economics and Political Science"
 dates:
   start: 2010-09-01
   end: 2013-07-30
+permalink: /about/london-school-of-economics--undergraduate-degree
 ---
 
 With First Class Honours.

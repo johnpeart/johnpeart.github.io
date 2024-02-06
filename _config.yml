@@ -95,7 +95,8 @@ collections:
     output: true
     permalink: /archive/:path/
   about:
-    output: false
+    output: true
+    permalink: /about/:path/
   projects:
     output: false
   goals:
@@ -138,6 +139,11 @@ defaults:
     values:
       layout: post
       categories: ["Archived"]
+  - scope:
+      type: "about"
+    values:
+      layout: post
+      categories: ["About", "Career history"]
   - scope:
       type: "manuals"
     values:

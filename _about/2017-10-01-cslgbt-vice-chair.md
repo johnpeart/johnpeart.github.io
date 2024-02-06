@@ -13,6 +13,7 @@ projects:
   - project: "Civil Service Pride 2019"
   - project: "Civil Service LGBT+ Impact Index"
     url: "https://www.civilservice.lgbt/publication/2017/10/30/civil-service-impact-index/"
+permalink: /about/civil-service-lgbt-network--vice-chair
 ---
 
 In this role, I worked alongside the Chair to delivery projects and programmes aimed at improving the workplace experiences of LGBT+ civil servants.

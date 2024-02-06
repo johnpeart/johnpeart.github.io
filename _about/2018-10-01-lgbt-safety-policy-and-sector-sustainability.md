@@ -14,6 +14,7 @@ projects:
     url: "https://www.gov.uk/government/news/lgbt-history-month-new-government-support-for-lgbt-groups"
   - project: "LGBT Health and Social Care Fund"
     url: "https://www.gov.uk/government/news/lgbt-history-month-new-government-support-for-lgbt-groups"
+permalink: /about/government-equalities-office--head-of-lgbt-safety
 ---
 
 In this role I led a team delivering the government's LGBT Action Plan. I led on policy areas focusing on ending conversion therapy, hate crime and domestic violence, and supporting LGBT sector development. I also led the programme management function for the overall programme.

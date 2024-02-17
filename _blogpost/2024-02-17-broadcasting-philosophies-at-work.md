@@ -3,6 +3,7 @@ date: 2024-02-17 09:40:00 +0000
 title: "Broadcasting my philosophies at work"
 author: "John Peart"
 excerpt: "Banner-cries at work can be a guiding light for your teams. They can also be shadows over them."
+image: /2024/02/17/broadcasting-philosophies-at-work.png
 categories:
 - work
 ---

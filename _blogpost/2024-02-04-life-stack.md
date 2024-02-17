@@ -3,7 +3,7 @@ date: 2024-02-04 09:00:00 +0000
 title: "Life stack"
 author: "John Peart"
 excerpt: "The stuff I use to manage my life."
-# image: /posts/2024/02/04/life-stack
+image: /posts/2024/02/04/life-stack.png
 permalink: /life-stack
 categories:
 - personal

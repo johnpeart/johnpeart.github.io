@@ -9,7 +9,7 @@ categories:
 
 Over time, I’ve been collecting catchphrases and tiny philosophies that I try to live by. Particularly at work. Some I’ve made up, others I’ve borrowed or remixed.
 
-“Strong opinion, loosely held”.[^1] “Radiate intent”.[^2] “Praise with a spotlight, bollock with a laser beam”.[^3] “Be bold”.[^4] “Directness is politeness”.[^5]
+“Strong opinion, loosely held”[^1]. “Radiate intent”[^2]. “Praise with a spotlight, bollock with a laser beam”[^3]. “Be bold”[^4]. “Directness is politeness”[^5].
 
 I like to think some of these philosophies are a little counter-cultural. Particularly for the Civil Service.
 
@@ -74,3 +74,5 @@ Putting your philosophies out there for people to live by can be transformative,
 [^6]: I know what you're thinking. *Of course, the middle-class white guy thinks he should have an opinion.* That's not quite it though. I try not to confuse forming and offering an opinion, with believing I'm *entitled* to have or voice an opinion when its not appropriate. I'm rarely *intentionally* that much of an arsehole.
 
 [^often]: In fairness to both me and this colleague, it’s someone I work with frequently but not with the same level of frequency or closeness that I work with teams I directly manage. It’s completely plausible that they have never heard me say “strong opinion, loosely held” or explain what I mean by that. We’ve talked about it now, and I think we have a better understanding of each other’s philosophies.
+
+[^7]: This one is from Ollie Entwistle.

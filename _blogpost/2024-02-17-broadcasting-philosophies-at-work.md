@@ -53,7 +53,7 @@ Maybe I’m not *radiating my intent* enough. Maybe I don’t say “strong opin
 
 ## Be mindful of the shadows you cast
 
-Another catchphrase I’ve borrowed is “be mindful of the shadows you cast”. As a team leader, every action casts light or shadow on the working environment and behaviours of the wider team.
+Another catchphrase I’ve borrowed is “be mindful of the shadows you cast”[^7]. As a team leader, every action casts light or shadow on the working environment and behaviours of the wider team.
 
 Putting your philosophies out there for people to live by can be transformative, energising and create momentum for your teams and work. But only if they understand them and you build a shared sense of ownership of those values. You have to bring people with you or the banner-cry stops being a beam of guiding light. Instead it creates a shadow cast over individuals, stopping them from shining.
 

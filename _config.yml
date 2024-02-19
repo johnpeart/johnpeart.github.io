@@ -200,6 +200,9 @@ highlighter: true
 sass:
   sass_dir: _sass
   style: compressed
+  
+include:
+  - .htaccess 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

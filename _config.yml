@@ -8,12 +8,10 @@ url: "https://www.johnpe.art"
 
 # Header menu
 header-menu:
-  - link: "/about"
-    label: "About me"
-  - link: "/stream"
-    label: "Stream"
   - link: "/writing"
     label: "Writing"
+  - link: "/stream"
+    label: "Stream"
   - link: "/photos"
     label: "Photos"
   - link: "/projects"
@@ -22,6 +20,8 @@ header-menu:
     label: "Goals"
   - link: "/wishlist"
     label: "Wishlist"
+  - link: "/about"
+    label: "About me"
   - link: "/feeds"
     label: "RSS feeds"
 

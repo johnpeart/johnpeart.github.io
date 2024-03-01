@@ -17,4 +17,4 @@ reply_to:
 
 This wasn’t quite what I was expecting it to be, but I think I like it! It’s been a worm in my ear all day. 
 
-I’m fairly sure the synth chord progression is sampled from [this *Pet Shop Boys* track](https://www.youtube.com/watch?v=dRHetRTOD1Q)”. 
+I’m fairly sure the synth chord progression is sampled from [this *Pet Shop Boys* track](https://www.youtube.com/watch?v=dRHetRTOD1Q). 

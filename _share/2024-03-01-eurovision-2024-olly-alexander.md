@@ -2,11 +2,8 @@
 date: 2024-03-01 18:41:34 +0000
 reply_to:
   author:
-    name: ""
-    url: ""
-  publication:
-    name: "YouTube"
-    url: ""
+    name: "Eurovision Song Contest"
+    url: "https://www.youtube.com/@EurovisionSongContest"
   post:
     title: "Olly Alexander - Dizzy"
     description: "Olly Alexander will represent the United Kingdom at the Eurovision Song Contest with his song Dizzy."
@@ -15,6 +12,7 @@ reply_to:
     date: 2024-03-01
     content: |
       Olly Alexander will represent the United Kingdom at the Eurovision Song Contest with his song Dizzy.
+  override: "shared a video"
 ---
 
 This wasn’t quite what I was expecting it to be, but I think I like it! It’s been a worm in my ear all day. 

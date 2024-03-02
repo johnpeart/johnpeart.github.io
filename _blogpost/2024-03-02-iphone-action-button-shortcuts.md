@@ -5,6 +5,8 @@ author: "John Peart"
 excerpt: "Futzing with Shortcuts to make more beautiful and functional Action Button menus on the iPhones 15 Pro and Pro Max."
 layout: post
 image: /posts/2024/03/02/push-the-button/my-action-button-menu.png
+posse:
+- https://mastodon.social/@johnpeart/112027377430434866
 ---
 
 I recently upgraded my phone. A less exciting activity than it used to be, admittedly, but this new *iPhone 15 Pro Max* comes with a new button! The *Action Button*. I've been playing around with [Apple's *Shortcuts* app](https://apps.apple.com/gb/app/shortcuts/id1462947752), to see how useful I can make it.

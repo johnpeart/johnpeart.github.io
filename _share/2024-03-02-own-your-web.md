@@ -2,7 +2,7 @@
 date: 2024-03-02 14:02:07 +0000
 reply_to:
   author:
-    name: "Matthais Ott"
+    name: "Matthias Ott"
     url: "https://matthiasott.com/"
   publication:
     name: "Own Your Web"

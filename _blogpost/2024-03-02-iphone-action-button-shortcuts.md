@@ -71,7 +71,7 @@ I've used `.vcf` files – the format for saving contacts to your phone's addres
 	</figcaption>
 </figure>
 
-To create the menu, I first set up a folder of Shortcutsand populated it with everything I wanted to display in the menu. Each menu item triggers its own, unique Shortcut; so you need a unique Shortcut for each item.
+To create the menu, I first set up a folder of Shortcuts and populated it with everything I wanted to display in the menu. Each menu item triggers its own, unique Shortcut; so you need a unique Shortcut for each item.
 
 When all the Shortcuts are made and in the folder, I run the "Save the Action Button Menu" Shortcut. This creates and saves a `.vcf` file to my iCloud Drive. Saving it to iCloud Drive is enables the menu to be synced across my devices. 
 

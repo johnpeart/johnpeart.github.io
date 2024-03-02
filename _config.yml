@@ -91,6 +91,7 @@ collections:
   blogpost:
     output: true
     permalink: /:year/:month/:day/:title/
+    syndicate_to: mastodon
   archive:
     output: true
     permalink: /archive/:path/
@@ -112,21 +113,27 @@ collections:
   reply:
     output: true
     permalink: /reply/:epoch/
+    syndicate_to: mastodon
   share:
     output: true
     permalink: /share/:epoch/
+    syndicate_to: mastodon
   note:
-      output: true
-      permalink: /note/:epoch/
+    output: true
+    permalink: /note/:epoch/
+    syndicate_to: mastodon
   list:
     output: true
     permalink: /list/:epoch/
+    syndicate_to: mastodon
   photo:
     output: true
     permalink: /photo/:epoch/
+    syndicate_to: mastodon
   music:
     output: true
     permalink: /music/:epoch/
+    syndicate_to: mastodon
 
 defaults:
   - scope:

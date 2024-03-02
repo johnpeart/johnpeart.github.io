@@ -7,6 +7,8 @@ image: /posts/2024/02/04/life-stack.png
 permalink: /life-stack
 categories:
 - personal
+posse:
+- https://mastodon.social/@johnpeart/111947980243659719
 ---
 
 What’s the stuff I rely on to get stuff done? 

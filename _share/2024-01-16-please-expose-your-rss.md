@@ -11,7 +11,8 @@ reply_to:
     image: "https://rknight.me/assets/ogi/blogplease-expose-your-rss.png"
     date: 2023-11-06
     # content: |
-      
+posse:
+- https://mastodon.social/@johnpeart/111768243795955187
 ---
 
 This post has prompted me to update my own RSS feeds. It's been a long time since I've given them an overhaul.

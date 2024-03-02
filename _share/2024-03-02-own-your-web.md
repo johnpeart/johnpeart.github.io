@@ -15,6 +15,8 @@ reply_to:
     date: 2024-03-02
     content: |
       With the recent revival of personal websites and blogs, however, a lot of people are rediscovering a more thoughtful and persistent alternative: sharing links on their personal websites.
+posse:
+- https://mastodon.social/@johnpeart/112026559053184253
 ---
 
 The latest edition of the Own Your Web newsletter chimes perfectly with what I’ve been trying to achieve by adding more short-form blogging formats to my website.

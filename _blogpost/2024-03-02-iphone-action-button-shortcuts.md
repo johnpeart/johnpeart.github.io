@@ -92,8 +92,8 @@ If you want to use this set up, the two Shortcuts are available to download belo
 		<dd class="app-name">Save the Action Button Menu</dd>
 		<dt class="app-description-label sr-only">Description</dt>
 		<dd class="app-description">Converts multiple Shortcuts to a .vcf file</dd>
-		<dt class="app-second-label">Download</dt>
-		<dd class="app-second"><a href="https://www.icloud.com/shortcuts/ac610efca3c54a3b9792f9b7f1c5b871" title="Download the Save the Action Button Menu Shortcut from iCloud.com">iCloud</a></dd>
+		<dt class="app-first-label">Download</dt>
+		<dd class="app-first"><a href="https://www.icloud.com/shortcuts/ac610efca3c54a3b9792f9b7f1c5b871" title="Download the Save the Action Button Menu Shortcut from iCloud.com">iCloud</a></dd>
 	</dl>
 </figure>
 
@@ -104,7 +104,7 @@ If you want to use this set up, the two Shortcuts are available to download belo
 		<dd class="app-name">Actions</dd>
 		<dt class="app-description-label sr-only">Description</dt>
 		<dd class="app-description">A Shortcut for displaying a .vcf file as a menu</dd>
-		<dt class="app-second-label">Download</dt>
-		<dd class="app-second"><a href="https://www.icloud.com/shortcuts/e50892dd936045b3864320be67ae0b0b" title="Download the Actions Shortcut from iCloud.com">iCloud</a></dd>
+		<dt class="app-first-label">Download</dt>
+		<dd class="app-first"><a href="https://www.icloud.com/shortcuts/e50892dd936045b3864320be67ae0b0b" title="Download the Actions Shortcut from iCloud.com">iCloud</a></dd>
 	</dl>
 </figure>

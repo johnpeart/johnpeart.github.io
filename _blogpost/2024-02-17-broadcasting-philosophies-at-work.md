@@ -6,6 +6,8 @@ excerpt: "Banner-cries at work can be a guiding light for your teams. They can a
 image: /posts/2024/02/17/broadcasting-philosophies-at-work.png
 categories:
 - work
+posse:
+- https://mastodon.social/@johnpeart/111947983697772170
 ---
 
 Over time, I’ve been collecting catchphrases and tiny philosophies that I try to live by. Particularly at work. Some I’ve made up, others I’ve borrowed or remixed.

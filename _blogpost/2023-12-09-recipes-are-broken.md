@@ -6,8 +6,10 @@ layout: post
 image: /posts/2023/12/09/recipies-are-broken/social-media.png
 emoji: ["🍅","🥕","🥬","🧅","🌽"]
 categories: 
-  - cooking
-  - design 
+- cooking
+- design 
+posse:
+- https://mastodon.social/@johnpeart/111551307999257813
 ---
 
 I am a bad cook. I'm okay at making some very specific dishes – mostly breakfast dishes involving eggs – but, on average, if I go off menu then the odds are that it won't go well. 

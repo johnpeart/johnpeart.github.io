@@ -6,6 +6,8 @@ image: "/social/goals/goals.png"
 layout: post
 category:
 - personal
+posse:
+- https://mastodon.social/@johnpeart/111683154279158755
 ---
 
 MMXXIV. The year of the Dragon. Twenty twenty-four. 

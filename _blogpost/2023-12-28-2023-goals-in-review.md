@@ -6,6 +6,8 @@ layout: post
 image: /social/goals/goals.png
 category:
   - personal
+posse: 
+- https://mastodon.social/@johnpeart/111657979644218332
 ---
 
 This is the sixth year I've been setting and publicly tracking a set of [goals for the year ahead](https://www.johnpe.art/goals/). 

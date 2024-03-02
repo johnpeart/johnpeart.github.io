@@ -15,6 +15,8 @@ reply_to:
     content: |
       "I installed it, I met some people, I had an adventure, the story wrapped, I am now free to get on with my life"
 image: "https://lede-admin.aftermath.site/wp-content/uploads/sites/55/2023/12/Assassins-Creed®-Mirage2023-11-3-10-40-0.jpg"
+posse: 
+- https://mastodon.social/@johnpeart/111660715107036160
 ---
 
 I couldn't agree more with this sentiment: video games are getting *too damned big*.

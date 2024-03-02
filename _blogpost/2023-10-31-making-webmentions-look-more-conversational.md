@@ -5,9 +5,11 @@ excerpt: "Pruning back the CSS garden. Repainting the HTML walls."
 layout: post
 image: /posts/2023/10/31/making-webmentions-look-more-conversational/social-media.jpg
 categories:
-  - making
-  - indie web
-  - social
+- making
+- indie web
+- social
+posse:
+- https://mastodon.social/@johnpeart/111330169324420012
 ---
 
 I recently added support for [federated social networking features to my website](/2023/07/30/into-the-fediverse/). If you're on a service like Mastodon, and you interact with a post that links to something on my website, it'll show up a little while later *on my actual website*! Cool, right?!

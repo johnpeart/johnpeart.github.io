@@ -13,6 +13,8 @@ reply_to:
     content: |
       Olly Alexander will represent the United Kingdom at the Eurovision Song Contest with his song Dizzy.
   override: "shared a video"
+posse:
+- https://mastodon.social/@johnpeart/112021982628210839
 ---
 
 This wasn’t quite what I was expecting it to be, but I think I like it! It’s been a worm in my ear all day. 

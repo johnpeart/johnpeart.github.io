@@ -1,8 +1,9 @@
 ---
 layout: stream
-title: "Shared"
-permalink: /share
+title: "Reposts"
+permalink: /reposts
 redirect_from:
+- /share
 - /shared
 - /shares
 pagination:

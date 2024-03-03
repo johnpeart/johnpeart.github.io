@@ -6,6 +6,9 @@ collection: ideas
 group_by: type
 sort_by: title
 
+# last updated
+date: 2024-03-03
+
 permalink: /ideas/
 ---
 

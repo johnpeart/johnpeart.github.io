@@ -12,16 +12,12 @@ header-menu:
     label: "Writing"
   - link: "/stream"
     label: "Stream"
-  - link: "/photos"
-    label: "Photos"
-  - link: "/projects"
-    label: "Projects"
-  - link: "/goals"
-    label: "Goals"
-  - link: "/wishlist"
-    label: "Wishlist"
   - link: "/about"
-    label: "About me"
+    label: "About"
+  - link: "/now"
+    label: "Now"
+  - link: "/ideas"
+    label: "Ideas"
   - link: "/feeds"
     label: "RSS feeds"
 
@@ -97,11 +93,14 @@ collections:
   about:
     output: true
     permalink: /about/:path/
-  projects:
-    output: false
+  now:
+    output: true
+    permalink: /now/:epoch/
+  ideas:
+    output: true
   goals:
     output: true
-    permalink: /goals/:path/
+    permalink: /goals/:year/
   wishlist:
     output: false
   podcasts:
@@ -116,8 +115,8 @@ collections:
     output: true
     permalink: /share/:epoch/
   note:
-      output: true
-      permalink: /note/:epoch/
+    output: true
+    permalink: /note/:epoch/
   list:
     output: true
     permalink: /list/:epoch/
@@ -144,6 +143,11 @@ defaults:
     values:
       layout: post
       categories: ["About", "Career history"]
+  - scope:
+      type: "now"
+    values:
+      layout: post
+      categories: ["Now"]
   - scope:
       type: "manuals"
     values:
@@ -182,7 +186,7 @@ defaults:
 
 pagination:
   enabled: true
-  collection: blogpost, reply, note, list, photo, music, share
+  collection: blogpost, reply, note, list, photo, music, share, now
   per_page: 10
   sort_field: 'date'
   sort_reverse: true
@@ -200,9 +204,6 @@ highlighter: true
 sass:
   sass_dir: _sass
   style: compressed
-  
-include:
-  - .htaccess 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -14,8 +14,8 @@ header-menu:
     label: "Stream"
   - link: "/about"
     label: "About"
-  # - link: "/now"
-  #   label: "Now"
+  - link: "/now"
+    label: "Now"
   - link: "/ideas"
     label: "Ideas"
   - link: "/feeds"
@@ -186,7 +186,7 @@ defaults:
 
 pagination:
   enabled: true
-  collection: blogpost, reply, note, list, photo, music, share, now
+  collection: blogpost, reply, note, list, photo, music, share
   per_page: 10
   sort_field: 'date'
   sort_reverse: true

@@ -14,9 +14,11 @@ A Twitterbot (sometimes 'Twitter Bot', or simply 'Bot') is a bit of code that au
 
 A good friend recently came up with a cracking idea for a Twitter Bot:
 
-<blockquote class="twitter-tweet" align="center" data-lang="en"><p lang="en" dir="ltr">I want a bot that will reply &quot;it&#39;s you&quot; whenever someone tweets &quot;is it me or&quot;</p><p>&mdash; Jim Dickinson (@jim_dickinson) <a href="https://twitter.com/jim_dickinson/status/819973617043828736">January 13, 2017</a></p></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{:.twitter-tweet}
+> **[Jim Dickinson (@jim_dickinson)](//twitter.com/jim_dickinson)** \
+> [January 13, 2017](https://twitter.com/jim_dickinson/status/819973617043828736)
+> 
+> I want a bot that will reply “it’s you” whenever someone tweets “is it me or”;
 
 And another good friend reckoned I could make that very Twitterbot. He was wrong - for a total of approximately 3 days.
 
@@ -47,8 +49,6 @@ The first thing I did was [create a new Twitter account](https://twitter.com/sig
 To access the Twitter API, you need a consumer key, consumer secret, access token and access token secret. You create these in the [Application Management](https://apps.twitter.com) section of Twitter's developer website.
 
 Clicking 'Create New App' takes you to a short form where you give your app a name, a description, a website to link back to and a callback URL. The callback URL isn't necessary for this bot, so I left it blank, ticked the box to accept the conditions and submitted the form.
-
-![](/assets/images/posts/2017/01/16/its-you-twitter-bot/createnewapp.png)
 
 Now the app is created, the keys, tokens and secrets can be found in the 'Keys and Access Tokens' screen. They'll look something like: `rhIWCXREwLu0RswdLttqpXjAH`. (*Don't worry, that one isn't real*)
 

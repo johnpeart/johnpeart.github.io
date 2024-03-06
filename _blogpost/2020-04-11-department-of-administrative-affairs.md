@@ -25,9 +25,13 @@ Having tinkered around with the [HTML canvas](https://developer.mozilla.org/en-U
 
 Now, roughly once an hour, the Department of Administrative Affairs tweets something that looks like this:
 
-<blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">We invest in nuclear bunkers as a department. Administration won&#39;t stop just because the country&#39;s been destroyed! Annihilation will be bad enough without anarchy to make things even worse! <a href="https://t.co/PNzIMoGBtP">pic.twitter.com/PNzIMoGBtP</a></p>&mdash; Department of Administrative Affairs (@DeptOfAdmin) <a href="https://twitter.com/DeptOfAdmin/status/1244089645610172416?ref_src=twsrc%5Etfw">March 29, 2020</a></blockquote>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{:.twitter-tweet}
+> **[Department of Administrative Affairs (@DeptOfAdmin)](//twitter.com/DeptOfAdmin)** \
+> [March 29, 2020](https://twitter.com/DeptOfAdmin/status/1244089645610172416)
+> 
+> We invest in nuclear bunkers as a department. Administration won’t stop just because the country’s been destroyed! Annihilation will be bad enough without anarchy to make things even worse!
+> 
+> ![](https://pbs.twimg.com/media/EUPk8DhXYAYMR7z?format=png&name=medium)
 
 It takes a random quote from a pre-defined list, generates an image dynamically based on that quote, and then tweets the image and the quote as part of the tweet too.
 
@@ -36,9 +40,9 @@ I recently updated the bot to take advantage of the latest open source software,
 <figure>
   <img src="/assets/images/posts/2020/04/11/department-of-administrative-affairs/department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right">
   <figcaption>
-    <strong>Figure 1:</strong>
-    The recently refreshed brand identity for the Department of Administrative Affairs.
-    <a href="https://badideas.podcast.johnpe.art" title="Open This mirrors my new podcast, the Department of Bad Ideas in new window" target="_blank">This mirrors my new podcast, the Department of Bad Ideas</a>.
+	<strong>Figure 1:</strong>
+	The recently refreshed brand identity for the Department of Administrative Affairs.
+	<a href="https://badideas.podcast.johnpe.art" title="Open This mirrors my new podcast, the Department of Bad Ideas in new window" target="_blank">This mirrors my new podcast, the Department of Bad Ideas</a>.
   </figcaption>
 </figure>
 
@@ -126,8 +130,8 @@ This bot is built using a framework called `twit`, which relies on Node.js, so y
 <figure>
   <img src="/assets/images/posts/2020/04/11/department-of-administrative-affairs/deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard">
   <figcaption>
-    <strong>Figure 2:</strong>
-    The Add Buildpacks screen in Heroku Dashboard.
+	<strong>Figure 2:</strong>
+	The Add Buildpacks screen in Heroku Dashboard.
 
   </figcaption>
 </figure>
@@ -416,12 +420,12 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
 	  var metrics = ctx.measureText(testLine);
 	  var testWidth = metrics.width;
 	  if (testWidth > maxWidth && n > 0) {
-	    ctx.fillText(line, x, y);
-	    line = words[n] + ' ';
-	    y += lineHeight;
+		ctx.fillText(line, x, y);
+		line = words[n] + ' ';
+		y += lineHeight;
 	  }
 	  else {
-	    line = testLine;
+		line = testLine;
 	  }
 	}
 	ctx.fillText(line, x, y);
@@ -548,7 +552,7 @@ function sendTweet() {
 
 		// Posts the tweet
 		T.post('statuses/update', params, function (err, data, response) {
-		    console.log(data)
+			console.log(data)
 		})
 
 	})

@@ -12,7 +12,11 @@ Many of us are adapting to working exclusively from our homes at the moment. Tha
 
 Earlier this week, [I published some things I do to help telephone and video conference calls go a bit more smoothly](/2020/03/23/better-conference-calling), now that all our meetings are online. Then I stumbled upon this tweet from [@DuncanWeldon](//twitter.com/duncanweldon/status/1242490196479954944):
 
-<blockquote class="twitter-tweet" align="center"><p lang="en" dir="ltr">I’m now communicating by phone calls, Zoom, Skype, Slack, WhatsApp and email and I am worried my head might explode.</p>&mdash; Duncan Weldon (@DuncanWeldon) <a href="https://twitter.com/DuncanWeldon/status/1242490196479954944?ref_src=twsrc%5Etfw">March 24, 2020</a></blockquote>
+{:.twitter-tweet}
+> **[Duncan Weldon (@DuncanWeldon)](//twitter.com/DuncanWeldon)**\
+> [March 24, 2020](//twitter.com/DuncanWeldon/status/1242490196479954944)
+>
+> I’m now communicating by phone calls, Zoom, Skype, Slack, WhatsApp and email and I am worried my head might explode.
 
 Whilst I’d [tweeted something pithy](https://twitter.com/johnpeart/status/1242572507548397570?ref_src=twsrc%5Etfw) in reply, I thought a longer blog post might be helpful too. 
 
@@ -66,5 +70,3 @@ These are the things I think about when I’m communicating with someone through
 > 
 > 1. [How to hold better video and telephone conference calls](/2020/03/23/better-conference-calling)
 > 2. [How to be a better communicator when your team is working remotely](/2020/03/28/better-communicating-when-working-remotely)
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

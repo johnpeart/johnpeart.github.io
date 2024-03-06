@@ -1,5 +1,5 @@
 ---
 layout: collection-about
-title: About me
+title: About
 permalink: /about/
 ---

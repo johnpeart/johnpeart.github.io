@@ -18,7 +18,7 @@ A good friend recently came up with a cracking idea for a Twitter Bot:
 > **[Jim Dickinson (@jim_dickinson)](//twitter.com/jim_dickinson)** \
 > [January 13, 2017](https://twitter.com/jim_dickinson/status/819973617043828736)
 > 
-> I want a bot that will reply “it’s you” whenever someone tweets “is it me or”;
+> I want a bot that will reply “it’s you” whenever someone tweets “is it me or”
 
 And another good friend reckoned I could make that very Twitterbot. He was wrong - for a total of approximately 3 days.
 

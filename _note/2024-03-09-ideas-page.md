@@ -2,10 +2,14 @@
 date: 2024-03-09 11:00:00 +0000
 title: "An ‘Ideas’ page."
 author: "John Peart"
-excerpt: "I’ve discovered another IndieWeb concept: the ‘Ideas’ page."
+excerpt: "I’ve discovered another new thing in my adventures across the federated web: the ‘Ideas’ page."
+colour: "magenta"
+posse:
+- https://mastodon.social/@johnpeart/112065566476366137
+- https://bsky.app/profile/johnpe.art/post/3knb5jgcejw2u
 ---
 
-Hot on the heels of discovering the ‘[Now](/note/1709629560/)’ page, I’ve also  discovered the concept of an ‘Ideas’ page, thanks to the folks behind [About Ideas Now](//aboutideasnow.com). 
+Hot on the heels of discovering the ‘[Now](/note/1709629560/)’ page, I’ve also discovered the concept of an ‘Ideas’ page, thanks to the folks behind [About Ideas Now](//aboutideasnow.com). 
 
 I like the way their [manifesto](https://aboutideasnow.com/about) describes the difference between an ‘About’, ‘Ideas’ and ‘Now’ page:
 

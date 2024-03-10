@@ -7,6 +7,8 @@ image: /posts/2024/03/10/sharing-music-on-my-blog/ipod-nano.jpg
 categories:
 - blogging
 - music
+posse:
+- https://bsky.app/profile/johnpe.art/post/3kneqd37pqg27
 ---
 
 I've been adding all sorts of new post formats to my website in recent months. I've added [short-form notes](/notes), [lists to keep track of things](/lists), [photos](/photos) and [a format for sharing and commenting on things](/reposts).

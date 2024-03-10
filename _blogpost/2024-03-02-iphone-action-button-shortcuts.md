@@ -4,7 +4,7 @@ title: "Push the button"
 author: "John Peart"
 excerpt: "Futzing with Shortcuts to make more beautiful and functional Action Button menus on the iPhones 15 Pro and Pro Max."
 layout: post
-image: /posts/2024/03/02/push-the-button/my-action-button-menu.png
+image: /posts/2024/03/02/push-the-button/my-action-button-menu.jpg
 posse:
 - https://mastodon.social/@johnpeart/112027377430434866
 ---
@@ -45,7 +45,7 @@ It felt like a waste of a *whole-new button* to have it do *just one thing*, so 
 I've set up new Shortcuts for pausing my ad-blocker, turning on or off my Apple TV, toggling mobile data and, yes, activating Silent mode. I quickly discovered that I had more Shortcuts I wanted to include in the list than the default Apple menu would let me have.
 
 <figure>
-	<img src="/assets/images/posts/2024/03/02/push-the-button/default-action-menu.png" alt="A screenshot of the default Shortcuts menu, showing 8 shortcuts">
+	<img src="/assets/images/posts/2024/03/02/push-the-button/default-action-menu.jpg" alt="A screenshot of the default Shortcuts menu, showing 8 shortcuts">
 	<figcaption>
 		By default, the Shortcuts app will display up to 8 Shortcuts from an assigned folder. But I have more than 8 shortcuts!
 	</figcaption>
@@ -65,7 +65,7 @@ I've created a menu based on a hack I found on Reddit. It's actually two Shortcu
 I've used `.vcf` files – the format for saving contacts to your phone's address book – to create the menu items. It basically works the same as any other Shortcuts menu; but they retain the iconography, making them more glanceable (for me, at least).
 
 <figure>
-	<img src="/assets/images/posts/2024/03/02/push-the-button/my-action-button-menu.png" alt="A screenshot of my 'Actions' Menu, showing 10 shortcuts">
+	<img src="/assets/images/posts/2024/03/02/push-the-button/my-action-button-menu.jpg" alt="A screenshot of my 'Actions' Menu, showing 10 shortcuts">
 	<figcaption>
 		My custom menu shows more than 8 Shortcuts, and you don't lose the icons as you would with a standard Shortcuts menu.
 	</figcaption>

@@ -46,9 +46,7 @@ The doctors have lots of character sprites. They’re young and old, black and w
 
 When you get a little further into the first level, you start hiring nurses and caretakers. **Nurses are women, caretakers are men.**
 
-There’s ethnic and age diversity amongst the nurses too, but they are only ever of one gender. The caretakers, similarly to the receptionists, are always the same homogenous, older men.
-
-Suddenly the choice of gender looks remarkably like a deliberate stereotyping rather than a technical constraint. **Theme Hospital taught millennials, growing up in the age of mass-consumer technology, that doctors are men and nurses are women.**
+There’s ethnic and age diversity amongst the nurses too, but they are only ever of one gender. The caretakers, similarly to the receptionists, are always the same homogenous, older men. **Theme Hospital taught millennials, growing up in the age of mass-consumer technology, that doctors are men and nurses are women.**
 
 Despite its success, Theme Hospital probably didn’t shape anyone’s entire perception of ‘boys jobs’ and ‘girls jobs’ in the medical profession. Having said that, even today there isn’t gender parity in the medical profession — with doctors still being predominantly men[^2] — so who knows? Maybe it had a bigger impact than we will ever realise.
 
@@ -71,7 +69,7 @@ Think about it. Women *can’t* be doctors in Theme Hospital. They are never pai
 
 ## Simulating hospitals and gender inequality
 
-It is perhaps ironic that a 20 year old game should so starkly display 2 very current issues in gender politics: gender stereotyping and the gender pay gap. Let’s hope that in Two Point Hospital — scheduled for release sometime this year — the developers don’t fall into the same traps again.
+This quirky, beloved, 20 year old game starkly displays 2 very current issues in gender politics: gender stereotyping and the gender pay gap. Let’s hope that in Two Point Hospital — scheduled for release sometime this year — the developers don't accidentally teach a new generation of gamers the wrong lessons again.
 
 [^1]: Theme Hospital was released worldwide in March 1997 for PC, and in February 1998 for PlayStation in the EU region.
 

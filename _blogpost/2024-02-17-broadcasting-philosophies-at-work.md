@@ -22,7 +22,7 @@ In my current role I'm working on a fairly large policy programme. It's a great 
 
 It's not the first time I've been in this kind of position but it is the largest team I've worked with; and certainly the largest number of teams and people that I've had to lead.
 
-In recent weeks, values, culture and behaviours have come up in almost lots of contexts – explicitly or implicitly. Planning meetings. "Ways of working" discussions. Emails about things people need unblocking.
+In recent weeks, values, culture and behaviours have come up in a lots of contexts – explicitly or implicitly. Planning meetings. "Ways of working" discussions. Emails about things people need unblocking.
 
 These interactions have made me stop and reflect on the importance of broadcasting your quirks. Particularly, when you're leading a big team.
 

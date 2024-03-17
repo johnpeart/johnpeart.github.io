@@ -1,5 +1,5 @@
 ---
-layout: photos
+layout: stream
 title: "Photos"
 permalink: /photos/
 pagination:

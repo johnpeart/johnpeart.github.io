@@ -4,9 +4,6 @@ reply_to:
   author:
     name: "Giles Turnbull"
     url: "//gilest.org"
-  publication:
-    name: ""
-    url: ""
   post:
     title: "Doing Weeknotes"
     description: "What weeknotes are, how weeknotes work, and how to start writing weeknotes of your own."

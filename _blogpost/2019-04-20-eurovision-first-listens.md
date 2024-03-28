@@ -116,11 +116,9 @@ eurovision-entries:
   semifinal: 1
   final: false
   commentary: |
-    The Belgians have come up with a half-baked bun with this one[^bel]. The tempo and instrumentation is all over the ~~bakery~~ shop in this Bastille-like pop number.
+    The Belgians have come up with a half-baked bun with this one. The tempo and instrumentation is all over the ~~bakery~~ shop in this Bastille-like pop number.
 
     It’s erratic rhythm means you can never quite get into it’s disappointing groove.
-
-    [^bel]: Sorry, I had to go there; the pun was just hanging there.
 
 - country: "Georgia"
   emoji: ""
@@ -146,9 +144,7 @@ eurovision-entries:
 
     Now we add to this list: “90s anthems” and “the operatic style”.
 
-    Following several years of quality tunes, the Auss-*he*-*he*-*he*-*he*-ies[^aus] have entered something bonkers.
-
-    [^aus]: This will be infinitely more funny when you listen to the track.
+    Following several years of quality tunes, the Auss-*he*-*he*-*he*-*he*-ies have entered something bonkers.
 
 - country: "Iceland"
   emoji: ""
@@ -396,7 +392,7 @@ eurovision-entries:
 
     My biggest critique is that it doesn’t make much use of there being two vocalists; barely a decent harmony in earshot.
 
-- country: "The Netherlands"
+- country: "Netherlands"
   emoji: ""
   song: "Arcade"
   artist: "Duncan Laurence"
@@ -470,7 +466,7 @@ eurovision-entries:
 
     The [polls already show](https://mobile.twitter.com/britainelects/status/863010662066343938) that lots of the UK want out of Eurovision. The least the Beeb could do is not fan the flames of such idiocy with entries like this![^gbr]
 
-    [^gbr]: In fairness to the artist, the vocal is very good — I just wish the BBC would stop churning out such boring songs.
+    In fairness to the artist, the vocal is very good — I just wish the BBC would stop churning out such boring songs.
 
 - country: "France"
   emoji: ""
@@ -539,7 +535,7 @@ summing-up: |
 
   But who is *actually* going to win? You decide! Tune in on 14, 16 and 18 May 2019.
 
-  [^win]: I do actually have a pretty decent track record of predicting acts in the Top 5, and have called the winner in 4 of the last 7 years — but let’s put that down to luck more than skill!
+  [^win]: I do actually have a pretty decent track record of predicting acts in the Top 5, and have called the winner in 4 of the last 7 years based on this once-only album listen — but let’s put that down to luck more than skill!
 
 ---
 

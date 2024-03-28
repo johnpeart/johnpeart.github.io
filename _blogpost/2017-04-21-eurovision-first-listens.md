@@ -7,8 +7,7 @@ image: /social/eurovision/eurovision.png
 category:
   - eurovision
 
-entries:
-
+eurovision-entries:
 - country: "Sweden"
   song: "I Can't Go On"
   artist: "Robin Bengtsson"
@@ -183,7 +182,7 @@ entries:
   commentary: |
     Russia have pulled out because [*politics*](https://eurovision.tv/story/russia-unable-to-participate-2017-ebu-statement). Having heard this track, I'm OK with: it's one of their weakest entries in years.
 
-- country: "F.Y.R. Macedonia"
+- country: "Macedonia"
   song: "Dance Alone"
   artist: "Jana Burčheska"
   semifinal: 2
@@ -213,7 +212,7 @@ entries:
 
     *It takes about 30 seconds before it starts to piss you off!*
 
-- country: "The Netherlands"
+- country: "Netherlands"
   song: "Lights and Shadows"
   artist: "OG3NE"
   semifinal: 2

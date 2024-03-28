@@ -122,7 +122,7 @@ eurovision-entries:
 
     There’s a lot going on here: punchy instrumentation and intriguing vocals, but it lacks the coolness of last year’s “Beautiful Mess” or the fun of 2016’s “If Love Was a Crime” — both high scorers.
 
-- country: "F.Y.R. Macedonia"
+- country: "Macedonia"
   emoji: ""
   song: "Lost and Found"
   artist: "Eye Cue"
@@ -302,7 +302,7 @@ eurovision-entries:
 
     It is mad as a box of frogs, but it should get the party started.
 
-- country: "The Netherlands"
+- country: "Netherlands"
   emoji: ""
   song: "Outlaw"
   artist: " ‘Em — Waylon"

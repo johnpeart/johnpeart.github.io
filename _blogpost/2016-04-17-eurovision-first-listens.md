@@ -47,9 +47,9 @@ eurovision-entries:
   commentary: |
     This could have been a superb ballad; the instrumentation is intriguing, and there's a key change. But you can't excuse the weak vocals.
 
-- country: "The Netherlands"
-  emoji: "Douwe Bob"
+- country: "Netherlands"
   song: "Slow Down"
+  artist: "Douwe Bob"
   semifinal: 1
   final: true
   commentary: |
@@ -212,7 +212,7 @@ eurovision-entries:
   commentary: |
     Ireland's firmly in late-90s boyband territory here; late-90s singer, late-90s song, late-90s cheese. It's more Bryan Adams than Westlife.
 
-- country: "F.Y.R. Macedonia"
+- country: "Macedonia"
   song: "Dona"
   artist: "Kaliopi"
   semifinal: 2

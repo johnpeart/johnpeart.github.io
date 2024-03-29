@@ -4,10 +4,18 @@ author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to a few quippy comments."
 layout: post
 image: /social/eurovision/eurovision.png
-redirect_from:
-- /eurovision
+composite:
+  overlay:
+    image: "/assets/images/posts/2023/05/01/eurovision-2023.svg"
+    alt: "The Eurovision 2023 logo"
+    blur: 5
+  background:
+    source: "/assets/images/posts/2023/05/01/eurovision-united-by-music.png"
+    image: "/assets/images/posts/2023/05/01/eurovision-united-by-music.svg"
+    alt: "A series of overlapping hearts in different colours"
+    fit: "cover"
 category:
-  - eurovision
+- eurovision
 
 eurovision-entries:
 - country: "Albania"
@@ -221,8 +229,7 @@ eurovision-entries:
   semifinal-runningorder: 15
   final-runningorder: 13
   lyric: |
-    There’s no tomorrow when I grab a pint tightly like a \
-    Cha cha cha
+    There’s no tomorrow when I grab a pint tightly like a cha cha cha
   commentary: |
     *Käärijä* is clearly the kid whose parents allowed him to smash guitars up in their garage to let out his teen angst.
 

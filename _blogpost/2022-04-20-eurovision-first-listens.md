@@ -616,7 +616,7 @@ eurovision-entries:
 
     It's not our usual *made for Eurovision and thus a bit naff* entry. This is proper Top 40 pop quality. It's a mid-tempo track with a driving electric guitar riff cushioning a stratospheric vocal from Sam Ryder.
 
-    Friends, for once, there's no hiding behind the sofa whilst you hide in shame about our entry. This is the year you can stand proudly in front of your TV and wave that Union flag triumphantly.
+    Friends, for once, there's no hiding behind the sofa in shame about our entry. This is the year you can stand proudly in front of your TV and wave that Union flag triumphantly.
 
     If this doesn't finish on the left hand of the scoreboard, then it'll be a genuine travesty.
 

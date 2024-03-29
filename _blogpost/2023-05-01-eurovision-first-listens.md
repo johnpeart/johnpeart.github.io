@@ -635,7 +635,7 @@ eurovision-entries:
     I’ll walk through fire and through rain \
     Just to get closer to you
   commentary: |
-    I make no secret of the fact that I adore *Loreen’s music. Her 2012 Eurovision winning track, “Euphoria”, is sublime. I want it played at my funeral. Her album, “Heal”, took my appreciation to another level. So you’d expect me to be excited for her return and to love “Tattoo”. For the record, I am and I do.
+    I make no secret of the fact that I adore Loreen’s music. Her 2012 Eurovision winning track, “Euphoria”, is sublime. I want it played at my funeral. Her album, “Heal”, took my appreciation to another level. So you’d expect me to be excited for her return and to love “Tattoo”. For the record, I am and I do.
 
     But this isn’t just sycophancy. I listened to the entire album blind, without looking at which song was playing or which country it was. I got all the way to Sweden before I sat up in my chair and thought, “wow”.
 

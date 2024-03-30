@@ -186,7 +186,7 @@ defaults:
 
 pagination:
   enabled: true
-  collection: blogpost, reply, note, list, photo, music, share
+  collection: blogpost, now, reply, note, list, photo, music, share
   per_page: 10
   sort_field: 'date'
   sort_reverse: true

@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/johnpeart/jekyll-webmention_io.git
-  revision: e9ee6993e12db430aabdeec6d64707be2e4c9eb1
+  revision: 189ca575999fb2af924ecb557fb38ff0ccc54c5b
   specs:
     jekyll-webmention_io (4.0.0)
       activesupport (~> 7.0, >= 7.0.4.3)
@@ -132,7 +132,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.6)
-    rouge (4.2.0)
+    rouge (4.2.1)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sassc (2.4.0)

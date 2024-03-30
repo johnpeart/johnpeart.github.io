@@ -171,12 +171,12 @@ defaults:
   - scope:
       type: "reply"
     values:
-      layout: "reply"
+      layout: "post"
       categories: ["Reply"]
   - scope:
       type: "share"
     values:
-      layout: "share"
+      layout: "post"
       categories: ["Share"]
   - scope:
       type: "music"

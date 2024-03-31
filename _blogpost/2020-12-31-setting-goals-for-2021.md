@@ -3,7 +3,7 @@ title: "Setting some goals for 2021"
 author: John Peart
 excerpt: "Time to up the ante."
 layout: post
-image: /social/goals/goals.png
+image: /posts/goals.png
 category:
   - personal
 ---

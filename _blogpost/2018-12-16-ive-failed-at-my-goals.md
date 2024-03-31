@@ -3,7 +3,7 @@ title: "I’m going to fail at nearly all my goals for 2018"
 author: John Peart
 excerpt: "Better luck next time, eh?"
 layout: post
-image: /social/goals/goals.png
+image: /posts/goals.png
 category:
   - personal
 ---

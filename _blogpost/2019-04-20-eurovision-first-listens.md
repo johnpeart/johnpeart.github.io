@@ -3,7 +3,7 @@ title: "I listened to every Eurovision 2019 entry, so you don’t have to"
 author: John Peart
 excerpt: "Preview, review and snark for every entry, in 280 characters or less."
 layout: post
-image: /social/eurovision/eurovision.png
+image: /posts/eurovision.png
 category:
   - eurovision
 

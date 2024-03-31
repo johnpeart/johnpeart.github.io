@@ -8,4 +8,4 @@ pagination:
 
 Everything I've posted to my website.
 
-**Looking for something specific?** You can also look at my [blogposts](/writing), [notes](/notes), [lists](/lists), [photos](/photos), [music](/music), [replies](/replies) or [reposts](/reposts).
+**Looking for something specific?** You can also look at my [blogposts](/writing), [weeknotes](/weeknotes), [photos](/photos), [notes](/notes), [lists](/lists), [music](/music), [replies](/replies) or [reposts](/reposts).

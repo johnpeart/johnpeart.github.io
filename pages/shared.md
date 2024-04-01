@@ -1,11 +1,11 @@
 ---
 layout: stream
 title: "Reposts"
-permalink: /reposts
+permalink: /shares
 redirect_from:
 - /share
 - /shared
-- /shares
+- /reposts
 pagination:
   enabled: true
   collection: share

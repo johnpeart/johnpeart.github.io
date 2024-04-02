@@ -6,6 +6,9 @@ excerpt: "My week, written down. One thing each note. One note each week."
 image: /posts/2024/04/02/one-week-one-note-one-thing/note.png
 categories:
 - Week notes
+posse:
+- https://bsky.app/profile/johnpe.art/post/3kp6hc3dal324
+- https://mastodon.social/@johnpeart/112203610675183915
 ---
 
 This week, I'm going to start to week note.[^verb] 

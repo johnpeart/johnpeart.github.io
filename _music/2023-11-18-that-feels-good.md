@@ -3,8 +3,8 @@ date: 2023-11-18 19:00
 title: "That! Feels! Good!"
 artist: "Jessie Ware"
 rating: 5
-artwork: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/82/49/6f824933-4a3a-324b-4243-48c0cce0dace/22UMGIM88087.rgb.jpg/600x600bf-60.jpg"
-image: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/82/49/6f824933-4a3a-324b-4243-48c0cce0dace/22UMGIM88087.rgb.jpg/600x600bf-60.jpg"
+artwork: "https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/93/81/6c/93816c7a-95b4-8870-e85d-76084ccb3a61/Jobd0c02193-7889-4f0c-a3bb-064d8c98a772-148754909-PreviewImage_Preview_Image_Intermediate_nonvideo_280303247_1423448682-Time1681752369263.png/592x592bb.webp"
+image: "https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/93/81/6c/93816c7a-95b4-8870-e85d-76084ccb3a61/Jobd0c02193-7889-4f0c-a3bb-064d8c98a772-148754909-PreviewImage_Preview_Image_Intermediate_nonvideo_280303247_1423448682-Time1681752369263.png/592x592bb.webp"
 itunes: "https://music.apple.com/us/album/that-feels-good/1668868373"
 published: true
 ---

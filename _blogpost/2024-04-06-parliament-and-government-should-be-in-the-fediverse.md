@@ -6,6 +6,9 @@ excerpt: "Here's my pitch: Think GOV.UK, but social media."
 image: /posts/2024/04/06/parliament-and-government-should-be-in-the-fediverse.png
 categories:
 - fediverse
+posse:
+- https://mastodon.social/@johnpeart/112225787465915349
+- https://bsky.app/profile/johnpe.art/post/3kpicfkjvyr2i
 ---
 
 Joe Biden is now in the fediverse. 

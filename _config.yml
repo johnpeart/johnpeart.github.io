@@ -32,14 +32,20 @@ theme-colour: "#009fe3"
 
 # <link rel="me" ...>
 # Mastodon
-
 mastodon:
   username: "johnpeart"
   instance: "mastodon.social"
   url: "https://mastodon.social/@johnpeart"
   handle: "johnpeart@mastodon.social"
+  
+# Bluesky
+bluesky:
+  username: "johnpe.art"
+  instance: "bsky.app"
+  url: "https://bsky.app/profile/johnpe.art"
+  handle: "@johnpe.art"
 
-## LinkedIn
+# LinkedIn
 linkedin:
   url: "https://linkedin.com/in/jrpeart"
   handle: "jrpeart"

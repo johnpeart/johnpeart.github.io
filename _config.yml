@@ -57,6 +57,11 @@ github:
   username: "johnpeart"
   repo: "johnpeart.github.io"
   branch: "main"
+  
+# Buy Me a Coffee
+buymeacoffee:
+  url: "https://buymeacoffee.com/johnpeart"
+  handle: "johnpeart"
 
 # Gravatar
 gravatar:

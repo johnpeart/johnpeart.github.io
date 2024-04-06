@@ -14,7 +14,7 @@ He's on Threads – [@potus@threads.net](https://www.threads.net/@potus) – and
 
 I don't really want to follow Joe Biden on Mastodon. But do you know who I would like to follow? UK politicians and institutions. 
 
-The Prime Minister. The Leader of the Opposition. My MP. Ministers responsible for things I'm personally interested. Government departments announcing things that affect me.
+The Prime Minister. The Leader of the Opposition. My MP. Ministers responsible for things I'm personally interested in. Government departments announcing things that affect me.
 
 I think politicians and major public institutions should be using federated platform technologies to communicate with us all.
 

@@ -1,5 +1,5 @@
 ---
-date: 2024-04-12 10:00
+date: 2024-04-12 08:00
 title: "Eurovision Song Contest Malmö 2024"
 artist: "Various Artists"
 # rating: 5

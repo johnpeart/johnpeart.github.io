@@ -35,11 +35,9 @@ eurovision-entries:
   semifinal: 1
   final: false
   commentary: |
-    *Da vidna*, meaning “until dawn” is reminiscent of that track from *Made in Chelsea*. You know, the one with the screechy sound.[^davidna]
+    *Da vidna*, meaning “until dawn” is reminiscent of that track from *Made in Chelsea*. You know, [the one with the screechy sound](https://www.youtube.com/watch?v=dX3k_QDnzHE).
 
     *Made in Chelsea* and *Da vidna* have something else in common too: they’re both stilted and devoid of substance.
-
-    [^davidna]: It’s M83’s song, ‘[Midnight City](https://www.youtube.com/watch?v=dX3k_QDnzHE)’.
 
 - country: "Belgium"
   emoji: ""

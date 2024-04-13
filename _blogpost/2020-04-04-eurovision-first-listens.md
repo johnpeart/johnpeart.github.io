@@ -316,11 +316,10 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    One of two tracks this year with an unfortunate title, given *the situation*.[^coronavirus]
+    One of two tracks this year with an unfortunate title, given *the situation*. (You know, literally [the reason the contest has been cancelled](https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled)!)
 
     Latvia takes us to the club with this over-produced track and nondescript female vocal. It throws in some (not good) rap near the end of the track before crashing into a distorted mess of an ending.
 
-    [^coronavirus]: You know, literally [the reason the contest has been cancelled](https://eurovision.tv/story/eurovision-2020-in-rotterdam-is-cancelled)!
 - country: "Moldova"
   emoji: ""
   song: "Prison"

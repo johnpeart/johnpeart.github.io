@@ -358,9 +358,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    San Marino, the tiny nation always churning out *questionable* acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a *lot* repetition of the word “freaky”[^freak]. For once for San Marino, something I’d listen to again.
-
-    [^freak]: By my count, there are no fewer than 41 uses of “freaky” and 6 uses of “freaking” in this freaking song.
+    San Marino, the tiny nation always churning out *questionable* acts that for some reason people seem to like, have discovered the 1970s this year. It’s a discotheque tune with a *lot* repetition of the word “freaky”. By my count, there are no fewer than 41 uses of “freaky” and 6 uses of “freaking” in this freaking song. For once for San Marino, something I’d listen to again.
 
 - country: "Serbia"
   emoji: ""

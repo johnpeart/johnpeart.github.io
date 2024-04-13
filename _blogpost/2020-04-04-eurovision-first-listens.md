@@ -230,11 +230,9 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    Bulgaria has had some absolute *tunes* in recent years[^bulgaria-tunes]. But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.
+    Bulgaria has had some absolute *tunes* in recent years. (See [2016](https://www.youtube.com/watch?v=PQqUTigWKHY), [2017](https://www.youtube.com/watch?v=OMmm-G078LM), and [2018](https://www.youtube.com/watch?v=vC-1tdGDFQc).) But then, last year, they didn’t enter and I was gutted. Having heard this, I wish they’d skipped another year.
 
     It’s weird. It’s incoherent. It’s barely instrumented. I don’t like it. [Bring back Poli](https://www.youtube.com/watch?v=PQqUTigWKHY)!
-
-    [^bulgaria-tunes]: Like in [2016](https://www.youtube.com/watch?v=PQqUTigWKHY), [2017](https://www.youtube.com/watch?v=OMmm-G078LM), and [2018](https://www.youtube.com/watch?v=vC-1tdGDFQc).
 
 - country: "Czech Republic"
   emoji: ""

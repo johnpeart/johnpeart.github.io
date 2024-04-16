@@ -86,15 +86,15 @@ eurovision-entries:
   commentary: |
     I am pro-Australia, and pro-Australia in Eurovision. Australia remains the best winner we never had.
     
-    But after [that soaring performance](https://www.youtube.com/watch?v=5ymFX91HwM0) that was denied its rightful winners slot, I have been waiting for something to make me continue to believe in the “Australia is actually part of Europe” project.
+    But after [that soaring performance](https://www.youtube.com/watch?v=5ymFX91HwM0) that was denied its rightful winner’s slot, I have been waiting for something to make me continue to believe in the “Australia is actually part of Europe” project.
     
     I am sorry to report that this is not it. At least, it's not the knock out song I have been waiting for.
     
     Don't misunderstand me. I like the song. It's fun. It's camp. It's got a pulsating rhythm that makes you want to dance to it. It's got a didgeridoo! 
     
-    I am all aboard whatever bizarre rocket ship is taking me “to the planets” with “with the Fleetwood Macs and the Janets”. 
+    I am all aboard whatever bizarre rocket ship is taking me “to the planets” with “the Fleetwood Macs and the Janets”. 
     
-    But this feels like a song made *for* Eurovision. That isn't Australia at its best. Australia at its best is when it brings songs that might be made for Eurovision, but they sound like they are *at* Eurovision. That's what [Sound of Silence](https://www.youtube.com/watch?v=5ymFX91HwM0) was. That's not what this is.
+    But this feels like a song made *for* Eurovision. That isn't Australia at its best. Australia at its best is when it brings songs that sound like they are songs designed for the charts that *just happen to be at* Eurovision. That's what [Sound of Silence](https://www.youtube.com/watch?v=5ymFX91HwM0) was. That's not what this is.
     
 - country: "Austria"
   shortcode: "AUT"
@@ -130,9 +130,9 @@ eurovision-entries:
   lyric: |
     Hold my heart in your hands
   commentary: |
-    In this mid-tempo ballad with a beat, *Fahree* invites us to “hold my heart in your hands” and asks: “do have what it takes?”. Perhaps this is a self-referential metaphor? 
+    In this mid-tempo ballad with a beat, *Fahree* invites us to “hold [his] heart in your hands” and asks: “do you have what it takes?” 
     
-    Do we hold *Fahree's* hopes of winning Eurovision in our hands? Does his song *have what it takes* to win?
+    I propose to you, friends, that this is an excellent metaphor! Do we hold *Fahree's* hopes of winning Eurovision in our hands? Does his song have what it takes to win?
     
     No. No, it does not.
     
@@ -171,9 +171,9 @@ eurovision-entries:
     Ay, I’m a big boy now \
     I’m going away and I sold my cow
   commentary: |
-    The shadow of last year's runner-up entry from Finland looms large over this lyrically nonsensical crash of a song. 
+    The shadow of [last year's runner-up entry from Finland](https://www.youtube.com/watch?v=rJHe-iZ5HSI) looms large over this lyrically nonsensical crash of a song. 
     
-    It sounds like it's ripped straight out of a boss level from the 16-bit era. Think *Sonic the Hedgehog* on the SEGA MegaDrive, when he's fighting *Dr. Robotnik*.
+    It sounds like it's ripped straight out of a boss level from the 16-bit era. Think *Sonic the Hedgehog* on the *SEGA MegaDrive*, when he's fighting *Dr. Robotnik*.
 
 - country: "Cyprus"
   shortcode: "CYP"
@@ -215,7 +215,7 @@ eurovision-entries:
     
     It reminds me of a mashup of Avril Lavigne's “Complicated”  and Katy Perry’s “I Kissed a Girl”.
     
-    Aiko describes the song as a “[self-love, post-breakup anthem](https://en.wikipedia.org/wiki/Pedestal_(Aiko_song))” – whatever the hell that means –  but I suppose that explains the literal (and presumably acted) argument that she has with a nameless man towards the end of a track. It's quite jarring in what is otherwise a fun pop-rock track.
+    Aiko describes the song as a “[self-love, post-breakup anthem](https://en.wikipedia.org/wiki/Pedestal_(Aiko_song))” – whatever the hell that means –  and I suppose that explains the literal (and presumably acted) argument that she has with a nameless man towards the end of a track. It's quite jarring in what is otherwise a fun pop-rock track.
     
 - country: "Denmark"
   shortcode: "DEN"
@@ -254,7 +254,7 @@ eurovision-entries:
   commentary: |
     Well, I guess we've found one of the joke entries for this year. 
     
-    Presuming that this isn't translated into English for the live stage performance, I'd encourage you to just [read the lyrics in English](https://eurovision.tv/participant/5miinust-and-puuluup-2024).
+    Presuming that this isn't translated for the live stage performance, I'd encourage you to just [read the lyrics in English](https://eurovision.tv/participant/5miinust-and-puuluup-2024).
     
 - country: "Finland"
   shortcode: "FIN"
@@ -272,7 +272,7 @@ eurovision-entries:
     Call me what you may, see if I care \
     See me slay!
   commentary: |
-    Of all of the versions of Microsoft’s operating system to  name yourself after, *Windows 95* would not be the top of my list. I guess Windows XP was not available.
+    Of all of the versions of Microsoft’s operating system to  name yourself after, *Windows 95* would not be the top of my list. I guess *Windows XP* was not available.
     
     Much like Microsoft’s archaic operating systems though, this song is absolute garbage. 
     
@@ -295,7 +295,7 @@ eurovision-entries:
   commentary: |
     This song is apparently a “love letter to European hearts” from artist *Slimane*. 
     
-    It starts in the same way as every self-indulgent French ballad that you've ever heard. It crescendos into a vocal that has a lot of strength and emotion. And yet after three minutes, I feel... nothing.
+    It starts in the same way as every other self-indulgent French ballad that you've ever heard. It crescendos into a vocal that has a lot of strength and emotion. And yet after three minutes, I feel... nothing.
     
     If this is meant to sway my heart, then I regret to inform; *je ne l’aime pas*.
     
@@ -339,7 +339,7 @@ eurovision-entries:
   commentary: |
     “I am nothing but the average”, *Isaak* roars out at the start of this song. But I think he’s singing himself a disservice; this is better than average! At least, better than the average German entry in recent years. 
     
-    Whilst the Germans have had success at Eurovision more recently than we have here in the UK – last winning the Contest in 2010 with “Satellite” by *Lena* – they've had a torrid time since.
+    Whilst the Germans have had success at Eurovision more recently than we have here in the UK – last winning the Contest in 2010 with “*Satellite*” by *Lena* – they've had a torrid time since.
     
     Will this [*Tom Grennan*-like](https://www.youtube.com/watch?v=SsdkvYdSzlg) track restore their fortunes? I've no clue, but I know I quite like it.
     
@@ -378,7 +378,7 @@ eurovision-entries:
     I feel it coming \
     Been here before and never got it right
   commentary: |
-    This is a generically crowd-pleasing pop track with some eye-brow raising lyrics. A bright piano cuts through the four-on-the-floor drum track. 
+    This is a generically crowd-pleasing pop track with some eyebrow-raising raising lyrics. A bright piano cuts through the four-on-the-floor drum track. 
     
     Three minutes that’ll make you want to dance around your living room.
 
@@ -400,11 +400,11 @@ eurovision-entries:
     But your favourite colour \
     Compared to the others is doom
   commentary: |
-    Ireland is dangerously close to losing its crown of “most Eurovision wins ever”. Last year’s win from Sweden mean they now share that accolade – as well as being the only country to produce a two-time winner. 
+    Ireland is dangerously close to losing its crown of “most Eurovision wins ever”. Last year’s win from Sweden means they now share that accolade – as well as being the only country to produce a two-time winner. 
     
     You’d hope, on that basis, that Ireland would bring its A-game. You'd think they'd want to show up ready to win.
     
-    And then they send an artist called *Bambie Thug* and a track called “Doomsday Blue” that is, to be blunt, an assault on the senses. 
+    And then they send an artist called *Bambie Thug* and a track called “*Doomsday Blue*” that is, to be blunt, an assault on the senses. 
     
     Chaotic and contorted from the very first moment, this is a unique entry – of that I have no doubt – but it is also deeply, deeply unpleasant.
 
@@ -445,13 +445,13 @@ eurovision-entries:
   lyric: |
     A crown of thorns will be the dress code for my party
   commentary: |
-    For a song called “Boredom”, this is hardly boring. Maybe you should expect that from an artist with an exotic fruit in their name (*are mangos even native to Italy?!*). 
+    For a song called “*Boredom*”, this is hardly boring. Maybe you should expect that from an artist with an exotic fruit in their name (*are mangos even native to Italy?!*). 
     
     This will hit you like a steam train. Relentless, droning beats underpin a tongue-twisting lyrical tango dancing about on top of this complex track. 
     
     It has no discernible hook or riff that’s meant to stick with you; almost as if the whole song is intended as one long verse. And I suspect that may be its undoing.
     
-    [Måneskin](https://en.wikipedia.org/wiki/Måneskin#2020–2021:_Teatro_d'ira:_Vol._I,_Eurovision_and_global_recognition) aside, it’s a nice change from the somewhat typical Italian formulae of recent memory of middle-aged men shouting dreary ballads down a microphone.
+    *[Måneskin](https://www.youtube.com/watch?v=RVH5dn1cxAQ)* aside, it’s a nice change from the somewhat typical Italian formulae of recent memory of middle-aged men shouting dreary ballads down a microphone.
 
 - country: "Latvia"
   shortcode: "LVA"
@@ -471,7 +471,7 @@ eurovision-entries:
   commentary: |
     It takes a while to warm up, but there's a soulful and memorable riff waiting in the chorus to this somewhat morbid ballad from the Latvians.
     
-    It doesn't have the stand out moments of previous winning ballads like 2019 winner, *Arcade*, but it's enjoyable nonetheless.
+    It doesn't have the stand out moments of previous winning ballads like 2019 winner, *[Arcade](https://www.youtube.com/watch?v=R3D-r4ogr7s)*, but it's enjoyable nonetheless.
 
 - country: "Lithuania"
   shortcode: "LIT"
@@ -513,7 +513,7 @@ eurovision-entries:
     
     And they've brought us a song that could have been ripped out of an early 1990s Eurovision, but with a modern-francophone twist. 
     
-    It's got up-tempo plucky guitar, tongue-twisting lyrics in flicking between English and French, and a funky beat.
+    It's got up-tempo plucky guitar, tongue-twisting lyrics that flick between English and French, and a funky beat.
     
     But after three decades away, I have to ask: is this all Luxembourg's got?
 
@@ -573,7 +573,7 @@ eurovision-entries:
     Don't need paella, no \
     I don't even really know what that is
   commentary: |
-    Well. This guy knows *exactly* what he's doing with a song called “Eurodaddy”, doesn't he? Filth.
+    Well. This guy knows *exactly* what he's doing with a song called “*Eurodaddy*”, doesn't he? Filth.
     
     I'm not sure this joke really lands in its native tongue, but [the lyrics, translated from Dutch to English](https://eurovision.tv/participant/joost-klein-2024 ), are a fun read for this one.
 
@@ -593,7 +593,7 @@ eurovision-entries:
     I was a very fine and beautiful maiden \
     With an evil stepmother.
   commentary: |
-    Bear in mind that I don't *watch* the Eurovision album, I listen to it. And if you do the same, you won't get why this song is called “Wolf Pelt” until the chorus. Then it's really obvious.
+    Bear in mind that I don't *watch* the Eurovision album; I *listen* to it. And if you do the same, you won't get why this song is called “Wolf Pelt” until the chorus. Then it's really obvious.
     
     This is a rock song with howling. It's not a very good rock song with howling, but maybe watching it, not just listening to it, is the key?
 
@@ -613,9 +613,9 @@ eurovision-entries:
     I'm the one who built the tower \
     I'm the one who holds the power
   commentary: |
-    *LUNA* reminds me a bit of *[MUNA](https://en.wikipedia.org/wiki/Muna_(band))*; an American indie pop band. That's no bad thing. I like MUNA.
+    *LUNA* reminds me a bit of *[MUNA](https://en.wikipedia.org/wiki/Muna_(band))*; an American indie pop band. That's no bad thing. I like *MUNA*.
     
-    This is a pleasant enough jaunt through three minutes pleasing melodies and four-on-the-floor rhythms. It lacks the heady heights of, say, [Pink Light!](https://youtu.be/OHnrwoQlCp8?si=HpbEvf19XltexnyW&t=76), but it's fine enough.
+    This is a pleasant enough jaunt through three minutes of pleasing melodies and four-on-the-floor rhythms. It lacks the heady heights of, say, [Pink Light](https://youtu.be/OHnrwoQlCp8?si=HpbEvf19XltexnyW&t=76), but it's fine enough.
 
 - country: "Portugal"
   shortcode: "POR"
@@ -632,7 +632,7 @@ eurovision-entries:
   lyric: |
     It burns, it burns, it burns
   commentary: |
-    For a song called “Shout”, I dunno, I was just expecting a little more... Oomph?
+    For a song called “*Shout*”, I dunno, I was just expecting a little more... Oomph?
     
     There's only one, half-arsed, fleeting moment of robustness in this entire dreary ballad. Boring. Next.
 
@@ -670,7 +670,7 @@ eurovision-entries:
   lyric: |
     Prayers also don’t help.
   commentary: |
-    At risk of turning into Brenda from Bristol; *[not another one](https://www.youtube.com/watch?v=H6-IQAdFU3w)*. 
+    At risk of turning into a meme; *[not another one](https://www.youtube.com/watch?v=H6-IQAdFU3w)*. 
     
     As ballads go this year, I don't think this is the worst one, but it's not far off. This one is almost like a funeral dirge at the start, and it drags on for so long it could be used as a cure for insomnia. 
 
@@ -689,14 +689,16 @@ eurovision-entries:
   lyric: |
     Who do you chase when you leave me?
   commentary: |
-    This “dark alternative pop song” is certainly dark, certainly alternative and definitely has pop! It has a slow wind up, but once it hits its stride there's a fighting vocal and pulsating soundtrack to accompany it.
+    This “dark alternative pop song” is certainly dark, certainly alternative and definitely has pop! 
+    
+    It has a slow wind up, but once it hits its stride there's a fighting vocal and pulsating soundtrack to accompany it.
 
 - country: "Spain"
   shortcode: "ESP"
   emoji: "🇪🇸"
   artist: "Nebulossa"
   song: "Vixen"
-  language: "English"
+  language: "Spanish"
   youtube: "LJFpexlj9Bs"
   semifinal: 2
   final: TRUE
@@ -704,14 +706,11 @@ eurovision-entries:
   semifinal-runningorder: 0
   final-runningorder: 0
   lyric: |
-    If I head out solo, I’m a bit of a vixen, \
-    If I’m having fun, I’m the biggest vixen, \
-    If I stretch the night till it’s daylight, \
-    I’m an even bigger vixen.
+    If I head out solo, I’m a bit of a vixen
   commentary: |
     Let's go back to the 80s, kids! This is cheesy as hell, reminiscent of the [ill-fated Danish entry from 2021, *Øve os på hinanden*](https://www.youtube.com/watch?v=w2ytONrRyww) and I love it.
     
-    Whilst the instrumentation has all the sparkle and shoulder-pads of an 80s classic, I'm disappointed by the vocal, which are comparatively underwhelming.
+    Whilst the instrumentation has all the sparkle and shoulder-pads of an 80s classic, I'm disappointed by the vocal, which is comparatively underwhelming.
 
 - country: "Sweden"
   shortcode: "SWE"
@@ -730,9 +729,11 @@ eurovision-entries:
     And leave you empty, hollow \
     Then she’ll spit you out
   commentary: |
-    It's another highly-polished poptastic entry from the Swedes. But what more did you expect from a country that is the undeniable powerhouse of Eurovision?
+    It's another highly-polished and poptastic entry from the Swedes. But what more did you expect from a country that is the undeniable powerhouse of Eurovision?
     
-    It pales in comparison to some of Sweden's greatest former winners, but you don't have to be outstanding to win, you just have to be better than the competition. It's certainly unique, with tinges of Daft Punk and Swedish House Mafia underpinning it, and stands out amongst a crowd of mediocrity this year.
+    It pales in comparison to some of Sweden's greatest former entries, but you don't have to be outstanding to win, you just have to be better than the competition. 
+    
+    It's certainly unique, with tinges of Daft Punk and Swedish House Mafia underpinning it, and stands out amongst a crowd of mediocrity this year.
 
 - country: "Switzerland"
   shortcode: "SUI"
@@ -751,7 +752,7 @@ eurovision-entries:
     I’ll pour another cup \
     This is my boheme
   commentary: |
-    What to make of this. It's got flashes of theatre productions like *Phantom of the Opera* and *Hamilton*. It's got obvious dance beats. It's got falsetto abound. 
+    What to make of this. It's got flashes of theatre productions like *Phantom of the Opera* and *Hamilton*. It's got dance beats. It's got falsetto abound. 
     
     So its pop, meets hip-hop, meets musicals, meets opera. Do you follow?
     

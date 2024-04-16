@@ -364,3 +364,5 @@ eurovision-entries:
 The Eurovision Song Contest's 2016 album, featuring all the acts entering the contest this year, was released yesterday. With the exception of the UK entry, I've deliberately avoided listening to this year's line up until today.
 
 In 140 characters or fewer, here are my first impressions of each of the 43 entries.
+
+{% include eurovision.html %}

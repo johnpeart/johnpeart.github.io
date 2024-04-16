@@ -449,9 +449,6 @@ eurovision-entries:
 
     I just wish the song didn’t end 25 seconds early.
 
-summing-up: |
-  So that’s every Eurovision song that won’t get to compete this year. 41 tracks that history will probably forget. In many cases, probably for the best anyway.
-
 ---
 
 The Eurovision Song Contest will not take place in 2020. At least, not as we know it. The songs will be “honoured” in a special two-hour event in May. *I know. I’m sad too.*
@@ -468,3 +465,9 @@ As ever, there are some rules:
 In lieu of an officially curated album, I’ve listened to the songs in alphabetical order *by artist* this year.
 
 So let’s hop in...
+
+{% include eurovision.html %}
+
+## Summing up
+
+So that’s every Eurovision song that won’t get to compete this year. 41 tracks that history will probably forget. In many cases, probably for the best anyway.

@@ -4,7 +4,7 @@ title: Ideas
 
 collection: ideas
 group_by: type
-sort_by: title
+sort_by: type
 
 # last updated
 date: 2024-03-03

@@ -53,7 +53,7 @@ eurovision-entries:
   language: "Armenian"
   youtube: "_6xfmW0Fc40"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -104,7 +104,7 @@ eurovision-entries:
   language: "English"
   youtube: "Kqda15G4T-4"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -244,7 +244,7 @@ eurovision-entries:
   language: "Estonian"
   youtube: "zY6RbPaTNUc"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -307,7 +307,7 @@ eurovision-entries:
   language: "English"
   youtube: "blMwY8Jabyk"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -351,7 +351,7 @@ eurovision-entries:
   language: "Greek, English"
   youtube: "uTYalXf184A"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -416,7 +416,7 @@ eurovision-entries:
   language: "English, Hebrew"
   youtube: "lJYn09tuPw4"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -461,7 +461,7 @@ eurovision-entries:
   language: "English"
   youtube: "p8FNO0DtBng"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -563,7 +563,7 @@ eurovision-entries:
   language: "Dutch"
   youtube: "gT2wY0DjYGo"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -585,7 +585,7 @@ eurovision-entries:
   language: "Norwegian"
   youtube: "UipzszlJwRQ"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0
@@ -743,7 +743,7 @@ eurovision-entries:
   language: "English"
   youtube: "kiGDvM14Kwg"
   semifinal: 2
-  final: FALSE
+  final: TRUE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0

@@ -1,5 +1,5 @@
 ---
-list: "Games"
+list: "Gaming"
 name: "Control"
 extra-details: "Ultimate Edition; PlayStation 4"
 price: 33.99

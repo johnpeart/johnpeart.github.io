@@ -2,6 +2,6 @@
 list: "Gaming"
 name: "Aliens: Dark Descent"
 price: 0.00
-purchased: false
+purchased: true
 ---
 PS5

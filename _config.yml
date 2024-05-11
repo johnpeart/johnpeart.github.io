@@ -6,19 +6,6 @@ author: "John Peart"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.johnpe.art"
 
-# Header menu
-header-menu:
-  - link: "/stream"
-    label: "Posts"
-  - link: "/about"
-    label: "About"
-  - link: "/now"
-    label: "Now"
-  - link: "/ideas"
-    label: "Ideas"
-  - link: "/feeds"
-    label: "RSS feeds"
-
 # Assets
 image-path: "/assets/images"
 css-path: "/assets/styles"

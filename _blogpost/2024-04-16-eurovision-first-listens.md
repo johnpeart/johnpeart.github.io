@@ -563,7 +563,7 @@ eurovision-entries:
   language: "Dutch"
   youtube: "gT2wY0DjYGo"
   semifinal: 2
-  final: TRUE
+  final: FALSE
   # score: 0
   semifinal-runningorder: 0
   final-runningorder: 0

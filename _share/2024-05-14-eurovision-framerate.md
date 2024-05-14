@@ -10,7 +10,9 @@ reply_to:
     date: 2024-05-11 21:10:30 00:00
     content: |
       Tonight’s Eurovision applied the “filmic” effect to the entire show output which reduced the effective motion frame rate to half the normal value, 25 frames per second which is near enough to the film standard of 24 fps.
-
+posse:
+- https://465.onl/@john/112441014150060597
+- https://bsky.app/profile/johnpe.art/post/3kshuy4h55l2k
 ---
 
 When I was watching the semi-finals and grand final of this year’s Eurovision this week, I kept saying there was something weird going on with the frame rate.

@@ -15,7 +15,9 @@ reply_to:
     date: 2024-05-14 07:50:00 +0100
     content: |
       It’s no secret that the PS5 has entered the “[latter stage of its life cycle](https://theverge.com/2024/2/14/24072692/sony-ps5-forecast-cut-q3-2023-earnings)” with Sony resetting sales expectations in February. Today’s [earnings report](https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/23q4_sony.pdf) shows it just missing that revised 21M target by selling 20.8 million consoles for the fiscal year.
-
+posse:
+- https://bsky.app/profile/johnpe.art/post/3kshv3as3562g
+- https://465.onl/@john/112441020360929501
 ---
 
 This downward trajectory doesn’t feel especially surprising to me. Sony have been openly telling people this console is on its way out; which is wild, considering it’s only been practical to get one in the past 18 months without scalping.

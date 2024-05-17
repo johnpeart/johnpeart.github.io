@@ -1,5 +1,5 @@
 ---
-type: "Website ideas"
+type: "Projects"
 title: "Doing legislation"
 # link: "/doing-legislation/"
 hidden: false

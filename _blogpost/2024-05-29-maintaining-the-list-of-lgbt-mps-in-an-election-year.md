@@ -1,38 +1,40 @@
 ---
-date: 2024-05-25 10:00:00 +0100
-title: "Maintaining the list of LGBT+ MPs during an election"
+date: 2024-05-29 10:00:00 +0100
+title: "Help me to update the list of LGBT+ MPs"
 author: "John Peart"
-excerpt: "Make things open. It makes things better."
-image: /posts/2024/05/25/maintaining-the-list-of-lgbt-mps-in-an-election-year/social-media.png
+excerpt: "How many LGBT+ MPs will there be in the next Parliament? With your help, we can figure it out."
+image: /posts/2024/05/29/maintaining-the-list-of-lgbt-mps-in-an-election-year/social-media.png
 categories:
 - LGBT
 - election
 emoji: ["🗳️", "🏳️‍🌈", "🗳️", "🏳️‍⚧️", "🗳️", "🏳️‍🌈", "🗳️", "🏳️‍⚧️", "🏳️‍🌈", "🗳️", "🏳️‍⚧️", "🗳️", "🏳️‍🌈", "🗳️", "🏳️‍⚧️", "🗳️"]
 ---
 
-A General Election is happening on 4 July 2024. That means I've got a lot of work to do. Can you help?
+Today, there are 64 Members of Parliament who are LGBT+. Tomorrow, when Parliament dissolves ahead of the General Election on 4 July, there will be *none*. 
+
+How many will there be in total when the next Parliament forms a few days later? I've no idea, but with your help, we can figure it out.
 
 Since 2017, I've been maintaining a public registry of [members of the UK Parliament who are openly LGBT+](https://mps.whoare.lgbt/)[^lgbt]. 
 
 It's not just a list; it's a *live* list. It is designed to show who is LGBT+ *at the moment you're looking at it*. 
 
-I've written about [why I created this dataset](/2020/02/24/making-a-dataset-of-lgbt-mps/) back in 2020. The dataset has been [used by the BBC, Sky News, and others](https://mps.whoare.lgbt/about/).
+I've written before about [why I created this dataset](/2020/02/24/making-a-dataset-of-lgbt-mps/). It started out of work-related necessity. Now I'm keeping track because people have seem to find it useful. The dataset has been [used by the BBC, Sky News, and others](https://mps.whoare.lgbt/about/), and about 1,000 people a month visit the website.
 
-## From 64 to...?
+## A big task ahead
 
-Right now there are 64 MPs that are LGBT+: 60 from 5 parties and 4 independents. But when Parliament dissolves, there will be none, and we start over.
+There is a lot of work to do over the next couple of months to keep this dataset up-to-date and complete.
 
-The task in front of me is to:
+The task in front of me is to check:
 
-- check who got re-elected
-- check who lost their seat or who is standing down
-- check who is newly elected and whether any of them are LGBT+
+- whether any current LGBT+ MPs are standing down
+- which current LGBT+ MPs are standing again for election, and whether they get re-elected
+- every newly elected MP and whether any of them are LGBT+
 
-And on top of all that, there are constituency boundary changes. 
+On top of all that, there are constituency boundary changes too, so even if an MP is returning to Parliament, their constituency might have changed.
 
-## Help me maintain the list
+*Oh boy, is there a lot of work to do*!
 
-*Oh boy, is there a lot of work to do*! Can you help?
+## Can you help?
 
 If you know an MP in the upcoming Parliament is LGBT+ and you have a reliable public source to back that up, I need you!
 

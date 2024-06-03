@@ -21,9 +21,9 @@ theme-colour: "#009fe3"
 # Mastodon
 mastodon:
   username: "johnpeart"
-  instance: "465.onl"
-  url: "https://465.onl/@john"
-  handle: "@john@465.onl"
+  instance: "mastodon.social"
+  url: "https://mastodon.social/@johnpeart"
+  handle: "@johnpeart@mastodon.social"
   
 # Bluesky
 bluesky:

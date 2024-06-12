@@ -2,5 +2,5 @@
 layout: rss/filtered
 title: Notes
 excerpt: "Ideas that could fit on a Post-It note."
-permalink: /feed/note.xml
+link: /feed/note.xml
 ---

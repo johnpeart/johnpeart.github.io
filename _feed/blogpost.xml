@@ -2,5 +2,5 @@
 layout: rss/filtered
 title: Blogposts
 excerpt: "Long-form writing."
-permalink: /feed/blogpost.xml
+link: /feed/blogpost.xml
 ---

@@ -2,5 +2,5 @@
 layout: rss/filtered
 title: Week notes
 excerpt: "One week. One note. One thing."
-permalink: /feed/weeknotes.xml
+link: /feed/weeknotes.xml
 ---

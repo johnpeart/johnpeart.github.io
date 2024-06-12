@@ -2,5 +2,5 @@
 layout: rss/filtered
 title: Games
 excerpt: "Games I've played."
-permalink: /feed/game.xml
+link: /feed/game.xml
 ---

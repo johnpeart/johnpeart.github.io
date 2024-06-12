@@ -2,5 +2,5 @@
 layout: rss/filtered
 title: Shared
 excerpt: "Things I've read online and wanted to comment on."
-permalink: /feed/share.xml
+link: /feed/share.xml
 ---

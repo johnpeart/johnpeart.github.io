@@ -80,6 +80,7 @@ webmentions:
 collections:
   feed:
     output: true
+    permalink: /feed/:title.xml
   blogpost:
     output: true
     permalink: /:year/:month/:day/:title/

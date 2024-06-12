@@ -2,5 +2,5 @@
 layout: rss/filtered
 title: Replies
 excerpt: "Replies to comments that appeared on my website, or other people's websites."
-permalink: /feed/reply.xml
+link: /feed/reply.xml
 ---

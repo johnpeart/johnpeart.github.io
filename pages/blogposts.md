@@ -1,6 +1,6 @@
 ---
-layout: writing
-title: Writing
+layout: loop
+title: Blogposts
 permalink: /blogposts/
 redirect_from: /writing/
 ---

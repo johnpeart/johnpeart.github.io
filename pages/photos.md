@@ -1,8 +1,6 @@
 ---
-layout: stream
+layout: loop
 title: "Photos"
+collection: photo
 permalink: /photos/
-pagination:
-  enabled: true
-  collection: photo
 ---

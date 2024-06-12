@@ -1,14 +1,12 @@
 ---
-layout: stream
+layout: loop
 title: "Reposts"
-permalink: /shares
+collection: share
+permalink: /reposts
 redirect_from:
 - /share
 - /shared
-- /reposts
-pagination:
-  enabled: true
-  collection: share
+- /shares
 ---
 
 Things I've shared and commented on, from other people's websites.

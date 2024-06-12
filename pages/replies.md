@@ -1,12 +1,10 @@
 ---
-layout: stream
+layout: loop
 title: "Replies"
-permalink: /replies
+collection: reply
+permalink: /reply
 redirect_from:
-- /reply
-pagination:
-  enabled: true
-  collection: reply
+- /replies
 ---
 
 Things I've replied to on the internet.

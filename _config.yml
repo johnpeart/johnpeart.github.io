@@ -189,15 +189,6 @@ defaults:
       layout: "post"
       categories: ["Music"]
 
-pagination:
-  enabled: true
-  collection: blogpost, weeknotes, now, reply, note, list, photo, music, share
-  per_page: 10
-  sort_field: 'date'
-  sort_reverse: true
-  permalink: '/:num/'
-  title: ":title"
-
 # Jekyll build settings
 remote_theme: johnpeart/theme
 permalink: pretty

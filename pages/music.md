@@ -1,10 +1,8 @@
 ---
-layout: stream
+layout: loop
 title: "Music"
+collection: music
 permalink: /music
-pagination:
-  enabled: true
-  collection: music
 ---
 
 Music I've listened to.

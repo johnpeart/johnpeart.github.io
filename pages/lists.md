@@ -1,10 +1,8 @@
 ---
-layout: stream
+layout: loop
 title: "Lists"
+collection: list
 permalink: /lists
-pagination:
-  enabled: true
-  collection: list
 ---
 
 Lists of things I'm keeping track of.

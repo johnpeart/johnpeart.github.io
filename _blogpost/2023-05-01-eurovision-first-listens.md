@@ -703,6 +703,19 @@ eurovision-entries:
 
     It is however in the doomful final slot of the show, possibly sealing its fate to score badly from the outset.
 
+summing-up : |
+    There's a lot to like in this year's Eurovision Song Contest entries.
+    
+    The qualifiers from the semi-finals are more unpredictable than ever. The jury votes will no longer happen following last year's vote rigging scandals, so it's all on the public vote.
+    
+    The first semi-final seems like the weaker of the two to me. I'd expect some weird selections from that crop, and some great songs to get knocked out from the second semi-final.
+    
+    As for some of my favourites: **Sweden** has, as usual, brought its A-game. A powerhouse anthem that will shake down the rafters of the M&S Bank Arena in Liverpool. **Austria** is a bit bonkers, but in the best possible way. **Denmark**'s entry is very much my vibe. **Poland** is set to bring the sexy. **Lithuania** is memorable and enchanting. And, for the second year in a row, I actually have some hope for our own chances, here in the **United Kingdom**.
+    
+    Wooden spoons go to **Romania**, **Croatia**, and **Finland**.
+    
+    But those are just my opinions. The beauty of Eurovision is that we all get an opinion; it's one of the biggest referenda you can take part in! Go find your Eurovibes, tune in and vote on 9, 11 and 13 May 2023 at 8:00pm on BBC One.
+
 ---
 
 It's the most wonderful time of the year! The largest music festival on Earth — the Eurovision Song Contest — is nearly here.
@@ -720,19 +733,3 @@ This year, I've listened to the entirety of the [official Eurovision album](http
 As for length of commentary, I am ditching my 280 character limit. It's all about vibes now. If it's a crap song, I'll write a little. If it's a great song, I'll write a lot.
 
 So let’s get stuck in...
-
-{% include eurovision.html %}
-
-## Summing up
-
-There's a lot to like in this year's Eurovision Song Contest entries.
-
-The qualifiers from the semi-finals are more unpredictable than ever. The jury votes will no longer happen following last year's vote rigging scandals, so it's all on the public vote.
-
-The first semi-final seems like the weaker of the two to me. I'd expect some weird selections from that crop, and some great songs to get knocked out from the second semi-final.
-
-As for some of my favourites: **Sweden** has, as usual, brought its A-game. A powerhouse anthem that will shake down the rafters of the M&S Bank Arena in Liverpool. **Austria** is a bit bonkers, but in the best possible way. **Denmark**'s entry is very much my vibe. **Poland** is set to bring the sexy. **Lithuania** is memorable and enchanting. And, for the second year in a row, I actually have some hope for our own chances, here in the **United Kingdom**.
-
-Wooden spoons go to **Romania**, **Croatia**, and **Finland**.
-
-But those are just my opinions. The beauty of Eurovision is that we all get an opinion; it's one of the biggest referenda you can take part in! Go find your Eurovibes, tune in and vote on 9, 11 and 13 May 2023 at 8:00pm on BBC One.

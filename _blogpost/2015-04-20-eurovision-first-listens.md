@@ -413,6 +413,3 @@ eurovision-entries:
 Today, marks the release of the official 2015 Eurovision Song Contest album. With reading that, I'm sure you're already firing up Spotify, but wait!
 
 You don't need to listen to all 40 in the hopes of finding the diamonds in the rough; I've done the hard work for you. In what is likely the biggest demonstration of how much of a life I don't have, I've already listened to all 40 official entries - they've been on YouTube and Spotify for months - and below are lightning reviews of all 40 entrants! You're welcome.
-
-{% include eurovision.html %}
-

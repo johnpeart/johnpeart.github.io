@@ -610,7 +610,7 @@ eurovision-entries:
   semifinal-runningorder: 0
   final-runningorder: 22
   commentary: |
-    As I've already heard the UK entry, I'm going to break with my usual  tweet-sized tradition. And, I can't believe I am about to type this...
+    As I've already heard the UK entry, I'm going to break with my usual tweet-sized tradition. And, I can't believe I am about to type this...
 
     They did it! This is the first song from the UK in more than a decade that I unreservedly love. From start to finish it is brilliant.
 
@@ -619,6 +619,21 @@ eurovision-entries:
     Friends, for once, there's no hiding behind the sofa in shame about our entry. This is the year you can stand proudly in front of your TV and wave that Union flag triumphantly.
 
     If this doesn't finish on the left hand of the scoreboard, then it'll be a genuine travesty.
+    
+summing-up: |
+    So who’s going to win? Your guess is as good as mine; and I’m no octopus.
+    
+    I do have my favourites though.
+    
+    Sweden is, as ever, a wonderful song. Its dizzying melodic and lyrical qualities really get me in the gut.
+    
+    The UK, amazingly, is sending a powerhouse song with an incredible vocalist. It stands out amongst a down-tempo pack.
+    
+    Greece, though doubtfully a high ranking entry, is beautifully produced. To do half a minute of pure, punchy vocal takes guts.
+    
+    Spain gets this year’s award for sexiest song, and Norway gets the award for *What The Actual Just Happened?!*
+    
+    But my televotes are worth a mere fraction of the UK’s 12 point potential. The choice is yours! Don’t miss it. It’ll be a blast.
 
 ---
 
@@ -637,20 +652,3 @@ I've listened to the entries in the order they appear on the [official Eurovisio
 
 So let’s get stuck in...
 
-{% include eurovision.html %}
-
-## Summing up
-
-So who’s going to win? Your guess is as good as mine; and I’m no octopus.
-
-I do have my favourites though.
-
-Sweden is, as ever, a wonderful song. Its dizzying melodic and lyrical qualities really get me in the gut.
-
-The UK, amazingly, is sending a powerhouse song with an incredible vocalist. It stands out amongst a down-tempo pack.
-
-Greece, though doubtfully a high ranking entry, is beautifully produced. To do half a minute of pure, punchy vocal takes guts.
-
-Spain gets this year’s award for sexiest song, and Norway gets the award for *What The Actual Just Happened?!*
-
-But my televotes are worth a mere fraction of the UK’s 12 point potential. The choice is yours! Don’t miss it. It’ll be a blast.

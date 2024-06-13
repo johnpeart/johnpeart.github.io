@@ -523,6 +523,8 @@ eurovision-entries:
 
     That said, there's just something *missing* from it. It's like a plane careering down the runway, ready to take off but not building up *quite* enough speed.
 
+summing-up:
+    Phew! That was a wild ride. 39 entries later, I think it would be nice to take a trip to [Valletta](https://www.visitmalta.com/en/valletta) in 2022; don't you?
 ---
 
 Like a phoenix out of the ashes, the Eurovision Song Contest has risen and is returning to our screens this month. Huzzah!
@@ -537,9 +539,3 @@ In preparing this blogpost, I had the same rules as ever:
 This year, I've listened to the entries in the order they appear on the [official Eurovision album](https://music.apple.com/gb/album/eurovision-song-contest-rotterdam-2021/1560995557). They are presented in alphabetical order, below.
 
 So let’s hop in...
-
-{% include eurovision.html %}
-
-## Summing up 
-
-Phew! That was a wild ride. 39 entries later, I think it would be nice to take a trip to [Valletta](https://www.visitmalta.com/en/valletta) in 2022; don't you?

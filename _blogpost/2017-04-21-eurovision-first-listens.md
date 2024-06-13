@@ -375,5 +375,3 @@ It's become a little tradition of mine to give first impressions of the year's E
 This year, as last, I'm doing it in strict 140 character form: tweet sized commentary on every track.
 
 I've listened to them all in the order they will be performed, rather than the order they appear on the album; for no other reason than because I can.
-
-{% include eurovision.html %}

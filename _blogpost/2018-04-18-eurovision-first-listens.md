@@ -499,5 +499,3 @@ Since 2015, I’ve been doing ‘first-listen’ commentary on all the entries i
 This year, I’ll be listening to each track just once, in the order they appear on the official album. They’re presented below in alphabetical order, grouped by their respective semi-finals and final. Portugal — as last year’s winner — France, Germany, Italy, Spain, and the United Kingdom — as the biggest financial contributors — automatically qualify for the final, so don't appear in the semi-final lists.
 
 As I did last year, I’m setting a strict tweet-sized limit on my thoughts. Twitter have doubled the character limit to 280 characters though, which means double the snark for 2018.
-
-{% include eurovision.html %}

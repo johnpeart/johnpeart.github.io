@@ -804,6 +804,10 @@ eurovision-entries:
 
     I think he's a contender.
 
+summing-up: |
+    I'll level with you. This year is not a great year for Eurovision. There isn't any one song – none – that I can point to this year and say “bloody love that one”, or even “that is obviously a winner”.
+
+    I think in a sea of mediocrity, it's anyone’s game to win.
 ---
 
 It's Eurovision time once more and Europe, it seems, is stuck on Sweden *[like a tattoo-oo-oo](https://www.youtube.com/watch?v=BE2Fj0W4jP4)*, as we return to Sweden for this year's contest. It's lucky number seven for the Swedes as hosts of Europe's biggest annual music festival, and the third for the city of Malmö.
@@ -829,11 +833,3 @@ You can filter the entries by which of the three events – semi-final one, semi
 This year, the European Broadcasting Union has changed the rules of the contest too; the Big 5 (France, Germany, Italy, Spain, and the United Kingdom) and last year's winner (Sweden) will perform live during the semi-finals. Whilst you won't be able to vote for them – they still automatically qualify for the final – I've included them in their respective semi-final events too.
 
 So, in the words of Executive Supervisor of the Eurovision Song Contest, Martin Österdahl, “you're good to go”...
-
-{% include eurovision.html %}
-
-## Summing up
-
-I'll level with you. This year is not a great year for Eurovision. There isn't any one song – none – that I can point to this year and say “bloody love that one”, or even “that is obviously a winner”.
-
-I think in a sea of mediocrity, it's anyone’s game to win.

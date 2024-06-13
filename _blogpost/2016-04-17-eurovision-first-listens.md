@@ -365,4 +365,3 @@ The Eurovision Song Contest's 2016 album, featuring all the acts entering the co
 
 In 140 characters or fewer, here are my first impressions of each of the 43 entries.
 
-{% include eurovision.html %}

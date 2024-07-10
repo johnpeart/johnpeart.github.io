@@ -1,5 +1,5 @@
 ---
-date: 2024-07-11 08:30:00 +0100
+date: 2024-07-10 18:30:00 +0100
 title: "There are now 64 LGBT+ MPs in the UK Parliament"
 author: "John Peart"
 excerpt: "At least 64 MPs were elected in the July 2024 General Election, based on publicly available data."

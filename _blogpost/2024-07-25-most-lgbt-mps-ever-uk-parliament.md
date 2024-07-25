@@ -1,10 +1,12 @@
 ---
-date: 2024-07-12 17:30:00 +0100
-title: "There are now 66 LGBT+ MPs in the UK Parliament"
+date: 2024-07-25 09:00:00 +0100
+title: "More LGBT+ MPs than ever before"
 author: "John Peart"
-excerpt: "At least 66￼ MPs were elected in the July 2024 General Election, based on publicly available data."
+excerpt: "At least 67￼ MPs were elected in the July 2024 General Election, based on publicly available data."
 categories:
 - LGBT
+redirect_from:
+-  /2024/07/12/66-mps-elected-to-uk-parliament/
 ---
 
 Since 2017, I've been keeping track of the number of LGBT+ MPs that have a seat in the UK Parliament. 
@@ -13,10 +15,11 @@ Since 2017, I've been keeping track of the number of LGBT+ MPs that have a seat 
 
 On 4 July 2024, the UK went to the polls for its most recent General Election. On 5 July, the results started rolling in and new MPs were returned to the House of Commons. 
 
+This is what we know about the composition of Parliament today:
 
 ## More than 10% of MPs are LGBT+
 
-Of the 650 MPs returned, 66 of them are openly lesbian, gay, bisexual or trans, or have another minority sexual orientation or gender identity (LGBT+). 
+Of the 650 MPs returned, 67 of them are openly lesbian, gay, bisexual or trans, or have another minority sexual orientation or gender identity (LGBT+). (Though I should note that, whilst we have had a trans MP in the past, there appear to be no trans or non-binary MPs in this Parliament).
 
 By “openly LGBT+”, I mean that there is a trustworthy publicly available source to verify that they are definitely LGBT+. This might be a public statement from the person, or an interview they've done, or other reporting from a reputable journalistic or academic source. [The dataset includes the sources](//mps.whoare.lgbt), so you can look at them yourself.
 
@@ -26,7 +29,7 @@ At more than 10% of MPs, there are more than 3 times more LGBT+ people in the Co
 
 ## Most LGBT+ MPs are from the Labour Party
 
-Of the 411 MPs elected for the Labour Party at this election, 52 of them are LGBT+. That's more than 12% of the Parliamentary Labour Party and more than double the number of LGBT+ MPs Labour had at the start of the previous Parliament.
+Of the 411 MPs elected for the Labour Party at this election, 53 of them are LGBT+. That's more than 12% of the Parliamentary Labour Party and more than double the number of LGBT+ MPs Labour had at the start of the previous Parliament.
 
 Of the remaining 239 MPs elected in other parties:
 
@@ -35,7 +38,13 @@ Of the remaining 239 MPs elected in other parties:
 - 1 Green MP is LGBT+
 - 1 SNP MP is LGBT+
 
-Overall, there are fewer LGBT+ MPs at the start of this Parliament than there were at the end of the most recent one. There were more on Day 1 of this Parliament – 5 July 2024 – than there on 13 December 2019 – Day 1 of the last.
+# The LGBT+ MPs ever
+
+Whilst initially it appeared there had been a slight reduction in the number of MPs elected to Parliament this time around had decreased; the number has actually gone up!
+
+Over the past few weeks, half a dozen or so volunteers — people I don’t know but have popped up on GitHub — have offered up public sources to evidence that there are even more MPs who are LGBT+.
+
+The dataset is now up to date reflecting that. (And if you know of any we’ve missed, please do let me know!)
 
 ## See the detail
 

@@ -2,7 +2,7 @@
 date: 2024-07-25 09:00:00 +0100
 title: "More LGBT+ MPs than ever before"
 author: "John Peart"
-excerpt: "At least 67￼ MPs were elected in the July 2024 General Election, based on publicly available data."
+excerpt: "At least 67 MPs were elected in the July 2024 General Election, based on publicly available data."
 categories:
 - LGBT
 redirect_from:

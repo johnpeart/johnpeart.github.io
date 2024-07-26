@@ -14,11 +14,11 @@ Today, there are 64 Members of Parliament who are LGBT+. Tomorrow, when Parliame
 
 How many will there be in total when the next Parliament forms a few days later? I've no idea, but with your help, we can figure it out.
 
-Since 2017, I've been maintaining a public registry of [members of the UK Parliament who are openly LGBT+](https://mps.whoare.lgbt/)[^lgbt]. 
+Since 2017, I've been maintaining a public registry of [members of the UK Parliament who are openly LGBT+](https://www.lgbt.mp/)[^lgbt]. 
 
 It's not just a list; it's a *live* list. It is designed to show who is LGBT+ *at the moment you're looking at it*. 
 
-I've written before about [why I created this dataset](/2020/02/24/making-a-dataset-of-lgbt-mps/). It started out of work-related necessity. Now I'm keeping track because people have seem to find it useful. The dataset has been [used by the BBC, Sky News, the United Nations, and others](https://mps.whoare.lgbt/about/), and about 1,000 people a month visit the website.
+I've written before about [why I created this dataset](/2020/02/24/making-a-dataset-of-lgbt-mps/). It started out of work-related necessity. Now I'm keeping track because people have seem to find it useful. The dataset has been [used by the BBC, Sky News, the United Nations, and others](https://www.lgbt.mp/about/), and about 1,000 people a month visit the website.
 
 ## A big task ahead
 

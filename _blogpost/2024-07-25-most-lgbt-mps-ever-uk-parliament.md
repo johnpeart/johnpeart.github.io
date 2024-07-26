@@ -21,7 +21,7 @@ This is what we know about the composition of Parliament today:
 
 Of the 650 MPs returned, 67 of them are openly lesbian, gay, bisexual or trans, or have another minority sexual orientation or gender identity (LGBT+). (Though I should note that, whilst we have had a trans MP in the past, there appear to be no trans or non-binary MPs in this Parliament).
 
-By “openly LGBT+”, I mean that there is a trustworthy publicly available source to verify that they are definitely LGBT+. This might be a public statement from the person, or an interview they've done, or other reporting from a reputable journalistic or academic source. [The dataset includes the sources](//mps.whoare.lgbt), so you can look at them yourself.
+By “openly LGBT+”, I mean that there is a trustworthy publicly available source to verify that they are definitely LGBT+. This might be a public statement from the person, or an interview they've done, or other reporting from a reputable journalistic or academic source. [The dataset includes the sources](//www.lgbt.mp), so you can look at them yourself.
 
 At more than 10% of MPs, there are more than 3 times more LGBT+ people in the Commons than you would expect based on the demographics of the national population.[^census]
 
@@ -38,7 +38,7 @@ Of the remaining 239 MPs elected in other parties:
 - 1 Green MP is LGBT+
 - 1 SNP MP is LGBT+
 
-# The LGBT+ MPs ever
+## The most LGBT+ MPs ever
 
 Whilst initially it appeared there had been a slight reduction in the number of MPs elected to Parliament this time around had decreased; the number has actually gone up!
 
@@ -48,4 +48,4 @@ The dataset is now up to date reflecting that. (And if you know of any we’ve m
 
 ## See the detail
 
-The full list of LGBT+ MPs from this Parliament is available online at [mps.whoare.lgbt](//mps.whoare.lgbt).
+The full list of LGBT+ MPs from this Parliament is available online at [www.lgbt.mp](//www.lgbt.mp).

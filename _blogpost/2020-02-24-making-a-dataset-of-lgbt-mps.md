@@ -35,7 +35,7 @@ A clever bunch of people once came up with [some design principles](https://www.
 
 That’s exactly what I decided to do.
 
-I created [a website](https://mps.whoare.lgbt) backed up by [a simple dataset](https://github.com/johnpeart/lgbt-mp/tree/master/_data). It’s open source, meaning it can be easily updated, interrogated, verified or extracted for use elsewhere.
+I created [a website](https://www.lgbt.mp) backed up by [a simple dataset](https://github.com/johnpeart/lgbt-mp/tree/master/_data). It’s open source, meaning it can be easily updated, interrogated, verified or extracted for use elsewhere.
 
 It’s built using [Jekyll](https://jekyllrb.com), which means I have been able to host it freely on [Github](https://pages.github.com)[^2]. Anyone can contribute to the code, because [the repository](https://github.com/johnpeart/lgbt-mp/) is public.
 
@@ -75,14 +75,14 @@ Looking a bit wider, the code and principles behind the work provide a foundatio
 
 And you never know, maybe one day I’ll be able to start a list of LGBT Prime Ministers too.
 
-> Visit ‘[LGBT MP](//mps.whoare.lgbt)’ to find out which Members of Parliament are lesbian, gay, bisexual or transgender.
+> Visit ‘[LGBT MP](//www.lgbt.mp)’ to find out which Members of Parliament are lesbian, gay, bisexual or transgender.
 
 
 [^1]: Given how much changed during the 2017 to 2019 Parliament, we needed that more than we could have realised at the time!
 
 [^2]: Github lets you host projects for free on their website if you’re building them in Jekyll. The domain name costs me about £20 a year.
 
-[^portcullis]: It gave me an excuse to create [this pride inspired portcullis](https://mps.whoare.lgbt/assets/images/site/logo.svg). A *different* portcullis is part of the UK Parliament’s official brand identity.
+[^portcullis]: It gave me an excuse to create [this pride inspired portcullis](https://www.lgbt.mp/assets/images/site/logo.svg). A *different* portcullis is part of the UK Parliament’s official brand identity.
 
 [^tweetedatme]: I, of course, looked to update the dataset in the wake of the December 2019 general election. In the days after the poll, I had people tweeting at me that I’d never met, letting me know which MPs I’d missed and even sending me sources. My favourite was perhaps where someone had pointed me towards a speech of newly appointed Darlington MP [Peter Gibson’s](https://www.facebook.com/darlingtonconservativeparty/videos/2550400468415917/) in which he thanks his partner for their support during the campaign.
 

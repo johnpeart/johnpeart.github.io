@@ -20,6 +20,8 @@ The whole team has been swotting up on WCAG 2.2. Every planning meeting, and eve
 
 We’re using the [GOV.UK Design System](https://design-system.service.gov.uk) we have access to fully-worked up, tested code, which is leading to fewer mistakes.
 
-And we’ve been iteratively auditing parts of our service (and not waiting until the end, as some had advised we should!).
+We’ve been iteratively auditing parts of our service (and not waiting until the end, as some had advised we should!).
+
+And, of course, we’ve been testing with users who have a range of disabilities.
 
 Are there still bits that need tweaking? Yes. But as Hidde indicates, things have been orders of magnitude easier to fix because we’re thinking about accessibility from the start.

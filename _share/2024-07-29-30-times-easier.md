@@ -7,7 +7,6 @@ reply_to:
   post:
     title: "30 times easier"
     url: "https://hidde.blog/links/30-times-easier/"
-    image: "https://hidde.blog"
     date: 2024-07-29 08:36:56 +0100
     content: |
       Accessibility is easier when you do it earlier, I can't emphasise that enough.

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include "components/head.html" %}
+
+    <body id="{{ layout | remove: 'layouts/' | remove: '.html' }}">
+
+        {{ content }}
+		
+    </body>
+
+</html>
+

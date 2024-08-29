@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<main id="content" class="container">
+
+	<article id="post-content" class="{{ collection }} h-entry">
+			<header class="{{ collection }} post-title">
+                {% include "components/header/{{ collection }}.html" %}
+			</header>
+			            
+			<section class="post-body e-content">
+				{{ content }}
+                
+                {% include "components/footer/exif.html" %}
+			</section>
+	</article>
+    
+    {% include "components/webmentions/blogpost.html" %}
+
+    {% include "components/footer/post.html" %}
+
+</main>
+
+

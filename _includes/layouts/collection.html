@@ -1,0 +1,72 @@
+---
+layout: "page"
+---
+
+{{ content }}
+
+{% if group_by %}
+
+    {% if sort_by %}
+	    {% assign collection = collections[collection] | group_by: group_by | sort: sort_by %}
+    {% else %}
+	    {% assign collection = collections[collection] | group_by: group_by %}
+    {% endif %}
+
+    {% for item in collection %}
+	    <section class="collection--list">
+
+		    {% for item in item.items %}
+                {% if forloop.first %}
+	            <header>
+		            <h2 class="collection--list--title">{{ item.data.type }}</h2>
+	            </header>
+                {% endif %}
+		    {% unless item.hidden == true %}
+		    <article class="collection--list-item">
+	            {% if item.data.link %}
+		            {% assign link = item.data.link %}
+		            {% assign alt = item.data.alt %}
+	            {% else %}
+		            {% assign link = item.data.url %}
+	            {% endif %}
+			    <h3 class="collection--list--item-title">{% if item.data.link %}<a href="{{ link }}" {% if alt %}title="{{ alt }}"{% endif %}>{% endif %}{{ item.data.title | default: "No title" }}{% if item.data.link %}</a>{% endif %}</h3>
+			    {% if item.data.excerpt %}
+			    {{ item.data.excerpt | markdownify }}
+			    {% elsif item.content %}
+			    {{ item.content | markdownify }}
+			    {% endif %}
+		    </article>
+		    {% endunless %}
+		    {% endfor %}
+
+	    </section>
+    {% endfor %}
+
+{% else %}
+
+    {% if sort_by %}
+	    {% assign collection = collections[collection] | sort: sort_by %}
+    {% else %}
+	    {% assign collection = collections[collection] %}
+    {% endif %}
+
+    <section class="collection--list">
+    {% for item in collection %}
+    <article class="collection--list-item">
+	    {% if item.data.link %}
+		    {% assign link = item.data.link %}
+		    {% assign alt = item.data.alt %}
+	    {% else %}
+		    {% assign link = item.data.url %}
+	    {% endif %}
+	    <h2 class="collection--list--item-title">{% if item.data.link %}<a href="{{ link }}" {% if alt %}title="{{ alt }}"{% endif %}>{% endif %}{{ item.data.title | default: "No title" }}{% if item.data.link %}</a>{% endif %}</h2>
+	    {% if item.data.excerpt %}
+	    {{ item.data.excerpt | markdownify }}
+	    {% elsif item.content %}
+	    {{ item.content | markdownify }}
+	    {% endif %}
+    </article>
+    {% endfor %}
+    </section>
+
+{% endif %}

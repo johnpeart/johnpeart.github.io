@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<main id="content">
+
+	<article id="post-content" class="{{ collection }} h-entry">
+
+		<header class="post-title container {{ collection }}">
+            {% include "components/header/{{ collection }}.html" %}
+		</header>
+		
+		<div class="container">
+		{% if composite %}
+            {% include "components/images/composite.html" %}
+		{% endif %}
+		</div>
+		
+		<section class="post-body e-content">
+			
+			<div class="container">
+				{{ content }}
+			</div>
+			
+			<div class="container">
+	            <h2>The entries</h2>
+            
+                <fieldset id="toggle-esc-entries" class="radios card">
+                
+                    <legend>Toggle entries</legend>
+                
+                    <div class="radio-input">
+                      <input type="radio" name="toggle-esc-entries" id="esc-all" value="all" checked>
+                      <label for="esc-all">All entries</label>
+                    </div>
+                
+                    <div class="radio-input">
+                      <input type="radio" name="toggle-esc-entries" id="esc-sf1" value="sf1">
+                      <label for="esc-sf1">Semi-final one</label>
+                    </div>
+                
+                    <div class="radio-input">
+                      <input type="radio" name="toggle-esc-entries" id="esc-sf2" value="sf2">
+                      <label for="esc-sf2">Semi-final two</label>
+                    </div>
+                
+                    <div class="radio-input">
+                      <input type="radio" name="toggle-esc-entries" id="esc-final" value="final">
+                      <label for="esc-final">Grand final</label>
+                    </div>
+                
+                </fieldset>
+            
+            </div>
+            
+            <div id="esc-entries" data-show="all">
+            {% assign entries = eurovision-entries | sort: "country" %}
+            {% for entry in entries %}
+            <article class="h-entry eurovision" data-semifinal="{{ entry.semifinal }}" data-final="{{ entry.final }}">
+	            <header class="esc-header">
+		            <div class="container">
+			            {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
+			            
+			            <h3 class="country">
+				            {% if entry.youtube %}<a class="no-underline" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ entry.song }} by {{ entry.artist }} on YouTube">{% endif %}
+				            <span class="country-name">{{ entry.country }}</span>
+				            <span class="song-title"><strong>{{ entry.song }}</strong> by <strong>{{ entry.artist }}</strong></span>
+				            {% if entry.youtube %}</a>{% endif %}
+			            </h3>
+		            </div>
+	            </header>
+	            <section class="esc-body container">
+		            <section class="content e-content">
+			            {{ entry.commentary | markdownify }}
+		            </section>
+	            </section>
+            </article>
+            {% endfor %}
+            </div>
+            
+            {% if page.summing-up %}
+            <div class="container">
+            <h2>Summing up</h2>
+            {{ page.summing-up }}
+            </div>
+            {% endif %}
+            
+		</section>
+
+	</article>
+
+</main>
+
+<script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/blog/eurovision.js' }}" async></script>

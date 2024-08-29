@@ -1,0 +1,40 @@
+---
+layout: "page"
+---
+
+{{ content | replace: '<p>', '<p class="lead">' }}
+
+{% assign collection = collections.about | group_by: "data.type" | sort: "name" %}
+
+{% for type in collection %}
+
+    <section class="collection--list">
+
+	    <header>
+		    <h2 class="collection--list--item-title">{{ type.name }}</h2>
+	    </header>
+
+	    {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}
+	    {% for org in roles %}
+
+		    {% assign jobs = org.items | sort: "date" | reverse %}
+		    {% for job in jobs %}
+                {% if forloop.first %}
+	            <header>
+		            <h3 class="collection--list--title">{{ job.data.organisation }}</h3>
+	            </header>
+                {% endif %}
+			    <article class="collection--list-item">
+				    <h4 class="collection--list--item-title"><a href="{{ job.data.permalink }}">{{ job.data.title }}</a></h4>
+				    {% if job.data.dates.end == "present" %}
+				    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ job.data.dates.end }}</time></p>
+				    {% else %}
+				    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ job.data.dates.end | date: '%Y-%m-%d' }}">{{ job.data.dates.end | date: '%B %Y' }}</time></p>
+				    {% endif %}
+			    </article>
+		    {% endfor %}
+	    {% endfor %}
+
+    </section>
+    
+{% endfor %}

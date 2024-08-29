@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<main id="content">
+
+	<section id="podcasts">
+
+		<div class="container">
+
+			<h1 class="page-title">
+				Podcasts
+			</h1>
+
+		</div>
+
+	</section>
+
+	{% for pod in collections.podcast %}
+
+	<section id="pride-on">
+
+		<div class="container">
+
+			<div class="pod-description">
+
+				<img class="featured" src="{{ siteUrl | append: '/assets/images' | append: pod.data.image }}" alt="{{ pod.data.title }} artwork">
+
+				{{ pod.content | markdownify }}
+
+				<p class="link"><a href="{{ pod.data.link }}" title="Visit the {{ pod.data.title }} website">Find out more</a></p>
+
+			</div>
+
+
+		</div>
+
+	</section>
+
+	{% endfor %}
+
+</main>

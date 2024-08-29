@@ -1,0 +1,30 @@
+<section class="speech-bubble from-them u-in-reply-to h-cite">
+	
+    <aside class="author">
+	    {% if reply_to.post.date -%}On <time class="dt-published" datetime="{{ reply_to.post.date | date: '%FT%T%:z' }}">{{ reply_to.post.date | date: '%d %B %Y' }}</time>, {% endif -%}
+	    <a href="{{ reply_to.author.url }}" class="h-card p-author link-secondary">{{ reply_to.author.name }}</a>
+    
+	    {% if reply_to.original.url -%}
+		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary">replied</a> to <a href="{{ reply_to.original.url }}" class="u-url link-secondary">{% if reply_to.original.title %}<br>“{{ reply_to.original.title }}”{% else %}this post{% endif %}</a>
+	    {% else -%}
+		    {% if reply_to.publication -%}
+		    at <a href="{{ reply_to.publication.url }}" class="u-url link-secondary">{{ reply_to.publication.name }}</a>
+		    {% endif %}
+		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary">{% unless reply_to.override %}wrote{% else %}{{ reply_to.override }}{% endunless %}</a>
+	    {% endif %}
+    </aside>	
+    
+	<section class="quote content">
+		{%- if reply_to.post.image -%}
+		<img loading="lazy" class="post-image" src="{{ reply_to.post.image }}">
+		{%- endif -%}
+		{% if reply_to.post.title %}<h1 class="post-title"><a href="{{ reply_to.post.url }}" class="u-url link-secondary">{{ reply_to.post.title }}</a></h1>{% endif %}
+		<blockquote cite="{{ reply_to.post.url }}"  class="text h-cite">
+			{% if reply_to.post.content %}
+				{{ reply_to.post.content | remove: '"' | strip | prepend: '<q>' | append: '</q>' | markdownify  }}
+			{% elsif reply_to.post.description %}
+				{{ reply_to.post.description | remove: '"' | strip | prepend: '<q>' | append: '</q>' | markdownify  }}
+			{% endif %}
+		</blockquote>
+	</section>
+</section>

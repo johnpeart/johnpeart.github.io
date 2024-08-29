@@ -1,0 +1,63 @@
+{%- if collection == "blogpost" -%}
+	{% assign verb = "wrote a blogpost" %}
+	{% assign class = "speech-bubble" %}
+{%- elsif collection == "weeknotes" %}
+	{% assign verb = "wrote a week note" %}
+	{% assign class = "" %}
+{%- elsif collection == "now" %}
+	{% assign verb = "wrote an update" %}
+	{% assign class = "speech-bubble" %}
+{%- elsif collection == "manual" -%}
+	{% assign verb = "wrote a manual" %}
+	{% assign class = "" %}
+{% elsif collection == "photo" -%}
+	{% assign verb = "posted a photo" %}
+	{% assign class = "" %}
+{% elsif collection == "note" -%}
+	{% assign verb = "wrote a note" %}
+	{% assign class = "" %}
+{% elsif collection == "list" -%}
+	{% assign verb = "wrote a list" %}
+	{% assign class = "" %}
+{% elsif collection == "music" -%}
+	{% assign verb = "shared<br>" | append: title | append: " by " | append: artist %}
+	{% assign class = "speech-bubble" %}
+{% elsif collection == "reply" -%}
+	{% assign verb = "replied" %}
+	{% assign class = "speech-bubble" %}
+{% elsif collection == "share" -%}
+	{% assign verb = "shared and commented" %}
+	{% assign class = "speech-bubble" %}
+{% else -%}
+	{% assign verb = "posted" %}
+	{% assign class = "" %}
+{%- endif -%}
+
+<section class="{{ class }} from-me {{ collection }}">		
+    
+    <aside class="author">
+	    {% if page.date %}On <time class="dt-published" datetime="{{ page.date | date: '%FT%T%:z' }}">{{ page.date | date: '%d %B %Y' }}</time>, {% endif %}
+	    <span class="h-card p-author">
+		    <img class="u-photo hidden memoji" alt="A Memoji avatar of John Peart" src="{{ site.url | append: '/assets/images/me/memoji.png' }}">
+		    <span class="p-name author--name"><a rel="author" class="link-secondary p-author u-url u-uid" href="{{ site.url }}">John Peart</a></span>
+	    </span>
+	    <a href="{{ page.url }}" class="link-secondary u-url">{{ verb }}</a>    
+    </aside>
+    
+    <section class="content e-content">
+		<div class="text">
+			{{ content }}
+		</div>
+	</section>
+    
+    {% include "components/webmentions/like-of.html" %}
+
+	{% if reply_to.original.url %}
+	<a class="u-in-reply-to" href="{{ reply_to.original.url }}"></a>
+	{% endif %}
+	
+	{% for posse in posse %}
+	<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>
+	{% endfor %}
+	
+</section>

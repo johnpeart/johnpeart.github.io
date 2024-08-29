@@ -1,0 +1,14 @@
+<div class="composite-image">
+	<div class="overlay {{ composite.overlay.blur | prepend: 'overlay-' }}">
+		<img class="overlay overlay--header" src="{{ composite.overlay.image }}" alt="{{ composite.overlay.alt }}">
+	</div>
+	
+	<picture>
+		{% if composite.background.source %}
+		<source class="background cover" srcset="{{ composite.background.source }}" type="image/webp">
+		{% endif %}
+		<img class="background cover" src="{{ composite.background.image }}" alt="{{ composite.background.alt }}">
+	</picture>
+</div>
+
+

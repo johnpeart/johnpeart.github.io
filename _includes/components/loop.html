@@ -1,0 +1,50 @@
+{% if collection %}
+    {% assign posts = collections[collection] %}
+{% else %}
+    {% assign posts = collections.allPosts %}
+{% endif %}
+
+{% for post in posts %}
+
+{% assign currentdate = post.date | date: "%Y" %}
+
+{% if currentdate != date %}
+
+{% unless forloop.first %}
+</ul>
+
+</section>
+{% endunless %}
+
+<section>
+
+<h2 id="y{{post.date | date: "%Y"}}" class="loop-header">{{ currentdate }}</h2>
+
+<ul class="loop">
+
+{% assign date = currentdate %}
+
+{% endif %}
+
+	{% if collection == "reply" %}
+		{% assign title = "Reply to " | append: post.data.reply_to.author.name %}
+	{% elsif collection == "share" %}
+		{% assign title = post.data.reply_to.post.title %}
+	{% else %}
+		{% assign title = post.data.title %}
+	{% endif %}
+	
+	<li>
+		<article>
+			<p class="loop-item-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
+			<p class="loop-item-title"><a class="emphasised-link" href="{{ post.url }}" title="Read {{ post.data.title }}">{{ title }}</a></p>
+		</article>
+	</li>
+
+{% if forloop.last %}
+</ul>
+
+</section>
+{% endif %}
+
+{% endfor %}

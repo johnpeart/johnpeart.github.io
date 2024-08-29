@@ -1,0 +1,9 @@
+<aside class="calendar">
+	<div class="calendar-sheet">
+			<span class="calendar-month">{{- page.date | date: "%B" | truncate: 3, "" -}}</span>
+			<span class="calendar-date">{{- page.date | date: "%d" -}}</span>
+			<span class="calendar-collection">Week note</span>
+	</div>
+</aside>
+
+<h1 class="weeknote-title p-name center">{{ title }}</h1>

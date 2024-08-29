@@ -1,0 +1,82 @@
+<head prefix="og: http://ogp.me/ns#">
+
+    {% if env.ELEVENTY_RUN_MODE == "serve" %}
+        {% assign siteUrl = 'http://localhost:8080' %}
+    {% else %}
+        {% assign siteUrl = site.url %}
+    {% endif %}
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	<title>{{ title }}</title>
+	<meta name="description" content="{{ description }}">
+	<meta name="author" content="{{ author }}">
+
+	<!-- Base URLS, duplicate URLs and feeds -->
+	<meta name="url" content="{{ siteUrl | append: site.baseurl }}">
+	<base href="{{ siteUrl | append: site.baseurl | append: page.url | replace: '/index.html','' }}">
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="{{ siteUrl | append: site.baseurl }}">
+	<link rel="canonical" href="{{ pageurl }}">
+	<!-- RSS -->
+	{% for feed in site.feed %}
+	<link rel="alternate" href="{{ siteUrl | append: site.baseurl | append: feed.permalink }}" type="application/rss+xml" title="{{ "John Peart • " | append: feed.title }}">
+	{% endfor %}
+	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+	<link rel="archives" href="{{ siteUrl | append: site.baseurl | append: '/archives' }}">
+
+	<!-- Gives information about the author -->
+	<link rel="me" href="{{ siteUrl }}" type="text/html">
+	{% if site.linkedin %}<link rel="me" href="{{ site.linkedin.url }}" type="text/html">{% endif %}
+	{% if site.github %}<link rel="me" href="{{ site.github.url }}" type="text/html">{% endif %}
+	{% if site.mastodon %}<link rel="me" href="{{ site.mastodon.url }}" type="text/html">{% endif %}
+	{% if site.bluesky %}<link rel="me" href="{{ site.bluesky.url }}" type="text/html">{% endif %}
+	{% if site.webmention-io.email %}<link href="mailto:{{ site.webmention-io.email }}" rel="me">{% endif %}
+	{% if site.gravatar %}<link href="{{ site.gravatar.url }}" rel="me">{% endif %}
+    
+    <!-- Mastodon -->
+    {% if site.mastodon %}<meta name="fediverse:creator" content="{{ site.mastodon.handle }}" />{% endif %}
+
+	<!-- Web mentions -->
+	{% if site.webmentions %}
+		<link rel="dns-prefetch" href="https://webmention.io">
+		<link rel="preconnect" href="https://webmention.io">
+		<link rel="preconnect" href="ws://webmention.io:8080">
+		<link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
+		<link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
+	{% endif %}
+
+	<!-- Facebook Open Graph settings -->
+	<meta property="og:url" 			content="{{ pageurl }}">
+	<meta property="og:type" 			content="{{ type }}">
+	<meta property="og:title" 			content="{{ title }}">
+	<meta property="og:image" 			content="{{ image }}">
+	<meta property="og:description" 	content="{{ description }}">
+	<meta property="og:site_name" 		content="{{ author }}">
+	<meta property="og:locale" 			content="en_GB">
+	<meta property="article:author" 	content="{{ author }}">
+	<meta property="article:publisher" 	content="{{ author }}">
+
+	<!-- Schema.org settings -->
+	<meta itemprop="name" 				content="{{ title }}">
+	<meta itemprop="description" 		content="{{ description }}">
+	<meta itemprop="image" 				content="{{ image }}">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/x-icon" href="">
+	<link rel="icon" href="">
+	<link rel="mask-icon" href="" color="">
+	<link rel="apple-touch-icon" href="">
+
+	<!-- Safari toolbar colors -->
+	<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#1d1d1d" media="(prefers-color-scheme: dark)">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
+	
+	<!-- Scripts -->
+	<script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/scripts.js' }}" async></script>
+
+</head>

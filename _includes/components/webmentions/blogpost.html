@@ -1,0 +1,101 @@
+{% assign current_url = page.url | prepend: site.url %}
+{% assign webmentions = webmentions.children | reverse %}
+{% assign count-webmentions = 0 %}
+
+{% for mention in webmentions %}
+    {% if mention.wm-target == current_url %}
+        {% assign count-webmentions = count-webmentions | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% if count-webmentions > 0 %}
+<footer id="post-footer" class="interactions replies">
+    
+    <aside class="interactions">
+      
+      {% for mention in webmentions %}
+        {% if mention.wm-target == current_url %}
+        {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" %}
+        <article id="webmention-{{ mention.wm-id }}" class="speech-bubble {% if mention.author.name == 'John Peart' %}from-me{% else %}from-them{% endif %} p-comment webmention--{{ mention.wm-property }}">
+            <aside class="author">
+                On <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>,
+                
+                {% if mention.author %}
+                    {% if mention.author.name == 'John Peart' %}
+                        <a href="https://www.johnpe.art" class="link-secondary" rel="nofollow">John Peart</a> 
+                    {% elsif mention.author.name.size > 0 %}
+                        <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
+                    {% else %}
+                        someone
+                    {% endif %}
+                {% endif %}
+                
+                {% if mention.wm-source %}
+                    <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">
+                {% endif -%}
+                
+                {%- if mention.wm-property == "in-reply-to" -%}
+                    replied
+                {%- elsif mention.wm-property == "mention-of" -%}
+                    mentioned
+                {% else %}
+                    wrote
+                {%- endif -%}
+                
+                {% if mention.wm-source %}
+                    </a>
+                {% endif -%}
+                
+            </aside>
+            <section class="content h-cite p-content">
+                <div class="text">
+                    {% assign contentLength = mention.content.text | number_of_words %}
+                    {% if contentLength > 100 %}
+                        {{ mention.content.text | strip_html | markdownify | replace: current_url, "QUOTE" | truncatewords: 50, "…" }}
+                        {% if mention.wm-source -%}<p><a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow" title="Go to {% if mention.author.name != '' %}{{ mention.author.name }}'s{% else %}the{% endif %} original post to read the full content">Read more</a></p>{%- endif %}
+                    {% else %}
+                        {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | markdownify  }}
+                    {% endif %}
+                </div>
+            </section>
+            
+        </article>
+        {% else %}
+        <article id="webmention-{{ mention.wm-id }}" class="interaction action {{ mention.wm-property }} p-comment">
+            <p><span class="interaction-icon {{ mention.wm-property }}"></span>
+            {% if mention.author.name.size > 0 %}
+            <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
+            {% else %}
+            Someone
+            {% endif %} 
+            
+            {% if mention.wm-source %}
+            <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">
+            {% endif -%}
+            
+            {% if mention.wm-property == "repost-of" %}
+            shared
+            {% elsif mention.wm-property == "like-of" %}
+            liked
+            {% elsif mention.wm-property == "bookmark-of" %}
+            bookmarked
+            {% else %}
+            interacted with
+            {% endif %}
+            
+            this post
+            
+            {% if mention.wm-source %}
+            </a>
+            {% endif -%}
+            
+            on <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>
+        </article>
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+      
+    </aside>
+    
+</footer>
+{% endif %}

@@ -1,0 +1,46 @@
+{
+    "title": "John Peart",
+    "description": "I’m John Peart. I’m a policy professional with an interest in technology, services and diversity. I write about all sorts of things, and I build things in code.",
+    "author": "John Peart",
+    "fediverse": "@johnpeart@mastodon.social",
+    "baseUrl": "/",
+    "domain": "www.johnpe.art",
+    "url": "https://www.johnpe.art",
+    
+    "mastodon": {
+        "username": "johnpeart",
+        "instance": "mastodon.social",
+        "url": "https://mastodon.social/@johnpeart",
+        "handle": "@johnpeart@mastodon.social"
+    },
+      
+    "bluesky": {
+        "username": "johnpe.art",
+        "instance": "bsky.app",
+        "url": "https://bsky.app/profile/johnpe.art",
+        "handle": "@johnpe.art"
+    },
+    
+    "linkedin": {
+        "url": "https://linkedin.com/in/jrpeart",
+        "handle": "jrpeart"
+    },
+    
+    "github": {
+        "url":  "https://github.com/johnpeart",
+        "handle":  "johnpeart",
+        "username": "johnpeart",
+        "repo": "johnpeart.github.io",
+        "branch": "main"
+    },
+      
+    "buymeacoffee": {
+        "url": "https://buymeacoffee.com/johnpeart",
+        "handle": "johnpeart"
+    },
+    
+    "gravatar": {
+        "url": "https://gravatar.com/johnpeart",
+        "username": "johnpeart"
+    }
+}

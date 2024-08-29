@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul,
+ol {
+    padding: 0 0 22px 30px;
+    @include tablet-up {
+        padding: 0 0 $container-padding * 2 $container-padding * 2.5;
+    }
+}

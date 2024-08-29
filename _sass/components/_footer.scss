@@ -1,0 +1,55 @@
+footer#site-footer {
+	display: grid;
+	grid-gap: $container-padding;
+	padding-block-end: $container-padding;
+	@include tablet-up() {
+		padding-block-end: $container-padding * 4;
+	}
+}
+footer#site-footer {
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "author";
+}
+
+footer#webmentions-footer {
+    padding-block-end: $container-padding;
+}
+
+footer#post-footer {
+	padding-block-end: $container-padding;
+}
+
+dl.meta-data {
+    grid-area: post-meta;
+
+    display: grid;
+    grid-gap: $container-padding;
+    grid-template-rows: auto auto;
+	@include tablet-up() {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+	}
+    height: 100%;
+
+    aside {
+        padding: $container-padding;
+    }
+
+    p, dl, dt, dd {
+        @include typography($metadata);
+            line-height: 1.2;
+    }
+    dt, dd {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    dt {
+        font-weight: bold;
+    }
+    dd {
+        text-transform: capitalize;
+    }
+
+}

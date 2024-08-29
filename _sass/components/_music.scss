@@ -1,0 +1,60 @@
+a.music-link {
+    display: block;
+    position: relative;
+    
+    &:focus {
+        background: var(--link-focusBackground);
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+
+.ipod-nano {
+    display: grid;
+    
+	margin: 0 auto;
+	
+    width: 100%;
+	max-width: 300px;
+	@include desktop() {
+    	max-width: 400px;
+	}
+    align-content: center;
+    aspect-ratio: 806/763;
+    background-image: url('/assets/images/site/nano-bg.svg');
+    
+    &::after {
+        position: absolute;
+        display: block;
+        
+        width: 100%;
+		max-width: 300px;
+		@include desktop() {
+    		max-width: 400px;
+		}
+        
+        aspect-ratio: 806/763;
+        content: "";
+        background-image: url('/assets/images/site/nano-fore.svg');    
+    }
+
+}
+
+.music-artwork {
+    justify-self: center;
+    max-width: 62%;
+    border-radius: 2px;
+}
+
+h1.music-metadata-title {
+    @include typography($large, "default");
+	margin-top: $container-padding * 2 !important;
+}
+
+h1.music-metadata-title,
+p.music-metadata-artist {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

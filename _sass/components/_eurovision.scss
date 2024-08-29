@@ -1,0 +1,93 @@
+body#eurovision header#global-header {
+	@include supports-sticky() {
+        &::before {
+			background: rgba(131, 58, 180, 0.2); /* fallback for old browsers */
+  			background: -webkit-linear-gradient(to left, rgba(131, 58, 180, 0.2), rgba(253, 29, 29, 0.2), rgba(252, 176, 69, 0.2)); /* Chrome 10-25, Safari 5.1-6 */
+  			background: linear-gradient(to left, rgba(131, 58, 180, 0.2), rgba(253, 29, 29, 0.2), rgba(252, 176, 69, 0.2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    }
+}
+
+div#esc-entries {
+
+	&[data-show="all"] {
+		article.eurovision {
+			display: block;
+		}
+	}
+	&[data-show="sf1"] {
+		article.eurovision {
+			display: none;
+		}
+		article.eurovision[data-semifinal="1"] {
+			display: block;
+		}
+	}
+	&[data-show="sf2"] {
+		article.eurovision {
+			display: none;
+		}
+		article.eurovision[data-semifinal="2"] {
+			display: block;
+		}
+	}
+	&[data-show="final"] {
+		article.eurovision[data-final="true"] {
+			display: block;
+		}
+		article.eurovision[data-final="false"] {
+			display: none;
+		}
+	}
+
+}
+
+header.esc-header {
+		
+	padding: $container-padding 0;
+		
+	@include supports-sticky() {
+		top: 62px;
+		z-index: 100;
+		-webkit-backdrop-filter: blur(20px);
+				backdrop-filter: blur(20px);
+		border-bottom: 1px solid var(--background);
+	}
+	
+	.container {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-gap: $container-padding * 2;
+		align-items: center;
+	}
+
+	svg {
+		all: unset;
+		width: 50px !important;
+	}
+	
+	.country {
+		width: 100%;
+		padding: 0;
+		text-wrap: unset;
+		
+		@include supports-sticky() {
+			top: 0px;
+			z-index: 100;
+		}
+	}
+	.country-name {
+		display: block;
+		width: 100%;
+	}
+	.song-title,
+	.artist,
+	.song-by {
+		
+		font-weight: 400;
+	}
+}
+
+.esc-body {
+	padding-block-end: $container-padding * 2;
+}

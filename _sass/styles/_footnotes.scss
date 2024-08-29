@@ -1,0 +1,43 @@
+sup[role="doc-noteref"] {
+    font-feature-settings: $sup-font-feature-settings;
+    a {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+        &:focus {
+            text-decoration: none;
+        }
+    }
+}
+
+div.footnotes {
+
+    padding-top: 45px;
+    max-width: 400px;
+    @include tablet {
+        padding-top: 60px;
+        max-width: 450px;
+    }
+    @include desktop {
+        padding-top: 120px;
+        max-width: 600px;
+    }
+
+    ul, ol {
+        padding-left: $container-padding * 2;
+    }
+    li, p {
+        @include typography($small);
+        line-height: 1.2;
+        margin-bottom: $container-padding;
+    }
+    a.reversefootnote {
+        text-decoration: none;
+    }
+
+}

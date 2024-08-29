@@ -1,0 +1,90 @@
+.interactions.counts {
+	display: block;
+	text-align: right;
+	line-height: 1;
+	padding: $container-padding * 0.3 $container-padding 0;
+}
+
+footer#post-footer aside.interactions {
+    grid-area: webmentions;
+	margin-block-end: $container-padding * 3;
+}
+
+footer#post-footer aside.interactions::before  {
+	display: block;
+	content: "";
+	height: 10px;
+	width: 100%;
+	margin: $container-padding * 2 0;
+	border: unset;
+	border-radius: 3px;
+	@include plastic(inset, 2px);
+}
+
+.h-entry.list .interactions.counts,
+.h-entry.note .interactions.counts,
+.h-entry.photo .interactions.counts {
+	padding: $container-padding $container-padding 0;
+}
+
+.interaction-count {
+	margin: $container-padding * 0.5 0 $container-padding * 2;
+	padding-left: $container-padding * 2;
+	@include typography($small, "default");
+	color: var(--secondary-color);
+}
+
+.action p {
+	@include typography($small, "default");
+	color: var(--secondary-color);
+	text-align: center;
+	padding: 0;
+}
+
+article.interaction {
+	padding: $container-padding 0;
+}
+
+span.interaction-icon {
+	display: inline-block;
+	position: relative;
+	content: "";
+	height: 10px;
+	width: 10px;
+	@include tablet-up {
+		height: 15px;
+		width: 15px;
+	}
+	margin-right: 7px;
+	padding: 0;
+}
+
+.submit-webmention {
+	display: grid;
+	grid-area: wmForm;
+	padding: $container-padding;
+
+	grid-template-columns: 1fr auto;
+	grid-template-rows: auto auto;
+	grid-template-areas: "label label" "input button";
+	grid-gap: $container-padding;
+}
+
+.submit-webmention label.label {
+	grid-area: label;
+	padding: 0;
+}
+
+.submit-webmention input {
+	grid-area: input;
+	margin: 0;
+	padding: $container-padding * 0.5;
+}
+
+.submit-webmention button.button {
+	grid-area: button;
+	align-self: flex-end;
+	aspect-ratio: 1 / 1;
+	padding: 12px;
+	height: 100%;
+}

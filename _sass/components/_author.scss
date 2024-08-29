@@ -1,0 +1,165 @@
+.from-me aside.author {
+    text-align: right;
+}
+
+aside.author {
+	@include typography($small, "default");
+	color: var(--secondary-color);
+	line-height: 1.2;
+	text-align: left;
+	padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+}
+
+#author-card {
+    grid-area: author;
+
+    display: grid;
+    position: relative;
+    height: 100%;
+    text-align: center;
+	
+	grid-gap: $container-padding;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto;
+
+	@include tablet-up() {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+}
+
+.author--bio {
+	display: grid;
+	
+	padding: $container-padding;
+	border-radius: $border-radius;
+	
+	grid-gap: $container-padding;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: auto 1fr;
+	grid-template-areas: 
+		"photo name"
+		"photo url";
+}
+
+.author--photo {
+	grid-area: photo;
+	align-self: center;
+	justify-self: center;
+}
+
+.author--name {
+	grid-area: name;
+	padding: 0;
+	align-self: flex-end;
+}
+.author--url {
+	grid-area: url;
+	padding: 0;
+	align-self: flex-start;
+}
+
+.author--icons {
+	display: grid;
+	grid-gap: $container-padding;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+			"mastodon bluesky linkedin github";
+			
+	@include tablet-up {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: 
+				"mastodon bluesky"
+				"linkedin github";
+	}
+}
+
+.author-icon {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+}
+
+.mastodon {
+	grid-area: mastodon;
+}
+.bluesky {
+	grid-area: bluesky;
+}
+.linkedin {
+	grid-area: linkedin;
+}
+.github {
+	grid-area: github;
+}
+
+img.memoji {
+    display: block;
+    position: relative;
+
+    box-sizing: border-box;
+
+    margin: 0 auto;
+
+	width: 100px;
+	height: 100px;
+	aspect-ratio: 1;
+}
+
+.author-icon.card {
+	padding: $container-padding * 0.5;
+}
+
+a.author--photo--link {
+	display: block;
+}
+
+a.footer--site-link {
+
+	display: grid;
+	position: relative;
+	margin: 0;
+
+	svg.footer--icons--social {
+		display: block;
+		position: relative;
+
+		max-height: 50px;
+		max-width: 50px;
+		height: 100%;
+		width: 100%;
+
+		margin: 0;
+		padding: 5px;
+
+		path {
+			fill: var(--color);
+		}
+	}
+
+
+	&:link svg path,
+	&:visited svg path {
+		fill: var(--icon-background);
+	}
+	&:hover svg path {
+		background: var(--background);
+		fill: var(--icon-hoverBackground);
+		text-decoration: none;
+	}
+	&:focus {
+		outline: 0;
+	}
+	&:focus svg path {
+		background: var(--link-outlineColor);
+		fill: var(--white);
+		outline: none;
+	}
+	&:active svg path {
+		text-decoration: none;
+	}
+
+}

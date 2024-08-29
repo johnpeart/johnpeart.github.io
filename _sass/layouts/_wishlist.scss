@@ -1,0 +1,126 @@
+// Wishlist styles
+
+body#wishlist {
+
+    h2.wishlist-header {
+        text-align: left;
+        @include typography($h2);
+    }
+
+    ul.wishlist {
+        padding: 0;
+        margin: 0;
+
+        list-style: none !important;
+
+        li.wishlist-item {
+
+            display: block;
+            &.hidden {
+                display: none;
+            }
+
+            list-style: none;
+            padding: 20px 0 20px 0;
+
+            box-sizing: border-box;
+
+            border-top: 1px solid;
+            border-color: var(--secondary-borderColor);
+
+            div.item-info {
+
+                display: block;
+                float: none;
+                clear: both;
+                width: 100%;
+
+                @include tablet-up {
+                    float: left;
+                    clear: none;
+                    width: 70%;
+                }
+
+            }
+            aside.item-metadata {
+
+                display: block;
+                float: none;
+                clear: both;
+                width: 100%;
+                padding: 10px 0 0 0;
+
+                @include tablet-up {
+                    padding: 0;
+                    float: right;
+                    clear: none;
+                    width: 30%;
+                }
+
+            }
+
+            p.item-name,
+            p:last-of-type {
+                display: block;
+                width: 100%;
+                padding-bottom: 0;
+            }
+            p.item-name,
+            a.item-link {
+                font-weight: bold;
+            }
+            span.item-price {
+                margin-left: 20px;
+                float: right;
+            }
+            span.item-giftidea,
+            span.item-purchased {
+                position: relative;
+                float: left;
+            }
+
+            @include clearfix;
+        }
+    }
+
+    fieldset#toggle-purchased {
+
+        display: block;
+        position: relative;
+        width: 100%;
+
+        margin: $container-padding * 3 0 $container-padding;
+        padding: $container-padding;
+
+        text-align: center;
+        @include tablet-up {
+            text-align: right;
+        }
+
+        legend {
+            max-height: form("radios-size");
+            @include tablet-up {
+                width: unset;
+                text-align: left;
+                float: left;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        div.radio-input {
+
+            display: inline-block;
+            margin-bottom: 0;
+            label {
+                font-weight: normal;
+                vertical-align: middle;
+                line-height: form("input-size");
+            }
+        }
+
+        @include clearfix;
+
+    }
+
+}

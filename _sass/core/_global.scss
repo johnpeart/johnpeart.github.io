@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    min-height: 100vh;
+
+    font-kerning:  auto;
+    letter-spacing: normal;
+}
+
+html,
+body {
+    background: var(--background);
+    color: var(--color);
+}

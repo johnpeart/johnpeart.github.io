@@ -1,0 +1,190 @@
+header#global-header {
+    display: block;
+	position: relative;
+    z-index: 999999;
+    @include supports-sticky() {
+        top: 0;
+        &::before {
+            position: absolute;
+            display: block;
+            content: '';
+            width: 100%;
+            height: 100%;
+			-webkit-backdrop-filter: blur(50px);
+            		backdrop-filter: blur(50px);
+			background: var(--translucent-background);
+        }
+        border-bottom: 1px solid var(--background);
+    }
+    ul {
+        padding: 0;
+    }
+}
+
+nav#site-navigation {
+    display: grid;
+    grid-template-columns: 1fr auto;
+	grid-template-rows: 1fr;
+	padding: $container-padding;
+	grid-template-areas: "wordmark button";
+	&.open {
+		grid-template-areas: "wordmark button" "menu menu";
+		grid-template-rows: auto 1fr;
+		@include mobile {
+			padding: $container-padding;
+		}
+		@include tablet-up {
+			grid-template-rows: auto auto 1fr;
+		}
+		grid-gap: $container-padding 0;
+	    align-items: flex-start;
+		height: 100vh;
+	}
+	&.closed {
+		grid-template-areas: "wordmark button";
+	}
+}
+
+button#header-menu--toggle {
+	all: unset;
+	display: grid;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	height: 32px;
+	align-content: center;
+	justify-content: center;
+	aspect-ratio: 1;
+	
+	svg {
+		transform-origin: center;
+		transition: 0.2s all;
+	}
+	
+	svg path#menuicon {
+    	fill: var(--color);
+	}
+    
+    &:hover {
+        cursor: pointer;
+    }
+	
+	&:hover svg path#menuicon,
+	&:focus svg path#menuicon,
+	&:active svg path#menuicon {
+    	fill: var(--cyan);
+    	color: var(--cyan);
+	}
+}
+
+nav#site-navigation.open button#header-menu--toggle svg {
+	transform: rotate(45deg);
+}
+
+nav#site-navigation.closed button#header-menu--toggle svg {
+	transform: rotate(0deg);
+}
+
+p#header--wordmark {
+    position: relative;
+    display: block;
+    z-index: 10000;
+    @include typography($p, "default");
+    font-weight: 900 !important;
+    font-size: 30px;
+	line-height: 30px;
+    @include tablet {
+        font-size: 28px;
+		line-height: 28px;
+    }
+    @include desktop {
+        font-size: 30px;
+		line-height: 30px;
+    }
+    padding: 0;
+}
+
+nav#site-navigation.open section#header-menu--menu {
+    display: grid;
+}
+
+nav#site-navigation.closed section#header-menu--menu {
+    display: none;
+}
+
+section#header-menu--menu {
+    display: grid;
+    grid-area: menu;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: $container-padding;
+}
+
+section.header-menu--section {
+    display: grid;
+    grid-template-rows: auto auto;
+    @include tablet-up {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 2fr; 
+    }
+    padding: $container-padding 0;
+    border-top: 1px solid var(--secondary-borderColor);
+    &:first-of-type {
+        border-color: transparent;
+    }
+}
+
+ul.nav--group {
+    display: grid;
+    grid-gap: $container-padding;
+    grid-template-columns: 1fr 1fr;
+}
+
+li.header-menu--item {
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    box-sizing: border-box;
+}
+
+svg#header-menu--toggle-image {
+    position: relative;
+    display: inline-block;
+    width: 19px;
+    @include tablet {
+        width: 20px;
+    }
+    @include desktop {
+        width: 22px;
+    }
+    transform: rotate(0deg);
+    transform-origin: center;
+    transition: 0.2s all;
+}
+
+details[open] summary svg {
+    transform: rotate(45deg);
+    transform-origin: center;
+    transition: 0.2s all;
+}
+
+details:active svg path#menuicon {
+    color: var(--cyan);
+}
+
+summary svg path#menuicon {
+    fill: var(--color);
+}
+
+summary:hover svg path#menuicon {
+    fill: var(--cyan);
+}
+
+summary:focus {
+    outline: none;
+}
+
+summary:focus svg path#menuicon {
+    fill: var(--cyan);
+}

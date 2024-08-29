@@ -1,0 +1,189 @@
+// COLOUR PALETTE
+// All colours used should be referenced here
+:root {
+    // Colour palette
+    --white: rgb(250, 250, 250);
+    --absolute-white: rgb(255, 255, 255);
+
+    --black: rgb(29, 29, 29);
+    --absolute-black: rgb(0, 0, 0);
+
+    --gray-100: rgb(248, 249, 250);
+    --gray-200: rgb(233, 236, 239);
+    --gray-300: rgb(222, 226, 230);
+    --gray-400: rgb(206, 212, 218);
+    --gray-500: rgb(173, 181, 189);
+    --gray-600: rgb(134, 142, 150);
+    --gray-700: rgb(73, 80, 87);
+    --gray-800: rgb(52, 58, 64);
+    --gray-900: rgb(33, 37, 41);
+	
+	--shadow-1: 	rgb(230,230,230);
+	--shadow-2:		rgb(190,190,190);
+	--shadow-2B: 	rgb(225,225,225);
+	--shadow-3:		rgb(195,195,195);
+	--shadow-3B: 	rgb(215,215,215);
+	--shadow-4:		rgb(195,195,195);
+	--shadow-4B:	rgb(205,205,205);
+	--shadow-5:		rgb(200,200,200);
+	--shadow-5B:	rgb(190,190,190);
+	--shadow-6:		rgb(200,200,200);
+	--shadow-6B:	rgb(180,180,180);
+
+    --blue: rgb(0, 122, 255);
+    --desaturated-blue: rgb(59, 89, 152);
+    --purple: rgb(198, 67, 252);
+    --magenta: rgb(230, 0, 126);
+    --red: rgb(177, 14, 30);
+    --music-red:  rgb(250, 36, 60);
+    --red-tint: rgb(250, 196, 201);
+    --orange: rgb(255, 94, 58);
+    --yellow: rgb(255, 215, 0);
+    --green-tone: rgb(4, 80, 9);
+    --green: rgb(11, 211, 24);
+    --green-tint: rgb(186, 251, 191);
+    --cyan: rgb(0, 159, 227);
+    --cyan-tint: rgb(0, 123, 176);
+
+    --post-it--yellow: rgb(255, 215, 0);
+    --post-it--yellow--top: rgb(250, 211, 0);
+    --post-it--yellow--corner: rgb(255, 241, 168);
+    
+    --post-it--cyan: rgb(100, 159, 227);
+    --post-it--cyan--top: rgb(91, 154, 225);
+    --post-it--cyan--corner: rgb(143, 186, 235);
+    
+    --post-it--green: rgb(215, 237, 108);
+    --post-it--green--top:  rgb(211, 232, 106);
+    --post-it--green--corner:  rgb(232, 255, 116);
+    
+    --post-it--magenta: rgb(230, 69, 158);
+    --post-it--magenta--top:  rgb(222, 66, 152);
+    --post-it--magenta--corner:  rgb(255, 128, 198);
+	
+    // Element colours
+    --background: var(--white);
+    --translucent-background: rgba(250, 250, 250, 0.7);
+    --glass-background: linear-gradient(135deg, rgba(248, 249, 250, 0.8), rgba(233, 236, 239, 0.6));
+    --glass-border: var(--absolute-white);
+    --plastic-shadow-1: var(--gray-300);
+    --plastic-shadow-2: var(--absolute-white);
+    --color: var(--black);
+    --markerpen-color: var(--black);
+    --strikethrough-color: var(--red);
+    --secondary-background: var(--gray-200);
+    --secondary-hoverBackground: var(--gray-300);
+    --secondary-borderColor: var(--gray-400);
+    --secondary-color: var(--gray-600);
+    --radio-color: var(--cyan);
+
+    --link-color: var(--color);
+    --link-hoverColor: var(--cyan);
+    --link-focusBackground: var(--cyan);
+    --link-focusColor: var(--white);
+    --link-outlineColor: var(--cyan);
+    --link-secondary-color: var(--gray-600);
+
+    --button-color: var(--background);
+    --button-background: var(--cyan);
+    --button-hoverColor: var(--cyan);
+	--button-hoverBackground: var(--background);
+	--button-border: var(--cyan);
+
+    --dropdownButton-hoverBackground: var(--cyan);
+    --dropdownButton-hoverColor: var(--white);
+    --dropdownButton-focusBackground: var(--cyan);
+    --dropdownButton-focusColor: var(--cyan);
+    --dropdownButton-disabledColor: var(--gray-700);
+    --dropdownButton-disabledBackground: var(--gray-200);
+
+    --details--hoverColor: var(--cyan);
+    --details--hoverBackground: var(--absolute-white);
+    --details--outlineColor: var(--cyan);
+
+    --blockquote-background: var(--secondary-background);
+
+    --dl--background: var(--secondary-background);
+    --dl--hoverBackground: var(--secondary-hoverBackground);
+    --dl--borderColor: var(--secondary-borderColor);
+
+    --form--color: var(--color);
+    --form--activeColor: var(--link-focusColor);
+    --form--activeBackground: var(--link-focusBackground);
+    --form--focusBorderColor: var(--link-focusBackground);
+
+    --radio-colour: var(--cyan);
+    --form--focusBackground: var(--color);
+    --labelHint-color: var(--gray-600);
+
+    --progress-barBackground: var(--cyan);
+    --progress-barSecondaryBackground: var(--purple);
+
+    --icon-background: var(--gray-600);
+    --icon-hoverBackground: var(--cyan);
+
+    --speechBubble-fromMeColor: var(--white);
+    --speechBubble-fromMeBackground: var(--cyan);
+    --speechBubble-fromMeLinkColor: var(--white);
+	--speechBubble-fromMeLinkFocusColor: var(--cyan);
+    --speechBubble-fromMeLinkBackground: var(--white);
+
+    --speechBubble-fromThemColor: var(--black);
+    --speechBubble-fromThemBackground: var(--gray-200);
+    --speechBubble-fromThemLinkColor: var(--black);
+    --speechBubble-fromThemLinkBackground: var(--cyan);
+    
+    --caret-color: var(--cyan);
+
+    --skiplink-color: var(--white);
+    --skiplink-background: var(--cyan);
+
+    --star-color: var(--red-tint);
+    --star-background: var(--red);
+
+    @include darkMode() {
+        // Dark mode overrides
+        // Colour palette
+	
+		--shadow-1: 	rgb(25,25,25);
+		--shadow-2:		rgb(35,35,35);
+		--shadow-2B: 	rgb(30,30,30);
+		--shadow-3:		rgb(60,60,60);
+		--shadow-3B: 	rgb(40,40,40);
+		--shadow-4:		rgb(60,60,60);
+		--shadow-4B:	rgb(50,50,50);
+		--shadow-5:		rgb(55,55,55);
+		--shadow-5B:	rgb(65,65,65);
+		--shadow-6:		rgb(55,55,55);
+		--shadow-6B:	rgb(75,75,75);
+		
+        --glass-background: linear-gradient(135deg, rgba(33, 37, 41, 0.8), rgba(15, 15, 15, 0.6));
+        --glass-border: rgba(100, 100, 100, 0.3);
+        --plastic-shadow-1: var(--absolute-black);
+        --plastic-shadow-2: var(--gray-900);
+
+        // Element colours
+        --background: var(--black);
+        --translucent-background: rgba(29, 29, 29, 0.5);
+        --color: var(--white);
+        --secondary-background: var(--gray-800);
+        --secondary-hoverBackground: var(--gray-700);
+        --secondary-borderColor: var(--gray-700);
+        --secondary-color: var(--gray-500);
+
+        --link-focusColor: var(--black);
+        --link-secondary-color: var(--gray-500);
+		
+        --dropdownButton-hoverColor: var(--black);
+        --dropdownButton-disabledColor: var(--gray-500);
+        --dropdownButton-disabledBackground: var(--gray-800);
+
+        --skiplink-color: var(--black);
+
+		--speechBubble-fromThemColor: var(--black);
+        --speechBubble-fromThemBackground: var(--gray-400);
+
+        --star-color: var(--gray-800);
+        --star-background: var(--white);
+    }
+}

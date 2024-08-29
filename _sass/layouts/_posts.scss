@@ -1,0 +1,41 @@
+body[id$='post'],
+body[id$='photo'] {
+
+    section.post-body ul > li::before {
+        position: absolute;
+        content: "\2014";
+
+        left: $container-padding;
+    }
+
+    header.post-title.note,
+    header.post-title.list,
+    header.post-title.photo,
+    header.post-title.music,
+    header.post-title.weeknote {
+        margin: $container-padding * 4 auto;
+        @include tablet-up {
+            margin: $container-padding * 6 auto $container-padding * 4;
+        }
+    }
+
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+section.from-me + footer.interactions,
+section.from-them + footer.interactions {
+    margin-bottom: $container-padding * 4;
+}
+
+article#post-content.share,
+article#post-content.reply {
+    margin: $container-padding * 4 auto 0;
+    @include tablet-up {
+        margin: $container-padding * 6 auto 0;
+    }
+}

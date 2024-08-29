@@ -1,0 +1,22 @@
+body#manuals {
+
+    article.project {
+        padding: $container-padding 0;
+
+        border-top: 1px solid;
+        border-color: var(--secondary-borderColor);
+    }
+
+    h2.project-name {
+
+        @include typography($h3, "default");
+        text-align: left;
+        padding: 0 !important;
+
+    }
+
+    p.project-notes {
+        padding: 0;
+    }
+
+}

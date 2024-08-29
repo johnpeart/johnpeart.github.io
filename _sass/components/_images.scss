@@ -1,0 +1,216 @@
+figure { 
+    background: var(--glass-background);
+}
+
+figure,
+.composite-image {
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: $container-padding * 2;
+    border-radius: $border-radius * 2;
+    @include mobile() {
+        box-shadow: shadow(2);
+    }
+    @include tablet {
+        width: containers("tablet") + 100px;
+        max-width: unset;
+        margin-right: -50px;
+        margin-left: -50px;
+        margin-bottom: $container-padding * 3;
+    }
+    @include desktop {
+        width: containers("desktop") + 200px;
+        max-width: unset;
+        margin-right: -115px;
+        margin-left: -115px;
+        margin-bottom: $container-padding * 3;
+    }
+    figcaption {
+        padding: $container-padding;
+        width: auto;
+        max-width: 450px;
+        
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        @include typography($smaller, "default");
+
+        @include tablet-up {
+            @include glass(20px, 2, true, --translucent-background);
+            position: absolute;
+            bottom: -$container-padding;
+            left: -$container-padding;
+        }
+    }
+
+    &.featured-image {
+        margin-bottom: $container-padding * 3;
+    }
+
+    img {
+        display: block;
+        position: relative;
+        box-sizing: content-box;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        @include tablet-up() {
+            margin: 0 0 15px;
+        }
+        &.padding {
+            padding: $container-padding;
+            box-sizing: border-box;
+        }
+    }
+	
+	img,
+	picture source,
+	picture img {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;   
+        
+        @include tablet-up() {
+            border-radius: $border-radius * 2;
+            box-shadow: shadow(2);
+        }
+	}
+
+}
+
+p > img {
+    display: block;
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    left: 0;
+    right: 0;
+    @include tablet {
+        width: containers("tablet") + 100px;
+        max-width: unset;
+        margin: $container-padding $container-padding - 80px;
+    }
+    @include desktop {
+        margin-bottom: 30px;
+        width: containers("desktop") + 200px;
+        max-width: unset;
+        margin: $container-padding $container-padding - 130px;
+    }
+
+    &.rounded {
+        border-radius: $border-radius * 2;
+        box-shadow: shadow(2);
+    }
+}
+
+.post-image {
+    border-radius: $border-radius * 2 $border-radius * 2 0 0;
+}
+
+.background {
+    z-index: 1;
+    aspect-ratio: 2/1;
+	
+	&.cover {
+		object-fit: cover;
+	}
+	&.fill {
+		object-fit: fill;
+	}
+}
+
+div.overlay {
+    display: grid;
+    position: absolute;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius * 2;
+    box-shadow: shadow(2);
+}
+
+div.overlay.overlay--eurovision {
+	padding: $container-padding;
+    border-radius: $border-radius * 2 $border-radius * 2 0 0;
+    box-shadow: none;
+}
+
+div.overlay-5 {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+div.overlay-10 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+div.overlay-20 {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+div.overlay-50 {
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+}
+
+img.overlay { 
+    all: unset;
+    position: relative;
+    display: block;
+    width: clamp(200px, 60%, 600px);
+}
+
+svg.hero-image {
+    display: block;
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 $container-padding * 2 0;
+    left: 0;
+    right: 0;
+
+    @include tablet {
+        width: containers("tablet") + 100px;
+        max-width: unset;
+        margin: $container-padding $container-padding - 80px $container-padding * 3;
+    }
+    @include desktop {
+        margin-bottom: 30px;
+        width: containers("desktop") + 200px;
+        max-width: unset;
+        margin: $container-padding $container-padding - 130px $container-padding * 3;
+    }
+}
+
+
+img.app-icon {
+    grid-area: icon;
+    margin: 0;
+    max-height: 57px;
+    max-width: 57px;
+    border-radius:  $border-radius;
+    box-shadow: shadow(2);
+    @include tablet-up {
+        box-shadow: shadow(3);
+    }
+    &.large {
+        @include tablet-up {
+            max-height: 104px;
+            max-width: 104px;
+            border-radius: $border-radius;
+        }
+    }
+}

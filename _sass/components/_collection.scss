@@ -22,9 +22,13 @@
 	
 	h2 {
 		text-align: left;
-        &.collection--list--item-title {
+		&.collection--list--group-title {
 			@include typography($h2, "default");
-			padding: $container-padding * 6 0 0 !important;
+			padding: $container-padding * 6 0 $container-padding !important;
+		}
+		&.collection--list--item-title {
+			@include typography($h3, "default");
+			padding: 0 !important;
 		}
 	}
 	

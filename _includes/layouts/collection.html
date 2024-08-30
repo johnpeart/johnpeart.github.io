@@ -18,7 +18,7 @@ layout: "page"
 		    {% for item in item.items %}
                 {% if forloop.first %}
 	            <header>
-		            <h2 class="collection--list--title">{{ item.data.type }}</h2>
+		            <h2 class="collection--list--group-title">{{ item.data.type }}</h2>
 	            </header>
                 {% endif %}
 		    {% unless item.hidden == true %}

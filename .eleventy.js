@@ -64,7 +64,8 @@ module.exports = function(eleventyConfig) {
     const collections = [
         "about", "blogpost", "goal", "idea", "list",
         "manual", "music", "note", "now", "photo",
-        "podcast", "reply", "share", "weeknote", "wishlist"
+        "podcast", "reply", "share", "weeknote", "wishlist",
+        "feed"
     ];
 
     // Dynamically add collections
@@ -86,7 +87,9 @@ module.exports = function(eleventyConfig) {
             collectionApi.getFilteredByGlob(`./src/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
-
+    
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+    
     return {
         dir: {
             input: "src",

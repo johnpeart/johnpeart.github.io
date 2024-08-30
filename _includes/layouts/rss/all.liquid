@@ -1,0 +1,123 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	{% if page.layout == "rss/filtered" %}
+	{% assign filter = page.link | remove: '.xml' | remove: "/feed/" %}
+	{% endif -%}
+	<channel>
+		<title>{{ site.title | xml_escape }}{% if filter %} • {{ filter | capitalize | append: " " | remove: "post " }}posts {% else %} • All posts{% endif -%}</title>
+		<description>{{ site.description | xml_escape }}</description>
+		<image>
+			<url>{{ site.url | append: site.baseurl | append: site.social-media-image }}</url>
+			<title>{{ site.title | xml_escape }}{% if filter %} • {{ filter | capitalize }} posts {% else %} • All posts{% endif -%}</title>
+			<link>{{ site.url | append: site.baseurl }}/</link>
+		</image>
+		<link>{{ site.url | append: site.baseurl }}/</link>
+		<atom:link href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+		<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+		<lastBuildDate>{{ page.date | date_to_rfc822 }}</lastBuildDate>
+		<copyright>Copyright {% year %} John Peart. Please attribute and link to my work.</copyright>
+		<generator>Eleventy</generator>
+                
+        {% for post in collections.allPosts %}
+        
+	        {%- if post.data.collection == "blogpost" %}
+		        {% assign title = post.data.title | prepend: "📝 " | strip_html | strip_newlines %}
+		        {% assign type = "article" %}
+	        {%- elsif post.data.collection == "reply" %}
+		        {% assign title = post.data.reply_to.author.name | prepend: "↩️ In reply to " | strip_html | strip_newlines %}
+		        {% assign type = "reply" %}
+	        {%- elsif post.data.collection == "note" %}
+		        {% assign title = post.data.title | prepend: "🗒️ " | strip_html | strip_newlines %}
+		        {% assign type = "note" %}
+	        {%- elsif post.data.collection == "share" %}
+		        {% assign title = post.data.reply_to.post.title | prepend: "🔁 Commented on “" | append: "”" | strip_html | strip_newlines %}
+		        {% assign type = "share" %}
+	        {%- elsif post.data.collection == "music" %}
+		        {% assign title = post.data.title | prepend: "🎧 Shared “" | append: "” by " | append: post.data.artist | strip_html | strip_newlines %}
+		        {% assign type = "music" %}
+	        {%- elsif post.data.collection == "photo" %}
+		        {% assign title = post.data.title | prepend: "📷 " | strip_html %}
+		        {% assign type = "photo" %}
+	        {%- elsif post.data.collection == "game" %}
+		        {% assign title = post.data.title | prepend: "🎮 Shared ”" | append: "“" | strip_html | strip_newlines %}
+		        {% assign type = "game" %}
+	        {%- elsif post.data.title -%}
+		        {% assign title = post.data.title | strip_html | strip_newlines %}
+		        {% assign type = "article" %}
+	        {%- else -%}
+		        {% assign title = site.title | strip_html | strip_newlines %}
+		        {% assign type = "website" %}
+	        {%- endif -%}
+        
+        <item>
+	        <title>{{ title | xml_escape }}</title>
+	        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+	        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+	        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+	        {%- for category in post.data.categories %}
+	        <category>{{ category | xml_escape }}</category>
+	        {% endfor -%}
+	        {%- for cat in post.categories %}
+	        <category>{{ cat | xml_escape }}</category>
+	        {% endfor -%}
+	        <description>
+		        {%- if image -%}
+		        &lt;img src=&quot;{{ image }}&quot; alt=&quot;{{ post.image-alt }}&quot; /&gt;
+                {%- endif -%}
+		        
+		        {%- if post.data.collection == "list" %}
+			        &lt;h2&gt;{{ title }}&lt;/h2&gt;
+			        &lt;ul&gt;
+			        {% for item in post.data.list %}
+				        {% if item.status == "done" %}
+				        &lt;li&gt;&lt;s&gt;{{ item.todo }}&lt;/s&gt;&lt;/li&gt;
+				        {% else %}
+				        &lt;li&gt;{{ item.todo }}&lt;/li&gt;
+				        {% endif %}
+			        {% endfor %}
+			        &lt;/ul&gt;
+		        {% endif %}
+        
+		        {% if post.data.collection == "reply" and post.data.reply_to %}
+			        &lt;p&gt;
+			        {%- if post.data.reply_to.post.date -%}On {{ post.data.reply_to.post.date | date: '%d %B %Y, ' | xml_escape }}{%- endif -%}{%- if post.data.reply_to.author.name -%} {{ post.data.reply_to.author.name | append: " wrote:" | markdownify | xml_escape }}{%- else -%}{{ "Someone wrote:" | markdownify | xml_escape }}{% endif -%}
+			        &lt;/p&gt;
+			        &lt;blockquote&gt;
+				        {{ post.data.reply_to.post.content | markdownify | xml_escape }}
+			        &lt;/blockquote&gt;
+			        &lt;p&gt;On {{ post.date | date: '%d %B %Y' }}, John Peart replied &lt;/p&gt;
+		        {% elsif post.data.collection == "share" and post.data.reply_to %}
+			        &lt;p&gt;
+			        {%- if post.data.reply_to.post.date -%}On {{ post.data.reply_to.post.date | date: '%d %B %Y, ' | xml_escape }}{%- endif -%}{%- if post.data.reply_to.publication %}{{ post.data.reply_to.author.name | append: " at " | append: post.data.reply_to.publication.name | append: " wrote:" | markdownify | xml_escape -}}
+			        {% elsif post.data.reply_to.original %}{{ post.data.reply_to.author.name | append: " wrote:" | markdownify | xml_escape }}{% endif -%}
+			        &lt;/p&gt;
+			        &lt;blockquote&gt;
+				        {% if post.data.reply_to.post.image %}
+				        &lt;img src=&quot;{{ post.data.reply_to.post.image }}&quot; alt=&quot;{{ post.image-alt }}&quot; /&gt;
+				        {% endif %}
+				        {% if post.data.reply_to.post.title %}&lt;h2&gt;&lt;a href=&quot;{{ post.data.reply_to.post.url }}&quot;&gt;{{ post.data.reply_to.post.title }}&lt;/a&gt;&lt;/h2&gt;{% endif %}
+				        {% if post.data.reply_to.post.content %}
+				        {{ post.data.reply_to.post.content | markdownify | xml_escape }}
+				        {% elsif post.data.reply_to.post.description %}
+				        {{ post.data.reply_to.post.description | markdownify | xml_escape }}
+				        {% endif %}
+			        &lt;/blockquote&gt;
+			        &lt;p&gt;On {{ post.date | date: '%d %B %Y' }}, John Peart shared and commented &lt;/p&gt;
+		        {% endif %}
+        
+		        {% if post.data.collection == "reply" or post.data.collection == "share" %}
+		        &lt;blockquote&gt;
+		        {% endif %}
+		        {{ post.content | xml_escape -}}
+		        {% if post.data.collection == "reply" or post.data.collection == "share" %}
+		        &lt;/blockquote&gt;
+		        {% endif %}
+        
+	        </description>
+        </item>
+        {% endfor %}
+
+	</channel>
+</rss>

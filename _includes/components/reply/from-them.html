@@ -15,10 +15,6 @@
     </aside>	
     
 	<section class="quote content">
-		{%- if reply_to.post.image -%}
-		<img loading="lazy" class="post-image" src="{{ reply_to.post.image }}">
-		{%- endif -%}
-		{% if reply_to.post.title %}<h1 class="post-title"><a href="{{ reply_to.post.url }}" class="u-url link-secondary">{{ reply_to.post.title }}</a></h1>{% endif %}
 		<blockquote cite="{{ reply_to.post.url }}"  class="text h-cite">
 			{{ reply_to.post.content | markdownify }}
 		</blockquote>

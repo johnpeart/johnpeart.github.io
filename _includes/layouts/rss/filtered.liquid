@@ -7,15 +7,15 @@
 		<title>{{ site.title | xml_escape }}{% if filter %} • {{ filter | capitalize | append: " " | remove: "post " }}posts {% else %} • All posts{% endif -%}</title>
 		<description>{{ site.description | xml_escape }}</description>
 		<image>
-			<url>{{ site.url | append: site.baseurl | append: site.social-media-image }}</url>
+			<url>{{ siteUrl | append: site.social-media-image }}</url>
 			<title>{{ site.title | xml_escape }}{% if filter %} • {{ filter | capitalize }} posts {% else %} • All posts{% endif -%}</title>
-			<link>{{ site.url | append: site.baseurl }}/</link>
+			<link>{{ siteUrl }}/</link>
 		</image>
-		<link>{{ site.url | append: site.baseurl }}/</link>
-		<atom:link href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+		<link>{{ siteUrl }}/</link>
+		<atom:link href="{{ '/feed.xml' | prepend: site.baseUrl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
 		<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ page.date | date_to_rfc822 }}</lastBuildDate>
-		<copyright>Copyright {% year %} John Peart. Please attribute and link to my work.</copyright>
+		<copyright>Copyright {{ page.date | date: "%Y" }} John Peart. Please attribute and link to my work.</copyright>
 		<generator>Eleventy</generator>
         
         {% assign posts = collections[filter] %}
@@ -54,8 +54,8 @@
         <item>
 	        <title>{{ title | xml_escape }}</title>
 	        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-	        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-	        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+	        <link>{{ post.url | prepend: site.baseUrl | prepend: site.url }}</link>
+	        <guid isPermaLink="true">{{ post.url | prepend: site.baseUrl | prepend: site.url }}</guid>
 	        {%- for category in post.data.categories %}
 	        <category>{{ category | xml_escape }}</category>
 	        {% endfor -%}

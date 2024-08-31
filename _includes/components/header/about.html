@@ -1,9 +1,0 @@
-<aside class="about">
-	{% if dates.end == "present" %}
-	<p class="secondary-title"><time datetime="{{ dates.start | date: '%Y-%m-%d' }}">{{ dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ dates.end }}</time></p>
-	{% else %}
-	<p class="secondary-title"><time datetime="{{ dates.start | date: '%Y-%m-%d' }}">{{ dates.start | date: '%B %Y' }}</time> to <time datetime="{{ dates.end | date: '%Y-%m-%d' }}">{{ dates.end | date: '%B %Y' }}</time></p>
-	{% endif %}
-	<p class="secondary-title">{{ organisation }}</p>
-</aside>
-<h1 class="post-title p-name">{{ title }}</h1>

@@ -21,13 +21,11 @@ a.music-link {
     	max-width: 400px;
 	}
     align-content: center;
+    justify-content: center;
     aspect-ratio: 806/763;
     background-image: url('/assets/images/site/nano-bg.svg');
     
     &::after {
-        position: absolute;
-        display: block;
-        
         width: 100%;
 		max-width: 300px;
 		@include desktop() {
@@ -36,15 +34,21 @@ a.music-link {
         
         aspect-ratio: 806/763;
         content: "";
-        background-image: url('/assets/images/site/nano-fore.svg');    
+        background-image: url('/assets/images/site/nano-fore.svg');
+        
+        grid-column: 1;
+        grid-row: 1;
     }
 
 }
 
 .music-artwork {
+    align-self: center;
     justify-self: center;
     max-width: 62%;
     border-radius: 2px;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 h1.music-metadata-title {

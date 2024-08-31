@@ -26,12 +26,12 @@
 
 {% endif %}
 
-	{% if collection == "reply" %}
-		{% assign title = "Reply to " | append: post.data.reply_to.author.name %}
-	{% elsif collection == "share" %}
-		{% assign title = post.data.reply_to.post.title %}
+	{% if post.data.collection == "reply" %}
+		{% assign title = "Reply to " | append: post.data.reply_to.author.name | default: "ERROR: Reply title" %}
+	{% elsif post.data.collection == "share" %}
+		{% assign title = post.data.reply_to.post.title | default: "ERROR: Share title" %}
 	{% else %}
-		{% assign title = post.data.title %}
+		{% assign title = post.data.title | default: "ERROR: Other title"%}
 	{% endif %}
 	
 	<li>

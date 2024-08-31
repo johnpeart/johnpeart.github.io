@@ -1,0 +1,58 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+    {% if env.ELEVENTY_RUN_MODE == "serve" %}
+        {% assign siteUrl = 'http://localhost:8080' %}
+    {% else %}
+        {% assign siteUrl = site.url %}
+    {% endif %}
+    
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+    	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
+        <style>
+
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+            #opengraph { 
+                display: grid;
+                
+                padding: 45px;
+                width: 1200px;
+                height: 630px;
+                
+                background: #fafafa;
+                
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                
+                align-items: center;
+                justify-items: center;
+                
+                overflow: hidden;
+            }
+        </style>
+    </head>
+
+    <body id="blogpost">
+        <div id="opengraph">
+            <article id="post-content" class="music h-entry">
+                <header class="music post-title">
+                    <div class="ipod-nano">
+	                    <img class="music-artwork" src="{{ post.data.artwork }}" loading="lazy"/>
+                    </div>
+                    <section class="music-metadata p-name">
+	                    <h1 class="music-metadata-title">{{ title }}</h1>
+	                    <p class="music-metadata-artist">{{ artist }}</p>
+                    </section>
+                </header>
+            </article>
+        </div>
+    </body>
+
+</html>
+

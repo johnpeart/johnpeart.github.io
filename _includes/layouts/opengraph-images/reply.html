@@ -1,0 +1,77 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+    {% if env.ELEVENTY_RUN_MODE == "serve" %}
+        {% assign siteUrl = 'http://localhost:8080' %}
+    {% else %}
+        {% assign siteUrl = site.url %}
+    {% endif %}
+    
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+    	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
+        <style>
+
+            html, body {
+                background: #1d1d1d;
+                margin: 0;
+                padding: 0;
+            }
+            #opengraph { 
+                display: grid;
+                
+                padding: 45px;
+                width: 1200px;
+                height: 630px;
+                
+                background: #fafafa;
+                
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                
+                align-items: center;
+                justify-items: center;
+                
+                overflow: hidden;
+            }
+            #post-content {
+                margin: 0 auto !important;
+                width: 600px;
+            }
+        </style>
+    </head>
+
+    <body id="blogpost">
+        <div id="opengraph">
+            <article id="post-content" class="reply h-entry">
+
+                <section class="speech-bubble from-them u-in-reply-to h-cite">
+                    
+	                <section class="quote content">
+		                <blockquote cite="{{ post.data.reply_to.post.url }}"  class="text h-cite">
+			                {{ post.data.reply_to.post.content | markdownify }}
+		                </blockquote>
+	                </section>
+                </section>
+    
+                {% if post.data.reply_to.post.content.size < 300 %}
+                <section class="speech-bubble from-me reply">	
+                  
+                    <section class="content e-content">
+		                <div class="text">
+			                {{ post.content }}
+		                </div>
+	                </section>
+                    
+                </section>
+                {% endif %}
+                
+            </article>
+
+        </div>
+    </body>
+
+</html>
+

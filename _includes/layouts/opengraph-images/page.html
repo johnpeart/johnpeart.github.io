@@ -1,0 +1,126 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+    {% if env.ELEVENTY_RUN_MODE == "serve" %}
+        {% assign siteUrl = 'http://localhost:8080' %}
+    {% else %}
+        {% assign siteUrl = site.url %}
+    {% endif %}
+    
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+    	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
+        <style>
+
+            html, body {
+                background: #1d1d1d;
+                margin: 0;
+                padding: 0;
+            }
+            #opengraph { 
+                display: grid;
+                
+                padding: 45px;
+                width: 1200px;
+                height: 630px;
+                
+                background: #fafafa;
+                
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr auto;
+                
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .secondary-title {
+                text-align: center;
+            }
+            h1 {
+                padding-top: 0 !important;
+                line-height: 0.6;
+                text-wrap: balance;
+                text-align: center;
+            }
+            .page-title--xxl { 
+                font-size: 160px !important;
+            }
+            .reduce-letter-spacing {
+                letter-spacing: -5%;
+            }
+            span.page-emoji {
+                text-align: center !important;
+                justify-self: center;
+                font-size: 150px;
+            }
+            .post-it { 
+                font-size: 100px;
+                width: 425px;
+                text-align: center;
+                align-self: center;
+                justify-self: center;
+            }
+            .calendar {
+                align-self: center;
+                justify-self: center;
+                text-align: left;
+            }
+        </style>
+    </head>
+    
+    {% if post.data.title == "Blogposts" %}
+        {% assign emoji = "📝" %}
+    {% elsif post.data.title == "Manuals" %}
+        {% assign emoji = "⚙️" %}
+    {% elsif post.data.title == "Photos" %}
+        {% assign emoji = "📷" %}
+    {% elsif post.data.title == "Reposts" %}
+        {% assign emoji = "🔁" %}
+    {% elsif post.data.title == "Replies" %}
+        {% assign emoji = "💬" %}
+    {% elsif post.data.title == "Ideas" %}
+        {% assign emoji = "💡" %}
+    {% elsif post.data.title == "Goals" %}
+        {% assign emoji = "🎯" %}
+    {% elsif post.data.title == "Lists" %}
+        {% assign emoji = "☑️" %}
+    {% elsif post.data.title == "Now" %}
+        {% assign emoji = "🕘" %}
+    {% elsif post.data.title == "Wishlist" %}
+        {% assign emoji = "🛒" %}
+    {% elsif post.data.title == "Music" or post.data.title == "Podcasts" %}
+        {% assign emoji = "🎧" %}
+    {% endif %}
+
+    <body >
+        <div id="opengraph">
+            {% if post.data.title == "Notes" %}
+                <h1 class="p-name post-it yellow"">Notes</h1>
+            {% elsif post.data.title == "Week notes" %}
+                <aside class="calendar">
+	                <div class="calendar-sheet">
+			                <span class="calendar-month">{{ page.date | date: "%b" | upcase }}</span>
+			                <span class="calendar-date">{{ page.date | date: "%d" }}</span>
+			                <span class="calendar-collection">Week notes</span>
+	                </div>
+                </aside>
+            {% else %}
+            <div>
+            {% if post.data.title %}
+                {% if emoji %}
+                <span class="page-emoji">{{ emoji }}</span>
+                {% endif %}
+                <h1 class="page-title p-name">{{ post.data.title }}</h1>
+                <p class="secondary-title reduce-letter-spacing">JP</p>
+            {% else %}
+                <h1 class="page-title page-title--xxl reduce-letter-spacing p-name">JP</h1>
+            {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </body>
+
+</html>
+

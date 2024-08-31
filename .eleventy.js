@@ -57,8 +57,9 @@ module.exports = function(eleventyConfig) {
         return md.render(content);
     });
 
-    // Passthrough Copy for Assets
+    // Passthrough Copies
     eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
     // Collection Names
     const collections = [
@@ -78,7 +79,7 @@ module.exports = function(eleventyConfig) {
     // Collections to include in "allPosts"
     const includedInAllPosts = [
         "blogpost", "list", "music", "note", 
-        "now", "photo", "reply", "share", "weeknote"
+        "now", "photo", "share", "weeknote"
     ];
 
     // Combined "allPosts" collection, sorted by date
@@ -87,8 +88,15 @@ module.exports = function(eleventyConfig) {
             collectionApi.getFilteredByGlob(`./src/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
-    
-    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+    eleventyConfig.addShortcode("openGraphScreenshotURL", function () {
+        const encodedURL = encodeURIComponent(
+            `https://johnpe.art/social${this.page.url}`
+        );
+        const cacheKey = `_${new Date().valueOf()}`;
+        return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
+    });
+
     
     return {
         dir: {

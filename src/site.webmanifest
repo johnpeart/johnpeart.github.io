@@ -1,0 +1,22 @@
+---
+---
+{
+  "name": "{{ site.name }}",
+  "short_name": "JP",
+  "description": "{{ site.description }}",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fafafa",
+  "theme_color": "#009FE3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/images/site/favicon-large-png.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "lang": "en-GB",
+  "dir": "ltr"
+}

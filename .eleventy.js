@@ -60,13 +60,14 @@ module.exports = function(eleventyConfig) {
     // Passthrough Copies
     eleventyConfig.addPassthroughCopy("./src/assets");
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
+    eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
 
     // Collection Names
     const collections = [
         "about", "blogpost", "goal", "idea", "list",
         "manual", "music", "note", "now", "photo",
         "podcast", "reply", "share", "weeknote", "wishlist",
-        "feed"
+        "feed", "page"
     ];
 
     // Dynamically add collections

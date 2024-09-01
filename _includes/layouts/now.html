@@ -21,6 +21,10 @@ layout: default
 		
 		<section class="post-body e-content">	
 			{{ item.content }}
+            
+            {% for posse in page.posse %}
+			<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>
+			{% endfor %}
 		</section>
 	
 	</article>

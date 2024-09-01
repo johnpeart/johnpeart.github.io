@@ -13,6 +13,10 @@ layout: default
 				{{ content }}
                 
                 {% include "components/footer/exif.html" %}
+                
+                {% for posse in page.posse %}
+				<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>
+				{% endfor %}
 			</section>
 	</article>
     

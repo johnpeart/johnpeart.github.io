@@ -4,11 +4,15 @@ layout: default
 
 <main id="content" class="container">
 
-	<section id="page-content">
+	<section id="page-content h-entry e-content">
 
 		<h1 class="page-title p-name">{{ title }}</h1>
 
 		{{ content }}
+        
+        {% for posse in page.posse %}
+		<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>
+		{% endfor %}
 
 	</section>
 

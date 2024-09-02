@@ -1,0 +1,6 @@
+{
+   "layout": "blogpost",
+   "collection": "blogpost",
+   "categories": "manual",
+   "permalink": "/manual/{{ title | slugify }}/"
+}

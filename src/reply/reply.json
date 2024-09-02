@@ -1,0 +1,6 @@
+{
+   "layout": "reply",
+   "collection": "reply",
+   "categories": "reply",
+   "permalink": "/reply/{{ page.date | date: '%s' }}/"
+}

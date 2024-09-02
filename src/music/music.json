@@ -1,0 +1,6 @@
+{
+   "layout": "blogpost",
+   "collection": "music",
+   "categories": "music",
+   "permalink": "/music/{{ page.date | date: '%s' }}/"
+}

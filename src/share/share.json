@@ -1,0 +1,6 @@
+{
+   "layout": "share",
+   "collection": "share",
+   "categories": "repost",
+   "permalink": "/share/{{ page.date | date: '%s' }}/"
+}

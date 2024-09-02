@@ -1,0 +1,6 @@
+{
+   "layout": "blogpost",
+   "collection": "now",
+   "categories": "now",
+   "permalink": "/now/{{ page.date | date: '%s' }}/"
+}

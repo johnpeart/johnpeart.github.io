@@ -1,0 +1,6 @@
+{
+   "layout": "goal",
+   "collection": "goal",
+   "categories": "goal",
+   "permalink": "/goals/{{ page.date | date: '%Y' }}/"
+}

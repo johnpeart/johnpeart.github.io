@@ -42,5 +42,9 @@
     "gravatar": {
         "url": "https://gravatar.com/johnpeart",
         "username": "johnpeart"
+    },
+    
+    "webmentions": {
+        "username": "www.johnpe.art"
     }
 }

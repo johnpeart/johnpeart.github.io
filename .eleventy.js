@@ -80,7 +80,7 @@ module.exports = function(eleventyConfig) {
     // Collections to include in "allPosts"
     const includedInAllPosts = [
         "blogpost", "list", "music", "note", 
-        "now", "photo", "share", "weeknote"
+        "photo", "share", "weeknote"
     ];
 
     // Combined "allPosts" collection, sorted by date

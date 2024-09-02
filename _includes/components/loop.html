@@ -37,7 +37,7 @@
 	<li>
 		<article>
 			<p class="loop-item-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
-			<p class="loop-item-title"><a class="emphasised-link" href="{{ post.url }}" title="Read {{ post.data.title }}">{{ title }}</a></p>
+			<p class="loop-item-title"><a class="emphasised-link" href="{{ post.url }}" title="Read {{ post.data.title }}">{{ title | strip_html }}</a></p>
 		</article>
 	</li>
 

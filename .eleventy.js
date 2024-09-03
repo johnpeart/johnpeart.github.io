@@ -100,6 +100,12 @@ module.exports = function(eleventyConfig) {
 
     
     return {
+        // Specify the templating engine for markdown files (optional, Liquid is often the default)
+        markdownTemplateEngine: "liquid",
+        // Specify the templating engine for HTML files (optional, Liquid is often the default)
+        htmlTemplateEngine: "liquid",
+        // Specify the templating engine for data files (optional)
+        dataTemplateEngine: "liquid",
         dir: {
             input: "src",
             includes: "../_includes",

@@ -11,7 +11,7 @@ layout: "page"
     <section class="collection--list">
 
 	    <header>
-		    <h2 class="collection--list--item-title">{{ type.name }}</h2>
+		    <h2 class="collection--list--group-title">{{ type.name }}</h2>
 	    </header>
 
 	    {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}

@@ -1,7 +1,7 @@
 ---
 title: "Calculating the cost of my subscriptions"
 description: "How much am I spending on subscriptions? It adds up fast when you're not watching it like a hawk."
-category:
+categories:
   - personal
   - technology
 published: true

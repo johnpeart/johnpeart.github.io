@@ -3,7 +3,7 @@ title: "Reviewing my progress against my 2023 goals"
 author: John Peart
 excerpt: "TL;DR – Success!"
 image: /posts/goals.png
-category:
+categories:
   - personal
 posse: 
 - https://mastodon.social/@johnpeart/111657979644218332

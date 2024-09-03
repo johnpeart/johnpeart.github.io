@@ -2,7 +2,7 @@
 title: Building a Twitter bot for the ‘Department of Administrative Affairs’
 author: John Peart
 excerpt: What it might look like if Sir Humphrey Appleby's department – the Department of Administrative Affairs – had access to Twitter as part of “Yes, Minister”, and how to build your own.
-category:
+categories:
   - digital
 aliases:
 - /department-of-administrative-affairs/

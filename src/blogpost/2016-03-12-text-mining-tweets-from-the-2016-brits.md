@@ -1,7 +1,7 @@
 ---
 title: "Text mining tweets from the 2016 BRIT Awards"
 excerpt: "I've analysed more than 2GB of tweets about the 2016 BRIT Awards in the name of (pseudo) science!"
-category:
+categories:
   - data
 ---
 

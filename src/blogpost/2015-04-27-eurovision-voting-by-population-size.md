@@ -4,7 +4,7 @@ excerpt: "Every country gets the same douze points when voting in the Eurovision
 aliases: 
 - /2015/4/27/eurovision-voting-by-population-size/
 - /2015/04/27/archive/eurovision-voting-by-population-size/
-category:
+categories:
 - eurovision
 - data
 ---

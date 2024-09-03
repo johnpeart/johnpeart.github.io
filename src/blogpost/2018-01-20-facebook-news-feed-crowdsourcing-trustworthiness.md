@@ -2,7 +2,7 @@
 title: "Facebook’s ridiculous plan to crowdsource news trustworthiness"
 author: John Peart
 excerpt: "Asking users to rate the trustworthiness of news sources is like asking 3 year olds to choose their own meals: they’ll pick what they like, not what’s good for them."
-category:
+categories:
   - digital
 ---
 

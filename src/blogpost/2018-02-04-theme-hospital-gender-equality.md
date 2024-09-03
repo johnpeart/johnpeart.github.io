@@ -2,7 +2,7 @@
 title: "Theme Hospital and gender equality"
 author: John Peart
 excerpt: "This game, still popular two decades after its release, has accidental lessons in gender stereotyping and the gender pay gap."
-category:
+categories:
   - diversity
   - digital
 ---

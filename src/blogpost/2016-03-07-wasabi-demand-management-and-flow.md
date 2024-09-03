@@ -1,7 +1,7 @@
 ---
 title: "You’re queuing it wrong"
 excerpt: "Lessons learnt over lunch about demand management and flow."
-category:
+categories:
   - services
 ---
 

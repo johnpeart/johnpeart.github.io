@@ -2,7 +2,7 @@
 title: "Trying out the new Citymapper Pass"
 author: John Peart
 excerpt: "A little bit cheaper than a weekly travel card, but who is this for?"
-category:
+categories:
   - digital
   - design
 aliases: 

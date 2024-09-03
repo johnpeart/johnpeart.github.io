@@ -2,7 +2,7 @@
 title: "#LGBTsurvey: why it’s important"
 author: John Peart
 excerpt: "The first part in a series of reflections on the #LGBTsurvey as one of the team who shaped it."
-category:
+categories:
   - government
   - diversity
   - LGBT

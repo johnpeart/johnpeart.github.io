@@ -2,7 +2,7 @@
 title: "The most broken junctions in Westminster"
 author: John Peart
 excerpt: "Has anyone actually considered pedestrians when they’re designing these things?"
-category:
+categories:
   - services
   - design
 ---

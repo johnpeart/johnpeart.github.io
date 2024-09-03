@@ -1,7 +1,7 @@
 ---
 title: "Surviving a week with Apple Pay"
 excerpt: "My new PIN number got lost in the post. I've spent the last week with nothing but Apple Pay."
-category:
+categories:
   - digital
 ---
 

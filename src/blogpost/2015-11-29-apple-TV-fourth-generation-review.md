@@ -1,7 +1,7 @@
 ---
 title: "Apple TV - the revolution is coming, probably"
 excerpt: "Last month, Apple released its fourth generation set-top box. This is what it's like to live with."
-category:
+categories:
   - digital
 ---
 

@@ -2,7 +2,7 @@
 published: true
 title: I lied to my hairdresser
 excerpt: “Do you have a girlfriend?”
-category:
+categories:
   - diversity
   - LGBT
 ---

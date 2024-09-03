@@ -5,7 +5,7 @@ excerpt: "This speech was delivered in my capacity as a member of NUS’ Nationa
 
 
 
-category:
+categories:
   - archive
   - education
 ---

@@ -1,7 +1,7 @@
 ---
 title: Is speciesism as bad as racism?
 excerpt: "Do animals deserve equal rights to humans? Do they have a right to life, or do we simply have a duty to not do them harm?"
-category:
+categories:
   - government
 ---
 

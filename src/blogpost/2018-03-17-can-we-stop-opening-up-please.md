@@ -2,7 +2,7 @@
 title: "“Opening up”"
 author: John Peart
 excerpt: "Fixing the most overused phrase in LGBT media."
-category:
+categories:
   - diversity
   - LGBT
   - design

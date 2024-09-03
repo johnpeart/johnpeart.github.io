@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "Preview, review and snark for every entry, in 280 characters or less."
 layout: eurovision
 image: /posts/eurovision.png
-category:
+categories:
   - eurovision
 
 eurovision-entries:

@@ -1,7 +1,7 @@
 ---
 title: "What factors explain the decision to dissolve the Financial Services Authority?"
 excerpt: "This piece explores the arguments used during two phases of regulatory reform of the financial services sector. I use content analysis of Parliamentary debates to understand the causes of these policy changes."
-category:
+categories:
   - government
   - data
 ---

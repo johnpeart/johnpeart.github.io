@@ -2,7 +2,7 @@
 title: I made a Twitterbot to tell people the obvious
 author: John Peart
 excerpt: "It's you. It's just you. No really. No one else saw that. It was just you. You're a genius. Well done."
-category:
+categories:
   - digital
 aliases:
 - /its-you-bot/

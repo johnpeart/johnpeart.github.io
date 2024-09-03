@@ -1,7 +1,7 @@
 ---
 title: "The gender revolutionaries"
 excerpt: "The Gay Liberation Front was more than just a pressure group. It was a movement. "
-category:
+categories:
   - diversity
   - LGBT
 ---

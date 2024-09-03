@@ -3,7 +3,7 @@ title: "A podcast in the making: the RSS feed and hosting"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about how I got the RSS feed to work for the podcast."
 image: /posts/dept-of-bad-ideas.png
-category:
+categories:
   - podcast
 ---
 

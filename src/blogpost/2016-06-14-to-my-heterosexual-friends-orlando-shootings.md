@@ -1,7 +1,7 @@
 ---
 title: "To my heterosexual friends: this is why Orlando hurts"
 excerpt: "Lots of you have been silent about events in Orlando this weekend. That's OK; maybe you were busy, life moves fast. But this one cuts a little deeper for your LGBT friends, like me, and you should know why."
-category:
+categories:
   - diversity
   - LGBT
 ---

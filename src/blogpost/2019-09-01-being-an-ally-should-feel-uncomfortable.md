@@ -2,7 +2,7 @@
 title: "Being an LGBT+ ally should feel uncomfortable"
 author: John Peart
 excerpt: "If you don’t feel uncomfortable, you’re doing it wrong"
-category:
+categories:
   - diversity
   - LGBT
 ---

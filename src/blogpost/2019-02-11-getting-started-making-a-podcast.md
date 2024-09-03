@@ -3,7 +3,7 @@ title: "A podcast in the making: getting started"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas. This series of posts tell you a bit about how I’m doing it, in case you want to make your own."
 image: /posts/dept-of-bad-ideas.png
-category:
+categories:
   - podcast
 ---
 

@@ -3,7 +3,7 @@ title: "Reviewing my progress against my 2021 goals"
 author: John Peart
 excerpt: "A qualified success for 2021."
 image: /posts/goals.png
-category:
+categories:
   - personal
 ---
 

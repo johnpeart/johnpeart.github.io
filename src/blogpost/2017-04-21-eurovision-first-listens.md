@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "Here we are again. First impressions of every track, in the order they'll appear, in less than a tweet each."
 layout: eurovision
 image: /posts/eurovision.png
-category:
+categories:
   - eurovision
 
 eurovision-entries:

@@ -2,7 +2,7 @@
 title: "Apple’s peculiar typographic choices"
 author: John Peart
 excerpt: "You will not be able to un-see this once you have noticed it."
-category:
+categories:
   - digital
   - design
 ---

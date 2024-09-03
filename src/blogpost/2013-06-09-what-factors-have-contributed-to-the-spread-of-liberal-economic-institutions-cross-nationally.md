@@ -1,7 +1,7 @@
 ---
 title: "What factors have contributed to the spread of ‘liberal economic institutions’ cross-nationally?"
 excerpt: "This piece looks at the factors driving the spread of neo-liberal institutions around the world, assessing several conflicting opinions from the literature."
-category:
+categories:
   - government
 ---
 

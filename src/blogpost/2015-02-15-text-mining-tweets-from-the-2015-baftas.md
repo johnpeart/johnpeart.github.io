@@ -1,7 +1,7 @@
 ---
 title: "Text mining tweets from the 2015 BAFTAs"
 excerpt: "I decided to do some content analysis of the 2015 BAFTA awards using live streaming data from Twitter. If you like graphs, you'll love this."
-category:
+categories:
   - data
 ---
 It&#8217;s been just over a week since London&#8217;s Royal Opera House rolled out the red carpet for the world&#8217;s finest silver screen stars, directors, writers, and film making entourages at the British Academy Film (and Television) Awards; AKA, the BAFTAs.

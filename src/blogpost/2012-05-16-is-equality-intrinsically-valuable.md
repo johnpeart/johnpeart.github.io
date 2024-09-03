@@ -2,7 +2,7 @@
 title: Is equality intrinsically valuable?
 author: John Peart
 excerpt: "This piece will assess the worth of equality by looking at instrumental and non-instrumental versions of egalitarianism."
-category:
+categories:
   - government
 ---
 

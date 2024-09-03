@@ -2,7 +2,7 @@
 title: "Things that went right in 2023"
 author: John Peart
 excerpt: "This year has been pretty alright, actually!"
-category:
+categories:
   - personal
 posse:
 - https://mastodon.social/@johnpeart/111657977230147407

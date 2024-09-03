@@ -1,7 +1,7 @@
 ---
 title: "What happened when my blog post went viral"
 excerpt: "I recently wrote a blog post - a letter to my heterosexual friends about Orlando - that went unintentionally viral. Here's the story behind that post."
-category:
+categories:
   - data
 ---
 

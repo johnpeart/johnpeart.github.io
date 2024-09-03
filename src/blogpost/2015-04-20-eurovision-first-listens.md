@@ -4,7 +4,7 @@ excerpt: "Save yourself the 120 minutes it takes to listen to all 40 of this yea
 layout: eurovision
 image: /posts/eurovision.png
 permalink: /2015/04/20/eurovision-first-listens
-category:
+categories:
   - eurovision
 
 eurovision-entries:

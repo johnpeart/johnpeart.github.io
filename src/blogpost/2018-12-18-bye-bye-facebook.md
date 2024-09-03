@@ -2,7 +2,7 @@
 title: "Goodbye Facebook"
 author: John Peart
 excerpt: "I'm going cold turkey on Facebook for 2019."
-category:
+categories:
   - digital
   - personal
 ---

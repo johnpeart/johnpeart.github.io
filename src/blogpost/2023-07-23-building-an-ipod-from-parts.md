@@ -3,7 +3,7 @@ title: "A parts bin iPod Classic"
 author: "John Peart"
 excerpt: "You can't buy them brand new anymore; but is it possible to build an iPod Classic from the parts bin?"
 image: /posts/2023/07/23/building-an-ipod-from-parts/social-media.png
-category:
+categories:
   - making
 ---
 

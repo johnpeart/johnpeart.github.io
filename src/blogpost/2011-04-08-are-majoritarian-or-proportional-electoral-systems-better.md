@@ -1,7 +1,7 @@
 ---
 title: Are majoritarian or proportional electoral systems better?
 excerpt: "This essay will assess the consequences of different types of electoral system in relation to the formation of different structures of parliament."
-category:
+categories:
   - government
 ---
 

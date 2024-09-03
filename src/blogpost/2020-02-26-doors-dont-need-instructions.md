@@ -2,7 +2,7 @@
 title: "Doors should not need instructions"
 author: John Peart
 excerpt: "And if they do need instructions, they shouldn’t have handles on both sides."
-category:
+categories:
   - design
 ---
 

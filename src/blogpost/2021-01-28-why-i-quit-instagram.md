@@ -2,7 +2,7 @@
 title: "Why I quit Instagram"
 author: John Peart
 excerpt: "If I'd wanted a running commentary on every news item, screenshots of tweets, and ranting political posts, I'd have kept my Facebook account."
-category:
+categories:
   - personal
   - digital
 ---

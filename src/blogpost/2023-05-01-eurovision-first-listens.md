@@ -14,7 +14,7 @@ composite:
     image: "/assets/images/posts/2023/05/01/eurovision-united-by-music.svg"
     alt: "A series of overlapping hearts in different colours"
     fit: "cover"
-category:
+categories:
 - eurovision
 
 eurovision-entries:

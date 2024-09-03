@@ -1,7 +1,7 @@
 ---
 title: "Your privacy is not the enemy"
 excerpt: "Security agencies are pre-disposed to ignore our privacy. They’re using any tools and any data they can to create a culture of mistrust and fear. And ultimately, for what?"
-category:
+categories:
   - digital
 ---
 

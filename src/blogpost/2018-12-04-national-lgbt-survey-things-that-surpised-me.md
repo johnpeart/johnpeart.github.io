@@ -2,7 +2,7 @@
 title: "#LGBTsurvey: things that surprised me"
 author: John Peart
 excerpt: "My second post in a series of reflections on the #LGBTsurvey, as one of the team who shaped it."
-category:
+categories:
   - government
   - diversity
   - LGBT

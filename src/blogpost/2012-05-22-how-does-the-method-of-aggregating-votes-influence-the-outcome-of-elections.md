@@ -1,7 +1,7 @@
 ---
 title: How does the method of aggregating votes influence the outcome of elections?
 excerpt: "This paper demonstrates the influence that different methods of aggregating votes can have on elections"
-category:
+categories:
   - government
 ---
 

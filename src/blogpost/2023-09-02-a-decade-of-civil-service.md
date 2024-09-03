@@ -3,7 +3,7 @@ title: "A decade of public service"
 author: "John Peart"
 excerpt: "This week marked the end of my 10th year working in the UK Civil Service."
 image: /posts/2023/09/02/a-decade-of-civil-service/social-media.jpg
-category:
+categories:
   - work
 ---
 

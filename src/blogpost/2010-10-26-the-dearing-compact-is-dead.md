@@ -4,7 +4,7 @@ title: The Dearing Compact is dead
 excerpt: "You can’t expect students to pay more for the same, or worse, more for less. That’s not how the market works, and it would have Lord Dearing spinning in his grave."
 
 
-category:
+categories:
   - archive
   - education
 ---

@@ -5,7 +5,7 @@ excerpt: "“It is the job of reviews to make recommendations and the job of Gov
 
 
 
-category:
+categories:
   - archive
   - education
 ---

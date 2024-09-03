@@ -2,7 +2,7 @@
 title: "Reviewing my progress against my 2019 goals"
 author: John Peart
 excerpt: "Better luck next time."
-category:
+categories:
   - personal
 ---
 

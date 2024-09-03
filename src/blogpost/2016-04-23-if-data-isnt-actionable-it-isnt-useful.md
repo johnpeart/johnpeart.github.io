@@ -1,7 +1,7 @@
 ---
 title: "If data isn’t actionable, it’s not useful"
 excerpt: "Data should empower our decision making; so why is it so often useless?"
-category:
+categories:
   - data
 ---
 

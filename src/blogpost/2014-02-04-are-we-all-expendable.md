@@ -1,7 +1,7 @@
 ---
 title: Are we all expendable?
 excerpt: "It’s a simple fact that TfL no longer needs people to perform many of the basic services that customers on the tube network now require."
-category:
+categories:
   - digital
 ---
 If there’s one thing you can count on, it’s that technology keeps on changing. Moore’s Law dictates that every 18 months it either becomes half as cheap, or twice as powerful; hence, it’s significantly more available and useful. 

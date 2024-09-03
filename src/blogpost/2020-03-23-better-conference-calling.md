@@ -2,7 +2,7 @@
 title: How to hold better video and telephone conference calls
 author: John Peart
 excerpt: Having a conference call isn’t harder than a face-to-face meeting, it’s just different. Here are some tips to doing it better.
-category:
+categories:
   - work
   - digital
 ---

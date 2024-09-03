@@ -4,7 +4,7 @@ author: John Peart
 excerpt: "Thoughts on the entries for the 2018 Eurovision Song Contest in 280 characters or less."
 layout: eurovision
 image: /posts/eurovision.png
-category:
+categories:
   - eurovision
 
 eurovision-entries:

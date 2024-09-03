@@ -2,7 +2,7 @@
 title: "Creating a scoreboard for my Eurovision house party"
 author: John Peart
 excerpt: "I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it."
-category:
+categories:
   - digital
   - eurovision
 ---

@@ -2,7 +2,7 @@
 title: "Setting goals I might stick to for 2018"
 author: John Peart
 excerpt: "I'm trying a new way of setting my New Year's resolutions, in a probably hopeless attempt to actually stick to them."
-category:
+categories:
   - personal
 ---
 

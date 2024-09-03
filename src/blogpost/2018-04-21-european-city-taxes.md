@@ -2,7 +2,7 @@
 title: "On European city taxes and tourism"
 author: John Peart
 excerpt: "I’ve been travelling around Europe on holiday. This is some thinking about city taxes and opportunities."
-category:
+categories:
   - services
   - government
 ---

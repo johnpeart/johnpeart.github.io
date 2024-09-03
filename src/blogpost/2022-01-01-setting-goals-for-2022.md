@@ -3,7 +3,7 @@ title: "Setting some goals for 2022"
 author: John Peart
 excerpt: "Resolutions for a new year."
 image: /posts/goals.png
-category:
+categories:
   - personal
 ---
 

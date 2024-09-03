@@ -2,7 +2,7 @@
 title: "What do you call a collective of lesbian, gay, bi and trans people?"
 author: John Peart
 excerpt: "Is it LGBT? LGBTQ? LGBTI? LGBTQIA2S? What about queer? Maybe big data holds the answer."
-category:
+categories:
   - diversity
   - LGBT
   - data

@@ -14,8 +14,6 @@ composite:
     image: "/assets/images/posts/2024/04/16/eurovision-northern-lights.gif"
     alt: "A burst of bright colours symbolising the Northern Lights"
     fit: "fill"
-redirect_from:
-- /eurovision
 category:
 - eurovision
 

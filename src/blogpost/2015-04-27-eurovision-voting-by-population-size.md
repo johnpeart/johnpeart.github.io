@@ -1,12 +1,12 @@
 ---
 title: "Who would win Eurovision if population size mattered?"
 excerpt: "Every country gets the same douze points when voting in the Eurovision Song Contest. But what if they didn't?"
-redirect_from: 
+aliases: 
 - /2015/4/27/eurovision-voting-by-population-size/
 - /2015/04/27/archive/eurovision-voting-by-population-size/
 category:
-  - eurovision
-  - data
+- eurovision
+- data
 ---
 
 The Eurovision Song Contest's voting system is run much like the American Senate; every state gets an equal share of the vote. In America, Wyoming, with its minuscule population, has two senators, whilst California, vast in population size, also has just two senators representating it. In Eurovision, it doesn't matter if you have a population of tens-of-thousands - like *San Marino* - or of hundreds-of-millions - like *Russia* - you get the same say over the winner by awarding the same, unweighted set of 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 points. 

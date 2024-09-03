@@ -5,7 +5,7 @@ author: "John Peart"
 excerpt: "At least 67 MPs were elected in the July 2024 General Election, based on publicly available data."
 categories:
 - LGBT
-redirect_from:
+aliases:
 -  /2024/07/12/66-mps-elected-to-uk-parliament/
 ---
 

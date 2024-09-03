@@ -4,8 +4,6 @@ author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less."
 layout: eurovision
 image: /posts/eurovision.png
-redirect_from:
-- /eurovision
 category:
   - eurovision
 

@@ -5,7 +5,8 @@ excerpt: "A little bit cheaper than a weekly travel card, but who is this for?"
 category:
   - digital
   - design
-redirect_from: /2019/07/14/trying-out-Citymapper-pass
+aliases: 
+- /2019/07/14/trying-out-Citymapper-pass
 ---
 
 Citymapper is a company that started as an app that helped you get from A-to-B around some of the world’s best cities. Now, it wants to not just tell you how to get to places, but to also be the middleman that handles the charging for your journeys too: hence their newest product, Citymapper Pass.

@@ -2,9 +2,9 @@
 layout: loop
 title: "Replies"
 collection: reply
-permalink: "/reply/"
+permalink: "/replies/"
 aliases:
-- /replies/
+- /reply/
 ---
 
 Things I've replied to on the internet.

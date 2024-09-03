@@ -1,8 +1,8 @@
 .e-content blockquote {
-    
+   
 	position: relative;
 	
-	padding: 0 0 0 $container-padding * 2;
+	padding: $container-padding * 2;
 	margin: 0 auto $container-padding * 2;
 	left: auto;
 	right: auto;
@@ -14,16 +14,7 @@
     word-wrap: break-word;
     word-break: break-word;
     
-    &::before {
-        content: ">";
-        @include typography($p, "default");
-        position: absolute;
-        display: block;
-        left: 0;
-        top: -2px;
-        font-weight: bold;
-        color: var(--cyan);
-    }
+    @include plastic(inset, 5px);
     
     p {
         &:first-child {
@@ -74,41 +65,15 @@ blockquote.quote {
 }
 
 blockquote.twitter-tweet {
-	
-	&:before,
-    &:after {
-        content: "";
-        position: absolute;
-    }
-	
-	&:before {
-		z-index: 2;
-        bottom: -2px;
-        left: -7px;
-        height: 15px;
-        border-left: 20px solid var(--speechBubble-fromThemBackground);
-        border-bottom-right-radius: 16px 14px;
-        -webkit-transform: translate(0, -2px);
-	}
-
-    &:after {
-        -webkit-transform: translate(-30px, -2px);
-        background:var(--background);
-        width: 10px;
-        height: 20px;
-        z-index: 3;
-        bottom: -2px;
-        left: 20px;
-        border-bottom-right-radius: 10px;
-    }
     
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding: $container-padding;
     
     img {
         width: 100%;
-        margin: 0 0 $container-padding * 0.5;
+        margin: 0;
 	    border-radius: $border-radius;
         border: 1px solid var(--glass-border);
         box-shadow: shadow(2);  

@@ -1,5 +1,5 @@
 ---
-date: 2024-04-12 08:00:00
+date: 2024-04-12T08:00:00+00:00
 title: "Eurovision Song Contest Malmö 2024"
 artist: "Various Artists"
 artwork: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/6d/e7/e76de7ea-d600-dcf7-d23d-f535b934bdb7/24UMGIM31493.rgb.jpg/592x592bb.webp"

@@ -6,6 +6,11 @@
     <body id="{{ layout | remove: 'layouts/' | remove: '.html' }}">
 
         {{ content }}
+        
+        {% if env.ELEVENTY_RUN_MODE != "serve" %}
+            <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9adc608aa8014dc193d6218fb77b53f1"}'></script><!-- End Cloudflare Web Analytics -->
+        {% endif %}
+        
         		
     </body>
 

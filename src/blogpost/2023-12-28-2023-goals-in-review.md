@@ -9,7 +9,7 @@ posse:
 - https://mastodon.social/@johnpeart/111657979644218332
 ---
 
-This is the sixth year I've been setting and publicly tracking a set of [goals for the year ahead](https://www.johnpe.art/goals/). 
+This is the sixth year I've been setting and publicly tracking a set of [goals for the year ahead](/goals/). 
 
 Like previous in years, I've set a few different ones; each that were specific, measurable and time-bound. ‘Success’ is defined as achieving 80% or more of the goal. This year there were five:
 

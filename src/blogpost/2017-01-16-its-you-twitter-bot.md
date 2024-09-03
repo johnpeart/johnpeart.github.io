@@ -13,11 +13,12 @@ A Twitterbot (sometimes 'Twitter Bot', or simply 'Bot') is a bit of code that au
 
 A good friend recently came up with a cracking idea for a Twitter Bot:
 
-{:.twitter-tweet}
-> **[Jim Dickinson (@jim_dickinson)](//twitter.com/jim_dickinson)** \
-> [January 13, 2017](https://twitter.com/jim_dickinson/status/819973617043828736)
-> 
-> I want a bot that will reply “it’s you” whenever someone tweets “is it me or”
+<blockquote class="twitter-tweet">
+  <p><strong><a href="//twitter.com/jim_dickinson">Jim Dickinson (@jim_dickinson)</a></strong> <br>
+  <a href="https://twitter.com/jim_dickinson/status/819973617043828736">January 13, 2017</a></p>
+
+  <p>I want a bot that will reply “it’s you” whenever someone tweets “is it me or”</p>
+</blockquote>
 
 And another good friend reckoned I could make that very Twitterbot. He was wrong - for a total of approximately 3 days.
 

@@ -28,7 +28,7 @@ I am also, regrettably, only human, and so I have considered optimism bias. I wi
 
 I’m sharing my goals publicly, because making things open makes things better[^2]. By publishing my goals, I make myself accountable. Hopefully someone - probably my mum - will hold me to account for doing what I said I would and make me stick to my resolutions. 
 
-I’ve built [a little dashboard](https://www.johnpe.art/goals/) that I’m going to update near the end of each month to say how I’m doing against my goals. 
+I’ve built [a little dashboard](/goals/) that I’m going to update near the end of each month to say how I’m doing against my goals. 
 
 ## Will it work?
 

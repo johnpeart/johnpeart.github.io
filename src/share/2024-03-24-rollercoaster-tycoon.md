@@ -22,4 +22,4 @@ I have spent probably *too* many hours playing this game. I enjoyed it so much I
 
 I had no idea of its wider impact.  It’s inspired people to get into rollercoaster design as a profession and diversified the industry a bit in the process.
 
-I wonder if my [other favourite game of the 90s](https://www.johnpe.art/2018/02/04/theme-hospital-gender-equality/) had a similar impact.
+I wonder if my [other favourite game of the 90s](/2018/02/04/theme-hospital-gender-equality/) had a similar impact.

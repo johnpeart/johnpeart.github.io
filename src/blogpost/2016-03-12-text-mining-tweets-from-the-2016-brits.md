@@ -5,7 +5,7 @@ categories:
   - data
 ---
 
-You might remember that last year I [analysed around 75,000 tweets from the BAFTAs](http://jrpeart.com/2015/02/15/text-mining-tweets-from-the-2015-baftas/) using the statistics package, ['R'](https://www.r-project.org). Last month saw the 36th BRIT Awards take place at The O2 arena in London, and so I fired up Twitter again to dive into the data and produce some graphs (because I'm that fun).
+You might remember that last year I [analysed around 75,000 tweets from the BAFTAs](/2015/02/15/text-mining-tweets-from-the-2015-baftas/) using the statistics package, ['R'](https://www.r-project.org). Last month saw the 36th BRIT Awards take place at The O2 arena in London, and so I fired up Twitter again to dive into the data and produce some graphs (because I'm that fun).
 
 This time, there were more than 371,149 tweets over approximately 2 &frac12; hours. Including the metadata, it's a 2GB file. Here's what those tweets contain.
 

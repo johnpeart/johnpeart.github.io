@@ -8,7 +8,7 @@ aliases:
 - /department-of-administrative-affairs/
 ---
 
-A couple of years ago, I started making bots on Twitter for fun. My first bot was [@IsItMeBot](https://twitter.com/IsItMeBot), and I documented [how I made it](https://www.johnpe.art/2017/01/16/its-you-twitter-bot) back in January 2017.[^suspended] In this post, I'll share how I made my *second* bot: [@DeptOfAdmin](https://twitter.com/DeptOfAdmin).
+A couple of years ago, I started making bots on Twitter for fun. My first bot was [@IsItMeBot](https://twitter.com/IsItMeBot), and I documented [how I made it](/2017/01/16/its-you-twitter-bot) back in January 2017.[^suspended] In this post, I'll share how I made my *second* bot: [@DeptOfAdmin](https://twitter.com/DeptOfAdmin).
 
 [^suspended]: Twitter has now suspended @IsItMeBot, after around 2 years of it running amok on the platform and snapping back at random people with “it’s you”. Whilst it no longer exists, you can find it’s remnants scattered across Twitter with [a quick search](https://twitter.com/search?q=%40isitmebot&src=typed_query&f=live). Needless to say, some people found it hilarious, some found it offensive, and others couldn’t figure out it was a bot at all and thought someone had specifically been tweeting at them.
 
@@ -24,13 +24,14 @@ Having tinkered around with the [HTML canvas](https://developer.mozilla.org/en-U
 
 Now, roughly once an hour, the Department of Administrative Affairs tweets something that looks like this:
 
-{:.twitter-tweet}
-> **[Department of Administrative Affairs (@DeptOfAdmin)](//twitter.com/DeptOfAdmin)** \
-> [March 29, 2020](https://twitter.com/DeptOfAdmin/status/1244089645610172416)
-> 
-> We invest in nuclear bunkers as a department. Administration won’t stop just because the country’s been destroyed! Annihilation will be bad enough without anarchy to make things even worse!
-> 
-> ![](https://pbs.twimg.com/media/EUPk8DhXYAYMR7z?format=png&name=medium)
+<blockquote class="twitter-tweet">
+  <p><strong><a href="//twitter.com/DeptOfAdmin">Department of Administrative Affairs (@DeptOfAdmin)</a></strong> <br>
+<a href="https://twitter.com/DeptOfAdmin/status/1244089645610172416">March 29, 2020</a></p>
+
+  <p>We invest in nuclear bunkers as a department. Administration won’t stop just because the country’s been destroyed! Annihilation will be bad enough without anarchy to make things even worse!</p>
+
+  <p><img src="https://pbs.twimg.com/media/EUPk8DhXYAYMR7z?format=png&amp;name=medium" alt=""></p>
+</blockquote>
 
 It takes a random quote from a pre-defined list, generates an image dynamically based on that quote, and then tweets the image and the quote as part of the tweet too.
 

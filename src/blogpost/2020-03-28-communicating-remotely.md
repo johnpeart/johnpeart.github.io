@@ -11,11 +11,12 @@ Many of us are adapting to working exclusively from our homes at the moment. Tha
 
 Earlier this week, [I published some things I do to help telephone and video conference calls go a bit more smoothly](/2020/03/23/better-conference-calling), now that all our meetings are online. Then I stumbled upon this tweet from [@DuncanWeldon](//twitter.com/duncanweldon/status/1242490196479954944):
 
-{:.twitter-tweet}
-> **[Duncan Weldon (@DuncanWeldon)](//twitter.com/DuncanWeldon)**\
-> [March 24, 2020](//twitter.com/DuncanWeldon/status/1242490196479954944)
->
-> I’m now communicating by phone calls, Zoom, Skype, Slack, WhatsApp and email and I am worried my head might explode.
+<blockquote class="twitter-tweet">
+  <p><strong><a href="//twitter.com/DuncanWeldon">Duncan Weldon (@DuncanWeldon)</a></strong><br>
+  <a href="//twitter.com/DuncanWeldon/status/1242490196479954944">March 24, 2020</a></p>
+
+  <p>I’m now communicating by phone calls, Zoom, Skype, Slack, WhatsApp and email and I am worried my head might explode.</p>
+</blockquote>
 
 Whilst I’d [tweeted something pithy](https://twitter.com/johnpeart/status/1242572507548397570?ref_src=twsrc%5Etfw) in reply, I thought a longer blog post might be helpful too. 
 

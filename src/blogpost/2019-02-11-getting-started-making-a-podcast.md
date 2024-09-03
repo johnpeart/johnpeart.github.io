@@ -7,7 +7,7 @@ categories:
   - podcast
 ---
 
-If you haven’t heard, [I’m making a podcast](https://www.johnpe.art/2019/01/27/department-of-bad-ideas) called [**the Department of Bad Ideas**](//badideas.podcast.johnpe.art). I’ve never made a podcast before though, so I’m learning the ropes from scratch.
+If you haven’t heard, [I’m making a podcast](/2019/01/27/department-of-bad-ideas) called [**the Department of Bad Ideas**](//badideas.podcast.johnpe.art). I’ve never made a podcast before though, so I’m learning the ropes from scratch.
 
 I’ve been wanting to create a podcast for ages; one of the things holding me back was an idea, but that’s not a problem now. The *other* thing was actually making it and getting it on to the internet: which took a while to get my head around. I figure I can’t be the only one that’s ever struggled with the logistics, so I’m going to blog about how I’m putting this show on the road; maybe it’ll come in handy for someone else.
 

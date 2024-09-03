@@ -7,7 +7,7 @@ categories:
   - personal
 ---
 
-Since 2018, I've been setting myself [goals for the year ahead](https://www.johnpe.art/goals/) and tracking them publicly. I did the same this year.
+Since 2018, I've been setting myself [goals for the year ahead](/goals/) and tracking them publicly. I did the same this year.
 
 I started the year feeling miserable for myself, having caught Covid over Christmas 2021. Honestly, I felt like I was dying, so when it came to setting some goals I tried to keep things simple. I set out to:
 

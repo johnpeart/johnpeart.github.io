@@ -10,7 +10,7 @@ posse:
 - https://news.indieweb.org/en
 ---
 
-A while ago, I [added support for Webmentions to this site](https://www.johnpe.art/2023/10/31/making-webmentions-look-more-conversational/).
+A while ago, I [added support for Webmentions to this site](/2023/10/31/making-webmentions-look-more-conversational/).
 
 Connecting the [Webmention.io](//webmention.io) service up to [Brid.gy](//brid.gy) means that I have been able to backfeed social media posts from Mastodon and Bluesky on to my blogpost pages.
 

@@ -15,7 +15,8 @@
       
       {% for mention in webmentions %}
         {% if mention.wm-target == current_url %}
-        {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" %}
+        {% assign contentLength = mention.content.text | number_of_words %}
+        {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" and contentLength > 0 %}
         <article id="webmention-{{ mention.wm-id }}" class="speech-bubble {% if mention.author.name == 'John Peart' %}from-me{% else %}from-them{% endif %} p-comment webmention--{{ mention.wm-property }}">
             <aside class="author">
                 On <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>,
@@ -49,7 +50,6 @@
             </aside>
             <section class="content h-cite p-content">
                 <div class="text">
-                    {% assign contentLength = mention.content.text | number_of_words %}
                     {% if contentLength > 100 %}
                         {{ mention.content.text | strip_html | markdownify | replace: current_url, "QUOTE" | truncatewords: 50, "…" }}
                         {% if mention.wm-source -%}<p><a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow" title="Go to {% if mention.author.name != '' %}{{ mention.author.name }}'s{% else %}the{% endif %} original post to read the full content">Read more</a></p>{%- endif %}
@@ -69,25 +69,21 @@
             Someone
             {% endif %} 
             
-            {% if mention.wm-source %}
-            <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">
-            {% endif -%}
-            
-            {% if mention.wm-property == "repost-of" %}
+            {% if mention.wm-source %}<a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}
+            {% if mention.wm-property == "repost-of" -%}
             shared
-            {% elsif mention.wm-property == "like-of" %}
+            {% elsif mention.wm-property == "mention-of" -%}
+            mentioned
+            {% elsif mention.wm-property == "in-reply-to" -%}
+            replied to
+            {% elsif mention.wm-property == "like-of" -%}
             liked
-            {% elsif mention.wm-property == "bookmark-of" %}
+            {% elsif mention.wm-property == "bookmark-of" -%}
             bookmarked
-            {% else %}
+            {% else -%}
             interacted with
-            {% endif %}
-            
-            this post
-            
-            {% if mention.wm-source %}
-            </a>
             {% endif -%}
+            this post{%- if mention.wm-source -%}</a>{%- endif %}
             
             on <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>
         </article>

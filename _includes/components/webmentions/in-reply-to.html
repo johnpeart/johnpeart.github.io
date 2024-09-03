@@ -3,6 +3,7 @@
     <aside class="interactions replies">
       
       {% for mention in webmentions %}
+        {% assign contentLength = mention.content.text | number_of_words %}
         {% if mention.wm-target == current_url %}
         {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" %}
         <article id="webmention-{{ mention.wm-id }}" class="speech-bubble {% if mention.author.name == 'John Peart' %}from-me{% else %}from-them{% endif %} p-comment webmention--{{ mention.wm-property }}">
@@ -19,9 +20,7 @@
                     {% endif %}
                 {% endif %}
                 
-                {% if mention.wm-source %}
-                    <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">
-                {% endif -%}
+                {% if mention.wm-source -%}<a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{%- endif -%}
                 
                 {%- if mention.wm-property == "in-reply-to" -%}
                     replied
@@ -31,14 +30,11 @@
                     wrote
                 {%- endif -%}
                 
-                {% if mention.wm-source %}
-                    </a>
-                {% endif -%}
+                {% if mention.wm-source %}</a>{% endif -%}
                 
             </aside>
             <section class="content h-cite p-content">
                 <div class="text">
-                    {% assign contentLength = mention.content.text | number_of_words %}
                     {% if contentLength > 100 %}
                         {{ mention.content.text | strip_html | markdownify | replace: current_url, "QUOTE" | truncatewords: 50, "…" }}
                         {% if mention.wm-source -%}<p><a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow" title="Go to {% if mention.author.name != '' %}{{ mention.author.name }}'s{% else %}the{% endif %} original post to read the full content">Read more</a></p>{%- endif %}

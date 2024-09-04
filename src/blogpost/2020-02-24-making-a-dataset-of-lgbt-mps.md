@@ -5,7 +5,7 @@ excerpt: "Make things open. It makes them better."
 categories:
   - digital
   - government
-  - lgbt
+  - LGBT
 ---
 
 How many Members of Parliament were lesbian, gay, bisexual or transgender at the time of the 2017 General Election? A niche question, for sure, but until a few weeks before that election there was no easy answer. 

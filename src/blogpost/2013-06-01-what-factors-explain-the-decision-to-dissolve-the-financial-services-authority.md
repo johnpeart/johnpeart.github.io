@@ -32,47 +32,125 @@ In this instance, the Conservative and Liberal Democrat parties should seek to d
 
 ## Methodology
 
-| Transcript                                                            | Date         |
-|-----------------------------------------------------------------------|--------------|
-| Oral Answers to Questions, Treasury (Financial Services (Regulation)) | Nov 30, 2009 |
-| Financial Services Act 2010 — Second Reading                          | Nov 30, 2009 |
-| Financial Services Act 2010 — Third Reading                           | Jan 25, 2010 |
-| Urgent Question: Alistair Darling MP (Financial Services Regulation)  | Jun 16, 2010 |
-| Statement: Mark Hoban MP (Banking Reform)                             | Jun 17, 2010 |
-| Financial Services Act 2012 — Second Reading                          | Feb 6, 2012  |
-| Financial Services Act 2012 — Third Reading                           | May 22, 2012 |
-
-***TABLE 1:** Data sources – transcripts used in Alceste*
+<table>
+    <caption><em><strong>TABLE 1:</strong> Data sources – transcripts used in Alceste</em>em></caption>
+    <thead>
+        <tr>
+            <th>Transcript</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Oral Answers to Questions, Treasury (Financial Services (Regulation))</td>
+            <td>Nov 30, 2009</td>
+        </tr>
+        <tr>
+            <td>Financial Services Act 2010 — Second Reading</td>
+            <td>Nov 30, 2009</td>
+        </tr>
+        <tr>
+            <td>Financial Services Act 2010 — Third Reading</td>
+            <td>Jan 25, 2010</td>
+        </tr>
+        <tr>
+            <td>Urgent Question: Alistair Darling MP (Financial Services Regulation)</td>
+            <td>Jun 16, 2010</td>
+        </tr>
+        <tr>
+            <td>Statement: Mark Hoban MP (Banking Reform)</td>
+            <td>Jun 17, 2010</td>
+        </tr>
+        <tr>
+            <td>Financial Services Act 2012 — Second Reading</td>
+            <td>Feb 6, 2012</td>
+        </tr>
+        <tr>
+            <td>Financial Services Act 2012 — Third Reading</td>
+            <td>May 22, 2012</td>
+        </tr>
+    </tbody>
+</table>
 
 I employ automated content analysis, using the Alceste software package, to analyse two sets of transcripts from the UK House of Commons, one prior to the 2010 Act, and another prior to the 2012 Act (Table 1). Speeches are likely to be most representative of actors’ motivations, and provide sufficiently reliable data for analysis. Comparing each set of debates allows us to assess motivations over time and test the hypothesis, which, if accurate, should show rhetoric as a prominent feature throughout the debates.
 
 The exact way that Alceste completes the analysis has been extensively detailed (cf. Bailey & Schonhardt-Bailey, 2008; 2010; Schonhardt-Bailey, 2005, 2008, 2010, 2012; Schonhardt-Bailey et al., 2012) but it can be considered a complete methodology due to the combination of “sophisticated statistical methods” to produce its results (Kronberger & Wagner, 2000:306). Simplistically, the software finds co-occurrences of language from a set of sampling units (‘Initial Contextual Units’ or ICUs; represented here by each change in speaker), based on sentence structure and word use (‘Elementary Contextual Units’ or ‘ECUs’), such that each topic (‘lexical class’) is as statistically unique as possible (ibid). Each ECU and word form, (and any passive variable assigned by the researcher) is assigned a Chi2 value, representing significance (Table 2). Higher value ECUs and word forms are most representative of their classes, and can be considered important in the context of the whole corpus. This is Alceste’s main methodological contribution — it can show which parts of the debate are most significant, and thus which parts are likely to be most influential and representative of actors’ motivations.
 
-| Significance        | Chi2 value      |
-|---------------------|-----------------|
-| Not significant     | less than 2.71  |
-| 10%                 | less than 3.84  |
-| 5% (*)              | less than 6.63  |
-| 1% (**)             | less than 10.80 |
-| <1% (***)           | more than 10.80 |
-
-***TABLE 2:** Chi2 significance tables*
+<table>
+    <caption><em><strong>TABLE 2:</strong> Chi2 significance tables</em></caption>
+    <thead>
+        <tr>
+            <th>Significance</th>
+            <th>Chi2 value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Not significant</td>
+            <td>less than 2.71</td>
+        </tr>
+        <tr>
+            <td>10%</td>
+            <td>less than 3.84</td>
+        </tr>
+        <tr>
+            <td>5% (*)</td>
+            <td>less than 6.63</td>
+        </tr>
+        <tr>
+            <td>1% (**)</td>
+            <td>less than 10.80</td>
+        </tr>
+        <tr>
+            <td>&lt;1% (***)</td>
+            <td>more than 10.80</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Findings
 
-|                       | 2010 Act     | 2012 Act       |
-|-----------------------|--------------|----------------|
-| Word count            | 42,402       | 66,949         |
-| Unique words analysed | 1,873        | 5,104          |
-| ICUs                  | 115          | 282            |
-| Classified ECUs       | 889 (81.68%) | 1,132 (65.13%) |
-| Lexical classes       | 4            | 3              |
+<table>
+    <caption><em><strong>TABLE 3:</strong> Basic results</em></caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th>2010 Act</th>
+            <th>2012 Act</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Word count</td>
+            <td>42,402</td>
+            <td>66,949</td>
+        </tr>
+        <tr>
+            <td>Unique words analysed</td>
+            <td>1,873</td>
+            <td>5,104</td>
+        </tr>
+        <tr>
+            <td>ICUs</td>
+            <td>115</td>
+            <td>282</td>
+        </tr>
+        <tr>
+            <td>Classified ECUs</td>
+            <td>889 (81.68%)</td>
+            <td>1,132 (65.13%)</td>
+        </tr>
+        <tr>
+            <td>Lexical classes</td>
+            <td>4</td>
+            <td>3</td>
+        </tr>
+    </tbody>
+</table>
 
-***TABLE 3:** Basic results*
+![Figure 1][fig-1]{.rounded}
 
-![Figure 1][fig-1]
-
-![Figure 2][fig-2]
+![Figure 2][fig-2]{.rounded}
 
 Over 100,000 words were analysed across 397 instances of speech; Table 3 shows the basic results. Whilst the 2010 Act corpus is smaller than the 2012 Act, both attain reasonably robust classifications (82% and 65%). Figures 1-2 show the ‘descendant hierarchical classifications’; these map how closely each class is related to another. An analysis of the most significant word forms and ECUs for each class reveals similar topics of discussion running across both corpora. Classes 1, 3, and 4 in the 2010 corpus, broadly equate to Classes 3, 1, and 2 respectively in the 2012 corpus — though the size of each class is quite different. One class — ‘Consumer credit market and financial education’ — is missing from the latter corpus. One likely explanation for this is the significant amount of lobbying and media attention given to financial education during this period (cf. BBC News, 2010). This was absent from the 2012 Act debates. Some characteristic ECUs for this class include:
 
@@ -117,9 +195,9 @@ In both corpora, Conservative party members dominate the ‘Parliamentary langua
 
 If the critical junctures theory is correct in positing a cycle of policy failure, paradigm shift and emulation, then it seemingly doesn’t apply in the case of the FSA. If it did apply, we would expect to see consistent, policy-failure-based argument against the FSA, and that this argument be more prevalent in the later corpus, when the Conservatives, as the proponents of the policy, would need to most strongly make their case to gain the support of their coalition partners. Instead, we see simple rhetoric and arguments of political failure. There is no paradigm shift apparent in this latter corpus; and no policy failure to spark it. Instead, we see party politics taking centre stage in the Parliamentary debates.
 
-![Figure 3][fig-3]
+![Figure 3][fig-3]{.rounded}
 
-![Figure 4][fig-4]
+![Figure 4][fig-4]{.rounded}
 
 ## Conclusion
 

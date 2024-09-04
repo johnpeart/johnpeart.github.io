@@ -52,7 +52,7 @@ The problem with Wasabi's hot food service is that they've optimised each *part*
 
 An optimised counter service is creating an unmanageable backlog at the tills. For Wasabi, the constraint on the speed of service for hot food is not in how fast the food can be put into cardboard containers — it's in how fast the cashiers can process payments.
 
-![***Figure 1:** Only optimising parts of the service creates backlogs and slows down the whole system. Here one staff member serves food, the other takes payments.*](/assets/images/posts/2016/03/07/lunch-demand-management-and-flow/QueuingItWrong.gif "Image: Customers are served faster at the food counter than they are at the tills; this creates a backlog at the tills and slows down service at the food counter.")
+![***Figure 1:** Only optimising parts of the service creates backlogs and slows down the whole system. Here one staff member serves food, the other takes payments.*](/assets/images/posts/2016/03/07/lunch-demand-management-and-flow/QueuingItWrong.gif "Image: Customers are served faster at the food counter than they are at the tills; this creates a backlog at the tills and slows down service at the food counter."){.rounded}
 
 A more efficient service would *not* be based on improving the speed of each *part* of the service, but on improving flow and end-to-end service times. By focusing on the whole, you implicitly optimise the parts.
 
@@ -64,7 +64,7 @@ Making coffee takes longer than pressing buttons on a till. The result is a back
 
 Compare that to the experience at Caffé Nero. You're dealt with by one person; they take your order, make it, and take your payment. You still get queues, of course, but the flow of customers is constrained in different ways.
 
-![***Figure 2:** Focussing on flow throughout the system creates better service. Here, two staff serve customers end-to-end, removing the second queue - the service failure.*](/assets/images/posts/2016/03/07/lunch-demand-management-and-flow/QueuingItRight.gif "Image: Customers are served by one member of staff all the way through their transaction. The queue is dealt with faster under the same constraints as before because the service failure (i.e. the second queue) is designed out of the system.")
+![***Figure 2:** Focussing on flow throughout the system creates better service. Here, two staff serve customers end-to-end, removing the second queue - the service failure.*](/assets/images/posts/2016/03/07/lunch-demand-management-and-flow/QueuingItRight.gif "Image: Customers are served by one member of staff all the way through their transaction. The queue is dealt with faster under the same constraints as before because the service failure (i.e. the second queue) is designed out of the system."){.rounded}
 
 Customers are dealt with end-to-end. It's every barista's job to manage the whole queue. As a customer not only does it feel better, it feels faster - and that's because it is. There's no need to queue twice and there's no system induced backlog - that service failure has been designed out of the system.
 

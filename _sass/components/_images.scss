@@ -15,6 +15,7 @@ figure,
     border-radius: $border-radius * 2;
     @include mobile() {
         box-shadow: shadow(2);
+        @include glow($no-hover: true);
     }
     @include tablet {
         width: containers("tablet") + 100px;
@@ -76,6 +77,7 @@ figure,
         @include tablet-up() {
             border-radius: $border-radius * 2;
             box-shadow: shadow(2);
+            @include glow($no-hover: true);
         }
 	}
 

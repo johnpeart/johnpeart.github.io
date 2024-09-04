@@ -34,15 +34,35 @@ a {
 
     &.link-secondary,
     &.post-published-date {
-        &:link {
+        &:link,
+        &:visited {
             color: var(--link-secondary-color);
             text-decoration: none;
         }
-        &:visited {
-            color: var(--link-secondary-color);
-        }
         &:hover {
             color: var(--link-secondary-color);
+            text-decoration: underline;
+        }
+        &:hover:focus {
+            text-decoration: underline;
+			outline-offset: 3px;
+        }
+        &:focus {
+            color: var(--link-focusColor);
+            background: var(--link-focusBackground);
+            outline: 3px solid var(--link-outlineColor);
+			outline-offset: 0;
+        }
+    }
+
+    &.header-menu--link {
+        &:link,
+        &:visited {
+            color: var(--cyan);
+            text-decoration: none;
+        }
+        &:hover {
+            color: var(--cyan);
             text-decoration: underline;
         }
         &:hover:focus {
@@ -78,12 +98,8 @@ a {
     }
     
     &.bold {
-        &:link {
-            font-weight: 900;
-        }
-        &:visited {
-            font-weight: 900;
-        }
+        &:link,
+        &:visited,
         &:hover {
             font-weight: 900;
         }
@@ -96,10 +112,7 @@ a {
     
     &.emphasised-link {
         @include typography($large, "default");
-        &:link {
-            color: var(--cyan);
-            text-decoration: none;
-        }
+        &:link,
         &:visited {
             color: var(--cyan);
             text-decoration: none;

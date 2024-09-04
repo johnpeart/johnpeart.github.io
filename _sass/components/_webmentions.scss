@@ -64,9 +64,9 @@ span.interaction-icon {
 	grid-area: wmForm;
 	padding: $container-padding;
 
-	grid-template-columns: 1fr auto;
+	grid-template-columns: 1fr auto auto;
 	grid-template-rows: auto auto;
-	grid-template-areas: "label label" "input button";
+	grid-template-areas: "label questionmark questionmark" "input input button";
 	grid-gap: $container-padding;
 }
 
@@ -83,8 +83,17 @@ span.interaction-icon {
 
 .submit-webmention button.button {
 	grid-area: button;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	align-self: flex-end;
 	aspect-ratio: 1 / 1;
 	padding: 12px;
 	height: 100%;
+}
+
+.webmentions--link--whats-this {
+    grid-area: questionmark;
+    @include typography($p);
+    text-align: right;
 }

@@ -70,13 +70,13 @@ blockquote.twitter-tweet {
     margin-left: auto;
     margin-right: auto;
     padding: $container-padding;
+    @include glow($depth: 2, $offset: 4, $colour: true); 
     
     img {
         width: 100%;
         margin: 0;
 	    border-radius: $border-radius;
-        border: 1px solid var(--glass-border);
-        box-shadow: shadow(2);  
+        @include glow($depth: 2, $offset: 4, $colour: false); 
     }
 	
 	// Twitter logo

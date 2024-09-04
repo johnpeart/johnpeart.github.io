@@ -1,3 +1,4 @@
 .card {
-	@include glass(20px, 2, true);
+	// @include glass(20px, 2, true); 
+    @include glow($depth: 2, $offset: 4, $colour: false);   
 }

@@ -2,39 +2,67 @@ input[type="text"],
 input[type="url"],
 input[type="password"],
 input[type="email"] {
+
+    // Disable inner shadow and remove rounded corners
+    -webkit-appearance: none;
+    appearance: none;
+    
     @extend p;
     box-sizing: border-box;
     width: 100%;
 
     margin-bottom: $container-padding * 2;
-    padding: form("input-padding");
+    padding: $container-padding !important;
 
-    border: form("border-width") solid var(--color);
     border-radius: form("border-radius");
 
     background: var(--background);
     color: var(--color);
 
-    // Disable inner shadow and remove rounded corners
-    -webkit-appearance: none;
-    appearance: none;
-
+    @include plastic(inset, 5px);
+    border-radius: $border-radius * 2 * 0.7 !important;
+    transition: all 0.3s;
+    border: none;
 
     &:hover {
-        outline: form("border-width") solid var(--cyan);
-        outline-offset: 0px;
-        border: form("border-width") solid;
+        outline: none;
+        background: rgba(0,139,227,0.05);
+        background: linear-gradient(30deg, rgba(0,139,227,0.05) 0%, rgba(198,67,252,0.05) 33%, rgba(0,122,255,0.05) 66%, rgba(0,123,176,0.05) 100%);
+        box-shadow: 
+            inset  1px  1px 5px rgba(0, 159, 227, 0.2),
+            inset -1px  1px 5px rgba(198, 67, 252, 0.2),
+            inset  1px -1px 5px rgba(0, 122, 255, 0.2),
+            inset -1px -1px 5px rgba(0, 123, 176, 0.2) !important;
+        transition: all 0.3s;
+        &::placeholder {color: var(--cyan-tint);}
     }
     &:focus {
-        outline: form("border-width") solid var(--cyan);
-        outline-offset: 3px;
+        outline: none;
+        background: rgba(0,139,227,0.02);
+        background: linear-gradient(30deg, rgba(0,139,227,0.02) 0%, rgba(198,67,252,0.02) 33%, rgba(0,122,255,0.02) 66%, rgba(0,123,176,0.02) 100%);
+        box-shadow: 
+            inset  1px  1px 10px rgba(0, 159, 227, 0.3),
+            inset -1px  1px 10px rgba(198, 67, 252, 0.3),
+            inset  1px -1px 10px rgba(0, 122, 255, 0.3),
+            inset -1px -1px 10px rgba(0, 123, 176, 0.3) !important;
+        background: var(--absolute);
+        transition: all 0.3s;
         color: var(--color);
-        box-shadow: inset 0 0 0 form("border-focus-width");
-        border: form("border-width") solid var(--color);
+        caret-color: var(--cyan);
+        &::placeholder {color: var(--color) !important;}
     }
 
     &:invalid {
-        border: form("border-width") solid var(--red);
+        outline: none;
+        box-shadow: 
+            inset -1px -1px 5px rgba(230, 0, 126, 0.4),
+            inset  1px -1px 5px rgba(177, 14, 30, 0.4),
+            inset -1px  1px 5px rgba(255, 94, 58, 0.4),
+            inset  1px  1px 5px rgba(255, 215, 0, 0.4) !important;
+        background: var(--absolute);
+        transition: all 0.3s;
+        color: var(--color);
+        caret-color: var(--red);
     }
 
 }

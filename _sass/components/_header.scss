@@ -1,50 +1,120 @@
-header#global-header {
-    display: block;
-	position: relative;
-    z-index: 999999;
-    @include supports-sticky() {
-        top: 0;
-        &::before {
-            position: absolute;
-            display: block;
-            content: '';
-            width: 100%;
-            height: 100%;
-			-webkit-backdrop-filter: blur(50px);
-            		backdrop-filter: blur(50px);
-			background: var(--translucent-background);
-        }
-        border-bottom: 1px solid var(--background);
+nav#site-navigation {
+    
+    @include glow($depth: 2, $offset: 0.5, $hover-offset: 20, $on-hover-only: true);
+    transition: all 0.5s ease-in;
+    
+    section#site-navigation--menu-bar {
+        display: grid;
+        grid-template-areas: "wordmark button";
+		grid-template-columns: 1fr auto;
+        padding: $container-padding 0;
+        margin: 0 0 $container-padding 0;
+        transition: all 0.5s ease-in-out;
     }
-    ul {
+    
+    &.open {
+        @include glow($depth: 2, $transition: 0.2, $offset: 4, $hover-offset: 20);
+    }
+    
+    &:hover section#site-navigation--menu-bar,
+    &.open section#site-navigation--menu-bar {
+        padding: $container-padding;
+        margin: $container-padding 0 0 0;
+        transition: all 0.5s ease-in;
+    }
+    
+    #site-navigation--wordmark--link {
+        &:link,
+        &:visited {
+            color: var(--link-secondary-color);
+            text-decoration: none;
+        }
+        &:hover {
+            color: var(--link-hoverColor);
+            text-decoration: underline;
+        }
+        &:hover:focus {
+            text-decoration: underline;
+			outline-offset: 3px;
+        }
+        &:focus {
+            color: var(--link-focusColor);
+            background: var(--link-focusBackground);
+            outline: 3px solid var(--link-outlineColor);
+			outline-offset: 0;
+        }
+    }
+    
+    &:hover #site-navigation--wordmark--link,
+    &.open #site-navigation--wordmark--link {
+        transition: all 0.5s ease-in;
+        &:link,
+        &:visited {
+            color: var(--link-color);
+        }
+    }
+    
+	&:hover svg path#menuicon,
+    &.open svg path#menuicon {
+    	fill: var(--color);
+        transition: all 0.5s ease-in;
+	}
+    
+    section#site-navigation--navigation {
+        display: grid;
+        grid-template-rows: repeat(auto, 3);
+    }
+    
+    &.open section#site-navigation--navigation {
+        display: grid;
+    }
+    
+    &.closed section#site-navigation--navigation {
+        display: none;
+    }
+    
+    section.site-navigation--section {
+        display: grid;
+        @include tablet-up {
+            grid-template-columns: 1fr 2fr;
+        }
+        padding: $container-padding 0;
+        margin: 0 $container-padding;
+        
+        &:nth-last-child(-n+2) {
+            border-top: 1px solid var(--secondary-borderColor);
+        }
+        
+    }
+    
+    ul.site-navigation--section--links {
+        display: grid;
+        grid-gap: $container-padding;
+        grid-template-columns: 1fr 1fr;
         padding: 0;
     }
 }
 
-nav#site-navigation {
-    display: grid;
-    grid-template-columns: 1fr auto;
-	grid-template-rows: 1fr;
-	padding: $container-padding;
-	grid-template-areas: "wordmark button";
-	&.open {
-		grid-template-areas: "wordmark button" "menu menu";
-		grid-template-rows: auto 1fr;
-		@include mobile {
-			padding: $container-padding;
-		}
-		@include tablet-up {
-			grid-template-rows: auto auto 1fr;
-		}
-		grid-gap: $container-padding 0;
-	    align-items: flex-start;
-		height: 100vh;
-	}
-	&.closed {
-		grid-template-areas: "wordmark button";
-	}
+// Wordmark
+p#header--wordmark {
+    position: relative;
+    display: block;
+    z-index: 10000;
+    font-weight: 900 !important;
+    font-size: 30px;
+	line-height: 30px;
+    @include tablet {
+        font-size: 28px;
+		line-height: 28px;
+    }
+    @include desktop {
+        font-size: 30px;
+		line-height: 30px;
+    }
+    padding: 0;
 }
 
+// Menu icon
 button#header-menu--toggle {
 	all: unset;
 	display: grid;
@@ -61,7 +131,7 @@ button#header-menu--toggle {
 	}
 	
 	svg path#menuicon {
-    	fill: var(--color);
+    	fill: var(--secondary-color);
 	}
     
     &:hover {
@@ -74,78 +144,6 @@ button#header-menu--toggle {
     	fill: var(--cyan);
     	color: var(--cyan);
 	}
-}
-
-nav#site-navigation.open button#header-menu--toggle svg {
-	transform: rotate(45deg);
-}
-
-nav#site-navigation.closed button#header-menu--toggle svg {
-	transform: rotate(0deg);
-}
-
-p#header--wordmark {
-    position: relative;
-    display: block;
-    z-index: 10000;
-    @include typography($p, "default");
-    font-weight: 900 !important;
-    font-size: 30px;
-	line-height: 30px;
-    @include tablet {
-        font-size: 28px;
-		line-height: 28px;
-    }
-    @include desktop {
-        font-size: 30px;
-		line-height: 30px;
-    }
-    padding: 0;
-}
-
-nav#site-navigation.open section#header-menu--menu {
-    display: grid;
-}
-
-nav#site-navigation.closed section#header-menu--menu {
-    display: none;
-}
-
-section#header-menu--menu {
-    display: grid;
-    grid-area: menu;
-    grid-template-rows: repeat(3, auto);
-    grid-gap: $container-padding;
-}
-
-section.header-menu--section {
-    display: grid;
-    grid-template-rows: auto auto;
-    @include tablet-up {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 2fr; 
-    }
-    padding: $container-padding 0;
-    border-top: 1px solid var(--secondary-borderColor);
-    &:first-of-type {
-        border-color: transparent;
-    }
-}
-
-ul.nav--group {
-    display: grid;
-    grid-gap: $container-padding;
-    grid-template-columns: 1fr 1fr;
-}
-
-li.header-menu--item {
-    display: block;
-    position: relative;
-
-    width: 100%;
-    height: auto;
-
-    box-sizing: border-box;
 }
 
 svg#header-menu--toggle-image {
@@ -163,28 +161,10 @@ svg#header-menu--toggle-image {
     transition: 0.2s all;
 }
 
-details[open] summary svg {
-    transform: rotate(45deg);
-    transform-origin: center;
-    transition: 0.2s all;
+nav#site-navigation.open button#header-menu--toggle svg {
+	transform: rotate(45deg);
 }
 
-details:active svg path#menuicon {
-    color: var(--cyan);
-}
-
-summary svg path#menuicon {
-    fill: var(--color);
-}
-
-summary:hover svg path#menuicon {
-    fill: var(--cyan);
-}
-
-summary:focus {
-    outline: none;
-}
-
-summary:focus svg path#menuicon {
-    fill: var(--cyan);
+nav#site-navigation.closed button#header-menu--toggle svg {
+	transform: rotate(0deg);
 }

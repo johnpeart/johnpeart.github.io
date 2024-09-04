@@ -1,0 +1,80 @@
+@mixin glow($depth: 2, $offset: 1, $hover-offset: 3, $transition: 0.5, $on-hover-only: false, $no-hover: false, $colour: true) {
+
+    border-radius:  $border-radius * 2;
+    outline-offset: -1px;
+    transition: box-shadow 0.2s ease-out;
+
+    @if $colour == true {
+        --cyan-rgb: 0, 159, 227;
+        --purple-rgb: 198, 67, 252;
+        --blue-rgb: 0, 122, 255;
+        --cyan-tint-rgb: 0, 123, 176;    
+    
+        @if $on-hover-only == false {
+        outline: var(--glass-border) 1px solid;
+        box-shadow:           #{$depth}px   #{$depth}px  #{$offset * 1px}    rgba(var(--blue-rgb), 0.02 * 0.6),
+                              #{$depth}px   #{$depth}px  #{$offset * 3px}    rgba(var(--blue-rgb), 0.03 * 0.6),
+                              #{$depth}px   #{$depth}px  #{$offset * 7px}    rgba(var(--blue-rgb), 0.05 * 0.6),
+                              #{$depth}px   #{$depth}px  #{$offset * 13px}   rgba(var(--blue-rgb), 0.06 * 0.6),
+                              #{$depth}px   #{$depth}px  #{$offset * 20px}   rgba(var(--blue-rgb), 0.08 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 1px}    rgba(var(--purple-rgb), 0.02 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 3px}    rgba(var(--purple-rgb), 0.03 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 7px}    rgba(var(--purple-rgb), 0.05 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 13px}   rgba(var(--purple-rgb), 0.06 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 20px}   rgba(var(--purple-rgb), 0.08 * 0.6),
+                              #{$depth}px  -#{$depth}px  #{$offset * 1px}    rgba(var(--cyan-rgb), 0.02 * 0.6),
+                              #{$depth}px  -#{$depth}px  #{$offset * 3px}    rgba(var(--cyan-rgb), 0.03 * 0.6),
+                              #{$depth}px  -#{$depth}px  #{$offset * 7px}    rgba(var(--cyan-rgb), 0.05 * 0.6),
+                              #{$depth}px  -#{$depth}px  #{$offset * 13px}   rgba(var(--cyan-rgb), 0.06 * 0.6),
+                              #{$depth}px  -#{$depth}px  #{$offset * 20px}   rgba(var(--cyan-rgb), 0.08 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 1px}    rgba(var(--cyan-tint-rgb), 0.02 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 3px}    rgba(var(--cyan-tint-rgb), 0.03 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 7px}    rgba(var(--cyan-tint-rgb), 0.05 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 13px}   rgba(var(--cyan-tint-rgb), 0.06 * 0.6),
+                             -#{$depth}px   #{$depth}px  #{$offset * 20px}   rgba(var(--cyan-tint-rgb), 0.08 * 0.6),
+                    inset     2px   2px  2px    var(--plastic-shadow-2),
+                    inset    -2px  -2px  2px    var(--plastic-shadow-1);
+    
+        }
+        
+        @if $no-hover == false {
+            &:hover {
+                outline: var(--glass-border) 1px solid;
+                box-shadow:           #{$depth}px   #{$depth}px  #{$offset * $hover-offset * 1px}    rgba(var(--blue-rgb), 0.02 * 0.6),
+                                      #{$depth}px   #{$depth}px  #{$offset * $hover-offset * 3px}    rgba(var(--blue-rgb), 0.03 * 0.6),
+                                      #{$depth}px   #{$depth}px  #{$offset * $hover-offset * 7px}    rgba(var(--blue-rgb), 0.05 * 0.6),
+                                      #{$depth}px   #{$depth}px  #{$offset * $hover-offset * 13px}   rgba(var(--blue-rgb), 0.06 * 0.6),
+                                      #{$depth}px   #{$depth}px  #{$offset * $hover-offset * 20px}   rgba(var(--blue-rgb), 0.08 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 1px}    rgba(var(--purple-rgb), 0.02 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 3px}    rgba(var(--purple-rgb), 0.03 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 7px}    rgba(var(--purple-rgb), 0.05 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 13px}   rgba(var(--purple-rgb), 0.06 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 20px}   rgba(var(--purple-rgb), 0.08 * 0.6),
+                                      #{$depth}px  -#{$depth}px  #{$offset * $hover-offset * 1px}    rgba(var(--cyan-rgb), 0.02 * 0.6),
+                                      #{$depth}px  -#{$depth}px  #{$offset * $hover-offset * 3px}    rgba(var(--cyan-rgb), 0.03 * 0.6),
+                                      #{$depth}px  -#{$depth}px  #{$offset * $hover-offset * 7px}    rgba(var(--cyan-rgb), 0.05 * 0.6),
+                                      #{$depth}px  -#{$depth}px  #{$offset * $hover-offset * 13px}   rgba(var(--cyan-rgb), 0.06 * 0.6),
+                                      #{$depth}px  -#{$depth}px  #{$offset * $hover-offset * 20px}   rgba(var(--cyan-rgb), 0.08 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 1px}    rgba(var(--cyan-tint-rgb), 0.02 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 3px}    rgba(var(--cyan-tint-rgb), 0.03 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 7px}    rgba(var(--cyan-tint-rgb), 0.05 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 13px}   rgba(var(--cyan-tint-rgb), 0.06 * 0.6),
+                                     -#{$depth}px   #{$depth}px  #{$offset * $hover-offset * 20px}   rgba(var(--cyan-tint-rgb), 0.08 * 0.6),
+                            inset     2px   2px  2px    var(--plastic-shadow-2),
+                            inset    -2px  -2px  2px    var(--plastic-shadow-1);
+                
+                transition: box-shadow #{$transition}s ease-in;
+            }
+        }
+    
+    }
+    
+    @else {
+        box-shadow: 
+                    0 1px 3px 	var(--shadow-2), 
+                    0 1px 2px var(--shadow-2B),
+            inset  #{$depth}px #{$depth}px #{$offset}px var(--plastic-shadow-2),
+            inset -#{$depth}px -#{$depth}px #{$offset}px var(--plastic-shadow-1);
+    }
+
+}

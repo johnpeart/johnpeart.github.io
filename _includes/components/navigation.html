@@ -4,103 +4,107 @@
     {% assign siteUrl = site.url %}
 {% endif %}
     
-    <header id="global-header" class="no-js">
+<header id="global-header" class="container no-js">
 
-	<nav id="site-navigation" class="container closed" aria-label="Menu">
+	<nav id="site-navigation" class="closed" aria-label="Menu">
 
-		<p id="header--wordmark">
-			<a href="{{ siteUrl }}" class="no-underline bold">{{ site.title }}</a>
-		</p>
-
-		<button id="header-menu--toggle" aria-describedby="header-menu--toggle-label">
-			<svg id="header-menu--toggle-image" version="1.1" height="32" width="32" viewBox="0 0 20 20">
-				<defs></defs>
-				<title>Menu icon</title>
-				<path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#adb5bd"></path>
-			</svg>
-			<span id="header-menu--toggle-label" class="sr-only">Menu</span>
-		</button>
+        <section id="site-navigation--menu-bar">
+		    
+            <p id="header--wordmark">
+			    <a href="{{ siteUrl }}" id="site-navigation--wordmark--link">{{ site.title }}</a>
+		    </p>
+    
+		    <button id="header-menu--toggle" aria-describedby="header-menu--toggle-label">
+			    <svg id="header-menu--toggle-image" version="1.1" height="32" width="32" viewBox="0 0 20 20">
+				    <defs></defs>
+				    <title>Menu icon</title>
+				    <path id="menuicon" d="M 8 0 L 8 8 L 0 8 L 0 12 L 8 12 L 8 20 L 12 20 L 12 12 L 20 12 L 20 8 L 12 8 L 12 0 Z" fill="#adb5bd"></path>
+			    </svg>
+			    <span id="header-menu--toggle-label" class="sr-only">Menu</span>
+		    </button>
+            
+        </section>
         
-        <section id="header-menu--menu">
-            <section class="header-menu--section">
+        <section id="site-navigation--navigation">
+            <section class="site-navigation--section">
                 
-                <h2 class="header-menu--section--header">Me</h2>
+                <h2 class="site-navigation--section--header">Me</h2>
 			        
-                <ul class="nav--group">
+                <ul class="site-navigation--section--links">
 		            <li class="header-menu--item">
-			            <a href="/about/" class="emphasised-link">About</a>
+			            <a href="/about/" class="header-menu--link">About</a>
 		            </li>
 		            
 		            <li class="header-menu--item">
-			            <a href="/ideas/" class="emphasised-link">Ideas</a>
+			            <a href="/ideas/" class="header-menu--link">Ideas</a>
 		            </li>
 		            
 		            <li class="header-menu--item">
-			            <a href="/now/" class="emphasised-link">Now</a>
+			            <a href="/now/" class="header-menu--link">Now</a>
 		            </li>
                 </ul>
                     
             </section>
-            
-            <section class="header-menu--section">
+                        
+            <section class="site-navigation--section">
                 
-                <h2 class="header-menu--section--header">Posts</h2>
+                <h2 class="site-navigation--section--header">Posts</h2>
 			    
-                <ul class="nav--group">
+                <ul class="site-navigation--section--links">
 			        <li class="header-menu--item">
-				        <a href="/all/" class="emphasised-link">All posts</a>
+				        <a href="/all/" class="header-menu--link">All posts</a>
 			        </li>
 			        <li class="header-menu--item">
-				        <a href="/blogposts/" class="emphasised-link">Blogposts</a>
-			        </li>
-			        
-			        <li class="header-menu--item">
-				        <a href="/weeknotes/" class="emphasised-link">Week notes</a>
+				        <a href="/blogposts/" class="header-menu--link">Blog posts</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/notes/" class="emphasised-link">Notes</a>
+				        <a href="/weeknotes/" class="header-menu--link">Week notes</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/lists/" class="emphasised-link">Lists</a>
+				        <a href="/notes/" class="header-menu--link">Notes</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/photos/" class="emphasised-link">Photos</a>
+				        <a href="/lists/" class="header-menu--link">Lists</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/music/" class="emphasised-link">Music</a>
+				        <a href="/photos/" class="header-menu--link">Photos</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/replies/" class="emphasised-link">Replies</a>
+				        <a href="/music/" class="header-menu--link">Music</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/reposts/" class="emphasised-link">Reposts</a>
+				        <a href="/replies/" class="header-menu--link">Replies</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/feeds/" class="emphasised-link">RSS feeds</a>
+				        <a href="/reposts/" class="header-menu--link">Reposts</a>
+			        </li>
+			        
+			        <li class="header-menu--item">
+				        <a href="/feeds/" class="header-menu--link">RSS feeds</a>
 			        </li>
                 </ul>
                 
             </section>
             
-            <section class="header-menu--section">
+            <section class="site-navigation--section">
                 
-                <h2 class="header-menu--section--header">Other</h2>
+                <h2 class="site-navigation--section--header">Other</h2>
     
-                <ul class="nav--group">
+                <ul class="site-navigation--section--links">
 			        
                     <li class="header-menu--item">
-				        <a href="/goals" class="emphasised-link">Goals</a>
+				        <a href="/goals" class="header-menu--link">Goals</a>
 			        </li>
 			        
 			        <li class="header-menu--item">
-				        <a href="/wishlist" class="emphasised-link">Wishlist</a>
+				        <a href="/wishlist" class="header-menu--link">Wishlist</a>
 			        </li>
                     
                 </ul>

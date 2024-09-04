@@ -35,8 +35,8 @@ h2,
         position: relative;
 		@include mobile() {
             @include supports-sticky() {
+                top: 0;
                 width: calc(100% + #{$container-padding * 2});
-				top: 62px;
 				margin: 0 0 0 -#{$container-padding};
 				background: var(--translucent-background);
 				-webkit-backdrop-filter: blur(20px);
@@ -52,9 +52,9 @@ h2,
         }
     }
     
-    &.header-menu--section--header {
-        @include typography($large, "default");
-        padding: 0 0 $container-padding;
+    &.site-navigation--section--header {
+        @include typography($p, "default");
+        padding: 0 0 $container-padding 0;
         text-align: left;
     }
 }

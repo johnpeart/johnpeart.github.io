@@ -2,6 +2,7 @@
 	<label class="label" for="source">
 		Send me a Webmention
 	</label>
+    <a href="/webmentions" class="webmentions--link--whats-this no-underline link-secondary">What's this?</a>
 	<input type="url" name="source" id="source" placeholder="Enter the URL of your post">
 	<label class="hidden" for="target">This page</label>
 	<input class="hidden" type="url" name="target" id="target" placeholder="https://www.johnpe.art/" value="{{ 'https://www.johnpe.art' | append: base.url | append: page.url }}">

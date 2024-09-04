@@ -122,44 +122,129 @@ Each ICU in this paper represents an individual speech or article made by indivi
 
 First, individual members must have served at least two years on the MPC. Members serving less than two years, or for which no data were available, were excluded. This was to ensure a time-related element to the analysis. In addition, I wanted to ensure that the dataset was not unnecessarily biased towards discussion of the financial crisis, as much of that discussion is likely to be less relevant to the concept of 'underlying monetary policy preferences'. To do this, I needed to exclude those presently on the committee. This had to be balanced against a further consideration however; excluding all current members would have meant losing those members that prior research had indicated could be most revealing – such as the Chair (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)). To ensure there was a balance between these two considerations, two further criteria were applied. Members assessed must have either (a) left the committee, having finished their term, or (b) been on the committee for at least two full terms if they are still serving members. These criteria helped to balance the aforementioned trade off and were intended to maintain the robustness of the dataset. Details of members included or excluded, given the above criteria, are shown in Appendix 1.
 
-<div class="mobile-overflow" markdown="1">
+<div class="mobile-overflow">
 
-| Hawks           | Centrists           | Doves                |
-|-----------------|---------------------|----------------------|
-| Andrew Sentance | Marian Bell         | Sushil Wadhwani      |
-| Andrew Large    | Stephen Nickell     | David Blanchflower   |
-| Tim Besley      | Ian Plenderleith    | DeAnne Julius        |
-|                 | Charles Bean        | Christopher Allsopp  |
-|                 | Kate Barker         | Adam Posen           |
-|                 | Edward George       |                      |
-|                 | David Clementi      |                      |
-|                 | Rachel Lomax        |                      |
-|                 | John Gieve          |                      |
-|                 | Charles Goodhart    |                      |
-|                 | Williem Buiter      |                      |
-|                 | Paul Tucker         |                      |
-|                 | Mervyn King         |                      |
-|                 | John Vickers        |                      |
+<table>
+    <caption><em><strong>Table 1:</strong> Classification of members based on Hix et al (2010)</em></caption>
+    <thead>
+        <tr>
+            <th>Hawks</th>
+            <th>Centrists</th>
+            <th>Doves</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Andrew Sentance</td>
+            <td>Marian Bell</td>
+            <td>Sushil Wadhwani</td>
+        </tr>
+        <tr>
+            <td>Andrew Large</td>
+            <td>Stephen Nickell</td>
+            <td>David Blanchflower</td>
+        </tr>
+        <tr>
+            <td>Tim Besley</td>
+            <td>Ian Plenderleith</td>
+            <td>DeAnne Julius</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Charles Bean</td>
+            <td>Christopher Allsopp</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Kate Barker</td>
+            <td>Adam Posen</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Edward George</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>David Clementi</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Rachel Lomax</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>John Gieve</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Charles Goodhart</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Williem Buiter</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Paul Tucker</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Mervyn King</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>John Vickers</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 
 </div>
-
-***Table 1:** Classification of members based on Hix et al (2010)*
 
 The literature suggests that different members of a committee will be more or less likely to update their preferences based on whether their priors are moderate or extreme (Barabas 2004). My methodology exploits this conclusion, dividing members along a single dimension for the purposes of selecting individuals for in-depth analysis. Using the results from Hix et al. (2010), three corpora were compiled representing the 'hawks', the 'doves' and the 'centrists'. My hypothesis is not, however, concerned with aggregate preferences, but individuals. Hence, I use the results of these initial corpora to find the most statistically significant members. The significance of members, (or indeed any part of the results) is given by the Chi2 value, with one degree of freedom, of the passive variables. The critical values are shown in Table 2.
 
 <div class="mobile-overflow" markdown="1">
-
-| Statistical significance | Chi value       |
-|--------------------------|-----------------|
-| Not significant          | 2.71 or lower   |
-| 10%                      | 3.84 or lower   |
-| 5% (*)                   | 6.63 or lower   |
-| 1% (**)                  | 10.80 or lower  |
-| Less than 1% (***)       | 10.80 or higher |
-
+    <table>
+        <caption><em><strong>Table 2:</strong> Chi-squared significance to 1 degree of freedom.</em></caption>
+        <thead>
+            <tr>
+                <th>Statistical significance</th>
+                <th>Chi value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Not significant</td>
+                <td>2.71 or lower</td>
+            </tr>
+            <tr>
+                <td>10%</td>
+                <td>3.84 or lower</td>
+            </tr>
+            <tr>
+                <td>5% (*)</td>
+                <td>6.63 or lower</td>
+            </tr>
+            <tr>
+                <td>1% (**)</td>
+                <td>10.80 or lower</td>
+            </tr>
+            <tr>
+                <td>Less than 1% (***)</td>
+                <td>10.80 or higher</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-
-***Table 2:** Chi-squared significance to 1 degree of freedom.*
 
 Larger Chi2 values represent higher statistical significance, and greater association of the variable. However, these values can only serve to give us an ordinal ranking of the significance of each variable, rather than a relative significance, (i.e. a Chi2 value of 20 is more significant than a value of 10, but not twice as significant). I test the most significant member from each class in their own corpus and assess the results against the three hypothesized observations in the previous section (logical contradiction, development and stability).
 
@@ -173,24 +258,63 @@ More than 1.6 million words and 615 ICUs were assessed to obtain the initial cla
 
 Figures 1, 2 and 3 show the descendant hierarchical classifications for each of the initial corpora. The descendant classifications show the relationships between classes and the distribution of the discussion. Each class has also been labelled based on an assessment of the significant word forms and ECUs for each class (these are not provided by Alceste, but assigned by the researcher).
 
-![Figure 1: Dendrograms for dove corpus][fig-1]
-![Figure 2: Dendrograms for hawks corpus][fig-2]
-![Figure 3: Dendrograms for centrists corpus][fig-3]
+![Figure 1: Dendrograms for dove corpus][fig-1]{.rounded}
+
+![Figure 2: Dendrograms for hawks corpus][fig-2]{.rounded}
+
+![Figure 3: Dendrograms for centrists corpus][fig-3]{.rounded}
 
 <div class="mobile-overflow" markdown="1">
-
-|                                               | Hawks       | Centrists   | Doves       |
-|-----------------------------------------------|------------:|------------:|------------:|
-| Total word count                              | 177,710     | 1,151,559   | 297,811     |
-| Unique words analysed                         | 7,650       | 24,675      | 14,177      |
-| Passive variables (tagged indicators)         | 27          | 50          | 33          |
-| Initial Contextual Units (ICUs)               | 44          | 320         | 51          |
-| Classified Elementary Contextual Units (ECUs) | 3,178 (82%) | 7,691 (74%) | 5,237 (77%) |
-| Number of lexical classes                     | 6           | 4           | 9           |
-
+    <table>
+        <caption><em><strong>Table 3:</strong> ALCESTE Analysis: Basic statistics for initial corpora.</em></caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th style="text-align:right">Hawks</th>
+                <th style="text-align:right">Centrists</th>
+                <th style="text-align:right">Doves</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Total word count</td>
+                <td style="text-align:right">177,710</td>
+                <td style="text-align:right">1,151,559</td>
+                <td style="text-align:right">297,811</td>
+            </tr>
+            <tr>
+                <td>Unique words analysed</td>
+                <td style="text-align:right">7,650</td>
+                <td style="text-align:right">24,675</td>
+                <td style="text-align:right">14,177</td>
+            </tr>
+            <tr>
+                <td>Passive variables (tagged indicators)</td>
+                <td style="text-align:right">27</td>
+                <td style="text-align:right">50</td>
+                <td style="text-align:right">33</td>
+            </tr>
+            <tr>
+                <td>Initial Contextual Units (ICUs)</td>
+                <td style="text-align:right">44</td>
+                <td style="text-align:right">320</td>
+                <td style="text-align:right">51</td>
+            </tr>
+            <tr>
+                <td>Classified Elementary Contextual Units (ECUs)</td>
+                <td style="text-align:right">3,178 (82%)</td>
+                <td style="text-align:right">7,691 (74%)</td>
+                <td style="text-align:right">5,237 (77%)</td>
+            </tr>
+            <tr>
+                <td>Number of lexical classes</td>
+                <td style="text-align:right">6</td>
+                <td style="text-align:right">4</td>
+                <td style="text-align:right">9</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-
-***Table 3:** ALCESTE Analysis: Basic statistics for initial corpora.*
 
 
 The most striking result from these corpora is that despite the centrists corpus being significantly larger than the others, this corpus contains the least number of lexical classes; only four in total, compared with six in the hawks and nine in the doves. This shows the discourse among the centrists is more focussed than that of the other groups. The large number of classes in the doves corpus is perhaps expected, given these members have different specialisms and come from a range of different backgrounds; for example, DeAnne Julius comes from industry, whilst Sushil Wadhwani comes from a financial background.
@@ -200,23 +324,95 @@ Further assessment of the classes reveals that, as predicted, some of the discou
 After the process of narrowing the data was completed, eight members remained for assessment; Andrew Sentance (hawk), Mervyn King, Edward George, Charles Bean (centrists), Sushil Wadhwani, Adam Posen, Christopher Allsopp, and DeAnne Julius (doves). The basic results are shown in Table 4, and relevant descendant hierarchical classifications are shown on the following pages. All members attain a robust rate of ECU classification.
 
 <div class="mobile-overflow" markdown="1">
-
-|          | Total words | Unique words | Passive variables | ICUs | Classified ECUs | Lexical Classes |
-|----------|-------------:|--------------:|-------------------:|------:|-----------------:|-----------------:|
-| Sentance | 120,048     | 5,386        | 21                | 27   | 2,205 (82%)     | 5               |
-| King     | 260,243     | 12,096       | 33                | 74   | 6,431 (88%)     | 5               |
-| George   | 163,535     | 7,434        | 22                | 64   | 3,912 (82%)     | 5               |
-| Bean     | 155,759     | 9,037        | 28                | 35   | 2,976 (73%)     | 6               |
-| Wadhwani | 76,761      | 6,232        | 17                | 14   | 1,456 (79%)     | 4               |
-| Posen    | 80,209      | 7,084        | 19                | 16   | 1,476 (79%)     | 6               |
-| Allsopp  | 18,897      | 2,704        | 7                 | 2    | 324 (86%)       | 5               |
-| Julius   | 21,064      | 3,194        | 10                | 5    | 384 (67%)       | 5               |
-
+    <table>
+        <caption><em><strong>Table 4:</strong> ALCESTE Analysis: Basic statistics for individual member corpora.</em></caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th style="text-align:right">Total words</th>
+                <th style="text-align:right">Unique words</th>
+                <th style="text-align:right">Passive variables</th>
+                <th style="text-align:right">ICUs</th>
+                <th style="text-align:right">Classified ECUs</th>
+                <th style="text-align:right">Lexical Classes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sentance</td>
+                <td style="text-align:right">120,048</td>
+                <td style="text-align:right">5,386</td>
+                <td style="text-align:right">21</td>
+                <td style="text-align:right">27</td>
+                <td style="text-align:right">2,205 (82%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>King</td>
+                <td style="text-align:right">260,243</td>
+                <td style="text-align:right">12,096</td>
+                <td style="text-align:right">33</td>
+                <td style="text-align:right">74</td>
+                <td style="text-align:right">6,431 (88%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>George</td>
+                <td style="text-align:right">163,535</td>
+                <td style="text-align:right">7,434</td>
+                <td style="text-align:right">22</td>
+                <td style="text-align:right">64</td>
+                <td style="text-align:right">3,912 (82%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>Bean</td>
+                <td style="text-align:right">155,759</td>
+                <td style="text-align:right">9,037</td>
+                <td style="text-align:right">28</td>
+                <td style="text-align:right">35</td>
+                <td style="text-align:right">2,976 (73%)</td>
+                <td style="text-align:right">6</td>
+            </tr>
+            <tr>
+                <td>Wadhwani</td>
+                <td style="text-align:right">76,761</td>
+                <td style="text-align:right">6,232</td>
+                <td style="text-align:right">17</td>
+                <td style="text-align:right">14</td>
+                <td style="text-align:right">1,456 (79%)</td>
+                <td style="text-align:right">4</td>
+            </tr>
+            <tr>
+                <td>Posen</td>
+                <td style="text-align:right">80,209</td>
+                <td style="text-align:right">7,084</td>
+                <td style="text-align:right">19</td>
+                <td style="text-align:right">16</td>
+                <td style="text-align:right">1,476 (79%)</td>
+                <td style="text-align:right">6</td>
+            </tr>
+            <tr>
+                <td>Allsopp</td>
+                <td style="text-align:right">18,897</td>
+                <td style="text-align:right">2,704</td>
+                <td style="text-align:right">7</td>
+                <td style="text-align:right">2</td>
+                <td style="text-align:right">324 (86%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>Julius</td>
+                <td style="text-align:right">21,064</td>
+                <td style="text-align:right">3,194</td>
+                <td style="text-align:right">10</td>
+                <td style="text-align:right">5</td>
+                <td style="text-align:right">384 (67%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-
-***Table 4:** ALCESTE Analysis: Basic statistics for individual member corpora.*
-
-
 
 In order to explore the hypothesis, I return to the expectations established earlier. By qualitatively assessing the ECUs of each member, and using Alceste's factor analysis and cross-data analysis functions, I find examples of logical contraditions, preference development and preference stability.
 
@@ -224,7 +420,7 @@ In order to explore the hypothesis, I return to the expectations established ear
 
 A logical contradiction can be understood as a reversal of a member's position. Several members show evidence of this type of change.
 
-![Figure 4: Dendrograms for Sentance corpus][fig-4]
+![Figure 4: Dendrograms for Sentance corpus][fig-4]{.rounded}
 
 Andrew Sentance is perhaps the most striking case. In 2008, Sentance appears particularly concerned with the “downside risks” to economic activity and inflation, presenting this view consistently throughout this period. Some representative ECUs include:
 
@@ -252,7 +448,7 @@ A focus on downside risks shifts to concerns of upside pressures on inflation. T
 
 These changes are found in ECUs with a high Chi2 value and thus this espoused contradiction can be interpreted as significant. If we consider the change in context, it becomes even more significant. At the time of these statements, inflation was significantly above target (4.5%, 3.3% and 4.4%) (Bank of England 2011) and growth at the beginning and end of the period was below 0% (OECD 2012, World Bank 2013). In these crude terms, little had changed for the UK's economic outlook, but this member is arguing for a completely different strategy to ensure price stability. Indeed they voted for a different strategy – voting to cut interest rates throughout the period 2008-2009, and favouring increases thereafter. Already, we see evidence that members' actions are not as predictable as we might think, and that the appointment process might not feed through to the final policy decisions of members.
 
-![Figure 5: Dendrograms for Posen corpus][fig-5]
+![Figure 5: Dendrograms for Posen corpus][fig-5]{.rounded}
 
 Adam Posen is another case; his preference change concerns his views on the real effect of monetary policy on the broader economy. In 2009, he broadly endorses the notion of the 'neutrality of money' (Hayek and Klausinger 2012 p.110) – that, over the economic cycle, monetary policy has no real effect on growth or employment – and that the MPC could do very little to prevent financial crises.
 
@@ -282,7 +478,7 @@ In 2010, this position appears to soften, with Posen arguing the MPC can and sho
 
 Interestingly, Posen's voting record on the base rate doesn't reveal this preferences change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank's Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
 
-![Figure 6: Dendrograms for Bean corpus][fig-6]
+![Figure 6: Dendrograms for Bean corpus][fig-6]{.rounded}
 
 Charles Bean exhibits further evidence of preference change. In 2003 he argues that inflation targeting is a sufficient framework for preventing asset price bubbles and imbalances:
 
@@ -302,7 +498,7 @@ That a member believes the MPC's mandate is appropriately focussed on inflation 
 
 Where previously, Bean felt the policy framework in place was sufficient to ensure growth and price stability, he now seems to more explicitly recognise the limits of monetary policy. Again, all of these ECUs are significant at the 1% level and are strongly representative of the discourse in these periods.
 
-![Figure 7: Factor Analysis of Bean Corpus][fig-7]
+![Figure 7: Factor Analysis of Bean Corpus][fig-7]{.rounded}
 
 Factor analysis of this corpus shows a distinct shift in the pattern of the discourse (Figure 7). As with all factor analysis graphs presented here, the numbers and outlines represent the associations of classes, and shapes represent the characteristic passive variables. The 'date' tags are clearly divided along the vertical dimension, showing a shift in the focus of discourse before and after the 'flash-point' of the financial crisis in July 2007. It is plausible that the crisis was the cause of this shift in discourse and observed change in preferences. Again, it seems that the idea of stable preferenceS is contestable, further bringing the effect of the appointment process into question.
 
@@ -314,7 +510,7 @@ Based purely on this evidence, there is a convincing argument to be made against
 
 Preference development can be understood as strengthening an existing position such that a weak position on an issue or policy action becomes stronger, and that new position does not contradict the earlier position. The member most characteristic of this kind of preference change is Mervyn King.
 
-![Figure 8: Dendrograms for King corpus][fig-8]
+![Figure 8: Dendrograms for King corpus][fig-8]{.rounded}
 
 King's change is in relation to the level of policy activism necessary to control inflation. In 2004, King seems to take a relatively relaxed attitude to ensuring inflation expectations remain anchored to target:
 
@@ -362,7 +558,7 @@ On the topic of credibility, Sentance shows similar stability with strong warnin
 
 Sentance values the importance of credibility very highly – and consistently so. There is obvious preference stability in this case; a preference that the MPC takes action to ensure its credibility. Arguably these ECUs also show development but that would depend on a subjective interpretation of the strength of language used.
 
-![Figure 9: Dendrograms for George corpus][fig-9]
+![Figure 9: Dendrograms for George corpus][fig-9]{.rounded}
 
 Edward George is probably the best example of a member that shows stable preferences, showing stability across most of the areas that the corpus touches upon. The ECUs reveal a consistent view that George believes price stability is not an “end in itself”, often with identical phrasing.
 
@@ -394,16 +590,17 @@ The examples highlighted here are only typical of those found across all members
 
 The members yet to be mentioned (DeAnne Julius, Sushil Wadhwani, and Christopher Allsopp) did not fit into one of the three prior categories, and showed little clear evidence at all.
 
-![Figure 10: Dendrograms for Julius corpus][fig-10]
-![Figure 11: Dendrograms for Wadhwani corpus][fig-11]
+![Figure 10: Dendrograms for Julius corpus][fig-10]{.rounded}
+
+![Figure 11: Dendrograms for Wadhwani corpus][fig-11]{.rounded}
 
 Julius and Wadhwani have very little coherence in the topics they discuss in their respective corpora. The Alceste classifications show five distinct classes for Julius and four for Wadhwani. They broadly cover the same areas but an examination of the data by cross-data analysis doesn't show as rich a picture as other members. Using Julius as an example, the results highlight a focus primarily on IT as a driver of growth and inflation in 1999, and then a complete topic change in 2001 to discuss globalisation and international factors affecting the economy (Figure 12). A clear shift along the horizontal dimension is observed, moving away from Class 1 toward Class 5 in 2001; this represents a move away from talking about the real economy and 'big-picture' statistics, and instead focusing explicitly on the empirics of inflation-targeting. A similar pattern occurs for Wadhwani – though the diagrams are not comparable due to the unique datasets.
 
-![Figure 12: Factor Analysis for Julius corpus][fig-12]
+![Figure 12: Factor Analysis for Julius corpus][fig-12]{.rounded}
 
 If, as previously discussed, we view the formation of preferences as an acceptance or rejection of arguments later aggregated to form an opinion, then such drastic change in the focus of the discourse could be evidence of preference change but, more plausibly, the results are inconclusive. The notion of multiple factors aggregating to one singular preference – or even multiple underlying preferences – is not incompatible with these results but it is not clear how they interact in these cases. It is also worth noting that these shifts occur either side of the 'burst' of the dot-com bubble in 2000; this may have precipitated the change in focus.
 
-![Figure 13: Dendrograms for Allsopp corpus][fig-13]
+![Figure 13: Dendrograms for Allsopp corpus][fig-13]{.rounded}
 
 The case of Christopher Allsopp is a unique one. The data used in this instance is very small comparatively. Alceste is able to analyse, reliably, corpora of around 10,000 words or higher, and in this instance, the corpus was almost twice this minimum. However, the corpus only comprises two ICUs and neither the cross-data analysis, nor the factor analysis, shows a result indicative of the hypothesis or otherwise. The topics from the corpus are largely unrelated across time, which is likely why very few coherent results are found.
 
@@ -458,7 +655,7 @@ For the appointment process to significantly matter to the outputs of a monetary
 
 ## Appendix 1: Members of the MPC
 
-![Table 5: Overview of classes][app-1]
+![Table 5: Overview of classes][app-1]{.rounded}
 
 ## Appendix 2: Corpus preparation
 
@@ -482,7 +679,7 @@ Whilst this classification is imprecise, it is precise enough for the purposes o
 
 ## Appendix 4: Alceste Classes – Hawks, Doves and Centrists
 
-![Table 6: Alceste classes from all corpora][app-4]
+![Table 6: Alceste classes from all corpora][app-4]{.rounded}
 
 <div class="footnotes"  markdown="1">
 

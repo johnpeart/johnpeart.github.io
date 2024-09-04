@@ -4,7 +4,7 @@ excerpt: "If preferences are fixed, the Chancellor has a lot of control over mon
 categories:
   - government
   - data
-permalink: /dissertation
+permalink: "/dissertation/"
 ---
 
 > This dissertation was written as a summative part of my undergraduate studies at the London School of Economics.

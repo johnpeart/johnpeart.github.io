@@ -4,7 +4,7 @@ title: "Life stack"
 author: "John Peart"
 excerpt: "The stuff I use to manage my life."
 image: /posts/life-stack.png
-permalink: /life-stack
+permalink: "/life-stack/"
 categories:
 - personal
 posse:

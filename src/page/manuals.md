@@ -1,6 +1,8 @@
 ---
-layout: loop
+layout: "loop"
 title: "Manuals"
 collection: manual
-permalink: /manuals
+permalink: "/manuals/"
+aliases:
+- /manual/
 ---

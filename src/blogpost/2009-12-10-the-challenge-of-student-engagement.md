@@ -16,7 +16,7 @@ Good morning everyone.
 
 I’ll start by extending a thank-you to the QSN for inviting me to the event today and allowing me to speak on an issue that is really at the core of the student experience.
 
-The ways in which students engage in the learning process can make or break the experience they have in Higher Education*. *Getting students involved in shaping their learning process can fundamentally change the outcome of that students time at university, and that’s why it is absolutely vital that we attempt to engage all students, from all backgrounds, at all times.
+The ways in which students engage in the learning process can make or break the experience they have in Higher Education. Getting students involved in shaping their learning process can fundamentally change the outcome of that students time at university, and that’s why it is absolutely vital that we attempt to engage all students, from all backgrounds, at all times.
 
 Whilst this a fantastic idea in theory, in practice making students actively engage with the decision making process and engaging in a way that allows them to shape their learning is more difficult.
 

@@ -1,6 +1,6 @@
 ---
 layout: loop
-title: Blogposts
+title: Blog posts
 collection: blogpost
 permalink: /blogposts/
 aliases: 

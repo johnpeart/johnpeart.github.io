@@ -13,7 +13,7 @@ figure dl {
     column-gap: $container-padding * 2;
     row-gap: $container-padding;
 
-    background: var(--dl--background);
+    @include glow();
 }
 
 dd, dt {

@@ -85,17 +85,25 @@ Introduce each agenda item as the meeting progresses. Very briefly set context f
 
 Ask direct questions of specific people. Don’t just open up each item for general comments from everyone; that’s the fastest way to invite people to talk over each other and to lose control of the agenda. Instead, ask specific people to comment and ask them a direct question.
 
-|:----|:--|
-| **Don’t ask**  | “Does anyone have any comments?” |
-| **Do ask** | “Dan, what do you think this means for your delivery timelines?” |
-{:.first-col-min-width-25}
+<figure>
+    <dl>
+        <dt>Don’t ask</dt>
+        <dd>“Does anyone have any comments?”</dd>
+        <dt>Do ask</dt>
+        <dd>“Dan, what do you think this means for your delivery timelines?”</dd>
+    </dl>
+</figure>
 
 For larger meetings, ask participants to speak in a consistent pattern. Use your roll-call list to ask each participant to speak in turn when you are soliciting feedback. Participants will be less tempted to interrupt if they know their chance to speak will arise predictably.
 
-|:--|:--|
-| **Don’t ask**  | “Does *anyone* have any comments?” |
-| **Do ask** | “*Anna*, do you have any other business?<br> “*Dan*, do you have any other business?” |
-{:.first-col-min-width-25}
+<figure>
+    <dl>
+        <dt>Don’t ask</dt> 
+        <dd>“Does <em>anyone</em> have any comments?”</dd>
+        <dt>Do ask</dt> 
+        <dd>“<em>Anna</em>, do you have any other business?<br> “<em>Dan</em>, do you have any other business?”</dd>
+    </dl>
+</figure>
 
 ## At the end of the meeting
 

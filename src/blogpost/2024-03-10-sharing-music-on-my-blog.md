@@ -32,8 +32,7 @@ As I've added post formats, I've tried to emulate physical things. Notes are sty
 
 I tried thinking about a physical thing that represented music and I landed on something a bit weird but also cool: the sixth-generation iPod nano.
 
-{:.featured}
-![A recreation of an iPod nano (6th Generation)](/assets/images/posts/2024/03/10/sharing-music-on-my-blog/ipod-nano.jpg)
+![A recreation of an iPod nano (6th Generation)](/assets/images/posts/2024/03/10/sharing-music-on-my-blog/ipod-nano.jpg){.featured}
 
 Using a drawing from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:6G_IPod_Nano.svg) as a starting point, I've split the iPod into two layers: the device and the screen reflection. This deconstructed image allows me to dynamically insert artwork for whatever music I'm sharing in a re-usable, low effort way.
 

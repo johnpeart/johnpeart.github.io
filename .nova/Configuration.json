@@ -1,6 +1,7 @@
 {
-  "workspace.color" : 6,
-  "workspace.name" : "www.johnpe.art 11ty",
+  "workspace.art_style" : 0,
+  "workspace.color" : 13,
+  "workspace.name" : "www.johnpe.art",
   "workspace.preview_type" : "custom",
   "workspace.preview_url" : "localhost:8080"
 }

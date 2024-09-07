@@ -4,6 +4,7 @@ node_modules/
 # Eleventy output directory
 _output/
 _site/
+_data/webmentions.json
 
 # Logs
 npm-debug.log*

@@ -1,66 +1,66 @@
 <head prefix="og: http://ogp.me/ns#">
 
-    {% if env.ELEVENTY_RUN_MODE == "serve" %}
-        {% assign siteUrl = 'http://localhost:8080' %}
-    {% else %}
-        {% assign siteUrl = site.url %}
-    {% endif %}
+    {%- if env.ELEVENTY_RUN_MODE == "serve" %}
+        {%- assign siteUrl = 'http://localhost:8080' %}
+    {%- else %}
+        {%- assign siteUrl = site.url %}
+    {%- endif %}
     
-    {% assign author = "John Peart" %}
-	{% assign pageUrl = siteUrl | append: page.url | replace: 'index.html','' %}
+    {%- assign author = "John Peart" %}
+	{%- assign pageUrl = siteUrl | append: page.url | replace: 'index.html','' %}
     
 	{%- if collection == "blogpost" and layout != "loop" %}
-		{% assign title = title | prepend: "📝 " | strip_html | truncate: 200 %}
-		{% assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
-		{% assign type = "article" %}
+		{%- assign title = title | prepend: "📝 " | strip_html | truncate: 200 %}
+		{%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign type = "article" %}
 	{%- elsif collection == "now" and layout != "loop" %}
-		{% assign title = title | prepend: "🕒 " | strip_html | truncate: 200 %}
-		{% assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
-		{% assign type = "article" %}
+		{%- assign title = title | prepend: "🕒 " | strip_html | truncate: 200 %}
+		{%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign type = "article" %}
 	{%- elsif collection == "weeknote" and layout != "loop" %}
-		{% assign title = date  | date: "%d %B %Y" | prepend: "📅 Week note: " | append: " • " | append: title | strip_html | truncate: 200 %}
-		{% assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
-		{% assign type = "article" %}
+		{%- assign title = date  | date: "%d %B %Y" | prepend: "📅 Week note: " | append: " • " | append: title | strip_html | truncate: 200 %}
+		{%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign type = "article" %}
 	{%- elsif collection == "reply" and layout != "loop" %}
-		{% assign title = reply_to.author.name | prepend: "↩️ In reply to " | strip_html | truncate: 200 %}
-		{% assign description = page.content | strip_html | truncate: 200 %}
-		{% assign type = "reply" %}
-		{% assign image = siteUrl | append: site.image-path | append: site.reply-image %}
+		{%- assign title = reply_to.author.name | prepend: "↩️ In reply to " | strip_html | truncate: 200 %}
+		{%- assign description = page.content | strip_html | truncate: 200 %}
+		{%- assign type = "reply" %}
+		{%- assign image = siteUrl | append: site.image-path | append: site.reply-image %}
 	{%- elsif collection == "note" and layout != "loop" %}
-		{% assign title = title | prepend: "🗒️ " | strip_html | truncate: 200 %}
-		{% assign description = page.content | strip_html | truncate: 200 %}
-		{% assign type = "note" %}
+		{%- assign title = title | prepend: "🗒️ " | strip_html | truncate: 200 %}
+		{%- assign description = page.content | strip_html | truncate: 200 %}
+		{%- assign type = "note" %}
     {%- elsif collection == "list" and layout != "loop" %}
-		{% assign title = title | prepend: "☑️ " | strip_html | truncate: 200 %}
-		{% assign description = page.content | strip_html | truncate: 200 %}
-		{% assign type = "note" %}
+		{%- assign title = title | prepend: "☑️ " | strip_html | truncate: 200 %}
+		{%- assign description = page.content | strip_html | truncate: 200 %}
+		{%- assign type = "note" %}
 	{%- elsif collection == "share" and layout != "loop" %}
-		{% assign title = reply_to.post.title | prepend: "🔁 Commented on “" | append: "”" | strip_html | truncate: 200 %}
-		{% assign description = page.content | strip_html | truncate: 200 %}
-		{% assign type = "share" %}
+		{%- assign title = reply_to.post.title | prepend: "🔁 Commented on “" | append: "”" | strip_html | truncate: 200 %}
+		{%- assign description = page.content | strip_html | truncate: 200 %}
+		{%- assign type = "share" %}
 	{%- elsif collection == "music" and layout != "loop" %}
-		{% assign title = title | prepend: "🎧 Shared “" | append: "” by " | append: artist | strip_html %}
-		{% assign description = page.content | append: "by " | append: artist | strip_html | truncate: 200 %}
-		{% assign type = "music" %}
+		{%- assign title = title | prepend: "🎧 Shared “" | append: "” by " | append: artist | strip_html %}
+		{%- assign description = page.content | append: "by " | append: artist | strip_html | truncate: 200 %}
+		{%- assign type = "music" %}
 	{%- elsif collection == "photo" and layout != "loop" %}
-		{% assign title = title | prepend: "📷 " | strip_html | truncate: 200 %}
-		{% assign description = page.content | strip_html | truncate: 200 %}
-		{% assign type = "photo" %}
+		{%- assign title = title | prepend: "📷 " | strip_html | truncate: 200 %}
+		{%- assign description = page.content | strip_html | truncate: 200 %}
+		{%- assign type = "photo" %}
 	{%- elsif collection == "game" and layout != "loop" %}
-		{% assign title = title | prepend: "🎮 Shared ”" | append: "“" | strip_html | truncate: 200 %}
-		{% assign description = page.content | strip_html | truncate: 200 %}
-		{% assign type = "game" %}
+		{%- assign title = title | prepend: "🎮 Shared ”" | append: "“" | strip_html | truncate: 200 %}
+		{%- assign description = page.content | strip_html | truncate: 200 %}
+		{%- assign type = "game" %}
 	{%- elsif title -%}
-		{% assign title = title | strip_html | strip_newlines | truncate: 200 %}
-		{% assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
-		{% assign type = "article" %}
+		{%- assign title = title | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign type = "article" %}
 	{%- else -%}
-		{% assign title = site.title | strip_html | strip_newlines | truncate: 200 %}
-		{% assign description = site.description | strip_html | strip_newlines | truncate: 200 %}
-		{% assign type = "website" %}
+		{%- assign title = site.title | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign description = site.description | strip_html | strip_newlines | truncate: 200 %}
+		{%- assign type = "website" %}
 	{%- endif -%}
     
-	{% capture image %}{% openGraphScreenshotURL %}{% endcapture %}
+	{%- capture image %}{%- openGraphScreenshotURL %}{%- endcapture %}
     
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -77,31 +77,31 @@
 	<link rel="index" href="{{ siteUrl }}">
 	<link rel="canonical" href="{{ pageUrl }}">
 	<!-- RSS -->
-	{% for feed in site.feed %}
-	<link rel="alternate" href="{{ siteUrl | append: feed.permalink }}" type="application/rss+xml" title="{{ "John Peart • " | append: feed.title }}">
-	{% endfor %}
+	{%- for feed in collections.feed %}
+	<link rel="alternate" href="{{ siteUrl | append: feed.data.permalink }}" type="application/rss+xml" title="{{ "John Peart • " | append: feed.data.title }}">
+	{%- endfor %}
 	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
 	<link rel="archives" href="{{ siteUrl | append: '/archives' }}">
 
 	<!-- Gives information about the author -->
 	<link rel="me" href="{{ siteUrl }}" type="text/html">
-	{% if site.linkedin %}<link rel="me" href="{{ site.linkedin.url }}" type="text/html">{% endif %}
-	{% if site.github %}<link rel="me" href="{{ site.github.url }}" type="text/html">{% endif %}
-	{% if site.mastodon %}<link rel="me" href="{{ site.mastodon.url }}" type="text/html">
-    <meta name="fediverse:creator" content="{{ site.mastodon.handle }}" />{% endif %}
-	{% if site.bluesky %}<link rel="me" href="{{ site.bluesky.url }}" type="text/html">{% endif %}
-	{% if site.webmention-io.email %}<link href="mailto:{{ site.webmention-io.email }}" rel="me">{% endif %}
-	{% if site.gravatar %}<link href="{{ site.gravatar.url }}" rel="me">{% endif %}
+	{%- if site.linkedin %}<link rel="me" href="{{ site.linkedin.url }}" type="text/html">{%- endif %}
+	{%- if site.github %}<link rel="me" href="{{ site.github.url }}" type="text/html">{%- endif %}
+	{%- if site.mastodon %}<link rel="me" href="{{ site.mastodon.url }}" type="text/html">
+    <meta name="fediverse:creator" content="{{ site.mastodon.handle }}" />{%- endif %}
+	{%- if site.bluesky %}<link rel="me" href="{{ site.bluesky.url }}" type="text/html">{%- endif %}
+	{%- if site.webmention-io.email %}<link href="mailto:{{ site.webmention-io.email }}" rel="me">{%- endif %}
+	{%- if site.gravatar %}<link href="{{ site.gravatar.url }}" rel="me">{%- endif %}
     
 
 	<!-- Web mentions -->
-	{% if site.webmentions %}
+	{%- if site.webmentions %}
 		<link rel="dns-prefetch" href="https://webmention.io">
 		<link rel="preconnect" href="https://webmention.io">
 		<link rel="preconnect" href="ws://webmention.io:8080">
 		<link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
 		<link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
-	{% endif %}
+	{%- endif %}
 
 	<!-- Facebook Open Graph settings -->
 	<meta property="og:url" 			content="{{ pageUrl }}">

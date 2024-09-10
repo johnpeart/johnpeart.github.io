@@ -14,7 +14,7 @@ figure,
     margin-bottom: $container-padding * 2;
     border-radius: $border-radius * 2;
     @include mobile() {
-        @include glow($no-hover: true, $colour: false);
+        @include glass(20px, 2);
     }
     @include tablet {
         width: containers("tablet") + 100px;
@@ -37,12 +37,13 @@ figure,
         
         border-top-right-radius: 0;
         border-top-left-radius: 0;
+        
         @include typography($smaller, "default");
 
         @include tablet-up {
             -webkit-backdrop-filter: blur(20px);
                     backdrop-filter: blur(20px);
-            @include glow($no-hover: true);
+            @include glass(20px, 2);
             position: absolute;
             bottom: -$container-padding;
             left: -$container-padding;

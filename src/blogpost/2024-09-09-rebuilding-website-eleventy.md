@@ -16,7 +16,7 @@ I know very little[^ruby] of the programming language underpinning Jekyll -- Rub
 
 I've added lots of different "collections" to the site. I hacked together [my own plugin for using "epoch" time to create the post URLs](https://github.com/johnpeart/jekyll-epoch-time). I've even managed to add fediverse support, in the form of Webmentions. 
 
-But the infrastructure is showing its age. As my site has grown in complexity, and I've had new ideas, my build times have started creeping up and my almost non-existent knowledge of the Ruby programming language has become a constrain on my ability to iterate the site in directions I’ve wanted.
+But the infrastructure is showing its age. As my site has grown in complexity, and I've had new ideas, my build times have started creeping up and my almost non-existent knowledge of the Ruby programming language has become a constraint on my ability to iterate the site in directions I’ve wanted.
 
 So what’s the logical response to feeling marginally restricted in iterating a perfectly functional website? *Chuck it all away, of course!*
 

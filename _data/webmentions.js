@@ -101,7 +101,7 @@ module.exports = async function () {
             children: mergeWebmentions(cache, feed),
         };
         writeToCache(webmentions);
-        // return webmentions;
+        return webmentions;
     }
 
 };

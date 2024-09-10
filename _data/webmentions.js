@@ -93,18 +93,15 @@ module.exports = async function () {
         console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
     }
 
-    if (process.env.NODE_ENV === 'production') {
     const feed = await fetchWebmentions(cache.lastFetched);
+    
     if (feed) {
         const webmentions = {
             lastFetched: new Date().toISOString(),
             children: mergeWebmentions(cache, feed),
         };
         writeToCache(webmentions);
-        return webmentions;
-    }
-    } else {
-        console.log(">>> Skipping fetch, not in production environment.");
+        // return webmentions;
     }
 
 };

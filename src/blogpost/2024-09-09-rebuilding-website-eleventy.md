@@ -81,7 +81,7 @@ Not sure if I like this change, but I'll roll with it for now, until I inevitabl
 There were some snags along the way, which might mean I've broken stuff (time will tell).
 
 1. **~~Redirects~~ Aliases**: Jekyll has an excellent and robust redirects plugin. Eleventy's community plugin is... less robust. I've managed to make it work, but it took a lot of fiddling.
-2. **Dates and times**: You a throw pretty much any date in any format at Jekyll and it'll figure out a way to make it work. Eleventy is *far* more temperamental. The dates must be in `YYYY-MM-DDZHH:MM:SS+00:00` format (e.g. `2024-06-31Z09:00:00+01:00`) or it throws a wobbly and just won't build. 
+2. **Dates and times**: You a throw pretty much any date in any format at Jekyll and it'll figure out a way to make it work. Eleventy is *far* more temperamental. The dates must be in `YYYY-MM-DDTHH:MM:SS+00:00` format (e.g. `2024-06-31T09:00:00+01:00`) or it throws a wobbly and just won't build. 
 
 It took me longer than it should have done to figure out how to resolve these issues; the Eleventy documentation is – generously – *unclear*.
 

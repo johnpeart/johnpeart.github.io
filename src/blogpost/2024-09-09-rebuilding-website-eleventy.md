@@ -6,6 +6,9 @@ excerpt: "I've moved my website from Jekyll to Eleventy, and added some new feat
 categories:
 - indieweb
 - making
+posse:
+- https://mastodon.social/@johnpeart/113111913706317855
+- 
 ---
 
 For ages now, this humble website has been built using [Jekyll](//jekyllrb.org) – a static site generator – and hosted on Github pages.

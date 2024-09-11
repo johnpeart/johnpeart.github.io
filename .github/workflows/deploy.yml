@@ -43,6 +43,8 @@ jobs:
         uses: actions/configure-pages@v4
       
       - name: Build site
+        env:
+          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
         run: npm run build
         
       - name: Upload artifact

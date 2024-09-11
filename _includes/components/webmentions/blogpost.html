@@ -54,7 +54,7 @@
                         {{ mention.content.text | strip_html | markdownify | replace: current_url, "QUOTE" | truncatewords: 50, "…" }}
                         {% if mention.wm-source -%}<p><a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow" title="Go to {% if mention.author.name != '' %}{{ mention.author.name }}'s{% else %}the{% endif %} original post to read the full content">Read more</a></p>{%- endif %}
                     {% else %}
-                        {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | markdownify  }}
+                        {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | replace: "????", "" | replace: "???", "" | markdownify  }}
                     {% endif %}
                 </div>
             </section>

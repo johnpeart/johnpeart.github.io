@@ -9,8 +9,8 @@
 		<title>{{ site.title | xml_escape }}{% if filter %} • {{ filter | capitalize | append: " " | remove: "post " }}posts {% else %} • All posts{% endif -%}</title>
 		<description>{{ site.description | xml_escape }}</description>
 		<image>
-			<url>{{ siteUrl | append: site.social-media-image }}</url>
-			<title>{{ site.title | xml_escape }}{% if filter %} • {{ filter | capitalize }} posts {% else %} • All posts{% endif -%}</title>
+			<url>https://www.johnpe.art/assets/images/site/favicon-large-png.png</url>
+			<title>{{ site.title | xml_escape }}</title>
 			<link>{{ siteUrl }}/</link>
 		</image>
 		<link>{{ siteUrl }}/</link>
@@ -59,12 +59,9 @@
 	        {%- for category in post.data.categories %}
 	        <category>{{ category | xml_escape }}</category>
 	        {% endfor -%}
-	        {%- for cat in post.categories %}
-	        <category>{{ cat | xml_escape }}</category>
-	        {% endfor -%}
 	        <description>
-		        {%- if image -%}
-		        &lt;img src=&quot;{{ image }}&quot; alt=&quot;{{ post.image-alt }}&quot; /&gt;
+		        {%- if post.data.image -%}
+		        &lt;img src=&quot;{{ post.data.image }}&quot; alt=&quot;{{ post.data.image-alt }}&quot; /&gt;
                 {%- endif -%}
 		        
 		        {%- if post.data.collection == "list" %}

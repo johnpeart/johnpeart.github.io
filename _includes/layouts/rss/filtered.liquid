@@ -7,7 +7,7 @@
 		<title>{{ site.title | xml_escape }} • {{ title }}</title>
 		<description>{{ site.description | xml_escape }}</description>
 		<image>
-			<url>https://v1.screenshot.11ty.dev/https%3A%2F%2Fjohnpe.art%2Fsocial%2F{{ title | downcase | remove: " " }}%2F/opengraph/_1725952298148</url>
+			<url>https://www.johnpe.art/assets/images/site/favicon-large-png.png</url>
 			<title>{{ site.title | xml_escape }} • {{ filter | capitalize }}</title>
 			<link>{{ site.url }}</link>
 		</image>
@@ -59,12 +59,9 @@
 	        {%- for category in post.data.categories %}
 	        <category>{{ category | xml_escape }}</category>
 	        {%- endfor -%}
-	        {%- for cat in post.categories %}
-	        <category>{{ cat | xml_escape }}</category>
-	        {%- endfor -%}
 	        <description>
 		        {%- if image -%}
-		        &lt;img src=&quot;{{ image }}&quot; alt=&quot;{{ post.image-alt }}&quot; /&gt;
+		        &lt;img src=&quot;{{ post.data.image }}&quot; alt=&quot;{{ post.data.image-alt }}&quot; /&gt;
                 {%- endif -%}
 
 		        {%- if post.data.collection == "list" %}

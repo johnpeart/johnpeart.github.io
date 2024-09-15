@@ -10,7 +10,8 @@ body[id$='photo'] {
 
     header.post-title.note,
     header.post-title.list,
-    header.post-title.photo,
+	header.post-title.photo,
+	header.post-title.game,
     header.post-title.music,
     header.post-title.weeknote {
         margin: $container-padding * 4 auto;

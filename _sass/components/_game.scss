@@ -1,0 +1,83 @@
+a.music-link {
+    display: block;
+    position: relative;
+
+    &:focus {
+        background: var(--link-focusBackground);
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+
+.gamepak {
+    display: grid;
+	grid-template-rows: 197fr 380fr 108fr;
+	grid-template-columns: 100fr 40fr 320fr 40fr 100fr;
+	margin: 0 auto;
+
+    width: 100%;
+	max-width: 300px;
+	@include desktop() {
+    	max-width: 400px;
+	}
+    align-content: center;
+    justify-content: center;
+    aspect-ratio: 600/685;
+    background-image: url('/assets/images/site/gamepak.svg');
+}
+
+.gamepak-artwork {
+    align-self: center;
+    justify-self: center;
+	width: 100%;
+	height: 100%;
+    grid-column: 3;
+    grid-row: 2;
+	image-rendering: pixelated;
+	filter: contrast(150%);
+
+	// x 140, y 197
+	// w 320, h 380
+	aspect-ratio: 320/380;
+}
+
+.gamepak-label {
+	font-family: ui-monospace, monospace;
+	justify-self: center;
+	line-height: 20px;
+	align-self: center;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.gamepak-label--left {
+	grid-column: 2;
+	grid-row: 2;
+
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	transform: scale(-1, -1);
+}
+
+.gamepak-label--right {
+	display: inline-block;
+	grid-column: 4;
+	grid-row: 2;
+
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+}
+
+h1.gamepak-metadata-title {
+    @include typography($large, "default");
+	margin-top: $container-padding * 2 !important;
+}
+
+h1.gamepak-metadata-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

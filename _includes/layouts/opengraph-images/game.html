@@ -1,0 +1,65 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+    {% if env.ELEVENTY_RUN_MODE == "serve" %}
+        {% assign siteUrl = 'http://localhost:8080' %}
+    {% else %}
+        {% assign siteUrl = site.url %}
+    {% endif %}
+
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+    	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
+        <style>
+
+            html, body {
+                margin: 0;
+                padding: 0;
+
+                background: #1d1d1d
+            }
+            #opengraph {
+                display: grid;
+
+                padding: 45px;
+                width: 1200px;
+                height: 630px;
+
+                background: #fafafa;
+
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+
+                align-items: center;
+                justify-items: center;
+
+                overflow: hidden;
+            }
+			.game.post-title {
+				margin: 0 !important;
+			}
+			.gamepak {
+				width: 400px;
+				max-width: 400px !important;
+			}
+        </style>
+    </head>
+
+    <body id="blogpost">
+        <div id="opengraph">
+            <article id="post-content" class="game h-entry">
+                <header class="game post-title">
+                    <div class="gamepak">
+						<span class="gamepak-label gamepak-label--left">{{ post.data.label | default: post.data.title }}</span>
+						<img class="gamepak-artwork" src="{{ post.data.artwork }}" loading="lazy"/>
+						<span class="gamepak-label gamepak-label--right">{{ post.data.date | date: "%d %b %Y" }}</span>
+					</div>
+                </header>
+            </article>
+        </div>
+    </body>
+
+</html>
+

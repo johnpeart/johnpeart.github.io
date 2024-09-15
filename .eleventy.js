@@ -9,12 +9,12 @@ const markdownItFootnote = require("markdown-it-footnote");
 module.exports = function(eleventyConfig) {
     // Pass environment variables to templates
     eleventyConfig.addGlobalData("env", process.env);
-    
+
     // Redirects plugin
     eleventyConfig.addPlugin(redirectsPlugin, {
         template: "clientSide",
     });
-    
+
     // Configure markdown-it with options and plugins
     const markdownOptions = {
         html: true,
@@ -65,7 +65,7 @@ module.exports = function(eleventyConfig) {
     // Collection Names
     const collections = [
         "about", "blogpost", "goal", "idea", "list",
-        "manual", "music", "note", "now", "photo",
+        "manual", "music", "note", "now", "photo", "game",
         "podcast", "reply", "share", "weeknote", "wishlist",
         "feed", "page"
     ];
@@ -79,13 +79,13 @@ module.exports = function(eleventyConfig) {
 
     // Collections to include in "allPosts"
     const includedInAllPosts = [
-        "blogpost", "list", "music", "note", 
-        "photo", "share", "weeknote"
+        "blogpost", "list", "music", "note",
+        "photo", "game", "share", "weeknote"
     ];
 
     // Combined "allPosts" collection, sorted by date
     eleventyConfig.addCollection("allPosts", function(collectionApi) {
-        return includedInAllPosts.flatMap(collection => 
+        return includedInAllPosts.flatMap(collection =>
             collectionApi.getFilteredByGlob(`./src/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
@@ -98,7 +98,7 @@ module.exports = function(eleventyConfig) {
         return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
     });
 
-    
+
     return {
         markdownTemplateEngine: "liquid",
         htmlTemplateEngine: "liquid",

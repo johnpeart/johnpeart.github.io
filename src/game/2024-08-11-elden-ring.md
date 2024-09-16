@@ -5,7 +5,7 @@ label: "Platinum"
 artwork: "/assets/images/posts/games/elden-ring.png"
 ---
 
-This must be the hardest, most infuriating game I have ever played. Elden Ring likes to teach you a lesson, kick you when you think you're getting good at it, and keeps kicking you until you actually *get* good at it.
+This must be the hardest, most infuriating game I have ever played. Elden Ring likes to teach you a lesson, kick you when you think you're getting good at it, and keep kicking you until you actually *get* good at it.
 
 More than 200 hours of gameplay later, and I have finally completed the game not once, not twice, but three times to achieve the platinum trophy.
 

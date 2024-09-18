@@ -4,3 +4,7 @@ title: "inFAMOUS First Light"
 label: "Platinum"
 artwork: "/assets/images/posts/games/infamous-first-light.png"
 ---
+
+The sequel to [inFAMOUS Second Son](/game/1725741300/), focusing on the backstory of a character featured in that game.
+
+I played and finished this game years ago too; and now I've gone back and mopped up the final trophies. 

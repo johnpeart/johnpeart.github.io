@@ -12,8 +12,8 @@ a.music-link {
 
 .gamepak {
     display: grid;
-	grid-template-rows: 182fr 380fr 93fr;
-	grid-template-columns: 85fr 40fr 320fr 40fr 85fr;
+	grid-template-rows: 181.5fr 380fr 93fr;
+	grid-template-columns: 85fr 400fr 85fr;
 	margin: 0 auto;
 
     width: 100%;
@@ -23,8 +23,37 @@ a.music-link {
 	}
     align-content: center;
     justify-content: center;
-    aspect-ratio: 570/655;
     background-image: url('/assets/images/site/gamepak.svg');
+
+    &:before {
+        content: "";
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
+        border-radius: 3px;
+        background-blend-mode: overlay;
+        filter: brightness(1) contrast(1);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        z-index: 9999;
+    }
+}
+
+.gamepak-label {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+	width: 100%;
+	height: 100%;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 40fr 320fr 40fr;
+    background: #fff;
+    border-radius: 4px;
 }
 
 .gamepak-artwork {
@@ -32,17 +61,16 @@ a.music-link {
     justify-self: center;
 	width: 100%;
 	height: 100%;
-    grid-column: 3;
-    grid-row: 2;
 	image-rendering: pixelated;
 	filter: contrast(150%);
+    grid-column: 2;
 
 	// x 140, y 197
 	// w 320, h 380
 	aspect-ratio: 320/380;
 }
 
-.gamepak-label {
+.gamepak-text {
 	font-family: ui-monospace, monospace;
 	justify-self: center;
 	line-height: 1;
@@ -52,22 +80,21 @@ a.music-link {
 	font-weight: 900;
 	text-transform: uppercase;
     color: var(--black);
-    opacity: 0.7;
 }
 
-.gamepak-label--left {
-	grid-column: 2;
-	grid-row: 2;
+.gamepak-text--left {
+	grid-column: 1;
+	grid-row: 1;
 
 	writing-mode: vertical-rl;
 	text-orientation: sideways;
 	transform: scale(-1, -1);
 }
 
-.gamepak-label--right {
+.gamepak-text--right {
 	display: inline-block;
-	grid-column: 4;
-	grid-row: 2;
+	grid-column: 3;
+	grid-row: 1;
 
 	writing-mode: vertical-rl;
 	text-orientation: sideways;

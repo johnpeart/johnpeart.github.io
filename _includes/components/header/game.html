@@ -1,7 +1,9 @@
 <div class="gamepak">
-	<span class="gamepak-label gamepak-label--left">{{ label | default: title }}</span>
-	<img class="gamepak-artwork" src="{{ artwork }}" loading="lazy"/>
-	<span class="gamepak-label gamepak-label--right">{{ date | date: "%d %b %Y" }}</span>
+    <div class="gamepak-label">
+	    <span class="gamepak-text gamepak-text--left">{{ label | default: title }}</span>
+	    <img class="gamepak-artwork" src="{{ artwork }}" loading="lazy"/>
+	    <span class="gamepak-text gamepak-text--right">{{ date | date: "%d %b %Y" }}</span>
+    </div>
 </div>
 <section class="gamepak-metadata p-name">
 	<h1 class="gamepak-metadata-title">{{ title }}</h1>

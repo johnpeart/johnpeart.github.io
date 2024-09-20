@@ -5,6 +5,9 @@ excerpt: "It’s one of my new year’s resolutions: and here’s the plan."
 image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
+
+aliases:
+- /2019/01/27/departmemt-of-bad-ideas
 ---
 
 > **Update:** The Department for Bad Ideas will launch in 2020. It will look slightly different to the format described below.

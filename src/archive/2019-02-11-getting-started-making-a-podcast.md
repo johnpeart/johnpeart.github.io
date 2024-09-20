@@ -5,6 +5,10 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas. This series
 image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
+
+aliases:
+- /2019/02/11/getting-started-making-a-podcast/
+- /2019/02/11/getting-started-department-of-bad-ideas
 ---
 
 If you haven’t heard, [I’m making a podcast](/2019/01/27/department-of-bad-ideas) called [**the Department of Bad Ideas**](//badideas.podcast.johnpe.art). I’ve never made a podcast before though, so I’m learning the ropes from scratch.

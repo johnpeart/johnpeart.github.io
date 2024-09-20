@@ -7,6 +7,9 @@ permalink: /2015/04/20/eurovision-first-listens
 categories:
   - eurovision
 
+aliases:
+- /2015/04/20/eurovision-2015-entries-lightning-reviews/
+
 eurovision-entries:
 - country: "Moldova"
   emoji: "🇲🇩"

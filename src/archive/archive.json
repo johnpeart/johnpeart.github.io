@@ -1,0 +1,7 @@
+{
+   "layout": "blogpost",
+   "collection": "blogpost",
+   "categories": "archive",
+   "permalink": "/archive/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"
+
+}

@@ -5,6 +5,10 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
+
+aliases:
+- /2019/05/27/rss-feeds-making-a-podcast/
+- /2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting/
 ---
 
 As I mentioned in [my last post](/2019/02/11/department-of-bad-ideas-hosting-and-website), getting a podcast on to the Internet has turned out to be more difficult than I thought it would be. Creating the basic website was fairly straightforward, thanks to some [tools I’d used before](https://jekyllrb.com). Where I came unstuck was the RSS feed.

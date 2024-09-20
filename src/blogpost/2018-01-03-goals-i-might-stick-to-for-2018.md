@@ -4,6 +4,9 @@ author: John Peart
 excerpt: "I'm trying a new way of setting my New Year's resolutions, in a probably hopeless attempt to actually stick to them."
 categories:
   - personal
+
+aliases:
+- /2018/01/03/setting-goals-i-might-stick-to-for-2018
 ---
 
 I think I was about 10 year’s old, having failed to give up my Super Nintendo for Lent, that I first realised I just don’t have the willpower for grandiose personal betterment. And I’m pretty sure that I’ve never succeeded at a New Year’s resolution: the ultimate way to set yourself up for personal failure.

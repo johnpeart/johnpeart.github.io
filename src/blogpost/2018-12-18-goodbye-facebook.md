@@ -5,6 +5,8 @@ excerpt: "I'm going cold turkey on Facebook for 2019."
 categories:
   - digital
   - personal
+aliases:
+- /2018/12/18-bye-bye-facebook
 ---
 
 Like most people, I'm pretty bad at keeping New Year's Resolutions. I've been trying a few [new ways of sticking to them](/2018/01/03/setting-goals-i-might-stick-to-for-2018), with [varying degrees of success](/2018/12/16/ive-failed-my-2018-goals). As we approach 1 January 2019, I've decided there's one resolution I can stick to: I'm quitting Facebook.

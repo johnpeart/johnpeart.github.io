@@ -7,6 +7,9 @@ image: /posts/eurovision.png
 categories:
   - eurovision
 
+aliases:
+- /2017/04/21/eurovision-2017-first-listens/
+
 eurovision-entries:
 - country: "Sweden"
   song: "I Can't Go On"

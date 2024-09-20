@@ -5,6 +5,8 @@ excerpt: "Better luck next time, eh?"
 image: /posts/goals.png
 categories:
   - personal
+aliases:
+- /2018/12/16/ive-failed-my-2018-goals/
 ---
 
 On 1 January 2018, I set myself five goals for the year. They were that I would:

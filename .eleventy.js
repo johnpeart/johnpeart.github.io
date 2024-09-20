@@ -67,7 +67,7 @@ module.exports = function(eleventyConfig) {
         "about", "blogpost", "goal", "idea", "list",
         "manual", "music", "note", "now", "photo", "game",
         "podcast", "reply", "share", "weeknote", "wishlist",
-        "feed", "page"
+        "feed", "page", "archive"
     ];
 
     // Dynamically add collections

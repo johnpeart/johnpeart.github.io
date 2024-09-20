@@ -5,6 +5,8 @@ excerpt: Sharing a few simple tips to help you communicate better with your coll
 categories:
   - work
   - digital
+aliases:
+- /2020/03/28/better-communicating-when-working-remotely/
 ---
 
 Many of us are adapting to working exclusively from our homes at the moment. That mean’s we’re learning to communicate with each other all over again.

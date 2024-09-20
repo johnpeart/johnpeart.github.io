@@ -3,6 +3,8 @@ title: "A year with Apple Watch"
 excerpt: "Last year, I wrote about what it was like living with Apple Watch after 2 weeks. 12 months on, is it any use?"
 categories:
   - digital
+aliases:
+- /2016/05/05/a-year-with-apple-watch/
 ---
 
 Exactly 11 months and 2 weeks ago, I posted [this blog post](/2015/05/18/apple-watch-thoughts-impressions/) with my first impressions after 2 weeks living with Apple Watch. 

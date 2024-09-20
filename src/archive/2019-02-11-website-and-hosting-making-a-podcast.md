@@ -5,6 +5,10 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
+
+aliases:
+- /2019/02/11/website-and-hosting-making-a-podcast/
+- /2019/02/11/department-of-bad-ideas-hosting-and-website/
 ---
 
 Getting a podcast on to the internet was more difficult than I thought it would be. Step one was building the website.

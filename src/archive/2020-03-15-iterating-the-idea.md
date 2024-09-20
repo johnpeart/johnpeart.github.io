@@ -5,6 +5,11 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
+
+aliases:
+- /2020/03/15/department-of-bad-ideas-iterating-on-the-idea
+- /2020/03/15/department-of-bad-ideas-iterating-the-idea
+- /2020/03/15/iterating-the-idea
 ---
 
 Last year, I said I wanted to create a podcast. I called it [the Department of Bad Ideas](//badideas.podcast.johnpe.art).

@@ -20,7 +20,6 @@ module.exports = function(eleventyConfig) {
         html: true,
         breaks: true,
         typographer:  true,
-        linkify: true
     };
 
     const md = markdownIt(markdownOptions)

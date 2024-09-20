@@ -8,7 +8,7 @@ categories:
 - communications
 ---
 
-This week I had the pleasure of working with [Giles Turnbull](gilest.org) again, as he led a session for our team about how we could do “agile comms”.
+This week I had the pleasure of working with [Giles Turnbull](//gilest.org) again, as he led a session for our team about how we could do “agile comms”.
 
 For a topic like this, Giles is the person you want facilitating that discussion. He literally [wrote the book](https://agilecommshandbook.com) on it. It's been the highlight of my week. And I *hope* it will spur my team into a next phase of brilliant policy making.
 

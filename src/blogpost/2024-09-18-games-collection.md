@@ -30,11 +30,11 @@ I've recreated a *Game Boy Game Pak*.
 <figcaption>The <em>Game Boy Game Pak</em>. And yes, I know <em>Elden Ring</em> was not originally released on the <em>Game Boy</em>.</figcaption>
 </figure>
 
-The *Game Pak* is redrawn in scalable vector graphics format[^svg]. It's redrawn at a rough 1px to 1mm scale (with some minor tweaks to be visually pleasing to me!).
+The *Game Pak* is redrawn in scalable vector graphics format[^svg]. It's redrawn roughly to scale (with some minor tweaks to be visually pleasing to me!).
 
-The classic, gray, plastic cartridge is drawn in a 2D top-down perspective. On top of the cartridge a rainbow gradient is applied to a rounded rectangle to create a faux-holographic sticker effect. 
+The classic, gray, plastic cartridge is drawn in a 2D top-down perspective. This SVG file is then rendered as a background image. 
 
-This SVG file is then rendered as a background image, and then on top of *that*, a standard `img` element is positioned using CSS grid for the box art.
+On top of that, a standard `img` element is positioned using CSS grid for the box art. And then on top of *that* a gradient is applied to a rounded rectangle in CSS to create a faux-holographic sticker effect. 
 
 For the box art of each game, I've resized and cropped an image of the game's artwork or other media assets down to a size of 320 pixels by 380 pixels, and then applied `image-rendering: pixelated;` and `filter: contrast(150%);` effects to create a deliberately lo-fi, crunchy effect.
 

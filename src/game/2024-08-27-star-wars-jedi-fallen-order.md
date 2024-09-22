@@ -2,7 +2,7 @@
 date: 2024-08-27T23:30:00+01:00
 title: "STAR WARS Jedi: Fallen Order"
 label: "Platinum"
-artwork: "/assets/images/posts/games/star-wars-jedi-fallen-order.png"
+artwork: "/assets/images/posts/games/star-wars-jedi-fallen-order.jpg"
 ---
 
 Now that I've gotten my first clutch of Platinum trophies on PlayStation, I had had an itch to go back to some other games and finish off ones that I "completed" but didn't "100%". 

@@ -1,5 +1,5 @@
 ---
-date: 2024-09-18T09:00:00+01:00
+date: 2024-09-22T15:30:00+01:00
 title: "Sharing games I've played on my blog"
 author: "John Peart"
 excerpt: "Rocking the retro vibe."
@@ -7,6 +7,8 @@ categories:
 - indieweb
 - making
 - gaming
+aliases:
+- /2024/09/18/games-collection
 ---
 
 Over the past year I've started adding different 'collections' to my blog, so that I could share stuff in new ways.
@@ -19,24 +21,31 @@ Now it's time for a new collection: [games](/games/).
 
 Continuing my theme of creating digital representations of physical stuff, I've been thinking about how to represent a game in object form.
 
-The obvious choice would be to recreate the jewel cases that most games have come in since the advent of CDs and Blu-ray. But, without learning properly how to recreate 3D objects in code, that felt a bit *bland*. Jewel cases are just rectangles. 
+The obvious choice would be to recreate the jewel cases that most games have come in since the advent of CDs and Blu-ray. But that felt a bit *bland*. Jewel cases are just rectangles. 
 
 So instead, I've gone retro. Back to the 1990s[^1], in fact, to the original Dot-matrix *Game Boy*. 
 
 I've recreated a *Game Boy Game Pak*.
 
+The *Game Pak* is redrawn in scalable vector graphics format[^svg]. 
+
+My first attempt was to draw the classic, gray, plastic cartridge is drawn in a 2D top-down perspective. 
+
 <figure>
-<img src="/assets/images/posts/2024/09/18/games-collection/gameboy-gamepak-elden-ring.png" alt="A screenshot of a redrawn Game Boy Game Pak, featuring the box art for Elden Ring">
-<figcaption>The <em>Game Boy Game Pak</em>. And yes, I know <em>Elden Ring</em> was not originally released on the <em>Game Boy</em>.</figcaption>
+<img src="/assets/images/posts/2024/09/22/games-collection/gameboy-gamepak-elden-ring-version-1.png" alt="A screenshot of a redrawn Game Boy Game Pak in 2D perspective, featuring the box art for Elden Ring">
+<figcaption>The <em>Game Boy Game Pak</em> in top down 2D perspective. And yes, I know <em>Elden Ring</em> was not originally released on the <em>Game Boy</em>.</figcaption>
 </figure>
 
-The *Game Pak* is redrawn in scalable vector graphics format[^svg]. It's redrawn roughly to scale (with some minor tweaks to be visually pleasing to me!).
+This 2D *Game Pak* is drawn roughly to scale (with some minor tweaks to be visually pleasing to me!) and rendered as a `background-image`. For the box art, I applied the `image-rendering: pixelated;` and `filter: contrast(150%);` effects to a standard `img` element to create a deliberately lo-fi, crunchy effect. The image is then positioned on top of the background cartridge image, using CSS grid. On top of *that* a gradient is applied to a rounded rectangle in CSS to create a faux-holographic sticker effect. 
 
-The classic, gray, plastic cartridge is drawn in a 2D top-down perspective. This SVG file is then rendered as a background image. 
+This was fine, but I wanted something even better. So for a second version, I drew the *Game Pak* in isometric 3D perspective.
 
-On top of that, a standard `img` element is positioned using CSS grid for the box art. And then on top of *that* a gradient is applied to a rounded rectangle in CSS to create a faux-holographic sticker effect. 
+<figure>
+<img src="/assets/images/posts/2024/09/22/games-collection/gameboy-gamepak-elden-ring-version-2.png" alt="A screenshot of a redrawn Game Boy Game Pak, featuring the box art for Elden Ring">
+<figcaption>The <em>Game Boy Game Pak</em> in isometric 3D.</figcaption>
+</figure>
 
-For the box art of each game, I've resized and cropped an image of the game's artwork or other media assets down to a size of 320 pixels by 380 pixels, and then applied `image-rendering: pixelated;` and `filter: contrast(150%);` effects to create a deliberately lo-fi, crunchy effect.
+Instead of rendering this with a combination of SVG, CSS and HTML, this 3D *Game Pak* is entirely achieved through inline SVG code. The image is then dynamically generated for each page, with the correct box art and label text.
 
 ## But these aren't Game Boy games?!
 

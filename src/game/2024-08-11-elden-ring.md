@@ -2,7 +2,7 @@
 date: 2024-08-11T17:00:00+01:00
 title: "Elden Ring"
 label: "Platinum"
-artwork: "/assets/images/posts/games/elden-ring.png"
+artwork: "/assets/images/posts/games/elden-ring.jpg"
 ---
 
 This must be the hardest, most infuriating game I have ever played. Elden Ring likes to teach you a lesson, kick you when you think you're getting good at it, and keep kicking you until you actually *get* good at it.

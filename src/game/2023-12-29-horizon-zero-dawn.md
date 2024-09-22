@@ -2,7 +2,7 @@
 date: 2023-12-29T18:10:00+00:00
 title: "Horizon Zero Dawn"
 label: "Platinum"
-artwork: "/assets/images/posts/games/horizon-zero-dawn.png"
+artwork: "/assets/images/posts/games/horizon-zero-dawn.jpg"
 ---
 
 I completed *Horizon Zero Dawn's* story several years ago, but I recently returned to it to play it through again and to try to get that sacred Platinum trophy.

@@ -11,13 +11,16 @@ body[id$='photo'] {
     header.post-title.note,
     header.post-title.list,
 	header.post-title.photo,
-	header.post-title.game,
     header.post-title.music,
     header.post-title.weeknote {
         margin: $container-padding * 4 auto;
         @include tablet-up {
             margin: $container-padding * 6 auto $container-padding * 4;
         }
+    }
+    
+	header.post-title.game {
+        margin: $container-padding * 2 auto $container-padding * 4;
     }
 
     iframe {

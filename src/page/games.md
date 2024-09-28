@@ -1,5 +1,5 @@
 ---
-layout: loop
+layout: games
 title: "Games"
 collection: game
 permalink: "/games/"

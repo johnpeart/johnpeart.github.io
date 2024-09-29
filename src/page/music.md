@@ -1,5 +1,5 @@
 ---
-layout: loop
+layout: music
 title: "Music"
 collection: music
 permalink: "/music/"

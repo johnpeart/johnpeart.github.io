@@ -1,14 +1,48 @@
+ul.music {
+    display: grid;
+    grid-template-columns: 1fr;
+    @include tablet-up() {
+        grid-template-columns: 1fr 1fr;
+    }
+    grid-gap: $container-padding * 3;
+    padding: $container-padding * 2 0;
+    
+    li .ipod-nano {
+        max-width: 300px !important;
+    }
+}
+
 a.music-link {
     display: block;
     position: relative;
     
-    &:focus {
-        background: var(--link-focusBackground);
-        outline: none;
+    &:link {
+        color: var(--link-color);
         text-decoration: none;
+    }
+    &:hover {
+        color: var(--link-hoverColor);
+        text-decoration: underline;
+    
+        animation: ipod-shake 0.25s;
+        animation-iteration-count: 3;
+        transform-origin: center;
+    }
+    &:focus {
+        outline: none;
+    }
+    &:active {
+        
     }
 }
 
+@keyframes ipod-shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(2px, 2px) rotate(2deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-2px, 2px) rotate(-2deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
 
 .ipod-nano {
     display: grid;

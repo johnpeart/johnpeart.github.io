@@ -1,0 +1,24 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul class="music">
+{% assign posts = collections[collection] %}
+{% for post in posts %}
+	<li>
+		<article>
+                <a href="{{ post.url }}" class="music-link" title="Read {{ post.data.title }}">
+                    <div class="ipod-nano">
+	                    <img class="music-artwork" src="{{ post.data.artwork }}" loading="lazy"/>
+                    </div>
+                </a>
+                <section class="music-metadata p-name">
+	                <h1 class="music-metadata-title">{{ post.data.title }}</h1>
+	                <p class="music-metadata-artist">{{ post.data.artist }}</p>
+                </section>
+		</article>
+	</li>
+{% endfor %}
+</ul>

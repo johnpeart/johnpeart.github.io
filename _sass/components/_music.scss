@@ -20,70 +20,84 @@ a.music-link {
         color: var(--link-color);
         text-decoration: none;
     }
-    &:hover {
+    &:hover * {
         color: var(--link-hoverColor);
         text-decoration: underline;
-    
-        animation: ipod-shake 0.25s;
+    }
+    &:hover svg {
+        animation: ipod-shake 0.5s;
         animation-iteration-count: 3;
-        transform-origin: center;
+        transform-origin: bottom;
     }
-    &:focus {
+    &:focus * {
         outline: none;
-    }
-    &:active {
-        
+        color: var(--background)
     }
 }
 
 @keyframes ipod-shake {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  25% { transform: translate(2px, 2px) rotate(2deg); }
-  50% { transform: translate(0, 0) rotate(0eg); }
-  75% { transform: translate(-2px, 2px) rotate(-2deg); }
-  100% { transform: translate(0, 0) rotate(0deg); }
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(0, -5px); }
+  100% { transform: translate(0, 0); }
 }
 
 .ipod-nano {
     display: grid;
-    
 	margin: 0 auto;
-	
-    width: 100%;
-	max-width: 300px;
-	@include desktop() {
-    	max-width: 400px;
-	}
-    align-content: center;
-    justify-content: center;
-    aspect-ratio: 806/763;
-    background-image: url('/assets/images/site/nano-bg.svg');
+    align-items: center;
+    justify-items: center;
     
-    &::after {
-        width: 100%;
-		max-width: 300px;
-		@include desktop() {
-    		max-width: 400px;
-		}
-        
-        aspect-ratio: 806/763;
-        content: "";
-        background-image: url('/assets/images/site/nano-fore.svg');
-        
-        grid-column: 1;
-        grid-row: 1;
+    svg {
+        max-width: 200px;
+        @include tablet() {
+    	    max-width: 400px;
+        }
+	    @include desktop() {
+    	    max-width: 400px;
+	    }
     }
-
 }
 
-.music-artwork {
-    align-self: center;
-    justify-self: center;
-    max-width: 62%;
-    border-radius: 2px;
-    grid-column: 1;
-    grid-row: 1;
-}
+// .ipod-nano {
+//     display: grid;
+//     
+// 	margin: 0 auto;
+// 	
+//     width: 100%;
+// 	max-width: 300px;
+// 	@include desktop() {
+//     	max-width: 400px;
+// 	}
+//     align-content: center;
+//     justify-content: center;
+//     aspect-ratio: 806/763;
+//     background-image: url('/assets/images/site/nano-bg.svg');
+//     
+//     &::after {
+//         width: 100%;
+// 		max-width: 300px;
+// 		@include desktop() {
+//     		max-width: 400px;
+// 		}
+//         
+//         aspect-ratio: 806/763;
+//         content: "";
+//         background-image: url('/assets/images/site/nano-fore.svg');
+//         
+//         grid-column: 1;
+//         grid-row: 1;
+//     }
+// 
+// }
+// 
+// .music-artwork {
+//     align-self: center;
+//     justify-self: center;
+//     max-width: 62%;
+//     border-radius: 2px;
+//     grid-column: 1;
+//     grid-row: 1;
+// }
 
 h1.music-metadata-title {
     @include typography($large, "default");

@@ -5,3 +5,6 @@ label: "Platinum"
 artwork: "/assets/images/posts/games/marvels-spider-man-remastered.jpg"
 ---
 
+This is a really good game that's a lot of fun to play, but *oh boy* is the platinum a long, old slog of busy work. 
+
+I've already moved on to playing *Marvel's Spider-Man: Miles Morales*, and I hope the platinum will be shorter!

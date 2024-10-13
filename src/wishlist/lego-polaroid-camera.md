@@ -1,6 +1,6 @@
 ---
 date: 2023-12-16
-list: "Furnishings"
+list: "Miscellaneous"
 name: "LEGO IDEAS Polaroid OneStep SX-70 Camera"
 price: 69.99
 purchased: false

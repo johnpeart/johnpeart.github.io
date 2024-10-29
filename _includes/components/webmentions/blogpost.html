@@ -13,83 +13,100 @@
     
     <aside class="interactions">
       
-      {% for mention in webmentions %}
+    {% for mention in webmentions %}
+        
         {% if mention.wm-target == current_url %}
-        {% assign contentLength = mention.content.text | number_of_words %}
-        {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" and contentLength > 0 %}
-        <article id="webmention-{{ mention.wm-id }}" class="speech-bubble {% if mention.author.name == 'John Peart' %}from-me{% else %}from-them{% endif %} p-comment webmention--{{ mention.wm-property }}">
-            <aside class="author">
-                On <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>,
-                
+            {% assign contentLength = mention.content.text | number_of_words %}
+            
+            {% if mention.wm-property == "in-reply-to" and contentLength > 0 %}
+        
                 {% if mention.author %}
-                    {% if mention.author.name == 'John Peart' %}
-                        <a href="https://www.johnpe.art" class="link-secondary" rel="nofollow">John Peart</a> 
-                    {% elsif mention.author.name.size > 0 %}
-                        <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
-                    {% else %}
-                        someone
+                    {% if mention.author.name.size > 0 %}
+                        {% if mention.author.name == 'John Peart' %}
+                            {% assign authorURL = 'https://www.johnpe.art' %}
+                            {% assign authorName = 'John Peart' %}
+                            {% assign from = "from-me" %}
+                        {% else %}
+                            {% assign authorURL = mention.author.url %}
+                            {% assign authorName = mention.author.name %}
+                            {% assign from = "from-them" %}
+                        {% endif %}
+                        {% if mention.author.photo.size > 0 %}
+                            {% if mention.author.name == 'John Peart' %}
+                                {% assign authorPhoto = '/assets/images/me/avatar.jpeg' %}
+                            {% else %}
+                                {% if mention.author.photo contains ".svg" %}
+                                    {% assign authorNameEncoded = authorName | replace: " ", "+" | replace: "-", "" | replace: "'", "" %}
+                                    {% assign authorPhoto = 'https://ui-avatars.com/api/?name=' | append: authorNameEncoded %}
+                                {% else %}
+                                    {% assign authorPhoto = mention.author.photo %}
+                                {% endif %}
+                            {% endif %}
+                        {% else %}
+                            {% assign authorPhoto = false %}
+                        {% endif %}
+                        {%- capture author -%}{%- if authorURL.size > 0 -%}<a href="{{ authorURL }}" class="link-secondary" rel="nofollow">{%- endif -%}{{ authorName }}{%- if authorURL.size > 0 -%}</a>{%- endif -%}{%- endcapture -%}
                     {% endif %}
-                {% endif %}
-                
-                {% if mention.wm-source %}
-                    <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">
-                {% endif -%}
-                
-                {%- if mention.wm-property == "in-reply-to" -%}
-                    replied
-                {%- elsif mention.wm-property == "mention-of" -%}
-                    mentioned
                 {% else %}
-                    wrote
+                    {% assign authorName = 'someone' %}
+                    {% assign from = "from-them" %}
+                    {% capture author %}someone{% endcapture %}
+                {% endif %}
+            
+                {%- if mention.wm-property == "in-reply-to" -%}
+                    {% assign verb = 'replied' %}
+                {%- elsif mention.wm-property == "mention-of" -%}
+                    {% assign verb = 'mentioned' %}
+                {% else %}
+                    {% assign verb = 'wrote' %}
                 {%- endif -%}
-                
-                {% if mention.wm-source %}
-                    </a>
-                {% endif -%}
-                
-            </aside>
-            <section class="content h-cite p-content">
-                <div class="text">
-                    {% if contentLength > 100 %}
-                        {{ mention.content.text | strip_html | markdownify | replace: current_url, "QUOTE" | truncatewords: 50, "…" }}
-                        {% if mention.wm-source -%}<p><a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow" title="Go to {% if mention.author.name != '' %}{{ mention.author.name }}'s{% else %}the{% endif %} original post to read the full content">Read more</a></p>{%- endif %}
-                    {% else %}
-                        {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | replace: "????", "" | replace: "???", "" | markdownify  }}
+                        
+                <article id="webmention-{{ mention.wm-id }}" class="speech-bubbles speech-bubbles--{{ from }} {% if authorPhoto == false %}speech-bubbles--no-photo{% endif %} p-comment webmention--{{ mention.wm-property }}">
+                    <aside class="speech-bubbles--author secondary-text">
+                        On <time datetime="{{ mention.wm-received | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>, {{ author }}{% if mention.wm-source %} <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}{{ verb }}{% if mention.wm-source %}</a>{% endif -%}
+                    </aside>
+                    <section class="speech-bubbles--content p-content">
+                        {% if contentLength > 100 %}
+                            {{ mention.content.text | strip_html | replace: current_url, "" | truncatewords: 50, "…" | markdownify | replace: '<p>', speechBubble }}
+                        {% else %}
+                            {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | replace: "????", "" | replace: "???", "" | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
+                        {% endif %}
+                    </section>
+                    {% if authorPhoto != false %}
+                    <section class="speech-bubbles--speaker">
+                        <img class="u-photo" alt="{{ authorName }}'s avatar" src="{{ authorPhoto }}">
+                    </section>
                     {% endif %}
-                </div>
-            </section>
+                </article>
             
-        </article>
-        {% else %}
-        <article id="webmention-{{ mention.wm-id }}" class="interaction action {{ mention.wm-property }} p-comment">
-            <p><span class="interaction-icon {{ mention.wm-property }}"></span>
-            {% if mention.author.name.size > 0 %}
-            <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
             {% else %}
-            Someone
-            {% endif %} 
+        
+                {% if mention.wm-property == "repost-of" -%}
+                    {% assign verb = "shared" %}
+                {% elsif mention.wm-property == "mention-of" -%}
+                    {% assign verb = "mentioned" %}
+                {% elsif mention.wm-property == "like-of" -%}
+                    {% assign verb = "liked" %}
+                {% elsif mention.wm-property == "bookmark-of" -%}
+                    {% assign verb = "bookmarked" %}
+                {% else -%}
+                    {% assign verb = "interacted with" %}
+                {% endif -%}
             
-            {% if mention.wm-source %}<a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}
-            {% if mention.wm-property == "repost-of" -%}
-            shared
-            {% elsif mention.wm-property == "mention-of" -%}
-            mentioned
-            {% elsif mention.wm-property == "in-reply-to" -%}
-            replied to
-            {% elsif mention.wm-property == "like-of" -%}
-            liked
-            {% elsif mention.wm-property == "bookmark-of" -%}
-            bookmarked
-            {% else -%}
-            interacted with
-            {% endif -%}
-            this post{%- if mention.wm-source -%}</a>{%- endif %}
-            
-            on <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>
-        </article>
+                <article id="webmention-{{ mention.wm-id }}" class="interaction action {{ mention.wm-property }} p-comment">
+                    <p><span class="interaction-icon {{ mention.wm-property }}"></span>
+                    {% if mention.author.name.size > 0 %}
+                    <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
+                    {% else %}
+                    Someone
+                    {% endif %} 
+                    
+                    {% if mention.wm-source %}<a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}{{ verb }} this post{%- if mention.wm-source -%}</a>{%- endif %} on <time datetime="{{ mention.wm-received | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>
+                </article>
+                
+            {% endif %}
         {% endif %}
-        {% endif %}
-      {% endfor %}
+    {% endfor %}
       
     </aside>
     

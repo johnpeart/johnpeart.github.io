@@ -23,6 +23,14 @@ p, li, dd, dt {
     }
 }
 
+.secondary-text {
+    @include typography($small, "default");
+	color: var(--secondary-color);
+	line-height: 1.2;
+	text-align: left;
+	padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+}
+
 p.lead,
 article.blogpost section.post-body > p:first-of-type {
     @include typography($lead);
@@ -50,7 +58,7 @@ dt.lead {
 }
 
 
-strong, b,dt {
+strong, .strong, b,dt {
     font-weight: bold;
 }
 

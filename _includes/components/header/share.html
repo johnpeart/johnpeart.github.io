@@ -1,6 +1,6 @@
-<section class="speech-bubbles speech-bubbles--no-photo speech-bubbles--with-webmentions speech-bubbles--from-them u-in-reply-to h-cite">
-	
-    <aside class="speech-bubbles--author secondary-text">
+<section class="browser">
+    
+    <aside class="author">
 	    {% if reply_to.post.date -%}On <time class="dt-published" datetime="{{ reply_to.post.date | date: '%FT%T%:z' }}">{{ reply_to.post.date | date: '%d %B %Y' }}</time>, {% endif -%}
 	    <a href="{{ reply_to.author.url }}" class="h-card p-author link-secondary">{{ reply_to.author.name }}</a>
     
@@ -12,11 +12,20 @@
 		    {% endif %}
 		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary">{% unless reply_to.override %}wrote{% else %}{{ reply_to.override }}{% endunless %}</a>
 	    {% endif %}
-    </aside>	
+    </aside>
     
-    <section class="speech-bubbles--content e-content">
-		<blockquote cite="{{ reply_to.post.url }}"  class="h-cite">
-			{{ reply_to.post.content | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
+    <section class="quote content">
+		{%- if reply_to.post.image -%}<img loading="lazy" class="post-image" src="{{ reply_to.post.image }}">{%- endif -%}
+        
+		{% if reply_to.post.title %}<h1 class="post-title p-name"><a href="{{ reply_to.post.url }}" class="u-url">{{ reply_to.post.title }}</a></h1>{% endif %}
+		
+        <blockquote cite="{{ reply_to.post.url }}"  class="text h-cite u-in-reply-to">
+			{% if reply_to.post.content %}
+				{{ reply_to.post.content | remove: '"' | strip | prepend: '<q>' | append: '</q>' | markdownify  }}
+			{% elsif reply_to.post.description %}
+				{{ reply_to.post.description | remove: '"' | strip | prepend: '<q>' | append: '</q>' | markdownify  }}
+			{% endif %}
 		</blockquote>
 	</section>
-</section>
+    
+</div>

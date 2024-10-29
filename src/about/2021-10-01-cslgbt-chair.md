@@ -4,7 +4,7 @@ title: "Chair"
 organisation: "Civil Service LGBT+ Network"
 dates:
   start: 2021-10-01
-  end: present
+  end: 2023-10-01
 projects:
   - project: "Civil Service Awards: Developing and Supporting People Award – Civil Service LGBT+ mentoring programme"
     url: "https://civilservice.blog.gov.uk/2022/01/24/civil-service-awards-why-victory-is-over-the-rainbow/"

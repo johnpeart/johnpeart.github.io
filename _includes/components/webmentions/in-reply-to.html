@@ -3,51 +3,62 @@
     <aside class="interactions replies">
       
       {% for mention in webmentions %}
-        {% assign contentLength = mention.content.text | number_of_words %}
+        
         {% if mention.wm-target == current_url %}
-        {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" %}
-        <article id="webmention-{{ mention.wm-id }}" class="speech-bubble {% if mention.author.name == 'John Peart' %}from-me{% else %}from-them{% endif %} p-comment webmention--{{ mention.wm-property }}">
-            <aside class="author">
-                On <time datetime="{{ mention.wm-received | date: '%FT%T%:z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>,
-                
-                {% if mention.author %}
-                    {% if mention.author.name == 'John Peart' %}
-                        <a href="https://www.johnpe.art" class="link-secondary" rel="nofollow">John Peart</a> 
-                    {% elsif mention.author.name.size > 0 %}
-                        <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
-                    {% else %}
-                        someone
-                    {% endif %}
-                {% endif %}
-                
-                {% if mention.wm-source -%}<a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{%- endif -%}
-                
-                {%- if mention.wm-property == "in-reply-to" -%}
-                    replied
-                {%- elsif mention.wm-property == "mention-of" -%}
-                    mentioned
-                {% else %}
-                    wrote
-                {%- endif -%}
-                
-                {% if mention.wm-source %}</a>{% endif -%}
-                
-            </aside>
-            <section class="content h-cite p-content">
-                <div class="text">
-                    {% if contentLength > 100 %}
-                        {{ mention.content.text | strip_html | markdownify | replace: current_url, "" | truncatewords: 50, "…" }}
-                        {% if mention.wm-source -%}<p><a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow" title="Go to {% if mention.author.name != '' %}{{ mention.author.name }}'s{% else %}the{% endif %} original post to read the full content">Read more</a></p>{%- endif %}
-                    {% else %}
-                        {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | replace: "????", "" | replace: "???", "" | markdownify  }}
-                    {% endif %}
-                </div>
-            </section>
+            {% assign contentLength = mention.content.text | number_of_words %}
             
-        </article>
+            {% if mention.wm-property == "in-reply-to" or mention.wm-property == "mention-of" and contentLength > 0 %}
+        
+                {% if mention.author %}
+                    {% if mention.author.name.size > 0 %}
+                        {% if mention.author.name == 'John Peart' %}
+                            {% assign authorURL = 'https://www.johnpe.art' %}
+                            {% assign authorName = 'John Peart' %}
+                            {% assign authorPhoto = '/assets/images/me/avatar.jpeg' %}
+                            {% assign from = "from-me" %}
+                        {% else %}
+                            {% assign authorURL = mention.author.url %}
+                            {% assign authorName = mention.author.name %}
+                            {% assign authorPhoto = false %}
+                            {% assign from = "from-them" %}
+                        {% endif %}
+                        {%- capture author -%}{%- if authorURL.size > 0 -%}<a href="{{ authorURL }}" class="link-secondary" rel="nofollow">{%- endif -%}{{ authorName }}{%- if authorURL.size > 0 -%}</a>{%- endif -%}{%- endcapture -%}
+                    {% endif %}
+                {% else %}
+                    {% assign authorName = 'someone' %}
+                    {% assign from = "from-them" %}
+                    {% capture author %}someone{% endcapture %}
+                {% endif %}
+            
+                {%- if mention.wm-property == "in-reply-to" -%}
+                    {% assign verb = 'replied' %}
+                {%- elsif mention.wm-property == "mention-of" -%}
+                    {% assign verb = 'mentioned' %}
+                {% else %}
+                    {% assign verb = 'wrote' %}
+                {%- endif -%}
+                        
+                <article id="webmention-{{ mention.wm-id }}" class="speech-bubbles speech-bubbles--{{ from }} {% if authorPhoto == false %}speech-bubbles--no-photo{% endif %} p-comment webmention--{{ mention.wm-property }}">
+                    <aside class="speech-bubbles--author secondary-text">
+                        On <time datetime="{{ mention.wm-received | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>, {{ author }}{% if mention.wm-source %} <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}{{ verb }}{% if mention.wm-source %}</a>{% endif -%}
+                    </aside>
+                    <section class="speech-bubbles--content p-content">
+                        {% if contentLength > 100 %}
+                            {{ mention.content.text | strip_html | replace: current_url, "" | truncatewords: 50, "…" | markdownify | replace: '<p>', speechBubble }}
+                        {% else %}
+                            {{ mention.content.text | strip_html | replace: current_url, "" | replace: title, "" | replace: "????", "" | replace: "???", "" | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
+                        {% endif %}
+                    </section>
+                    {% if authorPhoto != false %}
+                    <section class="speech-bubbles--speaker">
+                        <img class="u-photo" alt="{{ authorName }}'s avatar" src="{{ authorPhoto }}">
+                    </section>
+                    {% endif %}
+                </article>
+            
+            {% endif %}
         {% endif %}
-        {% endif %}
-      {% endfor %}
+    {% endfor %}
       
     </aside>
     

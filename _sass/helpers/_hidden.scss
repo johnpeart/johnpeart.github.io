@@ -45,16 +45,17 @@
     z-index: 999999;
     display: block;
     width: 100%;
-
-    @include typography($p, "default");
-    padding: 10px 0 !important;
-
     text-align: left;
 
     &:focus,
     &:hover {
         background: var(--skiplink-background);
         color: var(--skiplink-color);
+    }
+    
+    p {
+        color: var(--background);
+        padding: 10px 0 !important;
     }
 }
 

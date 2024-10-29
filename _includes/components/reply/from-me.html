@@ -1,19 +1,21 @@
-<section class="speech-bubble from-me reply">		
+<section class="speech-bubbles speech-bubbles--with-webmentions speech-bubbles--from-me">		
     
-    <aside class="author">
-	    {% if page.date %}On <time class="dt-published" datetime="{{ page.date | date: '%FT%T%:z' }}">{{ page.date | date: '%d %B %Y' }}</time>, {% endif %}
+    <aside class="speech-bubbles--author secondary-text">
+        {% if page.date %}On <time class="dt-published" datetime="{{ page.date | date: '%FT%T%:z' }}">{{ page.date | date: '%d %B %Y' }}</time>, {% endif %}
 	    <span class="h-card p-author">
 		    <img class="u-photo hidden memoji" alt="A Memoji avatar of John Peart" src="{{ site.url | append: '/assets/images/me/memoji.png' }}">
 		    <span class="p-name author--name"><a rel="author" class="link-secondary p-author u-url u-uid" href="{{ site.url }}">John Peart</a></span>
 	    </span>
-	    <a href="{{ page.url }}" class="link-secondary u-url">{{ verb }}</a>    
+	    <a href="{{ page.url }}" class="link-secondary u-url">replied</a>    
     </aside>
     
-    <section class="content e-content">
-		<div class="text">
-			{{ content }}
-		</div>
+    <section class="speech-bubbles--content e-content">
+		{{ content | replace: '<p>', '<p class="speech-bubble">' }}
 	</section>
+    
+    <section class="speech-bubbles--speaker">
+        <img class="u-photo" alt="John Peart's avatar" src="/assets/images/me/avatar.jpeg">
+    </section>
     
     {% include "components/webmentions/like-of.html" %}
 

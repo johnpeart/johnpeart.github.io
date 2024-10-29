@@ -1,7 +1,7 @@
 ---
 type: "Career"
-title: "Head of Design and Delivery"
-organisation: "Government Equalities Office"
+title: "Head of Design and Delivery<br>Safe To Be Me International LGBT+ Conference"
+organisation: "Equality Hub"
 dates:
   start: 2022-01-01
   end: 2022-06-30

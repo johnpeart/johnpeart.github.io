@@ -22,10 +22,12 @@ aside.author {
 
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto;
+        grid-template-areas: "card" "icons";
 
 	@include tablet-up() {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 2fr 1fr 1fr;
 		grid-template-rows: 1fr;
+        grid-template-areas: "card . icons";
 	}
 }
 
@@ -62,6 +64,7 @@ aside.author {
 
 .author--icons {
 	display: grid;
+    grid-area: icons;
 	grid-gap: $container-padding;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 1fr;

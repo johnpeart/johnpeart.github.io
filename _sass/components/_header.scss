@@ -8,18 +8,19 @@ nav#site-navigation {
         grid-template-areas: "wordmark button";
 		grid-template-columns: 1fr auto;
         padding: $container-padding 0;
-        margin: 0 0 $container-padding 0;
+        margin: 0 0 $container-padding * 2 0;
         transition: all 0.5s ease-in-out;
     }
     
     &.open {
         @include glow($depth: 2, $transition: 0.2, $offset: 20, $no-hover: true);
+        margin: $container-padding 0 $container-padding * 2 0;
     }
     
     &:hover section#site-navigation--menu-bar,
     &.open section#site-navigation--menu-bar {
         padding: $container-padding;
-        margin: $container-padding 0 0 0;
+        margin: $container-padding 0;
         transition: all 0.5s ease-in;
     }
     

@@ -9,10 +9,6 @@
     }
 }
 
-.speech-bubbles--with-webmentions.speech-bubbles--no-photo {
-    grid-template-columns: auto;
-    grid-template-areas: "author" "content" "webmentions";
-}
 
 .speech-bubbles--from-them {
     grid-template-columns: auto 3fr;
@@ -26,6 +22,11 @@
     &.speech-bubbles--with-webmentions {
         grid-template-columns: auto 3fr;
         grid-template-areas: ". author" "photo content" ". webmentions";
+    }
+    
+    &.speech-bubbles--with-webmentions.speech-bubbles--no-photo {
+        grid-template-columns: auto;
+        grid-template-areas: "author" "content" "webmentions";
     }
 
     @include tablet-up() {
@@ -72,6 +73,11 @@
     &.speech-bubbles--with-webmentions {
         grid-template-columns: 3fr auto;
         grid-template-areas: "author ." "content photo" "webmentions .";
+    }
+    
+    &.speech-bubbles--with-webmentions.speech-bubbles--no-photo {
+        grid-template-columns: auto;
+        grid-template-areas: "author" "content" "webmentions";
     }
     
     @include tablet-up() {

@@ -33,7 +33,7 @@
                         {% endif %}
                         {% if mention.author.photo.size > 0 %}
                             {% if mention.author.name == 'John Peart' %}
-                                {% assign authorPhoto = '/assets/images/me/avatar.jpeg' %}
+                                {% assign authorPhoto = '/assets/images/me/avatar.png' %}
                             {% else %}
                                 {% if mention.author.photo contains ".svg" %}
                                     {% assign authorNameEncoded = authorName | replace: " ", "+" | replace: "-", "" | replace: "'", "" %}

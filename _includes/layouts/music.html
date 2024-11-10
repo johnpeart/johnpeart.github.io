@@ -2,15 +2,13 @@
 layout: page
 ---
 
-{{ content }}
-
-<ul class="music">
+<ul class="gallery gallery-2">
 {% assign posts = collections[collection] %}
 {% for post in posts %}
 	<li>
-		<article>
+		<article class="ipod-nano">
                 <a href="{{ post.url }}" class="music-link" title="Read {{ post.data.title }}">
-                    <div class="ipod-nano">
+
                         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                         <svg width="100%" height="100%" viewBox="0 0 559 783" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
@@ -161,11 +159,6 @@ layout: page
                                 </g>
                             </g>
                         </svg>
-                    </div>
-                    <section class="music-metadata p-name">
-	                    <h1 class="music-metadata-title">{{ post.data.title }}</h1>
-	                    <p class="music-metadata-artist">{{ post.data.artist }}</p>
-                    </section>
                 </a>
 		</article>
 	</li>

@@ -1,15 +1,5 @@
-ul.music {
-    display: grid;
-    grid-template-columns: 1fr;
-    @include tablet-up() {
-        grid-template-columns: 1fr 1fr;
-    }
-    grid-gap: $container-padding * 3;
-    padding: $container-padding * 2 0;
-    
-    li .ipod-nano {
-        max-width: 300px !important;
-    }
+li .ipod-nano {
+    max-width: 250px !important;
 }
 
 a.music-link {
@@ -59,8 +49,8 @@ a.music-link {
 }
 
 h1.music-metadata-title {
-    @include typography($large, "default");
-	margin-top: $container-padding * 2 !important;
+    @include typography($h2, "default");
+	margin-top: $container-padding * 6 !important;
 }
 
 h1.music-metadata-title,

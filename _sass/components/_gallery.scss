@@ -1,0 +1,36 @@
+.gallery {
+    display: grid;
+    margin-block: $container-padding * 6;
+    
+    &.gallery-2 {
+        @include tablet-up() {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    &.gallery-3 {
+        @include tablet-up() {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    
+    grid-gap: $container-padding * 2 $container-padding;
+    padding: 0;
+    
+    &.gallery-tilt {
+        li {
+            transform: rotate(-1deg);
+        }
+        
+        li:nth-of-type(2n) {
+            transform: rotate(2deg);
+        }
+        
+        li:nth-of-type(3n) {
+            transform: rotate(1deg);
+        }
+        
+        li:nth-of-type(4n) {
+            transform: rotate(-2deg);
+        }
+    }
+}

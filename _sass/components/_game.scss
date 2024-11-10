@@ -1,15 +1,5 @@
-ul.games {
-    display: grid;
-    grid-template-columns: 1fr;
-    @include tablet-up() {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    grid-gap: $container-padding * 3;
-    padding: $container-padding * 2 0;
-    
-    li .gamepak svg {
-        max-width: 200px !important;
-    }
+li .gamepak svg {
+    max-width: 200px !important;
 }
 
 a.gamepak-link {
@@ -48,7 +38,7 @@ a.gamepak-link {
 
 h1.gamepak-metadata-title {
     @include typography($large, "default");
-	margin-top: $container-padding * 2 !important;
+	margin-top: $container-padding * 6 !important;
 }
 
 h1.gamepak-metadata-title {

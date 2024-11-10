@@ -1,5 +1,5 @@
 ---
-layout: loop
+layout: photos
 title: "Photos"
 collection: photo
 permalink: /photos/

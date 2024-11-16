@@ -1,40 +1,62 @@
 ---
-layout: "page"
+layout: "default"
 ---
 
-{{ content | replace: '<p>', '<p class="lead">' }}
+<main id="content">
 
-{% assign collection = collections.about | group_by: "data.type" | sort: "name" %}
-
-{% for type in collection %}
-
-    <section class="collection--list">
-
-	    <header>
-		    <h2 class="collection--list--group-title">{{ type.name }}</h2>
-	    </header>
-
-	    {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}
-	    {% for org in roles %}
-
-		    {% assign jobs = org.items | sort: "date" | reverse %}
-		    {% for job in jobs %}
-                {% if forloop.first %}
-	            <header>
-		            <h3 class="collection--list--title">{{ job.data.organisation }}</h3>
-	            </header>
-                {% endif %}
-			    <article class="collection--list-item">
-				    <h4 class="collection--list--item-title">{{ job.data.title }}</h4>
-				    {% if job.data.dates.end == "present" %}
-				    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ job.data.dates.end }}</time></p>
-				    {% else %}
-				    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ job.data.dates.end | date: '%Y-%m-%d' }}">{{ job.data.dates.end | date: '%B %Y' }}</time></p>
-				    {% endif %}
-			    </article>
-		    {% endfor %}
-	    {% endfor %}
-
-    </section>
+	<article id="post-content" class="{{ collection }} h-entry e-content">
+        
+        <div class="container">
+            
+            <h1 class="page-title p-name">{{ title }}</h1>
+                
+            <section class="speech-bubbles speech-bubbles--from-me">
+                <section class="speech-bubbles--content p-content">
+                    {{ content | replace: '<p>', '<p class="speech-bubble">' }}
+                </section>
+                <section class="speech-bubbles--speaker">
+                    <img class="u-photo padding large" alt="A Memoji avatar of John Peart" loading="lazy" src="/assets/images/me/memoji.png">
+                </section>
+            </section>
+            
+        </div>
+        
+        {% assign collection = collections.about | group_by: "data.type" | sort: "name" %}
+        
+        <section class="container">
+        <div class="tabs card">
+            
+            {% for type in collection %}
+            <details class="tab-bar--item" name="about-tabs" {% if forloop.first %}open{% endif %}> <!-- default first "tab" to open -->
+                <summary class="tab-bar--summary"><h2>{{ type.name }}</h2></summary>
+                <div class="tab-bar--content">
+                    <section class="collection--list">
+                    {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}
+                    {% for org in roles %}
+                
+	                    {% assign jobs = org.items | sort: "date" | reverse %}
+	                    {% for job in jobs %}
+                            {% if forloop.first %}
+                            <header>
+	                            <h3 class="collection--list--title">{{ job.data.organisation }}</h3>
+                            </header>
+                            {% endif %}
+		                    <article class="collection--list-item">
+			                    <h4 class="collection--list--item-title">{{ job.data.title }}</h4>
+			                    {% if job.data.dates.end == "present" %}
+			                    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ job.data.dates.end }}</time></p>
+			                    {% else %}
+			                    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ job.data.dates.end | date: '%Y-%m-%d' }}">{{ job.data.dates.end | date: '%B %Y' }}</time></p>
+			                    {% endif %}
+		                    </article>
+	                    {% endfor %}
+                    {% endfor %}
+                    </section>
+                </div>
+            </details>
+            {% endfor %}
+        </div>        
+        </section>
+    </article>
     
-{% endfor %}
+</main>

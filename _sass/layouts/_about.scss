@@ -1,0 +1,13 @@
+#about {
+    .about--content {
+        grid-area: content;
+    }
+    
+    .about--photo {
+        grid-area: photo;
+        align-content: flex-end;
+    }
+    
+    .about--header .memoji {
+    }
+}

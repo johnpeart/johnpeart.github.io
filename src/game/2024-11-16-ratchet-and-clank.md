@@ -3,6 +3,9 @@ date: 2024-11-16T13:22:00+00:00
 title: "Ratchet & Clank"
 label: "Platinum"
 artwork: "/assets/images/posts/games/ratchet-and-clank.jpg"
+posse:
+- https://mastodon.social/@johnpeart/113499025913187159
+- https://bsky.app/profile/johnpe.art/post/3lb5q6vjank26
 ---
 
 This is a game based on a film based on a game that was originally released on the PlayStation 2.

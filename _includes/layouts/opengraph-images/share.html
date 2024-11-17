@@ -40,22 +40,28 @@
                 margin: 0 auto !important;
                 width: 600px;
             }
+            .speech-bubbles--from-them {
+                grid-template-columns: 3fr auto !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
         </style>
     </head>
 
     <body id="blogpost">
         <div id="opengraph">
             <article id="post-content" class="reply h-entry">
-
-                <section class="speech-bubble from-them u-in-reply-to h-cite">
+                
+                <section class="speech-bubbles speech-bubbles--no-photo speech-bubbles--with-webmentions speech-bubbles--from-them u-in-reply-to h-cite">
                     
-	                <section class="quote content">
+                    <section class="speech-bubbles--content speech-bubble speech-bubble--no-padding quote">
 		                {%- if post.data.reply_to.post.image -%}
 		                <img loading="lazy" class="post-image" src="{{ post.data.reply_to.post.image }}">
 		                {%- endif -%}
-		                {% if post.data.reply_to.post.title %}<h1 class="post-title">{{ post.data.reply_to.post.title }}</h1>{% endif %}
+		                <blockquote cite="{{ post.data.reply_to.post.url }}"  class="text h-cite">
+	                        {% if post.data.reply_to.post.title %}<h1 class="post-title"><a href="{{ post.data.reply_to.post.url }}" class="u-url no-underline">{{ post.data.reply_to.post.title }}</a></h1>{% endif %}
+		                </blockquote>
 	                </section>
-    
                 </section>
                 
             </article>

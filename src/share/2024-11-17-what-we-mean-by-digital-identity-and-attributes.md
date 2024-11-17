@@ -14,7 +14,7 @@ reply_to:
     content: |
       A “digital identity”, then, is just a way to prove who you are, things about you and things you might be eligible for. Individual pieces of information about you, that together make up your identity, are what we call “attributes”.
     image: "https://enablingdigitalidentity.blog.gov.uk/wp-content/uploads/sites/287/2024/10/prove-who-you-are-1536x864.jpg"
-posse
+posse:
 - https://mastodon.social/@johnpeart/113499119188688403
 - https://bsky.app/profile/johnpe.art/post/3lb5rjleqcc26
 ---

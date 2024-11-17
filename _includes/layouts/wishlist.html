@@ -7,20 +7,6 @@ layout: default
 	<section id="page-content">
 
 		<h1 class="page-title">Wishlist</h1>
-        
-        <fieldset id="toggle-purchased" class="card">
-		    <legend>Toggle purchased items</legend>
-    
-		    <div class="radio-input">
-			    <input type="radio" name="toggle-purchased" id="show-purchased" value="show">
-			    <label for="show-purchased">Show</label>
-		    </div>
-    
-		    <div class="radio-input">
-			    <input type="radio" name="toggle-purchased" id="hide-purchased" value="hide" checked>
-			    <label for="hide-purchased">Hide</label>
-		    </div>
-	    </fieldset>
 
 		<aside class="intro-text">
 
@@ -40,7 +26,6 @@ layout: default
 			</header>
 
 			<ul class="wishlist">
-			{% assign wishlist = wishlist | sort: 'data.price' %}
 			{% for item in wishlist.items %}
 				{% if item.data.purchased == false %}
 				<li class="wishlist-item">
@@ -52,24 +37,6 @@ layout: default
 						{% endif %}
 					</div>
 					<aside class="item-metadata">
-						{% if item.data.price == 0.00 %}
-						<span class="item-price">Varies</span>
-						{% else %}
-						<span class="item-price">{{ item.data.price | round | prepend: "£" }}</span>
-						{% endif %}
-					</aside>
-				</li>
-				{% elsif item.data.purchased == true %}
-				<li class="wishlist-item item-purchased hidden">
-					<div class="item-info">
-						<p class="item-name">{% if item.data.link %}<a href="{{ item.data.link }}" class="item-link" target="_blank" rel="noopener noreferrer">{{ item.data.name }}</a>{% else %}{{ item.data.name }}{% endif %}</p>
-						{% assign content = item.content | strip_newlines %}
-						{% if content != "" %}
-						{{ content }}
-						{% endif %}
-					</div>
-					<aside class="item-metadata">
-						<span class="chiplet chiplet-green">Purchased</span>
 						{% if item.data.price == 0.00 %}
 						<span class="item-price">Varies</span>
 						{% else %}
@@ -90,5 +57,3 @@ layout: default
 	</section>
 
 </main>
-
-<script type="text/javascript" src="{{ site.url | append: '/assets/scripts/wishlist/toggle-purchased.js' }}" async></script>

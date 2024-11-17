@@ -38,7 +38,11 @@
             }
             #post-content {
                 margin: 0 auto !important;
-                width: 600px;
+                width: 800px;
+            }
+            .speech-bubbles {
+                padding-bottom: 0 !important;
+                margin-bottom: 0 !important;
             }
         </style>
     </head>
@@ -47,27 +51,27 @@
         <div id="opengraph">
             <article id="post-content" class="reply h-entry">
 
-                <section class="speech-bubble from-them u-in-reply-to h-cite">
+                <section class="speech-bubbles speech-bubbles--no-photo speech-bubbles--with-webmentions speech-bubbles--from-them u-in-reply-to h-cite">
                     
-	                <section class="quote content">
-		                <blockquote cite="{{ post.data.reply_to.post.url }}"  class="text h-cite">
-			                {{ post.data.reply_to.post.content | markdownify }}
+                    <section class="speech-bubbles--content e-content">
+		                <blockquote cite="{{ post.data.reply_to.post.url }}"  class="h-cite">
+			                {{ post.data.reply_to.post.content | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
 		                </blockquote>
 	                </section>
                 </section>
-    
-                {% if post.data.reply_to.post.content.size < 300 %}
-                <section class="speech-bubble from-me reply">	
-                  
-                    <section class="content e-content">
-		                <div class="text">
-			                {{ post.content }}
-		                </div>
-	                </section>
-                    
-                </section>
-                {% endif %}
+
+                <section class="speech-bubbles speech-bubbles--with-webmentions speech-bubbles--from-me">
                 
+                <section class="speech-bubbles--content e-content">
+		            {{ post.content | replace: '<p>', '<p class="speech-bubble">' }}
+	            </section>
+                
+                <section class="speech-bubbles--speaker">
+                    <img class="u-photo" alt="John Peart's avatar" src="/assets/images/me/avatar.png">
+                </section>
+	            
+            </section>
+
             </article>
 
         </div>

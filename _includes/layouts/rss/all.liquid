@@ -11,10 +11,10 @@
 		<image>
 			<url>https://www.johnpe.art/assets/images/site/favicon-large-png.png</url>
 			<title>{{ site.title | xml_escape }}</title>
-			<link>{{ siteUrl }}/</link>
+			<link>{{ site.url }}</link>
 		</image>
-		<link>{{ siteUrl }}/</link>
-		<atom:link href="{{ '/feed.xml' | prepend: site.baseUrl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url | append: '/feed.xml' }}" rel="self" type="application/rss+xml"/>
 		<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ page.date | date_to_rfc822 }}</lastBuildDate>
 		<copyright>Copyright {{ page.date | date: "%Y" }} John Peart. Please attribute and link to my work.</copyright>

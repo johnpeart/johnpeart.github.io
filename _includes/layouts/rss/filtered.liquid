@@ -11,8 +11,8 @@
 			<title>{{ site.title | xml_escape }} • {{ filter | capitalize }}</title>
 			<link>{{ site.url }}</link>
 		</image>
-		<link>{{ siteUrl }}/</link>
-		<atom:link href="{{ '/feed.xml' | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+		<link>{{ site.url | append: '/' | append: filter }}/</link>
+		<atom:link href="{{ site.url | append: '/feed/' | append: filter | append: '.xml' }}" rel="self" type="application/rss+xml"/>
 		<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ page.date | date_to_rfc822 }}</lastBuildDate>
 		<copyright>Copyright {{ page.date | date: "%Y" }} John Peart. Please attribute and link to my work.</copyright>
@@ -58,7 +58,7 @@
 	        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
 	        {%- for category in post.data.categories %}
 	        <category>{{ category | xml_escape }}</category>
-	        {%- endfor -%}
+	        {%- endfor %}
 	        <description>
 		        {%- if image -%}
 		        &lt;img src=&quot;{{ post.data.image }}&quot; alt=&quot;{{ post.data.image-alt }}&quot; /&gt;

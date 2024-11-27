@@ -13,39 +13,30 @@ layout: default
 			{{ content }}
 
 		</aside>
-
-		{% assign wishlists = collections.wishlist | group_by: 'data.list' | sort: 'name' %}
-		{% for wishlist in wishlists %}
+        
+		{% for list in wishlist %}
 
 		<section>
 
 			<header>
 				<h2 class="wishlist-header wishlist-{{ list.name | slugify }}">
-					{{ wishlist.name }}
+					{{ list.name }}
 				</h2>
 			</header>
 
 			<ul class="wishlist">
-			{% for item in wishlist.items %}
-				{% if item.data.purchased == false %}
+			{% for item in list.items %}
 				<li class="wishlist-item">
 					<div class="item-info">
-						<p class="item-name">{% if item.data.link %}<a href="{{ item.data.link }}" class="item-link" target="_blank" rel="noopener noreferrer">{{ item.data.name }}</a>{% else %}{{ item.data.name }}{% endif %}</p>
-						{% assign content = item.content | strip_newlines %}
-						{% if content != "" %}
-						{{ content }}
+						<p class="item-name">{% if item.link %}<a href="{{ item.link }}" class="item-link" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</p>
+						{% if item.description %}
+						{{ item.description }}
 						{% endif %}
 					</div>
 					<aside class="item-metadata">
-						{% if item.data.price == 0.00 %}
-						<span class="item-price">Varies</span>
-						{% else %}
-						<span class="item-price">{{ item.data.price | round | prepend: "£" }}</span>
-						{% endif %}
+						<span class="item-price">{{ item.price }}</span>
 					</aside>
 				</li>
-				{% endif %}
-
 			{% endfor %}
 			</ul>
 

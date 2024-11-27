@@ -1,5 +1,5 @@
 {
-   "layout": "share",
+   "layout": "speech-bubble",
    "collection": "share",
    "categories": "repost",
    "permalink": "/share/{{ page.date | date: '%s' }}/"

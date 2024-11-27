@@ -10,7 +10,11 @@
     </aside>
     
     <section class="speech-bubbles--content e-content">
-		{{ content | replace: '<p>', '<p class="speech-bubble">' }}
+		{{ content 
+            | replace: '<p>', '<p class="speech-bubble">'
+            | replace: '<ul>', '<ul class="speech-bubble">'
+            | replace: '<ol>', '<ol class="speech-bubble">'
+        }}
 	</section>
     
     <section class="speech-bubbles--speaker">

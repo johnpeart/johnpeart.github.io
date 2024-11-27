@@ -106,7 +106,6 @@ q {
 	}
 	&::before {
     	content: open-quote;
-		hanging-punctuation: first;
 	}
 	&::after {
     	content: close-quote;

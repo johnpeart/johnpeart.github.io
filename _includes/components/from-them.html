@@ -14,9 +14,20 @@
 	    {% endif %}
     </aside>	
     
-    <section class="speech-bubbles--content e-content">
-		<blockquote cite="{{ reply_to.post.url }}"  class="h-cite">
-			{{ reply_to.post.content | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
+    
+    <section class="speech-bubbles--content speech-bubble speech-bubble--no-padding quote">
+        {%- if reply_to.post.image -%}
+		<img loading="lazy" class="post-image" src="{{ reply_to.post.image }}">
+		{%- endif -%}
+        <blockquote cite="{{ reply_to.post.url }}"  class="h-cite">
+	        {% if reply_to.post.title %}<h1 class="post-title"><a href="{{ reply_to.post.url }}" class="u-url no-underline">{{ reply_to.post.title }}</a></h1>{% endif %}
+			{% if reply_to.post.content %}
+                {{ reply_to.post.content | markdownify }}
+			{% elsif reply_to.post.description %}
+				{{ reply_to.post.description | markdownify  }}
+			{% endif %}
 		</blockquote>
-	</section>
+    </section>
+    
+    
 </section>

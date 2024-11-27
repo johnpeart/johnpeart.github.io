@@ -41,62 +41,23 @@ list:
 
 - name: "Gaming"
   items:
-    - name: "Blank flash cartridge"
-      price: "£8"
+    - name: "Empty flash cartridges"
+      description: "For Game Boy and Game Boy Color"
+      price: "Varies"
       link: 
-        buy: "https://www.etsy.com/uk/listing/1818359445/blank-gameboy-flash-cart-gbgbc-4mb-rom?ref=cart"
-    - name: "Blank flash cartridge"
-      price: "£18"
+        post: "/games/game-boy#empty-flash-cartridges"
+    - name: "Game Boy games"
+      price: "Varies"
       link: 
-        buy: "https://www.etsy.com/uk/listing/1220871684/flash-cartridge-for-game-boy-512kb-rom?click_key=edebffedccdfb30fc544f2571a9db8ad7513fe51%3A1220871684&click_sum=2132cd10&ref=shop_home_active_16&crt=1"
-    - name: "GB Wordyl"
-      description: "Game Boy Color game"
-      price: "£21"
+        post: "/games/game-boy#game-boy"
+    - name: "Game Boy Color games"
+      price: "Varies"
       link: 
-        buy: "https://www.etsy.com/uk/listing/1251187027/gb-wordyl-game-cartridge-for-game-boy?click_key=4611c09cdff5f9a814064742a9228525db66a5d6%3A1251187027&click_sum=a5bfdf3e&ref=shop_home_active_12&variation0=2692170313&variation1=2692170315"
-    - name: "Petris"
-      description: "Game Boy Color game"
-      price: "£21"
+        post: "/games/game-boy#game-boy-color"
+    - name: "Game Boy Advance games"
+      price: "Varies"
       link: 
-        buy: "https://www.etsy.com/uk/listing/1162310473/petris-game-cartridge-for-game-boy-color?click_key=caa5cb3a51f823af94c8c4505f96677cc3b55296%3A1162310473&click_sum=e2ebfa33&ref=shop_home_active_5"
-    - name: "Quartet"
-      description: "Game Boy Color game"
-      price: "£21"
-      link: 
-        buy: "https://www.etsy.com/uk/listing/1155359524/quartet-game-cartridge-for-game-boy-and?click_key=0c9596eef0ac9ee3454b186db10094972340060a%3A1155359524&click_sum=db53fe6e&ref=shop_home_active_21"
-    - name: "Flooder"
-      description: "Game Boy Color game"
-      price: "£21"
-      link: 
-        buy: "https://www.etsy.com/uk/listing/1173804126/flooder-game-cartridge-for-game-boy?click_key=48c2e34a4dea500a89b1b54e9d4827dededf90da%3A1173804126&click_sum=fe21ad03&ref=shop_home_active_24"
-    - name: "Black Castle"
-      description: "Game Boy Color game"
-      price: "£23"
-      link: 
-        buy: "https://www.etsy.com/uk/listing/1221102527/black-castle-game-cartridge-for-game-boy?click_key=ca086b2dda41ec9b1dade200a982430475fc621e%3A1221102527&click_sum=3a71c51b&ref=shop_home_active_7"
-    - name: "Chantey"
-      description: "Game Boy Color game"
-      price: "£33"
-      link: 
-        buy: "https://modretro.com/products/chantey"
-    - name: "Dragonhym"
-      description: "Game Boy Color game"
-      price: "£37"
-      link: 
-        buy: "https://modretro.com/products/dragonyhm"
-    - name: "Hermano"
-      description: "Game Boy Color game"
-      price: "£33"
-      link: 
-        buy: "https://modretro.com/products/hermano"
-    - name: "Nintendo Game Boy Camera"
-      price: "£28"
-      link: 
-        buy: "https://uk.webuy.com/product-detail?id=SGBACC001&categoryName=GAME-BOY-ACCESSORIES&superCatName=&title=NINTENDO-OFFICIAL-GAME-BOY-GAME-BOY-COLOR-CAMERA&queryID=916FD59A9DAD1438EF9975B24AB2EC12&position=1"
-    - name: "Nintendo Game Boy Printer"
-      price: "£38"
-      link: 
-        buy: "https://uk.webuy.com/product-detail?id=SGBACC002&categoryName=GAME-BOY-ACCESSORIES&superCatName=GAMING&title=&queryID=B31AA61E55453FB3DFED9EBA3F850DA4&position=2"
+        post: "/games/game-boy#game-boy-advance"
 
 - name: "Homeware and Kitchen"
   items:

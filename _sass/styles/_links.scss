@@ -110,8 +110,28 @@ a {
         }
     }
     
-    &.emphasised-link {
+    &.large-link {
         @include typography($large, "default");
+        &:link,
+        &:visited {
+            color: var(--cyan);
+            text-decoration: none;
+        }
+        &:hover {
+            color: var(--link-hoverColor);
+            text-decoration: underline;
+        }
+        &:focus {
+            color: var(--link-focusColor);
+        }
+        &:active {
+            color: var(--link-hoverColor);
+            text-decoration: underline;
+        }
+        
+    }
+    
+    &.emphasised-link {
         &:link,
         &:visited {
             color: var(--cyan);

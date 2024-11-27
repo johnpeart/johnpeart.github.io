@@ -5,7 +5,7 @@ layout: default
 <main id="content" class="container">
 	
     <section id="page-content">
-	{% assign collection = collections.now | sort: date | reverse %}
+	{% assign collection = collections.now | sort: date %}
 
 	{% for item in collection limit: 1 %}
 	<article id="post-content" class="blogpost-post h-entry">

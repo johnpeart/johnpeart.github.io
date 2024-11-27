@@ -155,6 +155,11 @@ list:
     price: "£12"
     link: 
       buy: "https://uk.webuy.com/product-detail?id=SGBCG403C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=77466E219C251F39D663DCD28FEA2CF4&position=28"
+  - name: "Tomb Raider: Curse of the Sword"
+    description: "Cartridge"
+    price: "£12"
+    link: 
+      buy: "https://uk.webuy.com/product-detail?id=SGBCG404C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=732911130D938F95167E5AE1418D1410&position=2"
   - name: "Wario Land 2"
     description: "Cartridge"
     price: "£15"

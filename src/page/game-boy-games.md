@@ -119,9 +119,7 @@ list:
       buy: "https://uk.webuy.com/product-detail?id=SGBCG315C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=DD3714BB8276960FB94B9D4F3D8EFEBC&position=141"
   - name: "Tetris DX"
     description: "Cartridge"
-    price: "£12"
-    link: 
-      buy: "https://uk.webuy.com/product-detail?id=SGBCG389C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=80D83C764A67CB26C6F22A46AF114E4B&position=1"
+    status: "Owned"
   - name: "Perfect Dark"
     description: "Cartridge"
     price: "£10"

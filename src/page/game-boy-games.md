@@ -32,7 +32,12 @@ list:
   - name: "Metroid 2: Return of Samus"
     description: "Cartridge"
     status: "Owned"
-  - name: "Odd World Adventures 2"
+  - name: "Oddworld Adventures"
+    description: "Cartridge"
+    price: "£12"
+    link:
+      buy: "https://uk.webuy.com/product-detail?id=SGBOS280C&categoryName=GAME-BOY-SOFTWARE&superCatName=GAMING&title=&queryID=E36A2C151DE240B099778928D22C0D57&position=1"
+  - name: "Oddworld Adventures 2"
     description: "Cartridge"
     price: "£12"
     link:

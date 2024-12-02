@@ -53,6 +53,10 @@
 	}
 }
 
+aside.post--exif {
+    margin-block-end: $container-padding;     
+}
+
 dl.exif {
 
     padding: $container-padding * 1.5;

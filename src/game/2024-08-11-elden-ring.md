@@ -1,6 +1,7 @@
 ---
 date: 2024-08-11T17:00:00+01:00
 title: "Elden Ring"
+platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/elden-ring.jpg"
 ---

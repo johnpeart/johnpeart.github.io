@@ -1,6 +1,7 @@
 ---
 date: 2024-10-06T10:33:00+01:00
 title: "Super Mario Land 3: Wario Land"
+platform: "GameBoy"
 label: "100%"
 artwork: "/assets/images/posts/games/wario-land.jpg"
 ---

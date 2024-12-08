@@ -1,6 +1,7 @@
 ---
 date: 2024-11-16T13:22:00+00:00
 title: "Ratchet & Clank"
+platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/ratchet-and-clank.jpg"
 posse:

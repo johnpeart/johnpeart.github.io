@@ -7,7 +7,7 @@ layout: page
 {% for post in posts %}
 	<li>
 		<article class="game--{{ post.data.platform | downcase | slugify }}">
-            <a href="{{ post.url }}" class="gamepak-link" title="Read {{ post.data.title }}">
+            <a href="{{ post.url }}" class="game--link" title="Read {{ post.data.title }}">
                 {% if post.data.platform contains "PlayStation" %}
                 {% include "components/objects/cd-rom.svg" %}    
                 {% else %}

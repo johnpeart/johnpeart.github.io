@@ -1,20 +1,3 @@
-a.game--link {
-    display: block;
-    transition: transform 0.25s;
-    
-    &:hover {
-        transform: translateY(-10px);
-        transition: transform 0.25s;
-    }
-    &:focus {
-        outline: none;
-    }
-    &:active {
-        transform: translateY(20px);
-        transition: transform 0.25s;
-    }
-}
-
 .game--playstation,
 .game--game-boy {
     display: grid;

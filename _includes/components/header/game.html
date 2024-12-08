@@ -1,6 +1,10 @@
-<div class="gamepak">
-    {% include "components/objects/gamepak.svg" %}
+<div class="game--{{ platform | downcase | slugify }}">
+    {% if platform contains "PlayStation" %}
+    {% include "components/objects/cd-rom.svg" %}    
+    {% else %}
+    {% include "components/objects/gamepak.svg" %}    
+    {% endif %}
 </div>
-<section class="gamepak-metadata p-name">
-	<h1 class="gamepak-metadata-title">{{ title }}</h1>
+<section class="game--metadata p-name">
+	<h1 class="game--metadata-title">{{ title }}</h1>
 </section>

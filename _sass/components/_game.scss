@@ -1,8 +1,4 @@
-li .gamepak svg {
-    max-width: 200px !important;
-}
-
-a.gamepak-link {
+a.game--link {
     display: block;
     transition: transform 0.25s;
     
@@ -19,29 +15,53 @@ a.gamepak-link {
     }
 }
 
-.gamepak {
+.game--playstation,
+.game--game-boy {
     display: grid;
 	margin: 0 auto;
     align-items: center;
     justify-items: center;
-    
-    svg {
-        max-width: 200px;
-        @include tablet() {
-    	    max-width: 400px;
-        }
-	    @include desktop() {
-    	    max-width: 400px;
-	    }
+}
+
+.gallery .game--game-boy svg {
+    max-width: 200px;
+}
+
+.game--game-boy svg {
+    max-width: 200px;
+    @include tablet() {
+        max-width: 400px;
+    }
+    @include desktop() {
+        max-width: 400px;
     }
 }
 
-h1.gamepak-metadata-title {
+.game--playstation svg {
+    max-width: 300px;
+    @include tablet() {
+        max-width: 400px;
+    }
+    @include desktop() {
+        max-width: 400px;
+    }
+    
+    #CD1 {
+        transition: translate 1s ease-in-out;
+    }
+    
+    &:hover #CD1 {
+        translate: 0px -100px;
+        transition: translate 1s ease-in-out;
+    }
+}
+
+h1.game--metadata-title {
     @include typography($large, "default");
 	margin-top: $container-padding * 6 !important;
 }
 
-h1.gamepak-metadata-title {
+h1.game--metadata-title {
     text-align: center;
     padding: 0;
     margin: 0;

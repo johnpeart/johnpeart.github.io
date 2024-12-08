@@ -16,6 +16,10 @@
     grid-gap: $container-padding * 2 $container-padding;
     padding: 0;
     
+    li {
+        margin: auto;
+    }
+    
     &.gallery-tilt {
         li {
             transform: rotate(-1deg);

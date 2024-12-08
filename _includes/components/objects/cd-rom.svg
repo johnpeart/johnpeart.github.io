@@ -70,6 +70,13 @@
                         <g transform="matrix(0.816084,-0,-1.1233e-15,0.632364,2021.11,-0.5408)">
                             <use xlink:href="#CDRom" x="9" y="185.251" width="698px" height="758px"/>
                         </g>
+                        <g transform="matrix(0.816084,0.316182,-1.08278e-15,0.632364,1933.87,-1176.34)">
+                            <g transform="matrix(0.955312,0,0,1,20.3711,0)">
+                                <g transform="matrix(40.2175,0,0,40.2175,602.706,1962)">
+                                </g>
+                                <text x="440px" y="1962px" style="font-family: 'Permanent Marker', sans-serif;font-weight:400;font-size:43px;">{{ label }}</text>
+                            </g>
+                        </g>
                         <g transform="matrix(0.816084,0.316182,-1.08278e-15,0.632364,2063.11,-1032.79)">
                             <g transform="matrix(0.955312,0,0,1,21.137,0)">
                                 <g transform="matrix(40.2175,0,0,40.2175,583.963,1962)">

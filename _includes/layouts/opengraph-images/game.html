@@ -40,9 +40,13 @@
 			.game.post-title {
 				margin: 0 !important;
 			}
-			.gamepak {
+			.game--game-boy {
 				width: 300px;
 				max-width: 300px !important;
+			}
+			.game--playstation {
+				width: 400px;
+				max-width: 400px !important;
 			}
         </style>
     </head>
@@ -51,8 +55,12 @@
         <div id="opengraph">
             <article id="post-content" class="game h-entry">
                 <header class="game post-title">
-                    <div class="gamepak">
-                        {% include "components/objects/gamepak.svg" %}   
+                    <div class="game--{{ post.data.platform | downcase | slugify }}">
+                        {% if post.data.platform contains "PlayStation" %}
+                        {% include "components/objects/cd-rom.svg" %}    
+                        {% else %}
+                        {% include "components/objects/gamepak.svg" %}    
+                        {% endif %}
                     </div>
                 </header>
             </article>

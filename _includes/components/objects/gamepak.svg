@@ -1,6 +1,7 @@
 {%- if post.data.artwork -%}{% assign artwork = post.data.artwork %}{%- endif -%}
 {%- if post.data.label -%}{% assign label = post.data.label %}{%- endif -%}
 {%- if post.data.date -%}{% assign date = post.data.date %}{%- endif -%}
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 567 963" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
@@ -224,7 +225,7 @@
                     <path d="M538.686,0L538.686,592L54.591,592.002L54.591,-0L538.686,0Z"/>
                 </clipPath>
                 <g clip-path="url(#_clip1)">
-                    <g id="jedi-fallen-order" transform="matrix(1.184,-2.10222e-06,2.55963e-16,1.184,-0.0010699,6.04884e-06)">
+                    <g transform="matrix(1.184,-2.10222e-06,2.55963e-16,1.184,-0.0010699,6.04884e-06)">
                         <use xlink:href="#boxArt-{{ post.data.title | slugify }}" x="0" y="0" width="500px" height="500px"/>
                     </g>
                 </g>

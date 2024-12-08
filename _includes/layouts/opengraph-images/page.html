@@ -84,6 +84,8 @@
         {% assign emoji = "💡" %}
     {% elsif post.data.title == "Goals" %}
         {% assign emoji = "🎯" %}
+    {% elsif post.data.title contains "Game" %}
+        {% assign emoji = "🕹️" %}
     {% elsif post.data.title == "Lists" %}
         {% assign emoji = "☑️" %}
     {% elsif post.data.title == "Now" %}

@@ -61,10 +61,6 @@ list:
 
 - name: "Homeware and Kitchen"
   items:
-    - name: "Nutribullet blender"
-      price: "£50"
-      link: 
-        buy: "https://www.amazon.co.uk/NUTRiBULLET-600-Nutrient-Extractor-Graphite/dp/B01N27W15O/"
     - name: "Le Creuset Stoneware Mug"
       description: "350ml; satin black finish."
       price: "£15"

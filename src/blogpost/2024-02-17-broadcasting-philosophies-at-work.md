@@ -72,7 +72,7 @@ Putting your philosophies out there for people to live by can be transformative,
 
 [^5]: This one is mine!
 
-[^boring]: I saw this phrase – "boring magic" – in a blogpost from [Steven Messer](https://visitmy.website/2020/01/08/boring-magic/), which he attributes to [Conor Delahunty](http://conordelahunty.com/). I've never met either of them, and I think I left GDS long before they arrived. I don't think it was meant to describe the [kind of thing I'm working on now](https://www.gov.uk/guidance/digital-identity), but it works!
+[^boring]: I saw this phrase – "boring magic" – in a blog post from [Steven Messer](https://visitmy.website/2020/01/08/boring-magic/), which he attributes to [Conor Delahunty](http://conordelahunty.com/). I've never met either of them, and I think I left GDS long before they arrived. I don't think it was meant to describe the [kind of thing I'm working on now](https://www.gov.uk/guidance/digital-identity), but it works!
 
 [^6]: I know what you're thinking. *Of course, the middle-class white guy thinks he should have an opinion.* That's not quite it though. I try not to confuse forming and offering an opinion, with believing I'm *entitled* to have or voice an opinion when its not appropriate. I'm rarely *intentionally* that much of an arsehole.
 

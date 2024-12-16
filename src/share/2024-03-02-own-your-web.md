@@ -21,6 +21,6 @@ posse:
 
 The latest edition of the Own Your Web newsletter chimes perfectly with what I’ve been trying to achieve by adding more short-form blogging formats to my website.
 
-Not every blogpost has to be an essay. Sometimes, you just want to share a link, and maybe add a quick comment.
+Not every blog post has to be an essay. Sometimes, you just want to share a link, and maybe add a quick comment.
 
 

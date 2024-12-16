@@ -37,7 +37,7 @@ With interest rates creeping up this year, my student loan interest rate went th
 
 ### 3. Write more
 
-It's a recurring goal for me to write at least a blogpost a month. This year I've written 10 of them, including this one; just shy of the target of 12.
+It's a recurring goal for me to write at least a blog post a month. This year I've written 10 of them, including this one; just shy of the target of 12.
 
 ### 4. Close my activity rings
 

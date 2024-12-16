@@ -12,7 +12,7 @@ posse:
 
 A while ago, I [added support for Webmentions to this site](/2023/10/31/making-webmentions-look-more-conversational/).
 
-Connecting the [Webmention.io](//webmention.io) service up to [Brid.gy](//brid.gy) means that I have been able to backfeed social media posts from Mastodon and Bluesky on to my blogpost pages.
+Connecting the [Webmention.io](//webmention.io) service up to [Brid.gy](//brid.gy) means that I have been able to backfeed social media posts from Mastodon and Bluesky on to my blog post pages.
 
 I've now gone one step further and added a 'Send me a Webmention' box at the bottom of most pages on this site.
 

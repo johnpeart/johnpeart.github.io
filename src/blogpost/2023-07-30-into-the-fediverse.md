@@ -19,7 +19,7 @@ So that's what I've done!
 
 ## I've added Fediverse features to this humble blog
 
-Now, if you 'like' or 'boost' a post on a service like Mastodon, and that post contains a link to a blogpost on *this* website, then your avatar will now appear in at the bottom of the blogpost itself. Cool, right?
+Now, if you 'like' or 'boost' a post on a service like Mastodon, and that post contains a link to a blog post on *this* website, then your avatar will now appear in at the bottom of the blog post itself. Cool, right?
 
 My site will also send out 'web mentions' to any webpage that is linked to from the blog post that I publish here. That doesn't guarantee that the recipient will know about – muchless do anything with – it of course; but they can, if they do and they want to.
 

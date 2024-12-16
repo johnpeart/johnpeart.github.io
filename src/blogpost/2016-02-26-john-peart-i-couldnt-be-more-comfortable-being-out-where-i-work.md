@@ -1,6 +1,6 @@
 ---
 title: "I couldn’t be more happy being out where I work"
-excerpt: "I've written a guest blogpost for LGBT History Month for the Civil Service Rainbow Alliance - the representative organisation of the 20,000 LGB* staff in the Civil Service."
+excerpt: "I've written a guest blog post for LGBT History Month for the Civil Service Rainbow Alliance - the representative organisation of the 20,000 LGB* staff in the Civil Service."
 categories:
   - diversity
   - LGBT

@@ -13,7 +13,7 @@ layout: "page"
     {% for item in item.items %}
     <article class="collection--list-item {% if item.price or item.link.buy or item.status %}collection--list-item--with-meta{% endif %}">
         <div class="collection--list-item--content">
-            <h3 class="collection--list--item-title">{% if item.link.post %}<a href="{{ item.link.post }}">{% endif %}{{ item.name }}{% if item.link.post %}</a>{% endif %}</h3>
+            <h3 id="{{ item.name | slugify }}" class="collection--list--item-title">{% if item.link.post %}<a href="{{ item.link.post }}">{% endif %}{{ item.name }}{% if item.link.post %}</a>{% endif %}</h3>
             {% if item.description %}{{ item.description | markdownify | replace: '<p>', '<p class="secondary-text">' }}{% endif %}
         </div>
         {% if item.price or item.link.buy or item.status %}

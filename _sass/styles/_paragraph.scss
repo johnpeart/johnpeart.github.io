@@ -28,7 +28,10 @@ p, li, dd, dt {
 	color: var(--secondary-color);
 	line-height: 1.2;
 	text-align: left;
-	padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+	
+    &.speech-bubbles--author {
+        padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+    }
 }
 
 p.lead,

@@ -15,6 +15,10 @@
         grid-template-columns: 1fr auto;
         grid-template-rows: auto;
         grid-gap: $container-padding;
+        
+        @include tablet-up() {
+            grid-gap: $container-padding * 2;
+        }
     }
 	
 	h1 {

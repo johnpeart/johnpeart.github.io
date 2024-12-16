@@ -3,15 +3,15 @@ p, li, dd, dt {
     font-style: normal;
     font-weight: normal;
 
+    .small-caps,
+    &.small-caps {
+        font-variant: small-caps !important;
+        font-size: 120%;
+    }
+
     &.small {
         @include typography($small);
         line-height: 1.2;
-    }
-
-    &.small-caps,
-    .small-caps {
-        font-variant: small-caps !important;
-        font-size: 120%;
     }
 
     &.lead {
@@ -25,12 +25,19 @@ p, li, dd, dt {
 
 .secondary-text {
     @include typography($small, "default");
-	color: var(--secondary-color);
 	line-height: 1.2;
 	text-align: left;
 	
     &.speech-bubbles--author {
         padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+    }
+    
+	&.secondary-text--gray {
+        color: var(--secondary-color);
+    }
+    
+	&.secondary-text--black {
+        color: var(--color);
     }
 }
 
@@ -42,6 +49,7 @@ article.blogpost section.post-body > p:first-of-type {
 
 p {
     padding: 0 0 22px 0;
+
     @include desktop {
         padding: 0 0 30px 0;
     }

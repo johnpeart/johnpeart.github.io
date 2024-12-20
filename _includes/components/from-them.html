@@ -1,6 +1,6 @@
 <section class="speech-bubbles speech-bubbles--no-photo speech-bubbles--with-webmentions speech-bubbles--from-them u-in-reply-to h-cite">
 	
-    <aside class="speech-bubbles--author secondary-text">
+    <aside class="speech-bubbles--author secondary-text secondary-text--gray">
 	    {% if reply_to.post.date -%}On <time class="dt-published" datetime="{{ reply_to.post.date | date: '%FT%T%:z' }}">{{ reply_to.post.date | date: '%d %B %Y' }}</time>, {% endif -%}
 	    <a href="{{ reply_to.author.url }}" class="h-card p-author link-secondary">{{ reply_to.author.name }}</a>
     

@@ -39,7 +39,7 @@
                 {%- endif -%}
                         
                 <article id="webmention-{{ mention.wm-id }}" class="speech-bubbles speech-bubbles--{{ from }} {% if authorPhoto == false %}speech-bubbles--no-photo{% endif %} p-comment webmention--{{ mention.wm-property }}">
-                    <aside class="speech-bubbles--author secondary-text">
+                    <aside class="speech-bubbles--author secondary-text secondary-text--gray">
                         On <time datetime="{{ mention.wm-received | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>, {{ author }}{% if mention.wm-source %} <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}{{ verb }}{% if mention.wm-source %}</a>{% endif -%}
                     </aside>
                     <section class="speech-bubbles--content p-content">

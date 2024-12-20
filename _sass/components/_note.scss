@@ -56,27 +56,33 @@
     line-height: 1.1;
     
     border-top: 60px solid var(--post-it--top);
-    background: var(--post-it--body); // Fallback
-    background: linear-gradient(130deg,
-        var(--post-it--body) 75%,
-        var(--post-it--body) 76%,
-        var(--post-it--body) 76%,
-        var(--post-it--corner) 100%
-    );
+    background: var(--post-it--body);
+    // background: linear-gradient(130deg,
+    //     var(--post-it--body) 75%,
+    //     var(--post-it--body) 76%,
+    //     var(--post-it--body) 76%,
+    //     var(--post-it--corner) 100%
+    // );
     outline: 1px solid var(--post-it--body);
-    box-shadow: 100px 100px 50px -110px rgba(25, 25, 25, 0.4);
+    box-shadow: 
+        100px 100px 50px -110px rgba(25, 25, 25, 0.5),
+        inset -5px -15px 20px -10px var(--post-it--corner);
 
     @include tablet {
         height: 300px;
         padding: $container-padding * 1.5 !important;
         border-top: 72px solid var(--post-it--top);
-        box-shadow: 130px 115px 50px -140px rgba(25, 25, 25, 0.7);
+        box-shadow: 
+            130px 115px 50px -140px rgba(25, 25, 25, 0.8),
+            inset -10px -15px 20px -10px var(--post-it--corner);
     }
     @include desktop {
         height: 425px;
         padding: $container-padding * 2 !important;
         border-top: 102px solid var(--post-it--top);
-        box-shadow: 180px 170px 50px -195px rgba(25, 25, 25, 0.7);
+        box-shadow: 
+            180px 170px 50px -195px rgba(25, 25, 25, 0.8),
+            inset -10px -15px 20px -10px var(--post-it--corner);
     }
     
 }

@@ -68,6 +68,11 @@ list:
       price: "£33"
       link: 
         buy: "https://modretro.com/products/chantey"
+    - name: "D*fuzed"
+      description: "Digital edition"
+      price: "£10"
+      link: 
+        buy: "https://incube8games.com/en-eu/collections/digital-editions/products/d-fuzed-gbc-digital-edition"
     - name: "Dragonhym"
       description: "Game Boy Color cartridge"
       price: "£37"
@@ -93,6 +98,12 @@ list:
       price: "£21"
       link: 
         buy: "https://www.etsy.com/uk/listing/1155359524/quartet-game-cartridge-for-game-boy-and?click_key  0c9596eef0ac9ee3454b186db10094972340060a%3A1155359524&click_sum=db53fe6e&ref=shop_home_active_21"
+    - name: "Kien"
+      description: "Digital edition"
+      price: "£10"
+      link: 
+        buy: "https://incube8games.com/en-eu/collections/digital-editions/products/kien-gba-digital-edition"
+
      
 - name: "Homeware and Kitchen"
   items:

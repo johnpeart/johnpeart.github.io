@@ -74,6 +74,11 @@ list:
       price: "£33"
       link: 
         buy: "https://modretro.com/products/chantey"
+    - name: "D*fuzed"
+      description: "Digital edition"
+      price: "£10"
+      link: 
+        buy: "https://incube8games.com/en-eu/collections/digital-editions/products/d-fuzed-gbc-digital-edition"
     - name: "Dragonhym"
       description: "Cartridge"
       price: "£37"
@@ -233,6 +238,11 @@ list:
     price: "£20"
     link: 
       buy: "https://uk.webuy.com/product-detail?id=045496731908C&categoryName=GAMEBOY-ADVANCE-SOFTWARE&superCatName=GAMING&title=&queryID=49485D4E6CEE0EEFD996EA7C59A5264F&position=108"
+  - name: "Kien"
+    description: "Digital edition"
+    price: "£10"
+    link: 
+      buy: "https://incube8games.com/en-eu/collections/digital-editions/products/kien-gba-digital-edition"
   - name: "Legend Of Zelda - A Link to the Past: Four Swords"
     description: "Cartridge"
     price: "£38"

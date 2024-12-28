@@ -154,7 +154,6 @@ I'm actually spending far more on music, TV and games now than I would have befo
         <dt class="sr-only">Price</dt>
         <dd>£16.95 per month</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/applemusic.jpg" alt="Apple Music logo.">
         <dt class="sr-only">App name</dt>
@@ -162,7 +161,6 @@ I'm actually spending far more on music, TV and games now than I would have befo
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appletvplus.jpg" alt="Apple TV Plus logo.">
         <dt class="sr-only">App name</dt>
@@ -170,7 +168,6 @@ I'm actually spending far more on music, TV and games now than I would have befo
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/applearcade.jpg" alt="Apple Arcade logo.">
         <dt class="sr-only">App name</dt>
@@ -178,7 +175,6 @@ I'm actually spending far more on music, TV and games now than I would have befo
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/icloudplus.jpg" alt="iCloud Plus logo.">
         <dt class="sr-only">App name</dt>
@@ -316,10 +312,8 @@ I could probably stretch out my subscription cycles here a little this year to s
         <dd class="app-name">Nova</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
         <dd class="app-description">Nova (12 months)</dd>
-        
         <dt class="app-type-label sr-only">Type</dt>
         <dd class="app-type">One-time purchase</dd>
-        
         <dt class="app-first-label">Developer</dt>
         <dd class="app-first">Panic</dd>
         <dt class="app-second-label">Price</dt>
@@ -375,7 +369,6 @@ Mostly on the streaming services, I think.
         <dt class="sr-only">Price</dt>
         <dd>£15.00 per month</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/netflix.jpg" alt="Netflix logo.">
         <dt class="sr-only">App name</dt>
@@ -383,12 +376,10 @@ Mostly on the streaming services, I think.
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
-
     <dl class="dl--total">
         <dt>Sub-total</dt>
         <dd>£15.00 per month</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/paramountplus.jpg" alt="Paramount Plus logo.">
         <dt class="sr-only">App name</dt>
@@ -396,7 +387,6 @@ Mostly on the streaming services, I think.
         <dt class="sr-only">Price</dt>
         <dd>£6.99 per month</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/disneyplus.jpg" alt="Disney Plus logo.">
         <dt class="sr-only">App name</dt>
@@ -404,7 +394,6 @@ Mostly on the streaming services, I think.
         <dt class="sr-only">Price</dt>
         <dd>£79.99 per year</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/amazon.jpg" alt="Amazon Prime app icon">
         <dt class="sr-only">App name</dt>
@@ -412,7 +401,6 @@ Mostly on the streaming services, I think.
         <dt class="sr-only">Price</dt>
         <dd>£95.00 per year</dd>
     </dl>
-
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appleone.jpg" alt="Apple One logo.">
         <dt class="sr-only">App name</dt>
@@ -420,7 +408,6 @@ Mostly on the streaming services, I think.
         <dt class="sr-only">Price</dt>
         <dd>£16.95 per month</dd>
     </dl>
-
     <dl class="dl--total">
         <dt>Total</dt>
         <dd>£53.52 per month</dd>

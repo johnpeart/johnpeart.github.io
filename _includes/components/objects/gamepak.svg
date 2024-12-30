@@ -131,7 +131,7 @@
                         <path d="M500,23.406L500,476.594C500,489.512 491.998,500 482.143,500L17.857,500C8.002,500 -0,489.512 -0,476.594L-0,23.406C-0,10.488 8.002,0 17.857,0L482.143,0C491.998,0 500,10.488 500,23.406Z"/>
                     </clipPath>
                     <g clip-path="url(#_clip1)">
-                        <use xlink:href="#boxArt-{{ post.data.title | slugify }}" x="0" y="0" width="500px" height="500px" transform="matrix(2.27273,0,0,2.27273,0,0)"/>
+                        <use xlink:href="#holofoil" x="0" y="0" width="500px" height="500px" transform="matrix(2.27273,0,0,2.27273,0,0)"/>
                     </g>
                 </g>
                 <g id="label--artwork" transform="matrix(0.988156,0.294632,-1.64452e-16,0.588934,1163.54,1632.45)">
@@ -140,7 +140,7 @@
                     </clipPath>
                     <g clip-path="url(#_clip3)">
                         <g id="label--box-art" transform="matrix(1.184,-2.10222e-06,2.55963e-16,1.184,13.5069,0.000938449)">
-                            <use xlink:href="#holofoil" x="0" y="0" width="500px" height="500px" transform="matrix(2.32558,0,0,2.32558,0,0)"/>
+                            <use xlink:href="#boxArt-{{ post.data.title | slugify }}" x="0" y="0" width="500px" height="500px" transform="matrix(2.32558,0,0,2.32558,0,0)"/>
                         </g>
                     </g>
                 </g>
@@ -180,7 +180,7 @@
         </g>
     </g>
     <defs>
-        <image id="holofoil" width="215px" height="215px" xlink:href="{{ artwork }}"/>
-        <image id="boxArt-{{ post.data.title | slugify }}" width="220px" height="220px" xlink:href="/assets/images/site/holofoil.jpg"/>
+        <image id="holofoil" width="220px" height="220px" xlink:href="/assets/images/site/holofoil.jpg"/>
+        <image id="boxArt-{{ post.data.title | slugify }}" width="215px" height="215px" xlink:href="{{ artwork }}"/>
     </defs>
 </svg>

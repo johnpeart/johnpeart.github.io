@@ -93,6 +93,6 @@
         <feMorphology operator="dilate" radius="0"/>
     </filter>
     <defs>
-        <image id="screenshot-{{ screenshotCount }}" width="160px" height="144px" xlink:href="{{ screenshot }}{{ screenshotCount | default: '001' }}.png"/>
+        <image id="screenshot-{{ screenshotCount }}" width="160px" height="144px" xlink:href="{{ screenshot }}{{ screenshotCount | default: '001' }}{{ screenshotFormat | default: '.png' }}"/>
     </defs>
 </svg>

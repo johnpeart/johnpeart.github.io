@@ -33,7 +33,8 @@
         transition: translate 1s ease-in-out;
     }
     
-    &:hover #CD1 {
+    &:hover #CD1,
+    &.hover #CD1 {
         translate: 0px -50px;
         transition: translate 1s ease-in-out;
     }

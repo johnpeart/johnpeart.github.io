@@ -6,9 +6,9 @@ label: "Platinum"
 artwork: "/assets/images/posts/games/infamous-second-son.jpg"
 ---
 
-*InFAMOUS* was one of my favourite games on PlayStation 3. Superhuman powers with the choice to be a hero or villain, with those choices changing your gameplay choices? Sounds great, count me in.
+*InFAMOUS* was one of my favourite games on PlayStation 3. Superhuman powers with the choice to be a hero or villain, with those choices changing your gameplay mechanics? Sounds great, count me in.
 
-When *Second Son* was the bundled in game for PlayStation 4 and I could afford to get it, it was an instant purchase.
+When I could afford to get it and the *PlayStation 4*, that was it: I was hooked.
 
 This is another game that I technically finished, but I never went the whole hog. So I blitzed through the whole game all over again to get that Platinum.
 

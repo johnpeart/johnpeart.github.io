@@ -13,10 +13,10 @@ I've recently replayed the game using my newly purchased [Analogue Pocket](https
 
 The original *Wario Land* was a monochrome game, but I've been playing the game using a [ROM hacked version that adds colour](https://www.romhacking.net/hacks/6683/).
 
-{% include "components/objects/pocket.svg" screenshotCount:"001" caption:"After Wario beats Captain Syrup in the final level, Wario will be granted a wish by the genie for his own castle." %}
+{% include "components/objects/pocket.svg" screenshotCount:"001" %}
 
 On this latest play-through I've achieved what was previously impossible for 10-ish year old me: 100% completion. 
 
 {% include "components/objects/pocket.svg" screenshotCount:"003" %}
 
-Finish the game with 99,999 coins and all the collectables and Wario is rewarded with his own planet for a “perfect game”.
+Finishing the game with 99,999 coins and having gotten all of the collectables, and you – well, Wario anyway – is rewarded with your own planet for a “perfect game”.

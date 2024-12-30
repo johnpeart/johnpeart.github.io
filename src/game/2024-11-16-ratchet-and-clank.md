@@ -15,4 +15,4 @@ It's a pretty faithful remake of the 2002 original, featuring familiar humour, g
 
 Getting the Platinum trophy again requires a full replay of the game. In fact, I needed to play it two-and-a-half times, to gather a few of the other trophies that were linked to weapon upgrade paths and XP collection.
 
-*But* I played this game when it came out, and half a dozen or so years later means that second replay was less frustrating than it otherwise could have been.
+*But* I played this game when it came out, and half a dozen or so years having passed means that second replay was less frustrating than it otherwise could have been.

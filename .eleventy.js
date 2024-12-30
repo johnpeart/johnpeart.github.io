@@ -77,6 +77,21 @@ module.exports = function(eleventyConfig) {
     });
 
     // Collections to include in "allPosts"
+    const includedInSiteMap = [
+        "about", "blogpost", "goal", "idea", "list",
+        "manual", "music", "note", "now", "photo", "game",
+        "podcast", "reply", "share", "weeknote", "wishlist",
+        "feed", "page", "archive"
+    ];
+
+    // Combined "allPosts" collection, sorted by date
+    eleventyConfig.addCollection("sitemap", function(collectionApi) {
+        return includedInAllPosts.flatMap(collection =>
+            collectionApi.getFilteredByGlob(`./src/${collection}/*.*`)
+        ).sort((a, b) => b.date - a.date);
+    });
+
+    // Collections to include in "allPosts"
     const includedInAllPosts = [
         "blogpost", "list", "music", "note",
         "photo", "game", "share", "weeknote"

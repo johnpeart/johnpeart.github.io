@@ -11,7 +11,7 @@ The games in the *Super Mario Land* series that I played the most as a child wer
 
 Well, I'm an adult now and that means I don't have to borrow copies any more; I can buy one! £10 from CEX. Bargain.
 
-[A "DX" hack of the game](https://www.romhacking.net/hacks/3784/) has been developed by the retro gaming community, meaning not only can I play the game but I can create a *better* version of the game. This hack makes the game full colour and it removes bugs from the original game that caused slowdown and lag in the original title.
+[A "DX" hack of the game](https://www.romhacking.net/hacks/3784/) has been developed by the retro gaming community, meaning not only can I play the game but I can play a *better* version of the game. This hack makes the game full colour and it removes bugs from the original game that caused slowdown and lag in the original title.
 
 {% include "components/objects/pocket.svg" screenshotCount:"001" screenshotFormat:".gif" %}
 

@@ -1,4 +1,4 @@
-Sitemap: https://www.belter.io/sitemap.xml
+Sitemap: https://www.johnpe.art/sitemap.xml
 
 User-agent: *
 Disallow: /social/

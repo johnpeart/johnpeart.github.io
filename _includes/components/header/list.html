@@ -1,8 +1,16 @@
 <header class="list-header">
 	<h1 class="list-title p-name">{{ title }}</h1>
 </header>
+{% if list-type == "numbered" %}
+<ol class="list-body">
+{% else %}
 <ul class="list-body">
+{% endif %}
 	{% for item in list %}
 		<li class="list-item list-item--{{ item.status }}">{{ item.item }}</li>
 	{% endfor %}
+{% if list-type != "numbered" %}
 </ul>
+{% else %}
+</ol>
+{% endif %}

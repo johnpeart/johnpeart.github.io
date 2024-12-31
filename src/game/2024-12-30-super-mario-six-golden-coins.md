@@ -7,7 +7,7 @@ artwork: "/assets/images/posts/games/super-mario-land-2-6-golden-coins/label-art
 screenshot: "/assets/images/posts/games/super-mario-land-2-6-golden-coins/"
 ---
 
-The games in the *Super Mario Land* series that I played the most as a child were *Super Mario Land* and [*Super Mario Land 3: Wario Land*](/game/1728207180/). *Super Mario Land 2: 6 Golden Coins* isn't one I recall being able to play; I don't think we owned it and the chunks of the game I remember playing were almost certainly on a borrowed copy.
+The games in the *Super Mario Land* series that I played the most as a child were *Super Mario Land* and [*Super Mario Land 3: Wario Land*](/game/1728207180/). *Super Mario Land 2: 6 Golden Coins* isn't one I recall being able to play in its entirety; I don't think we owned it and the chunks of the game I remember playing were almost certainly on a borrowed copy.
 
 Well, I'm an adult now and that means I don't have to borrow copies any more; I can buy one! £10 from CEX. Bargain.
 

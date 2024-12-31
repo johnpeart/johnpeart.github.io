@@ -6,15 +6,16 @@ excerpt: "A top 10 of games I've loved playing this year."
 categories:
 - gaming
 
+list-type: "numbered"
 list: 
-- item: "1. Bloodborne"
-- item: "2. Elden Ring"
-- item: "3. The Plucky Squire"
-- item: "4. Dredge"
-- item: "5. Death’s Door"
-- item: "6. Metroid: Zero Mission"
-- item: "7. Control"
-- item: "8. Tunic"
-- item: "9. Hermano"
-- item: "10. Super Mario Land 3: Wario Land"
+- item: "Bloodborne"
+- item: "Elden Ring"
+- item: "The Plucky Squire"
+- item: "Dredge"
+- item: "Death’s Door"
+- item: "Metroid: Zero Mission"
+- item: "Control"
+- item: "Tunic"
+- item: "Hermano"
+- item: "Super Mario Land 3: Wario Land"
 ---

@@ -42,6 +42,16 @@
             padding: 0;
         }
     }
+    
+    ol .list-item {
+        margin-left: $container-padding * 3;
+        @include tablet {
+            margin-left: $container-padding * 4;    
+        }
+        @include desktop {
+            margin-left: $container-padding * 5;
+        }
+    }
 
     .list-item--done {
         text-decoration: line-through;

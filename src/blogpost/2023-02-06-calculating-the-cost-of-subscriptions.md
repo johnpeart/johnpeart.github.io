@@ -47,7 +47,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
 
 ### Costs so far...
 
-<figure class="apps-list">
+<section class="apps-list">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
@@ -95,7 +95,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
         <dt>Total</dt>
         <dd>£39.66 per month</dd>
     </dl>
-</figure>
+</section>
 
 
 ## Bundles
@@ -112,7 +112,7 @@ I do use a lot of Amazon's services; especially the delivery services and, to a 
 
 [^Picard]: At the moment, I'm clinging on for the third and final season of Picard – another Star Trek show.
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/amazon.jpg" alt="Amazon Prime app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -126,7 +126,7 @@ I do use a lot of Amazon's services; especially the delivery services and, to a 
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£95.00 per year</dd>
     </dl>
-</figure>
+</section>
 
 ### Apple One
 
@@ -146,7 +146,7 @@ I'm actually spending far more on music, TV and games now than I would have befo
 
 [^Arcade]: _Mini Motorways_. It's a successor to _Mini Metro_. They're both hyper-simple but stupidly complex games where you attempt to build a working transport network. It's incredibly addictive.
 
-<figure class="apps-list">
+<section class="apps-list">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appleone.jpg" alt="Apple One logo.">
         <dt class="sr-only">App name</dt>
@@ -182,7 +182,7 @@ I'm actually spending far more on music, TV and games now than I would have befo
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
-</figure>
+</section>
 
 ## Gaming
 
@@ -194,7 +194,7 @@ I've been a PlayStation Plus subscriber since I have owned a PlayStation 4; all 
 
 If I don't pay for it, I can't play online games, and I do that a lot, so it's not really a contender for a slash and burn on subscriptions.
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/playstation.jpg" alt="PlayStation iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -208,7 +208,7 @@ If I don't pay for it, I can't play online games, and I do that a lot, so it's n
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£49.99 per year</dd>
     </dl>
-</figure>
+</section>
 
 ## App essentials
 
@@ -220,7 +220,7 @@ The essential, non-negotiable subscription at the moment is 1Password. It's been
 
 Everyone should have a password manager, and I won't be giving up mine given how much value I get for it for such a small cost.
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/1password.jpg" alt="1Password iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -234,7 +234,7 @@ Everyone should have a password manager, and I won't be giving up mine given how
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£32.99 per year</dd>
     </dl>
-</figure>
+</section>
 
 
 ### Social media
@@ -243,7 +243,7 @@ Last month Twitter killed third-party apps unceremoniously. Tweetbot – my Twit
 
 On the plus side, that's £5.99 a year saved! On the flip side, having recently [migrated to Mastodon](https://mastodon.social/@johnpeart), I've now subscribed to _Ivory_; a new app by the same developer. It comes at a higher price too – £14.99 a year.
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/tweetbot.jpg" alt="Tweetbot for Twitter iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -257,7 +257,7 @@ On the plus side, that's £5.99 a year saved! On the flip side, having recently 
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£5.99 per year</dd>
     </dl>
-</figure>
+</section>
 
 
 ### Podcasting
@@ -266,7 +266,7 @@ I listen to a lot of podcasts. A lot more than I used to, at least. I'm listenin
 
 I could use the free and built-in Apple Podcasts app but I find it entirely unreliable. So, instead, Overcast is currently my podcasting app of choice. It's available for free with ads, or at a fair (and probably, thankfully, too cheap) price.
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/overcast.jpg" alt="Overcast iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -280,7 +280,7 @@ I could use the free and built-in Apple Podcasts app but I find it entirely unre
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£8.99 per year</dd>
     </dl>
-</figure>
+</section>
 
 
 ### Development
@@ -289,7 +289,7 @@ Working Copy and Nova are both paid softwares that require an annual payment-typ
 
 I could probably stretch out my subscription cycles here a little this year to save a few pounds here and there.
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/workingcopy.jpg" alt="Working Copy iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -303,9 +303,9 @@ I could probably stretch out my subscription cycles here a little this year to s
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£17.99</dd>
     </dl>
-</figure>
+</section>
 
-<figure class="app-sheet">
+<section class="app-sheet">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/nova.jpg" alt="Nova iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
@@ -319,7 +319,7 @@ I could probably stretch out my subscription cycles here a little this year to s
         <dt class="app-second-label">Price</dt>
         <dd class="app-second">£49.00</dd>
     </dl>
-</figure>
+</section>
 
 
 ### Contacts and calendar
@@ -328,7 +328,7 @@ I feel *slightly* ridiculous saying that I subscribe to calendar and contacts ap
 
 They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it's really hard to go back to life in the slow lane. So I'll have to suck it up.
 
-<figure class="apps-list">
+<section class="apps-list">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/flexibits.jpg" alt="Flexibits logo.">
         <dt class="sr-only">App name</dt>
@@ -350,7 +350,7 @@ They are pricey though. I wish that the developer would strip out some of the mo
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
-</figure>
+</section>
 
 
 ## Totals and potential savings
@@ -361,7 +361,7 @@ Where could I save some money?
 
 Mostly on the streaming services, I think.
 
-<figure class="apps-list">
+<section class="apps-list">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
@@ -412,7 +412,7 @@ Mostly on the streaming services, I think.
         <dt>Total</dt>
         <dd>£53.52 per month</dd>
     </dl>
-</figure>
+</section>
 
 I'm spending almost £53 a month on subscription streaming services and wider content bundles. That seems excessive given how little of those services I am consuming.
 

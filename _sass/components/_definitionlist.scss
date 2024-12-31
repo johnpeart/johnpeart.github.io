@@ -31,24 +31,64 @@ dd, dt {
     }
 }
 
-figure.app-sheet {
+section.apps-list,
+section.games-list,
+section.app-sheet {
+    margin: $container-padding auto $container-padding * 2;
+    @include glass();
+    
+    dl {
 
-    margin: 0 auto;
+        display: grid;
+    
+        padding: $container-padding;
+
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+    
+        @include tablet-up {
+            grid-template-rows: 1fr;
+            grid-template-columns: auto 1fr;
+        }
+        column-gap: $container-padding * 2;
+        row-gap: $container-padding;
+        
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+
+section.apps-list,
+section.games-list {
+    
+    dl {
+
+        &:hover {
+            background: var(--dl--hoverBackground);
+        }
+        &:first-child {
+            border-top-left-radius: $border-radius * 2;
+            border-top-right-radius: $border-radius * 2;
+        }
+        &:last-child {
+            border-bottom-left-radius: $border-radius * 2;
+            border-bottom-right-radius: $border-radius * 2;
+        }
+    }
+    
+}
+
+section.app-sheet {
+
     max-width: 570px;
-    margin-bottom: $container-padding;
-	background: none;
 
     .dl--app {
-        box-shadow: shadow(2);
-        border-radius: $border-radius;
         display: grid;
-
         grid-template-rows: auto auto auto auto auto;
         grid-template-columns: 80px auto auto auto;
         @include tablet-up {
             grid-template-columns: 130px auto auto auto;
             padding: 20px;
-            border-radius: $border-radius * 2;
         }
         row-gap: 0;
         column-gap: 0;
@@ -114,26 +154,10 @@ figure.app-sheet {
     @include clearfix();
 }
 
+section.apps-list {
 
-figure.apps-list {
-
-    margin: 0 auto;
     max-width: 570px;
-
-    dl {
-        box-shadow: shadow(2);
-        border-radius: 0;
-        &:hover {
-            background: var(--dl--hoverBackground);
-        }
-        &:first-child {
-            border-radius:  $border-radius $border-radius 0 0;
-        }
-        &:last-child {
-            border-radius: 0 0 $border-radius $border-radius;
-        }
-    }
-
+    
     dl.dl--app {
         display: grid;
 
@@ -166,5 +190,74 @@ figure.apps-list {
         }
         column-gap: 20px;
         border-top: form("border-width") solid var(--dl--borderColor);
+    }
+}
+
+section.games-list {
+
+    max-width: 100%;
+
+    dl.dl--game {
+        display: grid;
+
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:   
+            'rank art'
+            '. name' 
+            '. platform';
+        align-items: flex-start;
+        justify-items: center;
+        
+        @include tablet-up() {
+            grid-template-rows: auto auto;
+            grid-template-columns: 5ch auto 1fr;
+            grid-template-areas:   
+                'rank art name' 
+                'rank art platform';
+            align-items: center;
+            justify-items: flex-start;
+        }
+        
+        grid-gap: 0 $container-padding;
+        
+        svg {
+            max-width: 200px;
+            margin-bottom:  $container-padding;
+        }
+
+        @include tablet-up {
+            grid-gap: 0 $container-padding * 4;
+            svg {
+                max-width: 150px;
+                margin-bottom: 0;
+            }
+        }
+        
+        svg {
+            grid-area: art;
+        }
+        .dl--game--rank {
+            grid-area: rank; 
+            font-weight: 700;
+            color: var(--secondary-color);
+            text-align: center;
+        }
+        .dl--game--name {
+            grid-area: name;
+            @include typography($h2);
+            font-weight: 700;
+            padding: 0 !important; 
+            align-self: flex-end;
+            text-wrap: balance;
+            
+            @include mobile() {
+                text-align: center;
+            }
+        }
+        .dl--game--platform {
+            grid-area: platform; 
+            align-self: flex-start;
+        }
     }
 }

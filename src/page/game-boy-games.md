@@ -99,6 +99,11 @@ list:
       price: "£21"
       link: 
         buy: "https://www.etsy.com/uk/listing/1251187027/gb-wordyl-game-cartridge-for-game-boy"
+    - name: "Kudzu"
+      description: "Cartridge"
+      price: "£33"
+      link: 
+        buy: "https://megacatstudios.com/products/kudzu"
     - name: "Legend of Zelda: Link's Awakening DX"
       description: "Cartridge"
       price: "£35"

@@ -88,6 +88,16 @@ list:
       price: "£21"
       link: 
         buy: "https://www.etsy.com/uk/listing/1251187027/gb-wordyl-game-cartridge-for-game-boy"
+    - name: "Kien"
+      description: "Digital edition"
+      price: "£10"
+      link: 
+        buy: "https://incube8games.com/en-eu/collections/digital-editions/products/kien-gba-digital-edition"
+    - name: "Kudzu"
+      description: "Cartridge"
+      price: "£33"
+      link: 
+        buy: "https://megacatstudios.com/products/kudzu"
     - name: "Petris"
       description: "Game Boy Color cartridge"
       price: "£21"
@@ -98,12 +108,6 @@ list:
       price: "£21"
       link: 
         buy: "https://www.etsy.com/uk/listing/1155359524/quartet-game-cartridge-for-game-boy-and?click_key  0c9596eef0ac9ee3454b186db10094972340060a%3A1155359524&click_sum=db53fe6e&ref=shop_home_active_21"
-    - name: "Kien"
-      description: "Digital edition"
-      price: "£10"
-      link: 
-        buy: "https://incube8games.com/en-eu/collections/digital-editions/products/kien-gba-digital-edition"
-
      
 - name: "Homeware and Kitchen"
   items:
@@ -118,13 +122,13 @@ list:
       link: 
         buy: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
 
-- name: "Miscellaneous"
-  items:
-    - name: "LEGO IDEAS Polaroid OneStep SX-70 Camera"
-      description: "Often discounted."
-      price: "£70"
-      link: 
-        buy: "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345"
+# - name: "Miscellaneous"
+  # items:
+  #   - name: "LEGO IDEAS Polaroid OneStep SX-70 Camera"
+  #     description: "Often discounted."
+  #     price: "£70"
+  #     link: 
+  #       buy: "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345"
 
 - name: "Music"
   items:
@@ -133,7 +137,12 @@ list:
     - name: "Eurovision Song Contest 2001 album"
       price: "Varies"
 
-# - name: "Technology"
-#   items:
+- name: "Technology"
+  items:
+    - name: "8BitDo Retro Keycaps"
+      description: "Often discounted."
+      price: "$50"
+      link: 
+        buy: "https://shop.8bitdo.com/products/8bitdo-retro-keycaps"
 
 ---

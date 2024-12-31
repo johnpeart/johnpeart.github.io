@@ -7,6 +7,9 @@ permalink: "/games/game-boy/"
 list:
 - name: "Game Boy"
   items:
+    - name: "Black Castle"
+      description: "Cartridge"
+      status: "Owned"
     - name: "Dr. Mario"
       description: "Cartridge"
       status: "Owned"
@@ -64,16 +67,9 @@ list:
 
 - name: "Game Boy Color"
   items:
-    - name: "Black Castle"
-      description: "Cartridge"
-      price: "£23"
-      link: 
-        buy: "https://www.etsy.com/uk/listing/1221102527/black-castle-game-cartridge-for-game-boy?click_ke  =ca086b2dda41ec9b1dade200a982430475fc621e%3A1221102527&click_sum=3a71c51b&ref=shop_home_active_7"
     - name: "Chantey"
       description: "Cartridge"
-      price: "£33"
-      link: 
-        buy: "https://modretro.com/products/chantey"
+      status: "Owned"
     - name: "D*fuzed"
       description: "Digital edition"
       price: "£10"
@@ -81,9 +77,7 @@ list:
         buy: "https://incube8games.com/en-eu/collections/digital-editions/products/d-fuzed-gbc-digital-edition"
     - name: "Dragonhym"
       description: "Cartridge"
-      price: "£37"
-      link: 
-        buy: "https://modretro.com/products/dragonyhm"
+      status: "Owned"
     - name: "Donkey Kong Country"
       description: "Cartridge"
       price: "£12"
@@ -96,9 +90,7 @@ list:
         buy: "https://www.etsy.com/uk/listing/1173804126/flooder-game-cartridge-for-game-boy?click_key=48c  e34a4dea500a89b1b54e9d4827dededf90da%3A1173804126&click_sum=fe21ad03&ref=shop_home_active_24"
     - name: "GB Wordyl"
       description: "Cartridge"
-      price: "£21"
-      link: 
-        buy: "https://www.etsy.com/uk/listing/1251187027/gb-wordyl-game-cartridge-for-game-boy"
+      status: "Owned"
     - name: "Kudzu"
       description: "Cartridge"
       price: "£33"
@@ -160,9 +152,7 @@ list:
         buy: "https://uk.webuy.com/product-detail?id=SGBCG291C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=80D83C764A67CB26C6F22A46AF114E4B&position=7"
     - name: "Quartet"
       description: "Cartridge"
-      price: "£21"
-      link: 
-        buy: "https://www.etsy.com/uk/listing/1155359524/quartet-game-cartridge-for-game-boy-and?click_key  0c9596eef0ac9ee3454b186db10094972340060a%3A1155359524&click_sum=db53fe6e&ref=shop_home_active_21"
+      status: "Owned"
     - name: "Tomb Raider"
       description: "Cartridge"
       price: "£12"
@@ -173,16 +163,15 @@ list:
       price: "£12"
       link: 
         buy: "https://uk.webuy.com/product-detail?id=SGBCG404C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=732911130D938F95167E5AE1418D1410&position=2"
+    - name: "Super Mario Bros Deluxe"
+      description: "Cartridge"
+      status: "Owned"
     - name: "Wario Land 2"
       description: "Cartridge"
-      price: "£15"
-      link: 
-        buy: "https://uk.webuy.com/product-detail?id=SGBCG437C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=80D83C764A67CB26C6F22A46AF114E4B&position=14"
+      status: "Owned"
     - name: "Wario Land 3"
       description: "Cartridge"
-      price: "£15"
-      link: 
-        buy: "https://uk.webuy.com/product-detail?id=SGBCG438C&categoryName=GAME-BOY-COLOR-SOFTWARE&superCatName=GAMING&title=&queryID=80D83C764A67CB26C6F22A46AF114E4B&position=8"
+      status: "Owned"
 
 
 - name: "Game Boy Advance"

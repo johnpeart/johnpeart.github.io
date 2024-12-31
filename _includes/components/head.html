@@ -59,7 +59,7 @@
 		{%- assign description = page.content | strip_html | truncate: 200 %}
 		{%- assign type = "photo" %}
 	{%- elsif collection == "game" and layout != "loop" %}
-		{%- assign title = title | prepend: "🎮 Shared ”" | append: "“" | strip_html | truncate: 200 %}
+		{%- assign title = title | prepend: "🎮 Shared “" | append: "”" | strip_html | truncate: 200 %}
 		{%- assign description = page.content | strip_html | truncate: 200 %}
 		{%- assign type = "game" %}
 	{%- elsif title -%}

@@ -11,7 +11,7 @@ Rather than “resolutions”, I have an annual tradition of setting myself seve
 
 I set multiple separate targets so that if one of them goes off the rails, I can still succeed at something else and not get too down beat about it. I track all the goals online so that anyone that knows me can nudge me to get back on track.
 
-I already have a sense that 2025 is going to be the most demanding year yet, between work and an ongoing, all consuming dispute with our freeholder and management company that is probably going to end up in court. I also have an idea for an enormous project that I want to be the main focus of my spare time already that doesn't lend itself to this kind of goal tracking.
+I already have a sense that 2025 is going to be the most demanding year yet, between work and an ongoing, all-consuming dispute with our freeholder and management company that is probably going to end up in court. I also have an idea for an enormous project that I want to be the main focus of my spare time already; and that project doesn't lend itself to this kind of goal tracking.
 
 Accordingly, I am dialling back my ambitions a little bit and set myself some goals that I'm confident I can manage on top of what will certainly be a hectic work-life balance. 
 

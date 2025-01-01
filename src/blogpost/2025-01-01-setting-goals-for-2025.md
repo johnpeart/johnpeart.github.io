@@ -5,6 +5,9 @@ author: "John Peart"
 excerpt: "Some simpler goals for this year"
 categories:
 - personal
+posse:
+- https://mastodon.social/@johnpeart/113755615877690485
+- https://bsky.app/profile/johnpe.art/post/3lepoksl7f22c
 ---
 
 Rather than “resolutions”, I have an annual tradition of setting myself several specific, measurable goals that I can form new habits around across the year.

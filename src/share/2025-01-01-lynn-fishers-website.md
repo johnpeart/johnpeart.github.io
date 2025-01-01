@@ -10,6 +10,9 @@ reply_to:
     url: "https://lynnandtonic.com"
     image: "https://lynnandtonic.com/assets/images/OG/stretch.jpg"
     date: 2025-01-01
+posse: 
+- https://mastodon.social/@johnpeart/113755610358575838
+- https://bsky.app/profile/johnpe.art/post/3lepoh663bs2c
 ---
 
 Today I've stumbled upon [Lynn Fisher's website](//lynnandtonic.com). It is **awesome**.

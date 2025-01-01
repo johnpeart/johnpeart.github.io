@@ -51,7 +51,7 @@ Instead of putting cash into a saving's account, I'm going to treat my mortgage 
 
 > **Success measure**: Overpay on my mortgage by at least £5,000
 
-## Go! 
+## Off we go! 
 
 So those are my *slightly* less ambitious goals for the year ahead. Onwards!
 

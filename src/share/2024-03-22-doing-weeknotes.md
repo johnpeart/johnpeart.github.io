@@ -17,7 +17,7 @@ posse:
 - https://mastodon.social/@johnpeart/112139256559349156
 ---
 
-I’ve never managed to get into the habit of week noting; but Giles’ excellent *Doing Weeknotes* guidance has inspired me to give it another shot!
+I’ve never managed to get into the habit of weeknoting; but Giles’ excellent *Doing Weeknotes* guidance has inspired me to give it another shot!
 
 More, soon.
 

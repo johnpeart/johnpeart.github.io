@@ -1,6 +1,6 @@
 {
    "layout": "blogpost",
    "collection": "weeknote",
-   "categories": "week note",
+   "categories": "weeknote",
    "permalink": "/weeknote/{{ page.date | date: '%Y/%m/%d' }}/"
 }

@@ -27,7 +27,7 @@ I am nowhere near having achieved the goal, but for someone who doesn't really d
 
 I wanted to own my own content this year and do more blogging directly on my own website. I set myself a goal to share something on my website, on average, at least once a week.
 
-I built new post formats directly into the website – [notes](/notes), [lists](/lists), [music](/music), [games](/games), [replies](/replies), [reposts](reposts), [week notes](/weeknotes), and [‘now’ posts](/now) – all in service of sharing more here, and not elsewhere, and wilding my online garden. Whether anyone was reading them or not was irrelevant. What I wanted was a greater repository of my basket-case of a brain on the web. I wanted to become the Chief Librarian of *Me*. 
+I built new post formats directly into the website – [notes](/notes), [lists](/lists), [music](/music), [games](/games), [replies](/replies), [reposts](reposts), [weeknotes](/weeknotes), and [‘now’ posts](/now) – all in service of sharing more here, and not elsewhere, and wilding my online garden. Whether anyone was reading them or not was irrelevant. What I wanted was a greater repository of my basket-case of a brain on the web. I wanted to become the Chief Librarian of *Me*. 
 
 I achieved my goal, and then some. Including this post, I've posted 64 pieces of content this year that might loosely be defined as ‘blog posts’. 
 

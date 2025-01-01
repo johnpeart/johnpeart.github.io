@@ -27,9 +27,9 @@
 		{%- assign type = "article" %}
 	{%- elsif collection == "weeknote" and layout != "loop" %}
         {% if title %}
-		{%- assign title = date  | date: "%d %B %Y" | prepend: "📅 Week note: " | append: " • " | append: title | strip_html | truncate: 200 %}
+		{%- assign title = date  | date: "%d %B %Y" | prepend: "📅 Weeknote: " | append: " • " | append: title | strip_html | truncate: 200 %}
         {% else %}
-		{%- assign title = date  | date: "%d %B %Y" | prepend: "📅 Week note: " | strip_html | truncate: 200 %}
+		{%- assign title = date  | date: "%d %B %Y" | prepend: "📅 Weeknote: " | strip_html | truncate: 200 %}
         {% endif %}
 		{%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 %}
 		{%- assign type = "article" %}

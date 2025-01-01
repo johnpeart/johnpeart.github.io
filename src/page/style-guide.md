@@ -134,18 +134,18 @@ list:
         A way for websites to communicate with each other. 
         
         See [What are Webmentions?](https://johnpe.art/webmentions/)
-    - name: "Week note"
+    - name: "Weeknote"
       label: "Noun"
       description: |
-        A note written at the end of a week. Pluralised as “week notes”. 
+        A note written at the end of a week. Pluralised as “weeknotes”. 
         
         See [doingweeknotes.com](http://doingweeknotes.com).
-    - name: "Week note"
+    - name: "Weeknote"
       label: "Verb"
       description: | 
-        To produce a week note.
+        To produce a weeknote.
         
-        Examples: “I week noted”, “She week notes”, “They are week noting”.
+        Examples: “I weeknoted”, “She weeknotes”, “They are weeknoting”.
         
 - name: "X"
   items:

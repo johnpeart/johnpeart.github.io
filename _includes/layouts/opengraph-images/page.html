@@ -100,12 +100,12 @@
         <div id="opengraph">
             {% if post.data.title == "Notes" %}
                 <h1 class="p-name post-it yellow"">Notes</h1>
-            {% elsif post.data.title == "Week notes" %}
+            {% elsif post.data.title == "Weeknotes" %}
                 <aside class="calendar">
 	                <div class="calendar-sheet">
 			                <span class="calendar-month">{{ page.date | date: "%b" | upcase }}</span>
 			                <span class="calendar-date">{{ page.date | date: "%d" }}</span>
-			                <span class="calendar-collection">Week notes</span>
+			                <span class="calendar-collection">Weeknotes</span>
 	                </div>
                 </aside>
             {% else %}

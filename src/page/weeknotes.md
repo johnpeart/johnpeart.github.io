@@ -1,6 +1,6 @@
 ---
 layout: loop
-title: "Week notes"
+title: "Weeknotes"
 collection: weeknote
 permalink: /weeknotes/
 ---

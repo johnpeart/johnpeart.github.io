@@ -13,13 +13,13 @@ I set multiple separate targets so that if one of them goes off the rails, I can
 
 I already have a sense that 2025 is going to be the most demanding year yet, between work and an ongoing, all-consuming dispute with our freeholder and management company that is probably going to end up in court. I also have an idea for an enormous project that I want to be the main focus of my spare time already; and that project doesn't lend itself to this kind of goal tracking.
 
-Accordingly, I am dialling back my ambitions a little bit and set myself some goals that I'm confident I can manage on top of what will certainly be a hectic work-life balance. 
+Accordingly, I am dialling back my ambitions a little bit and setting myself some goals that I'm confident I can manage on top of what will certainly be a hectic work-life balance. 
 
 ## My goals for 2025
 
 ### 1. Weeknote
 
-[Giles](//gilest.org) has given me the bug for [doing weeknotes](//doingweeknotes.com). Last year, in spits and spurts, I started to weeknote and this year I'm going to have a real crack at doing it every week.
+[Giles](//gilest.org) has given me the bug for [doing weeknotes](//doingweeknotes.com). Last year, in spurts, I started to weeknote and this year I'm going to have a real crack at doing it every week.
 
 > **Success measure:** Publish a weeknote every week
 

@@ -34,7 +34,7 @@ Not content to merely lift-and-shift the existing site, I of course made things 
 Opengraph images are the images that pop up on social media when you share a URL of a page. Here's an example of one I most recently used for my 'weeknotes':
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/opengraph-week-notes.png" alt="A representation of a calendar with the word “Weeknote” and the number “01” on it.">
+	<img src="/assets/images/posts/2024/09/09/opengraph-weeknotes.png" alt="A representation of a calendar with the word “Weeknote” and the number “01” on it.">
 	<figcaption>This looks fine – but I never liked the fact that I was always stuck at “Week 1”.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Cool enough. But, I thought, what if the date on that calendar automatically mat
 What if, instead of the above, static image, for [my most recent weeknote](/weeknote/2024/09/08/), I'd get this:
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/new-opengraph-week-notes.jpeg" alt="A representation of a calendar with the word “Weeknote” and the date “Sep 08” on it.">
+	<img src="/assets/images/posts/2024/09/09/new-opengraph-weeknotes.jpeg" alt="A representation of a calendar with the word “Weeknote” and the date “Sep 08” on it.">
 	<figcaption>Now my Opengraph images reflect the actual content of the post automatically.</figcaption>
 </figure>
 

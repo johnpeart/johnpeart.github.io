@@ -58,4 +58,4 @@ Instead of putting cash into a saving's account, I'm going to treat my mortgage 
 
 So those are my *slightly* less ambitious goals for the year ahead. Onwards!
 
-> You can follow my progress with my goals by visiting my [goals dashboard](/goals/2024).
+> You can follow my progress with my goals by visiting my [goals dashboard](/goals/).

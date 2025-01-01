@@ -137,7 +137,7 @@ list:
     - name: "Weeknote"
       label: "Noun"
       description: |
-        A note written at the end of a week. Pluralised as “weeknotes”. 
+        A note written at the end of a week. No space between “week” and “note”. Pluralised as “weeknotes”.
         
         See [doingweeknotes.com](http://doingweeknotes.com).
     - name: "Weeknote"

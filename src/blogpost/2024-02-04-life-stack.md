@@ -49,7 +49,7 @@ My Mac Mini isn't exactly portable, so I've been using the biggest iPad I could 
 
 ### iPhone 15 Pro Max
 
-This is my most recent computing purchase, and it's really no different from the iPhone 12 Pro or any other iPhone I had before it. The camera is better and the screen is bigger than the last one, sure. The truly appreciable benefit to this model, from my day-to-day use, is the truly brilliant battery life. 
+This is my most recent computing purchase, and it's really no different from iPhone 12 Pro or any other iPhone I had before it. The camera is better and the screen is bigger than the last one, sure. The truly appreciable benefit to this model, from my day-to-day use, is the truly brilliant battery life. 
 
 ### Apple Watch (7th generation)
 

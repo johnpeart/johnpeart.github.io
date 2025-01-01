@@ -1,20 +1,20 @@
 ---
 title: "Hey Siri, bring the beat in."
 author: John Peart
-excerpt: "One month with Apple’s “intelligent assistant” and the HomePod."
+excerpt: "One month with Apple’s “intelligent assistant” and HomePod."
 categories:
   - digital
 aliases:
 - /2018/03/31/hey-siri-homepod
 ---
 
-In July last year, Apple announced they were releasing a smart speaker: the HomePod. It took more than 6 months for them to release it, but now it’s here. 
+In July last year, Apple announced they were releasing a smart speaker: HomePod. It took more than 6 months for them to release it, but now it’s here. 
 
 Having made a promise to myself that I wasn’t going to buy one, I subsequently broke that promise and did. I’ve had it for about 6 weeks now; these are some reflections on what it’s like to live with.
 
 ## The basics
 
-For those who have escaped the multi-billion dollar hype machine that is Apple’s marketing, a quick crash course in the HomePod. 
+For those who have escaped the multi-billion dollar hype machine that is Apple’s marketing, a quick crash course in HomePod. 
 
 You can get the specs on Apple’s website or a decent tech website, so here’s the skinny:
 
@@ -32,7 +32,7 @@ Let’s get the easy bit out of the way: it sounds great. I’m not an audiophil
 
 My previous home speaker was a Bose SoundLink Mini. HomePod blows that out of the water. 
 
-Without any fiddling with the settings, every piece of music you throw at it sounds great. That’s a good thing, because there are no settings that you *can* fiddle with. Instead of letting you, *mere mortal*, mess with levels, bass, mids and treble, the HomePod just sorts that out so you always get the best sound.
+Without any fiddling with the settings, every piece of music you throw at it sounds great. That’s a good thing, because there are no settings that you *can* fiddle with. Instead of letting you, *mere mortal*, mess with levels, bass, mids and treble, HomePod just sorts that out so you always get the best sound.
 
 How does it know it’s the best sound? Through some super complicated sound-bouncing trickery.
 
@@ -54,7 +54,7 @@ Here’s the thing though: Siri sucks.
 
 I’ve read a lot of reviews about HomePod, and they all say Siri sucks. They’re right; but whilst they argue about Siri’s AI prowess relative to Amazon’s Alexa and the Google Assistant, my quibble is with the basics. I’ve had multiple infuriating experiences trying to get Siri to perform basic commands that Apple claims it does.
 
-Simple things like turning off the lights[^lights] just don’t work consistently. I’ve had HomePod ignore my commands entirely, trigger commands that are totally different from what I ask for, and sometimes just straight up stop listening until you tap the capacitive touch area on the top of the HomePod itself.
+Simple things like turning off the lights[^lights] just don’t work consistently. I’ve had HomePod ignore my commands entirely, trigger commands that are totally different from what I ask for, and sometimes just straight up stop listening until you tap the capacitive touch area on the top of HomePod itself.
 
 [^lights]: I’ve got about a dozen Phillips Hue smart lights set up around my house. Total aside, they’re awesome; though they are super expensive.
 
@@ -84,9 +84,9 @@ These are all, in reality, fairly small complaints. They don’t ruin the experi
 
 ### Benefits of the ecosystem 
 
-One of the major bonuses of going “all in” with the Apple ecosystem is how all your devices work together. With the HomePod, the best example is how it works with Apple TV.
+One of the major bonuses of going “all in” with the Apple ecosystem is how all your devices work together. With HomePod, the best example is how it works with Apple TV.
 
-If you own an Apple TV, you can route your audio through the HomePod. That means you can take advantage of all that great speaker technology instead of relying on the crappy TV speakers you’re probably listening through normally.
+If you own an Apple TV, you can route your audio through HomePod. That means you can take advantage of all that great speaker technology instead of relying on the crappy TV speakers you’re probably listening through normally.
 
 It’s not a big feature, but it is a great benefit from using the entire ecosystem of devices Apple has created.
 
@@ -96,15 +96,15 @@ Where HomePod excels is in the intangible space of privacy.
 
 I won’t labour the point, as I know it’s dull, but unlike competitor devices, Apple has been incredibly transparent about what data it collects via HomePod and has designed it to respect your privacy.
 
-If you don’t like the idea of a speaker in the house always listening to you, but want a smart speaker, HomePod is best in class for getting that balance right. It only listens and processes what people say after you’ve said “Hey Siri”, and Apple isn’t monetising the information collected through the device so it has no incentive to collect more than it needs to make the HomePod work.
+If you don’t like the idea of a speaker in the house always listening to you, but want a smart speaker, HomePod is best in class for getting that balance right. It only listens and processes what people say after you’ve said “Hey Siri”, and Apple isn’t monetising the information collected through the device so it has no incentive to collect more than it needs to make HomePod work.
 
 If you’re super privacy conscious though, just say “Hey Siri, stop listening” and you can control all HomePod’s features via your iOS device. It effectively becomes a regular speaker, but with an internet connection.
 
 ## Slightly off-key
 
-I’m a glutton for punishment. I can’t help being an early adopter for the latest technology. I bought in to the iPhone and iPad from day one. Similarly with Apple Watch. 
+I’m a glutton for punishment. I can’t help being an early adopter for the latest technology. I bought in to iPhone and iPad from day one. Similarly with Apple Watch. 
 
-Like all “first gen” products, the HomePod has its flaws. Siri is pretty awful, and the software experience is generally confused. But what Apple has done is create a brilliant speaker. 
+Like all “first gen” products, HomePod has its flaws. Siri is pretty awful, and the software experience is generally confused. But what Apple has done is create a brilliant speaker. 
 
 Is it worth several hundred pounds? Not yet.
 

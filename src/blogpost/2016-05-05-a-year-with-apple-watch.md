@@ -23,7 +23,7 @@ Well, 1 year on, not all of those lived up to their promise.
 
 ## The most accurate timepiece ever made
 
-I don't know if Apple Watch is the most accurate watch ever made, but I do know that it's accurate enough for me never to have to worry. It even managed to deal with the clocks going forward and back without screwing up -- which is [more than can be said for the iPhone](http://www.gottabemobile.com/2016/03/12/iphone-daylight-saving-2015/).
+I don't know if Apple Watch is the most accurate watch ever made, but I do know that it's accurate enough for me never to have to worry. It even managed to deal with the clocks going forward and back without screwing up -- which is [more than can be said for iPhone](http://www.gottabemobile.com/2016/03/12/iphone-daylight-saving-2015/).
 
 The problem with Apple Watch isn't its ability to know the time, it's the ability for it to tell me. 
 

@@ -15,7 +15,7 @@ In recent months and years, Apple — yes, *that* Apple — have been launching 
 
 But in order to look at the present, a short detour to the past is necessary, and specifically at names of things in Apple's history.
 
-The names of Apple's hardware and software have always been a bit all over the shop. We've had the eMac and iMac, the MacBook, MacBook Pro and MacBook Air, the iPod, iPhone and iPad, the Apple TV and HomePod. That's just the hardware.
+The names of Apple's hardware and software have always been a bit all over the shop. We've had the eMac and iMac, MacBook, MacBook Pro and MacBook Air, the iPod, iPhone and iPad, the Apple TV and HomePod. That's just the hardware.
 
 With Apple's operating system software we've had Mac OS X,  iPhone OS, iOS, Apple TV Software and watchOS to name a few[^2].
 

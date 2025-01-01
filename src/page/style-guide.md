@@ -52,19 +52,36 @@ list:
         The federated social web. Always “the fediverse”, never “fediverse”.
         
         Some people disagree with using “the”. Those people are wrong.   
+
+- name: "G"
+  items:
+    - name: "Game Boy"
+      label: "Noun"
+      description: |
+        A series of games consoles by *Nintendo*. Whilst popular amongst online communities to omit the space between “Game” and “Boy”, *Nintendo* includes the space, and therefore so do I.
+        
+        Examples: “Game Boy”, “Game Boy Color”, “Game Boy Advance”.
+    - name: "Game Pak"
+      label: "Noun"
+      description: |
+        Cartridges used for Game Boy consoles. Whilst popular amongst online communities to omit the space between “Game” and “Pak”, *Nintendo* includes the space, and therefore so do I.
         
 - name: "I"
   items:
     - name: "iPhone"
       label: "Noun"
       description: |
-        Pluralise “iPhone”, not the series moniker. Alternatively add ”series”. Do not use the definite article.
+        Pluralise “iPhone”, not the series moniker. Alternatively add ”series”. 
+        
+        Do not use the definite article.
         
         Examples: “iPhones 16”, ”iPhone 16 series”.
     - name: "iPod"
       label: "Noun"
       description: |
-        Pluralise “iPod”, not the series moniker. Alternatively add ”series”. Do not use the definite article.
+        Pluralise “iPod”, not the series moniker. Alternatively add ”series”. 
+        
+        Do not use the definite article.
         
         Examples: “iPods Classic”, ”iPod nano series”. Do not use the definite article.
     - name: "iPod nano"

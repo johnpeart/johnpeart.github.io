@@ -33,7 +33,7 @@ Apple thinks the answer to that is apps.
 
 ## Apps are the new channels
 
-Like the iPhone, Apple TV relies on apps to serve you content. You need the *Netflix* app to watch *House of Cards*. You need the *NowTV* or *Sky Go* apps to access *Sky Sports*. Every piece of content you probably want to watch is in a different walled garden. 
+Like iPhone, Apple TV relies on apps to serve you content. You need the *Netflix* app to watch *House of Cards*. You need the *NowTV* or *Sky Go* apps to access *Sky Sports*. Every piece of content you probably want to watch is in a different walled garden. 
 
 Apps are the new channels; the problem is, channels have always been a bad way of organising content, and so are apps. I don't want to have to figure out which app has that film I want to watch - I just want to watch the film. Equally, I don't want to have to learn how to navigate the different menu layouts of every content provider I use. 
 

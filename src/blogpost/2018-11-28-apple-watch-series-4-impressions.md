@@ -95,7 +95,7 @@ This is what Apple Watch does do and can do best. Interrupts you when you need t
 
 ## Wrap Up
 
-The Apple Watch has changed dramatically in 3 years. It has progressed far more rapidly in terms of design and usability than the iPhone or iPad did in the same period. On only the 4th iteration, this device is has the potential to last for years.
+The Apple Watch has changed dramatically in 3 years. It has progressed far more rapidly in terms of design and usability than iPhone or iPad did in the same period. On only the 4th iteration, this device is has the potential to last for years.
 
 Beyond the hardware though, Apple Watch is still struggling to find coherence. Whilst significantly faster, the operating system is still confused and confusing. Are the software failings enough of a ding to make me think I wasted money on this new device? Absolutely not. I just want the future to arrive a little bit quicker.
 

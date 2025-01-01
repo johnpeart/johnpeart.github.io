@@ -2,7 +2,7 @@
 date: 2024-03-02T16:00:00+00:00
 title: "Push the button"
 author: "John Peart"
-excerpt: "Futzing with Shortcuts to make more beautiful and functional Action Button menus on the iPhones 15 Pro and Pro Max."
+excerpt: "Futzing with Shortcuts to make more beautiful and functional Action Button menus on iPhones 15 Pro and Pro Max."
 image: /posts/2024/03/02/push-the-button/my-action-button-menu.jpg
 posse:
 - https://mastodon.social/@johnpeart/112027377430434866

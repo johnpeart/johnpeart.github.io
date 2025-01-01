@@ -22,7 +22,7 @@ I've got one. I've been wearing it for about two weeks. And this is what it's li
 
 ## What's the point of a smartwatch?
 
-To understand Apple Watch, you really have to understand the purpose of a smartwatch. When Tim Cook got on stage a little over 6 months ago, introducing the Watch to the world, he said Apple — much like with the iPhone before it — made this product to do three specific things *really* well:
+To understand Apple Watch, you really have to understand the purpose of a smartwatch. When Tim Cook got on stage a little over 6 months ago, introducing the Watch to the world, he said Apple — much like with iPhone before it — made this product to do three specific things *really* well:
 
 - it was the most accurate time piece ever made.
 - it allowed you to communicate with others in much more personal ways.
@@ -69,7 +69,7 @@ More interesting than its accuracy is the design of both the watch, and the watc
 
 I've got the 42mm Apple Watch Sport in black anodised aluminium with a black ‘fluroelastomer’ (*it's not rubber*) band. If slow shipping times are a demonstration of demand, then this is certainly the people's Apple Watch — the direct opposite of the more ostentatious, ultra exclusive 18ct gold Watch. But whilst this version of the Apple Watch is clearly the favourite of the masses, I suspect it's because of price rather than looks.
 
-The Apple Watch — the Sport model at least — is beautifully utilitarian. It's well crafted, and it feels of an incredibly high quality. But it isn't *beautiful*. It's not a *fashion* statement. Much in the same way Apple altered direction slightly between the iPhone 5S and 6 to make the device more curved and less jewellery like, Apple Watch takes the same friendlier design cues.
+The Apple Watch — the Sport model at least — is beautifully utilitarian. It's well crafted, and it feels of an incredibly high quality. But it isn't *beautiful*. It's not a *fashion* statement. Much in the same way Apple altered direction slightly between iPhone 5S and 6 to make the device more curved and less jewellery like, Apple Watch takes the same friendlier design cues.
 
 For a device which has three wildly different price points, the differentiating feature of which is its physical appearance, that the Watch goes almost unnoticed in public and at worst could be described as *inoffensive* is somewhat surprising.
 
@@ -99,7 +99,7 @@ I've found myself getting through the day more than easily, but getting a full *
 
 The problem I continually faced with my Pebble was that it ran out of battery unexpectedly. I forgot to charge it all the time because battery life was wildly inconsistent. Sometimes it would last a week, sometimes only 4 days. Apple Watch may only have a single day's equivalent charge, but the habit of charging every day means I never have to worry about it running out mid-day.
 
-And charging is super simple. It's a bit annoying that you have yet another proprietary charging cable, but despite that, wireless charging is a boon. I hope they add it to the iPhone and iPad soon too.
+And charging is super simple. It's a bit annoying that you have yet another proprietary charging cable, but despite that, wireless charging is a boon. I hope they add it to iPhone and iPad soon too.
 
 All day battery life isn't a reason to buy the Watch, and Apple knows it. That's why they tried to avoid talking about it. You don't buy a watch — let alone a smartwatch — because battery life is good; you simply avoid the ones that are poor. But there's no reason to avoid Apple Watch — battery life is fine.
 

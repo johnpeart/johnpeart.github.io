@@ -1,0 +1,10 @@
+<figure class="kanban">
+{% for column in kanban %}
+<ul>
+<h3>{{ column.section }}</h3>
+{% for item in column.items %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+</figure>

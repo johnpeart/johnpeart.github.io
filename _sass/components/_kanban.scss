@@ -1,0 +1,32 @@
+.kanban {
+    display: grid;
+    
+    @include tablet-up() {
+        grid-auto-flow: column;
+    }
+    
+    ul {
+        padding: 0;
+        &:nth-of-type(n+2) {
+            border-top: 1px solid var(--secondary-borderColor);
+            @include tablet-up() {
+                border-top: none;
+                border-left: 1px solid var(--secondary-borderColor);
+            }
+        }
+    }
+    
+    h3 {
+    	@include typography($p, "marker");        
+        padding: $container-padding $container-padding * 0.5 !important;
+        text-align: center;
+        border-bottom: 1px solid var(--secondary-borderColor);
+    }
+    
+    li {
+        list-style: none;
+    	@include typography($small);        
+        margin: $container-padding;
+        &:before { display: none; }
+    }
+}

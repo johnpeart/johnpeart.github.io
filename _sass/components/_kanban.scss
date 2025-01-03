@@ -3,6 +3,13 @@
     
     @include tablet-up() {
         grid-auto-flow: column;
+        
+        &.col-3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        &.col-4 {
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
     
     ul {

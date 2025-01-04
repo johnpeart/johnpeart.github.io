@@ -34,7 +34,7 @@ dd, dt {
 section.apps-list,
 section.app-sheet {
     margin: $container-padding auto $container-padding * 2;
-    @include glass();
+    @include plastic(raised);
     
     dl {
 

@@ -1,5 +1,5 @@
 figure { 
-    @include glass(20px, 2);
+    @include plastic(raised);
 }
 
 figure,
@@ -14,7 +14,7 @@ figure,
     margin-bottom: $container-padding * 2;
     border-radius: $border-radius * 2;
     @include mobile() {
-        @include glass(20px, 2);
+        @include plastic(raised);
     }
     @include tablet {
         width: containers("tablet") + 100px;
@@ -41,9 +41,7 @@ figure,
         @include typography($smaller, "default");
 
         @include tablet-up {
-            -webkit-backdrop-filter: blur(20px);
-                    backdrop-filter: blur(20px);
-            @include glass(20px, 2);
+            @include glass();
             position: absolute;
             bottom: -$container-padding;
             left: -$container-padding;

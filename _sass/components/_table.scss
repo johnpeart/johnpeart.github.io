@@ -6,7 +6,7 @@
 
 table {
     @include typography($p);
-    @include glass(20px, 2, false);
+    @include plastic(raised);
     border-collapse: collapse;
     width: 100%;
     @include tablet {

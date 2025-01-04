@@ -86,26 +86,26 @@ Separating out the creation of the menu from the running of the menu means there
 
 If you want to use this set up, the two Shortcuts are available to download below.
 
-<figure class="app-sheet">
-	<dl class="dl--app">
-		<img class="app-icon large" src="/assets/images/posts/2024/03/02/push-the-button/command.png" alt="Command (Four leaf clover) symbol on a green background">
-		<dt class="app-name-label sr-only">Shortcut name</dt>
-		<dd class="app-name">Save the Action Button Menu</dd>
-		<dt class="app-description-label sr-only">Description</dt>
-		<dd class="app-description">Converts multiple Shortcuts to a .vcf file</dd>
-		<dt class="app-first-label">Download</dt>
-		<dd class="app-first"><a href="https://www.icloud.com/shortcuts/ac610efca3c54a3b9792f9b7f1c5b871" title="Download the Save the Action Button Menu Shortcut from iCloud.com">iCloud</a></dd>
-	</dl>
-</figure>
+<section class="app-sheet">
+<dl class="dl--app">
+<img class="app-icon large" src="/assets/images/posts/2024/03/02/push-the-button/command.png" alt="Command (Four leaf clover) symbol on a green background">
+<dt class="app-name-label sr-only">Shortcut name</dt>
+<dd class="app-name">Save the Action Button Menu</dd>
+<dt class="app-description-label sr-only">Description</dt>
+<dd class="app-description">Converts multiple Shortcuts to a .vcf file</dd>
+<dt class="app-first-label">Download</dt>
+<dd class="app-first"><a href="https://www.icloud.com/shortcuts/ac610efca3c54a3b9792f9b7f1c5b871" title="Download the Save the Action Button Menu Shortcut from iCloud.com">iCloud</a></dd>
+</dl>
+</section>
 
-<figure class="app-sheet">
-	<dl class="dl--app">
-		<img class="app-icon large" src="/assets/images/posts/2024/03/02/push-the-button/command.png" alt="Command (Four leaf clover) symbol on a green background">
-		<dt class="app-name-label sr-only">Shortcut name</dt>
-		<dd class="app-name">Actions</dd>
-		<dt class="app-description-label sr-only">Description</dt>
-		<dd class="app-description">A Shortcut for displaying a .vcf file as a menu</dd>
-		<dt class="app-first-label">Download</dt>
-		<dd class="app-first"><a href="https://www.icloud.com/shortcuts/e50892dd936045b3864320be67ae0b0b" title="Download the Actions Shortcut from iCloud.com">iCloud</a></dd>
-	</dl>
-</figure>
+<section class="app-sheet">
+<dl class="dl--app">
+<img class="app-icon large" src="/assets/images/posts/2024/03/02/push-the-button/command.png" alt="Command (Four leaf clover) symbol on a green background">
+<dt class="app-name-label sr-only">Shortcut name</dt>
+<dd class="app-name">Actions</dd>
+<dt class="app-description-label sr-only">Description</dt>
+<dd class="app-description">A Shortcut for displaying a .vcf file as a menu</dd>
+<dt class="app-first-label">Download</dt>
+<dd class="app-first"><a href="https://www.icloud.com/shortcuts/e50892dd936045b3864320be67ae0b0b" title="Download the Actions Shortcut from iCloud.com">iCloud</a></dd>
+</dl>
+</section>

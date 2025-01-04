@@ -14,7 +14,7 @@
     word-wrap: break-word;
     word-break: break-word;
     
-    @include plastic(inset, 5px);
+    @include plastic(raised);
     
     p {
         &:first-child {

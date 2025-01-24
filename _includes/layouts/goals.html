@@ -1,49 +1,44 @@
 ---
 layout: default
 ---
+<section id="page-content">
 
-<main id="content" class="container">
+	<h1 class="page-title">Goals</h1>
 
-	<section id="page-content">
+    {{ content }}
 
-		<h1 class="page-title">Goals</h1>
+	{% assign years = collections.goal | sort %}
+	{% for goals in years %}
 
-        {{ content }}
+		{% assign totalgoalmax = 0 %}
+		{% assign totalgoalprogress = 0 %}
+		{% assign goalno = 0 %}
+		{% assign totalgoalpercentage = 0 %}
 
-		{% assign years = collections.goal | sort %}
-		{% for goals in years %}
-
-			{% assign totalgoalmax = 0 %}
-			{% assign totalgoalprogress = 0 %}
-			{% assign goalno = 0 %}
-			{% assign totalgoalpercentage = 0 %}
-
-			{% for goal in goals.data.goals %}
-				{% assign goalno = goalno | plus: 1 %}
-				{% assign goalvalue = goal.progress | divided_by: goal.max | times: 100 %}
-				{% assign totalgoalmax = totalgoalmax | plus: goal.max | floor %}
-				{% assign totalgoalprogress = totalgoalprogress | plus: goal.progress %}
-				{% if goalvalue >= 80 %}
-					{% assign totalgoalpercentage = totalgoalpercentage | plus: 100 | floor %}
-				{% else %}
-					{% assign totalgoalpercentage = totalgoalpercentage | plus: goalvalue | floor %}
-				{% endif %}
-			{% endfor %}
-
-			<article class="goal-collection">
-				<h2 class="goal-year"><a class="goal-url" href="{{ goals.url }}" title="See goals for the year {{ goals.data.year }}">{{ goals.data.year }}</a></h2>
-                
-				{% assign goalno = goalno | times: 1.0 | at_least: 1 %}
-				{% assign totalgoalpercentage = totalgoalpercentage | times: 1.0 | at_least: 0 %}
-				{% assign averagegoalpercentage = totalgoalpercentage | divided_by: goalno | at_least: 0 | round %}
-				<progress class="goal-progress standard" max="100" value="{{ averagegoalpercentage }}">
-					<p><strong>{{ averagegoalpercentage }}% of goals completed (each goal given equal weighting)</strong></p>
-				</progress>
-				<p>{{ averagegoalpercentage }}% of {{ goalno | remove: ".0" }} goals completed</p>
-
-			</article>
-
+		{% for goal in goals.data.goals %}
+			{% assign goalno = goalno | plus: 1 %}
+			{% assign goalvalue = goal.progress | divided_by: goal.max | times: 100 %}
+			{% assign totalgoalmax = totalgoalmax | plus: goal.max | floor %}
+			{% assign totalgoalprogress = totalgoalprogress | plus: goal.progress %}
+			{% if goalvalue >= 80 %}
+				{% assign totalgoalpercentage = totalgoalpercentage | plus: 100 | floor %}
+			{% else %}
+				{% assign totalgoalpercentage = totalgoalpercentage | plus: goalvalue | floor %}
+			{% endif %}
 		{% endfor %}
-	</section>
 
-</main>
+		<article class="goal-collection">
+			<h2 class="goal-year"><a class="goal-url" href="{{ goals.url }}" title="See goals for the year {{ goals.data.year }}">{{ goals.data.year }}</a></h2>
+            
+			{% assign goalno = goalno | times: 1.0 | at_least: 1 %}
+			{% assign totalgoalpercentage = totalgoalpercentage | times: 1.0 | at_least: 0 %}
+			{% assign averagegoalpercentage = totalgoalpercentage | divided_by: goalno | at_least: 0 | round %}
+			<progress class="goal-progress standard" max="100" value="{{ averagegoalpercentage }}">
+				<p><strong>{{ averagegoalpercentage }}% of goals completed (each goal given equal weighting)</strong></p>
+			</progress>
+			<p>{{ averagegoalpercentage }}% of {{ goalno | remove: ".0" }} goals completed</p>
+
+		</article>
+
+	{% endfor %}
+</section>

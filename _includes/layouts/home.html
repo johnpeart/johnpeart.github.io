@@ -2,12 +2,4 @@
 layout: default.html
 ---
 
-<main id="content" class="container">
-
-	<div class="colophon">
-
-		{{ content }}
-
-	</div>
-	
-</main>
+{{ content | replace: '<p>', '<p class="display">' }}

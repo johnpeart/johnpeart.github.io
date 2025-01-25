@@ -17,17 +17,17 @@ figure,
         @include plastic(raised);
     }
     @include tablet {
-        width: containers("tablet") + 100px;
+        width: containers("tablet");
         max-width: unset;
-        margin-right: -50px;
-        margin-left: -50px;
+        margin-right: -15px;
+        margin-left: -15px;
         margin-bottom: $container-padding * 3;
     }
     @include desktop {
-        width: containers("desktop") + 200px;
+        width: containers("desktop") + 140px;
         max-width: unset;
-        margin-right: -115px;
-        margin-left: -115px;
+        margin-right: -85px;
+        margin-left: -85px;
         margin-bottom: $container-padding * 3;
     }
     figcaption {

@@ -1,6 +1,17 @@
 body#home,
 body#four-oh-four {
+    
+    #content {
+        display: grid;
+    }
+    #content .container {
+        align-self: center;
+        margin-block-end: $container-padding * 4;
+        margin-block-start: -$container-padding * 4;
+    }
+    
     h1.display {
+        padding: 0;
         margin-left: -3px;
         @include tablet {
             margin-left: -8px;

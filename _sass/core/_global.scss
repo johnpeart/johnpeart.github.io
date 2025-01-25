@@ -8,15 +8,18 @@ html {
 }
 
 html,
-body,
-main {
+body {
     background: var(--background);
     color: var(--color);
+    overscroll-behavior-y: contain;
 }
 
 main {
+    background: var(--background);
     position: relative;
     z-index: 10;
     -webkit-transform: translate3d(0,0,0);
     min-height: 100vh;
+    box-shadow: 0 4px 30px var(--shadow-6B);
+    border-bottom: 1px solid var(--absolute);
 }

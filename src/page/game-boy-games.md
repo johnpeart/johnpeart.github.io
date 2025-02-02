@@ -14,7 +14,7 @@ list:
       description: "Cartridge"
       status: "Owned"
     - name: "Hermano"
-      price: "£33"
+      description: "Cartridge"
       status: "Owned"
     - name: "Hook"
       description: "Cartridge"

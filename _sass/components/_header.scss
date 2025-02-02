@@ -86,15 +86,13 @@ p#header--wordmark {
     display: block;
     z-index: 10000;
     font-weight: 900 !important;
-    font-size: 30px;
+    font-size: 25px;
 	line-height: 30px;
     @include tablet {
         font-size: 28px;
-		line-height: 28px;
     }
     @include desktop {
         font-size: 30px;
-		line-height: 30px;
     }
     padding: 0;
 }
@@ -105,7 +103,7 @@ button#header-menu--toggle {
 	display: grid;
 	box-sizing: border-box;
 	border: 1px solid transparent;
-	height: 32px;
+	height: 30px;
 	align-content: center;
 	justify-content: center;
 	aspect-ratio: 1;

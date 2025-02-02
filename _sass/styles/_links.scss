@@ -77,6 +77,19 @@ a {
         }
     }
     
+    &.footer-menu--link {
+        &:link,
+        &:visited {
+            color: var(--secondary-color);
+        }
+        &:hover {
+            color: var(--link-hoverColor);
+        }
+        &:focus {
+            color: var(--link-focusColor);
+        }
+    }
+    
     &.no-underline {
         &:link {
             text-decoration: none !important;

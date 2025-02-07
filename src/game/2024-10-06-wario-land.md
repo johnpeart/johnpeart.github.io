@@ -19,4 +19,4 @@ On this latest play-through I've achieved what was previously impossible for 10-
 
 {% include "components/objects/pocket.svg" screenshotCount:"003" %}
 
-Finishing the game with 99,999 coins and having gotten all of the collectables, and you – well, Wario anyway – is rewarded with your own planet for a “perfect game”.
+Finishing the game with 99,999 coins and having gotten all of the collectables, and you are rewarded with your own planet for a “perfect game”.

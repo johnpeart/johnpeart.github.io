@@ -1,15 +1,14 @@
 footer#site-footer {
-	display: grid;
-	grid-gap: $container-padding;
-	padding-block-end: $container-padding;
-	@include tablet-up() {
-		padding-block-end: $container-padding * 4;
-	}
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--footer-background);
+    z-index: 1;
 }
-footer#site-footer {
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas: "author";
+
+footer#site-footer img.memoji {
+    display: none;
 }
 
 footer#webmentions-footer {
@@ -17,7 +16,7 @@ footer#webmentions-footer {
 }
 
 footer#post-footer {
-	padding-block-end: $container-padding;
+	padding-block-end: $container-padding * 4;
 }
 
 dl.meta-data {

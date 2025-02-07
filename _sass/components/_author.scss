@@ -25,20 +25,19 @@ aside.author {
         grid-template-areas: "card" "icons";
 
 	@include tablet-up() {
-		grid-template-columns: 2fr 1fr 1fr;
+		grid-template-columns: 1fr auto;
 		grid-template-rows: 1fr;
-        grid-template-areas: "card . icons";
+        grid-template-areas: "card icons";
 	}
 }
 
-.author--bio {
+#author--bio {
 	display: grid;
 	
-	padding: $container-padding;
-	border-radius: $border-radius;
-	
-	grid-gap: $container-padding;
-	grid-template-rows: repeat(2, 1fr);
+	padding-block: $container-padding * 4;
+    
+	grid-gap: 0;
+	grid-template-rows: auto 1fr;
 	grid-template-columns: auto 1fr;
 	grid-template-areas: 
 		"photo name"
@@ -47,7 +46,7 @@ aside.author {
 
 .author--photo {
 	grid-area: photo;
-	align-self: center;
+	align-self: flex-start;
 	justify-self: center;
 }
 
@@ -55,48 +54,47 @@ aside.author {
 	grid-area: name;
 	padding: 0;
 	align-self: flex-end;
+    text-align: left;
 }
 .author--url {
 	grid-area: url;
 	padding: 0;
 	align-self: flex-start;
+    text-align: left;
 }
 
 .author--icons {
 	display: grid;
+	
+    padding-block: $container-padding * 4;
+    
     grid-area: icons;
 	grid-gap: $container-padding;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 1fr;
-	grid-template-areas: 
-			"mastodon bluesky linkedin github";
-			
-	@include tablet-up {
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: 1fr 1fr;
-		grid-template-areas: 
-				"mastodon bluesky"
-				"linkedin github";
-	}
+	grid-template-columns: 1fr;
 }
 
-.author-icon {
+.author-icon a {
 	display: grid;
 	align-items: center;
-	justify-items: center;
-}
-
-.mastodon {
-	grid-area: mastodon;
-}
-.bluesky {
-	grid-area: bluesky;
-}
-.linkedin {
-	grid-area: linkedin;
-}
-.github {
-	grid-area: github;
+	justify-items: flex-start;
+    grid-gap: $container-padding;
+    
+    grid-template-columns: 20px 1fr;
+    
+    p {
+        line-height: 1;
+    }
+    
+    &:link p,
+    &:visited p {
+        color: var(--secondary-color);
+    }
+    &:hover p {
+        color: var(--link-hoverColor);
+    }
+    &:focus p{
+        color: var(--link-focusColor);
+    }
 }
 
 img.memoji {
@@ -105,19 +103,16 @@ img.memoji {
 
     box-sizing: border-box;
 
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 
 	width: 100px;
 	height: 100px;
 	aspect-ratio: 1;
-}
-
-.author-icon.card {
-	padding: $container-padding * 0.5;
-}
-
-a.author--photo--link {
-	display: block;
+    
+	filter: brightness(1.2) contrast(1.5) grayscale(1);
+	mix-blend-mode: multiply;
+			
 }
 
 a.footer--site-link {
@@ -130,13 +125,12 @@ a.footer--site-link {
 		display: block;
 		position: relative;
 
-		max-height: 50px;
-		max-width: 50px;
+		max-height: 20px;
+		max-width: 20px;
 		height: 100%;
 		width: 100%;
 
 		margin: 0;
-		padding: 5px;
 
 		path {
 			fill: var(--color);

@@ -3,8 +3,8 @@ type: "Career"
 title: "Senior Digital Adviser"
 organisation: "Government Digital Service"
 dates:
-  start: 2014-04-01
-  end: 2015-09-01
+  start: 2015-09-01
+  end: 2017-01-04
 projects:
   - project: "European Union Directive on the accessibility of the websites and mobile applications of public sector bodies"
     url: "https://eur-lex.europa.eu/eli/dir/2016/2102/oj"

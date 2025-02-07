@@ -1,27 +1,16 @@
+header#global-header {    
+    z-index: 20;
+    -webkit-transform: translate3d(0,0,0);
+    background: var(--background);
+}
+
 nav#site-navigation {
-    
-    @include glow($depth: 2, $hover-offset: 20, $on-hover-only: true);
-    transition: all 0.5s ease-in;
     
     section#site-navigation--menu-bar {
         display: grid;
         grid-template-areas: "wordmark button";
 		grid-template-columns: 1fr auto;
         padding: $container-padding 0;
-        margin: 0 0 $container-padding * 2 0;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    &.open {
-        @include glow($depth: 2, $transition: 0.2, $offset: 20, $no-hover: true);
-        margin: $container-padding 0 $container-padding * 2 0;
-    }
-    
-    &:hover section#site-navigation--menu-bar,
-    &.open section#site-navigation--menu-bar {
-        padding: $container-padding;
-        margin: $container-padding 0;
-        transition: all 0.5s ease-in;
     }
     
     #site-navigation--wordmark--link {
@@ -46,15 +35,6 @@ nav#site-navigation {
         }
     }
     
-    &:hover #site-navigation--wordmark--link,
-    &.open #site-navigation--wordmark--link {
-        transition: all 0.5s ease-in;
-        &:link,
-        &:visited {
-            color: var(--link-color);
-        }
-    }
-    
 	&:hover svg path#menuicon,
     &.open svg path#menuicon {
     	fill: var(--color);
@@ -64,14 +44,18 @@ nav#site-navigation {
     section#site-navigation--navigation {
         display: grid;
         grid-template-rows: repeat(auto, 3);
+        overflow: hidden;
+        transition: max-height .4s linear;
     }
     
     &.open section#site-navigation--navigation {
         display: grid;
+        max-height: 100%;
     }
     
     &.closed section#site-navigation--navigation {
         display: none;
+        max-height: 0;
     }
     
     section.site-navigation--section {
@@ -80,7 +64,7 @@ nav#site-navigation {
             grid-template-columns: 1fr 2fr;
         }
         padding: $container-padding 0;
-        margin: 0 $container-padding;
+        margin: 0;
         
         &:nth-last-child(-n+2) {
             border-top: 1px solid var(--secondary-borderColor);
@@ -102,15 +86,13 @@ p#header--wordmark {
     display: block;
     z-index: 10000;
     font-weight: 900 !important;
-    font-size: 30px;
+    font-size: 25px;
 	line-height: 30px;
     @include tablet {
         font-size: 28px;
-		line-height: 28px;
     }
     @include desktop {
         font-size: 30px;
-		line-height: 30px;
     }
     padding: 0;
 }
@@ -121,7 +103,7 @@ button#header-menu--toggle {
 	display: grid;
 	box-sizing: border-box;
 	border: 1px solid transparent;
-	height: 32px;
+	height: 30px;
 	align-content: center;
 	justify-content: center;
 	aspect-ratio: 1;

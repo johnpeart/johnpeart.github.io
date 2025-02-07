@@ -17,6 +17,10 @@
     @include desktop {
         max-width: containers("desktop");
     }
+    
+    &.no-padding {
+        padding: 0;
+    }
 }
 
 .from-them,

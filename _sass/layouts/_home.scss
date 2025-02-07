@@ -1,28 +1,28 @@
 body#home,
 body#four-oh-four {
-
-    .colophon {
-
-        max-width: 750px;
-		min-height: 70vh;
-		
-		@include tablet() {
-			min-height: 50vh;
-		}
-		@include desktop {
-			min-height: 90vh;
-		}
-		
-        h1.display {
-            margin-left: -3px;
-            @include tablet {
-                margin-left: -8px;
-            }
-            @include desktop {
-                margin-left: -10px;
-            }
-        }
-
+    
+    #content {
+        display: grid;
     }
-
+    #content .container {
+        align-self: center;
+        margin-block-end: $container-padding * 4;
+        margin-block-start: -$container-padding * 4;
+    }
+    
+    h1.display {
+        padding: 0;
+        margin-left: -3px;
+        @include tablet {
+            margin-left: -8px;
+        }
+        @include desktop {
+            margin-left: -10px;
+        }
+    }
+    
+    p.display {
+        text-wrap: balance;   
+    }
+    
 }

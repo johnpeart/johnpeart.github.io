@@ -1,22 +1,24 @@
-<footer id="site-footer" class="container">
-
-	<aside id="author-card" class="h-card vcard p-author">
+<footer id="site-footer">
+        
+    <aside id="author-card" class="container">
     
-	    <div class="author--bio card">
-		    <a class="author--photo author--photo--link" rel="me" href="https://www.johnpe.art" title="Visit my website">
+        <div id="author--bio" class="h-card vcard p-author"">
+            <a class="author--photo author--photo--link" rel="me" href="https://www.johnpe.art" title="Visit my website">
                 <img class="u-photo memoji" alt="A Memoji avatar of John Peart" loading="lazy" src="/assets/images/me/memoji.png">
-		    </a>
-		    <p class="p-name author--name"><a rel="author" class="bold no-underline p-author u-uid" href="{{ siteUrl }}"><span class="p-given-name">John</span> <span class="p-family-name">Peart</span></a></p>
-		    <p class="author--url"><a href="{{ siteUrl }}" rel="me" class="u-url no-underline">www.johnpe.art</a></p>
-	    </div>
-		    
-	    <div class="author--icons">	
-		    <div class="author-icon card mastodon">{% include "components/social-icons/mastodon.html" %}</div>
-		    <div class="author-icon card bluesky">{% include "components/social-icons/bluesky.html" %}</div>
-		    <div class="author-icon card linkedin">{% include "components/social-icons/linkedin.html" %}</div>
-		    <div class="author-icon card github">{% include "components/social-icons/github.html" %}</div>
-	    </div>
+            </a>
+            
+            <p class="p-name author--name"><a rel="author" class="bold link-secondary no-underline footer-menu--link p-author u-uid" href="{{ siteUrl }}"><span class="p-given-name">John</span> <span class="p-family-name">Peart</span></a></p>
+            <p class="author--url link-secondary secondary-text"><a href="{{ siteUrl }}" rel="me" class="link-secondary no-underline footer-menu--link u-url">www.johnpe.art</a></p>
+        </div>
+            
+        <div class="author--icons">	
+            <div class="author-icon mastodon">{% include "components/social-icons/mastodon.html" %}</div>
+            <div class="author-icon bluesky">{% include "components/social-icons/bluesky.html" %}</div>
+            <div class="author-icon linkedin">{% include "components/social-icons/linkedin.html" %}</div>
+            <div class="author-icon github">{% include "components/social-icons/github.html" %}</div>
+            <div class="author-icon buymeacoffee">{% include "components/social-icons/buymeacoffee.html" %}</div>
+        </div>
     
     </aside>
-
+        
 </footer>

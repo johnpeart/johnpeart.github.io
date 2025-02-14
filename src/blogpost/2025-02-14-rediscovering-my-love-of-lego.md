@@ -15,7 +15,7 @@ I still play a lot of [video games](/games) today, but *LEGO*? Not so much.
 
 ## An unexpected gift
 
-Somewhat out of the blue, my sister got me this [*LEGO Ideas Polaroid OneStep SX-70 Camera*] set for Christmas; which was very generous of her.
+Somewhat out of the blue, my sister got me this [*LEGO Ideas Polaroid OneStep SX-70 Camera*](https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345) set for Christmas; which was very generous of her.
 
 I was giddy with excitement to tear open that box and put it together but, having gone home to visit family at Christmas, had to resist the urge.
 

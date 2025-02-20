@@ -89,15 +89,15 @@ p > img {
     right: 0;
     border-radius: $border-radius * 2;
     @include tablet {
-        width: containers("tablet") + 100px;
+        width: containers("tablet") + 60px;
         max-width: unset;
-        margin: $container-padding $container-padding - 80px;
+        margin: $container-padding -45px;
     }
     @include desktop {
         margin-bottom: 30px;
         width: containers("desktop") + 200px;
         max-width: unset;
-        margin: $container-padding $container-padding - 130px;
+        margin: $container-padding -115px;
     }
 }
 

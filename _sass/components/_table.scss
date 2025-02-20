@@ -1,19 +1,13 @@
 .mobile-overflow {
-    @include mobile {
+    @include tablet-down() {
         overflow-x: auto;
     }
 }
 
 table {
     @include typography($p);
-    @include plastic(raised);
     border-collapse: collapse;
     width: 100%;
-    @include tablet {
-        width: containers("tablet") + 100px;
-        margin-right: -50px;
-        margin-left: -50px;
-    }
     @include desktop {
         margin-bottom: 30px;
         width: containers("desktop") + 200px;

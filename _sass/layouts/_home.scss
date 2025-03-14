@@ -4,7 +4,7 @@ body#four-oh-four {
     #content {
         display: grid;
     }
-    #content .container {
+    #content.container {
         align-self: center;
         margin-block-end: $container-padding * 4;
         margin-block-start: -$container-padding * 4;

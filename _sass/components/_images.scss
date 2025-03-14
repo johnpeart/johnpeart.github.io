@@ -1,7 +1,3 @@
-figure { 
-    @include plastic(raised);
-}
-
 figure,
 .composite-image {
     display: block;
@@ -13,9 +9,8 @@ figure,
     margin-left: 0;
     margin-bottom: $container-padding * 2;
     border-radius: $border-radius * 2;
-    @include mobile() {
-        @include plastic(raised);
-    }
+    box-shadow: shadow(3);
+    
     @include tablet {
         width: containers("tablet");
         max-width: unset;
@@ -35,17 +30,12 @@ figure,
         width: auto;
         max-width: 450px;
         
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        
         @include typography($smaller, "default");
-
-        @include tablet-up {
-            @include glass();
-            position: absolute;
-            bottom: -$container-padding;
-            left: -$container-padding;
-        }
+        
+        @include glass();
+        position: absolute;
+        bottom: -$container-padding;
+        left: -$container-padding * 0.5;
     }
 
     &.featured-image {
@@ -68,10 +58,6 @@ figure,
 	img,
 	picture source,
 	picture img {
-        @include mobile(){
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-        }
         border-radius: $border-radius * 2;
 	}
 
@@ -128,7 +114,7 @@ div.overlay {
     width: 100%;
     height: 100%;
     border-radius: $border-radius * 2;
-    box-shadow: shadow(2);
+    box-shadow: shadow(3);
 }
 
 div.overlay.overlay--eurovision {

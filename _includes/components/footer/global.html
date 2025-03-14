@@ -10,7 +10,8 @@
             <p class="p-name author--name"><a rel="author" class="bold link-secondary no-underline footer-menu--link p-author u-uid" href="{{ siteUrl }}"><span class="p-given-name">John</span> <span class="p-family-name">Peart</span></a></p>
             <p class="author--url link-secondary secondary-text"><a href="{{ siteUrl }}" rel="me" class="link-secondary no-underline footer-menu--link u-url">www.johnpe.art</a></p>
         </div>
-            
+        
+        {% unless footer.social == false %}
         <div class="author--icons">	
             <div class="author-icon mastodon">{% include "components/social-icons/mastodon.html" %}</div>
             <div class="author-icon bluesky">{% include "components/social-icons/bluesky.html" %}</div>
@@ -18,7 +19,7 @@
             <div class="author-icon github">{% include "components/social-icons/github.html" %}</div>
             <div class="author-icon buymeacoffee">{% include "components/social-icons/buymeacoffee.html" %}</div>
         </div>
-    
+        {% endunless %}
     </aside>
         
 </footer>

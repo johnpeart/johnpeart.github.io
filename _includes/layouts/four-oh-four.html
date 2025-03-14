@@ -2,10 +2,12 @@
 layout: "default.html"
 ---
 
+{% if env.ELEVENTY_RUN_MODE == "serve" %}{% assign siteUrl = 'http://localhost:8080' %}{% endif %}
+
 <h1 class="display">Oops!</h1>
 
 <p class="display">This is a bit embarrassing, but something's gone wrong.</p>
 
 <p class="display">The page you're looking for either doesn't exist or it's lost.</p>
 
-<p class="display">Not to worry. You can go back to the <a href="{{ site.url }}" title="Go home">home page</a>.</p>
+<p class="display">Not to worry. You can go back to the <a href="{{ siteUrl | default: site.url }}" title="Go home">home page</a>.</p>

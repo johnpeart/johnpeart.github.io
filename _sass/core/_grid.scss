@@ -4,16 +4,16 @@ body {
 
 	grid-template-areas: "header" "main" "footer";
 	grid-template-columns: 1fr;
-	// grid-template-rows: auto minmax(calc(100vh - 90px), 1fr) auto;
-    grid-template-rows: auto minmax(70vh, 1fr) auto;
+	grid-template-rows: auto minmax(calc(100vh - 90px), 1fr) auto;
+    // grid-template-rows: auto minmax(70vh, 1fr) auto;
 }
 
 body:has(.skip-link:focus) {
 	grid-template-rows: auto auto minmax(calc(100vh - 90px), 1fr) auto;
 }
 
-section#page-content,
-section#post-content,
-section.post-body {
+#page-content,
+#post-content,
+.post-body {
 	margin-block-end: $container-padding * 4;
 }

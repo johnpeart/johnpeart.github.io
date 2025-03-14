@@ -4,9 +4,7 @@ layout: skeleton
 
 {% include "components/skiplink.html" %}
 {% include "components/navigation.html" %}
-<main id="content">
-    <div class="container">
-        {{ content }}
-    </div>
+<main id="content"{% unless container == false %} class="container"{% endunless %}>
+    {{ content }}
 </main>
 {% include "components/footer/global.html" %}

@@ -1,4 +1,4 @@
 .card {
-    @include glow($depth: 2, $offset: 4, $colour: false);   
+    @include glow();   
     background: var(--background);
 }

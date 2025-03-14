@@ -14,7 +14,7 @@
     word-wrap: break-word;
     word-break: break-word;
     
-    @include plastic(raised);
+    @include glow();
     
     p {
         &:first-child {
@@ -70,13 +70,11 @@ blockquote.twitter-tweet {
     margin-left: auto;
     margin-right: auto;
     padding: $container-padding;
-    @include glow($depth: 2, $offset: 4, $colour: true); 
     
     img {
         width: 100%;
         margin: 0;
 	    border-radius: $border-radius;
-        @include glow($depth: 2, $offset: 4, $colour: false); 
     }
 	
 	// Twitter logo

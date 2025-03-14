@@ -37,7 +37,7 @@ header.esc-header {
 	padding: $container-padding 0;
 		
 	@include supports-sticky() {
-		top: 0;
+		top: 63px;
 		z-index: 100;
 		-webkit-backdrop-filter: blur(20px);
 				backdrop-filter: blur(20px);

@@ -1,5 +1,6 @@
-@mixin plastic($shape, $depth: 5px, $bg1: --plastic-shadow-1, $bg2: --plastic-shadow-2) {
-
+@mixin plastic($shape: raised, $depth: 5px, $bg1: --plastic-shadow-1, $bg2: --plastic-shadow-2) {
+    
+    background: var(--background);
     // corner radius
     border-radius: $border-radius * 2 !important;
     // depth

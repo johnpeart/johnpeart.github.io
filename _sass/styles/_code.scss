@@ -21,7 +21,7 @@ kbd {
 
 code {
     @include typography($code, "code");
-    color: var(--color);
+    color: var(--code-color);
     background: var(--secondary-background);
     border-radius: 5px;
     padding:    0 2px;

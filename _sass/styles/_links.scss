@@ -54,28 +54,6 @@ a {
 			outline-offset: 0;
         }
     }
-
-    &.navigation--section--link {
-        &:link,
-        &:visited {
-            color: var(--cyan);
-            text-decoration: none;
-        }
-        &:hover {
-            color: var(--cyan);
-            text-decoration: underline;
-        }
-        &:hover:focus {
-            text-decoration: underline;
-			outline-offset: 3px;
-        }
-        &:focus {
-            color: var(--link-focusColor);
-            background: var(--link-focusBackground);
-            outline: 3px solid var(--link-outlineColor);
-			outline-offset: 0;
-        }
-    }
     
     &.footer-menu--link {
         &:link,

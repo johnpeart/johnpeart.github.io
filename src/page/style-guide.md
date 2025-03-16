@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: key-value
 title: Style guide
 permalink: /style-guide/
 

@@ -1,21 +1,35 @@
 .key-value--heading {
-    text-align: left;
     @include typography($h2, "default");
+    text-align: left;
     padding: $container-padding * 6 0 $container-padding !important;
 }
 
-ul.key-value {
+.key-value {
     padding: 0;
     margin: 0;
 }    
     
-li.key-value--item {
-    display: grid;
-    grid-template-columns: 1fr auto;
+.key-value--item {
+    display: grid;    
     
     padding: $container-padding 0;
 	border-top: 1px solid;
 	border-color: var(--secondary-borderColor);
+
+    &.key-value--with-description {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto;
+    }
+    
+    &.key-value--with-value {
+        grid-template-columns: 1fr auto !important;
+        grid-template-rows: auto;
+    }
+    
+    &.key-value--with-description.key-value--with-value {
+        grid-template-columns: 1fr auto !important;
+        grid-template-rows: auto auto;
+    }
 }
 
 a.key-value--link {
@@ -26,6 +40,8 @@ a.key-value--link {
     
     &:link,
     &:visited {
+        text-decoration: none !important;
+        
         .key-value--key {
             color: var(--cyan);
             font-weight: bold;
@@ -63,7 +79,28 @@ a.key-value--link {
         
 }
 
+.key-value--key {
+    @include typography($p, "default");
+    text-align: left;
+}
+
 .key-value--value {
+    @include typography($small, "default");
+    color: var(--secondary-color);
+}
+
+.key-value--key,
+.key-value--value {
+    padding: 0;
+}
+
+.key-value--description {
+    &:last-child {
+        padding: 0;
+    }    
+}
+
+.key-value--with-description.key-value--with-value .key-value--description {
     @include typography($small, "default");
     color: var(--secondary-color);
 }

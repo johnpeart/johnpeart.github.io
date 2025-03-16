@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: key-value
 title: Wishlist
 permalink: /wishlist/
 
@@ -10,37 +10,37 @@ list:
       description: "Hard cover book by Klaus Klemperer"
       price: "£60"
       link: 
-        buy: "https://www.waterstones.com/book/braun/klaus-klemp/9781838663896"
+        external: "https://www.waterstones.com/book/braun/klaus-klemp/9781838663896"
     - name: "Game Boy: The Box Art Collection"
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        buy: "https://www.bitmapbooks.com/collections/all-books/products/game-boy-the-box-art-collection" 
+        external: "https://www.bitmapbooks.com/collections/all-books/products/game-boy-the-box-art-collection" 
     - name: "Super Famicom: The Box Art Collection"
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        buy: "https://www.bitmapbooks.com/collections/all-books/products/super-famicom-the-box-art-collection" 
+        external: "https://www.bitmapbooks.com/collections/all-books/products/super-famicom-the-box-art-collection" 
     - name: "The GBA Pixel Book"
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        buy: "https://www.bitmapbooks.com/collections/all-books/products/the-gba-pixel-book" 
+        external: "https://www.bitmapbooks.com/collections/all-books/products/the-gba-pixel-book" 
     - name: "The SNES Pixel Book"
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        buy: "https://www.bitmapbooks.com/collections/all-books/products/the-snes-pixel-book" 
+        external: "https://www.bitmapbooks.com/collections/all-books/products/the-snes-pixel-book" 
     - name: "SNES/Super Famicom: a visual compendium"
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        buy: "https://www.bitmapbooks.com/collections/all-books/products/snes-superfamicom-a-visual-compendium" 
+        external: "https://www.bitmapbooks.com/collections/all-books/products/snes-superfamicom-a-visual-compendium" 
     - name: "NES/Famicom: a visual compendium"
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        buy: "https://www.bitmapbooks.com/collections/all-books/products/nes-famicom-a-visual-compendium" 
+        external: "https://www.bitmapbooks.com/collections/all-books/products/nes-famicom-a-visual-compendium" 
 
 - name: "Clothing and Accessories"
   items:
@@ -48,12 +48,12 @@ list:
       description: "From Uniqlo. Dark Gray, white or black. Size S."
       price: "£20"
       link: 
-        buy: "https://www.uniqlo.com/uk/en/products/E465185-000/00"
+        external: "https://www.uniqlo.com/uk/en/products/E465185-000/00"
     - name: "Rugby-style shirts"
       description: "Size S."
       price: "£35"
       link: 
-        buy: "https://www.marksandspencer.com/pure-cotton-striped-rugby-shirt/p/clp60609757?color=NAVYMIX#intid=pid_pg1pip37g4r2c4"
+        external: "https://www.marksandspencer.com/pure-cotton-striped-rugby-shirt/p/clp60609757?color=NAVYMIX#intid=pid_pg1pip37g4r2c4"
     - name: "Hugo by Hugo Boss"
       description: "Aftershave; size and costs vary."
       price: "Varies"
@@ -64,7 +64,7 @@ list:
       description: "From Uniqlo. Size S."
       price: "£40"
       link: 
-        buy: "https://www.uniqlo.com/uk/en/product/100pct-premium-linen-regular-fit-shirt-grandad-collar-455958.html?dwvar_455958_size=SMA003&dwvar_455958_color=COL69"
+        external: "https://www.uniqlo.com/uk/en/product/100pct-premium-linen-regular-fit-shirt-grandad-collar-455958.html?dwvar_455958_size=SMA003&dwvar_455958_color=COL69"
     - name: "Boss by Hugo Boss"
       description: "Aftershave; size and costs vary."
       price: "Varies"
@@ -75,19 +75,19 @@ list:
       description: "For Game Boy and Game Boy Color"
       price: "Varies"
       link: 
-        post: "/games/game-boy#empty-flash-cartridges"
+        internal: "/games/game-boy#empty-flash-cartridges"
     - name: "Game Boy games"
       price: "Varies"
       link: 
-        post: "/games/game-boy#game-boy"
+        internal: "/games/game-boy#game-boy"
     - name: "Game Boy Color games"
       price: "Varies"
       link: 
-        post: "/games/game-boy#game-boy-color"
+        internal: "/games/game-boy#game-boy-color"
     - name: "Game Boy Advance games"
       price: "Varies"
       link: 
-        post: "/games/game-boy#game-boy-advance"
+        internal: "/games/game-boy#game-boy-advance"
      
 - name: "Homeware and Kitchen"
   items:
@@ -95,12 +95,12 @@ list:
       description: "350ml; satin black finish."
       price: "£15"
       link: 
-        buy: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
+        external: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
     - name: "Le Crueset french press"
       description: "1 litre. Volcanic orange."
       price: "£50"
       link: 
-        buy: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
+        external: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
 
 # - name: "Miscellaneous"
   # items:
@@ -108,7 +108,7 @@ list:
   #     description: "Often discounted."
   #     price: "£70"
   #     link: 
-  #       buy: "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345"
+  #       external: "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345"
 
 - name: "Music"
   items:
@@ -123,6 +123,6 @@ list:
       description: "Often discounted."
       price: "$50"
       link: 
-        buy: "https://shop.8bitdo.com/products/8bitdo-retro-keycaps"
+        external: "https://shop.8bitdo.com/products/8bitdo-retro-keycaps"
 
 ---

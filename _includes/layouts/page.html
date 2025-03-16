@@ -3,8 +3,10 @@ layout: default
 ---
         
 <section id="page-content" class="h-entry e-content">
-
+    
+    {% unless header.title == false %}
     <h1 class="page-title p-name">{{ title }}</h1>
+    {% endunless %}
 
     {{ content }}
     

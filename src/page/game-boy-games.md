@@ -308,11 +308,6 @@ list:
     price: "£8"
     link: 
       buy: "https://www.etsy.com/uk/listing/1818359445/blank-gameboy-flash-cart-gbgbc-4mb-rom"
-  - name: "Blank flash cartridge"
-    description: "512KB ROM with cartridge shell"
-    price: "£18"
-    link: 
-      buy: "https://www.etsy.com/uk/listing/1220871684/flash-cartridge-for-game-boy-512kb-rom"
 ---
 
 **This is list of all the Game Boy, Game Boy Color and Game Boy Advance games I already own or that I want to get.** If a price is shown next to a game, it means I'd like to get a physical cartridge.

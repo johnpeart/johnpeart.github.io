@@ -26,11 +26,11 @@ list:
         internal: /now/
 - name: "My blog"
   items:
-    - name: "All"
+    - name: "All posts"
       collection: "allPosts"
       link:
         internal: /all/
-    - name: "Blog"
+    - name: "Writing"
       collection: "blogpost"
       link:
         internal: /blogposts/

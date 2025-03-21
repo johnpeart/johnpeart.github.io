@@ -9,3 +9,7 @@ hr {
 		max-width: 50px;
 	}
 }
+
+hr + p {
+    margin-top: $container-padding * 2;
+}

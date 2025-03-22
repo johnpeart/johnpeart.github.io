@@ -29,7 +29,7 @@ p, li, dd, dt {
 	text-align: left;
 	
     &.speech-bubbles--author {
-        padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+        padding: 0 $padding $padding * 0.5 $padding;
     }
     
 	&.secondary-text--gray {

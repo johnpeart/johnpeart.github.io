@@ -13,6 +13,7 @@
     box-shadow: none;
     animation: header linear both;
     animation-timeline: scroll(block root);
+    animation-duration: 1ms; /* Required in Firefox */
     animation-range: 10px 100px;
 
 }
@@ -21,11 +22,11 @@
 .navigation {
     display: grid;
     
-    padding: $container-padding;
+    padding: $padding;
     margin: 0;
     
     grid-template-columns: 1fr auto;
-    grid-gap: $container-padding;
+    grid-gap: $padding;
     
     align-items: center;
 }
@@ -39,7 +40,7 @@
 
 .navigation--links-item {
     line-height: 32px;
-    margin-inline-start: $container-padding;
+    margin-inline-start: $padding;
 }
 
 .navigation--wordmark {

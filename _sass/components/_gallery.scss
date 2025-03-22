@@ -1,8 +1,11 @@
 .gallery {
     display: grid;
-    padding: 0 $container-padding;
-    margin-block: $container-padding * 6;
-    grid-gap: $container-padding * 2 $container-padding;
+    padding: 0 $padding;
+    @include tablet-up() {
+        padding: 0 $padding * 6;
+    }
+    margin-block: $padding * 6;
+    grid-gap: $padding * 2 $padding;
     
     @include tablet() {
         &.gallery-2 {
@@ -14,10 +17,7 @@
         &.gallery-4 {
             grid-template-columns: repeat(3, 1fr);
         }
-        &.gallery-5 {
-            grid-template-columns: repeat(3, 1fr);
-        }
-        grid-gap: $container-padding * 2;
+        grid-gap: $padding * 2;
     }
     
     @include desktop() {
@@ -30,10 +30,7 @@
         &.gallery-4 {
             grid-template-columns: repeat(4, 1fr);
         }
-        &.gallery-5 {
-            grid-template-columns: repeat(5, 1fr);
-        }
-        grid-gap: $container-padding * 3;
+        grid-gap: $padding * 3;
     }
     
     li {

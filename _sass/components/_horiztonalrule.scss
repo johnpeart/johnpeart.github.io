@@ -1,15 +1,13 @@
 hr {
-    border: unset;
-    height: 10px;
-    border-radius: 3px;
-    @include plastic(inset, 2px);
+    border-radius: $border-radius;
+    border: 1px solid var(--secondary-borderColor);
 	
 	&.short {
-		margin: $container-padding * 2 auto;
+		margin: $padding * 2 auto;
 		max-width: 50px;
 	}
 }
 
 hr + p {
-    margin-top: $container-padding * 2;
+    margin-top: $padding * 2;
 }

@@ -7,39 +7,37 @@ figure,
     max-width: 100%;
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: $container-padding * 2;
-    border-radius: $border-radius * 2;
-    box-shadow: shadow(3);
+    margin-bottom: $padding * 2;
     
     @include tablet {
         width: containers("tablet");
         max-width: unset;
         margin-right: -15px;
         margin-left: -15px;
-        margin-bottom: $container-padding * 3;
+        margin-bottom: $padding * 3;
     }
     @include desktop {
         width: containers("desktop") + 140px;
         max-width: unset;
         margin-right: -85px;
         margin-left: -85px;
-        margin-bottom: $container-padding * 3;
+        margin-bottom: $padding * 3;
     }
     figcaption {
-        padding: $container-padding;
+        padding: $padding;
         width: auto;
         max-width: 450px;
         
+        @include material(1, $bg: var(--glass-background), $blur: true);
         @include typography($smaller, "default");
         
-        @include glass();
         position: absolute;
-        bottom: -$container-padding;
-        left: -$container-padding * 0.5;
+        bottom: -$padding * 1.5;
+        left: -$padding * 0.5;
     }
 
     &.featured-image {
-        margin-bottom: $container-padding * 3;
+        margin-bottom: $padding * 3;
     }
 
     img {
@@ -50,7 +48,7 @@ figure,
         max-width: 100%;
         height: auto;
         &.padding {
-            padding: $container-padding;
+            padding: $padding;
             box-sizing: border-box;
         }
     }
@@ -58,7 +56,7 @@ figure,
 	img,
 	picture source,
 	picture img {
-        border-radius: $border-radius * 2;
+        @include material(2);
 	}
 
 }
@@ -73,17 +71,19 @@ p > img {
     margin-left: 0;
     left: 0;
     right: 0;
-    border-radius: $border-radius * 2;
+    
+    @include material(2);
+    
     @include tablet {
         width: containers("tablet") + 60px;
         max-width: unset;
-        margin: $container-padding -45px;
+        margin: $padding -45px;
     }
     @include desktop {
         margin-bottom: 30px;
         width: containers("desktop") + 200px;
         max-width: unset;
-        margin: $container-padding -115px;
+        margin: $padding -115px;
     }
 }
 
@@ -113,12 +113,12 @@ div.overlay {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: $border-radius * 2;
-    box-shadow: shadow(3);
+    @include material(2);
+    background: none;
 }
 
 div.overlay.overlay--eurovision {
-	padding: $container-padding;
+	padding: $padding;
     border-radius: $border-radius * 2 $border-radius * 2 0 0;
     box-shadow: none;
 }
@@ -156,20 +156,20 @@ svg.hero-image {
 
     width: 100%;
     max-width: 100%;
-    margin: 0 0 $container-padding * 2 0;
+    margin: 0 0 $padding * 2 0;
     left: 0;
     right: 0;
 
     @include tablet {
         width: containers("tablet") + 100px;
         max-width: unset;
-        margin: $container-padding $container-padding - 80px $container-padding * 3;
+        margin: $padding $padding - 80px $padding * 3;
     }
     @include desktop {
         margin-bottom: 30px;
         width: containers("desktop") + 200px;
         max-width: unset;
-        margin: $container-padding $container-padding - 130px $container-padding * 3;
+        margin: $padding $padding - 130px $padding * 3;
     }
 }
 
@@ -179,16 +179,11 @@ img.app-icon {
     margin: 0;
     max-height: 57px;
     max-width: 57px;
-    border-radius:  $border-radius;
-    box-shadow: shadow(2);
-    @include tablet-up {
-        box-shadow: shadow(3);
-    }
+    
     &.large {
         @include tablet-up {
             max-height: 104px;
             max-width: 104px;
-            border-radius: $border-radius;
         }
     }
 }

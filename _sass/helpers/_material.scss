@@ -1,0 +1,64 @@
+@mixin material(
+    $depth: 1, 
+    $inset: false,
+    $radius: #{$border-radius * 2},
+    $bg: light-dark(var(--gray-100), var(--gray-900)),
+    $blur: false
+) {
+    
+    background: $bg;
+    
+    @if $radius != false {
+        border-radius:  $radius;
+    }
+    
+    @if $depth == 1 {
+        @if $inset == true { 
+            box-shadow: 
+                .5px .5px 1px rgba(255,255,255,0.5),
+                -.5px -.5px 1px #00000026,
+                inset .222px .222px .314px -.5px #0003,
+                inset .605px .605px .856px -1px #0000002e,
+                inset 1.329px 1.329px 1.88px -1.5px #00000040,
+                inset 2.95px 2.95px 4.172px -2px #0000001a,
+                inset 2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
+        } @else { 
+            box-shadow: 
+                inset .5px .5px 1px #fff,
+                inset -.5px -.5px 1px #00000026,
+                .222px .222px .314px -.5px #0003,
+                .605px .605px .856px -1px #0000002e,
+                1.329px 1.329px 1.88px -1.5px #00000040,
+                2.95px 2.95px 4.172px -2px #0000001a,
+                2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
+        }
+    } @else if $depth == 2 {
+        @if $inset == true { 
+            box-shadow: 
+                1px 1px 1px 0 rgba(255,255,255,0.5),
+                -1px -1px 1px 0 rgba(0,0,0,.15),
+                inset .444584px .444584px .628737px -1px rgba(0,0,0,.26),
+                inset 1.21072px 1.21072px 1.71222px -1.5px rgba(0,0,0,.247),
+                inset 2.6583px 2.6583px 3.75941px -2.25px rgba(0,0,0,.23),
+                inset 5.90083px 5.90083px 8.34503px -3px rgba(0,0,0,.192),
+                inset 10px 10px 21.2132px -3.75px rgba(0,0,0,.056),
+                inset -.5px -.5px 0 0 rgb(0 0 0/5%);
+        } @else {
+            box-shadow: 
+                inset 1px 1px 1px 0 rgba(255,255,255,0.5),
+                inset -1px -1px 1px 0 rgba(0,0,0,.15),
+                .444584px .444584px .628737px -1px rgba(0,0,0,.26),
+                1.21072px 1.21072px 1.71222px -1.5px rgba(0,0,0,.247),
+                2.6583px 2.6583px 3.75941px -2.25px rgba(0,0,0,.23),
+                5.90083px 5.90083px 8.34503px -3px rgba(0,0,0,.192),
+                10px 10px 21.2132px -3.75px rgba(0,0,0,.056),
+                -.5px -.5px 0 0 rgb(0 0 0/5%);
+        }
+    }
+        
+    @if $blur == true {
+        -webkit-backdrop-filter: blur(20px);
+                backdrop-filter: blur(20px);
+    }
+        
+}

@@ -1,7 +1,12 @@
 .key-value--heading {
     @include typography($h2, "default");
     text-align: left;
-    padding: $container-padding * 6 0 $container-padding !important;
+    padding: $padding * 4 0 $padding !important;
+    
+    &.key-value--heading--large {
+        @include typography($h1, "default");
+        padding: $padding * 8 0 0 !important;
+    }
 }
 
 .key-value {
@@ -12,7 +17,7 @@
 .key-value--item {
     display: grid;    
     
-    padding: $container-padding 0;
+    padding: $padding 0;
 	border-top: 1px solid;
 	border-color: var(--secondary-borderColor);
 
@@ -29,6 +34,15 @@
     &.key-value--with-description.key-value--with-value {
         grid-template-columns: 1fr auto !important;
         grid-template-rows: auto auto;
+    }
+    
+    &.key-value--goal {
+        grid-template-columns: 1fr auto !important;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .full-span {
+        grid-column: 1 / -1;
     }
 }
 
@@ -87,6 +101,8 @@ a.key-value--link {
 .key-value--value {
     @include typography($small, "default");
     color: var(--secondary-color);
+    max-width: 60ch;
+    text-wrap: balance;
 }
 
 .key-value--key,
@@ -95,7 +111,8 @@ a.key-value--link {
 }
 
 .key-value--description {
-    &:last-child {
+    &:last-child,
+    *:last-child {
         padding: 0;
     }    
 }

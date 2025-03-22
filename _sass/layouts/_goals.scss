@@ -13,7 +13,7 @@ body#goal {
 
     section#page-content > section {
         @include tablet-up {
-            padding-bottom: $container-padding * 3;
+            padding-bottom: $padding * 3;
         }
 
         @include clearfix;
@@ -40,8 +40,8 @@ body#goal {
 
             &.totaliser {
 
-                padding: $container-padding;
-                margin-top: $container-padding * 8;
+                padding: $padding;
+                margin-top: $padding * 8;
 
                 box-sizing: border-box;
 
@@ -57,94 +57,5 @@ body#goal {
         p:last-child {
             padding: 0;
         }
-    }
-}
-
-
-progress[value] {
-
-    position: relative;
-    display: block;
-
-    -webkit-appearance: none;
-            appearance: none;
-
-    width: 100%;
-    max-width: 600px;
-
-    padding: 0;
-    margin: 20px 0;
-
-    &.standard {
-
-        height: 20px;
-
-        &::-webkit-progress-bar {
-            background: var(--secondary-background);
-            border: none;
-            border-radius: 2px;
-        }
-
-        &::-webkit-progress-value {
-            background: var(--progress-barBackground);
-            border-radius: 2px;
-            background-size: 600px;
-        }
-
-    }
-
-    &.stretch-top {
-
-        height: 10px;
-        margin-bottom: 0;
-
-        &::-webkit-progress-bar {
-            background: var(--secondary-background);
-            border: none;
-            border-top-left-radius: 2px;
-            border-top-right-radius: 2px;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-        }
-
-        &::-webkit-progress-value {
-            background: var(--progress-barBackground);
-            border-top-left-radius: 2px;
-            border-top-right-radius: 2px;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-            background-size: 600px;
-        }
-
-    }
-    &.stretch-bottom {
-
-        height: 10px;
-        margin-top: 0;
-
-        &::-webkit-progress-bar {
-            background: var(--secondary-background);
-            border: none;
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-            border-bottom-left-radius: 2px;
-            border-bottom-right-radius: 2px;
-        }
-
-        &::-webkit-progress-value {
-            background: var(--progress-barSecondaryBackground);
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-            border-bottom-left-radius: 2px;
-            border-bottom-right-radius: 2px;
-            background-size: 600px;
-        }
-
-    }
-}
-
-.totaliser progress[value] {
-    &::-webkit-progress-bar {
-        background: var(--secondary-background);
     }
 }

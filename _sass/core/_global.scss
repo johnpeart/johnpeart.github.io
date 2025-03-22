@@ -9,7 +9,7 @@ html {
 
 html,
 body {
-    background: var(--background);
+    background: light-dark(var(--white), var(--black));
     color: var(--color);
 }
 

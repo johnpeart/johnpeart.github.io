@@ -3,7 +3,7 @@ textarea {
     box-sizing: border-box;
     width: 100%;
 
-    margin-bottom: $container-padding * 2;
+    margin-bottom: $padding * 2;
     padding: form("input-padding");
 
     border: form("border-width") solid var(--color);

@@ -2,8 +2,8 @@
    
 	position: relative;
 	
-	padding: $container-padding * 2;
-	margin: 0 auto $container-padding * 2;
+	padding: $padding * 2;
+	margin: 0 auto $padding * 2;
 	left: auto;
 	right: auto;
 	
@@ -14,7 +14,7 @@
     word-wrap: break-word;
     word-break: break-word;
     
-    @include glow();
+    @include material();
     
     p {
         &:first-child {
@@ -56,7 +56,7 @@ blockquote.quote {
 	display: block;
 	position: relative;
 	
-    padding: 0 0 $container-padding 0;
+    padding: 0 0 $padding 0;
     text-align: left;
 	
     p:last-child {
@@ -69,7 +69,7 @@ blockquote.twitter-tweet {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: $container-padding;
+    padding: $padding;
     
     img {
         width: 100%;
@@ -83,7 +83,7 @@ blockquote.twitter-tweet {
         position: relative;
         width: 70px;
         height: 70px;
-        margin-right: $container-padding;
+        margin-right: $padding;
         content: "";
 		background-position: center;
 		background-repeat: no-repeat;
@@ -100,7 +100,7 @@ blockquote.twitter-tweet {
 q {
 	@supports (hanging-punctuation: first) {
 		display: inline-block;
-		padding: 0 0 0 $container-padding * 0.8;
+		padding: 0 0 0 $padding * 0.8;
 	}
 	&::before {
     	content: open-quote;

@@ -1,7 +1,7 @@
 fieldset.radios {
 
     padding: 15px 10px 10px;
-    margin-bottom: 20px;
+    margin-bottom: $padding * 2;
 
     @include tablet-up {
         padding: 20px;
@@ -73,7 +73,16 @@ input[type="radio"] {
 
             width: form("radios-size");
             height: form("radios-size");
-            border: 2px solid var(--color);
+            
+            box-shadow: 
+                .5px .5px 1px rgba(255,255,255,0.5),
+                -.5px -.5px 1px #00000026,
+                inset .222px .222px .314px -.5px #0003,
+                inset .605px .605px .856px -1px #0000002e,
+                inset 1.329px 1.329px 1.88px -1.5px #00000040,
+                inset 2.95px 2.95px 4.172px -2px #0000001a,
+                inset 2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
+            
             border-radius: 50%;
             background: var(--background);
         }
@@ -92,6 +101,15 @@ input[type="radio"] {
             border-radius: 50%;
             opacity: 0;
             background: var(--color);
+            
+            box-shadow: 
+                inset .5px .5px 1px #fff,
+                inset -.5px -.5px 1px #00000026,
+                .222px .222px .314px -.5px #0003,
+                .605px .605px .856px -1px #0000002e,
+                1.329px 1.329px 1.88px -1.5px #00000040,
+                2.95px 2.95px 4.172px -2px #0000001a,
+                2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
         }
 
     }

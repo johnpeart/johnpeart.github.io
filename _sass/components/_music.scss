@@ -50,7 +50,7 @@ a.music-link {
 
 h1.music-metadata-title {
     @include typography($h2, "default");
-	margin-top: $container-padding * 6 !important;
+	margin-top: $padding * 6 !important;
 }
 
 h1.music-metadata-title,

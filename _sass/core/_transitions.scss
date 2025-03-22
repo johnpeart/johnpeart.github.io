@@ -8,15 +8,11 @@
 }
 
 
-// HEADER SCROLL DRIVEN ANIMATION
+/* HEADER SCROLL DRIVEN ANIMATION */
 @keyframes header {
-    from {
-        background: var(--background);
-        box-shadow: none;
-    }
     to {
-        background: var(--glass-background);
-        border-bottom: 1px solid var(--glass-border);
-        box-shadow: shadow(3);   
+        @include material(2, $bg: var(--translucent-background));
+        top: $padding;
+        margin: $padding;
     }
 }

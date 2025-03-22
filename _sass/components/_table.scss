@@ -25,7 +25,7 @@ table {
     }
 
     th, td {
-        padding: $container-padding;
+        padding: $padding;
         vertical-align: top;
 
         border-left: 1px solid var(--secondary-borderColor);
@@ -56,8 +56,8 @@ table {
         @include typography($p, "default");
         text-align: left;
 
-        margin: $container-padding 0;
-        padding: $container-padding;
+        margin: $padding 0;
+        padding: $padding;
     }
 
 }

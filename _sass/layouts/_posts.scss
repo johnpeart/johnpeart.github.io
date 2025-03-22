@@ -5,7 +5,7 @@ body[id$='photo'] {
         position: absolute;
         content: "\2014";
 
-        left: $container-padding;
+        left: $padding;
     }
 
     header.post-title.note,
@@ -13,14 +13,14 @@ body[id$='photo'] {
 	header.post-title.photo,
     header.post-title.music,
     header.post-title.weeknote {
-        margin: $container-padding * 4 auto;
+        margin: $padding * 4 auto;
         @include tablet-up {
-            margin: $container-padding * 6 auto $container-padding * 4;
+            margin: $padding * 6 auto $padding * 4;
         }
     }
     
 	header.post-title.game {
-        margin: $container-padding * 2 auto $container-padding * 4;
+        margin: $padding * 2 auto $padding * 4;
     }
 
     iframe {
@@ -33,13 +33,13 @@ body[id$='photo'] {
 
 section.from-me + footer.interactions,
 section.from-them + footer.interactions {
-    margin-bottom: $container-padding * 4;
+    margin-bottom: $padding * 4;
 }
 
 article#post-content.share,
 article#post-content.reply {
-    margin: $container-padding * 4 auto 0;
+    margin: $padding * 4 auto 0;
     @include tablet-up {
-        margin: $container-padding * 6 auto 0;
+        margin: $padding * 6 auto 0;
     }
 }

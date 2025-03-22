@@ -33,14 +33,18 @@ layout: default
     
     {% for item in collection offset: 1 %}
         {% if forloop.first %}
-        <h1 class="post-title">Previously...</h1>
+        <h1 class="key-value--heading">Previously...</h1>
+        <ul class="key-value key-value--items--with-content">
         {% endif %}
-        <article class="collection--list-item h-entry">
-            <h2 class="collection--list--item-title p-name dt-published"><time datetime="{{ page.date | date: '%Y-%m-%d' }}"><a href="{{ item.url }}" title="Read {{ item.date | date: '%B %Y' }}" class="u-url">{{ item.date | date: '%B %Y' }}</a></time></h2>
-            {% if item.data.excerpt %}
-            {{ item.data.excerpt | markdownify }}
-            {% endif %}
-        </article>
+            <li class="key-value--item h-entry">
+                <h2 class="key-value--key p-name dt-published"><time datetime="{{ page.date | date: '%Y-%m-%d' }}"><a href="{{ item.url }}" title="Read {{ item.date | date: '%B %Y' }}" class="u-url">{{ item.date | date: '%B %Y' }}</a></time></h2>
+                {% if item.data.excerpt %}
+                {{ item.data.excerpt | markdownify | replace: '<p>', '<p class="key-value--description">' }}
+                {% endif %}
+            </li>
+        {% if forloop.last %}
+        </ul>
+        {% endif %}
     {% endfor %}
     
     </aside>

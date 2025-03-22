@@ -40,8 +40,8 @@ h2,
 		@include mobile() {
             @include supports-sticky() {
                 top: 0;
-                width: calc(100% + #{$container-padding * 2});
-				margin: 0 0 0 -#{$container-padding};
+                width: calc(100% + #{$padding * 2});
+				margin: 0 0 0 -#{$padding};
 				background: var(--translucent-background);
 				-webkit-backdrop-filter: blur(20px);
 						backdrop-filter: blur(20px);
@@ -58,7 +58,7 @@ h2,
     
     &.site-navigation--section--header {
         @include typography($p, "default");
-        padding: 0 0 $container-padding 0;
+        padding: 0 0 $padding 0;
         text-align: left;
     }
 }

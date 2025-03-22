@@ -11,54 +11,32 @@ input[type="email"] {
     box-sizing: border-box;
     width: 100%;
 
-    margin-bottom: $container-padding * 2;
-    padding: $container-padding !important;
-
-    border-radius: form("border-radius");
+    margin-bottom: $padding * 2;
+    padding: $padding !important;
 
     background: var(--background);
     color: var(--color);
-
-    @include plastic(inset, 5px);
-    border-radius: $border-radius * 2 * 0.7 !important;
-    transition: all 0.3s;
+    
     border: none;
+    
+    @include material(1, true, form("border-radius"), var(--background));
 
     &:hover {
         outline: none;
-        background: rgba(0,139,227,0.05);
-        background: linear-gradient(30deg, rgba(0,139,227,0.05) 0%, rgba(198,67,252,0.05) 33%, rgba(0,122,255,0.05) 66%, rgba(0,123,176,0.05) 100%);
-        box-shadow: 
-            inset  1px  1px 5px rgba(0, 159, 227, 0.2),
-            inset -1px  1px 5px rgba(198, 67, 252, 0.2),
-            inset  1px -1px 5px rgba(0, 122, 255, 0.2),
-            inset -1px -1px 5px rgba(0, 123, 176, 0.2) !important;
         transition: all 0.3s;
-        &::placeholder {color: var(--cyan-tint);}
+        &::placeholder {color: var(--placeholder-text-hoverColor);}
     }
     &:focus {
         outline: none;
-        background: rgba(0,139,227,0.02);
-        background: linear-gradient(30deg, rgba(0,139,227,0.02) 0%, rgba(198,67,252,0.02) 33%, rgba(0,122,255,0.02) 66%, rgba(0,123,176,0.02) 100%);
-        box-shadow: 
-            inset  1px  1px 10px rgba(0, 159, 227, 0.3),
-            inset -1px  1px 10px rgba(198, 67, 252, 0.3),
-            inset  1px -1px 10px rgba(0, 122, 255, 0.3),
-            inset -1px -1px 10px rgba(0, 123, 176, 0.3) !important;
-        background: var(--absolute);
-        transition: all 0.3s;
+        background: var(--background);
         color: var(--color);
         caret-color: var(--cyan);
-        &::placeholder {color: var(--color) !important;}
+        &::placeholder {color: var(--placeholder-text-color) !important;}
     }
 
     &:invalid {
         outline: none;
-        box-shadow: 
-            inset -1px -1px 5px rgba(230, 0, 126, 0.4),
-            inset  1px -1px 5px rgba(177, 14, 30, 0.4),
-            inset -1px  1px 5px rgba(255, 94, 58, 0.4),
-            inset  1px  1px 5px rgba(255, 215, 0, 0.4) !important;
+        box-shadow: inset 0 0 1px 1px var(--orange);
         background: var(--absolute);
         transition: all 0.3s;
         color: var(--color);

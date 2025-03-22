@@ -3,18 +3,18 @@ footer#site-footer img.memoji {
 }
 
 footer#webmentions-footer {
-    padding-block-end: $container-padding;
+    padding-block-end: $padding;
 }
 
 footer#post-footer {
-	padding-block-end: $container-padding * 4;
+	padding-block-end: $padding * 4;
 }
 
 dl.meta-data {
     grid-area: post-meta;
 
     display: grid;
-    grid-gap: $container-padding;
+    grid-gap: $padding;
     grid-template-rows: auto auto;
 	@include tablet-up() {
 		grid-template-columns: 1fr 1fr;
@@ -23,7 +23,7 @@ dl.meta-data {
     height: 100%;
 
     aside {
-        padding: $container-padding;
+        padding: $padding;
     }
 
     p, dl, dt, dd {

@@ -44,12 +44,12 @@
     }
     
     ol .list-item {
-        margin-left: $container-padding * 3;
+        margin-left: $padding * 3;
         @include tablet {
-            margin-left: $container-padding * 4;    
+            margin-left: $padding * 4;    
         }
         @include desktop {
-            margin-left: $container-padding * 5;
+            margin-left: $padding * 5;
         }
     }
 
@@ -72,6 +72,6 @@
 
 .list-title.list {
     @include tablet-up {
-        margin: $container-padding * 4 auto;
+        margin: $padding * 4 auto;
     }
 }

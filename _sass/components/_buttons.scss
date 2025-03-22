@@ -8,7 +8,7 @@ button,
 	
 	cursor: pointer;
 	
-	padding: $container-padding * 0.5 $container-padding;
+	padding: $padding * 0.5 $padding;
     margin: 0;
 	
     @include typography($p, "default");
@@ -21,10 +21,9 @@ button,
 	&.width-auto {
 		width: auto;	
 	}
-	
-	border: 3px solid transparent;
-	background: var(--button-background);
-	border-radius: $border-radius * 2 * 0.7;
+	    
+    @include material(2, false, form("border-radius"), var(--button-background));
+    
 	
 	&:link,
 	&:visited {
@@ -33,25 +32,22 @@ button,
 		background: var(--button-background);
 	}
     &:hover {
-		border: 3px solid var(--button-border);
-		color: 		var(--button-hoverColor);
-		background: var(--button-hoverBackground);
+		@include material(1, false, false, --button-background);
     }
 	&:focus,
     &:focus-visible {
+        box-shadow: none;
 		outline: 3px solid var(--link-outlineColor);
+        @include material(1, false, false, --button-background);
 	    outline-offset: form("outline-active-offset");
     }
     &:hover:focus {
 	    outline-offset: form("outline-active-offset");
+        @include material(1, false, false, --button-background);
     }
     &:active {
-		color: var(--button-color);
-		background: var(--button-background);
-		box-shadow: none;
-		text-decoration: none !important;
-		outline: 3px solid var(--button-border);
-	    outline-offset: form("outline-active-offset");
+        text-decoration: none !important;
+		@include material(1, true, false, --button-background);
     }
 
     &:disabled,
@@ -63,5 +59,13 @@ button,
         text-align: center;
         cursor: unset;
         outline: none;
+    }
+    
+    &.button--red {
+        background: var(--red);
+        
+        &:active {
+            background: var(--red-tone);
+        }
     }
 }

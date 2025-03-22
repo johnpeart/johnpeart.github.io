@@ -45,7 +45,7 @@
     
     align-content: center;
     
-    padding: $container-padding !important;
+    padding: $padding !important;
     outline-offset: 0;
     border-bottom-right-radius: 120px 10px;
     height: 275px;
@@ -70,7 +70,7 @@
 
     @include tablet {
         height: 300px;
-        padding: $container-padding * 1.5 !important;
+        padding: $padding * 1.5 !important;
         border-top: 72px solid var(--post-it--top);
         box-shadow: 
             130px 115px 50px -140px rgba(25, 25, 25, 0.8),
@@ -78,7 +78,7 @@
     }
     @include desktop {
         height: 425px;
-        padding: $container-padding * 2 !important;
+        padding: $padding * 2 !important;
         border-top: 102px solid var(--post-it--top);
         box-shadow: 
             180px 170px 50px -195px rgba(25, 25, 25, 0.8),
@@ -88,8 +88,8 @@
 }
 
 .note-post .note-title {
-    margin: $container-padding * 4 auto;
+    margin: $padding * 4 auto;
     @include tablet-up {
-        margin: $container-padding * 6 auto;
+        margin: $padding * 6 auto;
     }
 }

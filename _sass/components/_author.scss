@@ -7,7 +7,7 @@ aside.author {
 	color: var(--secondary-color);
 	line-height: 1.2;
 	text-align: left;
-	padding: 0 $container-padding $container-padding * 0.5 $container-padding;
+	padding: 0 $padding $padding * 0.5 $padding;
 }
 
 #author-card {
@@ -18,7 +18,7 @@ aside.author {
     height: 100%;
     text-align: center;
 	
-	grid-gap: $container-padding;
+	grid-gap: $padding;
 
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto;
@@ -34,7 +34,7 @@ aside.author {
 #author--bio {
 	display: grid;
 	
-	padding-block: $container-padding * 4;
+	padding-block: $padding * 4;
     
 	grid-gap: 0;
 	grid-template-rows: auto 1fr;
@@ -66,10 +66,10 @@ aside.author {
 .author--icons {
 	display: grid;
 	
-    padding-block: $container-padding * 4;
+    padding-block: $padding * 4.5 $padding * 4;
     
     grid-area: icons;
-	grid-gap: $container-padding;
+	grid-gap: $padding;
 	grid-template-columns: 1fr;
 }
 
@@ -77,7 +77,7 @@ aside.author {
 	display: grid;
 	align-items: center;
 	justify-items: flex-start;
-    grid-gap: $container-padding;
+    grid-gap: $padding;
     
     grid-template-columns: 20px 1fr;
     

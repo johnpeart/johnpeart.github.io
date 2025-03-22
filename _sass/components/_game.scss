@@ -42,7 +42,7 @@
 
 h1.game--metadata-title {
     @include typography($large, "default");
-	margin-top: $container-padding * 6 !important;
+	margin-top: $padding * 6 !important;
 }
 
 h1.game--metadata-title {

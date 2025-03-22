@@ -10,7 +10,7 @@ select {
     width: 100%;
     min-height: form("input-size");
     padding: form("input-padding") !important;
-    margin-bottom: $container-padding * 2;
+    margin-bottom: $padding * 2;
 
     border-radius: form("border-radius");
     border: form("border-width") solid;

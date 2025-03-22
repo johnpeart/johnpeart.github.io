@@ -1,42 +1,45 @@
 // COLOUR PALETTE
 // All colours used should be referenced here
 :root {
+    
+    color-scheme: light dark;    
+
     // Colour palette
     --white: rgb(250, 250, 250);
     --absolute-white: rgb(255, 255, 255);
 
-    --black: rgb(29, 29, 29);
+    --black: rgb(20, 22, 25);
     --absolute-black: rgb(0, 0, 0);
 
-    --absolute: var(--absolute-white);
+    --absolute: light-dark(var(--absolute-white), var(--absolute-black));
 
-    --gray-100: rgb(248, 249, 250);
-    --gray-200: rgb(233, 236, 239);
-    --gray-300: rgb(222, 226, 230);
-    --gray-400: rgb(206, 212, 218);
-    --gray-500: rgb(173, 181, 189);
-    --gray-600: rgb(134, 142, 150);
-    --gray-700: rgb(73, 80, 87);
-    --gray-800: rgb(52, 58, 64);
-    --gray-900: rgb(33, 37, 41);
+    --gray-100: rgb(240, 240, 240);
+    --gray-200: rgb(220, 220, 220);
+    --gray-300: rgb(205, 205, 205);
+    --gray-400: rgb(190, 190, 190);
+    --gray-500: rgb(170, 175, 180);
+    --gray-600: rgb(140, 145, 150);
+    --gray-700: rgb(70, 75, 80);
+    --gray-800: rgb(50, 55, 60);
+    --gray-900: rgb(30, 35, 40);
 	
-	--shadow-1: 	rgba(0,0,0,0.12);
-	--shadow-1B: 	rgba(0,0,0,0.24);
-	--shadow-2:		rgba(0,0,0,0.16);
-	--shadow-2B: 	rgba(0,0,0,0.23);
-	--shadow-3:		rgba(0,0,0,0.19);
-	--shadow-3B: 	rgba(0,0,0,0.23);
-	--shadow-4:		rgba(0,0,0,0.25);
-	--shadow-4B:	rgba(0,0,0,0.22);
-	--shadow-5:		rgba(0,0,0,0.3);
-	--shadow-5B:	rgba(0,0,0,0.22);
+	--shadow-1: 	light-dark(rgba(0,0,0,0.12), rgba(0,0,0,0.12));
+	--shadow-1B: 	light-dark(rgba(0,0,0,0.24), rgba(0,0,0,0.24));
+	--shadow-2:		light-dark(rgba(0,0,0,0.16), rgba(0,0,0,0.16));
+	--shadow-2B: 	light-dark(rgba(0,0,0,0.23), rgba(0,0,0,0.23));
+	--shadow-3:		light-dark(rgba(0,0,0,0.19), rgba(0,0,0,0.19));
+	--shadow-3B: 	light-dark(rgba(0,0,0,0.23), rgba(0,0,0,0.23));
+	--shadow-4:		light-dark(rgba(0,0,0,0.25), rgba(0,0,0,0.25));
+	--shadow-4B:	light-dark(rgba(0,0,0,0.22), rgba(0,0,0,0.22));
+	--shadow-5:		light-dark(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+	--shadow-5B:	light-dark(rgba(0,0,0,0.22), rgba(0,0,0,0.22));
 
     --blue: rgb(0, 122, 255);
     --desaturated-blue: rgb(59, 89, 152);
     --purple: rgb(198, 67, 252);
     --magenta: rgb(230, 0, 126);
-    --red: rgb(177, 14, 30);
-    --music-red:  rgb(250, 36, 60);
+    --red-tone: rgb(177, 14, 30);
+    --red:  rgb(250, 36, 60);
     --red-tint: rgb(250, 196, 201);
     --orange: rgb(255, 94, 58);
     --yellow: rgb(255, 215, 0);
@@ -48,37 +51,37 @@
     
     --gb-power: rgb(74,159,101);    
     
-    --gb-shell--stroke: rgb(40,40,40);
-    --gb-shell--fill: rgb(50,50,50);
+    --gb-shell--stroke: light-dark(rgb(40,40,40), rgb(175,175,175));
+    --gb-shell--fill: light-dark(rgb(50,50,50), rgb(220,220,220));
     
-    --gb-lens--fill-1: rgb(20,20,20);
-    --gb-lens--fill-2: rgb(180,180,180);
-    --gb-lens--fill-3: rgb(65,65,65);
-    --gb-lens--fill-4: rgb(0,0,0);
+    --gb-lens--fill-1: light-dark(rgb(20,20,20), rgb(170,170,170));
+    --gb-lens--fill-2: light-dark(rgb(180,180,180), rgb(150,150,150));
+    --gb-lens--fill-3: light-dark(rgb(65,65,65), rgb(205,205,205));
+    --gb-lens--fill-4: light-dark(rgb(0,0,0), rgb(220,220,220));
     
-    --gb-dpad--fill-1: rgb(15,15,15);
-    --gb-dpad--fill-2: rgb(0,0,0);
-    --gb-dpad--fill-3: rgb(20,20,20);
-    --gb-dpad--fill-4: rgb(130,130,130);
-    --gb-dpad--fill-5: rgb(50,50,50);
-    --gb-dpad--stroke-1: rgb(40,40,40);
-    --gb-dpad--stroke-5: rgb(40,40,40);
+    --gb-dpad--fill-1: light-dark(rgb(15,15,15), rgb(215,215,215));
+    --gb-dpad--fill-2: light-dark(rgb(0,0,0), rgb(170,170,170));
+    --gb-dpad--fill-3: light-dark(rgb(20,20,20), rgb(155,155,155));
+    --gb-dpad--fill-4: light-dark(rgb(130,130,130), rgb(255,255,255));
+    --gb-dpad--fill-5: light-dark(rgb(50,50,50), rgb(225,225,225));
+    --gb-dpad--stroke-1: light-dark(rgb(40,40,40), rgb(190,190,190));
+    --gb-dpad--stroke-5: light-dark(rgb(40,40,40), rgb(210,210,210));
     
-    --gb-start-select--fill-1: rgb(15,15,15);
-    --gb-start-select--fill-2: rgb(130,130,130);
-    --gb-start-select--fill-3: rgb(50,50,50);
-    --gb-start-select--stroke-1: rgb(40,40,40);
-    // --gb-start-select--stroke-2: rgb(255,255,255);
-    --gb-start-select--stroke-3: rgb(40,40,40);
+    --gb-start-select--fill-1: light-dark(rgb(15,15,15), rgb(170,170,170));
+    --gb-start-select--fill-2: light-dark(rgb(130,130,130), rgb(210,210,210));
+    --gb-start-select--fill-3: light-dark(rgb(50,50,50), rgb(225,225,225));
+    --gb-start-select--stroke-1: light-dark(rgb(40,40,40), rgb(210,210,210));
+    --gb-start-select--stroke-2: light-dark(transparent, rgb(255,255,255));
+    --gb-start-select--stroke-3: light-dark(rgb(40,40,40), rgb(225,225,225));
     
-    --gb-abxy--fill-1: rgb(0,0,0);
-    --gb-abxy--fill-2: rgb(120,120,120);
-    --gb-abxy--fill-3: rgb(50,50,50);
-    --gb-abxy--fill-4: rgb(50,50,50);
-    --gb-abxy--stroke-1: rgb(40,40,40);
-    --gb-abxy--stroke-2: rgb(40,40,40);
-    --gb-abxy--stroke-3: rgb(40,40,40);
-    // --gb-abxy--stroke-4: rgb(225,225,225);
+    --gb-abxy--fill-1: light-dark(rgb(0,0,0), rgb(170,170,170));
+    --gb-abxy--fill-2: light-dark(rgb(120,120,120), rgb(255,255,255));
+    --gb-abxy--fill-3: light-dark(rgb(50,50,50), rgb(210,210,210));
+    --gb-abxy--fill-4: light-dark(rgb(50,50,50), rgb(225,225,225));
+    --gb-abxy--stroke-1: light-dark(rgb(40,40,40), rgb(215,215,215));
+    --gb-abxy--stroke-2: light-dark(rgb(40,40,40), rgb(215, 215,215));
+    --gb-abxy--stroke-3: light-dark(rgb(40,40,40), rgb(225,225,225));
+    --gb-abxy--stroke-4: light-dark(transparent, rgb(225,225,225));
 
     --post-it--yellow: rgb(255, 215, 0);
     --post-it--yellow--top: rgb(250, 211, 0);
@@ -97,42 +100,38 @@
     --post-it--magenta--corner:  rgb(255, 128, 198);
 	
     // Element colours
-    --background: var(--white);
-    --footer-background: var(--gray-200);
-    --translucent-background: rgba(250, 250, 250, 0.7);
-    --glass-background: linear-gradient(135deg, rgba(248, 249, 250, 0.8), rgba(233, 236, 239, 0.6));
-    --glass-border: rgba(255, 255, 255, 0.5);
-    --plastic-shadow-1: var(--gray-300);
-    --plastic-shadow-2: var(--absolute-white);
-    --color: var(--black);
+    --background: light-dark(var(--white), var(--black));
+    
+    --translucent-background: light-dark(rgba(240, 240, 240, 0.7), rgba(30, 35, 40, 0.5));
+    --glass-background: light-dark(rgba(250, 250, 250, 0.6), rgba(29, 29, 29, 0.6));
+    --glass-border: light-dark(rgba(255, 255, 255, 0.5), rgba(100, 100, 100, 0.3));
+    --plastic-shadow-1: light-dark(var(--gray-300), var(--absolute-black));
+    --plastic-shadow-2: light-dark(var(--absolute-white), var(--gray-900));
+    
+    --color: light-dark(var(--black), var(--white));
     --markerpen-color: var(--black);
     --strikethrough-color: var(--red);
-    --secondary-background: var(--gray-200);
-    --secondary-hoverBackground: var(--gray-300);
-    --secondary-borderColor: var(--gray-400);
-    --secondary-color: var(--gray-600);
-    --code-color: var(--green-tone);
+    
+    --secondary-background: light-dark(var(--gray-200), var(--gray-800));
+    --secondary-hoverBackground: light-dark(var(--gray-300), var(--gray-700));
+    --secondary-borderColor: light-dark(var(--gray-300), var(--gray-700));
+    --secondary-color: light-dark(var(--gray-600), var(--gray-500));
+    
+    --code-color: light-dark(var(--green-tone), var(--green));
     --radio-color: var(--cyan);
 
     --link-color: var(--color);
     --link-hoverColor: var(--cyan);
     --link-focusBackground: var(--cyan);
-    --link-focusColor: var(--white);
+    --link-focusColor: light-dark(var(--white), var(--black));
     --link-outlineColor: var(--cyan);
-    --link-secondary-color: var(--gray-600);
+    --link-secondary-color: light-dark(var(--gray-600), var(--gray-500));
 
     --button-color: var(--background);
     --button-background: var(--cyan);
     --button-hoverColor: var(--cyan);
 	--button-hoverBackground: var(--background);
 	--button-border: var(--cyan);
-
-    --dropdownButton-hoverBackground: var(--cyan);
-    --dropdownButton-hoverColor: var(--white);
-    --dropdownButton-focusBackground: var(--cyan);
-    --dropdownButton-focusColor: var(--cyan);
-    --dropdownButton-disabledColor: var(--gray-700);
-    --dropdownButton-disabledBackground: var(--gray-200);
 
     --details--hoverColor: var(--cyan);
     --details--hoverBackground: var(--absolute-white);
@@ -149,7 +148,8 @@
     --form--activeBackground: var(--link-focusBackground);
     --form--focusBorderColor: var(--link-focusBackground);
 
-    --radio-colour: var(--cyan);
+    --placeholder-text-color: var(--secondary-color);--placeholder-text-hoverColor: var(--cyan);
+
     --form--focusBackground: var(--color);
     --labelHint-color: var(--gray-600);
 
@@ -165,97 +165,14 @@
 	--speechBubble-fromMeLinkFocusColor: var(--cyan);
     --speechBubble-fromMeLinkBackground: var(--white);
 
-    --speechBubble-fromThemColor: var(--black);
-    --speechBubble-fromThemBackground: var(--gray-200);
+    --speechBubble-fromThemColor: light-dark(var(--black), var(--black));
+    --speechBubble-fromThemBackground: light-dark(var(--gray-100), var(--gray-300));
     --speechBubble-fromThemLinkColor: var(--black);
     --speechBubble-fromThemLinkBackground: var(--cyan);
     
     --caret-color: var(--cyan);
 
-    --skiplink-color: var(--white);
+    --skiplink-color: light-dark(var(--white), var(--black));
     --skiplink-background: var(--cyan);
-
-    @include darkMode() {
-        
-        --absolute: rgb(20, 20, 20);
-        
-        // Dark mode overrides
-        // Colour palette
-	
-        --shadow-1: 	rgba(0,0,0,0.12);
-        --shadow-1B: 	rgba(0,0,0,0.24);
-        --shadow-2:		rgba(0,0,0,0.16);
-        --shadow-2B: 	rgba(0,0,0,0.23);
-        --shadow-3:		rgba(0,0,0,0.19);
-        --shadow-3B: 	rgba(0,0,0,0.23);
-        --shadow-4:		rgba(0,0,0,0.25);
-        --shadow-4B:	rgba(0,0,0,0.22);
-        --shadow-5:		rgba(0,0,0,0.3);
-        --shadow-5B:	rgba(0,0,0,0.22);
     
-        --gb-power: rgb(74,159,101);    
-    
-        --gb-shell--stroke: rgb(175,175,175);
-        --gb-shell--fill: rgb(220,220,220);
-        
-        --gb-lens--fill-1: rgb(170,170,170);
-        --gb-lens--fill-2: rgb(150,150,150);
-        --gb-lens--fill-3: rgb(205,205,205);
-        --gb-lens--fill-4: rgb(220,220,220);
-        
-        --gb-dpad--fill-1: rgb(215,215,215);
-        --gb-dpad--fill-2: rgb(170,170,170);
-        --gb-dpad--fill-3: rgb(155,155,155);
-        --gb-dpad--fill-4: rgb(255,255,255);
-        --gb-dpad--fill-5: rgb(225,225,225);
-        --gb-dpad--stroke-1: rgb(190,190,190);
-        --gb-dpad--stroke-5: rgb(210,210,210);
-        
-        --gb-start-select--fill-1: rgb(170,170,170);
-        --gb-start-select--fill-2: rgb(210,210,210);
-        --gb-start-select--fill-3: rgb(225,225,225);
-        --gb-start-select--stroke-1: rgb(210,210,210);
-        --gb-start-select--stroke-2: rgb(255,255,255);
-        --gb-start-select--stroke-3: rgb(225,225,225);
-        
-        --gb-abxy--fill-1: rgb(170,170,170);
-        --gb-abxy--fill-2: rgb(255,255,255);
-        --gb-abxy--fill-3: rgb(210,210,210);
-        --gb-abxy--fill-4: rgb(225,225,225);
-        --gb-abxy--stroke-1: rgb(215,215,215);
-        --gb-abxy--stroke-2: rgb(215, 215,215);
-        --gb-abxy--stroke-3: rgb(225,225,225);
-        --gb-abxy--stroke-4: rgb(225,225,225);
-        
-        --glass-background: linear-gradient(135deg, rgba(33, 37, 41, 0.8), rgba(15, 15, 15, 0.6));
-        --glass-border: rgba(100, 100, 100, 0.3);
-        --plastic-shadow-1: var(--absolute-black);
-        --plastic-shadow-2: var(--gray-900);
-
-        // Element colours
-        --background: var(--black);
-        --footer-background: var(--gray-900);
-        --translucent-background: rgba(29, 29, 29, 0.5);
-        --color: var(--white);
-        --secondary-background: var(--gray-800);
-        --secondary-hoverBackground: var(--gray-700);
-        --secondary-borderColor: var(--gray-700);
-        --secondary-color: var(--gray-500);
-        --code-color: var(--green);
-
-        --link-focusColor: var(--black);
-        --link-secondary-color: var(--gray-500);
-		
-        --dropdownButton-hoverColor: var(--black);
-        --dropdownButton-disabledColor: var(--gray-500);
-        --dropdownButton-disabledBackground: var(--gray-800);
-
-        --skiplink-color: var(--black);
-
-		--speechBubble-fromThemColor: var(--black);
-        --speechBubble-fromThemBackground: var(--gray-400);
-
-        --star-color: var(--gray-800);
-        --star-background: var(--white);
-    }
 }

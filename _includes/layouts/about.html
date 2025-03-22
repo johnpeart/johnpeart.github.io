@@ -17,34 +17,40 @@ layout: "default"
     
     {% assign collection = collections.about | group_by: "data.type" | sort: "name" %}
     
-    <section class="collection--list">
+    <section>
         
         {% for type in collection %}
-            <h2 class="collection--list--group-title">{{ type.name }}</h2>
-            <div class="tab-bar--content">
-                <section class="collection--list">
-                {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}
-                {% for org in roles %}
-            
-                    {% assign jobs = org.items | sort: "date" | reverse %}
-                    {% for job in jobs %}
-                        {% if forloop.first %}
-                        <header>
-                            <h3 class="collection--list--title">{{ job.data.organisation }}</h3>
-                        </header>
-                        {% endif %}
-	                    <article class="collection--list-item">
-		                    <h4>{{ job.data.title }}</h4>
-		                    {% if job.data.dates.end == "present" %}
-		                    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ job.data.dates.end }}</time></p>
-		                    {% else %}
-		                    <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ job.data.dates.end | date: '%Y-%m-%d' }}">{{ job.data.dates.end | date: '%B %Y' }}</time></p>
-		                    {% endif %}
-	                    </article>
-                    {% endfor %}
+            <header>
+                <h1 id="{{ type.name | slugify }}" class="key-value--heading key-value--heading--large">{{ type.name }}</h1>
+            </header>
+            <section>
+            {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}
+            {% for org in roles %}
+        
+                {% assign jobs = org.items | sort: "date" | reverse %}
+                {% for job in jobs %}
+                    {% if forloop.first %}
+                    <header>
+                        <h2 class="key-value--heading">{{ job.data.organisation }}</h2>
+                    </header>
+                    <ul class="key-value">
+                    {% endif %}
+                        <li class="key-value--item key-value--item--with-description">
+                            <h3 class="key-value--key">{{ job.data.title }}</h3>
+                            <div class="key-value--description">
+                                {% if job.data.dates.end == "present" %}
+                                <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ job.data.dates.end }}</time></p>
+                                {% else %}
+                                <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ job.data.dates.end | date: '%Y-%m-%d' }}">{{ job.data.dates.end | date: '%B %Y' }}</time></p>
+                                {% endif %}
+                            </div>
+                        </li>
+                    {% if forloop.last %}
+                    </ul>
+                    {% endif %}
                 {% endfor %}
-                </section>
-            </div>
+            {% endfor %}
+            </section>
         {% endfor %}
     </section>
 </article>

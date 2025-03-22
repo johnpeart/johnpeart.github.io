@@ -23,32 +23,34 @@ layout: default
 
     {{ content }}
 
-	<ul id="goals-list">
+	<ul class="key-value">
 
 	{% for goal in goals %}
 
 		{% assign goalno = goalno | plus: 1 %}
 
-		<li>
+		<li class="key-value--item key-value--item--goal">
 
-			<h2 class="goal-title">{{ goal.title }}</h2>
-			<p class="goal-description">{{ goal.description }}</p>
-
+			<h2 class="key-value--key">{{ goal.title }}</h2>
+            
+            <p class="key-value--value">{{ goal.description }}</p>
+            
 			{% if goal.progress >= goal.max and goal.stretch  %}
-				<progress class="goal-progress stretch-top" max="{{ goal.max }}" value="{{ goal.progress }}">
+            <div class="key-value--progress progress--stretch">
+				<progress class="goal-progress goal-progress--core" max="{{ goal.max }}" value="{{ goal.progress }}">
 					<p><strong>{{ goal.progress | remove: ".0" }}</strong> out of an initial goal of <strong>{{ goal.max | remove: ".0" }}</strong></p>
 				</progress>
-				<progress class="goal-progress stretch-bottom" max="{{ goal.stretch }}" value="{{ goal.progress | minus: goal.max | at_least: 0 }}">
+				<progress class="goal-progress goal-progress--stretch" max="{{ goal.stretch }}" value="{{ goal.progress | minus: goal.max | at_least: 0 }}">
 					<p><strong>{{ goal.progress | minus: goal.max | remove: ".0" | at_least: 0 }}</strong> out of a stretch goal of <strong>{{ goal.stretch | remove: ".0" }}</strong></p>
 				</progress>
+            </div>
 			{% else %}
-				<progress class="goal-progress standard" max="{{ goal.max }}" value="{{ goal.progress }}">
+            <div class="key-value--progress">
+				<progress class="goal-progress" max="{{ goal.max }}" value="{{ goal.progress }}">
 					<p><strong>{{ goal.progress | remove: ".0" }}</strong> out of <strong>{{ goal.max | remove: ".0" }}</strong></p>
 				</progress>
 			{% endif %}
-
-			{% if goal.comment != "" %}<p>{{ goal.comment }}</p>{% endif %}
-
+            </div>
 		</li>
 
 		{% assign goalvalue = goal.progress | divided_by: goal.max | times: 100 %}
@@ -65,24 +67,14 @@ layout: default
 		{% assign goalno = goalno | times: 1.0 | at_least: 1 %}
 		{% assign totalgoalpercentage = totalgoalpercentage | times: 1.0 | at_least: 0 %}
 		{% assign averagegoalpercentage = totalgoalpercentage | divided_by: goalno | at_least: 0 | round %}
-		<li class="totaliser card">
-			<h2 class="goal-title">Overall progress</h2>
-			<p class="goal-description">Goal completion</p>
-			<progress class="goal-progress standard" max="100" value="{{ averagegoalpercentage }}">
+		<li class="key-value--item key-value--goal totaliser card">
+			<h2 class="key-value--key">Overall progress</h2>
+            <p class="key-value--value">{{ averagegoalpercentage }}%</p>
+			<progress class="goal-progress full-span" max="100" value="{{ averagegoalpercentage }}">
 				<p><strong>{{ averagegoalpercentage }}% of goals completed (each goal given equal weighting)</strong></p>
 			</progress>
-			<p>{{ averagegoalpercentage }}% of goals completed (each goal given equal weighting)</p>
-
-			{% if goalsdata contains currentyear %}
-			<p class="goal-description lead">Year to date</p>
-			<progress class="goal-progress standard" max="365" value="{{ dayoftheyear }}">
-				<p>Day <strong>{{ dayoftheyear }}</strong> out of <strong>365</strong></p>
-			</progress>
-			<p>{{ dayoftheyear | times: 100 | divided_by: 366 | at_least: 0 | append: '%' }}  of the year complete</p>
-			{% endif %}
+            <p class="key-value--value full-span">Each goal given equal weighting</p>
 		</li>
-
-
 
 	</ul>
 

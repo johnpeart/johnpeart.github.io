@@ -1,5 +1,5 @@
 figure dl {
-    padding: $container-padding;
+    padding: $padding;
 
     display: grid;
 
@@ -10,10 +10,10 @@ figure dl {
         grid-template-rows: 1fr;
         grid-template-columns: auto 1fr;
     }
-    column-gap: $container-padding * 2;
-    row-gap: $container-padding;
+    column-gap: $padding * 2;
+    row-gap: $padding;
 
-    @include glow();
+    @include material(1);
 }
 
 dd, dt {
@@ -33,14 +33,14 @@ dd, dt {
 
 section.apps-list,
 section.app-sheet {
-    margin: $container-padding auto $container-padding * 2;
-    @include plastic(raised);
+    margin: $padding auto $padding * 2;
+    @include material();
     
     dl {
 
         display: grid;
     
-        padding: $container-padding;
+        padding: $padding;
 
         grid-template-rows: auto auto;
         grid-template-columns: auto;
@@ -49,8 +49,8 @@ section.app-sheet {
             grid-template-rows: 1fr;
             grid-template-columns: auto 1fr;
         }
-        column-gap: $container-padding * 2;
-        row-gap: $container-padding;
+        column-gap: $padding * 2;
+        row-gap: $padding;
         
         box-shadow: none;
         border-radius: 0;
@@ -118,12 +118,12 @@ section.app-sheet {
     .app-first-label,
     .app-first {
         border-top: form("border-width") solid var(--dl--borderColor);
-        margin-top: $container-padding;
+        margin-top: $padding;
         padding: 10px 0 0 0;
     }
     .app-first-label,
     .app-first {
-        margin-top: $container-padding * 2;
+        margin-top: $padding * 2;
     }
     .app-first,
     .app-second {

@@ -1,9 +1,0 @@
-@mixin glass() {
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    
-    background: var(--glass-background);
-    border-radius: $border-radius * 2;
-    border: 1px solid var(--glass-border);
-    box-shadow: shadow(5);
-}

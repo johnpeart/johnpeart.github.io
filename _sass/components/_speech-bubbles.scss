@@ -1,11 +1,11 @@
 .speech-bubbles {
     display: grid;
     
-    grid-gap: 0 $container-padding;
+    grid-gap: 0 $padding;
     grid-template-rows: auto auto auto;
     
     &:last-of-type {
-        margin-bottom: $container-padding * 4;
+        margin-bottom: $padding * 4;
     }
 }
 
@@ -109,7 +109,7 @@
 
 .speech-bubbles--author {
     grid-area: author;
-    margin-top: $container-padding;
+    margin-top: $padding;
 
 }
 .speech-bubbles--content {
@@ -127,7 +127,7 @@
     z-index: 100;
     position: sticky;
     top: auto;
-    bottom: $container-padding;
+    bottom: $padding;
     
     width: 50px;
     height: 50px;
@@ -141,9 +141,9 @@
         }
     }
     &.padding {
-        padding: $container-padding * 0.5;
+        padding: $padding * 0.5;
     }
-    margin-bottom: $container-padding;
+    margin-bottom: $padding;
     background: var(--secondary-background);
     border-radius: 100%;
 }
@@ -151,8 +151,8 @@
 .speech-bubble {
     position: relative;
 	display: inline-block;
-    padding: $container-padding * 0.5 $container-padding;
-    margin-bottom: $container-padding * 0.5;
+    padding: $padding * 0.5 $padding;
+    margin-bottom: $padding * 0.5;
     @include typography($p);
     border-radius: $border-radius * 2;
 	
@@ -162,7 +162,7 @@
     word-break: break-word;
     
     &:last-child {
-        margin-bottom: $container-padding;
+        margin-bottom: $padding;
     }
     
     &.speech-bubble--no-padding {
@@ -175,9 +175,9 @@
 
 ol, ul {
     &.speech-bubble {
-        padding-left: $container-padding * 3;
+        padding-left: $padding * 3;
         @include desktop {
-            padding-left: $container-padding * 4;
+            padding-left: $padding * 4;
         }
     }
 }
@@ -280,11 +280,11 @@ ol, ul {
 .speech-bubble .post-title {
     @include typography($card-title);
     line-height: 1;
-	padding: 0 0 $container-padding * 0.5 !important;
+	padding: 0 0 $padding * 0.5 !important;
 }
 
 .speech-bubble blockquote {
-    padding: $container-padding * 0.5 $container-padding $container-padding * 0.75 !important;
+    padding: $padding * 0.5 $padding $padding * 0.75 !important;
     
     p:last-child {
         padding: 0;
@@ -299,7 +299,7 @@ ol, ul {
 }
 
 .speech-bubble .text {
-    padding: $container-padding * 0.5 $container-padding $container-padding * 0.5 $container-padding * 0.4;
+    padding: $padding * 0.5 $padding $padding * 0.5 $padding * 0.4;
     
     p:last-child {
         padding: 0;

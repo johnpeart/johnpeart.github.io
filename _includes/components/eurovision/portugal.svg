@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="100%" height="100%" viewBox="0 0 126 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">  <defs/>
+<svg width="126" height="132" viewBox="0 0 126 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">  <defs/>
   <g id="LOGO_GROUP" transform="translate(-232.76,-97.88)">
     <path style="fill:#060" d="M 284.578 213.179 L 284.886 126.875 C 282.816 122.785 277.758 117.347 269.048 117.347 C 260.968 117.347 244.127 127.652 243.817 156.162 C 243.497 184.882 272.588 202.439 284.578 213.179 Z" id="path18"/>
     <path style="fill:red" d="M 318.48 105.335 C 304.192 109.09 293.912 123.254 291.83 128.181 C 289.748 133.108 284.87 128.42 284.25 127.21 L 284.29 212.55 C 286.62 214.64 286.543 216.319 289.27 219.32 C 294.191 202.8 339.78 172.86 344.049 138.258 C 345.305 128.08 342.267 109.921 326.842 105.89 L 318.48 105.335 Z" id="path2"/>

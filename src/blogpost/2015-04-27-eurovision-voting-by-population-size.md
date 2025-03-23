@@ -42,7 +42,7 @@ At the end of these calculations, for each finalist, I could compare their:
 
 Of the 5 sets of results studied, in only 1 year would the winner of the grand final have changed. Conchita Wurst (2014, Austria), Emmelie de Forest (2013, Denmark), Loreen (2012, Sweden), and Ell & Nikki (2011, Azerbaijan) all win their finals regardless of whether scores are weighted by country size or not. 
 
-The bad news comes for the 2010 winner, Lena (Germany) and her entry "Satellite". Whilst she won the vote on the night, she may not have had the popular support of Europe itself. Bizarrely, it was Armenia's entry, [*Apricot Stone*](https://www.youtube.com/watch?v=bdAd4Y8agas), that would have won had the state population mattered. 
+The bad news comes for the 2010 winner, Lena (Germany) and her entry *Satellite*. Whilst she won the vote on the night, she may not have had the popular support of Europe itself. Bizarrely, it was Armenia's entry, [*Apricot Stone*](https://www.youtube.com/watch?v=bdAd4Y8agas), that would have won had the state population mattered. 
 
 Why so bizarre? Well, aside from the frankly *hideous* song, Armenia would have rocketed from 7th place to first under a proportional vote, picking up more than 100 additional points.
 
@@ -82,7 +82,7 @@ The 2010 Contest goes on to be even more surprising though. Not only does the wi
 
 Talking of increasing point-leads; Loreen didn't just storm it in the actual contest, she storms it in this fictional scenario too. 
 
-Eurovision buffs will know that *Euphoria* was one of the highest scoring songs of all time achieving the most number of *douze points* of any entry in the contest's history, and just 15 points behind the current record holder, 2009's Alexander Rybak (Norway). But in a proportional system, Loreen's score of 372 would have been even higher - she would have scored 393.8 points! Further evidence, if any was needed, that "Euphoria" is an incredible song.
+Eurovision buffs will know that *Euphoria* was one of the highest scoring songs of all time achieving the most number of *douze points* of any entry in the contest's history, and just 15 points behind the current record holder, 2009's Alexander Rybak (Norway). But in a proportional system, Loreen's score of 372 would have been even higher - she would have scored 393.8 points! Further evidence, if any was needed, that *Euphoria* is an incredible song.
 
 <table class="card">
     <caption><strong>Table 2:</strong> Data from the 2012 <em>Eurovision Song Contest</em> data</caption>

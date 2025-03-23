@@ -1023,78 +1023,110 @@ Whilst this classification is imprecise, it is precise enough for the purposes o
     </tbody>
 </table>
 
+## Bibliography
 
+**Anonymous (2010a)** ‘A monetary policy committee divided’, Financial Times, 21 October 2010, 18.
 
-<div class="footnotes"  markdown="1">
+**Anonymous (2010b)** ‘[Hawk v Dove – the MPC dilemma](http://www.telegraph.co.uk/finance/economics/8138064/Hawk-v-Dove-the-MPC-dilemma.html)’, The Telegraph [accessed 10 Janary 2013].
 
-1. **Anonymous (2010a)** ‘A monetary policy committee divided’, Financial Times, 21 October 2010, 18.
-2. **Anonymous (2010b)** ‘[Hawk v Dove – the MPC dilemma](http://www.telegraph.co.uk/finance/economics/8138064/Hawk-v-Dove-the-MPC-dilemma.html)’, The Telegraph [accessed 10 Janary 2013].
-3. **Anonymous (2011a)** ‘[Bank of England MPC: Who sets interest rates?](http://www.bbc.co.uk/news/business-12997437)’, BBC News Business[accessed 10 Janary 2013].
-4. **Anonymous (2011b)** ‘Policy dilemma’, Business Europe, 51(1), 2-3.
-5. **Bailey, A. and Schonhardt-Bailey, C. (2008)** ‘Does Deliberation Matter in FOMC Monetary Policymaking? The Volcker Revolution of 1979’, Political Analysis, 16(4), 404-427.
-6. **Bailey, A. and Schonhardt-Bailey, C. (2010)** ‘Deliberation and Oversight in Monetary Policy, 1976-2008’ (chapter of forthcoming monograph, Deliberating Monetary Policy), conference paper, presented at Southern Economic Association Annual Meeting, Atlanta, 20-22 November 2010, 2-48.
-7. **Bailey, A. and Schonhardt-Bailey, C. (2013, forthcoming)** Deliberating American Monetary Policy: A textual analysis, MIT Press.
-8. **Bank of England (2011)** ‘[Inflation Report](http://www.bankofengland.co.uk/publications/Pages/inflationreport/default.aspx)’, Bank of England  [accessed 15 January 2013].
-9. **Bank of England Act 1998**, c.11, United Kingdom: Stationery Press.
-10. **Barabas, J. (2004)** ‘How Deliberation Affects Policy Opinions’, American Political Science Review, 98(4), 687-701.
-11. **Barro, R. J. and Gordon, D. B. (1983)** ‘Rules, discretion and reputation in a model of monetary policy’, Journal of Monetary Economics, 12(1), 101-121.
-12. **Baumgartner, F. R. and Jones, B. D. (2002)** Policy dynamics, Chicago: University of Chicago Press, 293-306.
-13. **Bean, C. and Jenkinson, N. (2001)** ‘The formulation of monetary policy at the Bank of England’, Bank of England. Quarterly Bulletin, 41(4), 14. 434-441.
-14. **Blinder, A. S. (2007)** ‘Monetary policy by committee: Why and how?’, European Journal of Political Economy, 23(1), 106-123.
-15. **Blinder, A. S. and Morgan, J. (2005)** ‘Are Two Heads Better Than One? Monetary Policy By Committee’, Journal of Money, Credit and Banking, 37(5), 798-811.
-16. **Brown, G. (2003a)** [Remit for the Monetary Policy Committee, April 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/remitletter2003.pdf), HM Treasury  [accessed 20 March 2013].
-17. **Brown, G. (2003b)** [Remit of the Monetary Policy Committee and the New Inflation Target, December 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/chancellorletter031210.pdf), HM Treasury  [accessed 20 March 2013].
-18. **Chang, K. H. (2003)** Appointing Central Bankers: The Politics of Monetary Policy in the United States and the European Monetary Union, Political Economy of Institutions and Decisions, New York: Cambridge University Press, 37-90.
-19. **Chu, B. (2011)** ‘[Posen urges bankers to prevent second recession](http://www.independent.co.uk/news/business/news/posen-urges-bankers-to-prevent-second-recession-2347152.html)’, The Independent (Business)  [accessed 10 January 2013].
-20. **Chubb, J. E. (1988)** ‘Institutions, the Economy, and the Dynamics of State Elections’, The American Political Science Review, 82(1), 133-133.
-21. **Cukierman, A., Web, S. B. and Neyapti, B. (1992)** ‘Measuring the Independence of Central Banks and Its Effect on Policy Outcomes’, The World Bank Economic Review, 6(3), 353.
-22. **Fincher, C. (2011)** ‘[Factbox – Bank of England doves in ascendancy](http://uk.reuters.com/article/2011/07/07/uk-britain-boe-mpc-idUKTRE7660YA20110707)’, Reuters UK [accessed 10 March 2013].
-23. **Hall, P. A. and Taylor, R. C. R. (1996)** ‘Political Science and the Three New Institutionalisms’, Political Studies, 44(5), 936-957.
-24. **Hayek, F. A. and Klausinger, H. (2012)** Business Cycles, Chicago: Chicago University, 45-166.
-25. **Hix, S., Høyland, B. and Vivyan, N. (2010)** ‘From doves to hawks: A spatial analysis of voting in the Monetary Policy Committee of the Bank of England’, European Journal of Political Research, 49(6), 731-758.
-26. **Jones, B. D. (2003)** ‘Bounded Rationality and Political Science: Lessons from Public Administration and Public Policy’, Journal of Public Administration Research and Theory, 13(4), 395-412.
-27. **King, M. (2005)** ‘Epistemic Communities and the Diffusion of Ideas: Central Bank Reform in the United Kingdom’, West European Politics, 28(1), 94-123.
-28. **Kronberger, N. and Wagner, W. (2000)** ‘Keywords in Context: Statistical Analysis of Text Features’ in Bauer, M. W. and Gaskell, G., (eds.), Qualitative Researching with Text, Image and Sound: A Practical Handbook, London: SAGE, 299-317.
-29. **Kydland, F. E. and Prescott, E. C. (1977)** ‘Rules Rather than Discretion: The Inconsistency of Optimal Plans’, Journal of Political Economy, 85(3), 473-491.
-30. **Lindblom, C. E. (1959)** ‘The Science of “Muddling Through”‘, Public Administration Review, 19(2), 79-88.
-31. **Lombardelli, C., Proudman, J. and Talbot, J. (2005)** ‘Committees Versus Individuals: An Experimental Analysis of Monetary Policy Decision Making’, International Journal of Central Banking, 1(1), 181-205.
-32. **Marcussen, M. (2005)** ‘Central banks on the move’, Journal of European Public Policy, 12(5), 903-923.
-33. **Mattich, A. (2011)** ‘[Bank of England Dove’s Threat Highlights Lack of Accountability](http://blogs.wsj.com/source/2011/03/28/bank-of-england-doves-threat-highlights-lack-of-accountability/)’, The Wall Street Journal (The Source) [accessed 10 January 2013].
-34. **McNamara, K. (2002)** ‘Rational Fictions: Central Bank Independence and the Social Logic of Delegation’, West European Politics, 25(1), 47-76.
-35. **Meade, E. E. (2005)** ‘The FOMC: Preferences, Voting, and Consensus’, Review – Federal Reserve Bank of St. Louis, 87(2), 93-101.
-36. **Moser, P. (1999)** ‘Checks and balances, and the supply of central bank independence’, European Economic Review, 43(8), 1569-1593.
-37. **Nordhaus, W. D. (1975)** ‘The Political Business Cycle’, The Review of Economic Studies, 42(2), 169-190.
-38. **Organisation for Economic Cooperation and Development (OECD) (2012)** ‘[Main Economic Indicators (Edition: November 2012)](http://dx.doi.org/10.5257/oecd/mei/2012-11)’, OECD [accessed 15 January 2013].
-39. **Rogoff, K. (1985)** ‘The Optimal Degree of Commitment to an Intermediate Monetary Target’, The Quarterly Journal of Economics, 100(4), 1169-1189.
-40. **Schonhardt-Bailey, C. (2005)** ‘Measuring Ideas More Effectively: An Analysis of Bush and Kerry’s National Security Speeches’, PS: Political Science & Politics, 38(4), 701-711.
-41. **Schonhardt-Bailey, C. (2008)** ‘The Congressional Debate on Partial-Birth Abortion: Constitutional Gravitas and Moral Passion’, British Journal of Political Science, 38(3), 383-410.
-42. **Schonhardt-Bailey, C. (2010)** ‘[Problems and solutions in displaying results from Alceste](http://personal.lse.ac.uk/SCHONHAR/)’, [accessed March 2013].
-43. **Schonhardt-Bailey, C. (2012)** ‘Looking at Congressional Committee Decisions from Different Perspectives: Is the Added Effort Worth It?’, conference paper, presented at 5th ESRC Research Methods Festival, St Catherine’s College, Oxford, 2-5 July 2012, 1-39 .
-44. **Schonhardt-Bailey, C., Yager, E. and Lahlou, S. (2012)** ‘Yes, Ronald Reagan’s Rhetoric Was Unique—But Statistically, How Unique?’, Presidential Studies Quarterly, 42(3), 482-513.
-45. **Shepsle, K. A. (2010)** Analyzing politics : rationality, behavior, and institutions, The new institutionalism in American politics series, 2nd ed., New York: W.W. Norton, 15-38.
-46. **Sibert, A. (2003)** ‘Monetary Policy Committees: Individual and Collective Reputations’, The Review of Economic Studies, 70(3), 649-665.
-47. **Simon, H. A. (1957)** Models of man: social and rational: mathematical essays on rational human behavior in a social setting, New York: John Wiley.
-48. **Simon, H. A. (1997)** Administrative behaviour : a study of decision-making processes in administrative organizations, 4th ed., New York: Free Press.
-49. **Thatcher, M. and Sweet, A. S. (2002)** ‘Theory and Practice of Delegation to Non-Majoritarian Institutions’, West European Politics, 25(1), 1-22.
-50. **Tsebelis, G. (1990)** Nested games: rational choice in comparative politics, California series on social choice and political economy, Berkeley: California University Press.
-51. **van der Brug, W., van der EijK, C. and Franklin, M. (2007)** The Economy and the Vote: Economic Conditions and Elections in Fifteen Countries, New York: Cambridge University Press.
-52. **Wildavsky, A. B. (1964)** The politics of the budgetary process, Boston: Little, Brown, 127-144.
-53. **World Bank, (2013)** ‘[GDP growth (annual %)](http://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/countries/1W-GB?display=default)’, World Bank [accessed 15 January 2013].
+**Anonymous (2011a)** ‘[Bank of England MPC: Who sets interest rates?](http://www.bbc.co.uk/news/business-12997437)’, BBC News Business[accessed 10 Janary 2013].
 
-</div>
+**Anonymous (2011b)** ‘Policy dilemma’, Business Europe, 51(1), 2-3.
 
-[fig-1]: /assets/images/posts/2013/08/23/dissertation/dissertation-F1.png  "Figure 1"
-[fig-2]: /assets/images/posts/2013/08/23/dissertation/dissertation-F2.png  "Figure 2"
-[fig-3]: /assets/images/posts/2013/08/23/dissertation/dissertation-F3.png  "Figure 3"
-[fig-4]: /assets/images/posts/2013/08/23/dissertation/dissertation-F4.png  "Figure 4"
-[fig-5]: /assets/images/posts/2013/08/23/dissertation/dissertation-F5.png  "Figure 5"
-[fig-6]: /assets/images/posts/2013/08/23/dissertation/dissertation-F6.png  "Figure 6"
-[fig-7]: /assets/images/posts/2013/08/23/dissertation/dissertation-F7.png  "Figure 7"
-[fig-8]: /assets/images/posts/2013/08/23/dissertation/dissertation-F8.png  "Figure 8"
-[fig-9]: /assets/images/posts/2013/08/23/dissertation/dissertation-F9.png  "Figure 9"
-[fig-10]: /assets/images/posts/2013/08/23/dissertation/dissertation-F10.png  "Figure 10"
-[fig-11]: /assets/images/posts/2013/08/23/dissertation/dissertation-F11.png  "Figure 11"
-[fig-12]: /assets/images/posts/2013/08/23/dissertation/dissertation-F12.png  "Figure 12"
-[fig-13]: /assets/images/posts/2013/08/23/dissertation/dissertation-F13.png  "Figure 13"
-[app-1]: /assets/images/posts/2013/08/23/dissertation/Dissertation-Appendix-1.png  "Table 5"
-[app-4]: /assets/images/posts/2013/08/23/dissertation/Dissertation-Appendix-4.png  "Table 6"
+**Bailey, A. and Schonhardt-Bailey, C. (2008)** ‘Does Deliberation Matter in FOMC Monetary Policymaking? The Volcker Revolution of 1979’, Political Analysis, 16(4), 404-427.
+
+**Bailey, A. and Schonhardt-Bailey, C. (2010)** ‘Deliberation and Oversight in Monetary Policy, 1976-2008’ (chapter of forthcoming monograph, Deliberating Monetary Policy), conference paper, presented at Southern Economic Association Annual Meeting, Atlanta, 20-22 November 2010, 2-48.
+
+**Bailey, A. and Schonhardt-Bailey, C. (2013, forthcoming)** Deliberating American Monetary Policy: A textual analysis, MIT Press.
+
+**Bank of England (2011)** ‘[Inflation Report](http://www.bankofengland.co.uk/publications/Pages/inflationreport/default.aspx)’, Bank of England  [accessed 15 January 2013].
+
+**Bank of England Act 1998**, c.11, United Kingdom: Stationery Press.
+
+**Barabas, J. (2004)** ‘How Deliberation Affects Policy Opinions’, American Political Science Review, 98(4), 687-701.
+
+**Barro, R. J. and Gordon, D. B. (1983)** ‘Rules, discretion and reputation in a model of monetary policy’, Journal of Monetary Economics, 12(1), 101-121.
+
+**Baumgartner, F. R. and Jones, B. D. (2002)** Policy dynamics, Chicago: University of Chicago Press, 293-306.
+
+**Bean, C. and Jenkinson, N. (2001)** ‘The formulation of monetary policy at the Bank of England’, Bank of England. Quarterly Bulletin, 41(4), 14. 434-441.
+
+**Blinder, A. S. (2007)** ‘Monetary policy by committee: Why and how?’, European Journal of Political Economy, 23(1), 106-123.
+
+**Blinder, A. S. and Morgan, J. (2005)** ‘Are Two Heads Better Than One? Monetary Policy By Committee’, Journal of Money, Credit and Banking, 37(5), 798-811.
+
+**Brown, G. (2003a)** [Remit for the Monetary Policy Committee, April 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/remitletter2003.pdf), HM Treasury  [accessed 20 March 2013].
+
+**Brown, G. (2003b)** [Remit of the Monetary Policy Committee and the New Inflation Target, December 2003](http://www.bankofengland.co.uk/monetarypolicy/Documents/pdf/chancellorletter031210.pdf), HM Treasury  [accessed 20 March 2013].
+
+**Chang, K. H. (2003)** Appointing Central Bankers: The Politics of Monetary Policy in the United States and the European Monetary Union, Political Economy of Institutions and Decisions, New York: Cambridge University Press, 37-90.
+
+**Chu, B. (2011)** ‘[Posen urges bankers to prevent second recession](http://www.independent.co.uk/news/business/news/posen-urges-bankers-to-prevent-second-recession-2347152.html)’, The Independent (Business)  [accessed 10 January 2013].
+
+**Chubb, J. E. (1988)** ‘Institutions, the Economy, and the Dynamics of State Elections’, The American Political Science Review, 82(1), 133-133.
+
+**Cukierman, A., Web, S. B. and Neyapti, B. (1992)** ‘Measuring the Independence of Central Banks and Its Effect on Policy Outcomes’, The World Bank Economic Review, 6(3), 353.
+
+**Fincher, C. (2011)** ‘[Factbox – Bank of England doves in ascendancy](http://uk.reuters.com/article/2011/07/07/uk-britain-boe-mpc-idUKTRE7660YA20110707)’, Reuters UK [accessed 10 March 2013].
+
+**Hall, P. A. and Taylor, R. C. R. (1996)** ‘Political Science and the Three New Institutionalisms’, Political Studies, 44(5), 936-957.
+
+**Hayek, F. A. and Klausinger, H. (2012)** Business Cycles, Chicago: Chicago University, 45-166.
+
+**Hix, S., Høyland, B. and Vivyan, N. (2010)** ‘From doves to hawks: A spatial analysis of voting in the Monetary Policy Committee of the Bank of England’, European Journal of Political Research, 49(6), 731-758.
+
+**Jones, B. D. (2003)** ‘Bounded Rationality and Political Science: Lessons from Public Administration and Public Policy’, Journal of Public Administration Research and Theory, 13(4), 395-412.
+
+**King, M. (2005)** ‘Epistemic Communities and the Diffusion of Ideas: Central Bank Reform in the United Kingdom’, West European Politics, 28(1), 94-123.
+
+**Kronberger, N. and Wagner, W. (2000)** ‘Keywords in Context: Statistical Analysis of Text Features’ in Bauer, M. W. and Gaskell, G., (eds.), Qualitative Researching with Text, Image and Sound: A Practical Handbook, London: SAGE, 299-317.
+
+**Kydland, F. E. and Prescott, E. C. (1977)** ‘Rules Rather than Discretion: The Inconsistency of Optimal Plans’, Journal of Political Economy, 85(3), 473-491.
+
+**Lindblom, C. E. (1959)** ‘The Science of “Muddling Through”‘, Public Administration Review, 19(2), 79-88.
+
+**Lombardelli, C., Proudman, J. and Talbot, J. (2005)** ‘Committees Versus Individuals: An Experimental Analysis of Monetary Policy Decision Making’, International Journal of Central Banking, 1(1), 181-205.
+
+**Marcussen, M. (2005)** ‘Central banks on the move’, Journal of European Public Policy, 12(5), 903-923.
+
+**Mattich, A. (2011)** ‘[Bank of England Dove’s Threat Highlights Lack of Accountability](http://blogs.wsj.com/source/2011/03/28/bank-of-england-doves-threat-highlights-lack-of-accountability/)’, The Wall Street Journal (The Source) [accessed 10 January 2013].
+
+**McNamara, K. (2002)** ‘Rational Fictions: Central Bank Independence and the Social Logic of Delegation’, West European Politics, 25(1), 47-76.
+
+**Meade, E. E. (2005)** ‘The FOMC: Preferences, Voting, and Consensus’, Review – Federal Reserve Bank of St. Louis, 87(2), 93-101.
+
+**Moser, P. (1999)** ‘Checks and balances, and the supply of central bank independence’, European Economic Review, 43(8), 1569-1593.
+
+**Nordhaus, W. D. (1975)** ‘The Political Business Cycle’, The Review of Economic Studies, 42(2), 169-190.
+
+**Organisation for Economic Cooperation and Development (OECD) (2012)** ‘[Main Economic Indicators (Edition: November 2012)](http://dx.doi.org/10.5257/oecd/mei/2012-11)’, OECD [accessed 15 January 2013].
+
+**Rogoff, K. (1985)** ‘The Optimal Degree of Commitment to an Intermediate Monetary Target’, The Quarterly Journal of Economics, 100(4), 1169-1189.
+
+**Schonhardt-Bailey, C. (2005)** ‘Measuring Ideas More Effectively: An Analysis of Bush and Kerry’s National Security Speeches’, PS: Political Science & Politics, 38(4), 701-711.
+
+**Schonhardt-Bailey, C. (2008)** ‘The Congressional Debate on Partial-Birth Abortion: Constitutional Gravitas and Moral Passion’, British Journal of Political Science, 38(3), 383-410.
+
+**Schonhardt-Bailey, C. (2010)** ‘[Problems and solutions in displaying results from Alceste](http://personal.lse.ac.uk/SCHONHAR/)’, [accessed March 2013].
+
+**Schonhardt-Bailey, C. (2012)** ‘Looking at Congressional Committee Decisions from Different Perspectives: Is the Added Effort Worth It?’, conference paper, presented at 5th ESRC Research Methods Festival, St Catherine’s College, Oxford, 2-5 July 2012, 1-39 .
+
+**Schonhardt-Bailey, C., Yager, E. and Lahlou, S. (2012)** ‘Yes, Ronald Reagan’s Rhetoric Was Unique—But Statistically, How Unique?’, Presidential Studies Quarterly, 42(3), 482-513.
+
+**Shepsle, K. A. (2010)** Analyzing politics : rationality, behavior, and institutions, The new institutionalism in American politics series, 2nd ed., New York: W.W. Norton, 15-38.
+
+**Sibert, A. (2003)** ‘Monetary Policy Committees: Individual and Collective Reputations’, The Review of Economic Studies, 70(3), 649-665.
+
+**Simon, H. A. (1957)** Models of man: social and rational: mathematical essays on rational human behavior in a social setting, New York: John Wiley.
+
+**Simon, H. A. (1997)** Administrative behaviour : a study of decision-making processes in administrative organizations, 4th ed., New York: Free Press.
+
+**Thatcher, M. and Sweet, A. S. (2002)** ‘Theory and Practice of Delegation to Non-Majoritarian Institutions’, West European Politics, 25(1), 1-22.
+
+**Tsebelis, G. (1990)** Nested games: rational choice in comparative politics, California series on social choice and political economy, Berkeley: California University Press.
+
+**van der Brug, W., van der EijK, C. and Franklin, M. (2007)** The Economy and the Vote: Economic Conditions and Elections in Fifteen Countries, New York: Cambridge University Press.
+
+**Wildavsky, A. B. (1964)** The politics of the budgetary process, Boston: Little, Brown, 127-144.
+
+**World Bank, (2013)** ‘[GDP growth (annual %)](http://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/countries/1W-GB?display=default)’, World Bank [accessed 15 January 2013].

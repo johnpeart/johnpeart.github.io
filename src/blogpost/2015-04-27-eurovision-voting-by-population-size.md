@@ -46,6 +46,36 @@ The bad news comes for the 2010 winner, Lena (Germany) and her entry "Satellite"
 
 Why so bizarre? Well, aside from the frankly *hideous* song, Armenia would have rocketed from 7th place to first under a proportional vote, picking up more than 100 additional points.
 
+<table class="card">
+    <caption><strong>Table 1:</strong> Weighted and unweighted data from the 2010 <em>Eurovision Song Contest</em> data</caption>
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th class="align-right">Unweighted Ranking</th>
+            <th class="align-right">Weighted Ranking</th>
+            <th class="align-right">Unweighted Score</th>
+            <th class="align-right">Weighted Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Germany</strong></td>
+            <td class="align-right">1</td>
+            <td class="align-right data-down">2 <span class="arrow" aria-label="Lower" aria-hidden="true">↓</span></td>
+            <td class="align-right">246</td>
+            <td class="align-right data-down">217.2 <span class="arrow" aria-label="Lower" aria-hidden="true">↓</span></td>
+        </tr>
+        <tr>
+            <td><strong>Armenia</strong></td>
+            <td class="align-right">7</td>
+            <td class="align-right data-up">1 <span class="arrow" aria-label="Higher" aria-hidden="true">↑</span></td>
+            <td class="align-right">141</td>
+            <td class="align-right data-up">248.8 <span class="arrow" aria-label="Higher" aria-hidden="true">↑</span></td>
+        </tr>
+    </tbody>
+</table>
+
+
 The 2010 Contest goes on to be even more surprising though. Not only does the winner change, but it's the *only* instance in this data set where the winner would have actually scored *fewer* points under a proportional system than they did on the night. In all other years, the winner's point-lead *increased* over the rest of the contestants.
 
 ### Loreen really is the best Eurovision winner ever
@@ -53,6 +83,28 @@ The 2010 Contest goes on to be even more surprising though. Not only does the wi
 Talking of increasing point-leads; Loreen didn't just storm it in the actual contest, she storms it in this fictional scenario too. 
 
 Eurovision buffs will know that *Euphoria* was one of the highest scoring songs of all time achieving the most number of *douze points* of any entry in the contest's history, and just 15 points behind the current record holder, 2009's Alexander Rybak (Norway). But in a proportional system, Loreen's score of 372 would have been even higher - she would have scored 393.8 points! Further evidence, if any was needed, that "Euphoria" is an incredible song.
+
+<table class="card">
+    <caption><strong>Table 2:</strong> Data from the 2012 <em>Eurovision Song Contest</em> data</caption>
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th class="align-right">Unweighted Ranking</th>
+            <th class="align-right">Weighted Ranking</th>
+            <th class="align-right">Unweighted Score</th>
+            <th class="align-right">Weighted Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sweden</strong></td>
+            <td class="align-right">1</td>
+            <td class="align-right">1</td>
+            <td class="align-right">372</td>
+            <td class="align-right data-up">393.8 <span class="arrow" aria-label="Higher" aria-hidden="true">↑</span></td>
+        </tr>
+    </tbody>
+</table>
 
 ### The rest is anyone's game
 

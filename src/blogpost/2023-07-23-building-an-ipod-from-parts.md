@@ -10,7 +10,7 @@ categories:
 
 I've found a new hobby: retro tech. Specifically, old Apple tech.
 
-![](/assets/images/posts/2023/07/23/building-an-ipod-from-parts/ipod.svg)
+![](/assets/images/posts/2023/07/23/building-an-ipod-from-parts/ipod.svg){.hero}
 
 I can’t recall what started this new obsession; that is unimportant now. What matters is that I’ve now accumulated a small collection of iPods [Classic](https://en.wikipedia.org/wiki/IPod_Classic), [Nano](https://en.wikipedia.org/wiki/IPod_Nano), and even [Hi-Fi](https://en.m.wikipedia.org/wiki/IPod_Hi-Fi).
 

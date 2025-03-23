@@ -22,7 +22,7 @@ table {
         border-bottom: 1px solid var(--secondary-borderColor);
         
         &.secondary-row {
-            background: var(--gray-100);
+            background: var(--secondary-background);
         }
 
         &:last-child {

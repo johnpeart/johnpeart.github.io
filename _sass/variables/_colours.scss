@@ -44,8 +44,8 @@
     --orange: rgb(255, 94, 58);
     --yellow: rgb(255, 215, 0);
     --green-tone: rgb(4, 80, 9);
-    --green: rgb(11, 211, 24);
-    --green-tint: rgb(186, 251, 191);
+    --green: rgb(74,159,101);
+    --green-tint: rgb(116, 190, 139);
     --cyan: rgb(0, 159, 227);
     --cyan-tint: rgb(0, 123, 176);
     
@@ -53,35 +53,20 @@
     
     --gb-shell--stroke: light-dark(rgb(40,40,40), rgb(175,175,175));
     --gb-shell--fill: light-dark(rgb(50,50,50), rgb(220,220,220));
-    
     --gb-lens--fill-1: light-dark(rgb(20,20,20), rgb(170,170,170));
     --gb-lens--fill-2: light-dark(rgb(180,180,180), rgb(150,150,150));
     --gb-lens--fill-3: light-dark(rgb(65,65,65), rgb(205,205,205));
     --gb-lens--fill-4: light-dark(rgb(0,0,0), rgb(220,220,220));
-    
     --gb-dpad--fill-1: light-dark(rgb(15,15,15), rgb(215,215,215));
-    --gb-dpad--fill-2: light-dark(rgb(0,0,0), rgb(170,170,170));
-    --gb-dpad--fill-3: light-dark(rgb(20,20,20), rgb(155,155,155));
-    --gb-dpad--fill-4: light-dark(rgb(130,130,130), rgb(255,255,255));
-    --gb-dpad--fill-5: light-dark(rgb(50,50,50), rgb(225,225,225));
     --gb-dpad--stroke-1: light-dark(rgb(40,40,40), rgb(190,190,190));
-    --gb-dpad--stroke-5: light-dark(rgb(40,40,40), rgb(210,210,210));
-    
-    --gb-start-select--fill-1: light-dark(rgb(15,15,15), rgb(170,170,170));
-    --gb-start-select--fill-2: light-dark(rgb(130,130,130), rgb(210,210,210));
-    --gb-start-select--fill-3: light-dark(rgb(50,50,50), rgb(225,225,225));
-    --gb-start-select--stroke-1: light-dark(rgb(40,40,40), rgb(210,210,210));
     --gb-start-select--stroke-2: light-dark(transparent, rgb(255,255,255));
-    --gb-start-select--stroke-3: light-dark(rgb(40,40,40), rgb(225,225,225));
-    
-    --gb-abxy--fill-1: light-dark(rgb(0,0,0), rgb(170,170,170));
-    --gb-abxy--fill-2: light-dark(rgb(120,120,120), rgb(255,255,255));
-    --gb-abxy--fill-3: light-dark(rgb(50,50,50), rgb(210,210,210));
-    --gb-abxy--fill-4: light-dark(rgb(50,50,50), rgb(225,225,225));
-    --gb-abxy--stroke-1: light-dark(rgb(40,40,40), rgb(215,215,215));
-    --gb-abxy--stroke-2: light-dark(rgb(40,40,40), rgb(215, 215,215));
-    --gb-abxy--stroke-3: light-dark(rgb(40,40,40), rgb(225,225,225));
     --gb-abxy--stroke-4: light-dark(transparent, rgb(225,225,225));
+    --gb-shared-fill-black-dark: light-dark(rgb(0,0,0), rgb(170,170,170)); 
+    --gb-shared-fill-grey: light-dark(rgb(130,130,130), rgb(210,210,210)); 
+    --gb-shared-fill-dark-grey: light-dark(rgb(50,50,50), rgb(225,225,225));
+    --gb-shared-stroke-dark: light-dark(rgb(40,40,40), rgb(210,210,210));  
+    --gb-shared-stroke-mid: light-dark(rgb(40,40,40), rgb(215,215,215));   
+    --gb-shared-stroke-light: light-dark(rgb(40,40,40), rgb(225,225,225)); 
 
     --post-it--yellow: rgb(255, 215, 0);
     --post-it--yellow--top: rgb(250, 211, 0);
@@ -116,6 +101,9 @@
     --secondary-hoverBackground: light-dark(var(--gray-300), var(--gray-700));
     --secondary-borderColor: light-dark(var(--gray-300), var(--gray-700));
     --secondary-color: light-dark(var(--gray-600), var(--gray-500));
+
+    --positive-color: light-dark(var(--green), var(--green-tint));
+    --negative-color: light-dark(var(--red-tone), var(--red));
     
     --code-color: light-dark(var(--green-tone), var(--green));
     --radio-color: var(--cyan);

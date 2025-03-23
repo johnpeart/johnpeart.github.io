@@ -60,7 +60,7 @@ The stable preferences assumption sits uncomfortably with findings made in other
 
 Research on decision-making leads us to a view that the stable preferences assumption might not hold in all cases. Rational choice theory relies on several normative assumptions; that preferences cannot be contradictory, that they are transitive, that actors attempt to maximise their utility, and that actors consistently act in their own self-interest (Tsebelis 1990 pp.24-31). Others, in assessing the theory, have argued actors have access to perfect information and that they are able to see the full repercussions of their actions in a panoramic sense (Simon 1957 p.79). To assess the real world application of rational choice theory, we might consider the case of 'administrative man' and 'economic man' popularised by Simon (1997, 1957), and later work on 'bounded rationality' (Jones 2003). This literature challenges the notion of 'perfect rationality' arguing that actors are not omniscient calculators as some rational choice theories assume (Jones 2003 pp.397-398) and that our 'Incompleteness of Knowledge' (Simon 1957 p.79) – especially relevant in economic policy, where data are nearly always incomplete, based on estimates and uncertain – means that we must make decisions within certain limits. Rational choice assumptions may not be the best way to think about our preference forming and decision-making behaviour.
 
-Others have furthered these concepts, arguing decision-making is a process of 'muddling through' (Lindblom 1959 pp.80-81). Actors tend to make policy incrementally rather than on a wholesale basis – making decisions about the 'branches', not the 'roots' (Lindblom 1959). This is true in many areas of public policy, where actors engage in 'successive limited comparison' and 'mutual adjustment' (Lindblom 1959 pp.81-88) altering government projects and budgets at the margin, not the base (Wildavsky 1964). These theories imply some – though not absolute – preference stability but also that final decisions may not necessarily match an actors' prior preferences ('priors'). These works open the door for some theoretical basis of preference change and emphasise the need to look beyond voting data alone, as votes may not be reflective preferences.
+Others have furthered these concepts, arguing decision-making is a process of 'muddling through' (Lindblom 1959 pp.80-81). Actors tend to make policy incrementally rather than on a wholesale basis – making decisions about the 'branches', not the 'roots' (Lindblom 1959). This is true in many areas of public policy, where actors engage in 'successive limited comparison' and 'mutual adjustment' (Lindblom 1959 pp.81-88) altering government projects and budgets at the margin, not the base (Wildavsky 1964). These theories imply some – though not absolute – preference stability but also that final decisions may not necessarily match an actors' prior preferences ('priors'). These works open the door for some theoretical basis of preference change and emphasise the need to look beyond voting data alone, as votes may not be reflective of preferences.
 
 The 'critical junctures' thesis from the historical institutionalism literature gives us one further example of how preferences might change. At a time of large and unexpected events, preferences may begin to change when existing policy fails to accommodate or correct a political or economic shock (Hall and Taylor 1996, Baumgartner and Jones 2002, Marcussen 2005). Policy failure provides opportunities for policy entrepreneurs (Marcussen 2005) and epistemic communities (King 2005) to step in and engineer 'paradigm shifts' by changing the policy preferences of actors (King 2005). This literature makes it plausible that events such as the global financial crisis, a recession or a crash such as the burst of the dot-com bubble might have the effect of changing policymakers' views of the world and, by implication, their preferences.
 
@@ -84,7 +84,7 @@ Much of the literature leads us to an argument that preferences are able to chan
 
 > **Hypothesis 1:** The underlying monetary policy preferences of members of the Bank of England's Monetary Policy Committee change over time.
 
-The literature highlights preference change as a process of individuals choosing to accept or reject arguments they encounter, and then aggregating those arguments in order to form a preference – be that a reinforced preference, or a new view of the world (Zaller 1992, Barabas 2004). As in prior research, I conceptualise members' preferences as traceable to a policy space, but this needn't necessarily be a uni-dimensional space such as the hawk-dove dimension. Instead, I view positions in a policy space as simplified end-points in the preference formation process (Barabas 2004). These end-points are seen as a composite of variables and external effects, such as the composition of the committee, its membership, the existence and significance of dominant personalities, each members' prior view of how the economy 'works' and so on. The different weights given to each of these 'underlying preferences' and variables, in each member's preference-forming calculations, come together to create those end-points. This concept of preference formation allows us to test preference change as we can observe the quantity and the substantive content of each variable.
+The literature highlights preference change as a process of individuals choosing to accept or reject arguments they encounter, and then aggregating those arguments in order to form a preference – be that a reinforced preference, or a new view of the world (Barabas 2004). As in prior research, I conceptualise members' preferences as traceable to a policy space, but this needn't necessarily be a uni-dimensional space such as the hawk-dove dimension. Instead, I view positions in a policy space as simplified end-points in the preference formation process (Barabas 2004). These end-points are seen as a composite of variables and external effects, such as the composition of the committee, its membership, the existence and significance of dominant personalities, each members' prior view of how the economy 'works' and so on. The different weights given to each of these 'underlying preferences' and variables, in each member's preference-forming calculations, come together to create those end-points. This concept of preference formation allows us to test preference change as we can observe the quantity and the substantive content of each variable.
 
 I predict three different ways in which we might observe preference change; logical contradiction, development, and/or stability.
 
@@ -116,16 +116,14 @@ I employ full-text, automated, content analysis of these speeches and articles �
 
 The researcher selects a series of initial sampling units, which can be understood as cases. These 'Initial Contextual Units' (ICUs) are then compiled into one or more corpora and prepared for analysis by removing or substituting any data that may interrupt or distort the analysis. Each ICU is 'tagged' with 'passive variables', such as the name of the author/speaker, the date and so on, such that the 'tags' are representative of the case and the characteristics the researcher wants to draw out.
 
-The software breaks each ICU into smaller working units – 'Elementary Contextual Units' (ECUs) – based on the structure of sentences, word length and punctuation. Using a recursive algorithm, Alceste assesses co-occurrences, classifying each word form and ECU, and assigning a Chi2 value representing the significance and distinctiveness of those forms from those in the rest of the text. The resulting output is a hierarchical classification, in which each theme or topic ('class') is as statistically unique as possible (Bailey and Schonhardt-Bailey 2010 pp.28-48).
+The software breaks each ICU into smaller working units – 'Elementary Contextual Units' (ECUs) – based on the structure of sentences, word length and punctuation. Using a recursive algorithm, Alceste assesses co-occurrences, classifying each word form and ECU, and assigning a Chi-squared value representing the significance and distinctiveness of those forms from those in the rest of the text. The resulting output is a hierarchical classification, in which each theme or topic ('class') is as statistically unique as possible (Bailey and Schonhardt-Bailey 2010 pp.28-48).
 
 Each ICU in this paper represents an individual speech or article made by individuals on the MPC. The data can be obtained from the Bank of England's website. ICUs were collected from the majority of members between 1997 (the committee's inception) and December 2012. The members used in the analysis were selected based on several criteria.
 
 First, individual members must have served at least two years on the MPC. Members serving less than two years, or for which no data were available, were excluded. This was to ensure a time-related element to the analysis. In addition, I wanted to ensure that the dataset was not unnecessarily biased towards discussion of the financial crisis, as much of that discussion is likely to be less relevant to the concept of 'underlying monetary policy preferences'. To do this, I needed to exclude those presently on the committee. This had to be balanced against a further consideration however; excluding all current members would have meant losing those members that prior research had indicated could be most revealing – such as the Chair (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)). To ensure there was a balance between these two considerations, two further criteria were applied. Members assessed must have either (a) left the committee, having finished their term, or (b) been on the committee for at least two full terms if they are still serving members. These criteria helped to balance the aforementioned trade off and were intended to maintain the robustness of the dataset. Details of members included or excluded, given the above criteria, are shown in Appendix 1.
 
-<div class="mobile-overflow">
-
-<table>
-    <caption><em><strong>Table 1:</strong> Classification of members based on Hix et al (2010)</em></caption>
+<table class="card">
+    <caption><strong>Table 1:</strong> Classification of members based on Hix et al (2010)</caption>
     <thead>
         <tr>
             <th>Hawks</th>
@@ -207,46 +205,41 @@ First, individual members must have served at least two years on the MPC. Member
     </tbody>
 </table>
 
+The literature suggests that different members of a committee will be more or less likely to update their preferences based on whether their priors are moderate or extreme (Barabas 2004). My methodology exploits this conclusion, dividing members along a single dimension for the purposes of selecting individuals for in-depth analysis. Using the results from Hix et al. (2010), three corpora were compiled representing the 'hawks', the 'doves' and the 'centrists'. My hypothesis is not, however, concerned with aggregate preferences, but individuals. Hence, I use the results of these initial corpora to find the most statistically significant members. The significance of members, (or indeed any part of the results) is given by the Chi-squared value, with one degree of freedom, of the passive variables. The critical values are shown in Table 2.
 
-</div>
+<table class="card">
+    <caption><strong>Table 2:</strong> Chi-squared significance to 1 degree of freedom.</caption>
+    <thead>
+        <tr>
+            <th>Statistical significance</th>
+            <th>Chi value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Not significant</td>
+            <td>2.71 or lower</td>
+        </tr>
+        <tr>
+            <td>10%</td>
+            <td>3.84 or lower</td>
+        </tr>
+        <tr>
+            <td>5% (*)</td>
+            <td>6.63 or lower</td>
+        </tr>
+        <tr>
+            <td>1% (**)</td>
+            <td>10.80 or lower</td>
+        </tr>
+        <tr>
+            <td>Less than 1% (***)</td>
+            <td>10.80 or higher</td>
+        </tr>
+    </tbody>
+</table>
 
-The literature suggests that different members of a committee will be more or less likely to update their preferences based on whether their priors are moderate or extreme (Barabas 2004). My methodology exploits this conclusion, dividing members along a single dimension for the purposes of selecting individuals for in-depth analysis. Using the results from Hix et al. (2010), three corpora were compiled representing the 'hawks', the 'doves' and the 'centrists'. My hypothesis is not, however, concerned with aggregate preferences, but individuals. Hence, I use the results of these initial corpora to find the most statistically significant members. The significance of members, (or indeed any part of the results) is given by the Chi2 value, with one degree of freedom, of the passive variables. The critical values are shown in Table 2.
-
-<div class="mobile-overflow" markdown="1">
-    <table>
-        <caption><em><strong>Table 2:</strong> Chi-squared significance to 1 degree of freedom.</em></caption>
-        <thead>
-            <tr>
-                <th>Statistical significance</th>
-                <th>Chi value</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Not significant</td>
-                <td>2.71 or lower</td>
-            </tr>
-            <tr>
-                <td>10%</td>
-                <td>3.84 or lower</td>
-            </tr>
-            <tr>
-                <td>5% (*)</td>
-                <td>6.63 or lower</td>
-            </tr>
-            <tr>
-                <td>1% (**)</td>
-                <td>10.80 or lower</td>
-            </tr>
-            <tr>
-                <td>Less than 1% (***)</td>
-                <td>10.80 or higher</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-Larger Chi2 values represent higher statistical significance, and greater association of the variable. However, these values can only serve to give us an ordinal ranking of the significance of each variable, rather than a relative significance, (i.e. a Chi2 value of 20 is more significant than a value of 10, but not twice as significant). I test the most significant member from each class in their own corpus and assess the results against the three hypothesized observations in the previous section (logical contradiction, development and stability).
+Larger Chi-squared values represent higher statistical significance, and greater association of the variable. However, these values can only serve to give us an ordinal ranking of the significance of each variable, rather than a relative significance, (i.e. a Chi-squared value of 20 is more significant than a value of 10, but not twice as significant). I test the most significant member from each class in their own corpus and assess the results against the three hypothesized observations in the previous section (logical contradiction, development and stability).
 
 Due to the fact that some MPC members hold more than one role within the Bank of England (such as the Governor), they are likely to focus on areas not specifically relevant to their work on the MPC in their speeches and articles – an example might be discourse regarding regulation of the banking system. Because of this, not all classes are included for the purposes of selecting members for in-depth assessment. Classes (and thus, members) are excluded from selection if the results show that word forms relating to monetary policy ('inflation', 'monetary', 'policy', 'price', 'level', etc.) are absent from a class and that absence is statistically significant.
 
@@ -258,161 +251,157 @@ More than 1.6 million words and 615 ICUs were assessed to obtain the initial cla
 
 Figures 1, 2 and 3 show the descendant hierarchical classifications for each of the initial corpora. The descendant classifications show the relationships between classes and the distribution of the discussion. Each class has also been labelled based on an assessment of the significant word forms and ECUs for each class (these are not provided by Alceste, but assigned by the researcher).
 
-![Figure 1: Dendrograms for dove corpus][fig-1]{.rounded}
+![Figure 1: Dendrograms for dove corpus][fig-1]
 
-![Figure 2: Dendrograms for hawks corpus][fig-2]{.rounded}
+![Figure 2: Dendrograms for hawks corpus][fig-2]
 
-![Figure 3: Dendrograms for centrists corpus][fig-3]{.rounded}
+![Figure 3: Dendrograms for centrists corpus][fig-3]
 
-<div class="mobile-overflow" markdown="1">
-    <table>
-        <caption><em><strong>Table 3:</strong> ALCESTE Analysis: Basic statistics for initial corpora.</em></caption>
-        <thead>
-            <tr>
-                <th></th>
-                <th style="text-align:right">Hawks</th>
-                <th style="text-align:right">Centrists</th>
-                <th style="text-align:right">Doves</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Total word count</td>
-                <td style="text-align:right">177,710</td>
-                <td style="text-align:right">1,151,559</td>
-                <td style="text-align:right">297,811</td>
-            </tr>
-            <tr>
-                <td>Unique words analysed</td>
-                <td style="text-align:right">7,650</td>
-                <td style="text-align:right">24,675</td>
-                <td style="text-align:right">14,177</td>
-            </tr>
-            <tr>
-                <td>Passive variables (tagged indicators)</td>
-                <td style="text-align:right">27</td>
-                <td style="text-align:right">50</td>
-                <td style="text-align:right">33</td>
-            </tr>
-            <tr>
-                <td>Initial Contextual Units (ICUs)</td>
-                <td style="text-align:right">44</td>
-                <td style="text-align:right">320</td>
-                <td style="text-align:right">51</td>
-            </tr>
-            <tr>
-                <td>Classified Elementary Contextual Units (ECUs)</td>
-                <td style="text-align:right">3,178 (82%)</td>
-                <td style="text-align:right">7,691 (74%)</td>
-                <td style="text-align:right">5,237 (77%)</td>
-            </tr>
-            <tr>
-                <td>Number of lexical classes</td>
-                <td style="text-align:right">6</td>
-                <td style="text-align:right">4</td>
-                <td style="text-align:right">9</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<table class="card">
+    <caption><strong>Table 3:</strong> ALCESTE Analysis: Basic statistics for initial corpora.</caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th style="text-align:right">Hawks</th>
+            <th style="text-align:right">Centrists</th>
+            <th style="text-align:right">Doves</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Total word count</td>
+            <td style="text-align:right">177,710</td>
+            <td style="text-align:right">1,151,559</td>
+            <td style="text-align:right">297,811</td>
+        </tr>
+        <tr>
+            <td>Unique words analysed</td>
+            <td style="text-align:right">7,650</td>
+            <td style="text-align:right">24,675</td>
+            <td style="text-align:right">14,177</td>
+        </tr>
+        <tr>
+            <td>Passive variables (tagged indicators)</td>
+            <td style="text-align:right">27</td>
+            <td style="text-align:right">50</td>
+            <td style="text-align:right">33</td>
+        </tr>
+        <tr>
+            <td>Initial Contextual Units (ICUs)</td>
+            <td style="text-align:right">44</td>
+            <td style="text-align:right">320</td>
+            <td style="text-align:right">51</td>
+        </tr>
+        <tr>
+            <td>Classified Elementary Contextual Units (ECUs)</td>
+            <td style="text-align:right">3,178 (82%)</td>
+            <td style="text-align:right">7,691 (74%)</td>
+            <td style="text-align:right">5,237 (77%)</td>
+        </tr>
+        <tr>
+            <td>Number of lexical classes</td>
+            <td style="text-align:right">6</td>
+            <td style="text-align:right">4</td>
+            <td style="text-align:right">9</td>
+        </tr>
+    </tbody>
+</table>
 
 
 The most striking result from these corpora is that despite the centrists corpus being significantly larger than the others, this corpus contains the least number of lexical classes; only four in total, compared with six in the hawks and nine in the doves. This shows the discourse among the centrists is more focussed than that of the other groups. The large number of classes in the doves corpus is perhaps expected, given these members have different specialisms and come from a range of different backgrounds; for example, DeAnne Julius comes from industry, whilst Sushil Wadhwani comes from a financial background.
 
-Further assessment of the classes reveals that, as predicted, some of the discourse within speeches isn't necessarily relevant to the work of the MPC, but rather to the functions of the Bank of England in general. The table in Appendix 4 shows the classes for each corpus, the most closely associated member for each class (i.e. the member whose passive variable is highest ranked), their ranking and Chi2 value, the most representative word forms for the class (with ranking and Chi2 value), and the most significantly absent word forms for the class (also with Chi2 value and ranking). This data clearly shows that not all classes relate to 'underlying monetary policy preferences' as I conceive them and the justification for narrowing the data as previously outlined appears justified.
+Further assessment of the classes reveals that, as predicted, some of the discourse within speeches isn't necessarily relevant to the work of the MPC, but rather to the functions of the Bank of England in general. The table in Appendix 4 shows the classes for each corpus, the most closely associated member for each class (i.e. the member whose passive variable is highest ranked), their ranking and Chi-squared value, the most representative word forms for the class (with ranking and Chi-squared value), and the most significantly absent word forms for the class (also with Chi-squared value and ranking). This data clearly shows that not all classes relate to 'underlying monetary policy preferences' as I conceive them and the justification for narrowing the data as previously outlined appears justified.
 
 After the process of narrowing the data was completed, eight members remained for assessment; Andrew Sentance (hawk), Mervyn King, Edward George, Charles Bean (centrists), Sushil Wadhwani, Adam Posen, Christopher Allsopp, and DeAnne Julius (doves). The basic results are shown in Table 4, and relevant descendant hierarchical classifications are shown on the following pages. All members attain a robust rate of ECU classification.
 
-<div class="mobile-overflow" markdown="1">
-    <table>
-        <caption><em><strong>Table 4:</strong> ALCESTE Analysis: Basic statistics for individual member corpora.</em></caption>
-        <thead>
-            <tr>
-                <th></th>
-                <th style="text-align:right">Total words</th>
-                <th style="text-align:right">Unique words</th>
-                <th style="text-align:right">Passive variables</th>
-                <th style="text-align:right">ICUs</th>
-                <th style="text-align:right">Classified ECUs</th>
-                <th style="text-align:right">Lexical Classes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sentance</td>
-                <td style="text-align:right">120,048</td>
-                <td style="text-align:right">5,386</td>
-                <td style="text-align:right">21</td>
-                <td style="text-align:right">27</td>
-                <td style="text-align:right">2,205 (82%)</td>
-                <td style="text-align:right">5</td>
-            </tr>
-            <tr>
-                <td>King</td>
-                <td style="text-align:right">260,243</td>
-                <td style="text-align:right">12,096</td>
-                <td style="text-align:right">33</td>
-                <td style="text-align:right">74</td>
-                <td style="text-align:right">6,431 (88%)</td>
-                <td style="text-align:right">5</td>
-            </tr>
-            <tr>
-                <td>George</td>
-                <td style="text-align:right">163,535</td>
-                <td style="text-align:right">7,434</td>
-                <td style="text-align:right">22</td>
-                <td style="text-align:right">64</td>
-                <td style="text-align:right">3,912 (82%)</td>
-                <td style="text-align:right">5</td>
-            </tr>
-            <tr>
-                <td>Bean</td>
-                <td style="text-align:right">155,759</td>
-                <td style="text-align:right">9,037</td>
-                <td style="text-align:right">28</td>
-                <td style="text-align:right">35</td>
-                <td style="text-align:right">2,976 (73%)</td>
-                <td style="text-align:right">6</td>
-            </tr>
-            <tr>
-                <td>Wadhwani</td>
-                <td style="text-align:right">76,761</td>
-                <td style="text-align:right">6,232</td>
-                <td style="text-align:right">17</td>
-                <td style="text-align:right">14</td>
-                <td style="text-align:right">1,456 (79%)</td>
-                <td style="text-align:right">4</td>
-            </tr>
-            <tr>
-                <td>Posen</td>
-                <td style="text-align:right">80,209</td>
-                <td style="text-align:right">7,084</td>
-                <td style="text-align:right">19</td>
-                <td style="text-align:right">16</td>
-                <td style="text-align:right">1,476 (79%)</td>
-                <td style="text-align:right">6</td>
-            </tr>
-            <tr>
-                <td>Allsopp</td>
-                <td style="text-align:right">18,897</td>
-                <td style="text-align:right">2,704</td>
-                <td style="text-align:right">7</td>
-                <td style="text-align:right">2</td>
-                <td style="text-align:right">324 (86%)</td>
-                <td style="text-align:right">5</td>
-            </tr>
-            <tr>
-                <td>Julius</td>
-                <td style="text-align:right">21,064</td>
-                <td style="text-align:right">3,194</td>
-                <td style="text-align:right">10</td>
-                <td style="text-align:right">5</td>
-                <td style="text-align:right">384 (67%)</td>
-                <td style="text-align:right">5</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<table class="card">
+    <caption><strong>Table 4:</strong> ALCESTE Analysis: Basic statistics for individual member corpora.</caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th style="text-align:right">Total words</th>
+            <th style="text-align:right">Unique words</th>
+            <th style="text-align:right">Passive variables</th>
+            <th style="text-align:right">ICUs</th>
+            <th style="text-align:right">Classified ECUs</th>
+            <th style="text-align:right">Lexical Classes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sentance</td>
+            <td style="text-align:right">120,048</td>
+            <td style="text-align:right">5,386</td>
+            <td style="text-align:right">21</td>
+            <td style="text-align:right">27</td>
+            <td style="text-align:right">2,205 (82%)</td>
+            <td style="text-align:right">5</td>
+        </tr>
+        <tr>
+            <td>King</td>
+            <td style="text-align:right">260,243</td>
+            <td style="text-align:right">12,096</td>
+            <td style="text-align:right">33</td>
+            <td style="text-align:right">74</td>
+            <td style="text-align:right">6,431 (88%)</td>
+            <td style="text-align:right">5</td>
+        </tr>
+        <tr>
+            <td>George</td>
+            <td style="text-align:right">163,535</td>
+            <td style="text-align:right">7,434</td>
+            <td style="text-align:right">22</td>
+            <td style="text-align:right">64</td>
+            <td style="text-align:right">3,912 (82%)</td>
+            <td style="text-align:right">5</td>
+        </tr>
+        <tr>
+            <td>Bean</td>
+            <td style="text-align:right">155,759</td>
+            <td style="text-align:right">9,037</td>
+            <td style="text-align:right">28</td>
+            <td style="text-align:right">35</td>
+            <td style="text-align:right">2,976 (73%)</td>
+            <td style="text-align:right">6</td>
+        </tr>
+        <tr>
+            <td>Wadhwani</td>
+            <td style="text-align:right">76,761</td>
+            <td style="text-align:right">6,232</td>
+            <td style="text-align:right">17</td>
+            <td style="text-align:right">14</td>
+            <td style="text-align:right">1,456 (79%)</td>
+            <td style="text-align:right">4</td>
+        </tr>
+        <tr>
+            <td>Posen</td>
+            <td style="text-align:right">80,209</td>
+            <td style="text-align:right">7,084</td>
+            <td style="text-align:right">19</td>
+            <td style="text-align:right">16</td>
+            <td style="text-align:right">1,476 (79%)</td>
+            <td style="text-align:right">6</td>
+        </tr>
+        <tr>
+            <td>Allsopp</td>
+            <td style="text-align:right">18,897</td>
+            <td style="text-align:right">2,704</td>
+            <td style="text-align:right">7</td>
+            <td style="text-align:right">2</td>
+            <td style="text-align:right">324 (86%)</td>
+            <td style="text-align:right">5</td>
+        </tr>
+        <tr>
+            <td>Julius</td>
+            <td style="text-align:right">21,064</td>
+            <td style="text-align:right">3,194</td>
+            <td style="text-align:right">10</td>
+            <td style="text-align:right">5</td>
+            <td style="text-align:right">384 (67%)</td>
+            <td style="text-align:right">5</td>
+        </tr>
+    </tbody>
+</table>
 
 In order to explore the hypothesis, I return to the expectations established earlier. By qualitatively assessing the ECUs of each member, and using Alceste's factor analysis and cross-data analysis functions, I find examples of logical contraditions, preference development and preference stability.
 
@@ -420,17 +409,20 @@ In order to explore the hypothesis, I return to the expectations established ear
 
 A logical contradiction can be understood as a reversal of a member's position. Several members show evidence of this type of change.
 
-![Figure 4: Dendrograms for Sentance corpus][fig-4]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F4.png">
+    <figcaption><strong>Figure 4:</strong> Descendant hierarchical classification for Andrew Sentance's corpus</figcaption>
+</figure>
 
 Andrew Sentance is perhaps the most striking case. In 2008, Sentance appears particularly concerned with the “downside risks” to economic activity and inflation, presenting this view consistently throughout this period. Some representative ECUs include:
 
 > “[…] I am particularly concerned about the downside risks to economic activity created by the current financial turmoil and its impact on economic activity, globally and domestically.”
->
-> **Data 1**: Sentance, Oct 2008.
+> 
+> **Data 1**: Sentance, Oct 2008. ECU: 1,020. Chi-squared: 12.
 
 > “That shifts the focus for policy action more clearly onto the downside risks for inflation from a prolonged period of weak economic activity. […]”
 >
-> **Data 2**: Sentance, Oct 2008.
+> **Data 2**: Sentance, Oct 2008. ECU: 1,034. Chi-squared: 11.
 
 Sentance clearly believes the financial crisis creates downward pressures on growth and inflation – his preferences could be interpreted as ensuring the MPC focuses on ensuring those downside risks don't become realities.
 
@@ -438,17 +430,20 @@ Cross-data analysis reveals a change in this view over time. 2010 and 2011 show 
 
 > “[…] the UK economy grew by over 4 percent , which is still the strongest rate of GDP growth we have seen in any calendar year since the late 1980s. ([…] There is a risk that we are making the same mistake again because of the preoccupation with downside risks following the financial crisis.)”
 >
-> **Data 3**: Sentance, Nov 2010.
+> **Data 3**: Sentance, Nov 2010. ECU: 2,185. Chi-squared: 11.
 
 > “[…] too much faith is being put on the impact of a large 'output gap' pushing down on inflation and not enough weight has been put on the upward pressure from the global environment and the exchange rate.”
 >
-> **Data 4**: Sentance, Feb 2011.
+> **Data 4**: Sentance, Feb 2011. ECU: 2,344. Chi-squared: 21.
 
 A focus on downside risks shifts to concerns of upside pressures on inflation. This is clear evidence of a logical contradiction. Sentance has accepted two opposing arguments and used them to form a preference on the need for policy action; moreover he has rejected the former preference in order to create the latter.
 
-These changes are found in ECUs with a high Chi2 value and thus this espoused contradiction can be interpreted as significant. If we consider the change in context, it becomes even more significant. At the time of these statements, inflation was significantly above target (4.5%, 3.3% and 4.4%) (Bank of England 2011) and growth at the beginning and end of the period was below 0% (OECD 2012, World Bank 2013). In these crude terms, little had changed for the UK's economic outlook, but this member is arguing for a completely different strategy to ensure price stability. Indeed they voted for a different strategy – voting to cut interest rates throughout the period 2008-2009, and favouring increases thereafter. Already, we see evidence that members' actions are not as predictable as we might think, and that the appointment process might not feed through to the final policy decisions of members.
+These changes are found in ECUs with a high Chi-squared value and thus this espoused contradiction can be interpreted as significant. If we consider the change in context, it becomes even more significant. At the time of these statements, inflation was significantly above target (4.5%, 3.3% and 4.4%) (Bank of England 2011) and growth at the beginning and end of the period was below 0% (OECD 2012, World Bank 2013). In these crude terms, little had changed for the UK's economic outlook, but this member is arguing for a completely different strategy to ensure price stability. Indeed they voted for a different strategy – voting to cut interest rates throughout the period 2008-2009, and favouring increases thereafter. Already, we see evidence that members' actions are not as predictable as we might think, and that the appointment process might not feed through to the final policy decisions of members.
 
-![Figure 5: Dendrograms for Posen corpus][fig-5]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F5.png">
+    <figcaption><strong>Figure 5:</strong> Descendant hierarchical classification for Adam Posen's corpus</figcaption>
+</figure>
 
 Adam Posen is another case; his preference change concerns his views on the real effect of monetary policy on the broader economy. In 2009, he broadly endorses the notion of the 'neutrality of money' (Hayek and Klausinger 2012 p.110) – that, over the economic cycle, monetary policy has no real effect on growth or employment – and that the MPC could do very little to prevent financial crises.
 
@@ -476,9 +471,12 @@ In 2010, this position appears to soften, with Posen arguing the MPC can and sho
 >
 > **Data 9**: Posen, Sept 2010.
 
-Interestingly, Posen's voting record on the base rate doesn't reveal this preferences change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank's Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
+Interestingly, Posen's voting record on the base rate doesn't reveal this preference change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank's Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
 
-![Figure 6: Dendrograms for Bean corpus][fig-6]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F6.png">
+    <figcaption><strong>Figure 6:</strong> Descendant hierarchical classification for Charles Bean's corpus</figcaption>
+</figure>
 
 Charles Bean exhibits further evidence of preference change. In 2003 he argues that inflation targeting is a sufficient framework for preventing asset price bubbles and imbalances:
 
@@ -498,7 +496,34 @@ That a member believes the MPC's mandate is appropriately focussed on inflation 
 
 Where previously, Bean felt the policy framework in place was sufficient to ensure growth and price stability, he now seems to more explicitly recognise the limits of monetary policy. Again, all of these ECUs are significant at the 1% level and are strongly representative of the discourse in these periods.
 
-![Figure 7: Factor Analysis of Bean Corpus][fig-7]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F7.png">
+    <table class="card">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th class="align-right">Association</th>
+                <th class="align-right">Cumulative</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Axis 1 <br> (left to right)</strong></td>
+                <td>Real economy <em>vs</em> <br> use of monetary policy</td>
+                <td class="align-right">28%</td>
+                <td class="align-right">28%</td>
+            </tr>
+            <tr>
+                <td><strong>Axis 2 <br> (top to bottom)</strong></td>
+                <td>Financial stability <em>vs</em> <br> inflation targetting</td>
+                <td class="align-right">25%</td>
+                <td class="align-right">53%</td>
+            </tr>
+        </tbody>
+    </table>
+    <figcaption><strong>Figure 7:</strong> Factor analysis of Charles Bean's corpus</figcaption>
+</figure>
 
 Factor analysis of this corpus shows a distinct shift in the pattern of the discourse (Figure 7). As with all factor analysis graphs presented here, the numbers and outlines represent the associations of classes, and shapes represent the characteristic passive variables. The 'date' tags are clearly divided along the vertical dimension, showing a shift in the focus of discourse before and after the 'flash-point' of the financial crisis in July 2007. It is plausible that the crisis was the cause of this shift in discourse and observed change in preferences. Again, it seems that the idea of stable preferenceS is contestable, further bringing the effect of the appointment process into question.
 
@@ -510,7 +535,11 @@ Based purely on this evidence, there is a convincing argument to be made against
 
 Preference development can be understood as strengthening an existing position such that a weak position on an issue or policy action becomes stronger, and that new position does not contradict the earlier position. The member most characteristic of this kind of preference change is Mervyn King.
 
-![Figure 8: Dendrograms for King corpus][fig-8]{.rounded}
+
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F8.png">
+    <figcaption><strong>Figure 8:</strong> Descendant hierarchical classification for Mervyn King's corpus</figcaption>
+</figure>
 
 King's change is in relation to the level of policy activism necessary to control inflation. In 2004, King seems to take a relatively relaxed attitude to ensuring inflation expectations remain anchored to target:
 
@@ -558,7 +587,11 @@ On the topic of credibility, Sentance shows similar stability with strong warnin
 
 Sentance values the importance of credibility very highly – and consistently so. There is obvious preference stability in this case; a preference that the MPC takes action to ensure its credibility. Arguably these ECUs also show development but that would depend on a subjective interpretation of the strength of language used.
 
-![Figure 9: Dendrograms for George corpus][fig-9]{.rounded}
+
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F9.png">
+    <figcaption><strong>Figure 9:</strong> Descendant hierarchical classification for Edward George's corpus</figcaption>
+</figure>
 
 Edward George is probably the best example of a member that shows stable preferences, showing stability across most of the areas that the corpus touches upon. The ECUs reveal a consistent view that George believes price stability is not an “end in itself”, often with identical phrasing.
 
@@ -590,17 +623,49 @@ The examples highlighted here are only typical of those found across all members
 
 The members yet to be mentioned (DeAnne Julius, Sushil Wadhwani, and Christopher Allsopp) did not fit into one of the three prior categories, and showed little clear evidence at all.
 
-![Figure 10: Dendrograms for Julius corpus][fig-10]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F10.png">
+    <figcaption><strong>Figure 10:</strong> Descendant hierarchical classification for DeAnne Julius' corpus</figcaption>
+</figure>
 
-![Figure 11: Dendrograms for Wadhwani corpus][fig-11]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F11.png">
+    <figcaption><strong>Figure 11:</strong> Descendant hierarchical classification for Sushil Wadhwani's corpus</figcaption>
+</figure>
 
 Julius and Wadhwani have very little coherence in the topics they discuss in their respective corpora. The Alceste classifications show five distinct classes for Julius and four for Wadhwani. They broadly cover the same areas but an examination of the data by cross-data analysis doesn't show as rich a picture as other members. Using Julius as an example, the results highlight a focus primarily on IT as a driver of growth and inflation in 1999, and then a complete topic change in 2001 to discuss globalisation and international factors affecting the economy (Figure 12). A clear shift along the horizontal dimension is observed, moving away from Class 1 toward Class 5 in 2001; this represents a move away from talking about the real economy and 'big-picture' statistics, and instead focusing explicitly on the empirics of inflation-targeting. A similar pattern occurs for Wadhwani – though the diagrams are not comparable due to the unique datasets.
 
-![Figure 12: Factor Analysis for Julius corpus][fig-12]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F12.png">
+    <table class="card">
+        <thead>
+            <th></th>
+            <th></th>
+            <th class="align-right">Association</th>
+            <th class="align-right">Cumulative</th>
+        </thead>
+        <tr>
+            <td><strong>Axis 1 <br> (left to right)</strong></td>
+            <td>Inflation <em>vs</em> <br> real economy</td>
+            <td class="align-right">37%</td>
+            <td class="align-right">37%</td>
+        </tr>
+        <tr>
+            <td><strong>Axis 2 <br> (top to bottom)</strong></td>
+            <td>Domestic <em>vs</em> <br> global</td>
+            <td class="align-right">29%</td>
+            <td class="align-right">66%</td>
+        </tr>
+    </table>
+    <figcaption><strong>Figure 12:</strong> Factor analysis of DeAnne Julius' corpus</figcaption>
+</figure>
 
 If, as previously discussed, we view the formation of preferences as an acceptance or rejection of arguments later aggregated to form an opinion, then such drastic change in the focus of the discourse could be evidence of preference change but, more plausibly, the results are inconclusive. The notion of multiple factors aggregating to one singular preference – or even multiple underlying preferences – is not incompatible with these results but it is not clear how they interact in these cases. It is also worth noting that these shifts occur either side of the 'burst' of the dot-com bubble in 2000; this may have precipitated the change in focus.
 
-![Figure 13: Dendrograms for Allsopp corpus][fig-13]{.rounded}
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F13.png">
+    <figcaption><strong>Figure 13:</strong> Descendant hierarchical classification for Christopher Allsopp's corpus</figcaption>
+</figure>
 
 The case of Christopher Allsopp is a unique one. The data used in this instance is very small comparatively. Alceste is able to analyse, reliably, corpora of around 10,000 words or higher, and in this instance, the corpus was almost twice this minimum. However, the corpus only comprises two ICUs and neither the cross-data analysis, nor the factor analysis, shows a result indicative of the hypothesis or otherwise. The topics from the corpus are largely unrelated across time, which is likely why very few coherent results are found.
 
@@ -655,7 +720,52 @@ For the appointment process to significantly matter to the outputs of a monetary
 
 ## Appendix 1: Members of the MPC
 
-![Table 5: Overview of classes][app-1]{.rounded}
+<table class="card">
+    <caption><strong>Table 5:</strong> Overview of classes and classes used for further analysis</caption>
+    <thead>
+        <tr>
+            <th>Member</th>
+            <th>Tenure Start</th>
+            <th>Tenure End</th>
+            <th>Included?</th>
+            <th>Justification</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="secondary-row"><td>Howard Davies</td><td>1997</td><td>1997</td><td>No</td><td>No speeches. Less than 2 years membership.</td></tr>
+        <tr class="secondary-row"><td>Alan Budd</td><td>1997</td><td>1999</td><td>No</td><td>Less than 2 years membership.</td></tr>
+        <tr><td>Williem Buiter</td><td>1997</td><td>2000</td><td>Yes</td><td></td></tr>
+        <tr><td>Charles Goodhart</td><td>1997</td><td>2000</td><td>Yes</td><td></td></tr>
+        <tr><td>DeAnne Julius</td><td>1997</td><td>2001</td><td>Yes</td><td></td></tr>
+        <tr><td>Ian Plenderleith</td><td>1997</td><td>2002</td><td>Yes</td><td></td></tr>
+        <tr><td>David Clementi</td><td>1997</td><td>2002</td><td>Yes</td><td></td></tr>
+        <tr><td>Edward George</td><td>1997</td><td>2003</td><td>Yes</td><td></td></tr>
+        <tr><td>Mervyn King</td><td>1997</td><td>2013</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
+        <tr><td>John Vickers</td><td>1998</td><td>2000</td><td>Yes</td><td></td></tr>
+        <tr><td>Sushil Wadhwani</td><td>1999</td><td>2002</td><td>Yes</td><td></td></tr>
+        <tr><td>Christopher Allsopp</td><td>2000</td><td>2003</td><td>Yes</td><td></td></tr>
+        <tr><td>Stephen Nickell</td><td>2000</td><td>2006</td><td>Yes</td><td></td></tr>
+        <tr><td>Charles Bean</td><td>2000</td><td>2013</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
+        <tr><td>Kate Barker</td><td>2001</td><td>2010</td><td>Yes</td><td></td></tr>
+        <tr><td>Marian Bell</td><td>2002</td><td>2005</td><td>Yes</td><td></td></tr>
+        <tr><td>Andrew Large</td><td>2002</td><td>2006</td><td>Yes</td><td></td></tr>
+        <tr><td>Paul Tucker</td><td>2002</td><td>2014</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
+        <tr><td>Richard Lambert</td><td>2003</td><td>2006</td><td>Yes</td><td></td></tr>
+        <tr><td>Rachel Lomax</td><td>2003</td><td>2008</td><td>Yes</td><td></td></tr>
+        <tr class="secondary-row"><td>David Walton</td><td>2005</td><td>2006</td><td>No</td><td>Less than 2 years membership.</td></tr>
+        <tr><td>John Gieve</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
+        <tr><td>David Blanchflower</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
+        <tr><td>Tim Besley</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
+        <tr><td>Andrew Sentence</td><td>2006</td><td>2011</td><td>Yes</td><td></td></tr>
+        <tr class="secondary-row"><td>Spencer Dale</td><td>2008</td><td>2013</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+        <tr><td>Adam Posen</td><td>2009</td><td>2012</td><td>Yes</td><td></td></tr>
+        <tr class="secondary-row"><td>Paul Fisher</td><td>2009</td><td>2014</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+        <tr class="secondary-row"><td>David Miles</td><td>2009</td><td>2015</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+        <tr class="secondary-row"><td>Martin Weale</td><td>2010</td><td>2013</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+        <tr class="secondary-row"><td>Ben Broadbent</td><td>2011</td><td>2014</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+        <tr class="secondary-row"><td>Ian McCafferty</td><td>2012</td><td>2015</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+    </tbody>
+</table>
 
 ## Appendix 2: Corpus preparation
 
@@ -663,11 +773,88 @@ Corpora must be formatted in specific ways for successful analysis using Alceste
 
 Most special characters cause the Alceste analysis to fail. Table 6 shows which characters were removed or replaced to ensure successful analysis.
 
+<table class="card">
+    <caption><strong>Table 6:</strong> Replaced characters</caption>
+    <thead>
+        <tr>
+            <th>Removed</th>
+            <th>Symbol(s)</th>
+            <th>Replaced with</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Currency</td>
+            <td>£ $ €</td>
+            <td>GBP USD EUR</td>
+        </tr>
+        <tr>
+            <td>Punctuation</td>
+            <td>- * : ; () [] “” ‘’ ’</td>
+            <td>–</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>%</td>
+            <td>percent</td>
+        </tr>
+        <tr>
+            <td>Bullets</td>
+            <td>•</td>
+            <td>N/A (removed without replacement)</td>
+        </tr>
+    </tbody>
+</table>
+
 Footnotes or endnotes were excluded from the analysis; these data tended to be purely technical and/or referencing, and so would not have added any real insight to the data. Images, graphs and tables were also removed as Alceste cannot process this data.
 
 The passive variables for each ICU identified the speaker/author, their 'dove-hawk' classification based on Hix et al (2010), the member's committee role, the date and the ICU's relative position to the financial crisis, taking July 2007 as the start of the crisis. Table 7 shows the passive variables used.
 
-In general, researchers attempt to standardise language across corpora by changing acronyms to words, etc. However, I could not be confident that a simple 'find and replace' in the data would maintain the integrity of the corpus. As an example, the Monetary Policy Committee is also referred to as 'the committee' and 'the MPC'. However, there are multiple committees referenced in the corpus meaning a simple replacement of the word 'committee' would be inappropriate. Moreover, MPC could also be referring to a different abbreviated term; in economics literature 'mpc' can mean 'marginal propensity to consume', for example. To maintain coherence in the text I left all abbreviated terms and acronyms in place. This did not seem to hinder the analysis significantly as many of these terms still gained high Chi2 values in the results.
+<table class="card">
+    <caption><strong>Table 7:</strong> Passive variables</caption>
+    <thead>
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>*N_</td>
+            <td>Name</td>
+            <td>e.g. King</td>
+        </tr>
+        <tr>
+            <td>*P_</td>
+            <td>Position</td>
+            <td>Governor, Deputy Governor, Internal, External</td>
+        </tr>
+        <tr>
+            <td>*HD_</td>
+            <td>Hawk-Dove</td>
+            <td>Hawk, Dove, Centrist</td>
+        </tr>
+        <tr>
+            <td>*M_</td>
+            <td>Month</td>
+            <td>e.g. January</td>
+        </tr>
+        <tr>
+            <td>*Y_</td>
+            <td>Year</td>
+            <td>e.g. 2010</td>
+        </tr>
+        <tr>
+            <td>*FC_</td>
+            <td>Financial crisis</td>
+            <td>Pre, Post</td>
+        </tr>
+    </tbody>
+</table>
+
+
+In general, researchers attempt to standardise language across corpora by changing acronyms to words, etc. However, I could not be confident that a simple 'find and replace' in the data would maintain the integrity of the corpus. As an example, the Monetary Policy Committee is also referred to as 'the committee' and 'the MPC'. However, there are multiple committees referenced in the corpus meaning a simple replacement of the word 'committee' would be inappropriate. Moreover, MPC could also be referring to a different abbreviated term; in economics literature 'mpc' can mean 'marginal propensity to consume', for example. To maintain coherence in the text I left all abbreviated terms and acronyms in place. This did not seem to hinder the analysis significantly as many of these terms still gained high Chi-squared values in the results.
 
 ## Appendix 3: Classifying Adam Posen
 
@@ -679,7 +866,164 @@ Whilst this classification is imprecise, it is precise enough for the purposes o
 
 ## Appendix 4: Alceste Classes – Hawks, Doves and Centrists
 
-![Table 6: Alceste classes from all corpora][app-4]{.rounded}
+<table class="card">
+    <caption><strong>Table 8: Overview of classes and classes used for further analysis</caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Sig' member<br>(Chi2, Rank)</th>
+            <th>Significant present forms<br>(Chi2, Rank)</th>
+            <th>Significant absent forms<br>(Chi2, Rank)</th>
+            <th>Used?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="5"><strong>Hawks</strong></td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Domestic growth and employment</td>
+            <td>Sentance (273, 2)</td>
+            <td>survey (407, 1), unemployment (227, 3), show (223, 4), GDP (219, 4), recession (196, 6)</td>
+            <td>policy (-144, 3), monetary (-116, 4), inflation (-92, 5), risk (-59, 8)</td>
+            <td>No</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>State of the global economy</td>
+            <td>Sentance (146, 15)</td>
+            <td>global (266, 1), asia (247, 2), china (237, 3), commodit (232, 4), strong (214, 5), emerg (209, 6)</td>
+            <td>policy (-117, 3), monetary (-90, 4), bank (-65, 6), target (-56, 8)</td>
+            <td>No</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Stability of the financial sector</td>
+            <td>Large (1419, 1)</td>
+            <td>stabil (208, 7), system (182, 9), area (168, 10), standard (155, 11), threat (149, 12)</td>
+            <td>inflation (-150, 4), econom (-144, 5), growth (-110, 7)</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Monetary policy framework</td>
+            <td>Sentance (234, 8)</td>
+            <td>inflation (769, 1), policy (715, 2), monetary (643, 3), target (351, 4), MPC (258, 7)</td>
+            <td>show (-87, 6), market (-80, 8), chart (-75, 9), manufactur (-70,10)</td>
+            <td>Yes</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Risk in the financial system</td>
+            <td>Large (727, 1)</td>
+            <td>transfer (254, 5), liquid (250, 6), hedge (166, 8), collateral (145, 9), bank (143, 10), debt (139, 11)</td>
+            <td>inflation (-100, 4), econom (-77, 5), growth (-57, 7), UK (-44, 8)</td>
+            <td>No</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Consumption and credit availability</td>
+            <td>Besley (211, 8)</td>
+            <td>household (790, 1), income (645, 2), consumption (424, 3), saving (366, 4), house (323, 5)</td>
+            <td>global (-40, 3), inflation (-40, 4), policy (-33, 5), monetary (-27, 6)</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td colspan="5"><strong>Centrists</strong></td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Responses to the financial crisis</td>
+            <td>Tucker (1303, 1)</td>
+            <td>liquid (1294, 2), system (1025, 4), bank (943, 5), capital (789, 6), financ (576, 8), fund (572, 9)</td>
+            <td>inflation (-1002, 2), rate (-530, 3), growth (-356, 4)</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Operations of the MPC</td>
+            <td>King (158, 26)</td>
+            <td>member (704, 1), decision (433, 2), committee (399, 3), governor (310, 4), I (290, 5)</td>
+            <td>demand (-271, 2), fall (-260, 3), growth (-226, 4), rise (-221, 5)</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>State of the economy</td>
+            <td>George (481, 9)</td>
+            <td>growth (1140, 1), year (700, 2), domestic (591, 3), econom (582, 4), inflation (290, 24)</td>
+            <td>bank (-629, 1), system (-283, 3), liquid (-222, 4), financ (-181, 5)</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Monetary policy framework</td>
+            <td>Bean (566, 1)</td>
+            <td>inflation (448, 2), nominal (445, 3), chart (426, 6), rate (351, 7), household (332, 8)</td>
+            <td>system (-236, 3), bank (-204, 4), international (-144, 5), I (-133, 6)</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td colspan="5"><strong>Doves</strong></td>
+        </tr>
+        <tr>
+            <td>Explaining exchange rate fluctuations</td>
+            <td>Wadhwani (1403, 1)</td>
+            <td>exchange (1131, 2), sterling (477, 4), rate (389, 6), model (309, 8), equilibrium (222, 9)</td>
+            <td>bank (-53, 10), worker (-47, 12), employ (-45, 13), labour (-44, 14)</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Monetary policy in academic perspective</td>
+            <td>Posen (456, 1)</td>
+            <td>central (255, 6), policy (181, 9), independence (124, 15), right (123, 16), monetar (105, 17)</td>
+            <td>rate (-79, 3), percent (-64, 4), unemploy (-50, 5), product (-47, 6)</td>
+            <td>Yes</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Competitiveness</td>
+            <td>Wadhwani (754, 3)</td>
+            <td>product (1197, 1), internet (494, 4), competition (393, 6), ICT (365, 8), growth (342, 9)</td>
+            <td>policy (-53, 8), bank (-46, 11), monetar (-41, 13), rate (-37, 17)</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Monetary policy implementations</td>
+            <td>Allsopp (1259, 1)</td>
+            <td>function (560, 3), react (549, 4), policy (549, 5), monetar (531, 6), target (519, 7) object (307, 8)</td>
+            <td>unemploy (-44, 5), year (-31, 7), fall (-30, 8), product (-29, 9)</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Determinants of inflation</td>
+            <td>Julius (28, 65)</td>
+            <td>price (364, 1), pressure (305, 2), oil (293, 3), capacit (276, 4), inflation (264, 5), spare (211, 6)</td>
+            <td>bank (-36, 2), policy (-30, 3), monetar (-24, 4), find (-19, 5)</td>
+            <td>Yes</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Employment statistics</td>
+            <td>Blanchflower (904, 3)</td>
+            <td>self-employment (498, 5), data (316, 7), individual (301, 8), probabilit (301, 9), dumm (276, 10)</td>
+            <td>econom (-70, 4), policy (-61, 5), monetar (-38, 16), fall (-37, 18)</td>
+            <td>No</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Wages and employment</td>
+            <td>Blanchflower (911, 2)</td>
+            <td>worker (697, 3), unemploy (595, 4), employ (342, 5), labour (283, 6), number (247, 7), job (184, 13)</td>
+            <td>inflation (-164, 3), policy (-105, 5), monetar (-92, 8)</td>
+            <td>No</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>Lessons from Japan asset bubble</td>
+            <td>Posen (868, 1)</td>
+            <td>japan (448, 3), fiscal (353, 5), estate (236, 6), crisis (233, 7), boom (223, 8), recession (213, 9)</td>
+            <td>inflation (-38, 7), unemploy (-29, 11), exchange (-24, 12)</td>
+            <td>No</td>
+        </tr>
+        <tr class="secondary-row">
+            <td>The financial sector</td>
+            <td>Posen (473, 6)</td>
+            <td>lend (670, 1), credit (646, 2), bank (539, 4), assets (535, 5), securit (419, 8), purchase (357, 9)</td>
+            <td>inflation (-73, 4), rate (-38, 8), percent (-35, 9)</td>
+            <td>No</td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 <div class="footnotes"  markdown="1">
 

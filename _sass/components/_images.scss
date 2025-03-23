@@ -28,7 +28,7 @@ figure,
         width: auto;
         max-width: 450px;
         
-        @include material(1, $bg: var(--glass-background), $blur: true);
+        @include material(2, $bg: var(--glass-background), $blur: true);
         @include typography($smaller, "default");
         
         position: absolute;
@@ -56,7 +56,7 @@ figure,
 	img,
 	picture source,
 	picture img {
-        @include material(2);
+        @include material(1);
 	}
 
 }
@@ -72,7 +72,7 @@ p > img {
     left: 0;
     right: 0;
     
-    @include material(2);
+    @include material(1);
     
     @include tablet {
         width: containers("tablet") + 60px;

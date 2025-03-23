@@ -49,20 +49,6 @@ figure,
 
 }
 
-// figcaption {
-//     padding: $padding;
-//     width: auto;
-//     max-width: 450px;
-//     
-//     @include material(2, $bg: var(--translucent-background), $blur: true);
-//     @include typography($smaller, "default");
-//     text-align: left;
-//     
-//     position: absolute;
-//     bottom: -$padding * 1.5;
-//     left: -$padding * 0.5;
-// }
-
 
 figcaption {
     display: relative;
@@ -75,6 +61,8 @@ figcaption {
 p > img {
     display: block;
     position: relative;
+    
+    @include material(1);
 
     width: 100%;
     max-width: 100%;
@@ -82,8 +70,6 @@ p > img {
     margin-left: 0;
     left: 0;
     right: 0;
-    
-    @include material(1);
     
     @include tablet {
         width: containers("tablet") + 60px;
@@ -161,7 +147,7 @@ img.overlay {
     width: clamp(200px, 60%, 600px);
 }
 
-svg.hero-image {
+.hero {
     display: block;
     position: relative;
 
@@ -170,6 +156,10 @@ svg.hero-image {
     margin: 0 0 $padding * 2 0;
     left: 0;
     right: 0;
+    
+    background: unset;
+    box-shadow: unset;
+    border-radius: unset;
 
     @include tablet {
         width: containers("tablet") + 100px;

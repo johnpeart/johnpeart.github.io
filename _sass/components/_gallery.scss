@@ -4,7 +4,7 @@
     @include tablet-up() {
         padding: 0 $padding * 6;
     }
-    margin-block: $padding * 6;
+    margin-block: $padding * 3;
     grid-gap: $padding * 2 $padding;
     
     @include tablet() {

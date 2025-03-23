@@ -6,26 +6,16 @@
     justify-items: center;
 }
 
-.gallery .game--game-boy svg {
-    max-width: 200px;
-}
-
 .game--game-boy svg {
-    max-width: 200px;
-    @include tablet() {
-        max-width: 400px;
-    }
-    @include desktop() {
+    max-width: 300px;
+    @include tablet-up() {
         max-width: 400px;
     }
 }
 
 .game--playstation svg {
     max-width: 300px;
-    @include tablet() {
-        max-width: 400px;
-    }
-    @include desktop() {
+    @include tablet-up() {
         max-width: 400px;
     }
     

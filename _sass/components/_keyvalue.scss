@@ -7,6 +7,11 @@
         @include typography($h1, "default");
         padding: $padding * 8 0 0 !important;
     }
+    
+    &.key-value--heading--small {
+        @include typography($h3, "default");
+        padding: 0 0 $padding !important;
+    }
 }
 
 .key-value {
@@ -39,6 +44,10 @@
     &.key-value--goal {
         grid-template-columns: 1fr auto !important;
         grid-template-rows: auto auto auto;
+    }
+    
+    &:last-of-type {
+        padding-bottom: 0; 
     }
     
     .full-span {
@@ -102,7 +111,6 @@ a.key-value--link {
     @include typography($small, "default");
     color: var(--secondary-color);
     max-width: 60ch;
-    text-wrap: balance;
 }
 
 .key-value--key,

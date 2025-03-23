@@ -2,6 +2,10 @@ footer#site-footer img.memoji {
     display: none;
 }
 
+aside#related {
+    margin-block-end: $padding;    
+}
+
 footer#webmentions-footer {
     padding-block-end: $padding;
 }

@@ -3,8 +3,12 @@ title: How to be a better communicator when your team is working remotely
 author: John Peart
 excerpt: Sharing a few simple tips to help you communicate better with your colleagues when emails and instant messages take the place of face-to-face conversation.
 categories:
-  - work
-  - digital
+- work
+- digital
+related:
+- title: "How to hold better video and telephone conference calls"
+  date: 2020-03-23
+  link: /2020/03/23/better-conference-calling
 aliases:
 - /2020/03/28/better-communicating-when-working-remotely/
 ---
@@ -41,16 +45,16 @@ Here are some of the things I’ve been encouraging teams I work with to think a
 **Pick the right tools for the right job.** Aim to minimise the disruption you’re causing. The tools you’ll have access to will probably be different from the ones I have. Broadly speaking though, if you:
 
 - **need a genuinely immediate response,** ​call someone (but do this sparingly)
-- **have a quick question for someone,**​ use a text message or instant message
+- **have a quick question for someone**, use a text message or instant message
 - **have a big task for someone,** ​send an email
-- **would have usually spoken to someone about it face-to-face,**​ put some time in their diary for a call
+- **would have usually spoken to someone about it face-to-face**, put some time in their diary for a call
 
 ## Be brief and direct
 
 **Be brief and direct when you’re sending messages or emails.** Put another way, *get to the point quickly*. Brevity is even more important for remote working than it would be in the office. When everyone is sending and receiving more digital communications, brevity helps people be more efficient (and get back to *you* more quickly). In practice, brevity means that if you’re sending an:
 
-- **email,**​ make your subject line specific and clear, including a deadline if applicable. Put your ask in the very first sentence after you’ve said “hello”. Use bulleted or numbered lists to organise your information clearly.
-- **instant message or text message,**​ try to get your entire ask into your first message. Don’t forget that the recipient gets a notification every time you send them an instant message, so they’ll appreciate it if they are only interrupted once.
+- **email**, make your subject line specific and clear, including a deadline if applicable. Put your ask in the very first sentence after you’ve said “hello”. Use bulleted or numbered lists to organise your information clearly.
+- **instant message or text message**, try to get your entire ask into your first message. Don’t forget that the recipient gets a notification every time you send them an instant message, so they’ll appreciate it if they are only interrupted once.
 
 **Being direct doesn’t mean being rude.** When you’re getting lots of digital communications, brevity is itself a form of politeness. You can still ask how people are feeling and you can still say “hello”. Being succinct is more about form than it is about tone. 
 
@@ -67,8 +71,3 @@ Here are some of the things I’ve been encouraging teams I work with to think a
 ## Disruption doesn’t have to be disruptive
 
 These are the things I think about when I’m communicating with someone through digital channels: being purposeful in my choices, being as efficient as I can be, and only creating urgency when it matters. These things won’t work for every person, team or situation — but maybe they’re a good starting point for discussing how your team should communicate with each other.
-
-> **All posts in this series**
-> 
-> 1. [How to hold better video and telephone conference calls](/2020/03/23/better-conference-calling)
-> 2. [How to be a better communicator when your team is working remotely](/2020/03/28/better-communicating-when-working-remotely)

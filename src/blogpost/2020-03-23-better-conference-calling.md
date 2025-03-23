@@ -5,6 +5,10 @@ excerpt: Having a conference call isn’t harder than a face-to-face meeting, it
 categories:
   - work
   - digital
+related:
+- title: "How to be a better communicator when your team is working remotely"
+  date: 2020-03-28
+  link: /2020/03/28/better-communicating-when-working-remotely
 ---
 
 The current coronavirus pandemic is forcing new ways of working for teams across the world. Many people are, perhaps for the first time, getting intimately acquainted with the wonderful world of remote working and — inevitably — video and telephone conference calls.
@@ -129,8 +133,3 @@ Send a summary of the discussion and any actions to participants. Don’t assume
 {:.no_toc}
 
 It is not an impossible task to keep your team going just because you don’t sit next to them. Conference calls can be just as effective as face-to-face meetings. You just need to prepare for them and effectively structure them. The more you do it, the easier it will get; and who knows, by the time this pandemic is finished you might prefer them to in-person meetings!
-
-> **All posts in this series**
->
-> 1. [How to hold better video and telephone conference calls](/2020/03/23/better-conference-calling)
-> 2. [How to be a better communicator when your team is working remotely](/2020/03/28/better-communicating-when-working-remotely)

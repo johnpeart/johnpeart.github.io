@@ -3,6 +3,10 @@ title: "What happened when my blog post went viral"
 excerpt: "I recently wrote a blog post - a letter to my heterosexual friends about Orlando - that went unintentionally viral. Here's the story behind that post."
 categories:
   - data
+related:
+- title: "To my heterosexual friends: this is why Orlando hurts"
+  date: 2016-06-14
+  link: /2016/06/14/to-my-heterosexual-friends-orlando-shootings/
 ---
 
 I recently got frustrated at the silence of some of my friends and family after the horrific events at Pulse nightclub in Orlando, and [I wrote them a letter](/2016/06/14/to-my-heterosexual-friends-orlando-shootings). I didn't expect anyone to actually read it - I don't write for other people, I write because it's a creative outlet - but they did.

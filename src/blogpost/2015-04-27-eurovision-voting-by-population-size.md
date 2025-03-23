@@ -9,17 +9,17 @@ categories:
 - data
 ---
 
-The Eurovision Song Contest's voting system is run much like the American Senate; every state gets an equal share of the vote. In America, Wyoming, with its minuscule population, has two senators, whilst California, vast in population size, also has just two senators representating it. In Eurovision, it doesn't matter if you have a population of tens-of-thousands - like *San Marino* - or of hundreds-of-millions - like *Russia* - you get the same say over the winner by awarding the same, unweighted set of 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 points. 
+The *Eurovision Song Contest's* voting system is run much like the American Senate; every state gets an equal share of the vote. In America, Wyoming, with its minuscule population, has two senators, whilst California, vast in population size, also has just two senators representating it. In Eurovision, it doesn't matter if you have a population of tens-of-thousands - like San Marino - or of hundreds-of-millions - like Russia - you get the same say over the winner by awarding the same, unweighted set of 1, 2, 3, 4, 5, 6, 7, 8, 10 or 12 points. 
 
-The logic behind both systems is the same; it ensures no one state can dominate the outcome of a vote, overshadowing any and all of its smaller counterparts. It's a tried and tested philosophy. Indeed, even the voting mechanics of the European Council were similar until last year, with states being - at least partially - disproportionately represented as part of the qualified majority voting system.
+The logic behind both systems is the same; it ensures no one state can dominate the outcome of a vote, overshadowing any and all of its smaller counterparts. It's a tried and tested philosophy. Indeed, even the voting mechanics of the *European Council* were similar until last year, with states being - at least partially - disproportionately represented as part of the qualified majority voting system.
 
-And this got me thinking; what if the outcomes of the Song Contest weren't based on equality of voting, but instead, were based on population size?
+And this got me thinking; what if the outcomes of the Contest weren't based on equality of voting, but instead, were based on population size?
 
 Would the winners be the same? Would Russia, as the largest nation in the Contest, determine the outcome of every vote by default? Does population size make any difference at all, or is a bloody good Euro-pop tune always going to win regardless? Well, that's exactly what I set out to find out. 
 
 ## Methodology
 
-I took the points-based voting data for the 2010 - 2014 grand finals from the official Eurovision Song Contest website, and population data for each competing state for each year they competed over the same timeframe, (for 2010 - 2013, this data came from the CIA World Factbook, and for 2014, this data came from the World Bank). To achieve a weighted score based on population size, I first:
+I took the points-based voting data for the 2010 - 2014 grand finals from the official *Eurovision Song Contest* website, and population data for each competing state for each year they competed over the same timeframe, (for 2010 - 2013, this data came from the *CIA World Factbook*, and for 2014, this data came from the World Bank). To achieve a weighted score based on population size, I first:
 
 - took the voting state's population size in that year
 - divided the population size of the voting state by the total population of all competing states
@@ -38,13 +38,11 @@ At the end of these calculations, for each finalist, I could compare their:
 
 ## Results
 
-I've visualised the results of this analysis on [Tableau Public](https://public.tableau.com/profile/john.peart#!/vizhome/WhowouldwinEurovisionifpopulationsizemattered/WhowouldwinEurovisionifpopulationsizemattered).
-
 ### Winners be winning... unless you're Germany
 
 Of the 5 sets of results studied, in only 1 year would the winner of the grand final have changed. Conchita Wurst (2014, Austria), Emmelie de Forest (2013, Denmark), Loreen (2012, Sweden), and Ell & Nikki (2011, Azerbaijan) all win their finals regardless of whether scores are weighted by country size or not. 
 
-The bad news comes for the 2010 winner, Lena (Germany) and her entry "Satellite". Whilst she won the vote on the night, she may not have had the popular support of Europe itself. Bizarrely, it was Armenia's entry, [Apricot Stone](https://www.youtube.com/watch?v=bdAd4Y8agas), that would have won had the state population mattered. 
+The bad news comes for the 2010 winner, Lena (Germany) and her entry "Satellite". Whilst she won the vote on the night, she may not have had the popular support of Europe itself. Bizarrely, it was Armenia's entry, [*Apricot Stone*](https://www.youtube.com/watch?v=bdAd4Y8agas), that would have won had the state population mattered. 
 
 Why so bizarre? Well, aside from the frankly *hideous* song, Armenia would have rocketed from 7th place to first under a proportional vote, picking up more than 100 additional points.
 
@@ -54,7 +52,7 @@ The 2010 Contest goes on to be even more surprising though. Not only does the wi
 
 Talking of increasing point-leads; Loreen didn't just storm it in the actual contest, she storms it in this fictional scenario too. 
 
-Eurovision buffs will know that Loreen was one of the highest scoring songs of all time achieving the most number of *douze points* of any entry in the contest's history, and just 15 points behind the current record holder, 2009's Alexander Rybak (Norway). But in a proportional system, Loreen's score of 372 would have been even higher - she would have scored 393.8 points! Further evidence, if any was needed, that "Euphoria" is an incredible song.
+Eurovision buffs will know that *Euphoria* was one of the highest scoring songs of all time achieving the most number of *douze points* of any entry in the contest's history, and just 15 points behind the current record holder, 2009's Alexander Rybak (Norway). But in a proportional system, Loreen's score of 372 would have been even higher - she would have scored 393.8 points! Further evidence, if any was needed, that "Euphoria" is an incredible song.
 
 ### The rest is anyone's game
 
@@ -62,11 +60,9 @@ Looking further down the pack in each year's contest, the results are a chaotic 
 
 ## Conclusions
 
-So does the voting mechanism of the Eurovision Song Contest matter? Certainly, from this data, it seems that it doesn't. Whether you use a weighted or unweighted scoring mechanic, the same countries win in most cases. 
+So does the voting mechanism of the *Eurovision Song Contest* matter? Certainly, from this data, it seems that it doesn't. Whether you use a weighted or unweighted scoring mechanic, the same countries win in most cases. 
 
 An interesting avenue of future exploration might be to look at data from:
 
 - both semi-finals and subsequent finals
 - data from before 2010 (but I got bored typing it into a spreadsheet - damn you Eurovision website and your lack of CSV files!)
-
-If you'd like to see how how I arrived at these numbers, I've published the calculations and rough graphs on [Google Sheets](https://docs.google.com/spreadsheets/d/1TiRYopSC2oSUfG7FX8LG4Vz5dWkAdGvZN9UKWuqtHdg/edit?usp=sharing "See the data set on Google Sheets").

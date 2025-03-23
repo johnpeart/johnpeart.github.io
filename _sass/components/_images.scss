@@ -23,18 +23,6 @@ figure,
         margin-left: -85px;
         margin-bottom: $padding * 3;
     }
-    figcaption {
-        padding: $padding;
-        width: auto;
-        max-width: 450px;
-        
-        @include material(2, $bg: var(--glass-background), $blur: true);
-        @include typography($smaller, "default");
-        
-        position: absolute;
-        bottom: -$padding * 1.5;
-        left: -$padding * 0.5;
-    }
 
     &.featured-image {
         margin-bottom: $padding * 3;
@@ -59,6 +47,29 @@ figure,
         @include material(1);
 	}
 
+}
+
+// figcaption {
+//     padding: $padding;
+//     width: auto;
+//     max-width: 450px;
+//     
+//     @include material(2, $bg: var(--translucent-background), $blur: true);
+//     @include typography($smaller, "default");
+//     text-align: left;
+//     
+//     position: absolute;
+//     bottom: -$padding * 1.5;
+//     left: -$padding * 0.5;
+// }
+
+
+figcaption {
+    display: relative;
+    margin: $padding;
+    text-align: left;
+    @include typography($small, "default");
+    color: var(--secondary-color);
 }
 
 p > img {

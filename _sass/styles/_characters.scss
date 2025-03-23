@@ -1,0 +1,11 @@
+span.arrow {
+    font-weight: 900;
+}
+
+.data-down span.arrow {
+    color: var(--red);
+}
+
+.data-up span.arrow {
+    color: var(--green);
+}

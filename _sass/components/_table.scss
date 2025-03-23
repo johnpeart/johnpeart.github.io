@@ -5,7 +5,8 @@
 }
 
 table {
-    @include typography($p);
+    table-layout: fixed;
+    @include typography($small);
     border-collapse: collapse;
     width: 100%;
     @include desktop {
@@ -15,9 +16,14 @@ table {
         margin-left: -115px;
     }
     border: none;
+    background: var(--absolute) !important;
 
     tr {
         border-bottom: 1px solid var(--secondary-borderColor);
+        
+        &.secondary-row {
+            background: var(--gray-100);
+        }
 
         &:last-child {
             border-bottom: none !important;
@@ -32,6 +38,9 @@ table {
 
         &:first-child {
             border-left: none;
+        }
+        &.align-right {
+            text-align: right;
         }
     }
 
@@ -49,15 +58,25 @@ table {
         border-bottom: 2px solid var(--color);
     }
 
-    caption {
-        display: table-caption;
-        caption-side: bottom;
+}
 
-        @include typography($p, "default");
-        text-align: left;
+caption {
+    display: table-caption;
+    caption-side: bottom;
+    margin: $padding;
+    text-align: left;
+    @include typography($small, "default");
+    color: var(--secondary-color);
+}
 
-        margin: $padding 0;
-        padding: $padding;
-    }
+figure table {
+    width: 100%;
+    margin: $padding 0;
+}
 
+figure table + figcaption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    max-width: 600px;
 }

@@ -58,19 +58,17 @@
     --gb-lens--fill-3: light-dark(rgb(65,65,65), rgb(205,205,205));
     --gb-lens--fill-4: light-dark(rgb(0,0,0), rgb(220,220,220));
     --gb-dpad--fill-1: light-dark(rgb(15,15,15), rgb(215,215,215));
-    --gb-dpad--fill-3: light-dark(rgb(20,20,20), rgb(155,155,155));
-    --gb-dpad--stroke-1: light-dark(rgb(40,40,40), rgb(190,190,190));
-    --gb-start-select--fill-1: light-dark(rgb(15,15,15), rgb(170,170,170));
-    --gb-start-select--stroke-2: light-dark(transparent, rgb(255,255,255));
-    --gb-abxy--fill-2: light-dark(rgb(120,120,120), rgb(255,255,255));
-    --gb-abxy--fill-3: light-dark(rgb(50,50,50), rgb(210,210,210));
-    --gb-abxy--stroke-4: light-dark(transparent, rgb(225,225,225));
-    --gb-shared-fill-black-dark: light-dark(rgb(0,0,0), rgb(170,170,170)); 
+    --gb-dpad--fill-2: light-dark(rgb(20,20,20), rgb(155,155,155));
+    --gb-dpad--stroke: light-dark(rgb(40,40,40), rgb(190,190,190));
+    --gb-start-select--fill: light-dark(rgb(15,15,15), rgb(170,170,170));
+    --gb-start-select--stroke: light-dark(transparent, rgb(255,255,255));
+    --gb-abxy--fill-1: light-dark(rgb(120,120,120), rgb(255,255,255));
+    --gb-abxy--fill-2: light-dark(rgb(50,50,50), rgb(210,210,210));
+    --gb-abxy--stroke: light-dark(transparent, rgb(225,225,225));
+    --gb-shared-fill-black: light-dark(rgb(0,0,0), rgb(170,170,170)); 
     --gb-shared-fill-grey: light-dark(rgb(130,130,130), rgb(210,210,210)); 
     --gb-shared-fill-dark-grey: light-dark(rgb(50,50,50), rgb(225,225,225));
-    --gb-shared-stroke-dark: light-dark(rgb(40,40,40), rgb(210,210,210));  
-    --gb-shared-stroke-mid: light-dark(rgb(40,40,40), rgb(215,215,215));   
-    --gb-shared-stroke-light: light-dark(rgb(40,40,40), rgb(225,225,225)); 
+    --gb-shared-stroke: light-dark(rgb(40,40,40), rgb(210,210,210));   
 
     --post-it--yellow: rgb(255, 215, 0);
     --post-it--yellow--top: rgb(250, 211, 0);

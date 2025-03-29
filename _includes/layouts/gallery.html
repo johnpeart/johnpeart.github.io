@@ -1,5 +1,6 @@
 ---
 layout: default
+container: false
 ---
         
 <section id="page-content" class="h-entry e-content">
@@ -8,6 +9,28 @@ layout: default
         <h1 class="page-title p-name">{{ title }}</h1>
     </div>
 
-    {{ content }}
+    <ul class="gallery gallery-{{ size | default: '4' }} gallery-{{ angle | default: false }}">
+
+    {% assign posts = collections[collection] %}
+    {% for post in posts %}
+        <li>
+            <article class="{{ collection }} ">
+                <a href="{{ post.url }}" title="Read {{ post.data.title }}" class="gallery-link">
+                    {% if post.data.image %}
+                        <div class="polaroid">
+                            <img src="{{ siteUrl | append: '/assets/images' | append: post.data.image }}" loading="lazy">
+                            <h1 class="photo--title p-name">{{ post.data.title }}</h1>
+                        </div>
+                    {% elsif collection == 'game' %}
+                        {% include "components/objects/{{ post.data.platform | downcase | slugify }}.svg" %}
+                    {% elsif collection == 'music' %}
+                        {% include "components/objects/ipod-nano.svg" %}
+                    {% endif %}
+                </a>
+            </article>
+        </li>
+    {% endfor %}
+    
+    </ul>
 
 </section>

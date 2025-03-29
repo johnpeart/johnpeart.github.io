@@ -56,11 +56,7 @@
             <article id="post-content" class="game h-entry">
                 <header class="game post-title">
                     <div class="game--{{ post.data.platform | downcase | slugify }}">
-                        {% if post.data.platform contains "PlayStation" %}
-                        {% include "components/objects/cd-rom.svg" %}    
-                        {% else %}
-                        {% include "components/objects/gamepak.svg" %}    
-                        {% endif %}
+                        {% include "components/objects/{{ post.data.platform | downcase | slugify }}.svg" %}  
                     </div>
                 </header>
             </article>

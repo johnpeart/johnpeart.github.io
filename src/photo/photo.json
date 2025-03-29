@@ -1,5 +1,5 @@
 {
-   "layout": "photo",
+   "layout": "blogpost",
    "collection": "photo",
    "categories": "photo",
    "permalink": "/photo/{{ page.date | date: '%s' }}/"

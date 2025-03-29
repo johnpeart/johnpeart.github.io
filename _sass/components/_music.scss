@@ -1,37 +1,4 @@
-li .ipod-nano {
-    max-width: 250px !important;
-}
-
-a.music-link {
-    display: block;
-    position: relative;
-    
-    &:link {
-        color: var(--link-color);
-        text-decoration: none;
-    }
-    &:hover * {
-        color: var(--link-hoverColor);
-        text-decoration: underline;
-    }
-    &:hover svg {
-        animation: ipod-shake 0.5s;
-        animation-iteration-count: 3;
-        transform-origin: bottom;
-    }
-    &:focus * {
-        outline: none;
-        color: var(--background)
-    }
-}
-
-@keyframes ipod-shake {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(0, -5px); }
-  100% { transform: translate(0, 0); }
-}
-
-.ipod-nano {
+.music {
     display: grid;
 	margin: 0 auto;
     align-items: center;
@@ -39,13 +6,7 @@ a.music-link {
     
     svg {
         width: 100%;
-        max-width: 200px;
-        @include tablet() {
-    	    max-width: 400px;
-        }
-	    @include desktop() {
-    	    max-width: 400px;
-	    }
+        max-width: 300px;
     }
 }
 

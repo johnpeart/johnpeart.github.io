@@ -1,17 +1,5 @@
-.weeknote .content,
-.weeknote .weeknote {
-    display: block;
-    position: relative;
-
-	@include clearfix();
-}
-
 .weeknote .content {
 	text-align: right;
-}
-
-.weeknote .weeknote {
-	text-align: center;
 }
 
 .weeknote h1 {
@@ -58,7 +46,7 @@
 		font-weight: bold;
 		padding: $padding !important;
 		text-transform: uppercase;
-		background: var(--red);
+		background: var(--red-tone);
 		color: var(--white);
 	}
 	.calendar-date {
@@ -74,7 +62,7 @@
     	@include typography($marker, "marker");
 		background: var(--white);
 		align-self: flex-end;
-		color: var(--red);
+		color: var(--red-tone);
 		border-radius: 0 0 $border-radius * 4 $border-radius * 4;
 		padding: $padding !important;
 		text-transform: uppercase;
@@ -87,47 +75,4 @@
 	display: block;
 	margin-top: $padding * 4;
 	text-align: center;
-}
-
-a.calendar-link {
-	display: inline-block;
-	position: relative;
-
-	&:link,
-	&:visited {
-		text-decoration: none;
-	}
-	&:hover {
-		color: var(--white);
-		text-decoration: underline;
-		.calendar-month {
-			background: var(--cyan);
-		}
-		.calendar-date,
-		.calendar-collection {
-			text-decoration: none;
-		}
-	}
-
-	&:focus {
-		background: none;
-		outline: none;
-		.calendar-sheet {
-			outline: 3px solid var(--cyan);
-			outline-offset: 3px;
-		}
-	}
-	
-	&:hover:focus {
-		.calendar-sheet {
-			outline-offset: 0px;
-		}
-	}
-
-	&:active {
-		.calendar-sheet {
-			outline: 3px solid var(--cyan);
-			outline-offset: 3px;
-		}
-	}
 }

@@ -185,4 +185,13 @@ a {
 		bottom: 0;
 		left: 0;
 	}
+    
+    &.gallery-link {
+        display: inline-block;
+        
+        &:hover h1 {
+             text-decoration: underline !important;
+             text-decoration-skip-ink: none;
+        }
+    }
 }

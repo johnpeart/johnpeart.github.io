@@ -24,7 +24,7 @@
 }
 
 .note.content,
-.note.post-title {
+.collection--note.post-title {
     display: block;
     position: relative;
 	justify-self: center;
@@ -57,12 +57,6 @@
     
     border-top: 60px solid var(--post-it--top);
     background: var(--post-it--body);
-    // background: linear-gradient(130deg,
-    //     var(--post-it--body) 75%,
-    //     var(--post-it--body) 76%,
-    //     var(--post-it--body) 76%,
-    //     var(--post-it--corner) 100%
-    // );
     outline: 1px solid var(--post-it--body);
     box-shadow: 
         100px 100px 50px -110px rgba(25, 25, 25, 0.5),
@@ -85,11 +79,4 @@
             inset -10px -15px 20px -10px var(--post-it--corner);
     }
     
-}
-
-.note-post .note-title {
-    margin: $padding * 4 auto;
-    @include tablet-up {
-        margin: $padding * 6 auto;
-    }
 }

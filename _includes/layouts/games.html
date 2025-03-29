@@ -1,21 +1,13 @@
 ---
 layout: gallery
+size: 4
 container: false
 ---
 
-<ul class="gallery gallery-3">
-{% assign posts = collections[collection] %}
-{% for post in posts %}
-	<li>
-		<article class="game--{{ post.data.platform | downcase | slugify }}">
-            <a href="{{ post.url }}" class="game--link" title="Read {{ post.data.title }}">
-                {% if post.data.platform contains "PlayStation" %}
-                {% include "components/objects/cd-rom.svg" %}    
-                {% else %}
-                {% include "components/objects/gamepak.svg" %}    
-                {% endif %}
-            </a>
-		</article>
-	</li>
-{% endfor %}
-</ul>
+
+
+<article class="game--{{ post.data.platform | downcase | slugify }}">
+    <a href="{{ url }}" class="game--link" title="Read {{ post.data.title }}">
+
+    </a>
+</article>

@@ -1,9 +1,5 @@
 <div class="game--{{ platform | downcase | slugify }}">
-    {% if platform contains "PlayStation" %}
-    {% include "components/objects/cd-rom.svg" %}    
-    {% else %}
-    {% include "components/objects/gamepak.svg" %}    
-    {% endif %}
+    {% include "components/objects/{{ platform | downcase | slugify }}.svg" %}  
 </div>
 <section class="game--metadata p-name">
 	<h1 class="game--metadata-title">{{ title }}</h1>

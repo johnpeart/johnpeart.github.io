@@ -1,18 +1,11 @@
 ---
 layout: gallery
+size: 4
+angle: tilt
 container: false
 ---
 
-{{ content }}
-
-<ul class="gallery gallery-4 gallery-tilt">
-{% assign posts = collections[collection] %}
-{% for post in posts %}
-	<li>
-		<article class="polaroid">
-           <img src="{{ siteUrl | append: '/assets/images' | append: post.data.image }}" loading="lazy">
-            <h1 class="photo--title p-name"><a class="block-link dark-link no-underline" href="{{ post.url }}">{{ post.data.title }}</a></h1>
-        </article>
-    </li>
-{% endfor %}
-</ul>
+<article class="polaroid">
+   <img src="{{ siteUrl | append: '/assets/images' | append: post.data.image }}" loading="lazy">
+    <h1 class="photo--title p-name"><a class="block-link dark-link no-underline" href="{{ post.url }}">{{ post.data.title }}</a></h1>
+</article>

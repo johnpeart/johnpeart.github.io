@@ -8,25 +8,14 @@ body[id$='photo'] {
         left: $padding;
     }
 
-    header.post-title.note,
-    header.post-title.list,
-	header.post-title.photo,
-    header.post-title.music,
-    header.post-title.weeknote {
-        margin: $padding * 4 auto;
-        @include tablet-up {
-            margin: $padding * 6 auto $padding * 4;
-        }
-    }
-    
-	header.post-title.game {
+    header.post-title.collection--note,
+    header.post-title.collection--list,
+	header.post-title.collection--photo,
+    header.post-title.collection--music,
+    header.post-title.collection--weeknote,
+    header.post-title.collection--game {
         margin: $padding * 2 auto $padding * 4;
-    }
-
-    iframe {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
     }
 
 }

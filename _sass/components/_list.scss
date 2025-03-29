@@ -1,5 +1,5 @@
-.list.content,
-.list.post-title {
+.collection--list.content,
+.collection--list.post-title {
 
     display: grid;
     position: relative;
@@ -11,6 +11,7 @@
     border: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
+    
     @include tablet {
         max-width: 500px;
         padding:  32px;
@@ -27,7 +28,7 @@
 	}
     .list-title {
         @include typography($marker, "marker");
-        color: var(--red);
+        color: var(--strikethrough-color);
         line-height: 1;
     }
     .list-body {
@@ -35,6 +36,7 @@
     }
     .list-item {
         @include typography($marker, "marker");
+        text-align: left !important;
         color: var(--markerpen-color);
         line-height: 1;
 
@@ -66,7 +68,7 @@
     }
 
     .list-item--secondary {
-        color: var(--red);
+        color: var(--strikethrough-color);
     }
 }
 

@@ -3,12 +3,16 @@ layout: default
 ---
 
 <article id="post-content" class="{{ collection }} h-entry">
-	<header class="{{ collection }} post-title">
+	<header class="collection--{{ collection }} post-title">
         {% include "components/header/{{ collection }}.html" %}
 	</header>
 	            
 	<section class="post-body e-content">
 		{{ content }}
+        
+        {% if collection == 'photo' %}
+            {% include "components/footer/exif.html" %}
+        {% endif %}
         
         {% for posse in page.posse %}
 		<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>

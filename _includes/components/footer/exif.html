@@ -1,51 +1,39 @@
-<aside class="post--exif">
-	<dl class="exif card">
-		<span class="dl-item">
-		<dt>Date taken:</dt>
-		<dd>{{ date | date: "%d %B %Y" }}</dd>
-		</span>
+<aside class="card padding">
+	<dl class="key-value key-value--with-value">
+        <h2 class="key-value--heading key-value--heading--small">Metadata</h2>
+		<span class="key-value--item key-value--with-value">
+            <dt class="key-value--key">Date taken</dt>
+            <dd class="key-value--description">{{ date | date: "%d %B %Y" }}</dd>
+        </span>
 
-		{% for EXIF in EXIF %}
-
-			<span class="dl-item">
-			{% if EXIF.camera != "" %}
-			<dt>Camera:</dt>
-			<dd>{{ EXIF.camera }}</dd>
-			{% endif %}
-			</span>
-
-			<span class="dl-item">
-			{% if EXIF.apeture != "" %}
-			<dt>Apeture:</dt>
-			<dd>{{ EXIF.apeture | prepend: "ƒ/"}}</dd>
-			{% endif %}
-			</span>
-
-			<span class="dl-item">
-			{% if EXIF.shutter != "" %}
-			<dt>Shutter speed:</dt>
-			{% if EXIF.shutter < 1 %}
-			<dd>{{ 1 | divided_by: EXIF.shutter | round: 0  | prepend: '1/' }}</dd>
-			{% else %}
-			<dd>{{ EXIF.shutter | round: 0 | append: '”' }}</dd>
-			{% endif %}
-			{% endif %}
-			</span>
-
-			<span class="dl-item">
-			{% if EXIF.focallength != "" %}
-			<dt>Focal length:</dt>
-			<dd>{{ EXIF.focallength | append: "mm" }}</dd>
-			{% endif %}
-			</span>
-
-			<span class="dl-item">
-			{% if EXIF.iso != "" %}
-			<dt>ISO:</dt>
-			<dd>{{ EXIF.iso }}</dd>
-			{% endif %}
-			</span>
-
-		{% endfor %}
+		{% assign fields = "camera,apeture,shutter,focallength,iso" | split: "," %}
+        {% assign labels = "Camera,Aperture,Shutter speed,Focal length,ISO" | split: "," %}
+        
+        {% for EXIF_item in EXIF %}
+        {% for field in fields %}
+            {% assign index = forloop.index0 %}
+            {% assign value = EXIF_item[field] %}
+            {% if value != "" %}
+            <span class="key-value--item key-value--with-value">
+                <dt class="key-value--key">{{ labels[index] }}</dt>
+                <dd class="key-value--description">
+                {% if field == "apeture" %}
+                    {{ value | prepend: "ƒ/" }}
+                {% elsif field == "shutter" %}
+                    {% if value < 1 %}
+                    {{ 1 | divided_by: value | round: 0 | prepend: "1/" }}
+                    {% else %}
+                    {{ value | round: 0 | append: '”' }}
+                    {% endif %}
+                {% elsif field == "focallength" %}
+                    {{ value | append: "mm" }}
+                {% else %}
+                    {{ value }}
+                {% endif %}
+                </dd>
+            </span>
+            {% endif %}
+        {% endfor %}
+        {% endfor %}
 	</dl>
 </aside>

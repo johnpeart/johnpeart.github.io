@@ -38,6 +38,7 @@ a.music-link {
     justify-items: center;
     
     svg {
+        width: 100%;
         max-width: 200px;
         @include tablet() {
     	    max-width: 400px;

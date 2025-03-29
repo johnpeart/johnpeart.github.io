@@ -42,9 +42,8 @@ h2,
                 top: 0;
                 width: calc(100% + #{$padding * 2});
 				margin: 0 0 0 -#{$padding};
-				background: var(--translucent-background);
-				-webkit-backdrop-filter: blur(20px);
-						backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                        backdrop-filter: blur(20px);
 			}
 		}
         @include tablet-up {

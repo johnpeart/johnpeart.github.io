@@ -1,6 +1,6 @@
 ---
 layout: gallery
-size: 3
+size: 4
 title: "Games"
 collection: game
 permalink: "/games/"

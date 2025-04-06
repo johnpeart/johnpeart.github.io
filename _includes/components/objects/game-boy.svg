@@ -98,14 +98,14 @@
                 <g transform="matrix(1.1031,0,0,1,-5.6889,0)">
                     <g transform="matrix(8,0,0,8,89.537,141.5)">
                     </g>
-                    <text x="55.179px" y="141.5px" style="font-family:'NittiGrotesk-Bold', 'Nitti Grotesk', sans-serif;font-weight:700;font-size:8px;">PLA<tspan x="67.675px " y="141.5px ">T</tspan>INUM</text>
+                    <text x="70px" y="139.5px" style="font-family:'JP', ui-monospace;font-weight:700;font-size:8px;text-transform:uppercase;text-align:center;" text-anchor="middle" dominant-baseline="middle">{{ label | default: title }}</text>
                 </g>
             </g>
             <g id="label--date" transform="matrix(1.66454e-15,4.34803,-8.33939,-2.17402,3036.06,1983.71)">
                 <g transform="matrix(1.1031,0,0,1,-5.28641,0)">
                     <g transform="matrix(8,0,0,8,92.7111,141.5)">
                     </g>
-                    <text x="51.275px" y="141.5px" style="font-family:'NittiGrotesk-Bold', 'Nitti Grotesk', sans-serif;font-weight:700;font-size:8px;">29 A<tspan x="65.434px " y="141.5px ">U</tspan>G 2024</text>
+                    <text x="74px" y="140px" style="font-family:'JP', ui-monospace;font-weight:700;font-size:8px;text-transform:uppercase;text-align:center;" text-anchor="middle" dominant-baseline="middle">{{ date | date: "%d %b %Y" }}</text>
                 </g>
             </g>
             <g transform="matrix(2.9329,-0.764585,-1.82026e-16,32.573,1612.72,-2944.14)">

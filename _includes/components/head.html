@@ -100,7 +100,7 @@
 	{%- if site.linkedin %}<link rel="me" href="{{ site.linkedin.url }}" type="text/html">{%- endif %}
 	{%- if site.github %}<link rel="me" href="{{ site.github.url }}" type="text/html">{%- endif %}
 	{%- if site.mastodon %}<link rel="me" href="{{ site.mastodon.url }}" type="text/html">
-    <meta name="fediverse:creator" content="{{ site.mastodon.handle }}" />{%- endif %}
+    <meta name="fediverse:creator" content="{{ site.mastodon.handle }}">{%- endif %}
 	{%- if site.bluesky %}<link rel="me" href="{{ site.bluesky.url }}" type="text/html">{%- endif %}
 	{%- if site.webmention-io.email %}<link href="mailto:{{ site.webmention-io.email }}" rel="me">{%- endif %}
 	{%- if site.gravatar %}<link href="{{ site.gravatar.url }}" rel="me">{%- endif %}
@@ -108,11 +108,11 @@
 
 	<!-- Web mentions -->
 	{%- if site.webmentions %}
-		<link rel="dns-prefetch" href="https://webmention.io">
-		<link rel="preconnect" href="https://webmention.io">
-		<link rel="preconnect" href="ws://webmention.io:8080">
-		<link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
-		<link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
+	<link rel="dns-prefetch" href="https://webmention.io">
+	<link rel="preconnect" href="https://webmention.io">
+	<link rel="preconnect" href="ws://webmention.io:8080">
+	<link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
+	<link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
 	{%- endif %}
 
 	<!-- Facebook Open Graph settings -->
@@ -146,7 +146,7 @@
 	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
 	
 	<!-- Scripts -->
-	<script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/scripts.js' }}" async></script>
+	<script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/scripts.js' }}"></script>
     <script src="/assets/scripts/scroll-timeline.js"></script>		
 
 </head>

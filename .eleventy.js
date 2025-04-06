@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
     // Dynamically add collections
     collections.forEach(collection => {
         eleventyConfig.addCollection(collection, function(collectionApi) {
-            return collectionApi.getFilteredByGlob(`./src/${collection}/*.*`).sort((a, b) => b.date - a.date);
+            return collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`).sort((a, b) => b.date - a.date);
         });
     });
 
@@ -87,7 +87,7 @@ module.exports = function(eleventyConfig) {
     // Combined "allPosts" collection, sorted by date
     eleventyConfig.addCollection("sitemap", function(collectionApi) {
         return includedInAllPosts.flatMap(collection =>
-            collectionApi.getFilteredByGlob(`./src/${collection}/*.*`)
+            collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
 
@@ -100,7 +100,7 @@ module.exports = function(eleventyConfig) {
     // Combined "allPosts" collection, sorted by date
     eleventyConfig.addCollection("allPosts", function(collectionApi) {
         return includedInAllPosts.flatMap(collection =>
-            collectionApi.getFilteredByGlob(`./src/${collection}/*.*`)
+            collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
 

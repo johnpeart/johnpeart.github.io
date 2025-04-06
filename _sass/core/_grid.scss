@@ -15,5 +15,6 @@ body:has(.skip-link:focus) {
 #page-content,
 #post-content,
 .post-body {
+    width: 100%;
 	margin-block-end: $padding * 4;
 }

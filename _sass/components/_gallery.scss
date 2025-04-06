@@ -8,14 +8,10 @@
     grid-gap: $padding * 2 $padding;
     
     @include tablet() {
-        &.gallery-2 {
-            grid-template-columns: repeat(2, 1fr);
-        }
-        &.gallery-3 {
-            grid-template-columns: repeat(3, 1fr);
-        }
+        &.gallery-2,
+        &.gallery-3,
         &.gallery-4 {
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
         grid-gap: $padding * 2;
     }

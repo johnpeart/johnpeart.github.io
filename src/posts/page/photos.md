@@ -1,6 +1,6 @@
 ---
 layout: gallery
-size: 2
+size: 3
 angle: tilt
 title: "Photos"
 collection: photo

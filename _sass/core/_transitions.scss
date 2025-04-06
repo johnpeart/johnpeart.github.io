@@ -25,3 +25,12 @@
     	transform: rotate(1deg);
 	}
 }
+
+@keyframes rise-and-fall {
+    0% {
+        transform: translateY(5px);
+	}
+	100% {
+    	transform: translateY(0px);
+	}
+}

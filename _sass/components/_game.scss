@@ -20,6 +20,10 @@
             translate: 0px -50px;
             transition: translate 1s ease-in-out;
         }
+        
+        &.jiggle:hover {
+            animation: jiggle 0.2s infinite;
+        }
     }
 }
 

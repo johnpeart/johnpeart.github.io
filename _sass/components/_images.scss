@@ -181,6 +181,9 @@ img.app-icon {
     max-height: 57px;
     max-width: 57px;
     
+    mask-image: url(/assets/images/site/ios-icon-mask.svg);
+    mask-size: cover;
+    
     &.large {
         @include tablet-up {
             max-height: 104px;

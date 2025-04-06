@@ -16,3 +16,12 @@
         margin: $padding;
     }
 }
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-0.5deg);
+	}
+	50% {
+    	transform: rotate(1deg);
+	}
+}

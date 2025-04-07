@@ -86,7 +86,7 @@ module.exports = function(eleventyConfig) {
 
     // Combined "allPosts" collection, sorted by date
     eleventyConfig.addCollection("sitemap", function(collectionApi) {
-        return includedInAllPosts.flatMap(collection =>
+        return includedInSiteMap.flatMap(collection =>
             collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
@@ -123,6 +123,6 @@ module.exports = function(eleventyConfig) {
             layouts: "../_includes/layouts",
             data: "../_data",
             output: "_site"
-        }
+        },
     };
 };

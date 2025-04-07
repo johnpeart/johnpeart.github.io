@@ -1,0 +1,92 @@
+---
+layout: default
+header:
+  title: false
+---
+        
+<section id="page-content" class="h-entry e-content">
+    
+    {% unless header.title == false %}
+    <h1 class="page-title p-name">{{ title }}</h1>
+    {% endunless %}
+    
+    <search>
+        <form role="search" aria-label="Site search" onsubmit="return false;" class="card padding">
+            <label class="label" for="searchBox">Search for a post</label>
+            <input 
+                type="search" 
+                id="searchBox" 
+                placeholder="Enter a search term" 
+                aria-autocomplete="list" 
+                aria-controls="results"
+            >
+        </form>
+    </search>
+    
+    <ul id="results" class="key-value" role="listbox"></ul>
+    
+    <script>
+        async function loadIndex() {
+            const res = await fetch('{{ siteUrl }}/search.json');
+            return res.json();
+        }
+        
+        function searchPosts(posts, query) {
+            const q = query.toLowerCase();
+            return posts.filter(p => p.title.toLowerCase().includes(q));
+        }
+        
+        function renderResults(results) {
+            const list = document.getElementById('results');
+            list.innerHTML = '';
+            
+            // Create and append the heading element
+            const heading = document.createElement('h2');
+            heading.className = 'key-value--heading';
+            heading.textContent = 'Search results';
+            list.appendChild(heading);
+            
+            results.forEach(post => {
+                // Create the li element with classes
+                const li = document.createElement('li');
+                li.className = 'key-value--item key-value--with-value';
+                
+                // Create the anchor element with its class and href
+                const a = document.createElement('a');
+                a.className = 'key-value--link';
+                a.href = post.url;
+                
+                // Create the h3 element for the title
+                const h3 = document.createElement('h3');
+                // Note: using the same id for all posts isn't recommended; consider making this dynamic or removing it.
+                h3.id = 'all-posts';
+                h3.className = 'key-value--key';
+                h3.textContent = post.title;
+                
+                // Create the paragraph element for the category
+                const p = document.createElement('p');
+                p.className = 'key-value--value';
+                p.textContent = post.category;
+                
+                // Assemble the elements
+                a.appendChild(h3);
+                a.appendChild(p);
+                li.appendChild(a);
+                list.appendChild(li);
+            });
+        }
+
+
+        
+        document.addEventListener('DOMContentLoaded', async () => {
+            const posts = await loadIndex();
+            const input = document.getElementById('searchBox');
+            input.addEventListener('input', () => {
+                const results = searchPosts(posts, input.value);
+                renderResults(results);
+            });
+        });
+    </script>
+
+
+</section>

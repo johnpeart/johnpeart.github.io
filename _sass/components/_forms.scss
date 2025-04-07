@@ -1,3 +1,7 @@
+form *:last-child {
+    margin-bottom: 0 !important;
+}
+
 fieldset {
     margin-bottom: $padding * 2;
     @include clearfix();

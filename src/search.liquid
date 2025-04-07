@@ -1,0 +1,14 @@
+---
+permalink: "/search.json"
+eleventyExcludeFromCollections: true
+---
+
+[
+{% assign posts = collections.searchIndex %}
+{% for item in posts %}
+  {
+    "title": "{{ item.data.title | escape }}",
+    "url": "{{ item.url }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

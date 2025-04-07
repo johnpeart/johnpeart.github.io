@@ -63,10 +63,22 @@ module.exports = function(eleventyConfig) {
 
     // Collection Names
     const collections = [
-        "about", "blogpost", "goal", "idea", "list",
-        "manual", "music", "note", "now", "photo", "game",
-        "podcast", "reply", "share", "weeknote", "wishlist",
-        "feed", "page", "archive"
+        "archive",
+        "blogpost", 
+        "feed",
+        "game",
+        "goal", 
+        "list",
+        "manual", 
+        "music", 
+        "note", 
+        "now", 
+        "page",
+        "photo", 
+        "podcast", 
+        "reply", 
+        "share", 
+        "weeknote"
     ];
 
     // Dynamically add collections
@@ -76,12 +88,24 @@ module.exports = function(eleventyConfig) {
         });
     });
 
-    // Collections to include in "allPosts"
+    // Collections to include in "siteMap"
     const includedInSiteMap = [
-        "about", "blogpost", "goal", "idea", "list",
-        "manual", "music", "note", "now", "photo", "game",
-        "podcast", "reply", "share", "weeknote", "wishlist",
-        "feed", "page", "archive"
+        "archive",
+        "blogpost", 
+        "feed",
+        "game",
+        "goal", 
+        "list",
+        "manual", 
+        "music", 
+        "note", 
+        "now", 
+        "page",
+        "photo", 
+        "podcast", 
+        "reply", 
+        "share", 
+        "weeknote"
     ];
 
     // Combined "allPosts" collection, sorted by date
@@ -93,13 +117,43 @@ module.exports = function(eleventyConfig) {
 
     // Collections to include in "allPosts"
     const includedInAllPosts = [
-        "blogpost", "list", "music", "note",
-        "photo", "game", "share", "weeknote"
+        "blogpost", 
+        "list", 
+        "music", 
+        "note",
+        "photo", 
+        "game", 
+        "share", 
+        "weeknote"
     ];
 
     // Combined "allPosts" collection, sorted by date
     eleventyConfig.addCollection("allPosts", function(collectionApi) {
         return includedInAllPosts.flatMap(collection =>
+            collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`)
+        ).sort((a, b) => b.date - a.date);
+    });
+
+    // Collections to include in "allPosts"
+    const includedInSearchIndex = [
+        "archive",
+        "blogpost", 
+        "game",
+        "goal", 
+        "list",
+        "manual", 
+        "music", 
+        "note", 
+        "now", 
+        "page",
+        "photo", 
+        "podcast", 
+        "weeknote"
+    ];
+
+    // Combined "allPosts" collection, sorted by date
+    eleventyConfig.addCollection("searchIndex", function(collectionApi) {
+        return includedInSearchIndex.flatMap(collection =>
             collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });

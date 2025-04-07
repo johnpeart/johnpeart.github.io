@@ -22,7 +22,7 @@ list:
     - name: "Hyper Lode Runner"
       description: "Cartridge"
       status: "Owned"
-    - name: "Kirby's Dream Land"
+    - name: "Kirby’s Dream Land"
       description: "Cartridge"
       status: "Owned"
     - name: "Mario & Yoshi"
@@ -88,7 +88,7 @@ list:
       price: "£33"
       link: 
         external: "https://megacatstudios.com/products/kudzu"
-    - name: "Legend of Zelda: Link's Awakening DX"
+    - name: "Legend of Zelda: Link’s Awakening DX"
       description: "Cartridge"
       status: "Owned"
     - name: "Legend of Zelda: Oracle of Seasons"
@@ -294,7 +294,7 @@ list:
   - name: "Wing Commander: Prophecy"
     description: "Cartridge"
     status: "Owned"
-  - name: "Yoshi's Island: Super Mario Advance 3"
+  - name: "Yoshi’s Island: Super Mario Advance 3"
     description: "Cartridge"
     price: "£10"
     link: 

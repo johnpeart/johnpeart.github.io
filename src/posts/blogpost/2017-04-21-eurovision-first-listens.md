@@ -18,7 +18,7 @@ eurovision-entries:
   final: true
   commentary: |
     I love Swedish pop music and I love this track.
-    If it survives this graveyard slot, I'd guess it's a potential winner.
+    If it survives this graveyard slot, I'd guess it’s a potential winner.
 
 - country: "Georgia"
   song: "Keep The Faith"
@@ -34,7 +34,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    This is as slick as usual from Australia, but it lacks the funk of 2015 and the sparkle of 2016. It's good, but not amazing.
+    This is as slick as usual from Australia, but it lacks the funk of 2015 and the sparkle of 2016. It’s good, but not amazing.
 
 
 - country: "Albania"
@@ -51,7 +51,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    This instrumentation is like a 9 year old that's had too much sugar. Aside from some falsetto, its a bit anti-climactic.
+    This instrumentation is like a 9 year old that’s had too much sugar. Aside from some falsetto, its a bit anti-climactic.
 
 - country: "Montenegro"
   song: "Space"
@@ -75,7 +75,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    This track sounds like I imagine a UFO's engine sounds. It's fun. It's spacey-wacey. I like it, but don't love it.
+    This track sounds like I imagine a UFO’s engine sounds. It’s fun. It’s spacey-wacey. I like it, but don't love it.
 
 - country: "Portugal"
   song: "Amar Pelos Dois"
@@ -141,7 +141,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    Whilst the instrumentation is trippy, there's less vocal *punch* in this track than on an overbooked United flight. Dull.
+    Whilst the instrumentation is trippy, there’s less vocal *punch* in this track than on an overbooked United flight. Dull.
 
 - country: "Slovenia"
   song: "On My Way"
@@ -157,7 +157,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   commentary: |
-    This high-energy track would be at home in European gay clubs, but with such over-processed vocals, it's underwhelming.
+    This high-energy track would be at home in European gay clubs, but with such over-processed vocals, it’s underwhelming.
 
 - country: "Serbia"
   song: "In Too Deep"
@@ -165,7 +165,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    This is unexpectedly strong from Serbia. It's not my favourite club-style anthem this year, but it's a solid crack.
+    This is unexpectedly strong from Serbia. It’s not my favourite club-style anthem this year, but it’s a solid crack.
 
 - country: "Austria"
   song: "Running On Air"
@@ -175,7 +175,7 @@ eurovision-entries:
   commentary: |
     I only have one question about this song: is this an advert for Nike?
 
-    This is fun, likeable song, but it's no showstopper.
+    This is fun, likeable song, but it’s no showstopper.
 
 - country: "Russia"
   song: "Flame Is Burning"
@@ -183,7 +183,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    Russia have pulled out because [*politics*](https://eurovision.tv/story/russia-unable-to-participate-2017-ebu-statement). Having heard this track, I'm OK with: it's one of their weakest entries in years.
+    Russia have pulled out because [*politics*](https://eurovision.tv/story/russia-unable-to-participate-2017-ebu-statement). Having heard this track, I'm OK with: it’s one of their weakest entries in years.
 
 - country: "Macedonia"
   song: "Dance Alone"
@@ -193,7 +193,7 @@ eurovision-entries:
   commentary: |
     Oi Macedonia! Icona Pop called: they want their song back!
 
-    This is a floor-filler: it's 80s synth meets 2017 club anthem.
+    This is a floor-filler: it’s 80s synth meets 2017 club anthem.
 
 - country: "Malta"
   song: "Breathlessly"
@@ -211,7 +211,7 @@ eurovision-entries:
   commentary: |
     So this song has yodelling.
 
-    It's novel! It's impressive!
+    It’s novel! It’s impressive!
 
     *It takes about 30 seconds before it starts to piss you off!*
 
@@ -229,7 +229,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   commentary: |
-    This is a completely incoherent mess of a track. Partly as I can't speak Hungarian; mostly in the sense that it's shit.
+    This is a completely incoherent mess of a track. Partly as I can't speak Hungarian; mostly in the sense that it’s shit.
 
 - country: "Denmark"
   song: "Where I Am"
@@ -246,7 +246,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    This takes way, way too long to get going, and by the time it does, it's too late to bring it back. Just a bit boring.
+    This takes way, way too long to get going, and by the time it does, it’s too late to bring it back. Just a bit boring.
 
 - country: "San Marino"
   song: "Spirit of the Night"
@@ -254,7 +254,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    This song proves yet again that life's too short to listen to San Marino's Eurovision tracks. *presses skip track button*.
+    This song proves yet again that life’s too short to listen to San Marino’s Eurovision tracks. *presses skip track button*.
 
 - country: "Croatia"
   song: "My Friend"
@@ -262,7 +262,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   commentary: |
-    Imagine Alan Menken had a gay-by with Pavarotti. Now imagine that whilst on a bad acid trip. That's what this is like.
+    Imagine Alan Menken had a gay-by with Pavarotti. Now imagine that whilst on a bad acid trip. That’s what this is like.
 
 - country: "Norway"
   song: "Grab the Moment"
@@ -304,7 +304,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    Remember the super annoying French horn from *Theme Hospital*'s sound track? That's here in this really terrible track.
+    Remember the super annoying French horn from *Theme Hospital*’s sound track? That’s here in this really terrible track.
 
 - country: "Estonia"
   song: "Verona"
@@ -355,7 +355,7 @@ eurovision-entries:
     They've done a number on this compared to how dull it sounded during our national selection, but that won't save it.
 
 - country: "Italy"
-  song: "Occidentali's Karma"
+  song: "Occidentali’s Karma"
   artist: "Francesco Gabbani"
   semifinal: false
   final: true
@@ -368,12 +368,12 @@ eurovision-entries:
   semifinal: false
   final: true
   commentary: |
-    Ah, so Ukraine realised they can't afford to host again next year then. It's different: but that's not a good thing.
+    Ah, so Ukraine realised they can't afford to host again next year then. It’s different: but that’s not a good thing.
 
 
 ---
 
-It's become a little tradition of mine to give first impressions of the year's Eurovision entries on the day the official album gets released.
+It’s become a little tradition of mine to give first impressions of the year’s Eurovision entries on the day the official album gets released.
 
 This year, as last, I'm doing it in strict 140 character form: tweet sized commentary on every track.
 

@@ -9,4 +9,4 @@ aliases:
 - /shares/
 ---
 
-Things I've shared and commented on, from other people's websites.
+Things I've shared and commented on, from other people’s websites.

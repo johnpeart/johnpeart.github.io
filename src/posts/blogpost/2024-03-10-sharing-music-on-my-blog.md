@@ -30,7 +30,7 @@ The original iPod nano posts looked like this...
 
 This was based on a drawing from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:6G_IPod_Nano.svg). Separating that file into two layers – the device and the screen reflection – I then dynamically inserted artwork for whatever music I'm sharing in a re-usable, low effort way.
 
-But it's very 'flat'. 
+But it’s very 'flat'. 
 
 With my newer [gaming-focused posts](/games) are more three-dimensional: I've created a *Nintendo Game Boy Game Pak*, in isometric projection and dynamically inserted the box art into the image. For this iPod nano do-over, I've tried to do the same thing. Now, the music posts look like this:
 
@@ -43,6 +43,6 @@ With my newer [gaming-focused posts](/games) are more three-dimensional: I've cr
 
 ## Harmless fun
 
-This is a silly thing to have put into my website, but I think it's more fun than just a picture and a title. And I think the isometric aesthetic is more fun than the 2D projection that came before it.
+This is a silly thing to have put into my website, but I think it’s more fun than just a picture and a title. And I think the isometric aesthetic is more fun than the 2D projection that came before it.
 
 Check out all the iPods nano on my [Music](/music) page.

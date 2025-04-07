@@ -18,9 +18,9 @@ I like to think some of these philosophies are a little counter-cultural. Partic
 
 ## Broadcast your quirks
 
-In my current role I'm working on a fairly large policy programme. It's a great job, working on the kind of boring magic[^boring] that makes my heart sing. As a rough idea, the programme has enough people working on it to fill a small, countryside pub, and I’m one of the senior managers.
+In my current role I'm working on a fairly large policy programme. It’s a great job, working on the kind of boring magic[^boring] that makes my heart sing. As a rough idea, the programme has enough people working on it to fill a small, countryside pub, and I’m one of the senior managers.
 
-It's not the first time I've been in this kind of position but it is the largest team I've worked with; and certainly the largest number of teams and people that I've had to lead.
+It’s not the first time I've been in this kind of position but it is the largest team I've worked with; and certainly the largest number of teams and people that I've had to lead.
 
 In recent weeks, values, culture and behaviours have come up in a lots of contexts – explicitly or implicitly. Planning meetings. "Ways of working" discussions. Emails about things people need unblocking.
 
@@ -46,7 +46,7 @@ So when someone asks for my view, I will at least try to form an opinion and tel
 
 In a separate conversation recently, a colleague reflected back to me that sometimes I appear very confident in my ideas, and that they interpret this as me being wedded to them.[^often]
 
-This was somewhat of a shock to me. I am constantly repeating the phrase "strong opinion, loosely held". I say it so often that it's become a standing joke in the team. I say it because I want people to know that I'm offering a view that I know might not be right, and that I am inviting alternative views. 
+This was somewhat of a shock to me. I am constantly repeating the phrase "strong opinion, loosely held". I say it so often that it’s become a standing joke in the team. I say it because I want people to know that I'm offering a view that I know might not be right, and that I am inviting alternative views. 
 
 That feedback has given me pause. 
 
@@ -62,7 +62,7 @@ Putting your philosophies out there for people to live by can be transformative,
 
 
 
-[^1]: Which I picked up at GDS, but was apparently originally Paul Saffo's idea and is more accurately phrased as ["Strong opinion, weakly held"](https://saffo.com/02008/07/26/strong-opinions-weakly-held/).
+[^1]: Which I picked up at GDS, but was apparently originally Paul Saffo’s idea and is more accurately phrased as ["Strong opinion, weakly held"](https://saffo.com/02008/07/26/strong-opinions-weakly-held/).
 
 [^2]: Pretty sure I picked this up from Janet Hughes, also whilst at GDS.
 
@@ -74,7 +74,7 @@ Putting your philosophies out there for people to live by can be transformative,
 
 [^boring]: I saw this phrase – "boring magic" – in a blog post from [Steven Messer](https://visitmy.website/2020/01/08/boring-magic/), which he attributes to [Conor Delahunty](http://conordelahunty.com/). I've never met either of them, and I think I left GDS long before they arrived. I don't think it was meant to describe the [kind of thing I'm working on now](https://www.gov.uk/guidance/digital-identity), but it works!
 
-[^6]: I know what you're thinking. *Of course, the middle-class white guy thinks he should have an opinion.* That's not quite it though. I try not to confuse forming and offering an opinion, with believing I'm *entitled* to have or voice an opinion when its not appropriate. I'm rarely *intentionally* that much of an arsehole.
+[^6]: I know what you're thinking. *Of course, the middle-class white guy thinks he should have an opinion.* That’s not quite it though. I try not to confuse forming and offering an opinion, with believing I'm *entitled* to have or voice an opinion when its not appropriate. I'm rarely *intentionally* that much of an arsehole.
 
 [^often]: In fairness to both me and this colleague, it’s someone I work with frequently but not with the same level of frequency or closeness that I work with teams I directly manage. It’s completely plausible that they have never heard me say “strong opinion, loosely held” or explain what I mean by that. We’ve talked about it now, and I think we have a better understanding of each other’s philosophies.
 

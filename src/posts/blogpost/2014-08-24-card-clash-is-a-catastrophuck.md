@@ -1,6 +1,6 @@
 ---
 title: "Card clash is a catastrophuck"
-excerpt: "'Card Clash' has been driving me insane for months. It's a piece of marketing so pointless, it makes me furious every time I see it. So I decided to fix it."
+excerpt: "'Card Clash' has been driving me insane for months. It’s a piece of marketing so pointless, it makes me furious every time I see it. So I decided to fix it."
 categories:
   - services
 ---

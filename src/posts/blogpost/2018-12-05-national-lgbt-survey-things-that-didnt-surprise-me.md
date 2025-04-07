@@ -15,7 +15,7 @@ In July 2017, the Government Equalities Office launched the national LGBT survey
 <blockquote>
 <p><strong>Other blog posts in this series</strong></p>
 <ol>  
-<li><a href="/2018/10/01/national-lgbt-survey-why-its-important">#LGBTsurvey: why it's important</a></li><li><a href="/2018/12/04/national-lgbt-survey-what-surprised-me">#LGBTsurvey: things that surprised me</a></li>
+<li><a href="/2018/10/01/national-lgbt-survey-why-its-important">#LGBTsurvey: why it’s important</a></li><li><a href="/2018/12/04/national-lgbt-survey-what-surprised-me">#LGBTsurvey: things that surprised me</a></li>
 </ol>
 </blockquote>
 
@@ -31,7 +31,7 @@ Respondents to the survey were, on average, younger than the general population.
 
 ## 2. Holding hands
 
-More than two-thirds of respondents said they wouldn't hold their same-sex partner's hand in public for fear of a negative reaction. This figure grabbed headlines when the announcement was made: I think it jarred with those who thought that with legislation like same-sex marriage, LGBT people had achieved full equality. 
+More than two-thirds of respondents said they wouldn't hold their same-sex partner’s hand in public for fear of a negative reaction. This figure grabbed headlines when the announcement was made: I think it jarred with those who thought that with legislation like same-sex marriage, LGBT people had achieved full equality. 
 
 It didn't surprise me at all, nor did it surprise anyone I spoke to who was LGBT. I avoid holding hands in public -- just like [I lie to my hairdresser](/2018/10/11/i-lied-to-my-hairdresser) -- because I fear a negative reaction; and it doesn't surprise me that I'm in the majority (at least in this sample).
 
@@ -39,7 +39,7 @@ It didn't surprise me at all, nor did it surprise anyone I spoke to who was LGBT
 
 The survey asked respondents if they had discussed either sexual orientation, gender identity or both during their education. Only 3% of respondents said they had discussed **both** at school.
 
-I was one of the last groups of children to grow up under Section 28 of the Local Government Act 1988, which prohibited the teaching of "the acceptability of homosexuality as a pretended family relationship". [Research by Stonewall](https://www.stonewall.org.uk/sites/default/files/teachers_report_2014.pdf) suggests that a significant proportion of teachers still don't know that the legislation has been repealed, even though that happened more than 10 years ago. In that context, it's not surprising that very few respondents said they'd discussed either sexual orientation or gender identity at school, let alone both.
+I was one of the last groups of children to grow up under Section 28 of the Local Government Act 1988, which prohibited the teaching of "the acceptability of homosexuality as a pretended family relationship". [Research by Stonewall](https://www.stonewall.org.uk/sites/default/files/teachers_report_2014.pdf) suggests that a significant proportion of teachers still don't know that the legislation has been repealed, even though that happened more than 10 years ago. In that context, it’s not surprising that very few respondents said they'd discussed either sexual orientation or gender identity at school, let alone both.
 
 ## 4. Hate incidents
 
@@ -51,6 +51,6 @@ Some of most common reasons cited by respondents for not reporting these inciden
 
 The importance of the internet was a theme in many free text responses that people could put at the end of the survey. This chimes with my own experience.
 
-I got my sex education from websites, because the sex education I got at school was focused on not getting pregnant -- which seemed a bit redundant to me. The internet gave me access to a community, through social networks. In fact, it's one of the reasons I dislike the idea of internet filtering so much: because they too easily filter out any mention of the word "gay" for fear of porn popping up.
+I got my sex education from websites, because the sex education I got at school was focused on not getting pregnant -- which seemed a bit redundant to me. The internet gave me access to a community, through social networks. In fact, it’s one of the reasons I dislike the idea of internet filtering so much: because they too easily filter out any mention of the word "gay" for fear of porn popping up.
 
 When I was growing up the internet was invaluable for me, and it still is today; so I'm not surprised others felt the same way.

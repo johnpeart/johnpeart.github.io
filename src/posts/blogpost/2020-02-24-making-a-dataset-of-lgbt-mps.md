@@ -85,7 +85,7 @@ And you never know, maybe one day I’ll be able to start a list of LGBT Prime M
 
 [^tweetedatme]: I, of course, looked to update the dataset in the wake of the December 2019 general election. In the days after the poll, I had people tweeting at me that I’d never met, letting me know which MPs I’d missed and even sending me sources. My favourite was perhaps where someone had pointed me towards a speech of newly appointed Darlington MP [Peter Gibson’s](https://www.facebook.com/darlingtonconservativeparty/videos/2550400468415917/) in which he thanks his partner for their support during the campaign.
 
-[^bbc]: **BBC News**, 11 June 2017, [Election results 2017: The most diverse Parliament yet](https://www.bbc.co.uk/news/election-2017-40232272); and 17 December 2019 [Election 2019: Britain's most diverse Parliament](https://www.bbc.co.uk/news/election-2019-50808536).
+[^bbc]: **BBC News**, 11 June 2017, [Election results 2017: The most diverse Parliament yet](https://www.bbc.co.uk/news/election-2017-40232272); and 17 December 2019 [Election 2019: Britain’s most diverse Parliament](https://www.bbc.co.uk/news/election-2019-50808536).
 
 [^sky]: **Sky News**, 16 December 2019, [General election: 2019 heralds the most diverse parliament for gender and ethnicity](https://news.sky.com/story/general-election-2019-heralds-the-most-diverse-parliament-for-gender-and-ethnicity-11885529).
 

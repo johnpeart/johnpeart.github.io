@@ -7,13 +7,13 @@ categories:
   - personal
 ---
 
-A new year is here. That means it's time for some new goal setting.
+A new year is here. That means it’s time for some new goal setting.
 
 2021 was a qualified success; I achieved most of [what I set out to](/2022/01/01/setting-goals-for-2022) in spirit, even if not in practice. I'm hoping that in 2022, I can do better.
 
 ## Some parameters for this go round
 
-I'm generally a pessimist, but even *I* didn't expect the pandemic to still be plaguing our daily lives almost two years on. It's been a drag on us all generally and on my focus specifically.
+I'm generally a pessimist, but even *I* didn't expect the pandemic to still be plaguing our daily lives almost two years on. It’s been a drag on us all generally and on my focus specifically.
 
 So, for 2022, I'm going to keep things simple. Nothing drastic. I'm going to focus on 4 simple things to make me a bit happier.
 
@@ -21,7 +21,7 @@ So, for 2022, I'm going to keep things simple. Nothing drastic. I'm going to foc
 
 ### 1. Save some money
 
-I am, frankly, sick of paying someone else's mortgage. It's time to get a mortgage of my own. I've got most of the money I need, but I'd like a buffer. By the end of *2023* I'm going to aim to buy something. This year though, I want to round out my savings. 
+I am, frankly, sick of paying someone else’s mortgage. It’s time to get a mortgage of my own. I've got most of the money I need, but I'd like a buffer. By the end of *2023* I'm going to aim to buy something. This year though, I want to round out my savings. 
 
 My goal is simple: save £5,000 this year. That works out to just over £400 a month. I've done it before; I can do it again! 
 
@@ -41,7 +41,7 @@ I have an Apple Watch that tracks my daily activity in 3 ways:
 
 - standing for 1 minute every hour, at least 12 times a day
 - doing 30 minutes exercise a day
-- burning a chosen number of active calories everyday – for me, that's 500 calories
+- burning a chosen number of active calories everyday – for me, that’s 500 calories
 
 So this goal is straightforward. Do those 3 things at least 5 times a week.
 
@@ -57,7 +57,7 @@ My goal is to lose 5 kilograms, taking me comfortably under my target weight, wh
 
 ## May the odds be ever in my favour
 
-So that's it. Four simple goals, 365 days. Let's get to it!
+So that’s it. Four simple goals, 365 days. Let’s get to it!
 
 
 > You can follow my progress with my goals by visiting my [goals dashboard](/goals/).

@@ -1,6 +1,6 @@
 ---
 date: 2024-09-22T15:30:00+01:00
-title: "Sharing games I've played on my blog"
+title: "Sharing games I’ve played on my blog"
 author: "John Peart"
 excerpt: "Rocking the retro vibe."
 categories:

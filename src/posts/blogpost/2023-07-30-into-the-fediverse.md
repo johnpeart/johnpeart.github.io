@@ -15,7 +15,7 @@ I've dipped my toe in the waters, creating social media accounts on services lik
 
 The distinctive thing about lots of federated social services is that they’re built on top of open web standards like *ActivityPub* and *Webmention*. These are standards that *any* website can adopt to plug themselves into the Fediverse. 
 
-So that's what I've done!
+So that’s what I've done!
 
 ## I've added Fediverse features to this humble blog
 
@@ -27,7 +27,7 @@ My site will also send out 'web mentions' to any webpage that is linked to from 
 
 I've got to admit, I don't entirely understand how this all works. It does *appear* to work, though. 
 
-*Making* it work was complicated by the fact that this site is built on Jekyll and hosted on GitHub Pages. Jekyll is a 'static site generator'; there's no database or other fancy stuff actively running in the background. So adding these federated features has been a case of hacking together bits and pieces. 
+*Making* it work was complicated by the fact that this site is built on Jekyll and hosted on GitHub Pages. Jekyll is a 'static site generator'; there’s no database or other fancy stuff actively running in the background. So adding these federated features has been a case of hacking together bits and pieces. 
 
 I've used [Aaron Gustafson's](https://www.aaron-gustafson.com/notebook/enabling-webmentions-in-jekyll/) [Jekyll Webmention Jekyll plugin](https://github.com/aarongustafson/jekyll-webmention_io) to handle the sending and receiving of these federated signals every time my site is built. That plugin, itself, relies on two free web services – [Webmention.io](https://webmention.io) and [Bridgy](https://brid.gy). It took a few hours to wrap my head around the basics and to set it all up. I also added some custom styles to display the outputs on my webpages (scroll down to see them!). 
 

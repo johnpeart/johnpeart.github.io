@@ -11,7 +11,7 @@ posse:
 
 MMXXIV. The year of the Dragon. Twenty twenty-four. 
 
-It's a brand new year! And that means it's time for a brand new set of personal goals for the year ahead. 
+It’s a brand new year! And that means it’s time for a brand new set of personal goals for the year ahead. 
 
 Since 2018, I've set myself some public goals at the turn of the year. Not *resolutions*; goals. 
 

@@ -11,7 +11,7 @@ EXIF:
     iso: 5000
 ---
 
-On Friday, I popped along to the Phoenix Theatre in London's West End to watch *Stranger Things: The First Shadow*.
+On Friday, I popped along to the Phoenix Theatre in London’s West End to watch *Stranger Things: The First Shadow*.
 
 I enjoyed *Stranger Things* on Netflix, and thought Season 4 in particular was brilliant. *First Shadow* expands on one of the plot points from that season.
 

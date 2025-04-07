@@ -8,7 +8,7 @@ reply_to:
     name: "Aftermath"
     url: "https://aftermath.site/"
   post:
-    title: "Assassin's Creed Mirage Was Juuusssttt Right"
+    title: "Assassin’s Creed Mirage Was Juuusssttt Right"
     url: "https://aftermath.site/assassins-creed-mirage-was-juuusssttt-right"
     image: "https://lede-admin.aftermath.site/wp-content/uploads/sites/55/2023/12/Assassins-Creed®-Mirage2023-11-3-10-40-0.jpg"
     date: 2023-12-07

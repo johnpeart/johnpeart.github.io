@@ -20,6 +20,6 @@ posse:
 
 We think inclusion is imperative. Everyone who chooses to use a digital identity should be able to do so.
 
-That's why we're monitoring how accessible and inclusive the digital identity and attribute services certified against the government's trust framework are.
+That’s why we're monitoring how accessible and inclusive the digital identity and attribute services certified against the government’s trust framework are.
 
 [Katie Sunley](https://www.linkedin.com/in/katie-sunley-96659887/) writes about the findings from our first inclusion monitoring report on the OfDIA “Enabling digital identity” blog.

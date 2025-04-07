@@ -21,7 +21,7 @@ posse:
 
 This week, the Office for Digital Identities and Attributes has published an update to the UK digital identity and attributes trust framework as a pre-release.
 
-Services cannot get certified against this new, 0.4 or "gamma" trust framework just yet. That's because there are no conformity assessment bodies currently accredited to evaluate services against this version. 
+Services cannot get certified against this new, 0.4 or "gamma" trust framework just yet. That’s because there are no conformity assessment bodies currently accredited to evaluate services against this version. 
 
 We have published the pre-release so that:
 
@@ -30,4 +30,4 @@ We have published the pre-release so that:
 
 When it is possible to get certified, we will publish a final version of the 0.4 trust framework (replacing the pre-release). We expect certification will be possible from 2025, subject to accreditation having taken place.
 
-You can find out more about what's new in the 0.4 trust framework on the [OfDIA 'Enabling digital identity' blog](https://enablingdigitalidentity.blog.gov.uk/2024/11/25/announcing-the-gamma-0-4-trust-framework/), and [read the full publication on GOV.UK](https://www.gov.uk/government/collections/uk-digital-identity-and-attributes-trust-framework).
+You can find out more about what’s new in the 0.4 trust framework on the [OfDIA 'Enabling digital identity' blog](https://enablingdigitalidentity.blog.gov.uk/2024/11/25/announcing-the-gamma-0-4-trust-framework/), and [read the full publication on GOV.UK](https://www.gov.uk/government/collections/uk-digital-identity-and-attributes-trust-framework).

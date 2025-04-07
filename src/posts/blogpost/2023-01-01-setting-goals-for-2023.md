@@ -7,11 +7,11 @@ categories:
   - personal
 ---
 
-It's the most wonderful time of the year!
+It’s the most wonderful time of the year!
 
-It's 1 January. The day I set myself some goals for the year ahead.
+It’s 1 January. The day I set myself some goals for the year ahead.
 
-[2022's goals may not have gone according to plan](/2022/01/01/setting-goals-for-2022/), but whilst I didn't achieve my explicit goals, I did reach some big milestones.
+[2022’s goals may not have gone according to plan](/2022/01/01/setting-goals-for-2022/), but whilst I didn't achieve my explicit goals, I did reach some big milestones.
 
 I'm a home owner now. I'm back in a job that I feel excited about. The stage is set for a good 2023 for me... at least, I hope so.
 
@@ -35,7 +35,7 @@ My goal this year is therefore as it was last year: save £400 a month.
 
 After almost a decade, I've reached the point where the Student Loans Company have told me to switch to direct debit to repay my student loans instead of taking it from payroll. This is great news!
 
-If the repayments go as scheduled, I'll repay my student loan entirely by next summer. By interest rates are going up, and it's costing me more to pay off the loan each month than I'd get from interest on the savings.
+If the repayments go as scheduled, I'll repay my student loan entirely by next summer. By interest rates are going up, and it’s costing me more to pay off the loan each month than I'd get from interest on the savings.
 
 My goal, therefore, is to accelerate my repayments so that by Christmas 2023, I no longer have to make the payments.
 

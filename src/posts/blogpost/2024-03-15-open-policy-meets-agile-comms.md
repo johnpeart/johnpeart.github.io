@@ -10,7 +10,7 @@ categories:
 
 This week I had the pleasure of working with [Giles Turnbull](//gilest.org) again, as he led a session for our team about how we could do “agile comms”.
 
-For a topic like this, Giles is the person you want facilitating that discussion. He literally [wrote the book](https://agilecommshandbook.com) on it. It's been the highlight of my week. And I *hope* it will spur my team into a next phase of brilliant policy making.
+For a topic like this, Giles is the person you want facilitating that discussion. He literally [wrote the book](https://agilecommshandbook.com) on it. It’s been the highlight of my week. And I *hope* it will spur my team into a next phase of brilliant policy making.
 
 ## From open policy to agile comms
 
@@ -26,7 +26,7 @@ Our team, though, prides itself on *not* doing that. We *do* go out to talk to p
 
 We speak to so many people on a regular basis that I’m surprised we are managing to keep up. And, in the not-too-distant future, when [our legislation](https://bills.parliament.uk/bills/3430) is done and we’re a real *thing* that people come to rely on, I reckon it’s going to become harder – and maybe too hard – to maintain trust with our network of opinion-havers if we *only* rely on the techniques we have used so far to build that trust.
 
-That’s led us to start thinking about how our programme can adapt how we communicate with our networks. That's what led us to think about agile comms.
+That’s led us to start thinking about how our programme can adapt how we communicate with our networks. That’s what led us to think about agile comms.
 
 ## Sparking lightbulb moments
 

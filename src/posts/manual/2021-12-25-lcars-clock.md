@@ -39,7 +39,7 @@ To turn off *LCARS clock*, connect to the device using SSH. In the command line,
 sudo halt
 ```
 
-*LCARS clock* will take around 30 seconds to shut down after you have sent the command. In its powered down state the screen's backlight will still stay on; this is normal but you should switch off the device at the socket or unplug the USB cable to turn off the device completely.
+*LCARS clock* will take around 30 seconds to shut down after you have sent the command. In its powered down state the screen’s backlight will still stay on; this is normal but you should switch off the device at the socket or unplug the USB cable to turn off the device completely.
 
 **Do not switch the device off by cutting the power**. This may corrupt the memory card.
 

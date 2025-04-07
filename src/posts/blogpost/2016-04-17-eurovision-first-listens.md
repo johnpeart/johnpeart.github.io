@@ -1,6 +1,6 @@
 ---
 title: "I listened to every Eurovision 2016 entry, so you don’t have to"
-excerpt: "I've done the hard work to make your Eurovision experience simple once again this year. Here are my first impressions of this year's Eurovision Song Contest entries."
+excerpt: "I've done the hard work to make your Eurovision experience simple once again this year. Here are my first impressions of this year’s Eurovision Song Contest entries."
 layout: eurovision
 image: /posts/eurovision.png
 categories:
@@ -13,7 +13,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   commentary: |
-    This is going to be a great opening number that'll pump some energy into the stadium. It's a safe, strong pop affair; and I like it!
+    This is going to be a great opening number that'll pump some energy into the stadium. It’s a safe, strong pop affair; and I like it!
 
 - country: "Greece"
   song: "Utopian Land"
@@ -37,7 +37,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    There's so much gravel in this guy's throat, I want to give him a throat lozenge. It's a strong vocal for a strong song.
+    There’s so much gravel in this guy’s throat, I want to give him a throat lozenge. It’s a strong vocal for a strong song.
 
 - country: "Croatia"
   song: "Lighthouse"
@@ -45,7 +45,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    This could have been a superb ballad; the instrumentation is intriguing, and there's a key change. But you can't excuse the weak vocals.
+    This could have been a superb ballad; the instrumentation is intriguing, and there’s a key change. But you can't excuse the weak vocals.
 
 - country: "Netherlands"
   song: "Slow Down"
@@ -61,7 +61,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    I've no idea what's going on with the [faux-phone call](https://youtu.be/YQHsXMglC9A?t=33), but its [not the first act](https://www.youtube.com/watch?v=bRAjf9rFA58) to badly [copy a best-selling artist](https://www.youtube.com/watch?v=XAkUtig5iG4).
+    I've no idea what’s going on with the [faux-phone call](https://youtu.be/YQHsXMglC9A?t=33), but its [not the first act](https://www.youtube.com/watch?v=bRAjf9rFA58) to badly [copy a best-selling artist](https://www.youtube.com/watch?v=XAkUtig5iG4).
 
 - country: "San Marino"
   song: "I Didn't Know"
@@ -71,7 +71,7 @@ eurovision-entries:
   commentary: |
     San Marino has run out of talent. It was inevitable with a population of 32,000.
 
-    Let's hope this Shaft rip off falls at the first hurdle.
+    Let’s hope this Shaft rip off falls at the first hurdle.
 
 - country: "Russia"
   song: "You Are The Only One"
@@ -87,7 +87,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    There's clearly a competent singer here, but the song is just uninspiring ballad that never quite pulls your heartstrings.
+    There’s clearly a competent singer here, but the song is just uninspiring ballad that never quite pulls your heartstrings.
 
 - country: "Cyprus"
   song: "Alter Ego"
@@ -95,7 +95,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    After 2015's Cypriot snooze fest, this is pretty refreshing and fun! I'm not cool enough to have an opinion about this energised rock song.
+    After 2015’s Cypriot snooze fest, this is pretty refreshing and fun! I'm not cool enough to have an opinion about this energised rock song.
 
 - country: "Austria"
   song: "Loin d'ici"
@@ -103,7 +103,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   commentary: |
-    Austria must've just gotten last year's bill. That's the only reason I can think of for a song with no discernible hook and a 90s vibe.
+    Austria must've just gotten last year’s bill. That’s the only reason I can think of for a song with no discernible hook and a 90s vibe.
 
 - country: "Estonia"
   song: "Play"
@@ -113,7 +113,7 @@ eurovision-entries:
   commentary: |
     Did Estonia kidnap Jamie Cullum?
 
-    This pop-jazz fusion is pretty interesting but I'm not sure it's strong enough to place well though.
+    This pop-jazz fusion is pretty interesting but I'm not sure it’s strong enough to place well though.
 
 - country: "Azerbaijan"
   song: "Miracle"
@@ -137,7 +137,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   commentary: |
-    Everything's so nicey-nicey, boring-snoring, and then… *boom* the crazy is let loose. Well played Iceland. Well played.
+    Everything’s so nicey-nicey, boring-snoring, and then… *boom* the crazy is let loose. Well played Iceland. Well played.
 
 - country: "Bosnia and Herzegovina"
   song: "Ljubav Je"
@@ -162,7 +162,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   commentary: |
-    This sounds like the musical love child of Bastille and Boy George. It's all pretty psychedelic; in a good way.
+    This sounds like the musical love child of Bastille and Boy George. It’s all pretty psychedelic; in a good way.
 
 - country: "Poland"
   song: "Color Of Your Life"
@@ -186,7 +186,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   commentary: |
-    If Hovi is a Star, he's a fading star that's imploding into irrelevance.
+    If Hovi is a Star, he’s a fading star that’s imploding into irrelevance.
 
 - country: "Belarus"
   song: "Help You Fly"
@@ -210,7 +210,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   commentary: |
-    Ireland's firmly in late-90s boyband territory here; late-90s singer, late-90s song, late-90s cheese. It's more Bryan Adams than Westlife.
+    Ireland’s firmly in late-90s boyband territory here; late-90s singer, late-90s song, late-90s cheese. It’s more Bryan Adams than Westlife.
 
 - country: "Macedonia"
   song: "Dona"
@@ -303,7 +303,7 @@ eurovision-entries:
     Way to waste a moody opening! The verses aren't very catchy and the chorus is just whiny. I don't hate it, but can't say anything positive.
 
 - country: "Belgium"
-  song: "What's The Pressure"
+  song: "What’s The Pressure"
   artist: "Laura Tesoro"
   semifinal: 2
   final: true
@@ -318,7 +318,7 @@ eurovision-entries:
   semifinal: false
   final: true
   commentary: |
-    It's unusual to hear English lyrics in the French entry, but it's another conservative choice for France. At least it's not another ballad.
+    It’s unusual to hear English lyrics in the French entry, but it’s another conservative choice for France. At least it’s not another ballad.
 
 - country: "Germany"
   song: "Ghost"
@@ -334,7 +334,7 @@ eurovision-entries:
   semifinal: false
   final: true
   commentary: |
-    This is a total let down after [mini Il Divo](http://youtu.be/w1f6o1HQBvg) last year. It's gratuitous instrumentation is uninspiring at best; an ear-assault at worst.
+    This is a total let down after [mini Il Divo](http://youtu.be/w1f6o1HQBvg) last year. It’s gratuitous instrumentation is uninspiring at best; an ear-assault at worst.
 
 - country: "Spain"
   song: "Say Yay!"
@@ -350,7 +350,7 @@ eurovision-entries:
   semifinal: false
   final: true
   commentary: |
-    Sweden just has a knack of producing pop songs that are on point; and this is another. This sounds like it's from Coldplay's latest album.
+    Sweden just has a knack of producing pop songs that are on point; and this is another. This sounds like it’s from Coldplay’s latest album.
 
 - country: "United Kingdom"
   song: "You're Not Alone"
@@ -358,10 +358,10 @@ eurovision-entries:
   semifinal: false
   final: true
   commentary: |
-    I maintain this is a weak choice compared with others the UK could've picked; but it's not awful, and it'll probably get the 1D-tween vote.
+    I maintain this is a weak choice compared with others the UK could've picked; but it’s not awful, and it'll probably get the 1D-tween vote.
 ---
 
-The Eurovision Song Contest's 2016 album, featuring all the acts entering the contest this year, was released yesterday. With the exception of the UK entry, I've deliberately avoided listening to this year's line up until today.
+The Eurovision Song Contest’s 2016 album, featuring all the acts entering the contest this year, was released yesterday. With the exception of the UK entry, I've deliberately avoided listening to this year’s line up until today.
 
 In 140 characters or fewer, here are my first impressions of each of the 43 entries.
 

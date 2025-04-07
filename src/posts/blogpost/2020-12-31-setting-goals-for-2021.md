@@ -11,7 +11,7 @@ categories:
 
 [I achieved the things I set out to do](/2020/12/21/2020-resolutions-review). Whilst they may have been small in the grand scheme of things, they were _something_ to achieve even if everything else was falling apart around me.
 
-It's time to turn the page and set some new goals (and roll over some old ones) for 2021.
+It’s time to turn the page and set some new goals (and roll over some old ones) for 2021.
 
 ## New goals for 2021
 
@@ -29,7 +29,7 @@ As a stretch goal, I'll aim for an average of 3 meat-free days in a given week.
 
 ### 2. Quit Instagram
 
-A couple of years ago [I quit Facebook](/2018/12/18/goodbye-facebook). I don't regret it; it was a blackhole. I still use other services from Facebook though, like Instagram and WhatsApp. In the last couple of years, Instagram has become much less of a highly-curated photo service and much more of an algorithmically-crafted social network. It's slowly morphing into Facebook; and I don't want that for all the same reasons I don't want Facebook.
+A couple of years ago [I quit Facebook](/2018/12/18/goodbye-facebook). I don't regret it; it was a blackhole. I still use other services from Facebook though, like Instagram and WhatsApp. In the last couple of years, Instagram has become much less of a highly-curated photo service and much more of an algorithmically-crafted social network. It’s slowly morphing into Facebook; and I don't want that for all the same reasons I don't want Facebook.
 
 I want to share and see great photography and art. Instagram rarely gives me that joy anymore, so I've decided the platform has outlived its usefulness to me. I'll be shuttering my Instagram account on 1 January 2021.
 
@@ -48,7 +48,7 @@ Every day, for at least 5 minutes, I'm going to try and be 'mindful'. I'm usuall
 
 ### 4. Give something back
 
-I did not get very far with this goal last year but it's something I still want to do. I feel very passionately that people in positions of privilege have an obligation to give something back; so I'm going to have another shot at finding a charity trustee or college governor role. Failing that, a substantial volunteering role somewhere will be a good thing to do.
+I did not get very far with this goal last year but it’s something I still want to do. I feel very passionately that people in positions of privilege have an obligation to give something back; so I'm going to have another shot at finding a charity trustee or college governor role. Failing that, a substantial volunteering role somewhere will be a good thing to do.
 
 > **Success measure:** Become a charity trustee or college governor by December 2021.
 
@@ -56,7 +56,7 @@ I did not get very far with this goal last year but it's something I still want 
 
 ### 5. Keep writing blog posts
 
-I'm going to continue to push myself to keep writing blog posts. It helps to stretch my brain and it feels cathartic. This year's goal is to – once again – write at least 12 blog post throughout the year (or roughly one a month).
+I'm going to continue to push myself to keep writing blog posts. It helps to stretch my brain and it feels cathartic. This year’s goal is to – once again – write at least 12 blog post throughout the year (or roughly one a month).
 
 > **Success measure:** 12 blog posts written
 

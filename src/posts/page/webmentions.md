@@ -4,7 +4,7 @@ title: "What are Webmentions?"
 
 A **webmention** is a way for websites to communicate. If you write something in response to one of my posts on this website, your website can notify mine, and your response will be displayed at the bottom of my posts. 
 
-It's a bit like replying to a post on social media, but the conversation can happen directly on our own websites, not on centralised Big Tech platforms.
+It’s a bit like replying to a post on social media, but the conversation can happen directly on our own websites, not on centralised Big Tech platforms.
 
 There are two simple ways to send me a webmention:
 

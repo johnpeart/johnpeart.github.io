@@ -37,13 +37,13 @@ After Netflix, Disney+ is probably the biggest beast of the streaming market. I'
 
 Whilst I've enjoyed the Mandolorian, and watched all the Avengers movies for the first time, I'm not convinced this is worth keeping as an annual subscription. There isn't enough good, original content to keep me stuck in the ecosystem year-round.
 
-It's on the chopping block when my subscription expires in April.
+It’s on the chopping block when my subscription expires in April.
 
 ### Paramount+
 
-Paramount+ should be my favourite streaming service. Paramount owns Star Trek. I _love_ Star Trek. If there was one service that I should be willing to pay good money for, it's Paramount+. Except Paramount+ doesn't actually have all of Star Trek on it, and the rest of its catalogue is dire.
+Paramount+ should be my favourite streaming service. Paramount owns Star Trek. I _love_ Star Trek. If there was one service that I should be willing to pay good money for, it’s Paramount+. Except Paramount+ doesn't actually have all of Star Trek on it, and the rest of its catalogue is dire.
 
-So, after a 1 week trial and a 1 month subscription to catch up on a couple of shows I couldn't watch anywhere else, it's a goner already.
+So, after a 1 week trial and a 1 month subscription to catch up on a couple of shows I couldn't watch anywhere else, it’s a goner already.
 
 ### Costs so far...
 
@@ -106,9 +106,9 @@ I am actually subscribed to two more streaming services, but they come as part o
 
 The ubiquitous mega-bundle that is Amazon Prime is one of my longest running subscriptions. I buy a large amount of everything I buy through Amazon – which is exactly what Jeff Bezos wants.
 
-The bundle keeps getting bigger and it also keeps getting pricer. Whilst I'm grandfathered in at a lower cost until August, it's going up to £95 after that.
+The bundle keeps getting bigger and it also keeps getting pricer. Whilst I'm grandfathered in at a lower cost until August, it’s going up to £95 after that.
 
-I do use a lot of Amazon's services; especially the delivery services and, to a lesser extent, Prime TV[^Picard]. I think I'm going to struggle to cancel this practically, but I am going to give it a go when renewal time comes around.
+I do use a lot of Amazon’s services; especially the delivery services and, to a lesser extent, Prime TV[^Picard]. I think I'm going to struggle to cancel this practically, but I am going to give it a go when renewal time comes around.
 
 [^Picard]: At the moment, I'm clinging on for the third and final season of Picard – another Star Trek show.
 
@@ -134,7 +134,7 @@ There is actually more than one Apple One bundle. I've been flitting between the
 
 Right now, I'm on the cheaper one, which includes TV, music, games, and storage. Alongside that storage – which Apple calls iCloud+ – you also get the ability to use a custom email domain, [Hide My Email](https://support.apple.com/en-gb/HT210425) and [Private Relay](https://support.apple.com/en-gb/HT212614).
 
-That's a lot for £16.95. It's also a substantial saving over subscribing to several of these services individually.
+That’s a lot for £16.95. It’s also a substantial saving over subscribing to several of these services individually.
 
 The problem is, I barely use it all. Apple TV+ has one show I like[^TV]. I don't really use Apple Music; I am a creature of habit and just listen to music I already own. I play precisely one game on Apple Arcade that I wish was just released as a standalone purchase[^Arcade].
 
@@ -142,9 +142,9 @@ The one thing I *do* use is the storage and the iCloud+ features; but those are 
 
 I'm actually spending far more on music, TV and games now than I would have before, by virtue of having signed up to this content bundle. I don't think I'm seeing the benefit. So, maybe I should cancel this subscription and just buy the things I want – not stream them – and see how that works.
 
-[^TV]: _Severance_. It's so good. You should subscribe to Apple TV+ just for a month to binge it.
+[^TV]: _Severance_. It’s so good. You should subscribe to Apple TV+ just for a month to binge it.
 
-[^Arcade]: _Mini Motorways_. It's a successor to _Mini Metro_. They're both hyper-simple but stupidly complex games where you attempt to build a working transport network. It's incredibly addictive.
+[^Arcade]: _Mini Motorways_. It’s a successor to _Mini Metro_. They're both hyper-simple but stupidly complex games where you attempt to build a working transport network. It’s incredibly addictive.
 
 <section class="apps-list">
     <dl class="dl--app">
@@ -186,13 +186,13 @@ I'm actually spending far more on music, TV and games now than I would have befo
 
 ## Gaming
 
-There's a good segue from Apple Arcade into other gaming platforms. The one I use most, and pay for, is PlayStation Plus.
+There’s a good segue from Apple Arcade into other gaming platforms. The one I use most, and pay for, is PlayStation Plus.
 
 ### PlayStation Plus
 
 I've been a PlayStation Plus subscriber since I have owned a PlayStation 4; all the way back in 2014. I probably use it at least once a week, and I usually manage to snag an extension to it at a discount.
 
-If I don't pay for it, I can't play online games, and I do that a lot, so it's not really a contender for a slash and burn on subscriptions.
+If I don't pay for it, I can't play online games, and I do that a lot, so it’s not really a contender for a slash and burn on subscriptions.
 
 <section class="app-sheet">
     <dl class="dl--app">
@@ -216,7 +216,7 @@ Then there are all the apps I'm subscribed to, for various reasons.
 
 ### Password managers
 
-The essential, non-negotiable subscription at the moment is 1Password. It's been my password manager of choice for a long time and, whilst I've shopped around, it remains the best.
+The essential, non-negotiable subscription at the moment is 1Password. It’s been my password manager of choice for a long time and, whilst I've shopped around, it remains the best.
 
 Everyone should have a password manager, and I won't be giving up mine given how much value I get for it for such a small cost.
 
@@ -241,7 +241,7 @@ Everyone should have a password manager, and I won't be giving up mine given how
 
 Last month Twitter killed third-party apps unceremoniously. Tweetbot – my Twitter app of choice – was among the casualties.
 
-On the plus side, that's £5.99 a year saved! On the flip side, having recently [migrated to Mastodon](https://mastodon.social/@johnpeart), I've now subscribed to _Ivory_; a new app by the same developer. It comes at a higher price too – £14.99 a year.
+On the plus side, that’s £5.99 a year saved! On the flip side, having recently [migrated to Mastodon](https://mastodon.social/@johnpeart), I've now subscribed to _Ivory_; a new app by the same developer. It comes at a higher price too – £14.99 a year.
 
 <section class="app-sheet">
     <dl class="dl--app">
@@ -264,7 +264,7 @@ On the plus side, that's £5.99 a year saved! On the flip side, having recently 
 
 I listen to a lot of podcasts. A lot more than I used to, at least. I'm listening to so many now that I have found myself preferring it to listening to music when I'm on the go.
 
-I could use the free and built-in Apple Podcasts app but I find it entirely unreliable. So, instead, Overcast is currently my podcasting app of choice. It's available for free with ads, or at a fair (and probably, thankfully, too cheap) price.
+I could use the free and built-in Apple Podcasts app but I find it entirely unreliable. So, instead, Overcast is currently my podcasting app of choice. It’s available for free with ads, or at a fair (and probably, thankfully, too cheap) price.
 
 <section class="app-sheet">
     <dl class="dl--app">
@@ -285,7 +285,7 @@ I could use the free and built-in Apple Podcasts app but I find it entirely unre
 
 ### Development
 
-Working Copy and Nova are both paid softwares that require an annual payment-type to get access to the following year's worth of features and bug fixes. They aren't *technically* a subscription – you get to keep using what you already have without paying – but the software keeps getting better and better over time, so it pays to be up-to-date.
+Working Copy and Nova are both paid softwares that require an annual payment-type to get access to the following year’s worth of features and bug fixes. They aren't *technically* a subscription – you get to keep using what you already have without paying – but the software keeps getting better and better over time, so it pays to be up-to-date.
 
 I could probably stretch out my subscription cycles here a little this year to save a few pounds here and there.
 
@@ -326,7 +326,7 @@ I could probably stretch out my subscription cycles here a little this year to s
 
 I feel *slightly* ridiculous saying that I subscribe to calendar and contacts apps that, collectively, cost £60 a year; but I do, because they make my life admin a lot easier and faster. Fantastical and Cardhop are great, cross-platform apps. Fantastical in particular is the best calendar app I've ever used.
 
-They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it's really hard to go back to life in the slow lane. So I'll have to suck it up.
+They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it’s really hard to go back to life in the slow lane. So I'll have to suck it up.
 
 <section class="apps-list">
     <dl class="dl--app">
@@ -422,14 +422,14 @@ I've already decided to cancel Paramount+. If I cut Disney+, Amazon Prime and sh
 
 Some of these saving I can realise *right now*. Some of I'll have to wait a few months. Either way, it'll still be a substantial saving across the rest of this year.
 
-## That's a chunk o' change
+## That’s a chunk o' change
 
-I think I can save myself around £275 if I cut back my streaming consumption to something more sensible this year. That's a lot of money to put towards something more useful.
+I think I can save myself around £275 if I cut back my streaming consumption to something more sensible this year. That’s a lot of money to put towards something more useful.
 
-Subscription services seem like a fantastic deal; all you can eat for a set monthly or annual price. But there's a catch. Without keeping an eye on them, the costs can – as I've shown – quickly spiral.
+Subscription services seem like a fantastic deal; all you can eat for a set monthly or annual price. But there’s a catch. Without keeping an eye on them, the costs can – as I've shown – quickly spiral.
 
 So I'm going to cut back. Cutting back doesn't really mean missing out either. The great thing about a lot of these packages is that if you're really desperate, you can subscribe for one month and then cancel again.
 
-So that's what I'm going to do.
+So that’s what I'm going to do.
 
 Subscribe. Binge. Cancel. Wait. Repeat.

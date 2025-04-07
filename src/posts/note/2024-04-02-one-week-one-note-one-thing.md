@@ -23,7 +23,7 @@ So I'm going to set my sights deliberately low.
 
 I will write one note each week, on a Friday afternoon. I will constrain that one note to one thing I have taken away from that one week.
 
-The task starts this Friday. Let's see how it goes!
+The task starts this Friday. Let’s see how it goes!
 
 
 

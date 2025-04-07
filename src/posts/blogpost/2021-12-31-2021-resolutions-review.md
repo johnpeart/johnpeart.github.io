@@ -7,7 +7,7 @@ categories:
   - personal
 ---
 
-It's New Year's Eve. That means it's time to look back on the goals I set myself for 2021.
+It’s New Year’s Eve. That means it’s time to look back on the goals I set myself for 2021.
 
 This time last year I set myself [a series of goals](/2020/12/31/setting-goals-for-2021):
 
@@ -25,7 +25,7 @@ My aim is to set stretching goals, and – because they are stretching – achi
 
 ## How did I do?
 
-It's been a difficult year again in 2021. *You know, with Covid and everything*. Despite the prevailing environment though, this year's goals have been a *qualified* success.
+It’s been a difficult year again in 2021. *You know, with Covid and everything*. Despite the prevailing environment though, this year’s goals have been a *qualified* success.
 
 ### 1. Eat less meat
 
@@ -39,7 +39,7 @@ I probably only achieved this goal by accident. I was sticking to it much more r
 
 This was easier to stick to than I expected but, unlike when I quit Facebook in 2019, I do get the occasional FOMO[^FOMO] with this one. Either way, goal complete.
 
-[^FOMO]: That's *fear of missing out*
+[^FOMO]: That’s *fear of missing out*
 
 ### 3. Be more mindful
 
@@ -53,7 +53,7 @@ I have found a greater affinity for going on long walks and listening to podcast
 
 **I abandoned this goal – but for a good reason!** I kept this goal around from 2020 because I wanted to help a charity out. But that hasn't worked out.
 
-In more positive news, I've become the Chair of the [Civil Service LGBT+ Network](https://www.civilservice.lgbt). I think that commitment to 'giving something back' probably warrants having not found a trustee or governor's position.
+In more positive news, I've become the Chair of the [Civil Service LGBT+ Network](https://www.civilservice.lgbt). I think that commitment to 'giving something back' probably warrants having not found a trustee or governor’s position.
 
 ### 5. Keep writing blog posts
 
@@ -73,10 +73,10 @@ Regardless, this counts as *job done*.
 
 ## A qualified success
 
-Overall, I achieved 64% of my goals in 2021. You might think that sounds bad. Indeed, it doesn't meet my own definition of 'done'[^done]. But the number hides the true story. I only probably failed at one of these goals, and the others have caveats. Given the world is still collapsing around us, that's not so bad!
+Overall, I achieved 64% of my goals in 2021. You might think that sounds bad. Indeed, it doesn't meet my own definition of 'done'[^done]. But the number hides the true story. I only probably failed at one of these goals, and the others have caveats. Given the world is still collapsing around us, that’s not so bad!
 
 Onwards to better goal achievement in 2022!
 
 [^done]: 'Done' in this context is 80% of goals, 80% completed, with each goal being given equal weighting.
 
-> You can see my progress with this year's goals by visiting my [goals dashboard](/goals/2021).
+> You can see my progress with this year’s goals by visiting my [goals dashboard](/goals/2021).

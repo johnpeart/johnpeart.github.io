@@ -21,7 +21,7 @@ list:
       link:
         internal: /ideas/
     - name: "Now"
-      label: "What's new?"
+      label: "What’s new?"
       link:
         internal: /now/
 - name: "My blog"

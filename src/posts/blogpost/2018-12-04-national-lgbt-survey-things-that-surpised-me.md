@@ -15,7 +15,7 @@ In July 2017, the Government Equalities Office launched the national LGBT survey
 <blockquote>
 <p><strong>Other blog posts in this series</strong></p>
 <ol>  
-<li><a href="/2018/10/01/national-lgbt-survey-why-its-important">#LGBTsurvey: why it's important</a></li>
+<li><a href="/2018/10/01/national-lgbt-survey-why-its-important">#LGBTsurvey: why it’s important</a></li>
 <li><a href="/2018/12/05/national-lgbt-survey-what-didnt-surprise-me">#LGBTsurvey: things that didn't surprise me</a></li>
 </ol>
 </blockquote>

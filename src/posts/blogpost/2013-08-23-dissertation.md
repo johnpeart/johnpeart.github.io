@@ -9,17 +9,17 @@ permalink: "/dissertation/"
 
 > This dissertation was written as a summative part of my undergraduate studies at the London School of Economics.
 
-In 1997, the Bank of England was granted independence by, then Chancellor of the Exchequer, Gordon Brown. The subsequent Act of Parliament gave the newly independent Bank operational control over monetary policy instruments – primarily, the control of the Bank's base lending interest rate – and an explicit inflation-targeting mandate (Bank of England Act 1998). This target, determined by the Chancellor, was set initially at 2.5% on the Retail Price Index (Brown 2003a) and was later revised to 2.0% on the Harmonised Index of Consumer Prices (Brown 2003b). The task of meeting this target was delegated to the newly formed Monetary Policy Committee (MPC).
+In 1997, the Bank of England was granted independence by, then Chancellor of the Exchequer, Gordon Brown. The subsequent Act of Parliament gave the newly independent Bank operational control over monetary policy instruments – primarily, the control of the Bank’s base lending interest rate – and an explicit inflation-targeting mandate (Bank of England Act 1998). This target, determined by the Chancellor, was set initially at 2.5% on the Retail Price Index (Brown 2003a) and was later revised to 2.0% on the Harmonised Index of Consumer Prices (Brown 2003b). The task of meeting this target was delegated to the newly formed Monetary Policy Committee (MPC).
 
 The committee comprises nine members. Four 'external' members are directly selected by the Chancellor and five 'internal' members – the Governor, two Deputy Governors and two Executive Directors of the Bank – are appointed in consultation with the Crown and Government (Bank of England Act 1998, Bean and Jenkinson 2001 p.434). In effect, the Chancellor has at least some influence in every appointment to the committee (Hix et al. 2010 pp.733-734).
 
 This particular appointment process poses a potential problem. The delegation of monetary policy to central banks has long been argued on the basis of removing political interference and creating macro-economic stability. Governments can use delegation as a 'credible commitment' on the economy (Kydland and Prescott 1977, Barro and Gordon 1983, Thatcher and Sweet 2002). But, if the Chancellor has an apparently significant influence over the appointment process of MPC members, does the spectre of political control and thus, a credibility crisis, still exist?
 
-Does *de jure* control of the appointment process also mean *de facto* control of the policy outputs of the MPC? That is, does the Chancellor have the ability to manipulate the Bank's base interest rate decisions, or any other monetary policy instrument decision, by virtue of whom he appoints?
+Does *de jure* control of the appointment process also mean *de facto* control of the policy outputs of the MPC? That is, does the Chancellor have the ability to manipulate the Bank’s base interest rate decisions, or any other monetary policy instrument decision, by virtue of whom he appoints?
 
 The answer to these questions lies in resolving a debate at the heart of political science; are actors' preferences stable and, therefore, can their actions be reliably predicted? If preferences are stable and actions are predictable, then the level of control given to political actors over the appointment process is something that should be given careful attention, as the very idea of a credible commitment may be misguided. This is particularly true in instances where one individual – such as the Chancellor of the Exchequer – controls the appointment process.
 
-Using the Bank of England's Monetary Policy Committee as a case study, I explore the significance of the appointment process to policy outputs, by establishing whether or not preferences are stable or change over time. I begin by exploring the academic literature on central bank independence, decision-making, preference formation and change and expose an obvious contradiction in the literature that is yet to be fully explored in the context of monetary policy committees. With this theoretical background in place, I move on to establish my hypothesis – that preferences change – and discuss how this might be observed empirically. Next, I lay out my methodology of automated content analysis, how this has been applied to the case study and my findings.
+Using the Bank of England’s Monetary Policy Committee as a case study, I explore the significance of the appointment process to policy outputs, by establishing whether or not preferences are stable or change over time. I begin by exploring the academic literature on central bank independence, decision-making, preference formation and change and expose an obvious contradiction in the literature that is yet to be fully explored in the context of monetary policy committees. With this theoretical background in place, I move on to establish my hypothesis – that preferences change – and discuss how this might be observed empirically. Next, I lay out my methodology of automated content analysis, how this has been applied to the case study and my findings.
 
 In applying this methodology, I find evidence both of preference change and preference stability, but move beyond the one-dimensional 'hawk-dove' dimension highlighted in existing literature to expose a more intricate background to the preference formation process of MPC members. I conclude that the type of appointment process used for monetary policy committees does matter, but that the extent to which it is able to actually affect policy outputs is uncertain, because the preferences of members change and their actions cannot be reliably predicted, particularly during times of economic shocks.
 
@@ -43,16 +43,16 @@ Research into the preferences of central bankers has tended to focus on the so-c
 
 Much of the literature relies on voting records and a variety of quantitative methods as a proxy for preferences. Others have used qualitative data – such as minutes, transcripts, or speeches – and various quantitative and qualitative methods to try and understand the causes of policy. The merits of each approach are contested, but one consistent baseline can be seen – it is important to use an appropriate proxy to assess preferences in political science.
 
-On the use of qualitative data, scholars have attempted to brush off its importance, implying that there's nothing to be gleaned from it because actors aren't truthful, or that analysis of text doesn't tell us anything useful. Scholars such as Meade (2005) and Bailey & Schonhardt-Bailey (2013 (forthcoming)) challenge these arguments. They argue that quantitative data have limitations of their own that can only be met by using qualitative data sources. Whilst voting records are useful for describing the end results of the political process, they can't explain the motivations of actors as they over-simplify the processes of preference formation and decision-making (Meade 2005 p.94, Bailey and Schonhardt-Bailey 2008 p.408-409, 2013 (forthcoming) p.5). Moreover, researchers that rely exclusively on quantitative data, such as voting records, run the risk of 'retro-fitting' (Bailey and Schonhardt-Bailey 2008 p.408-409, 2013 (forthcoming) p.113). Observing an ideational trend after-the-fact and that it occurs at the same time as a change in policy outputs doesn't necessarily mean that this trend was a motivation in the decision-making process for those actors (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)); correlation and causation are not one and the same. In order for us to understand the motivations of actors, we must seek data that shows, explicitly, what actors were thinking, saying and doing throughout the decision-making process – not merely the end result. In the absence of research techniques that actually allow us to read people's minds, the closest proxy researchers have available to do this is to use what people say or write. But how is this important in the context of the appointment process?
+On the use of qualitative data, scholars have attempted to brush off its importance, implying that there’s nothing to be gleaned from it because actors aren't truthful, or that analysis of text doesn't tell us anything useful. Scholars such as Meade (2005) and Bailey & Schonhardt-Bailey (2013 (forthcoming)) challenge these arguments. They argue that quantitative data have limitations of their own that can only be met by using qualitative data sources. Whilst voting records are useful for describing the end results of the political process, they can't explain the motivations of actors as they over-simplify the processes of preference formation and decision-making (Meade 2005 p.94, Bailey and Schonhardt-Bailey 2008 p.408-409, 2013 (forthcoming) p.5). Moreover, researchers that rely exclusively on quantitative data, such as voting records, run the risk of 'retro-fitting' (Bailey and Schonhardt-Bailey 2008 p.408-409, 2013 (forthcoming) p.113). Observing an ideational trend after-the-fact and that it occurs at the same time as a change in policy outputs doesn't necessarily mean that this trend was a motivation in the decision-making process for those actors (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)); correlation and causation are not one and the same. In order for us to understand the motivations of actors, we must seek data that shows, explicitly, what actors were thinking, saying and doing throughout the decision-making process – not merely the end result. In the absence of research techniques that actually allow us to read people’s minds, the closest proxy researchers have available to do this is to use what people say or write. But how is this important in the context of the appointment process?
 
-In 2010, Hix, Høyland & Vivyan published a paper on the Bank of England's Monetary Policy Committee. They used voting records from MPC meetings to infer the position of committee members along the previously mentioned hawk-dove dimension (Hix et al. 2010 pp.740-745). In the subsequent discussion, they argue that there may be a link between the relative average position of the committee on the hawk-dove spectrum and the government's fiscal spending plans, such that the Chancellor of the Exchequer chooses relative hawks during a period of fiscal expansion and relative doves during periods of fiscal restraint in order to maintain price stability whilst meeting his economic objectives (Hix et al. 2010 pp.745-753). Whilst they do not offer firm conclusions on this posited relationship, (Hix et al. 2010 pp.745-753), if this relationship holds and the Chancellor was using his power to manipulate the MPC's policy outputs, then the supposed resolution to the Labour Party's economic credibility problem (King 2005) never truly occurred. Indeed, it remains unresolved as the appointment process is still the same today.
+In 2010, Hix, Høyland & Vivyan published a paper on the Bank of England’s Monetary Policy Committee. They used voting records from MPC meetings to infer the position of committee members along the previously mentioned hawk-dove dimension (Hix et al. 2010 pp.740-745). In the subsequent discussion, they argue that there may be a link between the relative average position of the committee on the hawk-dove spectrum and the government’s fiscal spending plans, such that the Chancellor of the Exchequer chooses relative hawks during a period of fiscal expansion and relative doves during periods of fiscal restraint in order to maintain price stability whilst meeting his economic objectives (Hix et al. 2010 pp.745-753). Whilst they do not offer firm conclusions on this posited relationship, (Hix et al. 2010 pp.745-753), if this relationship holds and the Chancellor was using his power to manipulate the MPC’s policy outputs, then the supposed resolution to the Labour Party’s economic credibility problem (King 2005) never truly occurred. Indeed, it remains unresolved as the appointment process is still the same today.
 
 Two questions emerge:
 
-1. Firstly, does it matter if the Chancellor has the ability to control the committee's policy outputs based on the members he appoints? If he is simply ensuring that the MPC acts as an economic counter-weight to his fiscal policy; should this be an area of concern?
+1. Firstly, does it matter if the Chancellor has the ability to control the committee’s policy outputs based on the members he appoints? If he is simply ensuring that the MPC acts as an economic counter-weight to his fiscal policy; should this be an area of concern?
 2. Secondly, and more importantly, does this relationship actually hold? A wealth of literature suggests that it may not.
 
-Hix et al.'s model is based on an implicit rational choice theory assumption, in the vein of Tsebelis (1990), Shepsle (2010) and others. They claim they are unconcerned with how an individual member's preferences are formed, but that “it is sufficient for [them] to assume that MPC members [have] reasonably stable underlying monetary policy preferences, such that a member with more hawkish policy preferences will tend to prefer more restrictive interest rates relative to others,” (Hix et al. 2010 p.738). If this assumption is correct, then their posited relationship between appointments, preferences and policy outputs is likely to hold; the question of who controls the appointment process then becomes a real area of concern that must be addressed in order to establish (or re-establish) the credible commitment to independent institutions. If, however, preferences are not stable and the assumption is incorrect, then the observed relationship becomes less significant. Instead different questions arise about the level of oversight and control necessary in independent institutions. This leads us to the question; are preferences stable over time?
+Hix et al.’s model is based on an implicit rational choice theory assumption, in the vein of Tsebelis (1990), Shepsle (2010) and others. They claim they are unconcerned with how an individual member’s preferences are formed, but that “it is sufficient for [them] to assume that MPC members [have] reasonably stable underlying monetary policy preferences, such that a member with more hawkish policy preferences will tend to prefer more restrictive interest rates relative to others,” (Hix et al. 2010 p.738). If this assumption is correct, then their posited relationship between appointments, preferences and policy outputs is likely to hold; the question of who controls the appointment process then becomes a real area of concern that must be addressed in order to establish (or re-establish) the credible commitment to independent institutions. If, however, preferences are not stable and the assumption is incorrect, then the observed relationship becomes less significant. Instead different questions arise about the level of oversight and control necessary in independent institutions. This leads us to the question; are preferences stable over time?
 
 ### Are preferences “reasonably stable” over time?
 
@@ -80,11 +80,11 @@ The literature on preference formation clearly conflicts over the concept of sta
 
 ## Hypothesis formulation
 
-Much of the literature leads us to an argument that preferences are able to change and are anything but “reasonably stable” (Hix et al. 2010 p.738). The case study considered in this paper — the Bank of England's Monetary Policy Committee — relies on a committee structure in order to take its decisions (Bank of England Act 1998, Bean and Jenkinson 2001 pp.437-438), and indeed, the committee’s decision-making process is one that encourages debate by virtue of its decision-making process. Consensus decision-making is not required, and members are free to vote against the majority provided they can give a justification for their decision (Bean and Jenkinson 2001). Given this context, I reach the following hypothesis:
+Much of the literature leads us to an argument that preferences are able to change and are anything but “reasonably stable” (Hix et al. 2010 p.738). The case study considered in this paper — the Bank of England’s Monetary Policy Committee — relies on a committee structure in order to take its decisions (Bank of England Act 1998, Bean and Jenkinson 2001 pp.437-438), and indeed, the committee’s decision-making process is one that encourages debate by virtue of its decision-making process. Consensus decision-making is not required, and members are free to vote against the majority provided they can give a justification for their decision (Bean and Jenkinson 2001). Given this context, I reach the following hypothesis:
 
-> **Hypothesis 1:** The underlying monetary policy preferences of members of the Bank of England's Monetary Policy Committee change over time.
+> **Hypothesis 1:** The underlying monetary policy preferences of members of the Bank of England’s Monetary Policy Committee change over time.
 
-The literature highlights preference change as a process of individuals choosing to accept or reject arguments they encounter, and then aggregating those arguments in order to form a preference – be that a reinforced preference, or a new view of the world (Barabas 2004). As in prior research, I conceptualise members' preferences as traceable to a policy space, but this needn't necessarily be a uni-dimensional space such as the hawk-dove dimension. Instead, I view positions in a policy space as simplified end-points in the preference formation process (Barabas 2004). These end-points are seen as a composite of variables and external effects, such as the composition of the committee, its membership, the existence and significance of dominant personalities, each members' prior view of how the economy 'works' and so on. The different weights given to each of these 'underlying preferences' and variables, in each member's preference-forming calculations, come together to create those end-points. This concept of preference formation allows us to test preference change as we can observe the quantity and the substantive content of each variable.
+The literature highlights preference change as a process of individuals choosing to accept or reject arguments they encounter, and then aggregating those arguments in order to form a preference – be that a reinforced preference, or a new view of the world (Barabas 2004). As in prior research, I conceptualise members' preferences as traceable to a policy space, but this needn't necessarily be a uni-dimensional space such as the hawk-dove dimension. Instead, I view positions in a policy space as simplified end-points in the preference formation process (Barabas 2004). These end-points are seen as a composite of variables and external effects, such as the composition of the committee, its membership, the existence and significance of dominant personalities, each members' prior view of how the economy 'works' and so on. The different weights given to each of these 'underlying preferences' and variables, in each member’s preference-forming calculations, come together to create those end-points. This concept of preference formation allows us to test preference change as we can observe the quantity and the substantive content of each variable.
 
 I predict three different ways in which we might observe preference change; logical contradiction, development, and/or stability.
 
@@ -118,7 +118,7 @@ The researcher selects a series of initial sampling units, which can be understo
 
 The software breaks each ICU into smaller working units – 'Elementary Contextual Units' (ECUs) – based on the structure of sentences, word length and punctuation. Using a recursive algorithm, Alceste assesses co-occurrences, classifying each word form and ECU, and assigning a Chi-squared value representing the significance and distinctiveness of those forms from those in the rest of the text. The resulting output is a hierarchical classification, in which each theme or topic ('class') is as statistically unique as possible (Bailey and Schonhardt-Bailey 2010 pp.28-48).
 
-Each ICU in this paper represents an individual speech or article made by individuals on the MPC. The data can be obtained from the Bank of England's website. ICUs were collected from the majority of members between 1997 (the committee's inception) and December 2012. The members used in the analysis were selected based on several criteria.
+Each ICU in this paper represents an individual speech or article made by individuals on the MPC. The data can be obtained from the Bank of England’s website. ICUs were collected from the majority of members between 1997 (the committee’s inception) and December 2012. The members used in the analysis were selected based on several criteria.
 
 First, individual members must have served at least two years on the MPC. Members serving less than two years, or for which no data were available, were excluded. This was to ensure a time-related element to the analysis. In addition, I wanted to ensure that the dataset was not unnecessarily biased towards discussion of the financial crisis, as much of that discussion is likely to be less relevant to the concept of 'underlying monetary policy preferences'. To do this, I needed to exclude those presently on the committee. This had to be balanced against a further consideration however; excluding all current members would have meant losing those members that prior research had indicated could be most revealing – such as the Chair (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)). To ensure there was a balance between these two considerations, two further criteria were applied. Members assessed must have either (a) left the committee, having finished their term, or (b) been on the committee for at least two full terms if they are still serving members. These criteria helped to balance the aforementioned trade off and were intended to maintain the robustness of the dataset. Details of members included or excluded, given the above criteria, are shown in Appendix 1.
 
@@ -403,15 +403,15 @@ After the process of narrowing the data was completed, eight members remained fo
     </tbody>
 </table>
 
-In order to explore the hypothesis, I return to the expectations established earlier. By qualitatively assessing the ECUs of each member, and using Alceste's factor analysis and cross-data analysis functions, I find examples of logical contraditions, preference development and preference stability.
+In order to explore the hypothesis, I return to the expectations established earlier. By qualitatively assessing the ECUs of each member, and using Alceste’s factor analysis and cross-data analysis functions, I find examples of logical contraditions, preference development and preference stability.
 
 ## Logical contradictions
 
-A logical contradiction can be understood as a reversal of a member's position. Several members show evidence of this type of change.
+A logical contradiction can be understood as a reversal of a member’s position. Several members show evidence of this type of change.
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F4.png">
-    <figcaption><strong>Figure 4:</strong> Descendant hierarchical classification for Andrew Sentance's corpus</figcaption>
+    <figcaption><strong>Figure 4:</strong> Descendant hierarchical classification for Andrew Sentance’s corpus</figcaption>
 </figure>
 
 Andrew Sentance is perhaps the most striking case. In 2008, Sentance appears particularly concerned with the “downside risks” to economic activity and inflation, presenting this view consistently throughout this period. Some representative ECUs include:
@@ -438,11 +438,11 @@ Cross-data analysis reveals a change in this view over time. 2010 and 2011 show 
 
 A focus on downside risks shifts to concerns of upside pressures on inflation. This is clear evidence of a logical contradiction. Sentance has accepted two opposing arguments and used them to form a preference on the need for policy action; moreover he has rejected the former preference in order to create the latter.
 
-These changes are found in ECUs with a high Chi-squared value and thus this espoused contradiction can be interpreted as significant. If we consider the change in context, it becomes even more significant. At the time of these statements, inflation was significantly above target (4.5%, 3.3% and 4.4%) (Bank of England 2011) and growth at the beginning and end of the period was below 0% (OECD 2012, World Bank 2013). In these crude terms, little had changed for the UK's economic outlook, but this member is arguing for a completely different strategy to ensure price stability. Indeed they voted for a different strategy – voting to cut interest rates throughout the period 2008-2009, and favouring increases thereafter. Already, we see evidence that members' actions are not as predictable as we might think, and that the appointment process might not feed through to the final policy decisions of members.
+These changes are found in ECUs with a high Chi-squared value and thus this espoused contradiction can be interpreted as significant. If we consider the change in context, it becomes even more significant. At the time of these statements, inflation was significantly above target (4.5%, 3.3% and 4.4%) (Bank of England 2011) and growth at the beginning and end of the period was below 0% (OECD 2012, World Bank 2013). In these crude terms, little had changed for the UK’s economic outlook, but this member is arguing for a completely different strategy to ensure price stability. Indeed they voted for a different strategy – voting to cut interest rates throughout the period 2008-2009, and favouring increases thereafter. Already, we see evidence that members' actions are not as predictable as we might think, and that the appointment process might not feed through to the final policy decisions of members.
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F5.png">
-    <figcaption><strong>Figure 5:</strong> Descendant hierarchical classification for Adam Posen's corpus</figcaption>
+    <figcaption><strong>Figure 5:</strong> Descendant hierarchical classification for Adam Posen’s corpus</figcaption>
 </figure>
 
 Adam Posen is another case; his preference change concerns his views on the real effect of monetary policy on the broader economy. In 2009, he broadly endorses the notion of the 'neutrality of money' (Hayek and Klausinger 2012 p.110) – that, over the economic cycle, monetary policy has no real effect on growth or employment – and that the MPC could do very little to prevent financial crises.
@@ -451,7 +451,7 @@ Adam Posen is another case; his preference change concerns his views on the real
 >
 > **Data 5**: Posen, Dec 2009.
 
-> “There is no dependable relationship between central bank's instrument interest rates, real or nominal, with either housing price growth or equity market appreciation […]”
+> “There is no dependable relationship between central bank’s instrument interest rates, real or nominal, with either housing price growth or equity market appreciation […]”
 >
 > **Data 6**: Posen, Dec 2009.
 
@@ -459,7 +459,7 @@ Adam Posen is another case; his preference change concerns his views on the real
 >
 > **Data 7**: Posen, Dec 2009.
 
-Posen's argument is based on empirics; the MPC cannot do more, he argues, because they do not have the necessary policy instruments.
+Posen’s argument is based on empirics; the MPC cannot do more, he argues, because they do not have the necessary policy instruments.
 
 In 2010, this position appears to soften, with Posen arguing the MPC can and should “do more” to improve growth prospects for the economy. Posen is making the case for policy activism, arguing central bank independence should be about taking action, not 'keeping up appearances' of independence:
 
@@ -471,11 +471,11 @@ In 2010, this position appears to soften, with Posen arguing the MPC can and sho
 >
 > **Data 9**: Posen, Sept 2010.
 
-Interestingly, Posen's voting record on the base rate doesn't reveal this preference change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank's Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
+Interestingly, Posen’s voting record on the base rate doesn't reveal this preference change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank’s Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F6.png">
-    <figcaption><strong>Figure 6:</strong> Descendant hierarchical classification for Charles Bean's corpus</figcaption>
+    <figcaption><strong>Figure 6:</strong> Descendant hierarchical classification for Charles Bean’s corpus</figcaption>
 </figure>
 
 Charles Bean exhibits further evidence of preference change. In 2003 he argues that inflation targeting is a sufficient framework for preventing asset price bubbles and imbalances:
@@ -488,7 +488,7 @@ Charles Bean exhibits further evidence of preference change. In 2003 he argues t
 >
 > **Data 11**: Bean, Mar 2003.
 
-That a member believes the MPC's mandate is appropriately focussed on inflation is unsurprising, but Bean clearly believes inflation-targeting alone is sufficient to tackle any economic phenomena. By implication, he believes the MPC's policy instruments are sufficient. Of course, this is in the context of one of the longest periods of growth on record for the UK. Preference change comes in the wake of the financial crisis:
+That a member believes the MPC’s mandate is appropriately focussed on inflation is unsurprising, but Bean clearly believes inflation-targeting alone is sufficient to tackle any economic phenomena. By implication, he believes the MPC’s policy instruments are sufficient. Of course, this is in the context of one of the longest periods of growth on record for the UK. Preference change comes in the wake of the financial crisis:
 
 > “[…] In my view, […] a modest increase in the official interest rate is unlikely to do much to restrain a credit-asset-price boom that is in full swing.”
 >
@@ -522,14 +522,14 @@ Where previously, Bean felt the policy framework in place was sufficient to ensu
             </tr>
         </tbody>
     </table>
-    <figcaption><strong>Figure 7:</strong> Factor analysis of Charles Bean's corpus</figcaption>
+    <figcaption><strong>Figure 7:</strong> Factor analysis of Charles Bean’s corpus</figcaption>
 </figure>
 
 Factor analysis of this corpus shows a distinct shift in the pattern of the discourse (Figure 7). As with all factor analysis graphs presented here, the numbers and outlines represent the associations of classes, and shapes represent the characteristic passive variables. The 'date' tags are clearly divided along the vertical dimension, showing a shift in the focus of discourse before and after the 'flash-point' of the financial crisis in July 2007. It is plausible that the crisis was the cause of this shift in discourse and observed change in preferences. Again, it seems that the idea of stable preferenceS is contestable, further bringing the effect of the appointment process into question.
 
 The examples highlighted here are simply the ECUs that are most significant to the corpora assessed; a use of a wider data set from broader sources would likely show even more evidence of logical contradictions.
 
-Based purely on this evidence, there is a convincing argument to be made against the concept of stable preferences and against the significance of the appointment process to the MPC's policy decisions, but further evidence is found elsewhere.
+Based purely on this evidence, there is a convincing argument to be made against the concept of stable preferences and against the significance of the appointment process to the MPC’s policy decisions, but further evidence is found elsewhere.
 
 ## Preference development
 
@@ -538,10 +538,10 @@ Preference development can be understood as strengthening an existing position s
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F8.png">
-    <figcaption><strong>Figure 8:</strong> Descendant hierarchical classification for Mervyn King's corpus</figcaption>
+    <figcaption><strong>Figure 8:</strong> Descendant hierarchical classification for Mervyn King’s corpus</figcaption>
 </figure>
 
-King's change is in relation to the level of policy activism necessary to control inflation. In 2004, King seems to take a relatively relaxed attitude to ensuring inflation expectations remain anchored to target:
+King’s change is in relation to the level of policy activism necessary to control inflation. In 2004, King seems to take a relatively relaxed attitude to ensuring inflation expectations remain anchored to target:
 
 > “It is less likely now that a shock to inflation would lead to a further and persistent deviation of inflation from target. There is a belief that inflation will soon return to target. As a result, a surprise movement in inflation is expected to be temporary and so less likely to lead employers and employees to adjust their desired prices and wages.”
 >
@@ -581,7 +581,7 @@ On the topic of credibility, Sentance shows similar stability with strong warnin
 >
 > **Data 18**: Sentance, Oct 2010.
 
-> “I do worry that the MPC's credibility and commitment to the inflation target may already have been eroded by not adjusting policy settings soon enough […]”
+> “I do worry that the MPC’s credibility and commitment to the inflation target may already have been eroded by not adjusting policy settings soon enough […]”
 >
 > **Data 19**: Sentance, Apr 2011.
 
@@ -590,7 +590,7 @@ Sentance values the importance of credibility very highly – and consistently s
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F9.png">
-    <figcaption><strong>Figure 9:</strong> Descendant hierarchical classification for Edward George's corpus</figcaption>
+    <figcaption><strong>Figure 9:</strong> Descendant hierarchical classification for Edward George’s corpus</figcaption>
 </figure>
 
 Edward George is probably the best example of a member that shows stable preferences, showing stability across most of the areas that the corpus touches upon. The ECUs reveal a consistent view that George believes price stability is not an “end in itself”, often with identical phrasing.
@@ -630,7 +630,7 @@ The members yet to be mentioned (DeAnne Julius, Sushil Wadhwani, and Christopher
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F11.png">
-    <figcaption><strong>Figure 11:</strong> Descendant hierarchical classification for Sushil Wadhwani's corpus</figcaption>
+    <figcaption><strong>Figure 11:</strong> Descendant hierarchical classification for Sushil Wadhwani’s corpus</figcaption>
 </figure>
 
 Julius and Wadhwani have very little coherence in the topics they discuss in their respective corpora. The Alceste classifications show five distinct classes for Julius and four for Wadhwani. They broadly cover the same areas but an examination of the data by cross-data analysis doesn't show as rich a picture as other members. Using Julius as an example, the results highlight a focus primarily on IT as a driver of growth and inflation in 1999, and then a complete topic change in 2001 to discuss globalisation and international factors affecting the economy (Figure 12). A clear shift along the horizontal dimension is observed, moving away from Class 1 toward Class 5 in 2001; this represents a move away from talking about the real economy and 'big-picture' statistics, and instead focusing explicitly on the empirics of inflation-targeting. A similar pattern occurs for Wadhwani – though the diagrams are not comparable due to the unique datasets.
@@ -664,7 +664,7 @@ If, as previously discussed, we view the formation of preferences as an acceptan
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F13.png">
-    <figcaption><strong>Figure 13:</strong> Descendant hierarchical classification for Christopher Allsopp's corpus</figcaption>
+    <figcaption><strong>Figure 13:</strong> Descendant hierarchical classification for Christopher Allsopp’s corpus</figcaption>
 </figure>
 
 The case of Christopher Allsopp is a unique one. The data used in this instance is very small comparatively. Alceste is able to analyse, reliably, corpora of around 10,000 words or higher, and in this instance, the corpus was almost twice this minimum. However, the corpus only comprises two ICUs and neither the cross-data analysis, nor the factor analysis, shows a result indicative of the hypothesis or otherwise. The topics from the corpus are largely unrelated across time, which is likely why very few coherent results are found.
@@ -710,9 +710,9 @@ Returning to the originally posed problem, the implication of this conclusion is
 
 ## Implications and conclusions
 
-This paper set out to explore the significance of the appointment process to the policy outputs of monetary policy committees, taking the case of the Bank of England's Monetary Policy Committee. At the start of the paper I argued that if we were able to make the assumption that the underlying monetary policy preferences of policymakers were inherently stable, then the significance of the appointment process could be severe. If the appointment process was centred on one, political individual – such as the Chancellor of the Exchequer, then the credible commitment of central bank independence would be an illusion and this paper would help to expose an inconvenient truth.
+This paper set out to explore the significance of the appointment process to the policy outputs of monetary policy committees, taking the case of the Bank of England’s Monetary Policy Committee. At the start of the paper I argued that if we were able to make the assumption that the underlying monetary policy preferences of policymakers were inherently stable, then the significance of the appointment process could be severe. If the appointment process was centred on one, political individual – such as the Chancellor of the Exchequer, then the credible commitment of central bank independence would be an illusion and this paper would help to expose an inconvenient truth.
 
-What I have found is that this assumption is not necessarily true. Members preferences can and do change, and these changes are unpredictable. As a result, so are the actions of those actors. The importance of the MPC's appointment process to its policy outputs is not necessarily as clear as previously theorised. Whilst it is somewhat inevitable that different kinds of appointment processes will make a difference in some way, the relationship previously highlighted by Hix et al. (2010) is clearly far from certain. The problem with the asserted relationship is two-fold; first it presupposes that the Chancellor has reliable information about a member's underlying preferences before appointment, and then supposes those preferences remain stable. My evidence suggests that these preferences can change very suddenly and easily, especially during times of economic turbulence.
+What I have found is that this assumption is not necessarily true. Members preferences can and do change, and these changes are unpredictable. As a result, so are the actions of those actors. The importance of the MPC’s appointment process to its policy outputs is not necessarily as clear as previously theorised. Whilst it is somewhat inevitable that different kinds of appointment processes will make a difference in some way, the relationship previously highlighted by Hix et al. (2010) is clearly far from certain. The problem with the asserted relationship is two-fold; first it presupposes that the Chancellor has reliable information about a member’s underlying preferences before appointment, and then supposes those preferences remain stable. My evidence suggests that these preferences can change very suddenly and easily, especially during times of economic turbulence.
 
 The evidence presented in this paper has further shown the lack of clarity and loss of information inherent in pure statistical, quantitative analysis; the data must be contextualised in order for us to make any meaningful conclusions. Equally, whilst the methodology in this paper can tell us a great deal, it cannot tell us the significance of the appointment process in absolute terms. Future research may wish to combine the benefits of raw statistical modelling with content analysis in some way to try to better explain the link between appointments and policy outputs.
 
@@ -808,7 +808,7 @@ Most special characters cause the Alceste analysis to fail. Table 6 shows which 
 
 Footnotes or endnotes were excluded from the analysis; these data tended to be purely technical and/or referencing, and so would not have added any real insight to the data. Images, graphs and tables were also removed as Alceste cannot process this data.
 
-The passive variables for each ICU identified the speaker/author, their 'dove-hawk' classification based on Hix et al (2010), the member's committee role, the date and the ICU's relative position to the financial crisis, taking July 2007 as the start of the crisis. Table 7 shows the passive variables used.
+The passive variables for each ICU identified the speaker/author, their 'dove-hawk' classification based on Hix et al (2010), the member’s committee role, the date and the ICU’s relative position to the financial crisis, taking July 2007 as the start of the crisis. Table 7 shows the passive variables used.
 
 <table class="card">
     <caption><strong>Table 7:</strong> Passive variables</caption>
@@ -860,7 +860,7 @@ In general, researchers attempt to standardise language across corpora by changi
 
 Adam Posen was not included in the original Hix et al. (2010) dataset; he was appointed in 2009, and their dataset finishes in 2008. I used this dataset as a starting point for my analysis as it initially provided a simple way of understanding members' preferences but this meant Posen needed to be included in one of the three catagories. Ultimately, my results were unlikely to significantly change based on where Posen was classified as I was interested in individuals, so a rough classification was deemed sufficient for this paper.
 
-To gain this insight, I conducted a review of UK press media, including the Financial Times, BBC, Economist, and others and informally discussed the issue with Prof. Simon Hix. When questioned on 21 March 2013, Hix's response was “oh, definitely a dove”, and this view was shared by every news source that I viewed that mentioned Posen's time on the MPC. Some even went as far as describing him as an “arch-dove” (Chu 2011, Anonymous 2011a).
+To gain this insight, I conducted a review of UK press media, including the Financial Times, BBC, Economist, and others and informally discussed the issue with Prof. Simon Hix. When questioned on 21 March 2013, Hix’s response was “oh, definitely a dove”, and this view was shared by every news source that I viewed that mentioned Posen’s time on the MPC. Some even went as far as describing him as an “arch-dove” (Chu 2011, Anonymous 2011a).
 
 Whilst this classification is imprecise, it is precise enough for the purposes of providing a broad direction to the rest of the paper.
 

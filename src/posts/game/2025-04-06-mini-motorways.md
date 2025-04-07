@@ -8,13 +8,13 @@ artwork: "/assets/images/posts/games/mini-motorways.jpeg"
 
 This game is so simple and yet so addictive.
 
-Your job is to draw roads between people's houses and places they need to go. 
+Your job is to draw roads between people’s houses and places they need to go. 
 
 Add bridges to cross rivers or motorways to cover big distances faster. Create roundabouts or traffic lights to aid the flow of the traffic around the city. Plot around trees or carve tunnels through cliffs. Build level-crossings to cross train tracks.
 
 None of these are complex things to understand. Making it work effectively is always doomed to failure.
 
-*Mini Motorways* is a game of chance as much as it is skill. You will always lose; but how long can you go without your city grinding to a complete stop? That's the addictive gameplay loop that keeps me coming back.
+*Mini Motorways* is a game of chance as much as it is skill. You will always lose; but how long can you go without your city grinding to a complete stop? That’s the addictive gameplay loop that keeps me coming back.
 
 <section class="app-sheet">
     <dl class="dl--app">

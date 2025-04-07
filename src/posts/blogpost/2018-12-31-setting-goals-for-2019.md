@@ -11,7 +11,7 @@ Measured against my own metrics, 2018 was an abject failure.
 
 Sure, I did some pretty cool stuff, like [this](https://www.flickr.com/photos/johnpeart/albums/72157691233282470),  [this](https://www.gov.uk/government/publications/lgbt-action-plan-2018-improving-the-lives-of-lesbian-gay-bisexual-and-transgender-people) and [this](https://www.flickr.com/photos/johnpeart/albums/72157693863692562), but I [didn't do the things I said I was going to](/2018/12/16/ive-failed-my-2018-goals).
 
-Well, 2019 is a new year. Another chance to remind me that I'm not very good at keeping promises to myself. So what New Year's resolutions am I going to make?
+Well, 2019 is a new year. Another chance to remind me that I'm not very good at keeping promises to myself. So what New Year’s resolutions am I going to make?
 
 ## Goals for 2019
 

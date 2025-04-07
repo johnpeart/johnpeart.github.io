@@ -18,7 +18,7 @@ The perception that Facebook failed to prevent the Fake News phenomenon, and are
 
 In a [post on his Facebook page](https://www.facebook.com/zuck/posts/10104445245963251) yesterday, Zuckerberg said:
 
-> “There's too much sensationalism, misinformation and polarization in the world today. Social media enables people to spread information faster than ever before, and if we don't specifically tackle these problems, then we end up amplifying them.”
+> “There’s too much sensationalism, misinformation and polarization in the world today. Social media enables people to spread information faster than ever before, and if we don't specifically tackle these problems, then we end up amplifying them.”
 
 And so he’s asked his product teams “to make sure we prioritise news that is trustworthy, informative, and local [...] starting next week with trusted sources”.
 

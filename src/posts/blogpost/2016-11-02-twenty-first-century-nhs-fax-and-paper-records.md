@@ -26,13 +26,13 @@ I'd found a GP surgery I wanted to register with[^2] so next, I needed to actual
 
 [^2]:  Alarmingly, this surgery was merely rated "OK", though this was better than the "amongst the worst" ratings some others had.
 
-I could have physically visited the surgery, collected a paper form, and dutifully filled everything in by hand. But this is 2016, and my surgery apparently offered the ability to register online, so that's what I tried to do.
+I could have physically visited the surgery, collected a paper form, and dutifully filled everything in by hand. But this is 2016, and my surgery apparently offered the ability to register online, so that’s what I tried to do.
 
 In this quest for digital fulfilment, I was first presented by this:
 
-![My local GP's website](/assets/images/posts/2016/11/02/21st-century-health-service/21-c-NHS-2.png){.rounded}
+![My local GP’s website](/assets/images/posts/2016/11/02/21st-century-health-service/21-c-NHS-2.png){.rounded}
 
-Maybe I've been spoilt by central government's continuous push towards a [single domain](http://gov.uk), and it's [award winning design](https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013), but this website was not what I was expecting.
+Maybe I've been spoilt by central government’s continuous push towards a [single domain](http://gov.uk), and it’s [award winning design](https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013), but this website was not what I was expecting.
 
 Not only did this website not look anything like an NHS website, but it was also hosted on a private domain: `.co.uk` in this instance, rather than the more predictable `nhs.uk`.
 
@@ -40,7 +40,7 @@ My first impression of this was confusion and alarm. I had no confidence in who 
 
 Alas, I chose to trust the veracity of the information on the NHS Choices website I'd come from, and I pushed ahead with the registration form.
 
-This wasn't a redesigned service that might be analogous in quality to something that meets central government's Digital by Default Service Standard - it was merely a digital version of the paper form - but at least it was appropriately secured over an HTTPS connection.
+This wasn't a redesigned service that might be analogous in quality to something that meets central government’s Digital by Default Service Standard - it was merely a digital version of the paper form - but at least it was appropriately secured over an HTTPS connection.
 
 Form completed, I pressed submit.
 
@@ -68,11 +68,11 @@ I said earlier NHS Choices had told me everything I wanted to know. But it didn'
 
 In between booking an appointment and physically seeing a GP, I came to a realisation: GP surgeries have catchment areas. I didn't know if I was in the catchment for this surgery; if I wasn't, I'd have to start over again.
 
-So back to NHS Choices I went. As it turns out, the NHS Choices website shows you surgeries near you, but it doesn't *just* show surgeries near you that you're able to register for. Instead, **it shows everything**. As a potential patient, that's not useful. It's a good job this surgery let me register anyway.
+So back to NHS Choices I went. As it turns out, the NHS Choices website shows you surgeries near you, but it doesn't *just* show surgeries near you that you're able to register for. Instead, **it shows everything**. As a potential patient, that’s not useful. It’s a good job this surgery let me register anyway.
 
 ## As a patient moving GP surgery, I need my data to be accessible to my new GP, so that I can continue with existing diagnosis and treatment plans
 
-It's fairly standard practice to need your medical history transferred when you change surgeries. Whilst that's an undeniable fact, the process of moving that data between surgeries doesn't seem to know how to cope with it.
+It’s fairly standard practice to need your medical history transferred when you change surgeries. Whilst that’s an undeniable fact, the process of moving that data between surgeries doesn't seem to know how to cope with it.
 
 You normally have to register to get your file transferred. In this case, I hadn't been able to do that until the day of my first appointment, so I needed an alternative.
 
@@ -86,6 +86,6 @@ Even better, when I finally sat down in front of the doctor, that fax had been s
 
 ## This is the NHS in 2016
 
-It's taken me over 3 weeks to register and get an appointment with my new GP. To do something as simple as register me for a GP surgery, the NHS has incurred the costs of at least 3 phone calls, a few hours of manual processing, 2 faxes, a few web page views and 1 failed digital transaction.
+It’s taken me over 3 weeks to register and get an appointment with my new GP. To do something as simple as register me for a GP surgery, the NHS has incurred the costs of at least 3 phone calls, a few hours of manual processing, 2 faxes, a few web page views and 1 failed digital transaction.
 
 It shouldn't be this hard to interact with the NHS in 2016: it could be much cheaper, and should be much simpler.

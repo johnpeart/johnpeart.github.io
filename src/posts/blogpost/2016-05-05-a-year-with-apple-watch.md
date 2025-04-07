@@ -23,9 +23,9 @@ Well, 1 year on, not all of those lived up to their promise.
 
 ## The most accurate timepiece ever made
 
-I don't know if Apple Watch is the most accurate watch ever made, but I do know that it's accurate enough for me never to have to worry. It even managed to deal with the clocks going forward and back without screwing up -- which is [more than can be said for iPhone](http://www.gottabemobile.com/2016/03/12/iphone-daylight-saving-2015/).
+I don't know if Apple Watch is the most accurate watch ever made, but I do know that it’s accurate enough for me never to have to worry. It even managed to deal with the clocks going forward and back without screwing up -- which is [more than can be said for iPhone](http://www.gottabemobile.com/2016/03/12/iphone-daylight-saving-2015/).
 
-The problem with Apple Watch isn't its ability to know the time, it's the ability for it to tell me. 
+The problem with Apple Watch isn't its ability to know the time, it’s the ability for it to tell me. 
 
 The display on Apple Watch turns on in a number of ways:
 
@@ -33,21 +33,21 @@ The display on Apple Watch turns on in a number of ways:
 - double tapping your wrist
 - pressing one of the devices physical buttons
 
-By far the most used of those three is the wrist-raise, because it's the most natural. In theory it sounds great. Theory is not practice, friends.
+By far the most used of those three is the wrist-raise, because it’s the most natural. In theory it sounds great. Theory is not practice, friends.
 
 I've lost count of the number of times I've raised my arm only to see the screen fail to awaken; I must look like I'm having some kind of involuntary shoulder spasm when trying to activate it. 
 
-So sure, it's probably the most accurate timepiece ever -- when you can get it to turn on.
+So sure, it’s probably the most accurate timepiece ever -- when you can get it to turn on.
 
 ## A device to communicate in more personal ways
 
-Apple made a big deal out of this device's communications abilities. You can make calls from your wrist. You can send texts from it. Hell, you can even send your heartbeat from it if you want to. 
+Apple made a big deal out of this device’s communications abilities. You can make calls from your wrist. You can send texts from it. Hell, you can even send your heartbeat from it if you want to. 
 
 The promise Apple dangled in front of our noses was more of a prayer. 
 
-Let's start with *Digital Touch* -- Apple Watch's ability to send sketches and heartbeats to others. I still don't know the point of this feature is. In case it wasn't obvious on announcement day -- this is a total gimmick with no practical application in the real world. I literally haven't used it aside from to try it out in the first few weeks. In fact, the whole side button that triggers it is entirely redundant to me, aside from it's ability to activate Apple Pay. It may as well not be there.
+Let’s start with *Digital Touch* -- Apple Watch’s ability to send sketches and heartbeats to others. I still don't know the point of this feature is. In case it wasn't obvious on announcement day -- this is a total gimmick with no practical application in the real world. I literally haven't used it aside from to try it out in the first few weeks. In fact, the whole side button that triggers it is entirely redundant to me, aside from it’s ability to activate Apple Pay. It may as well not be there.
 
-Apple Watch's call making abilities are equally over-rated. Whilst the idea of being Dick Tracey might have sounded cool, in practice, it's an experience fraught with problems. 
+Apple Watch’s call making abilities are equally over-rated. Whilst the idea of being Dick Tracey might have sounded cool, in practice, it’s an experience fraught with problems. 
 
 Firstly, the microphone and speaker in Apple Watch are so underpowered that you basically need to hold it to your mouth and ear the whole time you're on a call -- which not only defeats the object, but also makes your arm ache. 
 
@@ -55,16 +55,16 @@ Perhaps worse is just the sheer embarrassment of looking like an asshat as you t
 
 Perhaps text messaging (and instant messaging more broadly) is where Apple Watch has value then? Kind of.
 
-There's no keyboard on Apple Watch -- obviously. That means everything is entered by voice. This introduces multiple friction points.
+There’s no keyboard on Apple Watch -- obviously. That means everything is entered by voice. This introduces multiple friction points.
 
-1. Dictation relies on off-device processing to turn your words into text. That means you need a fast internet connection; something that's rarely a given. 
+1. Dictation relies on off-device processing to turn your words into text. That means you need a fast internet connection; something that’s rarely a given. 
 2. Assuming your internet connection works, the accuracy of the text-to-speech service is flakey at best.
 
-For quick replies -- single word responses or emoji -- the Apple Watch is fine, but normally you need more than that, and it's normally quicker and more reliable to use your iPhone.
+For quick replies -- single word responses or emoji -- the Apple Watch is fine, but normally you need more than that, and it’s normally quicker and more reliable to use your iPhone.
 
-Worse, depending on what service your message comes through on depends on whether you can or can't reply from the Watch anyway. If there's not an app for that, you're out of luck.
+Worse, depending on what service your message comes through on depends on whether you can or can't reply from the Watch anyway. If there’s not an app for that, you're out of luck.
 
-Apple Watch isn't the most personal device for communication I have -- that's my iPhone; because it's faster, more reliable and more versatile. 
+Apple Watch isn't the most personal device for communication I have -- that’s my iPhone; because it’s faster, more reliable and more versatile. 
 
 ## A device to help you lead a healthier life
 
@@ -78,19 +78,19 @@ There are loads of things you could improve about the health capabilities of App
 
 ## A bad purchase? Some good stuff
 
-You might be thinking, not unreasonably, that I hate my Apple Watch. I don't. There's a lot to like about it; just not the things Apple chose as the device's stand-out features.
+You might be thinking, not unreasonably, that I hate my Apple Watch. I don't. There’s a lot to like about it; just not the things Apple chose as the device’s stand-out features.
 
 ### A look for every occasion
 
-Apple's watch bands are a delight. Super simple to swap out and the burgeoning third party supplier market makes it possible to keep your look fresh.
+Apple’s watch bands are a delight. Super simple to swap out and the burgeoning third party supplier market makes it possible to keep your look fresh.
 
 ### Notifications
 
-It's still not perfect, but the way Apple Watch builds on and improves the handling of notifications from your iPhone is great. I said this was the best part of Apple Watch, and it still is.
+It’s still not perfect, but the way Apple Watch builds on and improves the handling of notifications from your iPhone is great. I said this was the best part of Apple Watch, and it still is.
 
 ###  Siri
 
-It's sometimes slower than I would like it to be, but having Siri on your wrist is actually super useful. Even if its just to check the weather or to set a timer, its really convienient; especially when you can't find your iPhone.
+It’s sometimes slower than I would like it to be, but having Siri on your wrist is actually super useful. Even if its just to check the weather or to set a timer, its really convienient; especially when you can't find your iPhone.
 
 ### Find my iPhone
 
@@ -102,4 +102,4 @@ A year is a long time in the technology space. Apple Watch hasn't really changed
 
 I wasn't new to wearing a smartwatch; I'd worn them before Apple Watch, and I suspect I'll continue to wear them for many years to come. That probably means a number of more years of frustration with devices like Apple Watch.
 
-I said last time that you probably don't want this one. My opinion hasn't changed. There's a long way to go before this device is ready for prime time.
+I said last time that you probably don't want this one. My opinion hasn't changed. There’s a long way to go before this device is ready for prime time.

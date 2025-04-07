@@ -39,4 +39,4 @@ It is so cool!
 
 And it actually *works*. Not to take photos – though that might be a fun 'hack' to build some electronics into it – but it does *function*. That big red button on the front forces a faux *Polaroid* picture to mechanically pop out from the front of the faux camera.
 
-The whole thing is just delightful. It's sat on my shelf in my study now, and every time I see it or pop the big red button, it brings a little smile to my face.
+The whole thing is just delightful. It’s sat on my shelf in my study now, and every time I see it or pop the big red button, it brings a little smile to my face.

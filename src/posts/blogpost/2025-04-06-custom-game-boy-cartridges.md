@@ -8,7 +8,7 @@ categories:
 - gaming
 --- 
 
-The *Nintendo Game Boy* is more than 35 years old. That's ancient in technology terms but there is life in the old dog yet.
+The *Nintendo Game Boy* is more than 35 years old. That’s ancient in technology terms but there is life in the old dog yet.
 
 Last year, I bought an [*Analogue Pocket*](https://www.analogue.co/pocket): a wonderful device that allows me to play original *Game Boy* cartridges on modern hardware. The full colour, high resolution display makes every single game pop with a brilliance that makes the experience of playing these decades old games feel brand new again.
 
@@ -28,7 +28,7 @@ They're also just old and tatty. Shoved in draws and battered around in boxes fo
 
 I could have fixed the cosmetic issues easily enough. Hooking the old circuit boards out of their shells and putting them into “new” replica shells ones takes moments. Scribbling the name of the game onto the shell in permanent marker, even less time. 
 
-But that's not very... well... *me*, is it?
+But that’s not very... well... *me*, is it?
 
 For the past couple of months, I've been purchasing reproduction shells and circuit boards, ripping the original games from the original *Game Paks* and producing pristine replicas. 
 

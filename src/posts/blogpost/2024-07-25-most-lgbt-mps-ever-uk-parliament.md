@@ -26,7 +26,7 @@ By “openly LGBT+”, I mean that there is a trustworthy publicly available sou
 
 At more than 11% of MPs, there are more than 3 times more LGBT+ people in the Commons than you would expect based on the demographics of the national population.[^census]
 
-[^census]: The UK's most recent, 2021 Census found that 3.2% of the UK's population identified as having a sexual orientation other than heterosexual, and 0.5% that identify as trans.
+[^census]: The UK’s most recent, 2021 Census found that 3.2% of the UK’s population identified as having a sexual orientation other than heterosexual, and 0.5% that identify as trans.
 
 ## Most LGBT+ MPs are from the Labour Party
 

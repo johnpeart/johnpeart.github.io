@@ -10,15 +10,15 @@ Let me tell you about my ongoing woes with Finsbury Park station. I admit upfron
 
 You see, I’ve recently experienced the delights of efficient and effective European transport rail and light-rail infrastructure, so the continuing trials of my local tube station leave me dumbfounded. 
 
-Finsbury Park station is a badly designed station. Its entrances are narrow, and its walkways are too small, and there's no real chance of expanding its internal footprint. It regularly overcrowds as a result, and the TfL staff at the station — largely over-cautiously in my experience — often just close the entrance gates so people can't get in. 
+Finsbury Park station is a badly designed station. Its entrances are narrow, and its walkways are too small, and there’s no real chance of expanding its internal footprint. It regularly overcrowds as a result, and the TfL staff at the station — largely over-cautiously in my experience — often just close the entrance gates so people can't get in. 
 
-It's a straightforward solution to a straightforward problem, you might think. That's certainly true. The unintended consequence of this decision, however, is delays to your journey.
+It’s a straightforward solution to a straightforward problem, you might think. That’s certainly true. The unintended consequence of this decision, however, is delays to your journey.
 
 ## The problem
 
 I must get caught in a Finsbury Park closure at least once a week. When you're late on a Transport for London journey through a fault on their part, you're entitled to a refund. Your entitlement kicks in after around 15 minutes. Theoretically, you can submit a refund request when you experience a delay and they give you the money back.
 
-Here's the problem: if they close the station and turn off the entry barriers, you aren't “touched in”, which means that TfL won't give you a refund. 
+Here’s the problem: if they close the station and turn off the entry barriers, you aren't “touched in”, which means that TfL won't give you a refund. 
 
 It makes logical sense, of course. TfL don't know that you're late, and by the time you touch in and touch out again, they won't notice any difference. To the automated system, there is no delay. 
 
@@ -36,7 +36,7 @@ When you travel on the London Overground and you skirt around Zone 1 instead of 
 
 It seems obvious to me that the way for delayed passengers, stuck outside stations, to register their delay is to reuse this same system **outside** the ticket barriers. It would be simple enough. You would: 
 
-1. turn up at the station and find it's shut
+1. turn up at the station and find it’s shut
 2. beep your card on the terminals outside the entrance when you arrive
 3. beep again on your way in the gates once they are re-opened
 
@@ -52,4 +52,4 @@ Whilst they're at it, TfL should start issuing automatic refunds, rather than ex
 
 Those are my Finsbury Park woes, my middle-class rant about them, and a possible solution to the problem. 
 
-Here's another idea: tweet this [@TfL](https://www.twitter.com/TfL) if you agree.
+Here’s another idea: tweet this [@TfL](https://www.twitter.com/TfL) if you agree.

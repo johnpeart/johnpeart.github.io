@@ -31,7 +31,7 @@ Not content to merely lift-and-shift the existing site, I of course made things 
 
 ### Unique Opengraph images on every page
 
-Opengraph images are the images that pop up on social media when you share a URL of a page. Here's an example of one I most recently used for my 'weeknotes':
+Opengraph images are the images that pop up on social media when you share a URL of a page. Here’s an example of one I most recently used for my 'weeknotes':
 
 <figure>
 	<img src="/assets/images/posts/2024/09/09/opengraph-weeknotes.png" alt="A representation of a calendar with the word “Weeknote” and the number “01” on it.">
@@ -47,9 +47,9 @@ What if, instead of the above, static image, for [my most recent weeknote](/week
 	<figcaption>Now my Opengraph images reflect the actual content of the post automatically.</figcaption>
 </figure>
 
-If I wanted that on my Jekyll site, I'd be out of luck. With such little working knowledge of Ruby, I'd have to manually create them. That's a massive time sink I don't want. 
+If I wanted that on my Jekyll site, I'd be out of luck. With such little working knowledge of Ruby, I'd have to manually create them. That’s a massive time sink I don't want. 
 
-With Eleventy, though, it's been relatively trivial. 
+With Eleventy, though, it’s been relatively trivial. 
 
 My site now generates *two* pages of output for every *one* page of input: the normal page, and then a separate `/social/` page which is run through the [Eleventy Screenshots API](https://www.11ty.dev/docs/services/screenshots/) to create the image. 
 
@@ -80,14 +80,14 @@ Not sure if I like this change, but I'll roll with it for now, until I inevitabl
 
 There were some snags along the way, which might mean I've broken stuff (time will tell).
 
-1. **~~Redirects~~ Aliases**: Jekyll has an excellent and robust redirects plugin. Eleventy's community plugin is... less robust. I've managed to make it work, but it took a lot of fiddling.
+1. **~~Redirects~~ Aliases**: Jekyll has an excellent and robust redirects plugin. Eleventy’s community plugin is... less robust. I've managed to make it work, but it took a lot of fiddling.
 2. **Dates and times**: You a throw pretty much any date in any format at Jekyll and it'll figure out a way to make it work. Eleventy is *far* more temperamental. The dates must be in `YYYY-MM-DDTHH:MM:SS+00:00` format (e.g. `2024-06-31T09:00:00+01:00`) or it throws a wobbly and just won't build. 
 
 It took me longer than it should have done to figure out how to resolve these issues; the Eleventy documentation is – generously – *unclear*.
 
 ## We'll see how it goes
 
-Now I'm done, I'm pleased that everything is working. The site is also 6x faster to build (down to 1s from 6s), so it's blazing fast to work with again. 
+Now I'm done, I'm pleased that everything is working. The site is also 6x faster to build (down to 1s from 6s), so it’s blazing fast to work with again. 
 
 Fingers crossed I haven't broken anything too badly!
 

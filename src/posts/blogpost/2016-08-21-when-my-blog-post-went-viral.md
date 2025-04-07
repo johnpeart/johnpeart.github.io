@@ -1,6 +1,6 @@
 ---
 title: "What happened when my blog post went viral"
-excerpt: "I recently wrote a blog post - a letter to my heterosexual friends about Orlando - that went unintentionally viral. Here's the story behind that post."
+excerpt: "I recently wrote a blog post - a letter to my heterosexual friends about Orlando - that went unintentionally viral. Here’s the story behind that post."
 categories:
   - data
 related:
@@ -9,7 +9,7 @@ related:
   link: /2016/06/14/to-my-heterosexual-friends-orlando-shootings/
 ---
 
-I recently got frustrated at the silence of some of my friends and family after the horrific events at Pulse nightclub in Orlando, and [I wrote them a letter](/2016/06/14/to-my-heterosexual-friends-orlando-shootings). I didn't expect anyone to actually read it - I don't write for other people, I write because it's a creative outlet - but they did.
+I recently got frustrated at the silence of some of my friends and family after the horrific events at Pulse nightclub in Orlando, and [I wrote them a letter](/2016/06/14/to-my-heterosexual-friends-orlando-shootings). I didn't expect anyone to actually read it - I don't write for other people, I write because it’s a creative outlet - but they did.
 
 In fact, **a lot** of people did.
 
@@ -54,7 +54,7 @@ Perhaps the most interesting part of this period of virality was the number of p
 
 Clearly this tragic event had touched people, and this letter helped them to process it and educate others. I received a lot of kind words, like these from a school teacher in Ireland:
 
-> [...] Next week is my last lesson with a citizenship class, and I hope you don't mind if I read your letter to them. I don't know, but it's likely that some of those kids are LGBT and I want them to feel valued. [...]
+> [...] Next week is my last lesson with a citizenship class, and I hope you don't mind if I read your letter to them. I don't know, but it’s likely that some of those kids are LGBT and I want them to feel valued. [...]
 
 There was this from a father in Australia:
 

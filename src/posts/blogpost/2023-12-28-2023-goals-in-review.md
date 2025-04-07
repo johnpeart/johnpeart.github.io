@@ -37,7 +37,7 @@ With interest rates creeping up this year, my student loan interest rate went th
 
 ### 3. Write more
 
-It's a recurring goal for me to write at least a blog post a month. This year I've written 10 of them, including this one; just shy of the target of 12.
+It’s a recurring goal for me to write at least a blog post a month. This year I've written 10 of them, including this one; just shy of the target of 12.
 
 ### 4. Close my activity rings
 
@@ -57,6 +57,6 @@ I was aiming to lose weight overall this year, and I have done that; kind of. *A
 
 2023 is a success, by these crude measures. At least 80% of goals, at least 80% complete before the deadline.
 
-Let's see if I can keep it up for 2024.
+Let’s see if I can keep it up for 2024.
 
-> You can see my progress with this year's goals by visiting my [goals dashboard](/goals/).
+> You can see my progress with this year’s goals by visiting my [goals dashboard](/goals/).

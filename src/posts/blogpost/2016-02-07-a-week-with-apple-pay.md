@@ -11,7 +11,7 @@ One of the conditions of switching was that the account at my old bank would be 
 
 [^1]: For those of you thinking I could just use contactless on my new debit card: I couldn't. Contactless debit cards only work after you've validated them with a PIN number. Once every 10 transactions you have to re-enter your PIN to prevent fraud.
 
-Luckily, my new bank supports [Apple Pay](http://www.apple.com/uk/apple-pay/); it's a new way to pay without needing a PIN number. So I had a way to pay for things despite the current account switching snafu, and I had the opportunity to run an interesting experiment. Could I get away with *only* paying for everything on Apple Pay until my PIN eventually arrived in the post?
+Luckily, my new bank supports [Apple Pay](http://www.apple.com/uk/apple-pay/); it’s a new way to pay without needing a PIN number. So I had a way to pay for things despite the current account switching snafu, and I had the opportunity to run an interesting experiment. Could I get away with *only* paying for everything on Apple Pay until my PIN eventually arrived in the post?
 
 ## Setting up Apple Pay
 
@@ -43,25 +43,25 @@ That being said, I learnt some interesting things about how contactless payments
 
 ### Actually paying for stuff
 
-Despite the process being near identical to using a contactless card, paying for stuff using Apple Pay was actually pretty fun. I've not had the usual shocked reactions you get when people see you using new technology, which are always a socially-awkward delight, but it's filled me with small moments of joy whenever Apple Pay worked exactly as it needed to. 
+Despite the process being near identical to using a contactless card, paying for stuff using Apple Pay was actually pretty fun. I've not had the usual shocked reactions you get when people see you using new technology, which are always a socially-awkward delight, but it’s filled me with small moments of joy whenever Apple Pay worked exactly as it needed to. 
 
-There's a little more peace of mind paying with Apple Pay. With contactless cards, there's always a twinge of doubt that you might accidentally trigger a payment on the wrong card - or get [*card clash*](/2014/08/24/card-clash-is-a-catastrophuck/). Apple Pay only authorises a payment when it can verify your finger print or device passcode, so there's no chance of an accidental payment; which is nice.
+There’s a little more peace of mind paying with Apple Pay. With contactless cards, there’s always a twinge of doubt that you might accidentally trigger a payment on the wrong card - or get [*card clash*](/2014/08/24/card-clash-is-a-catastrophuck/). Apple Pay only authorises a payment when it can verify your finger print or device passcode, so there’s no chance of an accidental payment; which is nice.
 
-The most disconcerting part of paying for Apple Pay is it's speed. Every time I paid using Apple Pay, the phone processed the payment, and there was - what can only be described as - a pregnant pause whilst the contactless terminal caught up. It's similar to the delays between using contactless versus Oyster on the London Underground; the latter is much, much faster[^4]. The lag experienced using Apple Pay *doesn't* happen when using contactless payment cards in stores. This delay does introduce a small moment of panic to an otherwise smooth process, as you hope your payment actually went through.
+The most disconcerting part of paying for Apple Pay is it’s speed. Every time I paid using Apple Pay, the phone processed the payment, and there was - what can only be described as - a pregnant pause whilst the contactless terminal caught up. It’s similar to the delays between using contactless versus Oyster on the London Underground; the latter is much, much faster[^4]. The lag experienced using Apple Pay *doesn't* happen when using contactless payment cards in stores. This delay does introduce a small moment of panic to an otherwise smooth process, as you hope your payment actually went through.
 
 [^4]: Part of the reason that contactless took so long to introduce on the London Underground was that TfL found the speed of NFC technology - which contactless cards are based on - to be much slower than the RFID technology found in Oyster cards.
 
 ### The meal deal is off
 
-Surviving my week-and-a-bit with Apple Pay was much harder than expected, in part, because of Sainsbury's. It's probably my most shopped-in supermarket; I go there pretty regularly to get lunch because there's a store directly under my office. Not during this experiment though because - amazingly - Sainsbury's *still* doesn't accept contactless payments. In fact, I think it's now the only major supermarket *not* to accept contactless. So the £3 meal deal was off.
+Surviving my week-and-a-bit with Apple Pay was much harder than expected, in part, because of Sainsbury's. It’s probably my most shopped-in supermarket; I go there pretty regularly to get lunch because there’s a store directly under my office. Not during this experiment though because - amazingly - Sainsbury’s *still* doesn't accept contactless payments. In fact, I think it’s now the only major supermarket *not* to accept contactless. So the £3 meal deal was off.
 
 This wasn't the worst thing in the world - I work in an area filled with *Pret A Manger*, *Wasabi*, *EAT* and other food outlets - but it did mean the cost of lunch spiralled in this 9 day period.
 
-Sainsbury's wasn't the only place that didn't have contactless over the period of my experiment, but it's surprising that after several years of contactless being in circulation that I had a much more limited selection of options available to me.
+Sainsbury’s wasn't the only place that didn't have contactless over the period of my experiment, but it’s surprising that after several years of contactless being in circulation that I had a much more limited selection of options available to me.
 
 ### Signals
 
-No one knows how to react to Apple Pay because no one understands the signals. When you're paying with contactless, you tend to have your debit or credit card in hand, ready to pay. That's usually a pretty easy signal for retail staff to pick up on that you want to pay by card - either by PIN or by contactless. With Apple Pay, you get no such luck.
+No one knows how to react to Apple Pay because no one understands the signals. When you're paying with contactless, you tend to have your debit or credit card in hand, ready to pay. That’s usually a pretty easy signal for retail staff to pick up on that you want to pay by card - either by PIN or by contactless. With Apple Pay, you get no such luck.
 
 Most of the time, I ended up standing at a till waiting for things to happen. Cashiers don't know that you're waiting to pay by contactless; they just think you're holding your phone. I ended up saying "can I pay by contactless?" *a lot*.
 
@@ -73,7 +73,7 @@ The first was in Caffe Nero, whose Internet connection had gone down and weren't
 
 The second was at the Black Penny, at team breakfast. Their contactless terminal wasn't working, so a colleague had to pay for my breakfast and I had to transfer her the money afterwards through online banking.
 
-These two experiences highlighted the problems with Apple Pay and contactless payments right now. A payment method needs to be reliable and constantly available. If it's not, you're faced with a scenario where you literally can't eat or drink. Until our banking technology infrastructure is robust, I suspect this will hinder the total adoption of cashless payments.
+These two experiences highlighted the problems with Apple Pay and contactless payments right now. A payment method needs to be reliable and constantly available. If it’s not, you're faced with a scenario where you literally can't eat or drink. Until our banking technology infrastructure is robust, I suspect this will hinder the total adoption of cashless payments.
 
 ### Social dilemmas
 
@@ -81,14 +81,14 @@ Perhaps the most panic inducing moment of my 9 day experiment was preparing for 
 
 My boyfriend informed me - with short notice - that I'd need to wear a shirt for dinner that night. I was wearing a shirt, but I was also wearing a pair of trainers - which would have been a bit of a *faux pas*. In central London, and with no time to get home and change, I needed to buy new shoes. 
 
-How hard is buying nice shoes from Covent Garden on a £30 budget? Turns out, it's near impossible. I ended up buying a pair of £60 shoes from Zara that were reduced to £29.99. 
+How hard is buying nice shoes from Covent Garden on a £30 budget? Turns out, it’s near impossible. I ended up buying a pair of £60 shoes from Zara that were reduced to £29.99. 
 
 Date night saved, but a close call.
 
 ## Living with contactless is hard
 
-If there's anything I've learnt from this experiment it's that going cashless and contactless is hard. 
+If there’s anything I've learnt from this experiment it’s that going cashless and contactless is hard. 
 
-Contactless payment options still aren't ubiquitous enough and card payment technology still isn't robust enough. It's next-to-impossible to take the plunge to go cash-free; having back-ups isn't just a luxury, it's a necessity.
+Contactless payment options still aren't ubiquitous enough and card payment technology still isn't robust enough. It’s next-to-impossible to take the plunge to go cash-free; having back-ups isn't just a luxury, it’s a necessity.
 
-Not to worry though - I have my PIN now, and everything's back to normal.
+Not to worry though - I have my PIN now, and everything’s back to normal.

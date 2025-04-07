@@ -8,7 +8,7 @@ posse:
 - https://mastodon.social/@johnpeart/111657977230147407
 ---
 
-It's 28th December 2023, and having made the pilgrimage home for Christmas, I'm sat on my own in my parent's living room with their two dogs. It's wet, cold and miserable outside, and there's not much to do. Whilst I'm sat here, with my brain wandering, I got to thinking... this year has been pretty alright!
+It’s 28th December 2023, and having made the pilgrimage home for Christmas, I'm sat on my own in my parent’s living room with their two dogs. It’s wet, cold and miserable outside, and there’s not much to do. Whilst I'm sat here, with my brain wandering, I got to thinking... this year has been pretty alright!
 
 More than alright, actually. Pretty great, all things considered.
 

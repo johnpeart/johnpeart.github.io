@@ -1,7 +1,7 @@
 ---
 title: "Creating a scoreboard for my Eurovision house party"
 author: John Peart
-excerpt: "I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here's how I built it."
+excerpt: "I bloody love Eurovision; and this year, I wanted to celebrate with an upgrade for my house party. Here’s how I built it."
 categories:
   - digital
   - eurovision
@@ -11,7 +11,7 @@ Loads of people watch Eurovision for the [outrageous costumes](https://youtu.be/
 
 I don't think I'm actually ever more excited than when they announce the results; even more so with the new and absolutely *brutal* way they've done them in recent years.
 
-So when I was deciding how I could bring some added fun to my Eurovision house party this year, there was only ever one choice: **more voting**! Many people would have settled for a paper scorecard downloaded from the Beeb — but not me. No, I wanted a digital scoreboard with realtime voting for my guests. And that's what I built. Here's a quick canter through how I shoved it together in only a few hours.
+So when I was deciding how I could bring some added fun to my Eurovision house party this year, there was only ever one choice: **more voting**! Many people would have settled for a paper scorecard downloaded from the Beeb — but not me. No, I wanted a digital scoreboard with realtime voting for my guests. And that’s what I built. Here’s a quick canter through how I shoved it together in only a few hours.
 
 ## What I built
 
@@ -49,7 +49,7 @@ Guests awarded their points by submitting the form at the end each performance[^
 
 Google Form created, I next linked this to a Google Sheet. This means every time someone makes a form submission, it saves their response to a spreadsheet.
 
-It's almost too easy to do: you just click a button on the top of the form! In my case, I needed to create a new Sheets file, but you could also link it to an existing spreadsheet if you had one you'd already been working in.
+It’s almost too easy to do: you just click a button on the top of the form! In my case, I needed to create a new Sheets file, but you could also link it to an existing spreadsheet if you had one you'd already been working in.
 
 ### Calculate the scores
 
@@ -90,11 +90,11 @@ You need to know the `YOUR-SPREADSHEET-ID` — which will be a long random alpha
 
 > **Before you go further**, I should say that I'm very much a javascript novice. I pieced this together from various StackOverflow threads, so whilst I can tell you *what* I did, I can't necessarily explain to you why it works!
 >
-> There's probably a much simpler way of writing this code — if there is, please do let me know and [amend the code on Github](https://github.com/johnpeart/scoreboard).
+> There’s probably a much simpler way of writing this code — if there is, please do let me know and [amend the code on Github](https://github.com/johnpeart/scoreboard).
 
 ### Load the data
 
-The first thing I needed was a function that could load the data. I created a function `loadScript()` which accepts two arguments — the `url` of the Google Sheet and a `callback` to trigger once it's loaded.
+The first thing I needed was a function that could load the data. I created a function `loadScript()` which accepts two arguments — the `url` of the Google Sheet and a `callback` to trigger once it’s loaded.
 
 {% raw %}
 ```javascript
@@ -119,7 +119,7 @@ function loadScript(url, callback)
 
 The `url` argument is constructed from the `YOUR-SPREADSHEET-ID` you hunted down earlier.
 
-Whereas the URL for the document in a browser will load the Google Sheets app, I needed the data in a raw format. Google offers a JSONP API for this purpose. The URL we need for our script's `url` argument is in this format:
+Whereas the URL for the document in a browser will load the Google Sheets app, I needed the data in a raw format. Google offers a JSONP API for this purpose. The URL we need for our script’s `url` argument is in this format:
 
 ```
 https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&callback=YOUR-CALLBACK
@@ -127,7 +127,7 @@ https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?a
 
 You replace `YOUR-SPREADSHEET-ID` with the ID you kept hold of earlier.
 
-In order to manipulate the data you need to include a callback too — that's where `YOUR-CALLBACK` comes in. In my case, I called it `onDataLoaded`; which we'll come back to.
+In order to manipulate the data you need to include a callback too — that’s where `YOUR-CALLBACK` comes in. In my case, I called it `onDataLoaded`; which we'll come back to.
 
 That gave me this:
 
@@ -141,7 +141,7 @@ This script will now call the data, inject the script into the page `header`, ma
 
 I included a callback in the URL, `onDataLoaded`. This function would take the content of specific cells, save the data as variables, and then place this data inside a `div` in the HTML.
 
-I mentioned I used Jekyll; this is where Jekyll comes in handy. Instead of manually writing out each `var` and popping it into it's respective `div`, I created a `.csv` file in the site's `_data` folder called `data.csv`. In this file was a list of all the countries in the final.
+I mentioned I used Jekyll; this is where Jekyll comes in handy. Instead of manually writing out each `var` and popping it into it’s respective `div`, I created a `.csv` file in the site’s `_data` folder called `data.csv`. In this file was a list of all the countries in the final.
 
 In the javascript file, I used some Liquid markup to iterate through each row of `data.csv`, to convert any country names into usable variables, and then replace the HTML. What would have been more than 50 lines of code to write then became 4 lines[^3].
 
@@ -175,7 +175,7 @@ function getNewData() {
 			loadScript("https://spreadsheets.google.com/feeds/cells/YOUR-SPREADSHEET-ID/1/public/basic?alt=json-in-script&callback=onDataLoaded")
 
 			// Output to the console that the data has been checked,
-			// so you know it's working even if there are no changes.
+			// so you know it’s working even if there are no changes.
 			console.log("Updated data");
 
 		},
@@ -251,14 +251,14 @@ var onDataLoaded = (data) => {
 
 I did this in a rush; I had the idea at 10am on the morning of the final and had finished it just after lunch time. That means there are a lot of rough edges, including:
 
-1. **Lots of unnecessary code**: I copied an existing Jekyll project folder over and started hacking away at it, so there's a lot of code I don't need that's left behind from that. If I do this again next year, I'll tidy that all up.
+1. **Lots of unnecessary code**: I copied an existing Jekyll project folder over and started hacking away at it, so there’s a lot of code I don't need that’s left behind from that. If I do this again next year, I'll tidy that all up.
 2. **It works best on TVs**: I knew I was going to display this on a 1080p resolution display, so I built it specifically for that use case. It goes quite badly wrong, quite quickly on any other screen size. An objective for next time would be to make it responsive.
-3. **Jekyll wasn't really needed**: I could have built this without Jekyll, but it's become a bit of a crutch recently. I should probably build it without Jekyll!
+3. **Jekyll wasn't really needed**: I could have built this without Jekyll, but it’s become a bit of a crutch recently. I should probably build it without Jekyll!
 
-There's also some stuff that would have been cool to add, like:
+There’s also some stuff that would have been cool to add, like:
 
 1. **Re-ordering the grid automatically**: at the moment, all scores are ordered by the order they appear in the `data.csv` file. It would be great to have them re-order to be in rank order.
-2. **Calculate proper scores, after voting ends**: in the current version, it's possible to have more than one act with 12 points. It would be cool to have the scoreboard use the unrounded figures to attribute scores properly at the end, Eurovision style.
+2. **Calculate proper scores, after voting ends**: in the current version, it’s possible to have more than one act with 12 points. It would be cool to have the scoreboard use the unrounded figures to attribute scores properly at the end, Eurovision style.
 
 ## Get the code
 

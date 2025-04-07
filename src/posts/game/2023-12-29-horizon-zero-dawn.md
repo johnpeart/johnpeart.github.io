@@ -10,7 +10,7 @@ I completed *Horizon Zero Dawn's* story several years ago, but I recently return
 
 I regret my decision.
 
-The story is exceptional. I think it's brilliantly told, with some top class acting talent to sell it – especially *Lance Reddick's* performance as *Sylens*. 
+The story is exceptional. I think it’s brilliantly told, with some top class acting talent to sell it – especially *Lance Reddick's* performance as *Sylens*. 
 
 But Horizon Zero Dawn is an open world game and, as I have discovered, getting a Platinum trophy in an open world game is rarely worth the reward. You spend *so long* traipsing around doing busy work that you lose the fun and wonder of the game.
 

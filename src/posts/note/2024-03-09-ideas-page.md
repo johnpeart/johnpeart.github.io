@@ -13,13 +13,13 @@ Hot on the heels of discovering the ‘[Now](/note/1709629560/)’ page, I’ve 
 
 I like the way their [manifesto](https://aboutideasnow.com/about) describes the difference between an ‘About’, ‘Ideas’ and ‘Now’ page:
 
-> **/about** pages are about the past: how people see themselves and what brought them there. That's useful as a general overview. 
+> **/about** pages are about the past: how people see themselves and what brought them there. That’s useful as a general overview. 
 > 
 > **/now** is a more personal look at what people are doing right now, what they care about, and what they could use help with.
 > 
 > **/ideas** should be about the future: the crazy things people always wanted to make, concepts they're mulling over, or planned projects.
 
-I've had an ‘[About](/about)’ page for *ages*[^about]; of course I did, it's personal site 101.
+I've had an ‘[About](/about)’ page for *ages*[^about]; of course I did, it’s personal site 101.
 
 [^about]: My ‘[About](/about)’ page has mostly been a look at my career, voluntary and educational history. I think I might update it to be a bit less 'data driven' and a bit more personal, at some point.
 

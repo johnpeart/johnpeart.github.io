@@ -374,7 +374,7 @@ eurovision-entries:
 - country: "Switzerland"
   emoji: ""
   song: "Répondez-moi"
-  artist: "Gjon's Tears"
+  artist: "Gjon’s Tears"
   semifinal: 2
   final: false
   commentary: |

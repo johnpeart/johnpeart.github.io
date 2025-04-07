@@ -15,7 +15,7 @@ posse:
 - https://mastodon.social/@johnpeart/111768243795955187
 ---
 
-This post has prompted me to update my own RSS feeds. It's been a long time since I've given them an overhaul.
+This post has prompted me to update my own RSS feeds. It’s been a long time since I've given them an overhaul.
 
 I've recently been adding new post formats to the site: replies and comments, boosts and sharing, quick notes and lists. My RSS feed, though? Just plain old blog posts.
 

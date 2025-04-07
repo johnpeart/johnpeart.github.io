@@ -15,7 +15,7 @@ I wanted to:
 3. Save some money
 4. Close my activity rings
 
-Well, it's New Year's Eve and this year I've exceeded two of the goals I set myself, mostly completed a third, and had a fair crack at the fourth.
+Well, it’s New Year’s Eve and this year I've exceeded two of the goals I set myself, mostly completed a third, and had a fair crack at the fourth.
 
 ### 1. Read more
 
@@ -31,7 +31,7 @@ I built new post formats directly into the website – [notes](/notes), [lists](
 
 I achieved my goal, and then some. Including this post, I've posted 64 pieces of content this year that might loosely be defined as ‘blog posts’. 
 
-I like this new approach to me being on the web; and now it's more of a habit, I suspect I'll keep it up!
+I like this new approach to me being on the web; and now it’s more of a habit, I suspect I'll keep it up!
 
 ### 3. Save some money.
 
@@ -55,4 +55,4 @@ I am promising I have not made this up, buy I have completed 666 activity rings 
 
 I set myself 4 goals, and – following my own arbitrary rules for how I calculate success – I have achieved 77% of what I set out to achieve. That sounds like a pretty good 2024 to me. Onwards to 2025!
 
-> You can see my progress with this year's goals by visiting my [goals dashboard](/goals/).
+> You can see my progress with this year’s goals by visiting my [goals dashboard](/goals/).

@@ -41,7 +41,7 @@ In all, the parts cost around £100 to £150 depending on the generation of iPod
 
 ## It doesn't take long to build
 
-Once you have all the parts, it's actually incredibly simple to put together. I did it in about 30 minutes[^time], following pieces of  tutorials from [iFixit](https://www.ifixit.com/Device/iPod_Classic).
+Once you have all the parts, it’s actually incredibly simple to put together. I did it in about 30 minutes[^time], following pieces of  tutorials from [iFixit](https://www.ifixit.com/Device/iPod_Classic).
 
 After I'd reconstituted my kit-bashed iPod, I plugged it into my Mac and I was off to the races. An hour later and I was able to plug in some authentic Apple EarPods and start listening to my tunes.
 

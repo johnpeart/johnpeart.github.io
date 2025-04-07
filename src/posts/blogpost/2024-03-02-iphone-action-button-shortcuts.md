@@ -8,7 +8,7 @@ posse:
 - https://mastodon.social/@johnpeart/112027377430434866
 ---
 
-I recently upgraded my phone. A less exciting activity than it used to be, admittedly, but this new *iPhone 15 Pro Max* comes with a new button! The *Action Button*. I've been playing around with [Apple's *Shortcuts* app](https://apps.apple.com/gb/app/shortcuts/id1462947752), to see how useful I can make it.
+I recently upgraded my phone. A less exciting activity than it used to be, admittedly, but this new *iPhone 15 Pro Max* comes with a new button! The *Action Button*. I've been playing around with [Apple’s *Shortcuts* app](https://apps.apple.com/gb/app/shortcuts/id1462947752), to see how useful I can make it.
 
 ## A fast track to your favourite features
 
@@ -19,7 +19,7 @@ You can assign it to trigger one of 9 different functions: Silent Mode[^1], Focu
 [^1]: **Silent Mode.** Just like the old switch, this toggles 'Ring' and 'Silent' modes. Instead of the satisfying thunk of a switch, you now you get distinctive, haptic feedback for each mode.
 [^2]: **Focus.** To trigger a specific Focus mode, like Do Not Disturb.
 [^3]: **Camera.** To open the Camera app, and in that app, take a photo.
-[^4]: **Torch.** For blinding others whilst draining your battery accidentally fast. Seriously, go walk around your local area long enough and I guarantee you'll spot some numpty that's triggered their phone torch and not realised, and is walking around flashing it in everyone's faces.
+[^4]: **Torch.** For blinding others whilst draining your battery accidentally fast. Seriously, go walk around your local area long enough and I guarantee you'll spot some numpty that’s triggered their phone torch and not realised, and is walking around flashing it in everyone’s faces.
 [^5]: **Voice Memo.** If you're a Gen-X or Gen-Z type and have an alarming aversion to keyboards.
 [^6]: **Translate.** For communicating in with those from other countries or, I suppose, [species](https://youtu.be/tFMo3UJ4B4g).
 [^7]: **Magnifier.** For zooming in on things in the real world, or for cosplaying as a modern day [Jessica Fletcher](https://en.wikipedia.org/wiki/Jessica_Fletcher).
@@ -51,7 +51,7 @@ I've set up new Shortcuts for pausing my ad-blocker, turning on or off my Apple 
 </figure>
 
 
-But I was not deterred by Apple's refusal to accept that numbers do, in fact, go past 8. I built my own menu instead. 
+But I was not deterred by Apple’s refusal to accept that numbers do, in fact, go past 8. I built my own menu instead. 
 
 Plenty of people have been doing this online – just look at Reddit – but they've been using the built in *Choose from Menu* option. This works fine, and I did that too at first. 
 
@@ -59,9 +59,9 @@ But the longer the list gets, the harder it is to distinguish between the option
 
 ## More beautiful menus by hacking contact cards
 
-I've created a menu based on a hack I found on Reddit. It's actually two Shortcuts – one to create the menu, and one to show the menu – to speed up how fast the menu can be shown.
+I've created a menu based on a hack I found on Reddit. It’s actually two Shortcuts – one to create the menu, and one to show the menu – to speed up how fast the menu can be shown.
 
-I've used `.vcf` files – the format for saving contacts to your phone's address book – to create the menu items. It basically works the same as any other Shortcuts menu; but they retain the iconography, making them more glanceable (for me, at least).
+I've used `.vcf` files – the format for saving contacts to your phone’s address book – to create the menu items. It basically works the same as any other Shortcuts menu; but they retain the iconography, making them more glanceable (for me, at least).
 
 <figure>
 	<img src="/assets/images/posts/2024/03/02/push-the-button/my-action-button-menu.jpg" alt="A screenshot of my 'Actions' Menu, showing 10 shortcuts">
@@ -80,7 +80,7 @@ When the Action Button is pressed, it runs a completely separate Shortcut called
 
 I could have combined these two things into one Shortcut; grabbing the Shortcuts from their folder, generating the menu on the fly, and then displaying it. Doing it that way actually enables mI found this was very slow because  it had to generate the icons and each icon took a beat to process. 
 
-Separating out the creation of the menu from the running of the menu means there's almost no delay in pressing the hardware Action Button and seeing the menu appear on screen.
+Separating out the creation of the menu from the running of the menu means there’s almost no delay in pressing the hardware Action Button and seeing the menu appear on screen.
 
 ## Download the Shortcuts
 

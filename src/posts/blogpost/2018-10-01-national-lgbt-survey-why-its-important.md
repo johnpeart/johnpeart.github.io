@@ -17,7 +17,7 @@ Why it was important to me. The things I learnt. The things that surprised me. T
 <blockquote>
 <p><strong>Blog posts in this series</strong></p>
 <ol>  
-<li><a href="/2018/10/01/national-lgbt-survey-why-its-important">#LGBTsurvey: why it's important</a></li>
+<li><a href="/2018/10/01/national-lgbt-survey-why-its-important">#LGBTsurvey: why it’s important</a></li>
 <li><a href="/2018/12/04/national-lgbt-survey-what-surprised-me">#LGBTsurvey: things that surprised me</a></li>
 <li><a href="/2018/12/05/national-lgbt-survey-what-didnt-surprise-me">#LGBTsurvey: things that didn't surprise me</a></li>
 </ol>
@@ -43,4 +43,4 @@ You can tell that the scale matters by the response to the results, and the subs
 
 To me, that is why the national LGBT survey was important. It has improved the evidence base in meaningful ways, but it’s done that at such scale that you can’t escape it. It has shone a light on issues that most people hadn’t considered, and forced people to pay attention to them and react. 
 
-I believe that people don't work in the Civil Service without some kind of public service ethos. For me, it's waking up in the morning knowing that what I'm working on is making a difference to someone's life; even if it's just one person. The national LGBT survey has helped to put in place a bold plan to make a difference to a lot of people's lives, and *that* is why I'm proud of the work I've done to make it happen.
+I believe that people don't work in the Civil Service without some kind of public service ethos. For me, it’s waking up in the morning knowing that what I'm working on is making a difference to someone’s life; even if it’s just one person. The national LGBT survey has helped to put in place a bold plan to make a difference to a lot of people’s lives, and *that* is why I'm proud of the work I've done to make it happen.

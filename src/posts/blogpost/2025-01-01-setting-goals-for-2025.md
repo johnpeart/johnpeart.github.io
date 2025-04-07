@@ -32,7 +32,7 @@ Last year, I started to share a variety of new types of blog post on my website;
 
 This year, I'm going to continue to POSSE[^posse], aiming to publish at least one thing on my website every week in the same way I would have done on centralised social media siloes.
 
-[^posse]: That's an IndieWeb term that stands for “[Publish on your Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE)”.
+[^posse]: That’s an IndieWeb term that stands for “[Publish on your Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE)”.
 
 > **Success measure:** Share something on my website once a week
 
@@ -50,7 +50,7 @@ I've been trying to put money aside for a rainy day ever since I started to trac
 
 Now that I have a mortgage rather than renting, and enough put aside for a rainy day in my bank account already, it actually makes very little sense to put money into a savings account. Even with interest rates on savings accounts much higher than my mortgage rate (I was lucky and locked in a 2% rate before the rates hikes started), I'm still earning a pittence on savings and paying a tonne in mortgage interest. So, I am going to switch gears. 
 
-Instead of putting cash into a saving's account, I'm going to treat my mortgage as a savings account. I'm going plow every spare penny I have this year directly into my mortgage instead.
+Instead of putting cash into a saving’s account, I'm going to treat my mortgage as a savings account. I'm going plow every spare penny I have this year directly into my mortgage instead.
 
 > **Success measure**: Overpay on my mortgage by at least £5,000
 

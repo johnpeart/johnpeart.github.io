@@ -19,6 +19,6 @@ Unlike *Super Mario Land* – which doesn't really feel like other Mario games, 
 
 {% include "components/objects/pocket.svg" screenshotCount:"002" screenshotFormat:".gif" %}
 
-It's not all borrowed ideas from the *NES* shrunk down to a 160 by 144 pixel screen though. This is the game that introduced *Wario*; Mario's arch-nemesis. Without this game, there would be no *Super Mario Land 3: Wario Land*, or any of the other (to my mind inferior) *Wario* games that succeeded it.
+It’s not all borrowed ideas from the *NES* shrunk down to a 160 by 144 pixel screen though. This is the game that introduced *Wario*; Mario’s arch-nemesis. Without this game, there would be no *Super Mario Land 3: Wario Land*, or any of the other (to my mind inferior) *Wario* games that succeeded it.
 
 Anyway, I got the 6 golden coins and I bullied Wario in the final castle level (with surprising ease, I might add; maybe I'm better at this gameing thing than I thought).  

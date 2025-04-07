@@ -13,7 +13,7 @@ I worked on [things that really mattered](https://www.gov.uk/government/publicat
 
 On top of all that, I achieved [a pretty big chunk of the goals](/2019/12/26/2019-resolutions-review) I set myself this year. 
 
-But that's this year, and it is *so* 2019. I'm now all about 2020, and that means setting some new goals (or rolling over ones I want another crack at). Here are my ~~New Year's Resolutions~~ *goals* for 2020.
+But that’s this year, and it is *so* 2019. I'm now all about 2020, and that means setting some new goals (or rolling over ones I want another crack at). Here are my ~~New Year’s Resolutions~~ *goals* for 2020.
 
 ## Goals for 2020
 
@@ -31,7 +31,7 @@ Now I've got an itch for something new. Time to start giving back (again). So th
 
 ### 2. Be a better friend
 
-I'm one of those people who always says "we should meet up" and then never actually sorts it out. That's bad. So in 2020, I'm going to catch up with at least 1 friend every month. Even if it's just for a coffee.
+I'm one of those people who always says "we should meet up" and then never actually sorts it out. That’s bad. So in 2020, I'm going to catch up with at least 1 friend every month. Even if it’s just for a coffee.
 
 > **Success measure:** Catch up with at least 12 friends
 

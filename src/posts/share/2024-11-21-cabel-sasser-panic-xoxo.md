@@ -15,7 +15,7 @@ reply_to:
   override: "shared a video"
 ---
 
-I do not want to spoil the story told by Cabel in their talk at this year's XOXO Festival.
+I do not want to spoil the story told by Cabel in their talk at this year’s XOXO Festival.
 
 Watch it all the way to the end. 
 

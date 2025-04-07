@@ -16,10 +16,10 @@ First, I battled my way through the core game. Then I have battled my way throug
 
 The hardest part of the whole game was definitely the *Chalice Dungeons*. Even with a massively over-levelled character in *New Game+* the “Cursed and Defiled Chalice” dungeon – which reduces your accumulated health by 50%, resulting in consistent one- or two-hit deaths if you make a mistake – was gruelling and torturous. Also there were *way* too many spiders without the ability to turn them off or switch them out for something less spider-y[^1].
 
-What makes this game gripping though is the setting. I'm usually drawn to science-fiction worlds more than historical and period settings; but *Bloodborne* kind of mashes the two. It's a Victorian-era themed, cosmic-horror narrative. So much goes unexplained in the story, but nonetheless what little I gleaned had me rivetted.
+What makes this game gripping though is the setting. I'm usually drawn to science-fiction worlds more than historical and period settings; but *Bloodborne* kind of mashes the two. It’s a Victorian-era themed, cosmic-horror narrative. So much goes unexplained in the story, but nonetheless what little I gleaned had me rivetted.
 
 Is the nightmare real? How did I get there? Are the other people in this shared reality figments of the world or other people caught in a shared nightmare? What are the Amygdalas? Why are people turning into beasts? So... many... questions...
 
-This may have been the hardest of my Platinums, but I also think it's one of the best games I've ever played.
+This may have been the hardest of my Platinums, but I also think it’s one of the best games I've ever played.
 
-[^1]: I'd rather no arachnophobia mode than [whatever the hell they've done in the latest Call of Duty](https://www.eurogamer.net/call-of-duty-black-ops-6s-arachnophobia-mode-is-arguably-more-terrifying-than-actual-giant-spiders) though. That's just creepy.  
+[^1]: I'd rather no arachnophobia mode than [whatever the hell they've done in the latest Call of Duty](https://www.eurogamer.net/call-of-duty-black-ops-6s-arachnophobia-mode-is-arguably-more-terrifying-than-actual-giant-spiders) though. That’s just creepy.  

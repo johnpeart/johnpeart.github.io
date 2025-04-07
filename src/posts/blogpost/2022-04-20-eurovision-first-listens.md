@@ -62,7 +62,7 @@ eurovision-entries:
   semifinal-runningorder: 13
   final-runningorder: 0
   commentary: |
-    This song feels like it's being played at double-speed. It is very speedy. Almost *too* speedy.
+    This song feels like it’s being played at double-speed. It is very speedy. Almost *too* speedy.
 
     It is, however, lucky number 13 in the running order so I suspect a shot of adrenaline by that point in semi-final 1 will be very welcome.
 
@@ -78,7 +78,7 @@ eurovision-entries:
   commentary: |
     This ballad has lots of levels. We go from piercing silence to soaring falsetto in less than 3 minutes.
 
-    Despite all that building and anticipation though, it's anti-climactic. After the searingly bright highs, it just kind of *fades to black*.
+    Despite all that building and anticipation though, it’s anti-climactic. After the searingly bright highs, it just kind of *fades to black*.
 
 
 - country: "Belgium"
@@ -139,9 +139,9 @@ eurovision-entries:
   commentary: |
     After a few years of club bangers that performed well, this year’s Cypriot entry is a marginally slower pace.
 
-    That's *fine*, I guess.
+    That’s *fine*, I guess.
 
-    It’s a pleasant enough entry with a soothing female vocal, but overall it's immediately forgettable.
+    It’s a pleasant enough entry with a soothing female vocal, but overall it’s immediately forgettable.
 
 - country: "Czech Republic"
   shortcode: "CZE"
@@ -197,7 +197,7 @@ eurovision-entries:
   commentary: |
     Ever since I heard the Rasmus were entering Eurovision *I've been waiting* to find out if they will live up to my mid-teen memories. And they _kinda_ do!
 
-    The chorus has a good hook, it's rocky, and there's a key change (how novel!)
+    The chorus has a good hook, it’s rocky, and there’s a key change (how novel!)
 
 - country: "France"
   shortcode: "FRA"
@@ -211,7 +211,7 @@ eurovision-entries:
   commentary: |
     Well this is certainly unusual from the French. No soaring ballad and controlled mania here.
 
-    Is... is that... a didgeridoo? It's just full on thwacking synth and bass bonanza. Odd.
+    Is... is that... a didgeridoo? It’s just full on thwacking synth and bass bonanza. Odd.
 
 - country: "Georgia"
   shortcode: "GEO"
@@ -225,7 +225,7 @@ eurovision-entries:
   commentary: |
     This is quite mad: like the Cha Cha slide on crack cocaine.
 
-    There's a hypnotic quality to the ultra regimented beat and layered vocal.
+    There’s a hypnotic quality to the ultra regimented beat and layered vocal.
 
     The overall package reminds me of a different band that are no strangers to musical madness: *OK Go*.
 
@@ -258,7 +258,7 @@ eurovision-entries:
   commentary: |
     This is a ballad done incredibly confidently and incredibly well. Not many Eurovision entries can pull off a 30 second intro that is just pure vocal.
 
-    It's chilling and a perfect contrast to the wall of sound in the rest of this track.
+    It’s chilling and a perfect contrast to the wall of sound in the rest of this track.
 
 - country: "Iceland"
   shortcode: "ISL"
@@ -272,7 +272,7 @@ eurovision-entries:
   commentary: |
     Oh Iceland. Both your most recent chances to win Eurovision were kiboshed by Covid. For shame.
 
-    Instead of doubling down on that winning formula, you do this. A calming and soothing ballad, yes, but it's hardly *Husavik*, is it?
+    Instead of doubling down on that winning formula, you do this. A calming and soothing ballad, yes, but it’s hardly *Husavik*, is it?
 
     Bring back Daði!
 
@@ -280,7 +280,7 @@ eurovision-entries:
   shortcode: "EIR"
   emoji: "🇮🇪"
   artist: "Brooke"
-  song: "That's Rich"
+  song: "That’s Rich"
   semifinal: 2
   final: false
   semifinal-runningorder: 10
@@ -303,7 +303,7 @@ eurovision-entries:
   commentary: |
     What is there to say about this?
 
-    It's camp. It's overproduced. It's got a ropey vocal and cringey spoken word sections. It's got all the production value of a bad RuPaul's Drag Race week one music challenge. Car crash from start to finish.
+    It’s camp. It’s overproduced. It’s got a ropey vocal and cringey spoken word sections. It’s got all the production value of a bad RuPaul’s Drag Race week one music challenge. Car crash from start to finish.
 
 - country: "Italy"
   shortcode: "ITA"
@@ -316,7 +316,7 @@ eurovision-entries:
   semifinal-runningorder: 0
   final-runningorder: 9
   commentary: |
-    Mahmood's last Eurovision entry had lots of swagger and starchy shirts. This collaboration with Blanco is the exact opposite of that.
+    Mahmood’s last Eurovision entry had lots of swagger and starchy shirts. This collaboration with Blanco is the exact opposite of that.
 
     The charm is in the chorus: melodically sometimes in unison and other times counterbalanced in harmony.
 
@@ -349,7 +349,7 @@ eurovision-entries:
   commentary: |
     This song makes me feel quite queasy. The melodic choices are strikingly discordant and overwhelming.
 
-    It's not unpleasant but it is disorienting. Like having had one too many gins at the bar and then deciding to get on a merrigoround.
+    It’s not unpleasant but it is disorienting. Like having had one too many gins at the bar and then deciding to get on a merrigoround.
 
 - country: "Malta"
   shortcode: "MLT"
@@ -375,7 +375,7 @@ eurovision-entries:
   semifinal-runningorder: 9
   final-runningorder: 19
   commentary: |
-    This year at Eurovision seems to be 'back to the 00s': Mika's presenting, the Rasmus entering, and now, Moldova brings classic Eurovision crazy.
+    This year at Eurovision seems to be 'back to the 00s': Mika’s presenting, the Rasmus entering, and now, Moldova brings classic Eurovision crazy.
 
     Moldova have form as the mad-hatter of the Contest in recent years. All power to their elbow.
 
@@ -391,9 +391,9 @@ eurovision-entries:
   commentary: |
     This had all the potential to be an incredible power ballad. A strong female vocalist, some bold instrumentation, and a good hook.
 
-    But it's just squandered.
+    But it’s just squandered.
 
-    This song takes a good two minutes to come into its own, and it's over before the peak.
+    This song takes a good two minutes to come into its own, and it’s over before the peak.
 
 - country: "Netherlands"
   shortcode: "NED"
@@ -407,9 +407,9 @@ eurovision-entries:
   commentary: |
     This is a year of native-language songs: and the Dutch are singing in Dutch.
 
-    The song's moody and lilting, tilting towards a slower tempo.
+    The song’s moody and lilting, tilting towards a slower tempo.
 
-    Luckily, the main hook for the song seems to not rely on *any* language. It's just an *oo-oo* and an *ah-ah*.
+    Luckily, the main hook for the song seems to not rely on *any* language. It’s just an *oo-oo* and an *ah-ah*.
 
 - country: "North Macedonia"
   shortcode: "MKD"
@@ -425,7 +425,7 @@ eurovision-entries:
 
     This mid-tempo pop ballad has a cool, electronic backing and a gravelly female vocal.
 
-    If I had one criticism, it's the ending. It just fades out.
+    If I had one criticism, it’s the ending. It just fades out.
 
 
 - country: "Norway"
@@ -468,9 +468,9 @@ eurovision-entries:
   semifinal-runningorder: 10
   final-runningorder: 3
   commentary: |
-    You know those lo-fi beats that people listen to when they're working, convinced that they make them more productive? That's the closest thing I can think of to describe this.
+    You know those lo-fi beats that people listen to when they're working, convinced that they make them more productive? That’s the closest thing I can think of to describe this.
 
-    It's calming, soothing, balming. It's probably forgettable too.
+    It’s calming, soothing, balming. It’s probably forgettable too.
 
 
 - country: "Romania"
@@ -483,7 +483,7 @@ eurovision-entries:
   semifinal-runningorder: 13
   final-runningorder: 2
   commentary: |
-    This is fun and has a bit of pace to it, but it's also a bit repetitive.
+    This is fun and has a bit of pace to it, but it’s also a bit repetitive.
 
     Now I know that sounds stupid: of course there is repetition. But the difference between a good and a great song is *flare* as things progress. This lacks a *wow* moment.
 
@@ -497,11 +497,11 @@ eurovision-entries:
   semifinal-runningorder: 7
   final-runningorder: 0
   commentary: |
-    This is *incredibly* breathy to the point it's off-putting.
+    This is *incredibly* breathy to the point it’s off-putting.
 
     From what I discern, it seems to be a random collection of lyrics from other, better songs.
 
-    It's like San Marino saw that rock worked for Italy and said *let's try that*, but *badly*.
+    It’s like San Marino saw that rock worked for Italy and said *let’s try that*, but *badly*.
 
 - country: "Serbia"
   shortcode: "SRB"
@@ -531,9 +531,9 @@ eurovision-entries:
   commentary: |
     My most immediate reaction to this is that it could do with far, *far* fewer trumpets.
 
-    It's like a cheesy lounge singer's song.
+    It’s like a cheesy lounge singer’s song.
 
-    I'm told this is a fan favourite this year. I don't get it. Maybe it's in the staging.
+    I'm told this is a fan favourite this year. I don't get it. Maybe it’s in the staging.
 
 - country: "Spain"
   shortcode: "ESP"
@@ -559,11 +559,11 @@ eurovision-entries:
   semifinal-runningorder: 17
   final-runningorder: 20
   commentary: |
-    It's not a surprise that this is great. It's been through the toughest music competition on the planet *before* it got to Eurovision.
+    It’s not a surprise that this is great. It’s been through the toughest music competition on the planet *before* it got to Eurovision.
 
     And it absolutely *soars*.
 
-    The instrumentation is exquisite. The vocal is soulful. And it's a brilliant earworm.
+    The instrumentation is exquisite. The vocal is soulful. And it’s a brilliant earworm.
 
 - country: "Switzerland"
   shortcode: "SUI"
@@ -591,7 +591,7 @@ eurovision-entries:
   semifinal-runningorder: 6
   final-runningorder: 12
   commentary: |
-    Look, you know and I know, it doesn't really matter if I like this. It could be great. It could be awful. It's irrelevant.
+    Look, you know and I know, it doesn't really matter if I like this. It could be great. It could be awful. It’s irrelevant.
 
     Their country is fighting a war and they're still managing to turn up and give it their all.
 
@@ -612,9 +612,9 @@ eurovision-entries:
 
     They did it! This is the first song from the UK in more than a decade that I unreservedly love. From start to finish it is brilliant.
 
-    It's not our usual *made for Eurovision and thus a bit naff* entry. This is proper Top 40 pop quality. It's a mid-tempo track with a driving electric guitar riff cushioning a stratospheric vocal from Sam Ryder.
+    It’s not our usual *made for Eurovision and thus a bit naff* entry. This is proper Top 40 pop quality. It’s a mid-tempo track with a driving electric guitar riff cushioning a stratospheric vocal from Sam Ryder.
 
-    Friends, for once, there's no hiding behind the sofa in shame about our entry. This is the year you can stand proudly in front of your TV and wave that Union flag triumphantly.
+    Friends, for once, there’s no hiding behind the sofa in shame about our entry. This is the year you can stand proudly in front of your TV and wave that Union flag triumphantly.
 
     If this doesn't finish on the left hand of the scoreboard, then it'll be a genuine travesty.
     

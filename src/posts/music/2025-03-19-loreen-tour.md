@@ -11,7 +11,7 @@ I saw Loreen at the *Hammersmith Apollo* on 19 March 2025. I'll be seeing her tw
 
 I rocked up a the *Apollo* fully hoping to have a transcendent experience induced through bone-rattling bass. 
 
-Alas, my bones were not rattled but the set list was filled with some of Loreen's best tracks. There was a lot of her more recent music and surprisingly little of her 2013 album *Heal*, which I still think was her best.
+Alas, my bones were not rattled but the set list was filled with some of Loreen’s best tracks. There was a lot of her more recent music and surprisingly little of her 2013 album *Heal*, which I still think was her best.
 
 The whole gig was brutally efficient. Loreen barely took a breath between each of the 13 tracks she performed. She just bashed them out, one after the other, mostly without skipping a beat. And then, she was done.
 

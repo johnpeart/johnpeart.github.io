@@ -170,7 +170,7 @@ eurovision-entries:
   shortcode: ""
   emoji: "🇨🇿"
   artist: "Vesna"
-  song: "My Sister's Crown"
+  song: "My Sister’s Crown"
   semifinal: 1
   final: TRUE
   semifinal-runningorder: 13
@@ -179,7 +179,7 @@ eurovision-entries:
     You can take your hands back! \
     No one wants more boys dead.
   commentary: |
-    The Czech Republic has ripped a page out of the Ukrainian Eurovision playbook for its 2023 offering, with a song that’s reminiscent of *Go_A*'s “[Shum](https://www.youtube.com/watch?v=lqvzDkgok_g)”, which for some reason was very popular and I never really got it.
+    The Czech Republic has ripped a page out of the Ukrainian Eurovision playbook for its 2023 offering, with a song that’s reminiscent of *Go_A*’s “[Shum](https://www.youtube.com/watch?v=lqvzDkgok_g)”, which for some reason was very popular and I never really got it.
 
     A blend of 6 female vocals atop a mechanised and intentionally overproduced instrumentation makes for an intense three minutes.
 
@@ -308,7 +308,7 @@ eurovision-entries:
   commentary: |
     Victor’s got a voice that reminds me of *James Arthur*. It’s a rich tone but he’s evidently got a limited range; so all the musical interest in this fairly swift track comes from the instrumentation.
 
-    It's got all the bells and whistles; piano breakdowns, chippy acoustic guitar, clapping, a choir. This is the kitchen sink of male pop ballads.
+    It’s got all the bells and whistles; piano breakdowns, chippy acoustic guitar, clapping, a choir. This is the kitchen sink of male pop ballads.
 
     It’s pleasant, and interesting, but not stunning.
 
@@ -470,7 +470,7 @@ eurovision-entries:
 
     For a duet, it doesn’t make much of the possibilities. There’s a lot of singing in tandem, and not much in the way of interesting harmonies.
 
-    There is a pretty big crescendo near the end that bursts forth, seemingly out of nowhere, and then evaporates just as rapidly. That's a shame because despite the desperate lyrics, the track itself is a quite lovely and reminds these ears of *The Script*.
+    There is a pretty big crescendo near the end that bursts forth, seemingly out of nowhere, and then evaporates just as rapidly. That’s a shame because despite the desperate lyrics, the track itself is a quite lovely and reminds these ears of *The Script*.
 
 - country: "Norway"
   shortcode: ""
@@ -521,7 +521,7 @@ eurovision-entries:
   semifinal-runningorder: 5
   final-runningorder: 2
   lyric: |
-    The doctor says there's nothing to be done, \
+    The doctor says there’s nothing to be done, \
     “Lost cause”, I saw him writing!
   commentary: |
     In this entry, we have something obviously and recognisably from Portugal – sung in Portuguese, and with stereotyped instrumentation. It’s also obviously *not* Portuguese too. It has a vague *chanson* vibe to it; reminiscent of the wildly popular French entry, “Voilà”, from 2021.
@@ -704,23 +704,23 @@ eurovision-entries:
     It is however in the doomful final slot of the show, possibly sealing its fate to score badly from the outset.
 
 summing-up : |
-    There's a lot to like in this year's Eurovision Song Contest entries.
+    There’s a lot to like in this year’s Eurovision Song Contest entries.
     
-    The qualifiers from the semi-finals are more unpredictable than ever. The jury votes will no longer happen following last year's vote rigging scandals, so it's all on the public vote.
+    The qualifiers from the semi-finals are more unpredictable than ever. The jury votes will no longer happen following last year’s vote rigging scandals, so it’s all on the public vote.
     
     The first semi-final seems like the weaker of the two to me. I'd expect some weird selections from that crop, and some great songs to get knocked out from the second semi-final.
     
-    As for some of my favourites: **Sweden** has, as usual, brought its A-game. A powerhouse anthem that will shake down the rafters of the M&S Bank Arena in Liverpool. **Austria** is a bit bonkers, but in the best possible way. **Denmark**'s entry is very much my vibe. **Poland** is set to bring the sexy. **Lithuania** is memorable and enchanting. And, for the second year in a row, I actually have some hope for our own chances, here in the **United Kingdom**.
+    As for some of my favourites: **Sweden** has, as usual, brought its A-game. A powerhouse anthem that will shake down the rafters of the M&S Bank Arena in Liverpool. **Austria** is a bit bonkers, but in the best possible way. **Denmark**’s entry is very much my vibe. **Poland** is set to bring the sexy. **Lithuania** is memorable and enchanting. And, for the second year in a row, I actually have some hope for our own chances, here in the **United Kingdom**.
     
     Wooden spoons go to **Romania**, **Croatia**, and **Finland**.
     
-    But those are just my opinions. The beauty of Eurovision is that we all get an opinion; it's one of the biggest referenda you can take part in! Go find your Eurovibes, tune in and vote on 9, 11 and 13 May 2023 at 8:00pm on BBC One.
+    But those are just my opinions. The beauty of Eurovision is that we all get an opinion; it’s one of the biggest referenda you can take part in! Go find your Eurovibes, tune in and vote on 9, 11 and 13 May 2023 at 8:00pm on BBC One.
 
 ---
 
-It's the most wonderful time of the year! The largest music festival on Earth — the Eurovision Song Contest — is nearly here.
+It’s the most wonderful time of the year! The largest music festival on Earth — the Eurovision Song Contest — is nearly here.
 
-This year the contest returns to the United Kingdom for the first time since 1998 on 9, 11 and 13 May. The city of Liverpool is hosting, on behalf of last year's winners, Ukraine.
+This year the contest returns to the United Kingdom for the first time since 1998 on 9, 11 and 13 May. The city of Liverpool is hosting, on behalf of last year’s winners, Ukraine.
 
 Every year since 2015 I've shared my gut reactions on this blog for absolutely no reason other than to give me something fun to do. Well, here I am again.
 
@@ -730,6 +730,6 @@ But what even *is* a tweet-sized comment any more? Since *Space Karen* took over
 
 This year, I've listened to the entirety of the [official Eurovision album](https://music.apple.com/gb/album/eurovision-song-contest-liverpool-2023/1679320437) in one go, without looking at which song is which. I've then gone back and listened to each song again, before putting finger to keyboard.
 
-As for length of commentary, I am ditching my 280 character limit. It's all about vibes now. If it's a crap song, I'll write a little. If it's a great song, I'll write a lot.
+As for length of commentary, I am ditching my 280 character limit. It’s all about vibes now. If it’s a crap song, I'll write a little. If it’s a great song, I'll write a lot.
 
 So let’s get stuck in...

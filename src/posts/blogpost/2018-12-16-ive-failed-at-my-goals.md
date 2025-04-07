@@ -17,7 +17,7 @@ On 1 January 2018, I set myself five goals for the year. They were that I would:
 4. go for a run twice a week
 5. visit a great place to eat every month
 
-I usually suck at sticking to my New Year's Resolutions, so this year I tried to do things differently.
+I usually suck at sticking to my New Year’s Resolutions, so this year I tried to do things differently.
 
 The first thing I did was make them public to make myself accountable. I made [a dashboard](/goals/2018/) so my progress was visible.
 
@@ -29,7 +29,7 @@ I built in some redundancy too. Instead of making one big goal to achieve for th
 
 It is 16 December 2018, and as I write this, **I have achieved a grand total of one goal** by my own definition of success; I have been to 10 places that I consider "a great place to eat" this year; more than 80% of the target. Huzzah!
 
-Unfortunately that means I failed to achieve four out of the five goals I set out to achieve this year. It's not all doom though.
+Unfortunately that means I failed to achieve four out of the five goals I set out to achieve this year. It’s not all doom though.
 
 ### Write a blog post every week
 
@@ -41,7 +41,7 @@ In hindsight, setting a goal to write four-times more posts this year than I hav
 
 ### Publish some photos every month
 
-I didn't manage to publish 12 photosets this year either; I published five. Again, though, that's more photosets than I published last year (last year I published 2).
+I didn't manage to publish 12 photosets this year either; I published five. Again, though, that’s more photosets than I published last year (last year I published 2).
 
 ### Save £5,000 this year
 

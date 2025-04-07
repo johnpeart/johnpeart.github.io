@@ -1,7 +1,7 @@
 ---
 title: I made a Twitterbot to tell people the obvious
 author: John Peart
-excerpt: "It's you. It's just you. No really. No one else saw that. It was just you. You're a genius. Well done."
+excerpt: "It’s you. It’s just you. No really. No one else saw that. It was just you. You're a genius. Well done."
 categories:
   - digital
 aliases:
@@ -46,7 +46,7 @@ The first thing I did was [create a new Twitter account](https://twitter.com/sig
 
 > **Top tip:** if you use Gmail, you can create an alias email address that forwards all email to your normal email address by adding `+youralias` before the `@gmail.com`. For example `john+twitterbot@gmail.com` will send email to `john@gmail.com`.
 
-To access the Twitter API, you need a consumer key, consumer secret, access token and access token secret. You create these in the [Application Management](https://apps.twitter.com) section of Twitter's developer website.
+To access the Twitter API, you need a consumer key, consumer secret, access token and access token secret. You create these in the [Application Management](https://apps.twitter.com) section of Twitter’s developer website.
 
 Clicking 'Create New App' takes you to a short form where you give your app a name, a description, a website to link back to and a callback URL. The callback URL isn't necessary for this bot, so I left it blank, ticked the box to accept the conditions and submitted the form.
 
@@ -56,9 +56,9 @@ Now the app is created, the keys, tokens and secrets can be found in the 'Keys a
 
 With the Twitter account created and API keys generated, I needed to create somewhere to put my bot once it was created.
 
-Heroku is a Platform as a Service. It's free for small projects like this one.
+Heroku is a Platform as a Service. It’s free for small projects like this one.
 
-I created a new app using the web interface (you can also use `heroku create` in the Terminal when you're in the project folder, but I prefer the website). I gave it a name (all in lower case) and choose a runtime region. I went for Europe, because it's closer to me.
+I created a new app using the web interface (you can also use `heroku create` in the Terminal when you're in the project folder, but I prefer the website). I gave it a name (all in lower case) and choose a runtime region. I went for Europe, because it’s closer to me.
 
 Next I created a blank folder, navigated to it using the `cd` command in the Terminal and used these commands:
 
@@ -161,8 +161,8 @@ The bot is so simple it can't run itself. To make sure it actually does some twe
 
 **If you only want the bot to tweet when you tell it to**, you can run the command `heroku run ruby twitterbot.rb`, and the bot will complete its commands and stop.
 
-That's useful for testing, but not so useful for leaving a fully functioning bot out there. **If you want the bot to run itself**, you need to schedule it. I added the "Heroku Scheduler" addon to the app on the Heroku website to achieve this. Now making my bot run is as simple as telling it to `ruby twitterbot.rb` every 10 mins, every hour or every day, depending on your appetite.
+That’s useful for testing, but not so useful for leaving a fully functioning bot out there. **If you want the bot to run itself**, you need to schedule it. I added the "Heroku Scheduler" addon to the app on the Heroku website to achieve this. Now making my bot run is as simple as telling it to `ruby twitterbot.rb` every 10 mins, every hour or every day, depending on your appetite.
 
-## That's it!
+## That’s it!
 
-That's all you need to create your own Twitterbot. You can find the full source files on [Github](https://github.com/johnpeart/IsItMeBot).
+That’s all you need to create your own Twitterbot. You can find the full source files on [Github](https://github.com/johnpeart/IsItMeBot).

@@ -15,7 +15,7 @@ Over the past year I've started adding different 'collections' to my blog, so th
 
 I added short-form [notes](/notes/), in the form of [Post-It notes](/note/1701945480/). I added [lists](/lists/) of things – like this [list of books I want to get around to reading](https://www.johnpe.art/list/1713724980/). I added [photos](/photos/), styled like [classic Polaroids](/photo/1606145620/). Most recently I created [a facsimile of the 6th generation iPod Nano](/2024/03/10/sharing-music-on-my-blog/) to share [music](/music/).
 
-Now it's time for a new collection: [games](/games/).
+Now it’s time for a new collection: [games](/games/).
 
 ## Going retro
 
@@ -51,7 +51,7 @@ Instead of rendering this with a combination of SVG, CSS and HTML, this 3D *Game
 
 Currently, this new collection showcases games I've played on *PlayStation*. Quite clearly none of those games were released on the *Game Boy* (although in the case of *Elden Ring*, someone has done a [bang-up job of a demake](https://shin.itch.io/elden-ring-gb)).
 
-Why *Game Paks* then? Because it's fun!
+Why *Game Paks* then? Because it’s fun!
 
 ## Platinums. Platinums everywhere.
 
@@ -65,4 +65,4 @@ For now, take a look at the games I've enjoyed playing enough to sink many hours
 
 [^1]: Technically the *Game Boy* was released in 1989 in Japan and North America, but it didn't come to Europe until September 1990. 
 
-[^svg]: If you'd like to do something cool with this SVG, be my guest and share the results! [Here's the source file you need](https://raw.githubusercontent.com/johnpeart/johnpeart.github.io/main/src/assets/images/site/gamepak.svg). 
+[^svg]: If you'd like to do something cool with this SVG, be my guest and share the results! [Here’s the source file you need](https://raw.githubusercontent.com/johnpeart/johnpeart.github.io/main/src/assets/images/site/gamepak.svg). 

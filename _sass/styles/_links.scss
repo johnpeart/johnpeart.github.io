@@ -40,7 +40,7 @@ a {
             text-decoration: none;
         }
         &:hover {
-            color: var(--link-secondary-color);
+            color: var(--link-hoverColor);
             text-decoration: underline;
         }
         &:hover:focus {

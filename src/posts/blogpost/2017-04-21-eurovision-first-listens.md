@@ -2,7 +2,7 @@
 title: "I listened to every Eurovision 2017 entry, so you don’t have to"
 author: John Peart
 excerpt: "Here we are again. First impressions of every track, in the order they'll appear, in less than a tweet each."
-layout: eurovision
+layout: blogpost
 image: /posts/eurovision.png
 categories:
   - eurovision

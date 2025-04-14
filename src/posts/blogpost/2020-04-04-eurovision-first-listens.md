@@ -2,7 +2,7 @@
 title: "I listened to every defunct Eurovision 2020 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "Eurovision is cancelled, but I’ve listened to every entry for this year’s Contest anyway. Preview, review and snark for every entry, in 280 characters or less."
-layout: eurovision
+layout: blogpost
 image: /posts/eurovision.png
 categories:
   - eurovision

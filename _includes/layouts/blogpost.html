@@ -6,12 +6,23 @@ layout: default
 	<header class="collection--{{ collection }} post-title">
         {% include "components/header/{{ collection }}.html" %}
 	</header>
+    
+    {% if composite %}
+        {% include "components/images/composite.html" %}
+    {% endif %}
 	            
 	<section class="post-body e-content">
 		{{ content }}
         
         {% if collection == 'photo' %}
             {% include "components/footer/exif.html" %}
+        {% endif %}
+        
+        {% if eurovision-entries %}
+            {% include 'components/body/eurovision/toggles.html' %}
+            {% include 'components/body/eurovision/entries.html' %}
+            {% include 'components/body/eurovision/sum-up.html' %}
+            <script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/blog/eurovision.js' }}" async></script>
         {% endif %}
         
         {% for posse in page.posse %}

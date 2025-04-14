@@ -2,7 +2,7 @@
 title: "I listened to every Eurovision 2021 entry, so you don’t have to"
 author: John Peart
 excerpt: Eurovision is back. Yippee! I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less.
-layout: eurovision
+layout: blogpost
 image: /posts/eurovision.png
 categories:
   - eurovision

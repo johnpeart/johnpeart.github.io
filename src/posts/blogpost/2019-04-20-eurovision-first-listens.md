@@ -2,7 +2,7 @@
 title: "I listened to every Eurovision 2019 entry, so you don’t have to"
 author: John Peart
 excerpt: "Preview, review and snark for every entry, in 280 characters or less."
-layout: eurovision
+layout: blogpost
 image: /posts/eurovision.png
 categories:
   - eurovision
@@ -464,7 +464,7 @@ eurovision-entries:
   commentary: |
     To describe this as a rejected X-Factor winner’s single does not do justice to this entry from these fair shores.
 
-    The [polls already show](https://mobile.twitter.com/britainelects/status/863010662066343938) that lots of the UK want out of Eurovision. The least the Beeb could do is not fan the flames of such idiocy with entries like this![^gbr]
+    The [polls already show](https://mobile.twitter.com/britainelects/status/863010662066343938) that lots of the UK want out of Eurovision. The least the Beeb could do is not fan the flames of such idiocy with entries like this!
 
     In fairness to the artist, the vocal is very good — I just wish the BBC would stop churning out such boring songs.
 

@@ -1,0 +1,21 @@
+<div id="esc-entries" data-show="all">
+{% assign entries = eurovision-entries | sort: "country" %}
+{% for entry in entries %}
+    <article id="{{ entry.country | slugify }}" class="h-entry eurovision card" data-semifinal="{{ entry.semifinal }}" data-final="{{ entry.final }}">
+        
+        <header class="esc-header">
+            {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
+        
+            {% if entry.youtube -%}<a class="no-underline" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ entry.song }} by {{ entry.artist }} on YouTube">{%- endif %}
+                <h3>{{ entry.country }}</h3>
+                <p class="small"><strong>{{ entry.song }}</strong> by <strong>{{ entry.artist }}</strong></p>
+            {% if entry.youtube -%}</a>{%- endif %}
+        </header>
+        
+        <section class="esc-body e-content">                    
+            {{ entry.commentary | markdownify }}
+        </section>
+            
+    </article>
+{% endfor %}
+</div>

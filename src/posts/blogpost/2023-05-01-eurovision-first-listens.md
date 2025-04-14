@@ -2,7 +2,7 @@
 title: "I listened to every Eurovision 2023 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to a few quippy comments."
-layout: eurovision
+layout: blogpost
 image: /posts/eurovision.png
 composite:
   overlay:

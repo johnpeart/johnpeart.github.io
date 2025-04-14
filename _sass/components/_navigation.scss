@@ -13,8 +13,8 @@
     box-shadow: none;
     animation: header linear both;
     animation-timeline: scroll(block root);
+    animation-range: 10px 200px;
     animation-duration: 1ms; /* Required in Firefox */
-    animation-range: 10px 100px;
 
 }
 
@@ -22,7 +22,7 @@
 .navigation {
     display: grid;
     
-    padding: $padding;
+    padding: 0 $padding * 0.7 0 $padding;
     margin: 0;
     
     grid-template-columns: 1fr auto;
@@ -46,7 +46,7 @@
 .navigation--wordmark {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: $padding 0;
 }
 
 .navigation--wordmark--link {
@@ -80,43 +80,71 @@
 }
 
 .navigation--icon {
-    position: relative;
-    display: flex;
-}
+    display: grid;
 
-.navigation--icon {
-    height: 28px;
-    width: 28px;
+    height: 40px;
+    width: 40px;
     
-    padding: 2px;
+    padding: 10px;
     margin: 0;
     
-    all: unset;
-    display: grid;
+    @include material(
+        $depth: 2,
+        $radius: #{$border-radius},
+        $bg: light-dark(var(--brand), var(--brand))
+    );
+    
     box-sizing: border-box;
-    border: 1px solid transparent;
-    height: 30px;
     align-content: center;
     justify-content: center;
     aspect-ratio: 1;
-    
+        
     svg {
+        width: 25px;
         transform-origin: center;
         transition: 0.2s all;
     }
     
     svg path {
-        fill: var(--link-color);
+        fill: var(--white);
     }
     
     &:hover {
         cursor: pointer;
+    
+        @include material(
+            $depth: 1,
+            $radius: #{$border-radius},
+            $bg: var(--brand-tone)
+        );
     }
     
-    &:hover svg path,
+    &:focus {
+        background: var(--brand);
+    }
+    
+    &:hover:focus {
+	    outline-offset: form("outline-active-offset");
+        @include material(1, false, false, var(--button-hoverBackground));
+    }
+    
+    &:active {
+        @include material(
+            $depth: 1,
+            $inset: true,
+            $radius: #{$border-radius},
+            $bg: var(--brand-tone)
+        );
+    }
+    
+    &:hover svg path {
+        fill: var(--white);
+        color: var(--white);
+    }
+    
     &:active svg path {
-        fill: var(--cyan);
-        color: var(--cyan);
+        fill: var(--brand-tint);
+        color: var(--brand-tint);
     }
     
     &:focus svg path {

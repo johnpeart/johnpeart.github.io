@@ -41,16 +41,22 @@
     --red-tone: rgb(177, 14, 30);
     --red:  rgb(250, 36, 60);
     --red-tint: rgb(250, 196, 201);
-    --orange: rgb(255, 94, 58);
+    --orange-tint: rgb(255, 205, 183);
+    --orange: rgb(255, 79, 0);
+    --orange-tone: rgb(200, 63, 0);
     --yellow: rgb(255, 215, 0);
     --green-tone: rgb(4, 80, 9);
     --green: rgb(74,159,101);
     --green-tint: rgb(116, 190, 139);
     --cyan: rgb(0, 159, 227);
-    --cyan-tint: rgb(0, 123, 176);
+    --cyan-tint: hsl(198, 100%, 60%);
+    --cyan-tone: hsl(198, 100%, 30%);
+    
+    --brand: var(--cyan);
+    --brand-tint: var(--cyan-tint);
+    --brand-tone: var(--cyan-tone);
     
     --gb-power: rgb(74,159,101);    
-    
     --gb-shell--stroke: light-dark(rgb(40,40,40), rgb(175,175,175));
     --gb-shell--fill: light-dark(rgb(50,50,50), rgb(220,220,220));
     --gb-lens--fill-1: light-dark(rgb(20,20,20), rgb(170,170,170));
@@ -111,21 +117,18 @@
     --radio-color: var(--cyan);
 
     --link-color: var(--color);
-    --link-hoverColor: var(--cyan);
-    --link-focusBackground: var(--cyan);
+    --link-hoverColor: var(--brand);
+    --link-focusBackground: var(--brand);
     --link-focusColor: light-dark(var(--white), var(--black));
-    --link-outlineColor: var(--cyan);
+    --link-outlineColor: var(--brand);
     --link-secondary-color: light-dark(var(--gray-600), var(--gray-500));
 
     --button-color: var(--background);
-    --button-background: var(--cyan);
-    --button-hoverColor: var(--cyan);
-	--button-hoverBackground: var(--background);
+    --button-background: var(--brand);
+    --button-hoverColor: var(--background);
+	--button-hoverBackground: var(--brand-tone);
+    --button-activeColor: light-dark(var(--brand-tint), var(--black));
 	--button-border: var(--cyan);
-
-    --details--hoverColor: var(--cyan);
-    --details--hoverBackground: var(--absolute-white);
-    --details--outlineColor: var(--cyan);
 
     --blockquote-background: var(--secondary-background);
 
@@ -138,31 +141,32 @@
     --form--activeBackground: var(--link-focusBackground);
     --form--focusBorderColor: var(--link-focusBackground);
 
-    --placeholder-text-color: var(--secondary-color);--placeholder-text-hoverColor: var(--cyan);
+    --placeholder-text-color: var(--secondary-color);
+    --placeholder-text-hoverColor: var(--brand);
 
     --form--focusBackground: var(--color);
     --labelHint-color: var(--gray-600);
 
-    --progress-barBackground: var(--cyan);
-    --progress-barSecondaryBackground: var(--purple);
+    --progress-barBackground: var(--brand);
+    --progress-barSecondaryBackground: var(--brand-tone);
 
     --icon-background: var(--gray-600);
-    --icon-hoverBackground: var(--cyan);
+    --icon-hoverBackground: var(--brand);
 
     --speechBubble-fromMeColor: var(--white);
-    --speechBubble-fromMeBackground: var(--cyan);
+    --speechBubble-fromMeBackground: light-dark(var(--brand), var(--brand-tone));
     --speechBubble-fromMeLinkColor: var(--white);
-	--speechBubble-fromMeLinkFocusColor: var(--cyan);
+	--speechBubble-fromMeLinkFocusColor: light-dark(var(--brand), var(--brand-tone));
     --speechBubble-fromMeLinkBackground: var(--white);
 
     --speechBubble-fromThemColor: light-dark(var(--black), var(--black));
     --speechBubble-fromThemBackground: light-dark(var(--gray-100), var(--gray-300));
     --speechBubble-fromThemLinkColor: var(--black);
-    --speechBubble-fromThemLinkBackground: var(--cyan);
+    --speechBubble-fromThemLinkBackground: var(--brand);
     
-    --caret-color: var(--cyan);
+    --caret-color: var(--brand);
 
     --skiplink-color: light-dark(var(--white), var(--black));
-    --skiplink-background: var(--cyan);
+    --skiplink-background: var(--brand);
     
 }

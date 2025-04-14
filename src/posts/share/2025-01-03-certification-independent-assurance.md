@@ -12,7 +12,7 @@ reply_to:
     description: "Our trust framework sets out the rules digital identity and attribute services should meet. How can we be confident that those rules are being followed? That’s the role of “conformity assessment” – or, more colloquially, certification."
     url: "https://enablingdigitalidentity.blog.gov.uk/2025/01/03/certification-independent-assurance-that-the-rules-are-being-followed/"
     image: "https://enablingdigitalidentity.blog.gov.uk/wp-content/uploads/sites/287/2024/12/certification-diagram.jpg"
-    date: 2025-03-01
+    date: 2025-01-03
     content: |
       Our trust framework sets out the rules digital identity and attribute services should meet. How can we be confident that those rules are being followed? That’s the role of “conformity assessment” – or, more colloquially, certification.
 posse:

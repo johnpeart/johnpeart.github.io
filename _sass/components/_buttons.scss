@@ -32,22 +32,24 @@ button,
 		background: var(--button-background);
 	}
     &:hover {
-		@include material(1, false, false, --button-background);
+		@include material(1, false, false, var(--button-hoverBackground));
+        color: var(--button-hoverColor);
     }
 	&:focus,
     &:focus-visible {
         box-shadow: none;
 		outline: 3px solid var(--link-outlineColor);
-        @include material(1, false, false, --button-background);
+        @include material(1, false, false, var(--link-focusBackground));
 	    outline-offset: form("outline-active-offset");
     }
     &:hover:focus {
 	    outline-offset: form("outline-active-offset");
-        @include material(1, false, false, --button-background);
+        @include material(1, false, false, var(--button-hoverBackground));
     }
     &:active {
         text-decoration: none !important;
-		@include material(1, true, false, --button-background);
+		@include material(1, true, false, var(--button-hoverBackground));
+        color: var(--button-activeColor);
     }
 
     &:disabled,

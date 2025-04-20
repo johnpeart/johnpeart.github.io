@@ -12,9 +12,9 @@
     "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "John Peart",
+  "license": "None",
+  "description": "John Peart's personal website",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "dotenv": "^16.4.5",

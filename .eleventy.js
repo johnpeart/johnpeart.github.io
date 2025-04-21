@@ -166,7 +166,6 @@ module.exports = function(eleventyConfig) {
         return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
     });
 
-
     return {
         markdownTemplateEngine: "liquid",
         htmlTemplateEngine: "liquid",

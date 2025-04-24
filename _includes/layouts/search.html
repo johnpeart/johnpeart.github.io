@@ -11,7 +11,7 @@ header:
     {% endunless %}
     
     <search>
-        <form role="search" aria-label="Site search" onsubmit="return false;" class="card padding">
+        <form role="search" aria-label="Site search" onsubmit="return false;" class="card">
             <label class="label" for="searchBox">Search for a post</label>
             <input 
                 type="search" 
@@ -26,6 +26,12 @@ header:
     <ul id="results" class="key-value" role="listbox"></ul>
     
     <script>
+        
+        // Auto focus the search field
+        var FieldID = "searchBox"
+        document.getElementById(FieldID).focus();
+        
+
         async function loadIndex() {
             const res = await fetch('{{ siteUrl }}/search.json');
             return res.json();
@@ -65,8 +71,8 @@ header:
                 
                 // Create the paragraph element for the category
                 const p = document.createElement('p');
-                p.className = 'key-value--value';
-                p.textContent = post.category;
+                p.className = 'key-value--value small-caps';
+                p.textContent = post.collection;
                 
                 // Assemble the elements
                 a.appendChild(h3);
@@ -90,3 +96,4 @@ header:
 
 
 </section>
+

@@ -3,22 +3,27 @@
 <header class="global-navigation">
     
 	<nav class="navigation" aria-label="Main menu">
-        <h1 class="navigation--wordmark">
+        <h1 class="navigation--wordmark card-scroll">
             <a href="{{ siteUrl | default: site.url }}" class="navigation--wordmark--link">John Peart</a>
         </h1>
     
-        <ul class="navigation--links">
+        <ul class="navigation--links card-scroll">
+            {% unless permalink == '/search/' %}
+            <li class="navigation--links-item">
+                {% include 'components/navigation-icons/search.html' %}
+            </li>
+            {% endunless %}
+            {% unless permalink == '/menu/' %}
+            <li class="navigation--links-item">
+                {% include 'components/navigation-icons/menu.html' %}
+            </li>
+            {% endunless %}
             {% if permalink == '/menu/' or permalink == '/search/' %}
             <li class="navigation--links-item">
                 {% include 'components/navigation-icons/escape.html' %}
             </li>
             {% else %}
-            <li class="navigation--links-item">
-                {% include 'components/navigation-icons/search.html' %}
-            </li>
-            <li class="navigation--links-item">
-                {% include 'components/navigation-icons/menu.html' %}
-            </li>
+            
             {% endif %}
         </ul>
 		

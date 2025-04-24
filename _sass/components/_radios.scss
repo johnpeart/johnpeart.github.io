@@ -1,14 +1,10 @@
 fieldset.radios {
 
     padding: 15px 10px 10px;
-    margin-bottom: $padding * 2;
+    margin-bottom: calc(var(--pad) * 2);
 
-    @include tablet-up {
+    @media (min-width: 700px) {
         padding: 20px;
-    }
-
-    legend {
-        @include sr-only;
     }
 
     div.radio-input {
@@ -18,7 +14,7 @@ fieldset.radios {
 
         margin-bottom: 10px;
 
-        @include tablet-up {
+        @media (min-width: 700px) {
             float: left;
             clear: none;
             width: 50%;
@@ -36,28 +32,27 @@ fieldset.radios {
 }
 
 input[type="radio"] {
-    $input-offset: (form("touch-target-size") - form("radios-size")) * 0.5;
-    cursor: pointer;
-
     position: absolute;
 
     z-index: 1;
-    top: $input-offset * -1;
-    left: $input-offset * -1;
+    top: -2px;
+    left: -2px;
 
-    width: form("touch-target-size");
-    height: form("touch-target-size");
+    width: 44px;
+    height: 44px;
     margin: 0;
 
     opacity: 0;
 
+    cursor: pointer;
+
     ~ label {
         display: inline-block;
-        height: form("input-size");
-		line-height: form("input-size");
+        height: 40px;
+		line-height: 40px;
         margin-top: 0;
         margin-bottom: 0;
-        padding: 0px form("radios-label-padding-left-right");
+        padding: 0px 20px;
         cursor: pointer;
         // remove 300ms pause on mobile
         touch-action: manipulation;
@@ -71,8 +66,8 @@ input[type="radio"] {
             top: 0;
             left: 0;
 
-            width: form("radios-size");
-            height: form("radios-size");
+            width: 40px;
+            height: 40px;
             
             box-shadow: 
                 .5px .5px 1px rgba(255,255,255,0.5),
@@ -130,13 +125,8 @@ input[type="radio"] {
     }
 
     ~ .label-hint,  {
-        padding-right: form("radios-label-padding-left-right");
-        padding-left: form("radios-label-padding-left-right");
-    }
-
-    ~ input[type="text"]  {
-        margin-left: form("radios-label-padding-left-right");
-        width: calc(100% - #{form("radios-label-padding-left-right")});
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
 }
@@ -146,7 +136,7 @@ input[type="radio"] {
     display: block;
     position: relative;
 
-    min-height: form("input-size");
+    min-height: 40px;
 
     @extend p;
     padding: 0;
@@ -154,7 +144,7 @@ input[type="radio"] {
     margin-bottom: 30px;
     clear: left;
 
-    padding-left: map-get($form-elements, "radios-size");
+    padding-left: 40px;
 
     &:last-child,
     &:last-of-type {

@@ -12,8 +12,8 @@ body#goal {
     }
 
     section#page-content > section {
-        @include tablet-up {
-            padding-bottom: $padding * 3;
+        @media (min-width: 700px) {
+            padding-bottom: calc(var(--pad) * 3);
         }
 
         @include clearfix;
@@ -40,8 +40,8 @@ body#goal {
 
             &.totaliser {
 
-                padding: $padding;
-                margin-top: $padding * 8;
+                padding: var(--pad);
+                margin-top: calc(var(--pad) * 8);
 
                 box-sizing: border-box;
 

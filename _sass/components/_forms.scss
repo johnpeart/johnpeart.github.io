@@ -3,18 +3,19 @@ form *:last-child {
 }
 
 search {
-    margin-top: $padding * 2;
+    margin-top: calc(var(--pad) * 2);
 }
 
 fieldset {
-    margin-bottom: $padding * 2;
+    margin-bottom: calc(var(--pad) * 2);
     @include clearfix();
 }
 
 legend {
-    @include typography($p, "default");
+    font-size: clamp(22px, 3vw, 30px);
+    padding: 0 0 clamp(22px, 3vw, 32px);
     width: 100%;
-    padding: 0 0 $padding;
+    padding: 0 0 var(--pad);
     float: left;
     font-weight: bold;
     text-align: center;
@@ -33,11 +34,7 @@ label {
     @extend p;
     display: block;
     font-weight: 600;
-    padding-bottom: $padding;
-
-    &.hidden {
-        @include sr-only;
-    }
+    padding-bottom: var(--pad);
 
     &.hidden ~ input {
         margin: 0;
@@ -45,7 +42,8 @@ label {
 }
 
 .label-hint {
-    @extend p;
+    font-size: clamp(22px, 3vw, 30px);
+    padding: 0 0 clamp(22px, 3vw, 32px);
     color: var(--labelHint-color);
     padding-bottom: 0;
     display: block;

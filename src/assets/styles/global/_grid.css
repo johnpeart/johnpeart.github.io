@@ -1,0 +1,19 @@
+body {
+	position: relative;
+	display: grid;
+
+	grid-template-areas: "header" "main" "footer";
+	grid-template-columns: 100vw;
+	grid-template-rows: auto minmax(calc(100vh - 90px), auto) auto;
+}
+
+body:has(.skip-link:focus) {
+	grid-template-rows: auto auto minmax(calc(100vh - 90px), auto) auto;
+}
+
+#page-content,
+#post-content,
+.post-body {
+    width: 100%;
+	margin-block-end: var(--pad) * 4;
+}

@@ -5,12 +5,12 @@ select {
     -webkit-appearance: none;
     appearance: none;
 
-    @include typography($p);
+    font-size: clamp(22px, 3vw, 30px);
 
     width: 100%;
     min-height: form("input-size");
     padding: form("input-padding") !important;
-    margin-bottom: $padding * 2;
+    margin-bottom: calc(var(--pad) * 2);
 
     border-radius: form("border-radius");
     border: form("border-width") solid;

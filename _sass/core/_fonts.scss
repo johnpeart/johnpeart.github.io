@@ -9,10 +9,10 @@
             url('../fonts/regular.woff2') format('woff2'),
             url('../fonts/regular.woff') format('woff');
 
-       -moz-font-feature-settings:    $font-feature-settings;
-         -o-font-feature-settings:    $font-feature-settings;
-    -webkit-font-feature-settings:    $font-feature-settings;
-            font-feature-settings:    $font-feature-settings;
+       -moz-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+         -o-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+            font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
     font-display: fallback;
 }
@@ -28,10 +28,10 @@
             url('../fonts/italic.woff2') format('woff2'),
             url('../fonts/italic.woff') format('woff');
 
-    -moz-font-feature-settings:    $font-feature-settings;
-    -o-font-feature-settings:    $font-feature-settings;
-    -webkit-font-feature-settings:    $font-feature-settings;
-    font-feature-settings:    $font-feature-settings;
+    -moz-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -o-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
     font-display: fallback;
 }
@@ -47,10 +47,10 @@
             url('../fonts/bold.woff2') format('woff2'),
             url('../fonts/bold.woff') format('woff');
 
-    -moz-font-feature-settings:    $font-feature-settings;
-    -o-font-feature-settings:    $font-feature-settings;
-    -webkit-font-feature-settings:    $font-feature-settings;
-    font-feature-settings:    $font-feature-settings;
+    -moz-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -o-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
     font-display: fallback;
 }
@@ -66,10 +66,10 @@
             url('../fonts/bolditalic.woff2') format('woff2'),
             url('../fonts/bolditalic.woff') format('woff');
 
-    -moz-font-feature-settings:    $font-feature-settings;
-    -o-font-feature-settings:    $font-feature-settings;
-    -webkit-font-feature-settings:    $font-feature-settings;
-    font-feature-settings:    $font-feature-settings;
+    -moz-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -o-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
     font-display: fallback;
 }
@@ -83,10 +83,10 @@
     src:    url('../fonts/PermanentMarker-Regular.woff2') format('woff2'),
             url('../fonts/PermanentMarker-Regular.woff') format('woff');
 
-    -moz-font-feature-settings:    $font-feature-settings;
-    -o-font-feature-settings:    $font-feature-settings;
-    -webkit-font-feature-settings:    $font-feature-settings;
-    font-feature-settings:    $font-feature-settings;
+    -moz-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -o-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
+    font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
     font-display: fallback;
 }

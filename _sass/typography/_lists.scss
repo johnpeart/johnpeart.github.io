@@ -1,0 +1,12 @@
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul,
+ol {
+    padding: 0 clamp(30px, 3vw, 40px) clamp(22px, 3vw, 32px);
+}

@@ -1,9 +1,8 @@
-// Only display content to screen readers
-//
-// See: https://a11yproject.com/posts/how-to-hide-content/
-// See: https://hugogiraudel.com/2016/10/13/css-hide-and-seek/
+.hidden {
+    display: none !important;
+}
 
-@mixin sr-only {
+.sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -14,11 +13,7 @@
     border: 0;
 }
 
-// Use in conjunction with .sr-only to only display content when it's focused.
-// Useful for "Skip to main content" links; see https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
-// Credit: HTML5 Boilerplate
-
-@mixin sr-only-focusable {
+.sr-only-focusable {
     &:active,
     &:focus {
         position: static;
@@ -28,37 +23,4 @@
         clip: auto;
         white-space: normal;
     }
-}
-
-.sr-only {
-    @include sr-only;
-}
-
-.sr-only-focusable {
-    @include sr-only-focusable;
-}
-
-.skip-link {
-    @include sr-only;
-    @include sr-only-focusable;
-
-    z-index: 999999;
-    display: block;
-    width: 100%;
-    text-align: left;
-
-    &:focus,
-    &:hover {
-        background: var(--skiplink-background);
-        color: var(--skiplink-color);
-    }
-    
-    p {
-        color: var(--background);
-        padding: $padding;
-    }
-}
-
-.hidden {
-    display: none !important;
 }

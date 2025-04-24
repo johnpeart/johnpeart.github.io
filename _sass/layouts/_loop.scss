@@ -4,8 +4,8 @@ body#loop {
 	section#page-content > section {
 		display: grid;
 		grid-template-columns: 1fr;
-		@include tablet-up() {
-			grid-gap: $padding;
+		@media (min-width: 700px) {
+			grid-gap: var(--pad);
 			grid-template-columns: 1fr 3fr;
 		}
 	}
@@ -15,12 +15,12 @@ body#loop {
 		
         padding-left: 0;
         padding-bottom: 0;
-        padding-top: $padding;
+        padding-top: var(--pad);
 
-		margin-bottom: $padding * 2;
+		margin-bottom: calc(var(--pad) * 2);
 
-        @include tablet-up {
-            padding-top: $padding * 3;
+        @media (min-width: 700px) {
+            padding-top: calc(var(--pad) * 3);
         }
 
         li:before {

@@ -16,7 +16,7 @@ None of these are complex things to understand. Making it work effectively is al
 
 *Mini Motorways* is a game of chance as much as it is skill. You will always lose; but how long can you go without your city grinding to a complete stop? That’s the addictive gameplay loop that keeps me coming back.
 
-<section class="app-sheet">
+<section class="app-sheet card">
     <dl class="dl--app">
         <img class="app-icon large" src="/assets/images/posts/games/mini-motorways.jpeg" alt="Mini Motorways app icon">
         <dt class="app-name-label sr-only">App name</dt>

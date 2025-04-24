@@ -8,7 +8,7 @@
         
             {% if entry.youtube -%}<a class="no-underline" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ entry.song }} by {{ entry.artist }} on YouTube">{%- endif %}
                 <h3>{{ entry.country }}</h3>
-                <p class="small"><strong>{{ entry.song }}</strong> by <strong>{{ entry.artist }}</strong></p>
+                <p class="small-text"><strong>{{ entry.song }}</strong> by <strong>{{ entry.artist }}</strong></p>
             {% if entry.youtube -%}</a>{%- endif %}
         </header>
         

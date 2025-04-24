@@ -1,18 +1,89 @@
+.speech-bubbles--webmentions {
+    grid-area: webmentions;
+}
+
 .speech-bubbles {
     display: grid;
-    
-    grid-gap: 0 $padding;
+    grid-gap: 0 var(--pad);
     grid-template-rows: auto auto auto;
+}
+
+.speech-bubble {
     
-    &:last-of-type {
-        margin-bottom: $padding * 4;
+    position: relative;
+	display: inline-block;
+    clear: both;
+    
+    padding: calc(var(--pad) * 0.5) var(--pad);
+    margin-bottom: calc(var(--pad) * 0.5);
+    border-radius: 15px;
+	
+    color: var(--color);
+    background: var(--speechBubble-background);
+    
+    text-align: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    
+    &:last-child {
+        margin-bottom: 0;
+    
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+        }
+    }
+
+    &:before {
+		z-index: 2;
+        bottom: -2px;
+        height: 15px;
+        -webkit-transform: translate(0, -2px);
+    }
+
+    &:after {
+        z-index: 3;
+        bottom: -2px;
+        background:var(--background);
+        width: 10px;
+        height: 20px;
+        -webkit-transform: translate(-30px, -2px);
+    }
+    
+    a {
+        &:link,
+	    &:visited {
+            color: var(--speechBubble-linkColor);
+        }
+        &:focus {
+            color: var(--speechBubble-linkColor-focus);
+            background: var(--speechBubble-linkBackground);
+            outline: 3px solid var(--speechBubble-linkBackground);
+        } 
+    }
+    
+    &:is(h1, h2, h3, h4, h5, h6) {
+        font-size: clamp(22px, 3vw, 30px);
+        padding: calc(var(--pad) * 0.5) var(--pad) !important;
+        text-align: left;
+        font-weight: bold;
     }
 }
 
+img.speech-bubble {
+    padding: 0;
+    border-radius: calc(var(--border-radius) * 2);
+}
 
 .speech-bubbles--from-them {
     grid-template-columns: auto 3fr;
     grid-template-areas: ". author" "photo content";
+    
+    .speech-bubbles--author {
+        text-align: left;
+    }
     
     &.speech-bubbles--no-photo {
         grid-template-columns: auto;
@@ -28,8 +99,8 @@
         grid-template-columns: auto;
         grid-template-areas: "author" "content" "webmentions";
     }
-
-    @include tablet-up() {
+    
+    @media (min-width: 700px) {
         grid-template-columns: auto 3fr 1fr;
         grid-template-areas: 
             "date date date" 
@@ -55,10 +126,7 @@
             grid-template-areas: "author ." "content ." "webmentions .";
         }
     }
-    
-    .speech-bubbles--author {
-        text-align: left;
-    }
+
 }
 
 .speech-bubbles--from-me {
@@ -80,7 +148,7 @@
         grid-template-areas: "author" "content" "webmentions";
     }
     
-    @include tablet-up() {
+    @media (min-width: 700px) {
         grid-template-columns: 1fr 3fr auto;
         grid-template-areas: 
             "date date date" 
@@ -101,207 +169,91 @@
                 ". webmentions .";
         }
     }
+}
+
+.speech-bubbles--from-them .speech-bubble {
+    --color: var(--black);
+    --speechBubble-background: light-dark(var(--gray-100), var(--gray-300));
+    --speechBubble-linkColor: var(--black);
+    --speechBubble-linkColor-focus: var(--black);
+    --speechBubble-linkBackground: light-dark(var(--brand), var(--brand-tone));
     
-    .speech-bubbles--author {
-        text-align: right;
+    float: left;
+    
+    &:before {
+        left: -7px;
+        border-bottom-right-radius: 16px 14px;
+        border-left: 20px solid var(--speechBubble-background);
+    }
+    &:after {
+        left: 20px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.speech-bubbles--from-me .speech-bubble {
+    --color: var(--white);
+    --speechBubble-background: light-dark(var(--brand), var(--brand-tone));
+    --speechBubble-linkColor: var(--white);
+    --speechBubble-linkColor-focus: light-dark(var(--brand), var(--brand-tone));
+    --speechBubble-linkBackground: var(--white);
+    
+    float: right;
+
+    &:before {
+        right: -7px;
+        border-bottom-left-radius: 16px 14px;
+        border-right: 20px solid var(--speechBubble-background);
+    }
+    &:after {
+        right: -40px;
+        border-bottom-left-radius: 10px;
     }
 }
 
 .speech-bubbles--author {
     grid-area: author;
-    margin-top: $padding;
-
+    padding: calc(var(--pad) * 2) var(--pad) calc(var(--pad) * 0.5) var(--pad);
 }
+
+.speech-bubbles--from-me .speech-bubbles--author {
+    text-align: right;
+}
+
 .speech-bubbles--content {
     grid-area: content;
 }
+
 .speech-bubbles--speaker {
     align-content: flex-end;
     grid-area: photo;
-}
-.speech-bubbles--webmentions {
-    grid-area: webmentions;
-}
 
-.speech-bubbles--speaker .u-photo {
-    z-index: 100;
-    position: sticky;
-    top: auto;
-    bottom: $padding;
-    
-    width: 50px;
-    height: 50px;
-    
-    &.large {
-        width: 70px;
-        height: 70px;
-        @include tablet-up() {
-            width: 100px;
-            height: 100px;
+    .u-photo {
+        z-index: 100;
+        position: sticky;
+        top: auto;
+        bottom: var(--pad);
+        
+        width: 50px;
+        height: 50px;
+        
+        margin-bottom: var(--pad);
+        background: var(--secondary-background);
+        border-radius: 100%;
+        
+        .padding {
+            padding: calc(var(--pad) * 0.5);
         }
     }
-    &.padding {
-        padding: $padding * 0.5;
-    }
-    margin-bottom: $padding;
-    background: var(--secondary-background);
-    border-radius: 100%;
-}
 
-.speech-bubble {
-    position: relative;
-	display: inline-block;
-    padding: $padding * 0.5 $padding;
-    margin-bottom: $padding * 0.5;
-    @include typography($p);
-    border-radius: $border-radius * 2;
-	
-    text-align: left;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    
-    &:last-child {
-        margin-bottom: $padding;
-    }
-    
-    &.speech-bubble--no-padding {
-        padding: 0;
-    }
-    blockquote {
-        background: none !important;
-    }
 }
 
 ol, ul {
-    &.speech-bubble {
-        padding-left: $padding * 3;
-        @include desktop {
-            padding-left: $padding * 4;
+    .speech-bubble {
+        padding-left: calc(var(--pad) * 3);
+        
+        @media (min-width: 700px) {
+            padding-left: calc(var(--pad) * 4);
         }
-    }
-}
-
-.speech-bubble:last-child:before,
-.speech-bubble:last-child:after {
-    content: "";
-    position: absolute;
-}
-
-.speech-bubble:after {
-    background:var(--background);
-    width: 10px;
-    height: 20px;
-    -webkit-transform: translate(-30px, -2px);
-}
-
-.speech-bubbles--from-them .speech-bubble {
-    clear: both;
-    float: left;
-	color: var(--speechBubble-fromThemColor);
-    background: var(--speechBubble-fromThemBackground);
-    
-    &:before {
-		z-index: 2;
-        bottom: -2px;
-        left: -7px;
-        height: 15px;
-        border-left: 20px solid var(--speechBubble-fromThemBackground);
-        border-bottom-right-radius: 16px 14px;
-        -webkit-transform: translate(0, -2px);
-    }
-
-    &:after {
-        z-index: 3;
-        bottom: -2px;
-        left: 20px;
-        border-bottom-right-radius: 10px;
-    }
-
-    * {
-		color: var(--speechBubble-fromThemColor);
-	}
-}
-
-.speech-bubbles--from-me .speech-bubble {
-    clear: both;
-    float: right;
-	color: var(--speechBubble-fromMeColor);
-    background: var(--speechBubble-fromMeBackground);
-    
-    * {
-        color: var(--speechBubble-fromMeColor);
-    }
-    &:before {
-		z-index: 2;
-        bottom: -2px;
-        right: -7px;
-        height: 15px;
-        border-right: 20px solid var(--speechBubble-fromMeBackground);
-        border-bottom-left-radius: $border-radius * 2 $border-radius * 2 - 3px;
-        -webkit-transform: translate(0, -2px);
-    }
-
-    &:after {
-        z-index: 3;
-        bottom: -2px;
-        right: -40px;
-        width: 10px;
-        height: 20px;
-        border-bottom-left-radius: $border-radius * 2;
-    }
-    
-    a {
-        &:link,
-	    &:visited {
-            color: var(--speechBubble-fromMeLinkColor);
-        }
-        &:focus {
-            color: var(--speechBubble-fromMeLinkFocusColor);
-            background: var(--speechBubble-fromMeLinkBackground);
-            outline: 3px solid var(--speechBubble-fromMeLinkBackground);
-        } 
-    }
-}
-
-.speech-bubble a {
-	&:link,
-	&:visited {
-		text-decoration: underline;
-	}
-	&:hover {
-		text-decoration: none;
-	}
-	&:active {
-		text-decoration: underline;
-	}
-}
-
-.speech-bubble .post-title {
-    @include typography($card-title);
-    line-height: 1;
-	padding: 0 0 $padding * 0.5 !important;
-}
-
-.speech-bubble blockquote {
-    padding: $padding * 0.5 $padding $padding * 0.75 !important;
-    
-    p:last-child {
-        padding: 0;
-    }
-}
-
-.speech-bubble blockquote,
-.speech-bubble header,
-.speech-bubble .post-title,
-.speech-bubble .text {
-    background: var(--speechBubble-fromThemBackground);
-}
-
-.speech-bubble .text {
-    padding: $padding * 0.5 $padding $padding * 0.5 $padding * 0.4;
-    
-    p:last-child {
-        padding: 0;
     }
 }

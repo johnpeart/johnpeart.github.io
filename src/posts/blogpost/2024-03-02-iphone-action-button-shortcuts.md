@@ -86,7 +86,7 @@ Separating out the creation of the menu from the running of the menu means there
 
 If you want to use this set up, the two Shortcuts are available to download below.
 
-<section class="app-sheet">
+<section class="app-sheet card">
 <dl class="dl--app">
 <img class="app-icon large" src="/assets/images/posts/2024/03/02/push-the-button/command.png" alt="Command (Four leaf clover) symbol on a green background">
 <dt class="app-name-label sr-only">Shortcut name</dt>
@@ -98,7 +98,7 @@ If you want to use this set up, the two Shortcuts are available to download belo
 </dl>
 </section>
 
-<section class="app-sheet">
+<section class="app-sheet card">
 <dl class="dl--app">
 <img class="app-icon large" src="/assets/images/posts/2024/03/02/push-the-button/command.png" alt="Command (Four leaf clover) symbol on a green background">
 <dt class="app-name-label sr-only">Shortcut name</dt>

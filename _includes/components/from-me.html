@@ -1,6 +1,6 @@
 <section class="speech-bubbles speech-bubbles--with-webmentions speech-bubbles--from-me">		
     
-    <aside class="speech-bubbles--author secondary-text secondary-text--gray">
+    <aside class="speech-bubbles--author secondary-text small-text">
         {% if page.date %}On <time class="dt-published" datetime="{{ page.date | date: '%FT%T%:z' }}">{{ page.date | date: '%d %B %Y' }}</time>, {% endif %}
 	    <span class="h-card p-author">
 		    <img class="u-photo hidden memoji" alt="A Memoji avatar of John Peart" src="{{ site.url | append: '/assets/images/me/memoji.png' }}">

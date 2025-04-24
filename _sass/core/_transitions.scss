@@ -9,15 +9,19 @@
 
 
 /* HEADER SCROLL DRIVEN ANIMATION */
-@keyframes header {
+@keyframes card-scroll {
     from {
+        background: none;
+        box-shadow: none;
         top: 0;
         margin: 0;
     }
     to {
-        @include material(2, $bg: var(--translucent-background));
-        top: $padding;
-        margin: $padding;
+        box-shadow: var(--shadow--depth-2);
+        background: var(--translucent-background);
+        border-radius: calc(var(--border-radius) * 2);
+        top: calc(var(--pad) * 0.5);
+        margin: var(--card-spacing);
     }
 }
 

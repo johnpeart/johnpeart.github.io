@@ -62,7 +62,7 @@
                 {%- endif -%}
                         
                 <article id="webmention-{{ mention.wm-id }}" class="speech-bubbles speech-bubbles--{{ from }} {% if authorPhoto == false %}speech-bubbles--no-photo{% endif %} p-comment webmention--{{ mention.wm-property }}">
-                    <aside class="speech-bubbles--author secondary-text secondary-text--gray">
+                    <aside class="speech-bubbles--author secondary-text">
                         On <time datetime="{{ mention.wm-received | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>, {{ author }}{% if mention.wm-source %} <a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}{{ verb }}{% if mention.wm-source %}</a>{% endif -%}
                     </aside>
                     <section class="speech-bubbles--content p-content">
@@ -93,8 +93,8 @@
                     {% assign verb = "interacted with" %}
                 {% endif -%}
             
-                <article id="webmention-{{ mention.wm-id }}" class="interaction action {{ mention.wm-property }} p-comment">
-                    <p><span class="interaction-icon {{ mention.wm-property }}"></span>
+                <article id="webmention-{{ mention.wm-id }}" class="interaction center {{ mention.wm-property }} p-comment">
+                    <p class="center secondary-text small-text padding--0"><span class="interaction-icon {{ mention.wm-property }}"></span>
                     {% if mention.author.name.size > 0 %}
                     <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
                     {% else %}

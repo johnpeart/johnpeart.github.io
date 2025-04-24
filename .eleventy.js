@@ -139,7 +139,6 @@ module.exports = function(eleventyConfig) {
         "archive",
         "blogpost", 
         "game",
-        "goal", 
         "list",
         "manual", 
         "music", 

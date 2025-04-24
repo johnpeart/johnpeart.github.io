@@ -1,0 +1,36 @@
+sup[role="doc-noteref"] {
+    font-feature-settings: "ss02", "tnum", "liga", "zero", "kern", "frac";
+    
+    a {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+        &:focus {
+            text-decoration: none;
+        }
+    }
+}
+
+div.footnotes {
+
+    padding-top: clamp(45px, 9vw, 120px);
+    max-width: 40ch;
+
+    ul, ol {
+        padding-left: calc(var(--pad) * 2);
+    }
+    li, p {
+        font-size: clamp(18px, 3vw, 24px);
+        line-height: 1.2;
+        margin-bottom: var(--pad);
+    }
+    a.footnote-backref:link {
+        text-decoration: none;
+    }
+
+}

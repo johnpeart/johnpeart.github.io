@@ -1,59 +1,45 @@
+dd,
+dt {
+    font-size: clamp(22px, 3vw, 30px);
+    line-height: 1.2;
+    font-style: normal;
+}
+
 figure dl {
-    padding: $padding;
+    padding: var(--pad);
 
     display: grid;
 
     grid-template-rows: auto auto;
     grid-template-columns: auto;
+    column-gap: calc(var(--pad) * 2);
+    row-gap: var(--pad);
 
-    @include tablet-up {
+    @media (min-width: 700px) {
         grid-template-rows: 1fr;
         grid-template-columns: auto 1fr;
-    }
-    column-gap: $padding * 2;
-    row-gap: $padding;
-
-    @include material(1);
-}
-
-dd, dt {
-    padding: 0;
-
-    &.small-caps {
-        @include typography($small);
-        text-transform: uppercase;
-        line-height: 1.2;
-        color: var(--secondary-color);
-    }
-
-    &.bold {
-        font-weight: bold;
     }
 }
 
 section.apps-list,
 section.app-sheet {
-    margin: $padding auto $padding * 2;
-    @include material();
+    margin: var(--pad) auto calc(var(--pad) * 2);
     
     dl {
-
         display: grid;
     
-        padding: $padding;
-
         grid-template-rows: auto auto;
         grid-template-columns: auto;
-    
-        @include tablet-up {
-            grid-template-rows: 1fr;
-            grid-template-columns: auto 1fr;
-        }
-        column-gap: $padding * 2;
-        row-gap: $padding;
+        column-gap: calc(var(--pad) * 2);
+        row-gap: var(--pad);
         
         box-shadow: none;
         border-radius: 0;
+    
+        @media (min-width: 700px) {
+            grid-template-rows: 1fr;
+            grid-template-columns: auto 1fr;
+        }
     }
 }
 
@@ -65,10 +51,6 @@ section.app-sheet {
         display: grid;
         grid-template-rows: auto auto auto auto auto;
         grid-template-columns: 80px auto auto auto;
-        @include tablet-up {
-            grid-template-columns: 130px auto auto auto;
-            padding: 20px;
-        }
         row-gap: 0;
         column-gap: 0;
         grid-template-areas: "icon app-name app-name app-name"
@@ -76,17 +58,19 @@ section.app-sheet {
                                 "icon app-type app-type app-type"
                                 "app-first-label app-first-label app-first app-first"
                                 "app-second-label app-second-label app-second app-second";
+        @media (min-width: 700px) {
+            grid-template-columns: 130px auto auto auto;
+        }
     }
 
     .app-name {
         grid-area: app-name;
+        font-size: clamp(27px, 6.4vw, 40px);
         font-weight: bold;
         font-style: normal;
         text-align: left;
         text-decoration: none;
         text-transform: none;
-
-        @include typography($h2, "default");
         line-height: 1;
         padding: 0 0 0 0 !important;
     }
@@ -117,13 +101,13 @@ section.app-sheet {
     .app-second,
     .app-first-label,
     .app-first {
-        border-top: form("border-width") solid var(--dl--borderColor);
-        margin-top: $padding;
+        border-top: 3px solid var(--secondary-borderColor);
+        margin-top: var(--pad);
         padding: 10px 0 0 0;
     }
     .app-first-label,
     .app-first {
-        margin-top: $padding * 2;
+        margin-top: calc(var(--pad) * 2);
     }
     .app-first,
     .app-second {
@@ -138,51 +122,49 @@ section.apps-list {
     max-width: 570px;
     
     dl {
-
+        display: grid;
+        grid-template-rows: auto auto;
+        column-gap: 20px;
+        align-items: center;
+        padding: 15px;
+        
         &:hover {
-            background: var(--dl--hoverBackground);
+            background: var(--secondary-hoverBackground);
         }
         &:first-child {
-            border-top-left-radius: $border-radius * 2;
-            border-top-right-radius: $border-radius * 2;
+            border-top-left-radius: calc(var(--border-radius) * 2);
+            border-top-right-radius: calc(var(--border-radius) * 2);
         }
         &:last-child {
-            border-bottom-left-radius: $border-radius * 2;
-            border-bottom-right-radius: $border-radius * 2;
+            border-bottom-left-radius: calc(var(--border-radius) * 2);
+            border-bottom-right-radius: calc(var(--border-radius) * 2);
+        }
+        
+        @media (min-width: 700px) {
+            grid-template-rows: 1fr;
         }
     }
     
     dl.dl--app {
-        display: grid;
-
-        grid-template-rows: auto auto;
         grid-template-columns: auto 1fr;
         grid-template-areas: 'icon name' 'icon price';
-        align-items: center;
-
-        @include tablet-up {
-            grid-template-rows: 1fr;
+        
+        @media (min-width: 700px) {
             grid-template-columns: auto 1fr auto;
             grid-template-areas: 'icon name price';
         }
-        column-gap: 20px;
 
     }
 
     dl.dl--total {
-        display: grid;
-
-        grid-template-rows: auto auto;
+        
         grid-template-columns: 1fr;
         grid-template-areas: 'label' 'price';
-        align-items: center;
-
-        @include tablet-up {
-            grid-template-rows: 1fr;
+        border-top: 3px solid var(--secondary-borderColor);
+        
+        @media (min-width: 700px) {
             grid-template-columns: 1fr auto;
             grid-template-areas: 'label price';
         }
-        column-gap: 20px;
-        border-top: form("border-width") solid var(--dl--borderColor);
     }
 }

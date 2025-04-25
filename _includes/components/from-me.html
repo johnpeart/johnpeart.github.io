@@ -3,7 +3,7 @@
     <aside class="speech-bubbles--author secondary-text small-text">
         {% if page.date %}On <time class="dt-published" datetime="{{ page.date | date: '%FT%T%:z' }}">{{ page.date | date: '%d %B %Y' }}</time>, {% endif %}
 	    <span class="h-card p-author">
-		    <img class="u-photo hidden memoji" alt="A Memoji avatar of John Peart" src="{{ site.url | append: '/assets/images/me/memoji.png' }}">
+		    <img class="u-photo hidden" alt="A Memoji avatar of John Peart" src="{{ site.url | append: '/assets/images/me/memoji.png' }}">
 		    <span class="p-name author--name"><a rel="author" class="link-secondary p-author u-url u-uid" href="{{ site.url }}">John Peart</a></span>
 	    </span>
 	    <a href="{{ page.url }}" class="link-secondary u-url">replied</a>    

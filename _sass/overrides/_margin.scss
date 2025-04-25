@@ -1,16 +1,20 @@
 /* MARGIN OVERRIDES */
-.margin--0 {
-    margin: 0 !important;
+.margin {
+    padding: calc(var(--pad) * var(--mult)) !important;
 }
-.margin-top--0 {
-    margin-top: 0 !important;
+
+.margin-top {
+    padding-top: calc(var(--pad) * var(--mult)) !important;
 }
-.margin-bottom--0 {
-    margin-bottom: 0 !important;
+
+.margin-bottom {
+    padding-bottom: calc(var(--pad) * var(--mult)) !important;
 }
-.margin-left--0 {
-    margin-left: 0 !important;
+
+.margin-left {
+    padding-left: calc(var(--pad) * var(--mult)) !important;
 }
-.margin-right--0 {
-    margin-right: 0 !important;
+
+.margin-right {
+    padding-right: calc(var(--pad) * var(--mult)) !important;
 }

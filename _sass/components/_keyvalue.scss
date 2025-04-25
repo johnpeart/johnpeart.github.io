@@ -26,7 +26,7 @@
 	border-top: 1px solid;
 	border-color: var(--secondary-borderColor);
 
-    gap: var(--pad);
+    gap: calc(var(--pad) * 0.5) var(--pad);
     
     &.key-value--with-description {
         grid-template-columns: 1fr !important;
@@ -38,9 +38,19 @@
         grid-template-rows: auto;
     }
     
+    &.key-value--with-value.key-value--with-value--large {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto;
+    }
+    
     &.key-value--with-description.key-value--with-value {
         grid-template-columns: 1fr auto !important;
         grid-template-rows: auto auto;
+    }
+    
+    &.key-value--with-description.key-value--with-value.key-value--with-value--large {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto auto;
     }
     
     &.key-value--goal {
@@ -119,6 +129,7 @@ a.key-value--link {
 }
 
 .key-value--description {
+    grid-column: 1 / -1;
     &:last-child,
     *:last-child {
         padding: 0;

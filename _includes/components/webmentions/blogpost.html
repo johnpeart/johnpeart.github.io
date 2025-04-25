@@ -94,7 +94,7 @@
                 {% endif -%}
             
                 <article id="webmention-{{ mention.wm-id }}" class="interaction center {{ mention.wm-property }} p-comment">
-                    <p class="center secondary-text small-text padding--0"><span class="interaction-icon {{ mention.wm-property }}"></span>
+                    <p class="center secondary-text small-text padding" style="--mult: 0;"><span class="interaction-icon {{ mention.wm-property }}"></span>
                     {% if mention.author.name.size > 0 %}
                     <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
                     {% else %}

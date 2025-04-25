@@ -47,53 +47,53 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
 
 ### Costs so far...
 
-<section class="apps-list padding--0 card">
+<section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Sky Glass</dd>
+        <dd class="padding" style="--mult: 0;">Sky Glass</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£11.00 per month</dd>
+        <dd class="padding" style="--mult: 0;">£11.00 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Sky Ultimate TV</dd>
+        <dd class="padding" style="--mult: 0;">Sky Ultimate TV</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£15.00 per month</dd>
+        <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/netflix.jpg" alt="Netflix logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Netflix</dd>
+        <dd class="padding" style="--mult: 0;">Netflix</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--total">
-        <dt class="padding--0">Sub-total</dt>
-        <dd class="padding--0">£26.00 per month</dd>
+        <dt class="padding" style="--mult: 0;">Sub-total</dt>
+        <dd class="padding" style="--mult: 0;">£26.00 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/disneyplus.jpg" alt="Disney Plus logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Disney+</dd>
+        <dd class="padding" style="--mult: 0;">Disney+</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£79.99 per year</dd>
+        <dd class="padding" style="--mult: 0;">£79.99 per year</dd>
     </dl>
     <dl class="dl--total">
-        <dt class="padding--0">Sub-total</dt>
-        <dd class="padding--0">£32.67 per month</dd>
+        <dt class="padding" style="--mult: 0;">Sub-total</dt>
+        <dd class="padding" style="--mult: 0;">£32.67 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/paramountplus.jpg" alt="Paramount Plus logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Paramount+</dd>
+        <dd class="padding" style="--mult: 0;">Paramount+</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£6.99 per month</dd>
+        <dd class="padding" style="--mult: 0;">£6.99 per month</dd>
     </dl>
     <dl class="dl--total">
-        <dt class="padding--0">Total</dt>
-        <dd class="padding--0">£39.66 per month</dd>
+        <dt class="padding" style="--mult: 0;">Total</dt>
+        <dd class="padding" style="--mult: 0;">£39.66 per month</dd>
     </dl>
 </section>
 
@@ -146,39 +146,39 @@ I'm actually spending far more on music, TV and games now than I would have befo
 
 [^Arcade]: _Mini Motorways_. It’s a successor to _Mini Metro_. They're both hyper-simple but stupidly complex games where you attempt to build a working transport network. It’s incredibly addictive.
 
-<section class="apps-list padding--0 card">
+<section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appleone.jpg" alt="Apple One logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Apple One</dd>
+        <dd class="padding" style="--mult: 0;">Apple One</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£16.95 per month</dd>
+        <dd class="padding" style="--mult: 0;">£16.95 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/applemusic.jpg" alt="Apple Music logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Apple Music</dd>
+        <dd class="padding" style="--mult: 0;">Apple Music</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appletvplus.jpg" alt="Apple TV Plus logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Apple TV+</dd>
+        <dd class="padding" style="--mult: 0;">Apple TV+</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/applearcade.jpg" alt="Apple Arcade logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Apple Arcade</dd>
+        <dd class="padding" style="--mult: 0;">Apple Arcade</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/icloudplus.jpg" alt="iCloud Plus logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">iCloud+</dd>
+        <dd class="padding" style="--mult: 0;">iCloud+</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
@@ -328,25 +328,25 @@ I feel *slightly* ridiculous saying that I subscribe to calendar and contacts ap
 
 They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it’s really hard to go back to life in the slow lane. So I'll have to suck it up.
 
-<section class="apps-list padding--0 card">
+<section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/flexibits.jpg" alt="Flexibits logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Flexibits Premium</dd>
+        <dd class="padding" style="--mult: 0;">Flexibits Premium</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£59.99 per year</dd>
+        <dd class="padding" style="--mult: 0;">£59.99 per year</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/fantastical.jpg" alt="Fantastical logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Fantastical</dd>
+        <dd class="padding" style="--mult: 0;">Fantastical</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/cardhop.jpg" alt="Cardhop logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Cardhop</dd>
+        <dd class="padding" style="--mult: 0;">Cardhop</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
@@ -361,56 +361,56 @@ Where could I save some money?
 
 Mostly on the streaming services, I think.
 
-<section class="apps-list padding--0 card">
+<section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Sky Ultimate TV</dd>
+        <dd class="padding" style="--mult: 0;">Sky Ultimate TV</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£15.00 per month</dd>
+        <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/netflix.jpg" alt="Netflix logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Netflix</dd>
+        <dd class="padding" style="--mult: 0;">Netflix</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--total">
-        <dt class="padding--0">Sub-total</dt>
-        <dd class="padding--0">£15.00 per month</dd>
+        <dt class="padding" style="--mult: 0;">Sub-total</dt>
+        <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/paramountplus.jpg" alt="Paramount Plus logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Paramount+</dd>
+        <dd class="padding" style="--mult: 0;">Paramount+</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£6.99 per month</dd>
+        <dd class="padding" style="--mult: 0;">£6.99 per month</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/disneyplus.jpg" alt="Disney Plus logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Disney+</dd>
+        <dd class="padding" style="--mult: 0;">Disney+</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£79.99 per year</dd>
+        <dd class="padding" style="--mult: 0;">£79.99 per year</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/amazon.jpg" alt="Amazon Prime app icon">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Amazon</dd>
+        <dd class="padding" style="--mult: 0;">Amazon</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£95.00 per year</dd>
+        <dd class="padding" style="--mult: 0;">£95.00 per year</dd>
     </dl>
     <dl class="dl--app">
         <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appleone.jpg" alt="Apple One logo.">
         <dt class="sr-only">App name</dt>
-        <dd class="padding--0">Apple One</dd>
+        <dd class="padding" style="--mult: 0;">Apple One</dd>
         <dt class="sr-only">Price</dt>
-        <dd class="padding--0">£16.95 per month</dd>
+        <dd class="padding" style="--mult: 0;">£16.95 per month</dd>
     </dl>
     <dl class="dl--total">
-        <dt class="padding--0">Total</dt>
-        <dd class="padding--0">£53.52 per month</dd>
+        <dt class="padding" style="--mult: 0;">Total</dt>
+        <dd class="padding" style="--mult: 0;">£53.52 per month</dd>
     </dl>
 </section>
 

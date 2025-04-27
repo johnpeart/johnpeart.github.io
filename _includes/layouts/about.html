@@ -25,7 +25,6 @@ layout: "default"
             <ul class="key-value">
                 {% for item in item.items %}
                 
-                {% assign href = item.link.internal | default: item.link.external %}
                 {% assign start-date = item.dates.start | date: "%B %Y" %}
                 {% assign end-date = item.dates.end | date: "%B %Y" | default: "present" %}
                 
@@ -34,17 +33,11 @@ layout: "default"
                 {% assign key-value--description = item.organisation %}
                 
                 <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description">
-                    {% if href %}
-                    <a class="key-value--link" href="{{ href }}"{% if item.link.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
-                    {% endif %}
-                        {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value">' }}
-                        <h3 id="{{ item.name | slugify }}" class="key-value--key">{{ key-value--key }}</h3>
-                        <div class="key-value--description">
-                            {{ key-value--description | markdownify }}
-                        </div>
-                    {% if item.link %}
-                    </a>
-                    {% endif %}
+                    <h3 id="{{ item.title | slugify }}" class="key-value--key">{{ key-value--key }}</h3>
+                    <div class="key-value--description">
+                        {{ key-value--description | markdownify }}
+                    </div>
+                    {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text">' }}
                 </li>
                 {% endfor %}
             </ul>

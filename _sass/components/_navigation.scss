@@ -1,34 +1,41 @@
 .global-navigation {
-
+    
+    display: flex;
     position: --webkit-sticky;
     position:          sticky;
+    
+    justify-content: end;
+    
     
     top: 0;
     
     box-sizing: border-box;
     
     z-index: 1000;
-
 }
 
 /* This is the main menu bar */
 .navigation {
-    display: grid;
+    --border-radius: 50px;
+    display: flex;
     
     padding: 0;
     margin: 0;
     
-    grid-template-columns: auto 1fr auto;
-    grid-gap: var(--pad);
-    
     align-items: center;
+
+    @media (max-width: 700px) {
+        width: 100%;
+        justify-content: space-between;
+    }
 }
 
 .navigation--wordmark {
-    --card-padding: 15px;
+    --card-padding: 11.5px;
     
     display: block;
     margin: 0;
+    padding: var(--card-padding) calc(var(--pad) * 1.25);
     
     font-size: 32px;
 	line-height: 32px;
@@ -45,11 +52,9 @@
     
     &:link,
     &:visited {
-        color: var(--link-color);
         text-decoration: none;
     }
     &:hover {
-        color: var(--link-hoverColor);
         text-decoration: underline;
     }
     &:hover:focus {
@@ -57,27 +62,26 @@
 		outline-offset: 3px;
     }
     &:focus {
-        color: var(--link-focusColor);
-        background: var(--link-focusBackground);
         outline: 3px solid var(--link-outlineColor);
 		outline-offset: 0;
     }
 }
 
 .navigation--links {
-    --card-padding: 10px;
+    --card-padding: 7.5px;
     --border-radius: 50px;
     
     display: flex;
     flex-direction: row;
     list-style: none;
     margin: 0;
+    padding: var(--card-padding);
     grid-column: -2 / -1;
 }
 
 .navigation--links-item {
     line-height: 32px;
-    margin-inline-start: var(--pad);
+    margin-inline-start: calc(var(--pad) * 0.5);
     &:first-of-type {
         margin: 0;
     }

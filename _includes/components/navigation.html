@@ -2,13 +2,13 @@
 
 <header class="global-navigation">
     
-	<nav class="navigation" aria-label="Main menu">
+	<nav class="navigation card-scroll" aria-label="Main menu">
         
-        <h1 class="navigation--wordmark card-scroll">
+        <h1 class="navigation--wordmark">
             <a href="{{ siteUrl | default: site.url }}" class="navigation--wordmark--link">John Peart</a>
         </h1>
     
-        <ul class="navigation--links card-scroll">
+        <ul class="navigation--links">
             {% unless permalink == '/search/' %}
             <li class="navigation--links-item">
                 {% include 'components/navigation-icons/search.html' %}

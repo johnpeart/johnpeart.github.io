@@ -7,11 +7,11 @@ a {
     
     &:link,
 	&:visited {
-        color: var(--link-color);
+        color: var(--color);
 		text-decoration: underline;
     }
     &:hover {
-        color: var(--link-hoverColor);
+        color: var(--brand);
         text-decoration: underline;
     }
     &:focus {

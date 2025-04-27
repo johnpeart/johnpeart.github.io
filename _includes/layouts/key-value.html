@@ -59,7 +59,7 @@ layout: page
                 {% if href %}
                 <a class="key-value--link" href="{{ href }}"{% if item.link.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
                 {% endif %}
-                    <h3 id="{{ item.name | slugify }}" class="key-value--key">{{ item.name }}</h3>
+                    <p id="{{ item.name | slugify }}" class="key-value--key">{{ item.name }}</p>
                     {% if key-value--value %}
                         {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text">' }}
                     {% endif %}

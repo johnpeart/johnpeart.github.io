@@ -15,10 +15,10 @@ a {
         text-decoration: underline;
     }
     &:focus {
-        color: var(--link-focusColor);
-        background: var(--link-focusBackground);
-        outline: 3px solid var(--link-outlineColor);
-        outline-offset: 0;
+        color: var(--background);
+        background: var(--brand);
+        outline: 3px solid var(--brand);
+        outline-offset: 0px;
         text-decoration: none;
     }
     &:focus:hover {
@@ -26,6 +26,13 @@ a {
     }
     &:active {
         text-decoration: underline !important;
+        outline: 3px solid var(--brand);
+        outline-offset: 3px;
+        background: var(--brand);
+        color: var(--background);
+        * { 
+            color: var(--background) !important; 
+        }
     }
 
     &.link-secondary,
@@ -66,28 +73,6 @@ a {
         }
         &:active {
             text-decoration: none !important;
-        }
-    }
-    
-    &.large-link {
-        font-size: clamp(26px, 5.6vw, 36px);
-        line-height: clamp(33px, 6vw, 44px);
-        padding: clamp(33px, 7vw, 44px) 0;
-
-        &:link,
-        &:visited {
-            color: var(--cyan);
-            text-decoration: none;
-        }
-
-        &:hover,
-        &:active {
-            color: var(--link-hoverColor);
-            text-decoration: underline;
-        }
-
-        &:focus {
-            color: var(--link-focusColor);
         }
     }
 	

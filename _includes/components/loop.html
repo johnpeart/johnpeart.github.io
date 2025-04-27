@@ -16,11 +16,11 @@
 </section>
 {% endunless %}
 
-<section>
+<section class="margin-bottom{% if forloop.first %} margin-top{% endif %}" style="--mult: 4">
 
 <h2 id="y{{post.date | date: "%Y"}}" class="loop-header">{{ currentdate }}</h2>
 
-<ul class="loop">
+<ul class="key-value">
 
 {% assign date = currentdate %}
 
@@ -34,11 +34,11 @@
 		{% assign title = post.data.title | default: "ERROR: Other title"%}
 	{% endif %}
 	
-	<li>
-		<article>
-			<p class="loop-item-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
-			<p class="loop-item-title"><a class="large-link" href="{{ post.url }}" title="Read {{ post.data.title }}">{{ title | strip_html }}</a></p>
-		</article>
+	<li class="key-value--item key-value--no-border">
+		<a class="key-value--link" href="{{ post.url }}" title="Read {{ post.data.title }}">
+            <p class="key-value--value"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
+            <h3 class="key-value--key">{{ title | strip_html }}</h3>
+        </a>
 	</li>
 
 {% if forloop.last %}

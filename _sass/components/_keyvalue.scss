@@ -25,6 +25,11 @@
     padding: var(--pad) 0;
 	border-top: 1px solid;
 	border-color: var(--secondary-borderColor);
+    
+    &.key-value--no-border {
+        border: none;
+        padding: 0 0 calc(var(--pad) * 2);
+    }
 
     gap: calc(var(--pad) * 0.5) var(--pad);
     
@@ -112,7 +117,6 @@ a.key-value--link {
 }
 
 .key-value--key {
-    font-size: clamp(22px, 3vw, 30px);
     font-weight: 900;
 }
 

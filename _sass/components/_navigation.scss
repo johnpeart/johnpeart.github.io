@@ -24,9 +24,12 @@
     
     align-items: center;
 
-    @media (max-width: 700px) {
+    @media (max-width: 699px) {
         width: 100%;
         justify-content: space-between;
+    }
+    @media (min-width: 700px) {
+        margin: var(--pad) !important;
     }
 }
 
@@ -35,7 +38,7 @@
     
     display: block;
     margin: 0;
-    padding: var(--card-padding) calc(var(--pad) * 1.25);
+    padding: var(--card-padding) calc(var(--pad));
     
     font-size: 32px;
 	line-height: 32px;

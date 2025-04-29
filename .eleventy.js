@@ -144,7 +144,6 @@ module.exports = function(eleventyConfig) {
         "music", 
         "note", 
         "now", 
-        "page",
         "photo", 
         "podcast", 
         "weeknote"

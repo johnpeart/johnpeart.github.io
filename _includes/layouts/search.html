@@ -1,5 +1,6 @@
 ---
 layout: default
+container: false
 header:
   title: false
 ---
@@ -11,8 +12,8 @@ header:
     {% endunless %}
     
     <search>
-        <form role="search" aria-label="Site search" onsubmit="return false;" class="card">
-            <label class="label" for="searchBox">Search for a post</label>
+        <form role="search" aria-label="Search for a post" onsubmit="return false;" class="card container">
+            <label class="label" for="searchBox">Search</label>
             <input 
                 type="search" 
                 id="searchBox" 
@@ -24,9 +25,11 @@ header:
         </form>
     </search>
     
-    <ul id="results" class="key-value" role="listbox">
-
-    </ul>
+    <section id="results" class="container">
+        <ul id="search-results" aria-label="Search results" class="key-value" role="listbox">
+    
+        </ul>
+    </section>
     
     <script>
         
@@ -52,13 +55,13 @@ header:
         }
         
         function renderResults(results) {
-            const list = document.getElementById('results');
+            const list = document.getElementById('search-results');
             list.innerHTML = '';
             
             // Create and append the heading element
             const heading = document.createElement('h2');
             heading.className = 'key-value--heading';
-            heading.textContent = 'Search results';
+            heading.textContent = 'Results';
             list.appendChild(heading);
             
             if (results.length === 0) {

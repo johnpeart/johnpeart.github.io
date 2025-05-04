@@ -3,7 +3,14 @@ form *:last-child {
 }
 
 search {
-    margin-top: calc(var(--pad) * 2);
+    position: -webkit-sticky;
+    position:         sticky;
+    z-index: 100;
+    top: 0;
+    
+    padding: calc(85px + var(--pad)) 0 var(--pad);
+    
+    backdrop-filter: blur(20px);
 }
 
 fieldset {

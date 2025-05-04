@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 {% assign posts = collections.searchIndex %}
 {% for item in posts %}
   {
-    "title": "{{ item.data.title | escape }}",
+    "title": "{{ item.data.title | strip_html }}",
     "date": "{{ item.date | date: "%-d %b %Y" }}",
     "url": "{{ item.url }}",
     "excerpt": "{{ item.data.excerpt }}",

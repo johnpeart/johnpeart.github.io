@@ -29,6 +29,7 @@
         justify-content: space-between;
     }
     @media (min-width: 700px) {
+        padding: 0 0 0 calc(var(--pad) * 0.5);
         margin: var(--pad) !important;
     }
 }

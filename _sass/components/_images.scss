@@ -172,3 +172,8 @@ img.app-icon {
         }
     }
 }
+
+img.image--16-9 {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}

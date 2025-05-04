@@ -13,7 +13,7 @@
                     <div class="speech-bubble speech-bubble--eurovision">
                             {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
                             <h3>{{ entry.country }}</h3>
-                            <p><em>{{ entry.song }}</em> by {{ entry.artist }}</p>
+                            <p>“{{ entry.song }}” by {{ entry.artist }}</p>
                     </div>
                 {% if entry.youtube -%}</a>{%- endif %}
                     

@@ -260,42 +260,6 @@ img.speech-bubble {
     
 }
 
-.speech-bubble--link--eurovision {
-    display: inline-block;
-    
-    &:link,
-    &:visited {
-        
-    }
-    
-    &:hover,
-    &:focus,
-    &:active {
-        background: none;
-        outline: none;
-    }
-    
-    &:hover * {
-        text-decoration: underline;
-    }
-    
-    &:focus img {
-        outline: 3px solid var(--brand);
-        outline-offset: 3px;
-    }
-    
-    &:focus *,
-    &:active * {
-        --speechBubble-background: var(--brand);
-        color: var(--background) !important;
-        text-decoration: underline;
-    }
-    
-    &:active * {
-        text-decoration: none;
-    }
-}
-
 .u-photo {
     width: 50px;
     height: 50px;

@@ -8,9 +8,14 @@ search {
     z-index: 100;
     top: 0;
     
-    padding: calc(85px + var(--pad)) 0 var(--pad);
-    
     backdrop-filter: blur(20px);
+    
+    padding: calc(70px + var(--pad)) var(--pad) var(--pad);
+    
+    @media (min-width: 700px) {
+        padding: calc(85px + var(--pad)) var(--pad) var(--pad);
+    }
+    
 }
 
 fieldset {

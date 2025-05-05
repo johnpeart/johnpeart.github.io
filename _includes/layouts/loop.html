@@ -4,4 +4,53 @@ layout: page
 
 {{ content }}
 
-{% include "components/loop.html" %}
+{% if collection %}
+    {% assign posts = collections[collection] %}
+{% else %}
+    {% assign posts = collections.allPosts %}
+{% endif %}
+
+{% for post in posts %}
+
+{% assign currentdate = post.date | date: "%Y" %}
+
+{% if currentdate != date %}
+
+{% unless forloop.first %}
+</ul>
+
+</section>
+{% endunless %}
+
+<section class="margin-bottom{% if forloop.first %} margin-top{% endif %}" style="--mult: 4">
+
+<h2 id="y{{post.date | date: "%Y"}}" class="loop-header">{{ currentdate }}</h2>
+
+<ul class="key-value">
+
+{% assign date = currentdate %}
+
+{% endif %}
+
+	{% if post.data.collection == "reply" %}
+		{% assign title = "Reply to " | append: post.data.reply_to.author.name | default: "ERROR: Reply title" %}
+	{% elsif post.data.collection == "share" %}
+		{% assign title = post.data.reply_to.post.title | default: "ERROR: Share title" %}
+	{% else %}
+		{% assign title = post.data.title | default: "ERROR: Other title"%}
+	{% endif %}
+	
+	<li class="key-value--item key-value--no-border">
+		<a class="key-value--link" href="{{ post.url }}" title="Read {{ post.data.title }}">
+            <p class="key-value--value"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
+            <h3 class="key-value--key">{{ title | strip_html }}</h3>
+        </a>
+	</li>
+
+{% if forloop.last %}
+</ul>
+
+</section>
+{% endif %}
+
+{% endfor %}

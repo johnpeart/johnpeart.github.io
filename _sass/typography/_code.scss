@@ -1,0 +1,40 @@
+kbd {
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0;
+    font-size: clamp(21px, 3.8vw, 26px);
+    border-radius: 5px;
+    color: var(--brand);
+    background-color: var(--background);
+    border: 1px solid var(--brand);
+    box-shadow: 0 0 var(--brand), 0 0px var(--brand), 0 1px var(--brand), 0 2px var(--brand), 0 3px var(--brand), 0 4px var(--brand);
+}
+
+code {
+    font-size: clamp(21px, 3.8vw, 26px);
+    color: var(--code-color);
+    background: var(--secondary-background);
+    border-radius: 5px;
+    padding:    0 2px;
+}
+
+pre {
+    display: block;
+    position: relative;
+
+    background: var(--secondary-background);
+
+    padding: var(--pad);
+
+    margin-block-end: clamp(22px, 1.6vw, 30px);
+
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+
+    * {
+        background: none;
+    }
+}

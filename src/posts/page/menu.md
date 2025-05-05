@@ -1,5 +1,5 @@
 ---
-layout: menu
+layout: key-value
 title: Menu
 
 header:

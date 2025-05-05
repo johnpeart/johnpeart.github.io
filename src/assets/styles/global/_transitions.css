@@ -1,0 +1,44 @@
+// ANIMATIONS AND VIEW TRANSITIONS
+
+/* Enable view transitions for everyone except those who prefer reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+
+/* HEADER SCROLL DRIVEN ANIMATION */
+@keyframes card-scroll {
+    from {
+        background: none;
+        box-shadow: none;
+        top: 0;
+        margin: 0;
+    }
+    to {
+        box-shadow: var(--shadow--depth-2);
+        background: var(--translucent-background);
+        border-radius: calc(var(--border-radius) * 2);
+        top: calc(var(--pad) * 0.5)
+        margin: clamp(calc(var(--pad) * 0.5), 2vw, var(--pad));
+    }
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-0.5deg);
+	}
+	50% {
+    	transform: rotate(1deg);
+	}
+}
+
+@keyframes rise-and-fall {
+    0% {
+        transform: translateY(5px);
+	}
+	100% {
+    	transform: translateY(0px);
+	}
+}

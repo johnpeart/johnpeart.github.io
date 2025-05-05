@@ -1,52 +1,48 @@
-.global-navigation{
-
+.global-navigation {
+    
+    display: flex;
     position: --webkit-sticky;
     position:          sticky;
     
+    justify-content: end;
+    
+    
     top: 0;
     
+    box-sizing: border-box;
+    
     z-index: 1000;
-    
-    -webkit-backdrop-filter: blur(40px);
-            backdrop-filter: blur(40px);
-    
-    box-shadow: none;
-    animation: header linear both;
-    animation-timeline: scroll(block root);
-    animation-range: 10px 200px;
-    animation-duration: 1ms; /* Required in Firefox */
-
 }
 
-// This is the main menu bar
+/* This is the main menu bar */
 .navigation {
-    display: grid;
-    
-    padding: 0 $padding * 0.7 0 $padding;
-    margin: 0;
-    
-    grid-template-columns: 1fr auto;
-    grid-gap: $padding;
-    
-    align-items: center;
-}
-
-.navigation--links {
+    --border-radius: 50px;
     display: flex;
-    flex-direction: row;
+    
     padding: 0;
     margin: 0;
-}
+    
+    align-items: center;
 
-.navigation--links-item {
-    line-height: 32px;
-    margin-inline-start: $padding;
+    @media (max-width: 699px) {
+        width: 100%;
+        justify-content: space-between;
+    }
+    @media (min-width: 700px) {
+        padding: 0 0 0 calc(var(--pad) * 0.5);
+        margin: var(--pad) !important;
+    }
 }
 
 .navigation--wordmark {
-    display: flex;
+    --card-padding: 11.5px;
+    
+    display: block;
     margin: 0;
-    padding: $padding 0;
+    padding: var(--card-padding) calc(var(--pad));
+    
+    font-size: 32px;
+	line-height: 32px;
 }
 
 .navigation--wordmark--link {
@@ -60,11 +56,9 @@
     
     &:link,
     &:visited {
-        color: var(--link-color);
         text-decoration: none;
     }
     &:hover {
-        color: var(--link-hoverColor);
         text-decoration: underline;
     }
     &:hover:focus {
@@ -72,10 +66,28 @@
 		outline-offset: 3px;
     }
     &:focus {
-        color: var(--link-focusColor);
-        background: var(--link-focusBackground);
         outline: 3px solid var(--link-outlineColor);
 		outline-offset: 0;
+    }
+}
+
+.navigation--links {
+    --card-padding: 7.5px;
+    --border-radius: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: var(--card-padding);
+    grid-column: -2 / -1;
+}
+
+.navigation--links-item {
+    line-height: 32px;
+    margin-inline-start: calc(var(--pad) * 0.5);
+    &:first-of-type {
+        margin: 0;
     }
 }
 
@@ -88,58 +100,25 @@
     padding: 10px;
     margin: 0;
     
-    @include material(
-        $depth: 2,
-        $radius: #{$border-radius},
-        $bg: light-dark(var(--brand), var(--brand))
-    );
-    
     box-sizing: border-box;
     align-content: center;
     justify-content: center;
     aspect-ratio: 1;
         
     svg {
-        width: 25px;
+        width: 20px;
         transform-origin: center;
         transition: 0.2s all;
     }
     
     svg path {
-        fill: var(--white);
-    }
-    
-    &:hover {
-        cursor: pointer;
-    
-        @include material(
-            $depth: 1,
-            $radius: #{$border-radius},
-            $bg: var(--brand-tone)
-        );
-    }
-    
-    &:focus {
-        background: var(--brand);
-    }
-    
-    &:hover:focus {
-	    outline-offset: form("outline-active-offset");
-        @include material(1, false, false, var(--button-hoverBackground));
-    }
-    
-    &:active {
-        @include material(
-            $depth: 1,
-            $inset: true,
-            $radius: #{$border-radius},
-            $bg: var(--brand-tone)
-        );
+        fill: var(--background);
+        color: var(--background);
     }
     
     &:hover svg path {
-        fill: var(--white);
-        color: var(--white);
+        fill: var(--background);
+        color: var(--background);
     }
     
     &:active svg path {
@@ -153,7 +132,7 @@
     }
 }
 
-// This is the menu page
+/* This is the menu page */
 .navigation--menu {
     display: grid;
     grid-template-rows: auto;

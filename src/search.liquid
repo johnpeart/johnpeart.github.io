@@ -7,8 +7,11 @@ eleventyExcludeFromCollections: true
 {% assign posts = collections.searchIndex %}
 {% for item in posts %}
   {
-    "title": "{{ item.data.title | escape }}",
-    "url": "{{ item.url }}"
+    "title": "{{ item.data.title | strip_html }}",
+    "date": "{{ item.date | date: "%-d %b %Y" }}",
+    "url": "{{ item.url }}",
+    "excerpt": "{{ item.data.excerpt }}",
+    "collection": "{{ item.data.collection }}"
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

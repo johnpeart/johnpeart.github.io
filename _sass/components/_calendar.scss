@@ -1,74 +1,70 @@
 .collection--weeknote h1 {
-	padding: $padding * 4 0 0;
+    padding-top: calc(var(--pad) * 4);
 }
 
 .calendar-sheet {
+    display: grid;
+    position: relative;
+    align-self: center;
+    aspect-ratio: 1;
 
-	display: grid;
-	position: relative;
+    width: clamp(250px, 20vw + 50px, 350px);
+    margin: 0 auto var(--pad);
 
-	align-self: center;
-	aspect-ratio: 1;
+    text-align: center;
+    line-height: 1;
+    padding: 0;
 
-	width: 250px;
-	@include tablet {
-		width: 300px;
-	}
-	@include desktop {
-		width: 350px;
-	}
-	padding: 0;
-	margin: 0 0 $padding 0;
+    background: var(--white);
+    border: 2px solid var(--gray-300);
+    border-radius: 30px;
 
-	text-align: center;
-	line-height: 1;
+    box-shadow:
+        0 0 var(--white),
+        0 0 var(--gray-300),
+        0 2px var(--gray-200),
+        0 4px var(--gray-400),
+        0 6px var(--gray-300),
+        0 8px var(--gray-400),
+        0 10px 3px rgba(0, 0, 0, 0.12),
+        0 10px 2px rgba(0, 0, 0, 0.24);
 
-	background: var(--gray-300);
-	border-radius: $border-radius * 4;
-	box-shadow:
-		0 0 var(--white),
-		0 0 var(--gray-300),
-		0 2px var(--gray-200),
-		0 4px var(--gray-400),
-		0 6px var(--gray-300),
-		0 8px var(--gray-400),
-		0 10px 3px rgba(0,0,0,0.12), 0 10px 2px rgba(0,0,0,0.24);
-	border: 2px solid var(--gray-300);
+    .calendar-month {
+        font-size: clamp(45px, 6vw, 75px);
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: var(--pad) !important;
+        background: var(--red-tone);
+        color: var(--white);
+        align-self: flex-start;
+        border-radius: calc(var(--border-radius) * 4 - 2px) calc(var(--border-radius) * 4 - 2px) 0 0;
+    }
 
-	.calendar-month {
-		@include typography($h1);
-		align-self: flex-start;
-		border-radius: $border-radius * 4 - 2px $border-radius * 4 - 2px 0 0;
-		font-weight: bold;
-		padding: $padding !important;
-		text-transform: uppercase;
-		background: var(--red-tone);
-		color: var(--white);
-	}
-	.calendar-date {
-		@include typography($calendar);
-		background: var(--white);
-		color: var(--black);
-		font-weight: bold;
-		align-self: center;
-		padding: 0 !important;
-		line-height: 1 !important;
-	}
-	.calendar-collection {
-    	@include typography($marker, "marker");
-		background: var(--white);
-		align-self: flex-end;
-		color: var(--red-tone);
-		border-radius: 0 0 $border-radius * 4 $border-radius * 4;
-		padding: $padding !important;
-		text-transform: uppercase;
+    .calendar-date {
+        font-size: clamp(120px, 10vw, 190px);
+        font-weight: bold;
+        padding: 0 !important;
+        background: var(--white);
+        color: var(--black);
+        align-self: center;
+        line-height: 1 !important;
+    }
+
+    .calendar-collection {
+        font-size: clamp(30px, 4vw, 36px);
+        font-family: "Permanent Marker", "Segoe Print", "Marker Felt", Chilanka, TSCu_Comic, casual, cursive;
+        text-transform: uppercase;
         text-align: center;
-	}
-
+        padding: var(--pad) !important;
+        background: var(--white);
+        color: var(--red-tone);
+        align-self: flex-end;
+        border-radius: 0 0 30px 30px;
+    }
 }
 
 .calendar-title {
-	display: block;
-	margin-top: $padding * 4;
-	text-align: center;
+    display: block;
+    margin-top: calc(var(--pad) * 4);
+    text-align: center;
 }

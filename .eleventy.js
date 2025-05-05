@@ -139,13 +139,11 @@ module.exports = function(eleventyConfig) {
         "archive",
         "blogpost", 
         "game",
-        "goal", 
         "list",
         "manual", 
         "music", 
         "note", 
         "now", 
-        "page",
         "photo", 
         "podcast", 
         "weeknote"
@@ -165,7 +163,6 @@ module.exports = function(eleventyConfig) {
         const cacheKey = `_${new Date().valueOf()}`;
         return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
     });
-
 
     return {
         markdownTemplateEngine: "liquid",

@@ -5,27 +5,10 @@ figure,
     box-sizing: content-box;
     width: 100%;
     max-width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: $padding * 2;
-    
-    @include tablet {
-        width: containers("tablet");
-        max-width: unset;
-        margin-right: -15px;
-        margin-left: -15px;
-        margin-bottom: $padding * 3;
-    }
-    @include desktop {
-        width: containers("desktop") + 140px;
-        max-width: unset;
-        margin-right: -85px;
-        margin-left: -85px;
-        margin-bottom: $padding * 3;
-    }
+    margin: 0 0 calc(var(--pad) * 2);
 
     &.featured-image {
-        margin-bottom: $padding * 3;
+        margin-bottom: calc(var(--pad) * 3);
     }
 
     img {
@@ -35,69 +18,86 @@ figure,
         width: 100%;
         max-width: 100%;
         height: auto;
+
         &.padding {
-            padding: $padding;
+            padding: var(--pad);
             box-sizing: border-box;
         }
     }
-	
-	img,
+    img,
 	picture source,
 	picture img {
-        @include material(1);
+        background: light-dark(var(--gray-100), var(--gray-900));
+        border-radius: calc(var(--border-radius) * 2);
+        box-shadow: var(--shadow--depth-1);
 	}
+
+    @media (min-width: 700px) {
+        --w: 720px;
+        --container: 610px;
+        
+        --m: calc(calc(var(--w) - var(--container)) / 2 * -1);
+        
+        width: var(--w);
+        max-width: unset;
+        margin: 0 var(--m) calc(var(--pad) * 3);
+    }
+
+    @media (min-width: 1100px) {
+        --w: 1100px;
+        --container: 870px;
+        
+        --m: calc(calc(var(--w) - var(--container)) / 2 * -1);
+        
+        width: var(--w);
+        margin: 0 var(--m) calc(var(--pad) * 3);
+    }
 
 }
 
-
 figcaption {
     display: relative;
-    margin: $padding;
+    max-width: 40ch;
+    margin: var(--pad) 0;
+    padding: 0 var(--pad);
+    line-height: 1.25;
     text-align: left;
-    @include typography($small, "default");
+    font-size: clamp(18px, 3vw, 24px);
     color: var(--secondary-color);
 }
 
 p > img {
     display: block;
     position: relative;
-    
-    @include material(1);
-
     width: 100%;
     max-width: 100%;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0;
     left: 0;
     right: 0;
     
-    @include tablet {
-        width: containers("tablet") + 60px;
-        max-width: unset;
-        margin: $padding -45px;
-    }
-    @include desktop {
-        margin-bottom: 30px;
-        width: containers("desktop") + 200px;
-        max-width: unset;
-        margin: $padding -115px;
-    }
-}
+    background: light-dark(var(--gray-100), var(--gray-900));
+    border-radius: calc(var(--border-radius) * 2);
+    box-shadow: var(--shadow--depth-1);
+    padding: var(--card-padding, var(--pad));
 
-.post-image {
-    border-radius: $border-radius * 2 $border-radius * 2 0 0;
+    @media (min-width: 700px) {
+        width: 720px;
+        max-width: unset;
+        margin: var(--pad) -45px;
+    }
+
+    @media (min-width: 1100px) {
+        width: 1100px;
+        margin: var(--pad) -115px 30px;
+    }
 }
 
 .background {
     z-index: 1;
     aspect-ratio: 2/1;
-	
-	&.cover {
-		object-fit: cover;
-	}
-	&.fill {
-		object-fit: fill;
-	}
+
+    &.cover { object-fit: cover; }
+    &.fill  { object-fit: fill; }
 }
 
 div.overlay {
@@ -110,37 +110,25 @@ div.overlay {
     left: 0;
     width: 100%;
     height: 100%;
-    @include material(2);
+    border-radius: calc(var(--border-radius) * 2);
+    box-shadow: var(--shadow--depth-2);
     background: none;
+
+    &.overlay--eurovision {
+        padding: var(--pad);
+        border-radius: calc(var(--border-radius) * 2) calc(var(--border-radius) * 2) 0 0;
+        box-shadow: none;
+    }
 }
 
-div.overlay.overlay--eurovision {
-	padding: $padding;
-    border-radius: $border-radius * 2 $border-radius * 2 0 0;
-    box-shadow: none;
+@each $value in 5, 10, 20, 50 {
+    .overlay-#{$value} {
+        -webkit-backdrop-filter: blur(#{$value}px);
+        backdrop-filter: blur(#{$value}px);
+    }
 }
 
-div.overlay-5 {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-}
-
-div.overlay-10 {
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-}
-
-div.overlay-20 {
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-}
-
-div.overlay-50 {
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
-}
-
-img.overlay { 
+img.overlay {
     all: unset;
     position: relative;
     display: block;
@@ -150,44 +138,42 @@ img.overlay {
 .hero {
     display: block;
     position: relative;
-
     width: 100%;
     max-width: 100%;
-    margin: 0 0 $padding * 2 0;
-    left: 0;
-    right: 0;
-    
+    margin: 0 0 calc(var(--pad) * 2);
     background: unset;
     box-shadow: unset;
     border-radius: unset;
 
-    @include tablet {
-        width: containers("tablet") + 100px;
+    @media (min-width: 700px) {
+        width: 740px;
         max-width: unset;
-        margin: $padding $padding - 80px $padding * 3;
+        margin: var(--pad) var(--pad) -80px calc(var(--pad) * 3);
     }
-    @include desktop {
-        margin-bottom: 30px;
-        width: containers("desktop") + 200px;
-        max-width: unset;
-        margin: $padding $padding - 130px $padding * 3;
+
+    @media (min-width: 1100px) {
+        width: 1100px;
+        margin: var(--pad) var(--pad) -130px calc(var(--pad) * 3);
     }
 }
-
 
 img.app-icon {
     grid-area: icon;
     margin: 0;
     max-height: 57px;
     max-width: 57px;
-    
     mask-image: url(/assets/images/site/ios-icon-mask.svg);
     mask-size: cover;
-    
+
     &.large {
-        @include tablet-up {
+        @media (min-width: 700px) {
             max-height: 104px;
             max-width: 104px;
         }
     }
+}
+
+img.image--16-9 {
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }

@@ -1,76 +1,71 @@
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-    "helpers/_darkmode",
-
+/* Import partials from `sass_dir` (defaults to `_sass`) */
+@import 
     "variables/_colours",
-    "variables/_shadows",
+    "variables/_sizing",
     "variables/_containers",
     "variables/_typography",
-    "variables/_elements",
+    "variables/_icons";
 
+@import 
+    "overrides/_padding",
+    "overrides/_margin";
+
+@import 
     "core/_reset",
-    "core/_fonts",
+    "core/_fonts";
 
-    "helpers/_media-queries",
-    "helpers/_sticky",
-    "helpers/_forms",
-    "helpers/_shadows",
+@import 
     "helpers/_clearfix",
-    "helpers/_hidden",
-    "helpers/_typography",
-    "helpers/_material",
+    "helpers/_hidden";
 
-    "variables/_icons",
-
+@import 
     "core/_containers",
-	"core/_grid",
-	"core/_global",
-    "core/_transitions",
+    "core/_grid",
+    "core/_global",
+    "core/_transitions";
 
-    "styles/_footnotes",
-    "styles/_headings",
-    "styles/_links",
-    "styles/_lists",
-    "styles/_paragraph",
-    "styles/_code",
-    "styles/_characters",
+@import 
+    "typography/_paragraph",
+    "typography/_headings",
+    "typography/_lists",
+    "typography/_links",
+    "typography/_footnotes",
+    "typography/_code";
 
+        
+@import 
     "components/_author",
     "components/_blockquote",
     "components/_buttons",
     "components/_calendar",
     "components/_card",
-    "components/_chiplet",
     "components/_definitionlist",
     "components/_eurovision",
     "components/_footer",
     "components/_forms",
-	"components/_gallery",
-	"components/_game",
+    "components/_gallery",
     "components/_horiztonalrule",
+    "components/_icons",
     "components/_images",
     "components/_input",
     "components/_kanban",
     "components/_keyvalue",
     "components/_radios",
-    "components/_select",
     "components/_speech-bubbles",
     "components/_list",
-	"components/_music",    
     "components/_navigation",
+    "components/_objects",
     "components/_note",
     "components/_photo",
     "components/_progress",
+    "components/_skiplink",
     "components/_table",
-    "components/_textarea",
     "components/_webmentions",
+    "components/_webmention-form";
 
+@import 
     "layouts/_home",
     "layouts/_loop",
     "layouts/_posts",
     "layouts/_page",
-    "layouts/_about",
-    "layouts/_podcasts",
-    "layouts/_goals",
-    "layouts/_manuals"
-;
+    "layouts/_podcasts";

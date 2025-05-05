@@ -10,14 +10,14 @@ progress[value] {
     max-width: 600px;
 
     padding: 0;
-    margin: $padding 0;
+    margin: var(--pad) 0;
     
     height: 40px;
 
     &::-webkit-progress-bar {
         background: var(--secondary-background);
         border: none;
-        border-radius: $border-radius;
+        border-radius: var(--border-radius);
         padding: 5px;
         box-shadow: 
             .5px .5px 1px rgba(255,255,255,0.5),
@@ -31,7 +31,7 @@ progress[value] {
 
     &::-webkit-progress-value {
         background: var(--progress-barBackground);
-        border-radius: $border-radius * 0.5;
+        border-radius: calc(var(--border-radius) * 0.5);
         background-size: 600px;
         box-shadow: 
             inset .5px .5px 1px #fff,
@@ -55,14 +55,14 @@ progress[value] {
     display: grid;
     max-width: 600px;
     grid-template-columns: 1fr 1fr;
-    grid-gap: $padding * 0.5;
+    grid-gap: calc(var(--pad) * 0.5);
 }
 
 .totaliser {
     max-width: 600px;
     border-top: none;
-    margin-top: $padding * 2;
-    padding: $padding;
+    margin-top: calc(var(--pad) * 2);
+    padding: var(--pad);
     
     progress[value]::-webkit-progress-bar {
         background: var(--background);

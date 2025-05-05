@@ -1,15 +1,3 @@
-.from-me aside.author {
-    text-align: right;
-}
-
-aside.author {
-	@include typography($small, "default");
-	color: var(--secondary-color);
-	line-height: 1.2;
-	text-align: left;
-	padding: 0 $padding $padding * 0.5 $padding;
-}
-
 #author-card {
     grid-area: author;
 
@@ -18,13 +6,13 @@ aside.author {
     height: 100%;
     text-align: center;
 	
-	grid-gap: $padding;
+	grid-gap: var(--pad);
 
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto;
         grid-template-areas: "card" "icons";
 
-	@include tablet-up() {
+	@media (min-width: 700px) {
 		grid-template-columns: 1fr auto;
 		grid-template-rows: 1fr;
         grid-template-areas: "card icons";
@@ -34,7 +22,7 @@ aside.author {
 #author--bio {
 	display: grid;
 	
-	padding-block: $padding * 4;
+	padding: calc(var(--pad) * 4) 0;
     
 	grid-gap: 0;
 	grid-template-rows: auto 1fr;
@@ -66,97 +54,10 @@ aside.author {
 .author--icons {
 	display: grid;
 	
-    padding-block: $padding * 4.5 $padding * 4;
+    padding-top: calc(var(--pad) * 4.5);
+    padding-bottom: calc(var(--pad) * 4);
     
     grid-area: icons;
-	grid-gap: $padding;
+	grid-gap: calc(var(--pad) * 2/3);
 	grid-template-columns: 1fr;
-}
-
-.author-icon a {
-	display: grid;
-	align-items: center;
-	justify-items: flex-start;
-    grid-gap: $padding;
-    
-    grid-template-columns: 20px 1fr;
-    
-    p {
-        line-height: 1;
-    }
-    
-    &:link p,
-    &:visited p {
-        color: var(--secondary-color);
-    }
-    &:hover p {
-        color: var(--link-hoverColor);
-    }
-    &:focus p{
-        color: var(--link-focusColor);
-    }
-}
-
-img.memoji {
-    display: block;
-    position: relative;
-
-    box-sizing: border-box;
-
-    margin: 0;
-    padding: 0;
-
-	width: 100px;
-	height: 100px;
-	aspect-ratio: 1;
-    
-	filter: brightness(1.2) contrast(1.5) grayscale(1);
-	mix-blend-mode: multiply;
-			
-}
-
-a.footer--site-link {
-
-	display: grid;
-	position: relative;
-	margin: 0;
-
-	svg.footer--icons--social {
-		display: block;
-		position: relative;
-
-		max-height: 20px;
-		max-width: 20px;
-		height: 100%;
-		width: 100%;
-
-		margin: 0;
-
-		path {
-			fill: var(--color);
-		}
-	}
-
-
-	&:link svg path,
-	&:visited svg path {
-		fill: var(--icon-background);
-	}
-	&:hover svg path {
-		background: var(--background);
-		fill: var(--icon-hoverBackground);
-		text-decoration: none;
-	}
-	&:focus {
-		outline: 0;
-	}
-	&:focus svg path {
-		background: var(--link-outlineColor);
-		fill: var(--white);
-		outline: none;
-	}
-	&:active svg path {
-		text-decoration: none;
-	}
-
 }

@@ -1,6 +1,6 @@
 <section class="speech-bubbles speech-bubbles--no-photo speech-bubbles--with-webmentions speech-bubbles--from-them u-in-reply-to h-cite">
 	
-    <aside class="speech-bubbles--author secondary-text secondary-text--gray">
+    <aside class="speech-bubbles--author secondary-text small-text">
 	    {% if reply_to.post.date -%}On <time class="dt-published" datetime="{{ reply_to.post.date | date: '%FT%T%:z' }}">{{ reply_to.post.date | date: '%d %B %Y' }}</time>, {% endif -%}
 	    <a href="{{ reply_to.author.url }}" class="h-card p-author link-secondary">{{ reply_to.author.name }}</a>
     
@@ -15,16 +15,24 @@
     </aside>	
     
     
-    <section class="speech-bubbles--content speech-bubble speech-bubble--no-padding quote">
+    <section class="speech-bubbles--content quote">
         {%- if reply_to.post.image -%}
-		<img loading="lazy" class="post-image" src="{{ reply_to.post.image }}">
+		<img loading="lazy" class="speech-bubble" src="{{ reply_to.post.image }}">
 		{%- endif -%}
-        <blockquote cite="{{ reply_to.post.url }}"  class="h-cite">
-	        {% if reply_to.post.title %}<h1 class="post-title"><a href="{{ reply_to.post.url }}" class="u-url no-underline">{{ reply_to.post.title }}</a></h1>{% endif %}
+        <blockquote cite="{{ reply_to.post.url }}" class="h-cite">
+            {% if reply_to.post.title %}<h1 class="post-title speech-bubble"><a href="{{ reply_to.post.url }}" class="u-url no-underline">{{ reply_to.post.title }}</a></h1>{% endif %}
 			{% if reply_to.post.content %}
-                {{ reply_to.post.content | markdownify }}
+                {{ reply_to.post.content | markdownify 
+                    | replace: '<p>', '<p class="speech-bubble">'
+                    | replace: '<ul>', '<ul class="speech-bubble">'
+                    | replace: '<ol>', '<ol class="speech-bubble">'
+                }}
 			{% elsif reply_to.post.description %}
-				{{ reply_to.post.description | markdownify  }}
+				{{ reply_to.post.description | markdownify 
+                    | replace: '<p>', '<p class="speech-bubble">'
+                    | replace: '<ul>', '<ul class="speech-bubble">'
+                    | replace: '<ol>', '<ol class="speech-bubble">'
+                }}
 			{% endif %}
 		</blockquote>
     </section>

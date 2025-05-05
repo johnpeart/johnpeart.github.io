@@ -104,7 +104,6 @@
 	<link rel="me" href="{{ site.mastodon.url }}" type="text/html">
     <meta name="fediverse:creator" content="{{ site.mastodon.handle }}">
 	<link rel="me" href="{{ site.bluesky.url }}" type="text/html">
-	<link href="mailto:{{ site.webmention-io.email }}" rel="me">
 	<link href="{{ site.gravatar.url }}" rel="me">
     
 	<!-- Web mentions -->
@@ -117,16 +116,23 @@
 	{%- endif %}
 
     <!-- Schema.org settings -->
-    <meta itemprop="name"                content="{{ title }}">
-    <meta itemprop="description"         content="{{ description }}">
-    <meta itemprop="image"               content="{{ image }}">
+    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="description" content="{{ description }}">
+    <meta itemprop="image" content="{{ image }}">
+    
     <!-- Facebook Open Graph settings -->
-    <meta property="og:url"              content="{{ pageUrl }}">
-    <meta property="og:type"             content="{{ type }}">
-    <meta property="og:site_name"        content="{{ author }}">
-    <meta property="og:locale"           content="en_GB">
-    <meta property="article:author"      content="{{ author }}">
-    <meta property="article:publisher"   content="{{ author }}">
+    <meta property="og:url" content="{{ pageUrl }}">
+    <meta property="og:type" content="{{ type }}">
+	<meta property="og:title" content="{{ title }}">
+	<meta property="og:description" content="{{ description }}">
+	<meta property="og:image" content="{{ image }}">
+    <meta property="og:site_name" content="{{ author }}">
+    <meta property="og:locale" content="en_GB">
+    <meta property="article:author" content="{{ author }}">
+    <meta property="article:publisher" content="{{ author }}">
+
+    <!-- Build info -->
+    <meta name="generator" content="{{ eleventy.generator }}">
 
     <!-- Standard favicons -->
     <link rel="icon" href="{{ siteUrl }}/assets/images/site/favicon.svg" type="image/svg+xml">
@@ -147,6 +153,6 @@
 	<link rel="stylesheet" href="{{ siteUrl | append: '/assets/styles/styles.css' }}">
 	
 	<!-- Scripts -->
-	<script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/scripts.js' }}"></script>
+	<script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/scroll-timeline.js' }}"></script>
 
 </head>

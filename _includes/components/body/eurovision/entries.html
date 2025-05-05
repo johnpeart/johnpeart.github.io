@@ -1,21 +1,52 @@
 <div id="esc-entries" data-show="all">
 {% assign entries = eurovision-entries | sort: "country" %}
 {% for entry in entries %}
-    <article id="{{ entry.country | slugify }}" class="h-entry eurovision card" data-semifinal="{{ entry.semifinal }}" data-final="{{ entry.final }}">
+    <article id="{{ entry.country | slugify }}" class="h-entry eurovision margin-top margin-bottom" style="--mult: 4;" data-semifinal="{{ entry.semifinal }}" data-final="{{ entry.final }}">
+    
+        <section class="speech-bubbles speech-bubbles--from-them speech-bubbles--no-photo">
         
-        <header class="esc-header">
-            {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
-        
-            {% if entry.youtube -%}<a class="no-underline" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ entry.song }} by {{ entry.artist }} on YouTube">{%- endif %}
-                <h3>{{ entry.country }}</h3>
-                <p class="small"><strong>{{ entry.song }}</strong> by <strong>{{ entry.artist }}</strong></p>
-            {% if entry.youtube -%}</a>{%- endif %}
-        </header>
-        
-        <section class="esc-body e-content">                    
-            {{ entry.commentary | markdownify }}
-        </section>
+            <section class="speech-bubbles--content quote">
+                
+                {% if entry.youtube -%}<a class="speech-bubble--link--eurovision" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ entry.song }} by {{ entry.artist }} on YouTube">{%- endif %}
+                    {% if entry.youtube -%}<img class="speech-bubble image--16-9" src="https://img.youtube.com/vi/{{ entry.youtube }}/sddefault.jpg">{% endif %}
+                
+                    <div class="speech-bubble speech-bubble--eurovision">
+                            {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
+                            <h3>{{ entry.country }}</h3>
+                            <p>“{{ entry.song }}” by {{ entry.artist }}</p>
+                    </div>
+                {% if entry.youtube -%}</a>{%- endif %}
+                    
+            </section>
             
+            
+        </section>
+        
+        <section class="speech-bubbles speech-bubbles--with-webmentions speech-bubbles--from-me">		
+        
+            <aside class="speech-bubbles--author secondary-text small-text">
+                <span class="h-card p-author">
+                    <img class="u-photo hidden" alt="A Memoji avatar of John Peart" src="https://www.johnpe.art/assets/images/me/memoji.png">
+                    <span class="p-name author--name"><a rel="author" class="link-secondary p-author u-url u-uid" href="https://www.johnpe.art">John Peart</a></span>
+                </span>
+                said about {{ entry.country }}’s entry
+            </aside>
+            
+            <section class="speech-bubbles--content e-content">
+                {{ entry.commentary | markdownify | replace: '<p>', '<p class="speech-bubble">' }}    
+            </section>
+            
+            <section class="speech-bubbles--speaker">
+                <img class="u-photo" alt="John Peart's avatar" src="/assets/images/me/avatar.png">
+            </section>
+            
+        </section>
+                
     </article>
+    
 {% endfor %}
 </div>
+
+
+
+

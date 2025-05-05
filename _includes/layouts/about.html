@@ -6,18 +6,42 @@ layout: "default"
     
     <h1 class="page-title p-name">{{ title }}</h1>
         
-    <section class="speech-bubbles speech-bubbles--from-me">
+    <section class="speech-bubbles speech-bubbles--from-me margin-bottom" style="--mult: 4;">
         <section class="speech-bubbles--content p-content">
             {{ content | replace: '<p>', '<p class="speech-bubble">' }}
         </section>
         <section class="speech-bubbles--speaker">
-            <img class="u-photo padding large" alt="A Memoji avatar of John Peart" loading="lazy" src="/assets/images/me/memoji.png">
+            <img class="u-photo large" alt="A Memoji avatar of John Peart" loading="lazy" src="/assets/images/me/avatar.png">
         </section>
     </section>
     
-    {% assign collection = collections.about | group_by: "data.type" | sort: "name" %}
-    
     <section>
+        
+        {% for item in list %}
+            <header>
+                <h2 id="{{ item.name | slugify }}" class="key-value--heading">{{ item.name }}</h2>
+                {% if item.description %}{{ item.description | markdownify }}{% endif %}
+            </header>
+            <ul class="key-value">
+                {% for item in item.items %}
+                
+                {% assign start-date = item.dates.start | date: "%B %Y" %}
+                {% assign end-date = item.dates.end | date: "%B %Y" | default: "present" %}
+                
+                {% assign key-value--key = item.title %}
+                {% assign key-value--value = start-date | append: " to " | append: end-date %}
+                {% assign key-value--description = item.organisation %}
+                
+                <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description">
+                    <h3 id="{{ item.title | slugify }}" class="key-value--key">{{ key-value--key }}</h3>
+                    <div class="key-value--description">
+                        {{ key-value--description | markdownify }}
+                    </div>
+                    {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text">' }}
+                </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
         
         {% for type in collection %}
             <header>

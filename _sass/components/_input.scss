@@ -3,59 +3,45 @@ input[type="url"],
 input[type="password"],
 input[type="email"],
 input[type="search"] {
+    --placeholder-color: var(--secondary-color);
+    --placeholder-hover: var(--brand);
+    --placeholder-focus: light-dark(var(--gray-300), var(--gray-800));
 
-    // Disable inner shadow and remove rounded corners
-    -webkit-appearance: none;
-    appearance: none;
-    
-    @extend p;
     box-sizing: border-box;
     width: 100%;
-
-    margin-bottom: $padding * 2;
-    padding: $padding !important;
+    line-height: 1;
+    padding: var(--pad);
+    margin-bottom: calc(var(--pad) * 2);
 
     background: var(--background);
     color: var(--color);
-    
     border: none;
-    
-    @include material(1, true, form("border-radius"), var(--background));
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow--depth-1--inset);
+
+    &::placeholder {
+        color: var(--placeholder-color);
+    }
 
     &:hover {
-        outline: none;
-        transition: all 0.3s;
-        &::placeholder {color: var(--placeholder-text-hoverColor);}
+        transition: color 0.3s;
+        &::placeholder {
+            color: var(--placeholder-hover);
+        }
     }
+
     &:focus {
+        caret-color: var(--brand);
         outline: none;
-        background: var(--background);
-        color: var(--color);
-        caret-color: var(--cyan);
-        &::placeholder {color: var(--placeholder-text-color) !important;}
+        &::placeholder {
+            color: var(--placeholder-focus);
+        }
     }
 
     &:invalid {
-        outline: none;
         box-shadow: inset 0 0 1px 1px var(--orange);
         background: var(--absolute);
-        transition: all 0.3s;
-        color: var(--color);
         caret-color: var(--red);
+        transition: box-shadow 0.3s;
     }
-
-}
-
-.text-input {
-    display: block;
-    position: relative;
-
-    min-height: form("input-size");
-
-    @extend p;
-    padding: 0;
-
-    margin-bottom: 30px;
-
-    clear: left;
 }

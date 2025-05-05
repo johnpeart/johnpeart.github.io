@@ -1,0 +1,140 @@
+a {
+    cursor: pointer;
+    font-weight: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: auto;
+    
+    &:link,
+	&:visited {
+        color: var(--color);
+		text-decoration: underline;
+    }
+    &:hover {
+        color: var(--brand);
+        text-decoration: underline;
+    }
+    &:focus {
+        color: var(--background);
+        background: var(--brand);
+        outline: 3px solid var(--brand);
+        outline-offset: 0px;
+        text-decoration: none;
+    }
+    &:focus:hover {
+        outline-offset: 3px;
+    }
+    &:active {
+        text-decoration: underline !important;
+        outline: 3px solid var(--brand);
+        outline-offset: 3px;
+        background: var(--brand);
+        color: var(--background);
+        * { 
+            color: var(--background) !important; 
+        }
+    }
+
+    &.link-secondary,
+    &.post-published-date {
+        &:link,
+        &:visited {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        &:hover {
+            color: var(--link-hoverColor);
+            text-decoration: underline;
+        }
+        &:hover:focus,
+        &:focus {
+            text-decoration: underline;
+            outline: 3px solid var(--link-outlineColor);
+            color: var(--link-focusColor);
+            background: var(--link-focusBackground);
+        }
+        &:hover:focus {
+            outline-offset: 3px;
+        }
+    }
+    
+    &.no-underline {
+        &:link,
+        &:visited {
+            text-decoration: none !important;
+        }
+        &:hover {
+            text-decoration: underline !important;
+        }
+        &:focus {
+            color: var(--link-focusColor);
+            background: var(--link-focusBackground);
+            outline: 2px solid var(--link-outlineColor);
+        }
+        &:active {
+            text-decoration: none !important;
+        }
+    }
+	
+    &.dark-link {
+        &:link,
+        &:visited,
+        &:hover {
+            color: var(--black);
+        }
+    }
+	
+	&.block-link:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+    
+    &.gallery-link {
+        display: inline-block;
+        
+        &:hover h1 {
+             text-decoration: underline !important;
+             text-decoration-skip-ink: none;
+        }
+    }
+    
+    &.speech-bubble--link--eurovision {
+        display: inline-block;
+        
+        &:link,
+        &:visited {
+            
+        }
+        
+        &:hover,
+        &:focus,
+        &:active {
+            background: none;
+            outline: none;
+        }
+        
+        &:hover * {
+            text-decoration: underline;
+        }
+        
+        &:focus img {
+            outline: 3px solid var(--brand);
+            outline-offset: 3px;
+        }
+        
+        &:focus *,
+        &:active * {
+            --speechBubble-background: var(--brand);
+            color: var(--background) !important;
+            text-decoration: underline;
+        }
+        
+        &:active * {
+            text-decoration: none;
+        }
+    }
+}

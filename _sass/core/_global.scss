@@ -2,9 +2,20 @@ html {
     box-sizing: border-box;
     -ms-overflow-style: scrollbar;
     min-height: 100vh;
+    
+    /* GLOBAL FONT SETTINGS */
+    font-size: clamp(1.375rem, 3vw, 1.875rem);
+    line-height: 1.25;
+    font-style: normal;
+    font-weight: normal;
+    
+    font-family: "JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", Roboto, "Segoe UI", Arial, sans-serif;-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 
     font-kerning:  auto;
     letter-spacing: normal;
+
 }
 
 html,
@@ -12,8 +23,3 @@ body {
     background: light-dark(var(--white), var(--black));
     color: var(--color);
 }
-
-main {
-    position: relative;
-}
-

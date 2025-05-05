@@ -1,42 +1,12 @@
-body#home,
 body#loop {
 	
 	section#page-content > section {
 		display: grid;
 		grid-template-columns: 1fr;
-		@include tablet-up() {
-			grid-gap: $padding;
+		@media (min-width: 700px) {
+			grid-gap: var(--pad);
 			grid-template-columns: 1fr 3fr;
 		}
 	}
-
-    ul.loop {
-        width: 100%;
-		
-        padding-left: 0;
-        padding-bottom: 0;
-        padding-top: $padding;
-
-		margin-bottom: $padding * 2;
-
-        @include tablet-up {
-            padding-top: $padding * 3;
-        }
-
-        li:before {
-            position: absolute;
-            content: none;
-
-            left: 0;
-        }
-
-        p.loop-item-date {
-            padding-bottom: 0;
-            time {
-                font-weight: bold;
-            }
-        }
-
-    }
 
 }

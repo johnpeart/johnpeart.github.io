@@ -1,0 +1,20 @@
+/* PADDING OVERRIDES */
+.padding {
+    padding: calc(var(--pad) * var(--mult)) !important;
+}
+
+.padding-top {
+    padding-top: calc(var(--pad) * var(--mult)) !important;
+}
+
+.padding-bottom {
+    padding-bottom: calc(var(--pad) * var(--mult)) !important;
+}
+
+.padding-left {
+    padding-left: calc(var(--pad) * var(--mult)) !important;
+}
+
+.padding-right {
+    padding-right: calc(var(--pad) * var(--mult)) !important;
+}

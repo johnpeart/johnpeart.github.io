@@ -3,7 +3,6 @@ title: "I listened to every Eurovision 2015 entry, so you don’t have to"
 excerpt: "Save yourself the 120 minutes it takes to listen to all 40 of this year’s Eurovision entries; I've done the hard work, so you don’t have to."
 layout: blogpost
 image: /posts/eurovision.png
-permalink: /2015/04/20/eurovision-first-listens
 categories:
   - eurovision
 

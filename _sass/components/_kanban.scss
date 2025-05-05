@@ -1,7 +1,7 @@
 .kanban {
     display: grid;
     
-    @include tablet-up() {
+    @media (min-width: 700px) {
         grid-auto-flow: column;
         
         &.col-3 {
@@ -16,7 +16,7 @@
         padding: 0;
         &:nth-of-type(n+2) {
             border-top: 1px solid var(--secondary-borderColor);
-            @include tablet-up() {
+            @media (min-width: 700px) {
                 border-top: none;
                 border-left: 1px solid var(--secondary-borderColor);
             }
@@ -24,16 +24,17 @@
     }
     
     h3 {
-    	@include typography($p, "marker");        
-        padding: $padding $padding * 0.5 !important;
+        font-size: clamp(22px, 3vw, 30px);
+        font-family: "Permanent Marker", "Segoe Print", "Marker Felt", Chilanka, TSCu_Comic, casual, cursive;
+        padding: var(--pad) calc(var(--pad) * 0.5) !important;
         text-align: center;
         border-bottom: 1px solid var(--secondary-borderColor);
     }
     
     li {
         list-style: none;
-    	@include typography($small);        
-        margin: $padding;
+    	font-size: clamp(18px, 3vw, 24px);     
+        margin: var(--pad);
         &:before { display: none; }
     }
 }

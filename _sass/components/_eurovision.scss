@@ -33,7 +33,7 @@ div#esc-entries {
 }
 
 article.eurovision {
-    margin-block-end: $padding * 2;
+    margin-bottom: calc(var(--pad) * 2);
 }
 
 header.esc-header {
@@ -41,12 +41,11 @@ header.esc-header {
 	display: grid;
 	grid-template-columns: auto 1fr;
     grid-template-rows: auto auto;
-	grid-gap: 0 $padding * 2;
+	grid-gap: 0 calc(var(--pad) * 2);
 	align-items: center;
-    padding: $padding;
-    margin: 2px;
+    margin: 0 0 var(--pad);
     
-    border-radius: $border-radius * 2;
+    border-radius: calc(var(--border-radius) * 2);
     
     a {
         display: grid;
@@ -95,17 +94,10 @@ header.esc-header {
 		width: 100%;
 		padding: 0;
 		text-wrap: unset;
-		
-		@include supports-sticky() {
-			top: 0px;
-			z-index: 100;
-		}
 	}
 }
 
-.esc-body {
-    padding: $padding;
-    
+.esc-body {    
     p:last-child {
         padding: 0;
     }

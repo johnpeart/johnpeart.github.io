@@ -5,7 +5,7 @@ body[id$='photo'] {
         position: absolute;
         content: "\2014";
 
-        left: $padding;
+        left: var(--pad);
     }
 
     header.post-title.collection--note,
@@ -14,7 +14,7 @@ body[id$='photo'] {
     header.post-title.collection--music,
     header.post-title.collection--weeknote,
     header.post-title.collection--game {
-        margin: $padding * 2 auto $padding * 4;
+        margin: calc(var(--pad) * 2) auto calc(var(--pad) * 4);
         text-align: center;
     }
 
@@ -22,13 +22,13 @@ body[id$='photo'] {
 
 section.from-me + footer.interactions,
 section.from-them + footer.interactions {
-    margin-bottom: $padding * 4;
+    margin-bottom: calc(var(--pad) * 4);
 }
 
 article#post-content.share,
 article#post-content.reply {
-    margin: $padding * 4 auto 0;
-    @include tablet-up {
-        margin: $padding * 6 auto 0;
+    margin: calc(var(--pad) * 4) auto 0;
+    @media (min-width: 700px) {
+        margin: calc(var(--pad) * 6) auto 0;
     }
 }

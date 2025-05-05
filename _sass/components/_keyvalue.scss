@@ -1,16 +1,16 @@
 .key-value--heading {
-    @include typography($h2, "default");
+    font-size: clamp(27px, 6.4vw, 40px);
     text-align: left;
-    padding: $padding * 4 0 $padding !important;
+    padding: calc(var(--pad) * 4) 0 var(--pad) !important;
     
     &.key-value--heading--large {
-        @include typography($h1, "default");
-        padding: $padding * 8 0 0 !important;
+        font-size: clamp(45px, 6vw, 75px);
+        padding: calc(var(--pad) * 8) 0 0 !important;
     }
     
     &.key-value--heading--small {
-        @include typography($h3, "default");
-        padding: 0 0 $padding !important;
+        font-size: clamp(24px, 5.6vw, 35px);
+        padding: 0 0 var(--pad) !important;
     }
 }
 
@@ -22,10 +22,17 @@
 .key-value--item {
     display: grid;    
     
-    padding: $padding 0;
+    padding: var(--pad) 0;
 	border-top: 1px solid;
 	border-color: var(--secondary-borderColor);
+    
+    &.key-value--no-border {
+        border: none;
+        padding: 0 0 calc(var(--pad) * 2);
+    }
 
+    gap: calc(var(--pad) * 0.5) var(--pad);
+    
     &.key-value--with-description {
         grid-template-columns: 1fr !important;
         grid-template-rows: auto auto;
@@ -36,9 +43,19 @@
         grid-template-rows: auto;
     }
     
+    &.key-value--with-value.key-value--with-value--large {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto;
+    }
+    
     &.key-value--with-description.key-value--with-value {
         grid-template-columns: 1fr auto !important;
         grid-template-rows: auto auto;
+    }
+    
+    &.key-value--with-description.key-value--with-value.key-value--with-value--large {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto auto;
     }
     
     &.key-value--goal {
@@ -71,7 +88,6 @@ a.key-value--link {
         }
         
         .key-value--value {
-            @include typography($small, "default");
             color: var(--secondary-color);
         }
     }
@@ -79,14 +95,12 @@ a.key-value--link {
     &:hover {
         text-decoration: none !important;
         .key-value--key {
-            text-decoration: var(--text-decoration, underline);
+            text-decoration: underline;
         }
     }
     
     &:focus {
-        .key-value--key {
-            color: var(--link-focusColor);
-        }
+        .key-value--key,
         .key-value--value {
             color: var(--link-focusColor);
         }
@@ -103,12 +117,10 @@ a.key-value--link {
 }
 
 .key-value--key {
-    @include typography($p, "default");
-    text-align: left;
+    font-weight: 900;
 }
 
 .key-value--value {
-    @include typography($small, "default");
     color: var(--secondary-color);
     max-width: 60ch;
 }
@@ -116,9 +128,11 @@ a.key-value--link {
 .key-value--key,
 .key-value--value {
     padding: 0;
+    text-align: left;
 }
 
 .key-value--description {
+    grid-column: 1 / -1;
     &:last-child,
     *:last-child {
         padding: 0;
@@ -126,6 +140,5 @@ a.key-value--link {
 }
 
 .key-value--with-description.key-value--with-value .key-value--description {
-    @include typography($small, "default");
     color: var(--secondary-color);
 }

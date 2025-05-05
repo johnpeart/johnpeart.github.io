@@ -1,38 +1,35 @@
-footer#site-footer img.memoji {
-    display: none;
-}
-
 aside#related {
-    margin-block-end: $padding;    
+    margin-block-end: var(--pad);    
 }
 
 footer#webmentions-footer {
-    padding-block-end: $padding;
+    padding-bottom: var(--pad);
 }
 
 footer#post-footer {
-	padding-block-end: $padding * 4;
+	padding-bottom: calc(var(--pad) * 4);
 }
 
 dl.meta-data {
     grid-area: post-meta;
 
     display: grid;
-    grid-gap: $padding;
+    height: 100%;
+    
+    grid-gap: var(--pad);
     grid-template-rows: auto auto;
-	@include tablet-up() {
+	@media (min-width: 700px) {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto;
 	}
-    height: 100%;
 
     aside {
-        padding: $padding;
+        padding: var(--pad);
     }
 
     p, dl, dt, dd {
-        @include typography($metadata);
-            line-height: 1.2;
+        font-size: clamp(18px, 3vw, 24px);
+        line-height: 1.2;
     }
     dt, dd {
         display: block;

@@ -1,0 +1,117 @@
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: pretty;
+}
+
+h1,
+.h1 {
+    font-size: clamp(45px, 6vw, 75px);
+    padding-bottom: clamp(45px, 6vw, 75px);
+    line-height: 1;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+
+    &.display {
+        font-size: clamp(66px, 10vw, 165px);
+        padding-top: clamp(90px, 14vw, 240px);
+        padding-bottom: 15px;
+    }
+
+    &.page-title {
+        font-size: clamp(66px, 9vw + 1rem, 120px);
+        padding-top: clamp(90px, 12vw, 150px);
+        padding-bottom: clamp(15px, 4vw, 45px);
+    }
+    
+    &.small-title {
+        font-size: clamp(26px, 6.8vw, 43px);
+        margin-top: calc(var(--pad) * 6) !important;
+        padding: 0 0 var(--pad);
+        text-align: center;
+    }
+}
+
+h2,
+.h2 {
+    font-size: clamp(27px, 6.4vw, 40px);
+    padding-top: clamp(54px, 7vw, 80px);
+    padding-bottom: clamp(27px, 4vw, 40px);
+    line-height: 1.15;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    
+    &.loop-header {
+        position: sticky;
+        display: block;
+        top: 0;
+        width: calc(100% + (var(--pad) * 2));
+        
+        font-size: clamp(30px, 8vw, 50px);
+        padding: 90px 15px 15px;
+        margin: 0 0 0 calc(-1 * var(--pad));
+        line-height: 0.8;
+        text-align: left;
+        
+        backdrop-filter: blur(20px);
+    
+        @media (min-width: 700px) {
+            top: 50px;
+            width: 100%;
+            padding: 0 0 68px;
+            margin: 0;
+            align-self: start;
+            backdrop-filter: unset;
+        }
+    }
+}
+
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+    font-size: clamp(24px, 5.6vw, 35px);
+    padding-top: clamp(22px, 4.8vw, 30px);
+    padding-bottom: clamp(15px, 3vw, 20px);
+    line-height: 1.25;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+
+h3, .h3,
+h5, .h5 {
+    font-style: normal;
+}
+
+h4, .h4 {
+    font-style: italic;
+}
+
+h2 + h3 {
+    padding-top: 0 !important;
+}
+
+h3 + h4 {
+    margin: 0;
+    padding-top: 0 !important;
+}
+
+header aside.published-date {
+    display: inline-block;
+    padding-top: clamp(90px, 10vw + 10px, 150px);
+    padding-bottom: clamp(15px, 3vw, 45px);
+}
+
+time.published-datetime,
+p.secondary-title {
+    font-size: clamp(26px, 6.4vw, 42px);
+    display: block;
+    line-height: 1;
+    color: var(--secondary-color);
+    font-weight: bold;
+}

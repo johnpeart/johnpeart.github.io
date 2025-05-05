@@ -12,12 +12,12 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
     
-    @include tablet {
+    @media (min-width: 700px) {
         max-width: 500px;
         padding:  32px;
         background: #fff linear-gradient(rgba(0,0,0,0.1) 1px, transparent 0) 0 32px / 100% 32px;
     }
-    @include desktop {
+    @media (min-width: 1100px)  {
         max-width: 650px;
         padding:  44px;
         background: #fff linear-gradient(rgba(0,0,0,0.1) 1px, transparent 0) 0 44px / 100% 44px;
@@ -27,7 +27,6 @@
 		width: 100%;
 	}
     .list-title {
-        @include typography($marker, "marker");
         color: var(--strikethrough-color);
         line-height: 1;
     }
@@ -35,7 +34,6 @@
         padding: 0;
     }
     .list-item {
-        @include typography($marker, "marker");
         text-align: left !important;
         color: var(--markerpen-color);
         line-height: 1;
@@ -45,13 +43,19 @@
         }
     }
     
+    .list-title,
+    .list-item {
+        font-size: clamp(26px, 5.2vw, 44px);
+        font-family: "Permanent Marker", "Segoe Print", "Marker Felt", Chilanka, TSCu_Comic, casual, cursive;
+    }
+    
     ol .list-item {
-        margin-left: $padding * 3;
-        @include tablet {
-            margin-left: $padding * 4;    
+        margin-left: calc(var(--pad) * 3);
+        @media (min-width: 700px) {
+            margin-left: calc(var(--pad) * 4);    
         }
-        @include desktop {
-            margin-left: $padding * 5;
+        @media (min-width: 1100px)  {
+            margin-left: calc(var(--pad) * 5);
         }
     }
 
@@ -73,7 +77,7 @@
 }
 
 .list-title.list {
-    @include tablet-up {
-        margin: $padding * 4 auto;
+    @media (min-width: 700px) {
+        margin: calc(var(--pad) * 4) auto;
     }
 }

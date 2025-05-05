@@ -1,11 +1,23 @@
+blockquote {
+    display: inline-block;
+}
+
+blockquote :first-child {
+    padding-top: 0;
+}
+
 .post-body.e-content blockquote {
-   
+    display: block;
 	position: relative;
 	
-	padding: $padding * 2;
-	margin: 0 auto $padding * 2;
+	padding: calc(var(--pad) * 2);
+	margin: 0 auto calc(var(--pad) * 2);
 	left: auto;
 	right: auto;
+    
+    background: light-dark(var(--gray-100), var(--gray-900));
+    border-radius: calc(var(--border-radius) * 2);
+    box-shadow: var(--shadow--depth-1);
 	
 	width: auto;
 	
@@ -13,8 +25,6 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
-    
-    @include material();
     
     p {
         &:first-child {
@@ -38,7 +48,7 @@
     }
     ol {
 
-        padding-left: 55px;
+        padding-left: clamp(30px, 4.5vw, 55px);
         &:last-child {
             padding-bottom: 0;
         }
@@ -56,7 +66,7 @@ blockquote.quote {
 	display: block;
 	position: relative;
 	
-    padding: 0 0 $padding 0;
+    padding: 0 0 var(--pad) 0;
     text-align: left;
 	
     p:last-child {
@@ -66,41 +76,36 @@ blockquote.quote {
 
 blockquote.twitter-tweet {
     
-    max-width: 80%;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    padding: $padding;
+    padding: clamp(var(--pad), 3vw, calc(var(--pad) * 2)) !important;
     
     img {
         width: 100%;
         margin: 0;
-	    border-radius: $border-radius;
+	    border-radius: var(--border-radius);
     }
 	
 	// Twitter logo
 	p:first-child:before {
         display: block;
         position: relative;
-        width: 70px;
+        width: clamp(60px, 6vw, 70px);
         height: 70px;
-        margin-right: $padding;
+        margin-right: var(--pad);
         content: "";
 		background-position: center;
 		background-repeat: no-repeat;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-label='Twitter' role='img' viewBox='0 0 512 512'%3E%3Cpath fill='%23009fe3' d='m458 140q-23 10-45 12 25-15 34-43-24 14-50 19a79 79 0 00-135 72q-101-7-163-83a80 80 0 0024 106q-17 0-36-10s-3 62 64 79q-19 5-36 1s15 53 74 55q-50 40-117 33a224 224 0 00346-200q23-16 40-41'/%3E%3C/svg%3E");
         float: left;
-        
-        @include mobile() {
-            width: 60px;
-            height: 60px;
-        }
     }
 }
 
 q {
 	@supports (hanging-punctuation: first) {
 		display: inline-block;
-		padding: 0 0 0 $padding * 0.8;
+		padding: 0 0 0 calc(var(--pad) * 0.8);
 	}
 	&::before {
     	content: open-quote;

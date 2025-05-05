@@ -1,13 +1,8 @@
 hr {
-    border-radius: $border-radius;
+    border-radius: var(--border-radius);
     border: 1px solid var(--secondary-borderColor);
-	
-	&.short {
-		margin: $padding * 2 auto;
-		max-width: 50px;
-	}
 }
 
 hr + p {
-    margin-top: $padding * 2;
+    padding-top: calc(var(--pad) * 2);
 }

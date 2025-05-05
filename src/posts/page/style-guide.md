@@ -121,6 +121,10 @@ list:
         
 - name: "S"
   items:
+    - name: "Scandipop"
+      label: "Noun"
+      description: |
+        The best kind of pop. Never hyphenated.
     - name: "Senior civil servant"
       label: "Noun"
       description: |

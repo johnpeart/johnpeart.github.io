@@ -20,6 +20,7 @@
                             {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
                             <h3>{{ entry.country }}</h3>
                             <p>{{ songTitle }} by {{ entry.artist }}</p>
+                            {% if entry.lyric -%}{{ entry.lyric | markdownify }}{%- endif %}
                     </div>
                 {% if entry.youtube -%}</a>{%- endif %}
                     

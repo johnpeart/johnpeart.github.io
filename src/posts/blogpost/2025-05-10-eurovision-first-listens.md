@@ -43,7 +43,7 @@ eurovision-entries:
   artist: "Parg"
   song: "Survivor"
   language: "English"
-  youtube: "https://youtu.be/RfH5o3XtI2c"
+  youtube: "RfH5o3XtI2c"
   semifinal: 2
   final: false
   lyric: |
@@ -59,7 +59,7 @@ eurovision-entries:
   artist: "Go-Jo"
   song: "Milkshake Man"
   language: "English, French"
-  youtube: "https://youtu.be/_08I6mjHSLA"
+  youtube: "_08I6mjHSLA"
   semifinal: 2
   final: false
   lyric: |
@@ -77,7 +77,7 @@ eurovision-entries:
   artist: "JJ"
   song: "Wasted Love"
   language: "English"
-  youtube: "https://youtu.be/-ieSTNpxvio"
+  youtube: "-ieSTNpxvio"
   semifinal: 2
   final: false
   lyric: |
@@ -97,7 +97,7 @@ eurovision-entries:
   artist: "Mamagama"
   song: "Run with U"
   language: "English"
-  youtube: "https://youtu.be/upbiPJ9uA70"
+  youtube: "upbiPJ9uA70"
   semifinal: 1
   final: false
   lyric: |
@@ -113,7 +113,7 @@ eurovision-entries:
   artist: "Red Sebastian"
   song: "Strobe Lights"
   language: "English"
-  youtube: "https://youtu.be/ScupiVTosHU"
+  youtube: "ScupiVTosHU"
   semifinal: 1
   final: false
   lyric: |
@@ -132,7 +132,7 @@ eurovision-entries:
   artist: "Marko Bošnjak"
   song: "Poison Cake"
   language: "English"
-  youtube: "https://youtu.be/ie_v6qGCc5w"
+  youtube: "ie_v6qGCc5w"
   semifinal: 1
   final: false
   lyric: |
@@ -150,7 +150,7 @@ eurovision-entries:
   artist: "Theo Evan"
   song: "Shh"
   language: "English"
-  youtube: "https://youtu.be/rbfQqWyqgJw"
+  youtube: "rbfQqWyqgJw"
   semifinal: 1
   final: false
   lyric: |
@@ -166,7 +166,7 @@ eurovision-entries:
   artist: "Adonxs"
   song: "Kiss Kiss Goodbye"
   language: "English"
-  youtube: "https://youtu.be/Hm8CIICKAJU"
+  youtube: "Hm8CIICKAJU"
   semifinal: 2
   final: false
   lyric: |
@@ -182,7 +182,7 @@ eurovision-entries:
   artist: "Sissal"
   song: "Hallucination"
   language: "English"
-  youtube: "https://youtu.be/gdCAgiSIOUc"
+  youtube: "gdCAgiSIOUc"
   semifinal: 2
   final: false
   lyric: |
@@ -205,7 +205,7 @@ eurovision-entries:
   artist: "Tommy Cash"
   song: "Espresso Macchiato"
   language: "Italian, English"
-  youtube: "https://youtu.be/5MS_Fczs_98"
+  youtube: "5MS_Fczs_98"
   semifinal: 1
   final: false
   lyric: |
@@ -225,7 +225,7 @@ eurovision-entries:
     original: "Ich komme"
     english: "I’m coming"
   language: "Finnish"
-  youtube: "https://youtu.be/Kg3QoTpnqyw"
+  youtube: "Kg3QoTpnqyw"
   semifinal: 2
   final: false
   lyric: |
@@ -264,7 +264,7 @@ eurovision-entries:
   artist: "Mariam Shengelia"
   song: "Freedom"
   language: "Georgian, English"
-  youtube: "https://youtu.be/c3wu0dUNd4c"
+  youtube: "c3wu0dUNd4c"
   semifinal: 2
   final: false
   lyric: |
@@ -282,7 +282,7 @@ eurovision-entries:
     original: "Baller"
     english: "Shoot"
   language: "German"
-  youtube: "https://youtu.be/zJplC4-9Scs"
+  youtube: "zJplC4-9Scs"
   semifinal: false
   final: true
   lyric: |
@@ -302,7 +302,7 @@ eurovision-entries:
     original: "Asteromáta"
     english: "Star Eyes"
   language: "Greek"
-  youtube: "https://youtu.be/aDiq8J9h6vQ"
+  youtube: "aDiq8J9h6vQ"
   semifinal: 2
   final: false
   lyric: |
@@ -322,7 +322,7 @@ eurovision-entries:
     original: "Róa"
     english: "Calm"
   language: "Icelandic"
-  youtube: "https://youtu.be/s9P83Nl6D1M"
+  youtube: "s9P83Nl6D1M"
   semifinal: 1
   final: false
   lyric: |
@@ -340,13 +340,13 @@ eurovision-entries:
   artist: "EMMY"
   song: "Laika Party"
   language: "English"
-  youtube: "https://youtu.be/cZnusVb7yjs"
+  youtube: "cZnusVb7yjs"
   semifinal: 2
   final: false
   lyric: |
     Like a party in the sky
   commentary: |
-    This threw me straight back to *The Logical Song* ([the cover by Scooter](https://youtu.be/4YxTa1AUqps), not [the original by Supertramp](https://youtu.be/kln_bIndDJg?si=4TQ79lgPqT-IQbAF))
+    This threw me straight back to *The Logical Song* ([the cover by Scooter](4YxTa1AUqps), not [the original by Supertramp](kln_bIndDJg?si=4TQ79lgPqT-IQbAF))
     
     This is generic, dance floor-filling trash and I love it.
     
@@ -356,13 +356,13 @@ eurovision-entries:
   artist: "Yuval Raphael"
   song: "New Day Will Rise"
   language: "English, French, Hebrew"
-  youtube: "https://youtu.be/Q3BELu4z6-U"
+  youtube: "Q3BELu4z6-U"
   semifinal: 2
   final: false
   lyric: |
     
   commentary: |
-    I miss the days of Israel being fun at Eurovision. *[Toy](https://youtu.be/CziHrYYSyPc?si=sUKEwmsK2ucTaJTy)*. *[Golden Boy](https://youtu.be/NdxOCTezeTg?si=CvAQCr9Rj4Ph9e9w)*.
+    I miss the days of Israel being fun at Eurovision. *[Toy](CziHrYYSyPc?si=sUKEwmsK2ucTaJTy)*. *[Golden Boy](NdxOCTezeTg?si=CvAQCr9Rj4Ph9e9w)*.
     
     Nevertheless, this is a ballad in three separate languages -- English, French and Hebrew -- which is an impressive twist.
     
@@ -376,7 +376,7 @@ eurovision-entries:
     original: "Volevo essere un duro"
     english: "I wanted to be a tough guy"
   language: "Italian"
-  youtube: "https://youtu.be/-Alz9MnqyZI"
+  youtube: "-Alz9MnqyZI"
   semifinal: false
   final: true
   lyric: |
@@ -397,7 +397,7 @@ eurovision-entries:
     original: "Bur man laimi"
     english: "Give me luck"
   language: "Latvian"
-  youtube: "https://youtu.be/RKw0OCgPV3s"
+  youtube: "RKw0OCgPV3s"
   semifinal: 2
   final: false
   lyric: |
@@ -413,7 +413,7 @@ eurovision-entries:
     original: "Tavo akys"
     english: "Your eyes"
   language: "Lithuanian"
-  youtube: "https://youtu.be/R2f2aZ6Fy58"
+  youtube: "R2f2aZ6Fy58"
   semifinal: 2
   final: false
   lyric: |
@@ -431,7 +431,7 @@ eurovision-entries:
     original: "La poupeé monte le son"
     english: "The doll turns up the sound"
   language: "French"
-  youtube: "https://youtu.be/LVHu_KwHiKY"
+  youtube: "LVHu_KwHiKY"
   semifinal: 2
   final: false
   lyric: |
@@ -448,7 +448,7 @@ eurovision-entries:
   artist: "Miriana Conte"
   song: "Serving"
   language: "English"
-  youtube: "https://youtu.be/sLVSwfRRvMA"
+  youtube: "sLVSwfRRvMA"
   semifinal: 2
   final: false
   lyric: |
@@ -468,7 +468,7 @@ eurovision-entries:
     original: "Dobrodošli"
     english: "Welcome"
   language: "Montenegrin"
-  youtube: "https://youtu.be/ydMkpaB0CWk"
+  youtube: "ydMkpaB0CWk"
   semifinal: 2
   final: false
   lyric: |
@@ -484,7 +484,7 @@ eurovision-entries:
     original: "C'est la vie"
     english: "That's life"
   language: "French, English"
-  youtube: "https://youtu.be/hEHwr5k9pd0"
+  youtube: "hEHwr5k9pd0"
   semifinal: 1
   final: false
   lyric: |
@@ -498,28 +498,28 @@ eurovision-entries:
     
 - country: "Norway"
   shortcode: "NOR"
-  emoji: "🇳🇴"
-  artist: "Kyle Alessandro"
-  song: "Lighter"
-  language: "English"
-  youtube: "https://youtu.be/pUjWzQ671MQ"
+  emoji: “🇳🇴”
+  artist: “Kyle Alessandro”
+  song: “Lighter”
+  language: “English”
+  youtube: “pUjWzQ671MQ”
   semifinal: 1
   final: false
   lyric: |
-    I don't need saving, 
+    I don’t need saving, 
     ’cause I’m my own lighter.
   commentary: |
     This is classic Scandi-pop, which obviously means I bloody love it.
     
-- country: "Poland"
-  shortcode: "POL"
-  emoji: "🇵🇱"
-  artist: "Justyna Steczkowska"
+- country: “Poland”
+  shortcode: “POL”
+  emoji: “🇵🇱”
+  artist: “Justyna Steczkowska”
   song: 
-    original: "Gaja"
-    english: "Gaia"
-  language: "Polish, English"
-  youtube: "https://youtu.be/YXHHDjiclxA"
+    original: “Gaja”
+    english: “Gaia”
+  language: “Polish, English”
+  youtube: “YXHHDjiclxA”
   semifinal: 1
   final: false
   lyric: |
@@ -529,15 +529,15 @@ eurovision-entries:
     
     It’s a droning mess of noises undercut with a distorted beat. Not for me.
     
-- country: "Portugal"
-  shortcode: "POR"
-  emoji: "🇵🇹"
-  artist: "Napa"
+- country: “Portugal”
+  shortcode: “POR”
+  emoji: “🇵🇹”
+  artist: “Napa”
   song: 
-    original: "Deslocado"
-    english: "Dislocated"
-  language: "Portuguese"
-  youtube: "https://youtu.be/-s1Cc2uEj3U"
+    original: “Deslocado”
+    english: “Dislocated”
+  language: “Portuguese”
+  youtube: “-s1Cc2uEj3U”
   semifinal: 1
   final: false
   lyric: |
@@ -547,15 +547,15 @@ eurovision-entries:
     
     It’s pleasing enough but it also feels unresolved. It ultimately goes nowhere.
     
-- country: "San Marino"
-  shortcode: "SMR"
-  emoji: "🇸🇲"
-  artist: "Gabry Ponte"
+- country: “San Marino”
+  shortcode: “SMR”
+  emoji: “🇸🇲”
+  artist: “Gabry Ponte”
   song: 
-    original: "Tutta l'Italia"
-    english: "All of Italy"
-  language: "Italian"
-  youtube: "https://youtu.be/Le3WpaLYRvE"
+    original: “Tutta l’Italia”
+    english: “All of Italy”
+  language: “Italian”
+  youtube: “Le3WpaLYRvE”
   semifinal: 1
   final: false
   lyric: |
@@ -563,19 +563,19 @@ eurovision-entries:
   commentary: |
     This sounds like it was ripped straight out of an early 2000s Eurovision Song Contest. 
     
-    Yes, dear reader it's that bad.
+    Yes, dear reader it’s that bad.
     
-    Obviously I know that San Marino is landlocked inside Italy and that they will share a cultural affinity; but I am baffled as to why you would sing a song about *Tutta l'Italia* when, you know, you're not representing Italy?!
+    Obviously I know that San Marino is landlocked inside Italy and that they will share a cultural affinity; but I am baffled as to why you would sing a song about *Tutta l’Italia* when, you know, you’re not representing Italy?!
     
-- country: "Serbia"
-  shortcode: "SRB"
-  emoji: "🇷🇸"
-  artist: "Princ"
+- country: “Serbia”
+  shortcode: “SRB”
+  emoji: “🇷🇸”
+  artist: “Princ”
   song: 
-    original: "Mila"
-    english: "Dear"
-  language: "Serbian"
-  youtube: "https://youtu.be/18BCbtvDcag"
+    original: “Mila”
+    english: “Dear”
+  language: “Serbian”
+  youtube: “18BCbtvDcag”
   semifinal: 2
   final: false
   lyric: |
@@ -583,13 +583,13 @@ eurovision-entries:
   commentary: |
     One of the dreariest ballads you could possible imagine. There’s a late-game rock guitar and choral drop that does nothing to improve the overall miserable impression.
     
-- country: "Slovenia"
-  shortcode: "SVN"
-  emoji: "🇸🇮"
-  artist: "Klemen"
-  song: "How Much Time Do We Have Left"
-  language: "English"
-  youtube: "https://youtu.be/GT1YhfRpq3Q"
+- country: “Slovenia”
+  shortcode: “SVN”
+  emoji: “🇸🇮”
+  artist: “Klemen”
+  song: “How Much Time Do We Have Left”
+  language: “English”
+  youtube: “GT1YhfRpq3Q”
   semifinal: 1
   final: false
   lyric: |
@@ -598,19 +598,19 @@ eurovision-entries:
   commentary: |
     Oh my word is this sad. You can feel the pain in this song right from the very first line.
     
-    Maybe I'm feeling emotionally fragile, but I genuinely had a tear in my eye.
+    Maybe I’m feeling emotionally fragile, but I genuinely had a tear in my eye.
     
     A beautiful ballad.
     
-- country: "Spain"
-  shortcode: "ESP"
-  emoji: "🇪🇸"
-  artist: "Melody"
+- country: “Spain”
+  shortcode: “ESP”
+  emoji: “🇪🇸”
+  artist: “Melody”
   song: 
-    original: "Esa diva"
-    english: "That diva"
-  language: "Spanish"
-  youtube: "https://youtu.be/BvVxhbCW9rw"
+    original: “Esa diva”
+    english: “That diva”
+  language: “Spanish”
+  youtube: “BvVxhbCW9rw”
   semifinal: false
   final: true
   lyric: |
@@ -620,15 +620,15 @@ eurovision-entries:
     
     A lot of distorted synths, maracas and a flamenco guitar underpin a defiant, almost vengeful, vocal.
     
-- country: "Sweden"
-  shortcode: "SWE"
-  emoji: "🇸🇪"
-  artist: "KAJ"
+- country: “Sweden”
+  shortcode: “SWE”
+  emoji: “🇸🇪”
+  artist: “KAJ”
   song: 
-    original: "Bara Bada Bastu"
-    english: "Just Sauna Bathing"
-  language: "Swedish"
-  youtube: "https://youtu.be/WK3HOMhAeQY"
+    original: “Bara Bada Bastu”
+    english: “Just Sauna Bathing”
+  language: “Swedish”
+  youtube: “WK3HOMhAeQY”
   semifinal: 1
   final: false
   lyric: |
@@ -639,17 +639,17 @@ eurovision-entries:
     
     Slick Swedish pop is why I fell in love with Eurovision. This isn’t that. It’s a cheesy 1990s era comedy track.
     
-    Don’t get me wrong, it has its charm, and I have no doubt there’s a gimmick that will catch the eye of the voting public (no one wins *Melodifestivalen* and gets to represent Sweden by accident) -- but I am nonetheless baffled by this.
+    Don’t get me wrong, it has its charm, and I have no doubt there’s a gimmick that will catch the eye of the voting public (no one wins *Melodifestivalen* and gets to represent Sweden by accident) — but I am nonetheless baffled by this.
     
-- country: "Switzerland"
-  shortcode: "CHE"
-  emoji: "🇨🇭"
-  artist: "Zoë Më"
+- country: “Switzerland”
+  shortcode: “CHE”
+  emoji: “🇨🇭”
+  artist: “Zoë Më”
   song:
-    - original: "Voyage"
-      english: "Journey"
-  language: "French"
-  youtube: "https://youtu.be/dGX54zRExR8"
+    - original: “Voyage”
+      english: “Journey”
+  language: “French”
+  youtube: “dGX54zRExR8”
   semifinal: false
   final: true
   lyric: |
@@ -659,29 +659,29 @@ eurovision-entries:
     
     The last minute attempt at injecting some life into it with a staccato, violin breakdown doesn’t really do anything to save it from what I suspect will be inevitable obscurity.
     
-- country: "Ukraine"
-  shortcode: "UKR"
-  emoji: "🇺🇦"
-  artist: "Ziferblat"
-  song: "Bird of Prey"
-  language: "Ukrainian, English"
-  youtube: "https://youtu.be/OJ1x2aiL7ks"
+- country: “Ukraine”
+  shortcode: “UKR”
+  emoji: “🇺🇦”
+  artist: “Ziferblat”
+  song: “Bird of Prey”
+  language: “Ukrainian, English”
+  youtube: “OJ1x2aiL7ks”
   semifinal: 1
   final: false
   lyric: |
     
   commentary: |
-    Given the song title, I was expecting something more *[Klingon](https://youtu.be/DSCWB4GqcFE?si=hpU0pWagG61tkU2A)*. 
+    Given the song title, I was expecting something more *[Klingon](DSCWB4GqcFE?si=hpU0pWagG61tkU2A)*. 
     
     Instead we get this electric guitar-laden, soft-rock number, filled with chorus chants and false stops. All very late 90s, which is probably where it should have stayed.
     
-- country: "United Kingdom"
-  shortcode: "GBR"
-  emoji: "🇬🇧"
-  artist: "Remember Monday"
-  song: "What the Hell Just Happened?"
-  language: "English"
-  youtube: "https://youtu.be/-hu6R3ZnOdY"
+- country: “United Kingdom”
+  shortcode: “GBR”
+  emoji: “🇬🇧”
+  artist: “Remember Monday”
+  song: “What the Hell Just Happened?”
+  language: “English”
+  youtube: “-hu6R3ZnOdY"
   semifinal: false
   final: true
   lyric: |

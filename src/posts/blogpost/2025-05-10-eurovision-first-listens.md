@@ -2,7 +2,7 @@
 date: 2025-05-10T15:00:00+00:00
 title: "I listened to every Eurovision 2025 entry, so you don’t have to"
 author: "John Peart"
-excerpt: ""
+excerpt: "Mamma Mia. Here we go again..."
 layout: blogpost
 image: /posts/eurovision.png
 composite:
@@ -598,7 +598,7 @@ eurovision-entries:
   commentary: |
     Oh my word is this sad. You can feel the pain in this song right from the very first line.
     
-    Maybe I'm feeling emotionally fragile, but I genuinely had a tear in my eye.
+    Maybe I'm feeling emotionally fragile but I genuinely had a tear in my eye.
     
     A beautiful ballad.
     
@@ -693,5 +693,19 @@ eurovision-entries:
 
 
 summing-up: |
+   It seems that clubland trance is the predominant order of business for Eurovision this year. What that says about the psyche of Europe is anyone's guess.
    
+   My personal favourite this year is **Denmark**, with its catchy riff and slick Europop vibe. I also enjoyed **Luxembourg**, **Norway**, **Spain** and -- surprisingly a ballad -- **Slovenia**. Wooden spoons for the **United Kingdom**, **Australia** and **Estonia**.
+   
+   But who will win? You decide!
 ---
+
+Well, *Mamma Mia*, here we go again. Eurovision is back and this year's battleground is the classically neutral territory of Switzerland.
+
+This year 38 entries will be serving up 1 hour and 50 minutes of the best and worst that Europe (and Australia) has to offer.
+
+Each year, I subject myself to a blind taste test, listening to all the tracks to glean my first impressions.
+
+As usual, I'm only allowed to listen to each song once. I've listened to each track in a totally random order, this time around, and then scribbled down my thoughts.
+
+So let's not delay. As a former Executive Supervisor of the Eurovision Song Contest might say, "take it away!"

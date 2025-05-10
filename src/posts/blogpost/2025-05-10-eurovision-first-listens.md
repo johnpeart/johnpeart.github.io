@@ -702,7 +702,7 @@ summing-up: |
 
 Well, *Mamma Mia*, here we go again. Eurovision is back and this year's battleground is the classically neutral territory of Switzerland.
 
-This year 38 entries will be serving up 1 hour and 50 minutes of the best and worst that Europe (and Australia) has to offer.
+This year 37 entries will be serving up 1 hour and 50 minutes of the best and worst that Europe (and Australia) has to offer.
 
 Each year, I subject myself to a blind taste test, listening to all the tracks to glean my first impressions.
 

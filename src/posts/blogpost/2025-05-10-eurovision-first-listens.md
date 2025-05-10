@@ -27,7 +27,7 @@ eurovision-entries:
     original: "Zjerm"
     english: "Fire"
   language: "Albanian"
-  youtube: "example1"
+  youtube: "Sfvb761EEcM"
   semifinal: 1
   final: false
   lyric: |
@@ -43,7 +43,7 @@ eurovision-entries:
   artist: "Parg"
   song: "Survivor"
   language: "English"
-  youtube: "example2"
+  youtube: "https://youtu.be/RfH5o3XtI2c"
   semifinal: 2
   final: false
   lyric: |
@@ -59,7 +59,7 @@ eurovision-entries:
   artist: "Go-Jo"
   song: "Milkshake Man"
   language: "English, French"
-  youtube: "example3"
+  youtube: "https://youtu.be/_08I6mjHSLA"
   semifinal: 2
   final: false
   lyric: |
@@ -77,7 +77,7 @@ eurovision-entries:
   artist: "JJ"
   song: "Wasted Love"
   language: "English"
-  youtube: "example4"
+  youtube: "https://youtu.be/-ieSTNpxvio"
   semifinal: 2
   final: false
   lyric: |
@@ -97,7 +97,7 @@ eurovision-entries:
   artist: "Mamagama"
   song: "Run with U"
   language: "English"
-  youtube: "example5"
+  youtube: "https://youtu.be/upbiPJ9uA70"
   semifinal: 1
   final: false
   lyric: |
@@ -113,7 +113,7 @@ eurovision-entries:
   artist: "Red Sebastian"
   song: "Strobe Lights"
   language: "English"
-  youtube: "example6"
+  youtube: "https://youtu.be/ScupiVTosHU"
   semifinal: 1
   final: false
   lyric: |
@@ -132,7 +132,7 @@ eurovision-entries:
   artist: "Marko Bošnjak"
   song: "Poison Cake"
   language: "English"
-  youtube: "example7"
+  youtube: "https://youtu.be/ie_v6qGCc5w"
   semifinal: 1
   final: false
   lyric: |
@@ -150,7 +150,7 @@ eurovision-entries:
   artist: "Theo Evan"
   song: "Shh"
   language: "English"
-  youtube: "example8"
+  youtube: "https://youtu.be/rbfQqWyqgJw"
   semifinal: 1
   final: false
   lyric: |
@@ -166,7 +166,7 @@ eurovision-entries:
   artist: "Adonxs"
   song: "Kiss Kiss Goodbye"
   language: "English"
-  youtube: "example9"
+  youtube: "https://youtu.be/Hm8CIICKAJU"
   semifinal: 2
   final: false
   lyric: |
@@ -182,7 +182,7 @@ eurovision-entries:
   artist: "Sissal"
   song: "Hallucination"
   language: "English"
-  youtube: "example10"
+  youtube: "https://youtu.be/gdCAgiSIOUc"
   semifinal: 2
   final: false
   lyric: |
@@ -205,7 +205,7 @@ eurovision-entries:
   artist: "Tommy Cash"
   song: "Espresso Macchiato"
   language: "Italian, English"
-  youtube: "example11"
+  youtube: "https://youtu.be/5MS_Fczs_98"
   semifinal: 1
   final: false
   lyric: |
@@ -225,7 +225,7 @@ eurovision-entries:
     original: "Ich komme"
     english: "I’m coming"
   language: "Finnish"
-  youtube: "example12"
+  youtube: "https://youtu.be/Kg3QoTpnqyw"
   semifinal: 2
   final: false
   lyric: |
@@ -243,9 +243,9 @@ eurovision-entries:
   artist: "Louane"
   song: 
     original: "Mamon"
-    english: "Mom"
+    english: "Mum"
   language: "French"
-  youtube: "example13"
+  youtube: "ZFWzMZh47d0"
   semifinal: false
   final: true
   lyric: |
@@ -264,7 +264,7 @@ eurovision-entries:
   artist: "Mariam Shengelia"
   song: "Freedom"
   language: "Georgian, English"
-  youtube: "example14"
+  youtube: "https://youtu.be/c3wu0dUNd4c"
   semifinal: 2
   final: false
   lyric: |
@@ -282,7 +282,7 @@ eurovision-entries:
     original: "Baller"
     english: "Shoot"
   language: "German"
-  youtube: "example15"
+  youtube: "https://youtu.be/zJplC4-9Scs"
   semifinal: false
   final: true
   lyric: |
@@ -299,16 +299,16 @@ eurovision-entries:
   emoji: "🇬🇷"
   artist: "Klavdia"
   song: 
-    original: "Asteromata"
+    original: "Asteromáta"
     english: "Star Eyes"
   language: "Greek"
-  youtube: "example16"
+  youtube: "https://youtu.be/aDiq8J9h6vQ"
   semifinal: 2
   final: false
   lyric: |
     
   commentary: |
-    I like the sound of the titular word “Astromata” -- it’s fun to say and to listen to.
+    I like the sound of the titular word “Astromáta” -- it’s fun to say and to listen to.
     
     The first 1:30 of this song are dreary and uninspiring. There's some more texture in the second half; more synth, more percussion, more drama and more power in the vocal.
     
@@ -322,7 +322,7 @@ eurovision-entries:
     original: "Róa"
     english: "Calm"
   language: "Icelandic"
-  youtube: "example17"
+  youtube: "https://youtu.be/s9P83Nl6D1M"
   semifinal: 1
   final: false
   lyric: |
@@ -340,7 +340,7 @@ eurovision-entries:
   artist: "EMMY"
   song: "Laika Party"
   language: "English"
-  youtube: "example18"
+  youtube: "https://youtu.be/cZnusVb7yjs"
   semifinal: 2
   final: false
   lyric: |
@@ -356,7 +356,7 @@ eurovision-entries:
   artist: "Yuval Raphael"
   song: "New Day Will Rise"
   language: "English, French, Hebrew"
-  youtube: "example19"
+  youtube: "https://youtu.be/Q3BELu4z6-U"
   semifinal: 2
   final: false
   lyric: |
@@ -374,9 +374,9 @@ eurovision-entries:
   artist: "Lucio Corsi"
   song: 
     original: "Volevo essere un duro"
-    english: "I Wanted to Be a Tough Guy"
+    english: "I wanted to be a tough guy"
   language: "Italian"
-  youtube: "example20"
+  youtube: "https://youtu.be/-Alz9MnqyZI"
   semifinal: false
   final: true
   lyric: |
@@ -395,9 +395,9 @@ eurovision-entries:
   artist: "Tautumeitas"
   song: 
     original: "Bur man laimi"
-    english: "Give Me Luck"
+    english: "Give me luck"
   language: "Latvian"
-  youtube: "example21"
+  youtube: "https://youtu.be/RKw0OCgPV3s"
   semifinal: 2
   final: false
   lyric: |
@@ -411,9 +411,9 @@ eurovision-entries:
   artist: "Katarsis"
   song: 
     original: "Tavo akys"
-    english: "Your Eyes"
+    english: "Your eyes"
   language: "Lithuanian"
-  youtube: "example22"
+  youtube: "https://youtu.be/R2f2aZ6Fy58"
   semifinal: 2
   final: false
   lyric: |
@@ -431,7 +431,7 @@ eurovision-entries:
     original: "La poupeé monte le son"
     english: "The doll turns up the sound"
   language: "French"
-  youtube: "example23"
+  youtube: "https://youtu.be/LVHu_KwHiKY"
   semifinal: 2
   final: false
   lyric: |
@@ -448,7 +448,7 @@ eurovision-entries:
   artist: "Miriana Conte"
   song: "Serving"
   language: "English"
-  youtube: "example24"
+  youtube: "https://youtu.be/sLVSwfRRvMA"
   semifinal: 2
   final: false
   lyric: |
@@ -468,7 +468,7 @@ eurovision-entries:
     original: "Dobrodošli"
     english: "Welcome"
   language: "Montenegrin"
-  youtube: "example25"
+  youtube: "https://youtu.be/ydMkpaB0CWk"
   semifinal: 2
   final: false
   lyric: |
@@ -482,9 +482,9 @@ eurovision-entries:
   artist: "Claude"
   song: 
     original: "C'est la vie"
-    english: "That's Life"
+    english: "That's life"
   language: "French, English"
-  youtube: "example26"
+  youtube: "https://youtu.be/hEHwr5k9pd0"
   semifinal: 1
   final: false
   lyric: |
@@ -502,7 +502,7 @@ eurovision-entries:
   artist: "Kyle Alessandro"
   song: "Lighter"
   language: "English"
-  youtube: "example27"
+  youtube: "https://youtu.be/pUjWzQ671MQ"
   semifinal: 1
   final: false
   lyric: |
@@ -519,7 +519,7 @@ eurovision-entries:
     original: "Gaja"
     english: "Gaia"
   language: "Polish, English"
-  youtube: "example28"
+  youtube: "https://youtu.be/YXHHDjiclxA"
   semifinal: 1
   final: false
   lyric: |
@@ -537,7 +537,7 @@ eurovision-entries:
     original: "Deslocado"
     english: "Dislocated"
   language: "Portuguese"
-  youtube: "example28"
+  youtube: "https://youtu.be/-s1Cc2uEj3U"
   semifinal: 1
   final: false
   lyric: |
@@ -555,7 +555,7 @@ eurovision-entries:
     original: "Tutta l'Italia"
     english: "All of Italy"
   language: "Italian"
-  youtube: "example29"
+  youtube: "https://youtu.be/Le3WpaLYRvE"
   semifinal: 1
   final: false
   lyric: |
@@ -575,7 +575,7 @@ eurovision-entries:
     original: "Mila"
     english: "Dear"
   language: "Serbian"
-  youtube: "example30"
+  youtube: "https://youtu.be/18BCbtvDcag"
   semifinal: 2
   final: false
   lyric: |
@@ -589,7 +589,7 @@ eurovision-entries:
   artist: "Klemen"
   song: "How Much Time Do We Have Left"
   language: "English"
-  youtube: "example31"
+  youtube: "https://youtu.be/GT1YhfRpq3Q"
   semifinal: 1
   final: false
   lyric: |
@@ -610,7 +610,7 @@ eurovision-entries:
     original: "Esa diva"
     english: "That diva"
   language: "Spanish"
-  youtube: "example32"
+  youtube: "https://youtu.be/BvVxhbCW9rw"
   semifinal: false
   final: true
   lyric: |
@@ -628,7 +628,7 @@ eurovision-entries:
     original: "Bara Bada Bastu"
     english: "Just Sauna Bathing"
   language: "Swedish"
-  youtube: "example33"
+  youtube: "https://youtu.be/WK3HOMhAeQY"
   semifinal: 1
   final: false
   lyric: |
@@ -649,7 +649,7 @@ eurovision-entries:
     - original: "Voyage"
       english: "Journey"
   language: "French"
-  youtube: "example34"
+  youtube: "https://youtu.be/dGX54zRExR8"
   semifinal: false
   final: true
   lyric: |
@@ -665,7 +665,7 @@ eurovision-entries:
   artist: "Ziferblat"
   song: "Bird of Prey"
   language: "Ukrainian, English"
-  youtube: "example35"
+  youtube: "https://youtu.be/OJ1x2aiL7ks"
   semifinal: 1
   final: false
   lyric: |
@@ -681,7 +681,7 @@ eurovision-entries:
   artist: "Remember Monday"
   song: "What the Hell Just Happened?"
   language: "English"
-  youtube: "example36"
+  youtube: "https://youtu.be/-hu6R3ZnOdY"
   semifinal: false
   final: true
   lyric: |

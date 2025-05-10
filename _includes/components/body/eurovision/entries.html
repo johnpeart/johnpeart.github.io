@@ -22,10 +22,8 @@
                             <p>{{ songTitle }} by {{ entry.artist }}</p>
                     </div>
                 {% if entry.youtube -%}</a>{%- endif %}
-                {% if entry.lyric -%}
-                    {{ entry.lyric | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
-                {%- endif %}
-                    
+                {{ entry.lyric | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
+                
             </section>
             
             

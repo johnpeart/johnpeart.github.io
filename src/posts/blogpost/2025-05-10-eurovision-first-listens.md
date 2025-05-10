@@ -33,7 +33,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    The plucky, well, plucking of a stringed instrument provides a peppy introduction to this song. It reminds me of something you might hear in a Legend of Zelda soundtrack. 
+    The plucking of a stringed instrument provides a peppy introduction to this song. It reminds me of something you might hear in a *Legend of Zelda* soundtrack. 
     
     Alas, that chipper tone doesn’t hang around. Instead we leap into a terrible spoken word chunk in the middle, dinging an otherwise fine track.
     
@@ -83,7 +83,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    There are a lot of tortured water-based metaphors in to begin this song, which initially had me thinking this would be utter dross. 
+    There are a lot of tortured water-based metaphors in the beginning of this song, which initially had me thinking this would be utter dross. 
     
     What I wasn’t expecting was a quick tilt from mediocre ballad into operatic style. Maybe I should have; Austria is famous for its opera. 
     

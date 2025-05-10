@@ -1,0 +1,697 @@
+---
+date: 2025-05-10T15:00:00+00:00
+title: "I listened to every Eurovision 2025 entry, so you don’t have to"
+author: "John Peart"
+excerpt: ""
+layout: blogpost
+image: /posts/eurovision.png
+composite:
+  overlay:
+    image: "/assets/images/posts/2025/05/eurovision-first-listens/eurovision-2025.svg"
+    alt: "The Eurovision 2025 logo"
+    blur: 0
+  background:
+    source: "/assets/images/posts/2025/05/eurovision-first-listens/eurovision-2025.webp"
+    image: "/assets/images/posts/2025/05/eurovision-first-listens/eurovision-2025.jpg"
+    alt: "A spiral of multi-coloured hearts."
+    fit: "fill"
+categories:
+- eurovision
+
+eurovision-entries:
+- country: "Albania"
+  shortcode: "ALB"
+  emoji: "🇦🇱"
+  artist: "Shkodra Elektronike"
+  song: 
+    original: "Zjerm"
+    english: "Fire"
+  language: "Albanian"
+  youtube: "example1"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    The plucky, well, plucking of a stringed instrument provides a peppy introduction to this song. It reminds me of something you might hear in a Legend of Zelda soundtrack. 
+    
+    Alas, that chipper tone doesn’t hang around. Instead we leap into a terrible spoken word chunk in the middle, dinging an otherwise fine track.
+    
+- country: "Armenia"
+  shortcode: "ARM"
+  emoji: "🇦🇲"
+  artist: "Parg"
+  song: "Survivor"
+  language: "English"
+  youtube: "example2"
+  semifinal: 2
+  final: false
+  lyric: |
+    I’m a survivor. I’m staying alive-ah.
+  commentary: |
+    So Armenia are bringing us a hard rock vibe this year. There’s heavily-distorted electric guitars, some spittingly-speedy lyrics and exceedingly questionable rhyming schemes. 
+    
+    (“Survivor” does not rhyme with “Staying alive”, no matter how much you elongate the last syllable, guys). 
+    
+- country: "Australia"
+  shortcode: "AUS"
+  emoji: "🇦🇺"
+  artist: "Go-Jo"
+  song: "Milkshake Man"
+  language: "English, French"
+  youtube: "example3"
+  semifinal: 2
+  final: false
+  lyric: |
+    I can tell you want a taste of the Milkshake Man!
+  commentary: |
+    This song starts with the familiar progression from "Green Sleeves" on a xylophone. From such innocent beginnings is spawned a song overflowing with absolute filth.
+    
+    This song is choc-full of cheap sugar.
+    
+    *Go-Jo* knows exactly what he’s doing and, no, I absolutely will not be calling him "*the Milkshake Man*".
+    
+- country: "Austria"
+  shortcode: "AUT"
+  emoji: "🇦🇹"
+  artist: "JJ"
+  song: "Wasted Love"
+  language: "English"
+  youtube: "example4"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    There are a lot of tortured water-based metaphors in to begin this song, which initially had me thinking this would be utter dross. 
+    
+    What I wasn’t expecting was a quick tilt from mediocre ballad into operatic style. Maybe I should have; Austria is famous for its opera. 
+    
+    But the surprises didn’t stop there; I was *also* not expecting the mid-song drum and bass drop.
+    
+    Clearly inspired by last year’s Swiss entry and absolutely mad.
+    
+- country: "Azerbaijan"
+  shortcode: "AZE"
+  emoji: "🇦🇿"
+  artist: "Mamagama"
+  song: "Run with U"
+  language: "English"
+  youtube: "example5"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    *Magamama* was clearly using a T9 keyboard on an old Nokia when he wrote the title for this song.
+    
+    Aside from the poor spelling, this is an enjoyable fusion of modern beats and what I assume are authentic Azerbaijani instruments, twanging away atop.
+    
+- country: "Belgium"
+  shortcode: "BEL"
+  emoji: "🇧🇪"
+  artist: "Red Sebastian"
+  song: "Strobe Lights"
+  language: "English"
+  youtube: "example6"
+  semifinal: 1
+  final: false
+  lyric: |
+    Cotton candy haze,
+    Float around in space.
+  commentary: |
+    This is a song of high-drama, clubland mist and colossally clichéd lyrics. 
+    
+    It ups the ante and energy as it goes on; which I appreciate.
+    
+    There’s an impressive falsetto towards the finish; but as ever, the live vocal will be what counts. Will it sound as good on the night?
+    
+- country: "Croatia"
+  shortcode: "HRV"
+  emoji: "🇭🇷"
+  artist: "Marko Bošnjak"
+  song: "Poison Cake"
+  language: "English"
+  youtube: "example7"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    This is the latest participant in a long line of food-related Eurovision songs. Classics of the genre include 2014's Belarussian and Latvian entries, *Cheesecake* and *Cake to Bake*, and the 2021 Moldovan entry, *Sugar*.
+    
+    It’s hard to not see the connection to last year's Irish entry, though this is much more erratic. The delirious musical style ranges from death-metal, to spoken word, to sugar-pop.
+    
+    *Nigella* would never.
+    
+- country: "Cyprus"
+  shortcode: "CYP"
+  emoji: "🇨🇾"
+  artist: "Theo Evan"
+  song: "Shh"
+  language: "English"
+  youtube: "example8"
+  semifinal: 1
+  final: false
+  lyric: |
+    I’ve been told I am a little over confident and this will be my downfall.
+  commentary: |
+    We are off to clubland with this interminable track that’s filled with more clichés than a drag brunch bingo event.
+    
+    The choruses are fine, I guess, but the whole thing is delivered without any real charisma. For an attempt at a gay club banger, it needs a lot more sex and fervour.
+    
+- country: "Czechia"
+  shortcode: "CZE"
+  emoji: "🇨🇿"
+  artist: "Adonxs"
+  song: "Kiss Kiss Goodbye"
+  language: "English"
+  youtube: "example9"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    There’s a rich tone to the vocals in this song and it’s a decent, mid-tempo, moody ballad.
+    
+    The middle eight doesn’t fit at all with the rest of the song; ramming a dance track breakdown into a ballad is a cheap trick to breathe life to a corpse and in this case, it wasn’t necessary.
+    
+- country: "Denmark"
+  shortcode: "DNK"
+  emoji: "🇩🇰"
+  artist: "Sissal"
+  song: "Hallucination"
+  language: "English"
+  youtube: "example10"
+  semifinal: 2
+  final: false
+  lyric: |
+    You're my hallu-
+    Hallucination
+  commentary: |
+    Now *this* is why I come for Eurovision!
+    
+    Denmark is serving up supreme Scandipop. A good beat, slick production and a cracking vocal.
+    
+    I love the falsetto riff in the chorus. 
+    
+    The music reminds me a little of *Euphoria*.
+    
+    *Douze points* from me.
+    
+- country: "Estonia"
+  shortcode: "EST"
+  emoji: "🇪🇪"
+  artist: "Tommy Cash"
+  song: "Espresso Macchiato"
+  language: "Italian, English"
+  youtube: "example11"
+  semifinal: 1
+  final: false
+  lyric: |
+    No need to be depresso 
+  commentary: |
+    I had assumed this would be a stylish response to Sabrina Carpenter. You know, like when Miley did *Flowers* as a massive [“fuck you” to her ex-husband](https://www.smoothradio.com/artists/bruno-mars/miley-cyrus-flowers-lyrics-meaning/) by interpolating Bruno Mars’ *When I Was Your Man*.
+    
+    Instead, we get a cheap, nonsense song with almost no redeeming features.
+    
+    *Next!*
+    
+- country: "Finland"
+  shortcode: "FIN"
+  emoji: "🇫🇮"
+  artist: "Erika Vikman"
+  song: 
+    original: "Ich komme"
+    english: "I’m coming"
+  language: "Finnish"
+  youtube: "example12"
+  semifinal: 2
+  final: false
+  lyric: |
+    I'll dance with you evеn a wedding waltz, but naked
+  commentary: |
+    I guess we're still trying to replicate *Cha Cha Cha* then.
+    
+    This has a ridiculous vibe. Like something out of an 80's musical B-movie.
+    
+    They absolutely know what they've done with the song title, and the lyrics are pure filth. It's got spunk -- literally.
+    
+- country: "France"
+  shortcode: "FRA"
+  emoji: "🇫🇷"
+  artist: "Louane"
+  song: 
+    original: "Mamon"
+    english: "Mom"
+  language: "French"
+  youtube: "example13"
+  semifinal: false
+  final: true
+  lyric: |
+    There are no more one night stands,
+    There are no more beds
+  commentary: |
+    I have a habit of dismissing the French *chanson* style, and that is unfair. It’s a beautiful style. And I’m learning to like it; listening back to old Eurovision albums gives me an increasing appreciation of the style.
+    
+    I don’t know if this strictly within the *chanson* genre but, nonetheless, there’s a woman singing dramatically.
+    
+    And then a random child at the end.
+    
+- country: "Georgia"
+  shortcode: "GEO"
+  emoji: "🇬🇪"
+  artist: "Mariam Shengelia"
+  song: "Freedom"
+  language: "Georgian, English"
+  youtube: "example14"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    Somewhat terrifying deep vocals lurk underneath this somewhat bonkers song. I feel like witness to a dark arts ritual at which there will be a sacrifice.
+    
+    The gear shifts between the verses and chorus are pretty jarring and rip you out of the moment a bit.
+    
+- country: "Germany"
+  shortcode: "DEU"
+  emoji: "🇩🇪"
+  artist: "Abor & Tynna"
+  song: 
+    original: "Baller"
+    english: "Shoot"
+  language: "German"
+  youtube: "example15"
+  semifinal: false
+  final: true
+  lyric: |
+    And then I'll change perfumes, and buy myself a new outfit
+  commentary: |
+    We’ve got high-pitched synths and nonsense lyrics in this trance, clubland track.
+    
+    The styling of the vocals, stuttering and sputtering across the track, is fun and unique.
+    
+    I like it.
+    
+- country: "Greece"
+  shortcode: "GRC"
+  emoji: "🇬🇷"
+  artist: "Klavdia"
+  song: 
+    original: "Asteromata"
+    english: "Star Eyes"
+  language: "Greek"
+  youtube: "example16"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    I like the sound of the titular word “Astromata” -- it’s fun to say and to listen to.
+    
+    The first 1:30 of this song are dreary and uninspiring. There's some more texture in the second half; more synth, more percussion, more drama and more power in the vocal.
+    
+    But it never quite goes anywhere. I certainly don't feel like I'm transcending to the stars.
+    
+- country: "Iceland"
+  shortcode: "ISL"
+  emoji: "🇮🇸"
+  artist: "Væb"
+  song: 
+    original: "Róa"
+    english: "Calm"
+  language: "Icelandic"
+  youtube: "example17"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    Well, there's certainly nothing calm about this.
+    
+    Another predominantly spoken word and rap number, with clear inspiration from *Windows95Man*, of last year’s Contest.
+    
+    Dire.
+    
+- country: "Ireland"
+  shortcode: "IRL"
+  emoji: "🇮🇪"
+  artist: "EMMY"
+  song: "Laika Party"
+  language: "English"
+  youtube: "example18"
+  semifinal: 2
+  final: false
+  lyric: |
+    Like a party in the sky
+  commentary: |
+    This threw me straight back to *The Logical Song* ([the cover by Scooter](https://youtu.be/4YxTa1AUqps), not [the original by Supertramp](https://youtu.be/kln_bIndDJg?si=4TQ79lgPqT-IQbAF))
+    
+    This is generic, dance floor-filling trash and I love it.
+    
+- country: "Israel"
+  shortcode: "ISR"
+  emoji: "🇮🇱"
+  artist: "Yuval Raphael"
+  song: "New Day Will Rise"
+  language: "English, French, Hebrew"
+  youtube: "example19"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    I miss the days of Israel being fun at Eurovision. *[Toy](https://youtu.be/CziHrYYSyPc?si=sUKEwmsK2ucTaJTy)*. *[Golden Boy](https://youtu.be/NdxOCTezeTg?si=CvAQCr9Rj4Ph9e9w)*.
+    
+    Nevertheless, this is a ballad in three separate languages -- English, French and Hebrew -- which is an impressive twist.
+    
+    There are flashes of *Celine Dion* in this crescendoing ballad. 
+    
+- country: "Italy"
+  shortcode: "ITA"
+  emoji: "🇮🇹"
+  artist: "Lucio Corsi"
+  song: 
+    original: "Volevo essere un duro"
+    english: "I Wanted to Be a Tough Guy"
+  language: "Italian"
+  youtube: "example20"
+  semifinal: false
+  final: true
+  lyric: |
+    I wanted to be a tough guy,
+    But I'm nobody
+  commentary: |
+    Another year, another Italian man singing a dreary song with a sloppy rhythm and the occasional shouty lyric.
+    
+    The lyrics, if you look them up, are marginally disturbed.
+    
+    Anyway, *meh*. [Just give us more opera!](https://www.youtube.com/watch?v=1TOMqZV2jA8)
+    
+- country: "Latvia"
+  shortcode: "LVA"
+  emoji: "🇱🇻"
+  artist: "Tautumeitas"
+  song: 
+    original: "Bur man laimi"
+    english: "Give Me Luck"
+  language: "Latvian"
+  youtube: "example21"
+  semifinal: 2
+  final: false
+  lyric: |
+    Curses and hexes, never can they ruin me
+  commentary: |
+    This is a classic of the “bunch of women screaming nonsensically atop a heavily over-orchestrated backing track” genre: a Eurovision staple but hardly worth the three minutes.
+    
+- country: "Lithuania"
+  shortcode: "LTU"
+  emoji: "🇱🇹"
+  artist: "Katarsis"
+  song: 
+    original: "Tavo akys"
+    english: "Your Eyes"
+  language: "Lithuanian"
+  youtube: "example22"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    A miserable, droning verse crashes into an angsty chorus in this “experimental rock” track.
+    
+    The vocalist sounds like he'd rather be having a root-canal than singing this song.
+    
+- country: "Luxembourg"
+  shortcode: "LUX"
+  emoji: "🇱🇺"
+  artist: "Laura Thorn"
+  song: 
+    original: "La poupeé monte le son"
+    english: "The doll turns up the sound"
+  language: "French"
+  youtube: "example23"
+  semifinal: 2
+  final: false
+  lyric: |
+    I make my voice heard to trigger in you
+    The electric shock
+  commentary: |
+    There’s a forceful momentum to this song that’s quite fun.
+    
+    It’s *different* from almost everything else. Perhaps a bit cheesy, though the lyrics are somewhat more serious than the puppet metaphor would imply.
+    
+- country: "Malta"
+  shortcode: "MLT"
+  emoji: "🇲🇹"
+  artist: "Miriana Conte"
+  song: "Serving"
+  language: "English"
+  youtube: "example24"
+  semifinal: 2
+  final: false
+  lyric: |
+    Serving (Ah)
+  commentary: |
+    I aware of the controversy surrounding this track and its original lyrics. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
+    
+    Clearly that was a publicity stunt, but it almost wasn’t necessary. This is a sassy banger.
+    
+    Three minutes of high-energy, four to the floor drums and confident vocals.
+    
+- country: "Montenegro"
+  shortcode: "MNE"
+  emoji: "🇲🇪"
+  artist: "Nina Žižić"
+  song: 
+    original: "Dobrodošli"
+    english: "Welcome"
+  language: "Montenegrin"
+  youtube: "example25"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    For a song entitled *Welcome* this song isn't half well... unwelcoming. It’s incredibly dramatic. It’s almost like a Bond-theme, with an undulating melody that rocks up-and-down the scales on the keys.
+    
+- country: "Netherlands"
+  shortcode: "NLD"
+  emoji: "🇳🇱"
+  artist: "Claude"
+  song: 
+    original: "C'est la vie"
+    english: "That's Life"
+  language: "French, English"
+  youtube: "example26"
+  semifinal: 1
+  final: false
+  lyric: |
+    It's like this, it's like that,
+    It goes up, it goes down,
+    And around and around
+  commentary: |
+    Well this is chockablock with completely nonsense French-isms that no French person probably ever says. 
+    
+    I don't hate it. It's got a fun rhythm and musicality to it. It’s just a bit empty.
+    
+- country: "Norway"
+  shortcode: "NOR"
+  emoji: "🇳🇴"
+  artist: "Kyle Alessandro"
+  song: "Lighter"
+  language: "English"
+  youtube: "example27"
+  semifinal: 1
+  final: false
+  lyric: |
+    I don't need saving, 
+    ’cause I’m my own lighter.
+  commentary: |
+    This is classic Scandi-pop, which obviously means I bloody love it.
+    
+- country: "Poland"
+  shortcode: "POL"
+  emoji: "🇵🇱"
+  artist: "Justyna Steczkowska"
+  song: 
+    original: "Gaja"
+    english: "Gaia"
+  language: "Polish, English"
+  youtube: "example28"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    This is dark and moody and, given the title of the song, I suspect intended to help you find your spiritual centre and respect Mother Earth.
+    
+    It’s a droning mess of noises undercut with a distorted beat. Not for me.
+    
+- country: "Portugal"
+  shortcode: "POR"
+  emoji: "🇵🇹"
+  artist: "Napa"
+  song: 
+    original: "Deslocado"
+    english: "Dislocated"
+  language: "Portuguese"
+  youtube: "example28"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    Piano, acoustic and electric guitar, and a lilting vocal come together for this *Beatles*-adjacent gentle track.
+    
+    It’s pleasing enough but it also feels unresolved. It ultimately goes nowhere.
+    
+- country: "San Marino"
+  shortcode: "SMR"
+  emoji: "🇸🇲"
+  artist: "Gabry Ponte"
+  song: 
+    original: "Tutta l'Italia"
+    english: "All of Italy"
+  language: "Italian"
+  youtube: "example29"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    This sounds like it was ripped straight out of an early 2000s Eurovision Song Contest. 
+    
+    Yes, dear reader it's that bad.
+    
+    Obviously I know that San Marino is landlocked inside Italy and that they will share a cultural affinity; but I am baffled as to why you would sing a song about *Tutta l'Italia* when, you know, you're not representing Italy?!
+    
+- country: "Serbia"
+  shortcode: "SRB"
+  emoji: "🇷🇸"
+  artist: "Princ"
+  song: 
+    original: "Mila"
+    english: "Dear"
+  language: "Serbian"
+  youtube: "example30"
+  semifinal: 2
+  final: false
+  lyric: |
+    
+  commentary: |
+    One of the dreariest ballads you could possible imagine. There’s a late-game rock guitar and choral drop that does nothing to improve the overall miserable impression.
+    
+- country: "Slovenia"
+  shortcode: "SVN"
+  emoji: "🇸🇮"
+  artist: "Klemen"
+  song: "How Much Time Do We Have Left"
+  language: "English"
+  youtube: "example31"
+  semifinal: 1
+  final: false
+  lyric: |
+    You never gave up,
+    Until you grew wings
+  commentary: |
+    Oh my word is this sad. You can feel the pain in this song right from the very first line.
+    
+    Maybe I'm feeling emotionally fragile, but I genuinely had a tear in my eye.
+    
+    A beautiful ballad.
+    
+- country: "Spain"
+  shortcode: "ESP"
+  emoji: "🇪🇸"
+  artist: "Melody"
+  song: 
+    original: "Esa diva"
+    english: "That diva"
+  language: "Spanish"
+  youtube: "example32"
+  semifinal: false
+  final: true
+  lyric: |
+    
+  commentary: |
+    This feels like a sexed-up, modernised flamenco. 
+    
+    A lot of distorted synths, maracas and a flamenco guitar underpin a defiant, almost vengeful, vocal.
+    
+- country: "Sweden"
+  shortcode: "SWE"
+  emoji: "🇸🇪"
+  artist: "KAJ"
+  song: 
+    original: "Bara Bada Bastu"
+    english: "Just Sauna Bathing"
+  language: "Swedish"
+  youtube: "example33"
+  semifinal: 1
+  final: false
+  lyric: |
+    Sauna brothers, we’re the ones who glow
+    100 degrees, oh yes
+  commentary: |
+    Eh... *what*?! What happened?!
+    
+    Slick Swedish pop is why I fell in love with Eurovision. This isn’t that. It’s a cheesy 1990s era comedy track.
+    
+    Don’t get me wrong, it has its charm, and I have no doubt there’s a gimmick that will catch the eye of the voting public (no one wins *Melodifestivalen* and gets to represent Sweden by accident) -- but I am nonetheless baffled by this.
+    
+- country: "Switzerland"
+  shortcode: "CHE"
+  emoji: "🇨🇭"
+  artist: "Zoë Më"
+  song:
+    - original: "Voyage"
+      english: "Journey"
+  language: "French"
+  youtube: "example34"
+  semifinal: false
+  final: true
+  lyric: |
+    
+  commentary: |
+    Soft, breathy vocals and a floating melody come together to create this perfectly pleasant song that I suspect most people will forget; it’s nothing special.
+    
+    The last minute attempt at injecting some life into it with a staccato, violin breakdown doesn’t really do anything to save it from what I suspect will be inevitable obscurity.
+    
+- country: "Ukraine"
+  shortcode: "UKR"
+  emoji: "🇺🇦"
+  artist: "Ziferblat"
+  song: "Bird of Prey"
+  language: "Ukrainian, English"
+  youtube: "example35"
+  semifinal: 1
+  final: false
+  lyric: |
+    
+  commentary: |
+    Given the song title, I was expecting something more *[Klingon](https://youtu.be/DSCWB4GqcFE?si=hpU0pWagG61tkU2A)*. 
+    
+    Instead we get this electric guitar-laden, soft-rock number, filled with chorus chants and false stops. All very late 90s, which is probably where it should have stayed.
+    
+- country: "United Kingdom"
+  shortcode: "GBR"
+  emoji: "🇬🇧"
+  artist: "Remember Monday"
+  song: "What the Hell Just Happened?"
+  language: "English"
+  youtube: "example36"
+  semifinal: false
+  final: true
+  lyric: |
+    
+  commentary: |
+    This song is a disjointed mess. For a group that is allegedly a country group, there’s nothing country about it. The rhythm shifts are jarring.
+    
+    It seems the vocals will be strong but the song is just awful. Musical theatre-style nonsense.
+
+
+summing-up: |
+   
+---

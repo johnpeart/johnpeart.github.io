@@ -103,7 +103,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    *Magamama* was clearly using a T9 keyboard on an old Nokia when he wrote the title for this song.
+    *Mamagama* was clearly using a T9 keyboard on an old Nokia when he wrote the title for this song.
     
     Aside from the poor spelling, this is an enjoyable fusion of modern beats and what I assume are authentic Azerbaijani instruments, twanging away atop.
     
@@ -235,7 +235,7 @@ eurovision-entries:
     
     This has a ridiculous vibe. Like something out of an 80's musical B-movie.
     
-    They absolutely know what they've done with the song title, and the lyrics are pure filth. It's got spunk -- literally.
+    They absolutely know what they've done with the song title and the lyrics are pure filth. It's got spunk -- literally.
     
 - country: "France"
   shortcode: "FRA"
@@ -252,9 +252,9 @@ eurovision-entries:
     There are no more one night stands,
     There are no more beds
   commentary: |
-    I have a habit of dismissing the French *chanson* style, and that is unfair. It’s a beautiful style. And I’m learning to like it; listening back to old Eurovision albums gives me an increasing appreciation of the style.
+    I have a habit of dismissing the French *chanson* style and that is unfair. It’s a beautiful style and I’m learning to like it. Listening back to old Eurovision albums gives me an increasing appreciation of the style.
     
-    I don’t know if this strictly within the *chanson* genre but, nonetheless, there’s a woman singing dramatically.
+    I don’t know if this is strictly within the *chanson* genre but, nonetheless, there’s a woman singing dramatically.
     
     And then a random child at the end.
     
@@ -270,9 +270,9 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    Somewhat terrifying deep vocals lurk underneath this somewhat bonkers song. I feel like witness to a dark arts ritual at which there will be a sacrifice.
+    Some terrifyingly deep vocals lurk underneath this somewhat bonkers song. I feel like witness to a dark arts ritual at which there will be a sacrifice.
     
-    The gear shifts between the verses and chorus are pretty jarring and rip you out of the moment a bit.
+    The gear shifts between the verses and chorus are pretty jarring, and rip you out of the moment a bit.
     
 - country: "Germany"
   shortcode: "DEU"
@@ -286,11 +286,11 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    And then I'll change perfumes, and buy myself a new outfit
+    And then I'll change perfumes and buy myself a new outfit
   commentary: |
-    We’ve got high-pitched synths and nonsense lyrics in this trance, clubland track.
+    We’ve got high-pitched synths and nonsense lyrics in this trance track.
     
-    The styling of the vocals, stuttering and sputtering across the track, is fun and unique.
+    The styling of the vocals -- stuttering and sputtering -- is fun and unique.
     
     I like it.
     
@@ -366,7 +366,7 @@ eurovision-entries:
     
     Nevertheless, this is a ballad in three separate languages -- English, French and Hebrew -- which is an impressive twist.
     
-    There are flashes of *Celine Dion* in this crescendoing ballad. 
+    There are flashes of *Celine Dion* in this track as it crescendos towards its conclusion. 
     
 - country: "Italy"
   shortcode: "ITA"
@@ -454,9 +454,9 @@ eurovision-entries:
   lyric: |
     Serving (Ah)
   commentary: |
-    I aware of the controversy surrounding this track and its original lyrics. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
+    I am aware of the controversy surrounding this track and its original lyrics. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
     
-    Clearly that was a publicity stunt, but it almost wasn’t necessary. This is a sassy banger.
+    Clearly that was a publicity stunt but it almost wasn’t necessary. This is a sassy banger.
     
     Three minutes of high-energy, four to the floor drums and confident vocals.
     

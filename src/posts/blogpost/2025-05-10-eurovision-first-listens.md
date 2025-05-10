@@ -581,7 +581,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    One of the dreariest ballads you could possible imagine. There’s a late-game rock guitar and choral drop that does nothing to improve the overall miserable impression.
+    One of the dreariest ballads you could possibly imagine. There’s a late-game rock guitar and choral drop that does nothing to improve the overall miserable impression.
     
 - country: "Slovenia"
   shortcode: "SVN"
@@ -646,8 +646,8 @@ eurovision-entries:
   emoji: "🇨🇭"
   artist: "Zoë Më"
   song:
-    - original: "Voyage"
-      english: "Journey"
+    original: "Voyage"
+    english: "Journey"
   language: "French"
   youtube: "dGX54zRExR8"
   semifinal: false
@@ -687,7 +687,9 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    This song is a disjointed mess. For a group that is allegedly a country group, there’s nothing country about it. The rhythm shifts are jarring.
+    This song is a disjointed mess. The tempo shifts are jarring.
+    
+    For a group that is allegedly a country group, there’s nothing country about it. 
     
     It seems the vocals will be strong but the song is just awful. Musical theatre-style nonsense.
 

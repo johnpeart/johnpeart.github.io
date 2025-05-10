@@ -21,12 +21,12 @@
                             <h3>{{ entry.country }}</h3>
                             <p>{{ songTitle }} by {{ entry.artist }}</p>
                     </div>
-                    {% if entry.lyric -%}
-                        <div class="speech-bubble padding--last-child" styles="--mult: 0">
-                            {{ entry.lyric | markdownify }}
-                        </div> 
-                    {%- endif %}
                 {% if entry.youtube -%}</a>{%- endif %}
+                {% if entry.lyric -%}
+                    <div class="speech-bubble padding--last-child" styles="--mult: 0">
+                        {{ entry.lyric | markdownify }}
+                    </div> 
+                {%- endif %}
                     
             </section>
             

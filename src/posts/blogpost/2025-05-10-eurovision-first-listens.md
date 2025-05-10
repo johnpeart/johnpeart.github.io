@@ -498,28 +498,28 @@ eurovision-entries:
     
 - country: "Norway"
   shortcode: "NOR"
-  emoji: “🇳🇴”
-  artist: “Kyle Alessandro”
-  song: “Lighter”
-  language: “English”
-  youtube: “pUjWzQ671MQ”
+  emoji: "🇳🇴"
+  artist: "Kyle Alessandro"
+  song: "Lighter"
+  language: "English"
+  youtube: "pUjWzQ671MQ"
   semifinal: 1
   final: false
   lyric: |
-    I don’t need saving, 
+    I don't need saving, 
     ’cause I’m my own lighter.
   commentary: |
     This is classic Scandi-pop, which obviously means I bloody love it.
     
-- country: “Poland”
-  shortcode: “POL”
-  emoji: “🇵🇱”
-  artist: “Justyna Steczkowska”
+- country: "Poland"
+  shortcode: "POL"
+  emoji: "🇵🇱"
+  artist: "Justyna Steczkowska"
   song: 
-    original: “Gaja”
-    english: “Gaia”
-  language: “Polish, English”
-  youtube: “YXHHDjiclxA”
+    original: "Gaja"
+    english: "Gaia"
+  language: "Polish, English"
+  youtube: "YXHHDjiclxA"
   semifinal: 1
   final: false
   lyric: |
@@ -529,15 +529,15 @@ eurovision-entries:
     
     It’s a droning mess of noises undercut with a distorted beat. Not for me.
     
-- country: “Portugal”
-  shortcode: “POR”
-  emoji: “🇵🇹”
-  artist: “Napa”
+- country: "Portugal"
+  shortcode: "POR"
+  emoji: "🇵🇹"
+  artist: "Napa"
   song: 
-    original: “Deslocado”
-    english: “Dislocated”
-  language: “Portuguese”
-  youtube: “-s1Cc2uEj3U”
+    original: "Deslocado"
+    english: "Dislocated"
+  language: "Portuguese"
+  youtube: "-s1Cc2uEj3U"
   semifinal: 1
   final: false
   lyric: |
@@ -547,15 +547,15 @@ eurovision-entries:
     
     It’s pleasing enough but it also feels unresolved. It ultimately goes nowhere.
     
-- country: “San Marino”
-  shortcode: “SMR”
-  emoji: “🇸🇲”
-  artist: “Gabry Ponte”
+- country: "San Marino"
+  shortcode: "SMR"
+  emoji: "🇸🇲"
+  artist: "Gabry Ponte"
   song: 
-    original: “Tutta l’Italia”
-    english: “All of Italy”
-  language: “Italian”
-  youtube: “Le3WpaLYRvE”
+    original: "Tutta l'Italia"
+    english: "All of Italy"
+  language: "Italian"
+  youtube: "Le3WpaLYRvE"
   semifinal: 1
   final: false
   lyric: |
@@ -563,19 +563,19 @@ eurovision-entries:
   commentary: |
     This sounds like it was ripped straight out of an early 2000s Eurovision Song Contest. 
     
-    Yes, dear reader it’s that bad.
+    Yes, dear reader it's that bad.
     
-    Obviously I know that San Marino is landlocked inside Italy and that they will share a cultural affinity; but I am baffled as to why you would sing a song about *Tutta l’Italia* when, you know, you’re not representing Italy?!
+    Obviously I know that San Marino is landlocked inside Italy and that they will share a cultural affinity; but I am baffled as to why you would sing a song about *Tutta l'Italia* when, you know, you're not representing Italy?!
     
-- country: “Serbia”
-  shortcode: “SRB”
-  emoji: “🇷🇸”
-  artist: “Princ”
+- country: "Serbia"
+  shortcode: "SRB"
+  emoji: "🇷🇸"
+  artist: "Princ"
   song: 
-    original: “Mila”
-    english: “Dear”
-  language: “Serbian”
-  youtube: “18BCbtvDcag”
+    original: "Mila"
+    english: "Dear"
+  language: "Serbian"
+  youtube: "18BCbtvDcag"
   semifinal: 2
   final: false
   lyric: |
@@ -583,13 +583,13 @@ eurovision-entries:
   commentary: |
     One of the dreariest ballads you could possible imagine. There’s a late-game rock guitar and choral drop that does nothing to improve the overall miserable impression.
     
-- country: “Slovenia”
-  shortcode: “SVN”
-  emoji: “🇸🇮”
-  artist: “Klemen”
-  song: “How Much Time Do We Have Left”
-  language: “English”
-  youtube: “GT1YhfRpq3Q”
+- country: "Slovenia"
+  shortcode: "SVN"
+  emoji: "🇸🇮"
+  artist: "Klemen"
+  song: "How Much Time Do We Have Left"
+  language: "English"
+  youtube: "GT1YhfRpq3Q"
   semifinal: 1
   final: false
   lyric: |
@@ -598,19 +598,19 @@ eurovision-entries:
   commentary: |
     Oh my word is this sad. You can feel the pain in this song right from the very first line.
     
-    Maybe I’m feeling emotionally fragile, but I genuinely had a tear in my eye.
+    Maybe I'm feeling emotionally fragile, but I genuinely had a tear in my eye.
     
     A beautiful ballad.
     
-- country: “Spain”
-  shortcode: “ESP”
-  emoji: “🇪🇸”
-  artist: “Melody”
+- country: "Spain"
+  shortcode: "ESP"
+  emoji: "🇪🇸"
+  artist: "Melody"
   song: 
-    original: “Esa diva”
-    english: “That diva”
-  language: “Spanish”
-  youtube: “BvVxhbCW9rw”
+    original: "Esa diva"
+    english: "That diva"
+  language: "Spanish"
+  youtube: "BvVxhbCW9rw"
   semifinal: false
   final: true
   lyric: |
@@ -620,15 +620,15 @@ eurovision-entries:
     
     A lot of distorted synths, maracas and a flamenco guitar underpin a defiant, almost vengeful, vocal.
     
-- country: “Sweden”
-  shortcode: “SWE”
-  emoji: “🇸🇪”
-  artist: “KAJ”
+- country: "Sweden"
+  shortcode: "SWE"
+  emoji: "🇸🇪"
+  artist: "KAJ"
   song: 
-    original: “Bara Bada Bastu”
-    english: “Just Sauna Bathing”
-  language: “Swedish”
-  youtube: “WK3HOMhAeQY”
+    original: "Bara Bada Bastu"
+    english: "Just Sauna Bathing"
+  language: "Swedish"
+  youtube: "WK3HOMhAeQY"
   semifinal: 1
   final: false
   lyric: |
@@ -639,17 +639,17 @@ eurovision-entries:
     
     Slick Swedish pop is why I fell in love with Eurovision. This isn’t that. It’s a cheesy 1990s era comedy track.
     
-    Don’t get me wrong, it has its charm, and I have no doubt there’s a gimmick that will catch the eye of the voting public (no one wins *Melodifestivalen* and gets to represent Sweden by accident) — but I am nonetheless baffled by this.
+    Don’t get me wrong, it has its charm, and I have no doubt there’s a gimmick that will catch the eye of the voting public (no one wins *Melodifestivalen* and gets to represent Sweden by accident) -- but I am nonetheless baffled by this.
     
-- country: “Switzerland”
-  shortcode: “CHE”
-  emoji: “🇨🇭”
-  artist: “Zoë Më”
+- country: "Switzerland"
+  shortcode: "CHE"
+  emoji: "🇨🇭"
+  artist: "Zoë Më"
   song:
-    - original: “Voyage”
-      english: “Journey”
-  language: “French”
-  youtube: “dGX54zRExR8”
+    - original: "Voyage"
+      english: "Journey"
+  language: "French"
+  youtube: "dGX54zRExR8"
   semifinal: false
   final: true
   lyric: |
@@ -659,13 +659,13 @@ eurovision-entries:
     
     The last minute attempt at injecting some life into it with a staccato, violin breakdown doesn’t really do anything to save it from what I suspect will be inevitable obscurity.
     
-- country: “Ukraine”
-  shortcode: “UKR”
-  emoji: “🇺🇦”
-  artist: “Ziferblat”
-  song: “Bird of Prey”
-  language: “Ukrainian, English”
-  youtube: “OJ1x2aiL7ks”
+- country: "Ukraine"
+  shortcode: "UKR"
+  emoji: "🇺🇦"
+  artist: "Ziferblat"
+  song: "Bird of Prey"
+  language: "Ukrainian, English"
+  youtube: "OJ1x2aiL7ks"
   semifinal: 1
   final: false
   lyric: |
@@ -675,13 +675,13 @@ eurovision-entries:
     
     Instead we get this electric guitar-laden, soft-rock number, filled with chorus chants and false stops. All very late 90s, which is probably where it should have stayed.
     
-- country: “United Kingdom”
-  shortcode: “GBR”
-  emoji: “🇬🇧”
-  artist: “Remember Monday”
-  song: “What the Hell Just Happened?”
-  language: “English”
-  youtube: “-hu6R3ZnOdY"
+- country: "United Kingdom"
+  shortcode: "GBR"
+  emoji: "🇬🇧"
+  artist: "Remember Monday"
+  song: "What the Hell Just Happened?"
+  language: "English"
+  youtube: "-hu6R3ZnOdY"
   semifinal: false
   final: true
   lyric: |

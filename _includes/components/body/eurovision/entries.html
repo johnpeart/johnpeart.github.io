@@ -23,9 +23,7 @@
                     </div>
                 {% if entry.youtube -%}</a>{%- endif %}
                 {% if entry.lyric -%}
-                    <div class="speech-bubble padding--last-child" styles="--mult: 0">
-                        {{ entry.lyric | markdownify }}
-                    </div> 
+                    {{ entry.lyric | markdownify | replace: '<p>', '<p class="speech-bubble">' }}
                 {%- endif %}
                     
             </section>

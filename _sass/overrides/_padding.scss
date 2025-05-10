@@ -18,3 +18,7 @@
 .padding-right {
     padding-right: calc(var(--pad) * var(--mult)) !important;
 }
+
+.padding--last-child *:last-child {
+    padding: calc(var(--pad) * var(--mult)) !important;
+}

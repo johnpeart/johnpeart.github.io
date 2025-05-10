@@ -229,7 +229,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   lyric: |
-    I'll dance with you evеn a wedding waltz, but naked
+    I'll dance with you even a wedding waltz, but naked
   commentary: |
     I guess we're still trying to replicate *Cha Cha Cha* then.
     

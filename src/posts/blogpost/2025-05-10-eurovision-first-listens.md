@@ -488,7 +488,7 @@ eurovision-entries:
   lyric: |
     Serving (Ah)
   commentary: |
-    I am aware of the controversy surrounding this track and that it was originally titled *Kant* (it's the Maltese word for "singing") and that "ah" wasn't the that appeared word after "serving" in the chorus. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
+    I am aware of the controversy surrounding this track and that it was originally titled *Kant* (it's the Maltese word for "singing") and that "ah" wasn't the word that appeared after "serving" in the chorus. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
     
     Clearly that was a publicity stunt but it almost wasn’t necessary. This is a sassy banger.
     

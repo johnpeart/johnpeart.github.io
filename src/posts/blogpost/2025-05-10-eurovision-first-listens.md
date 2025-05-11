@@ -138,7 +138,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    This is the latest participant in a long line of food-related Eurovision songs. Classics of the genre include 2014's Belarussian and Latvian entries, *Cheesecake* and *Cake to Bake*, and the 2021 Moldovan entry, *Sugar*.
+    This is the latest in a long line of food-related Eurovision songs. Classics of the genre include 2014's Belarussian and Latvian entries, *Cheesecake* and *Cake to Bake*, and the 2021 Moldovan entry, *Sugar*.
     
     It’s hard to not see the connection to last year's Irish entry, though this is much more erratic. The delirious musical style ranges from death-metal, to spoken word, to sugar-pop.
     
@@ -174,7 +174,7 @@ eurovision-entries:
   commentary: |
     There’s a rich tone to the vocals in this song and it’s a decent, mid-tempo, moody ballad.
     
-    The middle eight doesn’t fit at all with the rest of the song; ramming a dance track breakdown into a ballad is a cheap trick to breathe life to a corpse and in this case, it wasn’t necessary.
+    The middle eight doesn’t fit at all with the rest of the song. Ramming a dance track breakdown into a ballad is a cheap trick to breathe life to a corpse and in this case, it wasn’t necessary.
     
 - country: "Denmark"
   shortcode: "DNK"
@@ -193,9 +193,9 @@ eurovision-entries:
     
     Denmark is serving up supreme Scandipop. A good beat, slick production and a cracking vocal.
     
-    I love the falsetto riff in the chorus. 
+    I was hooked from the first few seconds.
     
-    The music reminds me a little of *Euphoria*.
+    The catchy falsetto riff in the chorus is a sublime earworm. The orchestration reminds me a little of *Euphoria*.
     
     *Douze points* from me.
     
@@ -235,7 +235,7 @@ eurovision-entries:
     
     This has a ridiculous vibe. Like something out of an 80's musical B-movie.
     
-    They absolutely know what they've done with the song title and the lyrics are pure filth. It's got spunk -- literally.
+    Erika hasn't shied away from the sexual innuendo.  The lyrics are pure filth; they've got spunk -- literally.
     
 - country: "France"
   shortcode: "FRA"
@@ -308,7 +308,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    I like the sound of the titular word “Astromáta” -- it’s fun to say and to listen to.
+    I like the sound of the titular word “Asteromáta” -- it’s fun to say and to listen to.
     
     The first 1:30 of this song are dreary and uninspiring. There's some more texture in the second half; more synth, more percussion, more drama and more power in the vocal.
     
@@ -362,7 +362,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    I miss the days of Israel being fun at Eurovision. *[Toy](CziHrYYSyPc?si=sUKEwmsK2ucTaJTy)*. *[Golden Boy](NdxOCTezeTg?si=CvAQCr9Rj4Ph9e9w)*.
+    I miss the days of Israel being fun at Eurovision. They days of *[Toy](CziHrYYSyPc?si=sUKEwmsK2ucTaJTy)* and *[Golden Boy](NdxOCTezeTg?si=CvAQCr9Rj4Ph9e9w)*.
     
     Nevertheless, this is a ballad in three separate languages -- English, French and Hebrew -- which is an impressive twist.
     
@@ -454,7 +454,7 @@ eurovision-entries:
   lyric: |
     Serving (Ah)
   commentary: |
-    I am aware of the controversy surrounding this track and its original lyrics. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
+    I am aware of the controversy surrounding this track and that it was originally titled *Kant* (it's the Maltese word for "singing") and that "ah" wasn't the that appeared word after "serving" in the chorus. It was this year’s [“veggie and pussy”-moment](https://www.youtube.com/watch?v=DbDj9mBI4g0). 
     
     Clearly that was a publicity stunt but it almost wasn’t necessary. This is a sassy banger.
     
@@ -474,7 +474,9 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    For a song entitled *Welcome* this song isn't half well... unwelcoming. It’s incredibly dramatic. It’s almost like a Bond-theme, with an undulating melody that rocks up-and-down the scales on the keys.
+    For a song entitled *Welcome* this song isn't half... well... *unwelcoming*. 
+    
+    It’s incredibly dramatic. It’s almost like a Bond-theme, with an undulating melody that rocks up-and-down the scales on the keys.
     
 - country: "Netherlands"
   shortcode: "NLD"
@@ -494,7 +496,7 @@ eurovision-entries:
   commentary: |
     Well this is chockablock with completely nonsense French-isms that no French person probably ever says. 
     
-    I don't hate it. It's got a fun rhythm and musicality to it. It’s just a bit empty.
+    I don't hate it. It's got a fun rhythm and musicality to it. It just feels a bit forced.
     
 - country: "Norway"
   shortcode: "NOR"
@@ -543,7 +545,7 @@ eurovision-entries:
   lyric: |
     
   commentary: |
-    Piano, acoustic and electric guitar, and a lilting vocal come together for this *Beatles*-adjacent gentle track.
+    Piano, acoustic and electric guitar, and a lilting vocal come together for this *Beatles*-adjacent, gentle track.
     
     It’s pleasing enough but it also feels unresolved. It ultimately goes nowhere.
     
@@ -563,7 +565,7 @@ eurovision-entries:
   commentary: |
     This sounds like it was ripped straight out of an early 2000s Eurovision Song Contest. 
     
-    Yes, dear reader it's that bad.
+    Yes, dear reader, it's that bad.
     
     Obviously I know that San Marino is landlocked inside Italy and that they will share a cultural affinity; but I am baffled as to why you would sing a song about *Tutta l'Italia* when, you know, you're not representing Italy?!
     
@@ -692,6 +694,10 @@ eurovision-entries:
     For a group that is allegedly a country group, there’s nothing country about it. 
     
     It seems the vocals will be strong but the song is just awful. Musical theatre-style nonsense.
+    
+    Just a few years ago, it felt like the UK has found its groove again. *Space Man* was a heavenly Brit-pop track that deserved the pedestal upon which we all placed it. 
+    
+    But this?! Not this. Anything but this.
 
 
 summing-up: |

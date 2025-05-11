@@ -34,7 +34,20 @@ related:
   link: /2020/04/04/eurovision-first-listens/
 - title: “I listened to every Eurovision 2019 entry, so you don’t have to” 
   date: 2019-04-20
-  link: /2019/04/20/eurovision-first-listens/     
+  link: /2019/04/20/eurovision-first-listens/
+- title: “I listened to every Eurovision 2019 entry, so you don’t have to” 
+  date: 2018-04-18
+  link: /2019/04/18/eurovision-first-listens/
+- title: “I listened to every Eurovision 2018 entry, so you don’t have to” 
+  date: 2017-04-21
+  link: /2017/04/21/eurovision-first-listens/
+- title: “I listened to every Eurovision 2017 entry, so you don’t have to” 
+  date: 2016-04-17
+  link: /2016/04/17/eurovision-first-listens/
+- title: “I listened to every Eurovision 2015 entry, so you don’t have to” 
+  date: 2015-04-20
+  link: /2015/04/20/eurovision-first-listens/
+     
    
 categories:
 - eurovision

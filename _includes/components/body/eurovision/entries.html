@@ -1,22 +1,29 @@
 <div id="esc-entries" data-show="all">
 {% assign entries = eurovision-entries | sort: "country" %}
 {% for entry in entries %}
+    {% if entry.song.original %}
+        {% assign songTitle = entry.song.original | prepend: "“" | append: "” (" | append: entry.song.english | append: ")" %}
+    {% else %}
+        {% assign songTitle = entry.song | prepend: "“" | append: "”" %}
+    {% endif %}
+
     <article id="{{ entry.country | slugify }}" class="h-entry eurovision margin-top margin-bottom" style="--mult: 4;" data-semifinal="{{ entry.semifinal }}" data-final="{{ entry.final }}">
     
         <section class="speech-bubbles speech-bubbles--from-them speech-bubbles--no-photo">
         
             <section class="speech-bubbles--content quote">
                 
-                {% if entry.youtube -%}<a class="speech-bubble--link--eurovision" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ entry.song }} by {{ entry.artist }} on YouTube">{%- endif %}
+                {% if entry.youtube -%}<a class="speech-bubble--link--eurovision" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ songTitle }} by {{ entry.artist }} on YouTube">{%- endif %}
                     {% if entry.youtube -%}<img class="speech-bubble image--16-9" src="https://img.youtube.com/vi/{{ entry.youtube }}/sddefault.jpg">{% endif %}
                 
                     <div class="speech-bubble speech-bubble--eurovision">
                             {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
                             <h3>{{ entry.country }}</h3>
-                            <p>“{{ entry.song }}” by {{ entry.artist }}</p>
+                            <p>{{ songTitle }} by {{ entry.artist }}</p>
                     </div>
                 {% if entry.youtube -%}</a>{%- endif %}
-                    
+                {% if entry.lyric -%}{{ entry.lyric | markdownify | replace: '<p>', '<p class="speech-bubble">' }}{%- endif %}
+                
             </section>
             
             

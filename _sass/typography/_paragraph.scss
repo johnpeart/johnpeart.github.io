@@ -12,12 +12,6 @@ li {
         font-variant: small-caps !important;
     }
 
-    .lead {
-        font-size: clamp(26px, 6.8vw, 43px);
-        font-weight: bold;
-        padding: 0;
-    }
-
     .small-text {
         font-size: clamp(18px, 3vw, 24px) !important;
     }
@@ -29,7 +23,7 @@ li {
 
 p.lead,
 .collection--blogpost .post-body > p:first-of-type {
-    font-size: clamp(26px, 6.8vw, 43px);
+    font-size: clamp(26px, 3.5vw, 40px);
     line-height: 1.15;
     font-weight: bold;
 }

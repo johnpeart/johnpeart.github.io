@@ -4,6 +4,11 @@ author: John Peart
 excerpt: "Here we are again. First impressions of every track, in the order they'll appear, in less than a tweet each."
 layout: blogpost
 image: /posts/eurovision.png
+    
+related:
+- /2016/04/17/eurovision-first-listens/
+- /2015/04/20/eurovision-first-listens/
+
 categories:
   - eurovision
 

@@ -5,6 +5,10 @@ platform: "Game Boy"
 label: "100%"
 artwork: "/assets/images/posts/games/super-mario-land-2-6-golden-coins/label-art.jpg"
 screenshot: "/assets/images/posts/games/super-mario-land-2-6-golden-coins/"
+
+related: 
+- /2025/03/03/svg-game-boy/
+- /2025/04/06/custom-game-boy-cartridges/
 ---
 
 The games in the *Super Mario Land* series that I played the most as a child were *Super Mario Land* and [*Super Mario Land 3: Wario Land*](/game/1728207180/). *Super Mario Land 2: 6 Golden Coins* isn't one I recall being able to play in its entirety; I don't think we owned it and the chunks of the game I remember playing were almost certainly on a borrowed copy.

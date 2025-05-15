@@ -4,6 +4,13 @@ author: John Peart
 excerpt: "Preview, review and snark for every entry, in 280 characters or less."
 layout: blogpost
 image: /posts/eurovision.png
+    
+related:
+- /2018/04/18/eurovision-first-listens/
+- /2017/04/21/eurovision-first-listens/
+- /2016/04/17/eurovision-first-listens/
+- /2015/04/20/eurovision-first-listens/
+     
 categories:
   - eurovision
 

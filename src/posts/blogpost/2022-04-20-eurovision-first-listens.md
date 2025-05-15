@@ -4,6 +4,16 @@ author: "John Peart"
 excerpt: "I’ve listened to every entry for this year’s Contest and boiled them down to 280 characters or less."
 layout: blogpost
 image: /posts/eurovision.png
+    
+related:
+- /2021/05/01/eurovision-first-listens/
+- /2020/04/04/eurovision-first-listens/
+- /2019/04/20/eurovision-first-listens/
+- /2018/04/18/eurovision-first-listens/
+- /2017/04/21/eurovision-first-listens/
+- /2016/04/17/eurovision-first-listens/
+- /2015/04/20/eurovision-first-listens/
+     
 categories:
   - eurovision
 

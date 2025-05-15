@@ -4,6 +4,10 @@ title: "Ratchet & Clank"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/ratchet-and-clank.jpg"
+
+related: 
+- /game/1692462060/
+
 posse:
 - https://mastodon.social/@johnpeart/113499025913187159
 - https://bsky.app/profile/johnpe.art/post/3lb5q6vjank26

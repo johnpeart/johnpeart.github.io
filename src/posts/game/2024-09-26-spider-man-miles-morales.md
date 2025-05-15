@@ -4,6 +4,9 @@ title: "Marvel’s Spider-Man: Miles Morales"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/marvels-spider-man-miles-morales.jpg"
+    
+related:
+- /game/1727343180/
 ---
 
 I hoped this entry in *Marvel’s Spider-Man* series on PlayStation would be shorter than [the previous one](/game/1727343180/).

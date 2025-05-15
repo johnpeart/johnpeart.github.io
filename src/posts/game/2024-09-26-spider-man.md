@@ -4,6 +4,9 @@ title: "Marvel’s Spider-Man Remastered"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/marvels-spider-man-remastered.jpg"
+    
+related:
+- /game/1730410560/
 ---
 
 This is a really good game that’s a lot of fun to play, but *oh boy* is the platinum a long, old slog of busy work. 

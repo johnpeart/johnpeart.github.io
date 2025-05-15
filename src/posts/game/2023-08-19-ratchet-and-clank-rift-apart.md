@@ -4,6 +4,9 @@ title: "Ratchet & Clank: Rift Apart"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/ratchet-and-clank-rift-apart.jpg"
+
+related: 
+- /game/1731763320/
 ---
 
 One of the very first games I ever played on the PlayStation 2 was *Ratchet & Clank*. I was one of those teenagers with a *Nintendo GameCube*, but on the odd occasion I was able to swap consoles with my sister, this franchise was one I loved to play. I've been coming back on every PlayStation generation since. 

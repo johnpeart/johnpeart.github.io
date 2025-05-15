@@ -4,6 +4,10 @@ title: "Elden Ring"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/elden-ring.jpg"
+    
+related:
+- /game/1746224580/
+- /game/1735476840/
 ---
 
 This must be the hardest, most infuriating game I have ever played. Elden Ring likes to teach you a lesson, kick you when you think you're getting good at it, and keep kicking you until you actually *get* good at it.

@@ -17,36 +17,16 @@ composite:
     fit: "fill"
     
 related:
-- title: "I listened to every Eurovision 2024 entry, so you don’t have to" 
-  date: 2024-04-16
-  link: /2024/04/16/eurovision-first-listens/
-- title: "I listened to every Eurovision 2023 entry, so you don’t have to"
-  date: 2023-05-01
-  link: /2023/05/01/eurovision-first-listens/
-- title: "I listened to every Eurovision 2022 entry, so you don’t have to"
-  date: 2022-04-20
-  link: /2022/04/20/eurovision-first-listens/
-- title: "I listened to every Eurovision 2021 entry, so you don’t have to"
-  date: 2021-05-01
-  link: /2021/05/01/eurovision-first-listens/
-- title: "I listened to every Eurovision 2020 entry, so you don’t have to"
-  date: 2020-04-04
-  link: /2020/04/04/eurovision-first-listens/
-- title: "I listened to every Eurovision 2019 entry, so you don’t have to"
-  date: 2019-04-20
-  link: /2019/04/20/eurovision-first-listens/
-- title: "I listened to every Eurovision 2019 entry, so you don’t have to"
-  date: 2018-04-18
-  link: /2019/04/18/eurovision-first-listens/
-- title: "I listened to every Eurovision 2018 entry, so you don’t have to"
-  date: 2017-04-21
-  link: /2017/04/21/eurovision-first-listens/
-- title: "I listened to every Eurovision 2017 entry, so you don’t have to"
-  date: 2016-04-17
-  link: /2016/04/17/eurovision-first-listens/
-- title: "I listened to every Eurovision 2015 entry, so you don’t have to"
-  date: 2015-04-20
-  link: /2015/04/20/eurovision-first-listens/
+- /2024/04/16/eurovision-first-listens/
+- /2023/05/01/eurovision-first-listens/
+- /2022/04/20/eurovision-first-listens/
+- /2021/05/01/eurovision-first-listens/
+- /2020/04/04/eurovision-first-listens/
+- /2019/04/20/eurovision-first-listens/
+- /2018/04/18/eurovision-first-listens/
+- /2017/04/21/eurovision-first-listens/
+- /2016/04/17/eurovision-first-listens/
+- /2015/04/20/eurovision-first-listens/
      
 categories:
 - eurovision

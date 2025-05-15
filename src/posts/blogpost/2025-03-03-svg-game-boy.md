@@ -3,6 +3,10 @@ date: 2025-03-03T18:20:00+00:00
 title: "Making Game Boy screenshots on my blog beautiful, with SVGs"
 author: "John Peart"
 excerpt: "Sharing super-low resolution screenshots with skeuomorphic flare."
+
+related:
+- /2025/04/06/custom-game-boy-cartridges/
+
 categories:
 - personal
 - gaming

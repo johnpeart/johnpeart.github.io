@@ -14,6 +14,18 @@ composite:
     image: "/assets/images/posts/2024/04/16/eurovision-northern-lights.gif"
     alt: "A burst of bright colours symbolising the Northern Lights"
     fit: "fill"
+    
+related:
+- /2023/05/01/eurovision-first-listens/
+- /2022/04/20/eurovision-first-listens/
+- /2021/05/01/eurovision-first-listens/
+- /2020/04/04/eurovision-first-listens/
+- /2019/04/20/eurovision-first-listens/
+- /2018/04/18/eurovision-first-listens/
+- /2017/04/21/eurovision-first-listens/
+- /2016/04/17/eurovision-first-listens/
+- /2015/04/20/eurovision-first-listens/
+     
 categories:
 - eurovision
 

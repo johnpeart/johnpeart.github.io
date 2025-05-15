@@ -3,6 +3,10 @@ date: 2025-04-06T16:30:00+00:00
 title: "Refreshing my Game Boy cartridge collection"
 author: "John Peart"
 excerpt: "Shiny and new."
+
+related:
+- /2025/03/03/svg-game-boy/
+
 categories:
 - personal
 - gaming

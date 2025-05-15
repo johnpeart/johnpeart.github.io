@@ -4,6 +4,9 @@ title: "inFAMOUS First Light"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/infamous-first-light.jpg"
+    
+related:
+- /game/1725741300/
 ---
 
 The sequel to [inFAMOUS Second Son](/game/1725741300/), focusing on the backstory of a character featured in that game.

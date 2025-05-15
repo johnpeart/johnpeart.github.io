@@ -4,6 +4,10 @@ title: "Bloodborne"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/bloodborne.jpg"
+    
+related:
+- /game/1746224580/
+- /game/1723392000/
 ---
 
 This is quite possibly the hardest *PlayStation* Platinum trophy I have yet to achieve. 

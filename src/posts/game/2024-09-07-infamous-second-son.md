@@ -4,6 +4,9 @@ title: "inFAMOUS Second Son"
 platform: "PlayStation"
 label: "Platinum"
 artwork: "/assets/images/posts/games/infamous-second-son.jpg"
+
+related: 
+- /game/1725823500/
 ---
 
 *InFAMOUS* was one of my favourite games on PlayStation 3. Superhuman powers with the choice to be a hero or villain, with those choices changing your gameplay mechanics? Sounds great, count me in.

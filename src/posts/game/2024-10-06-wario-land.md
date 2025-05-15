@@ -5,6 +5,10 @@ platform: "Game Boy"
 label: "100%"
 artwork: "/assets/images/posts/games/wario-land/label-art.jpg"
 screenshot: "/assets/images/posts/games/wario-land/"
+
+related: 
+- /2025/03/03/svg-game-boy/
+- /2025/04/06/custom-game-boy-cartridges/
 ---
 
 *Super Mario Land 3: Wario Land* is one of the earliest games I ever remember playing. 

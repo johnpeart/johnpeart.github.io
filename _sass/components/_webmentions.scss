@@ -2,6 +2,10 @@ article.interaction {
 	padding: var(--pad) 0;
 }
 
+.interactions.replies {
+    
+}
+
 .interactions.counts {
 	display: block;
 	text-align: right;
@@ -9,7 +13,7 @@ article.interaction {
 	padding: 0 var(--pad);
 }
 
-footer#post-footer aside.interactions {
+footer aside.interactions {
     grid-area: webmentions;
 	margin-block-end: calc(var(--pad) * 3);
 }

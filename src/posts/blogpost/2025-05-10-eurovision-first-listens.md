@@ -44,7 +44,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    
+    Freedom of speech is something school should teach you.
   commentary: |
     The plucking of a stringed instrument provides a peppy introduction to this song. It reminds me of something you might hear in a *Legend of Zelda* soundtrack. 
     
@@ -94,7 +94,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    
+    Now that you're gone all I have is wasted love.
   commentary: |
     There are a lot of tortured water-based metaphors in the beginning of this song, which initially had me thinking this would be utter dross. 
     
@@ -114,7 +114,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   lyric: |
-    
+    No matter what you do tonight, I wanna run with you.
   commentary: |
     *Mamagama* was clearly using a T9 keyboard on an old Nokia when he wrote the title for this song.
     
@@ -130,8 +130,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   lyric: |
-    Cotton candy haze,
-    Float around in space.
+    Cotton candy haze, we're floatin' 'round in space.
   commentary: |
     This is a song of high-drama, clubland mist and colossally clichéd lyrics. 
     
@@ -149,7 +148,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   lyric: |
-    
+    Tasty, tasty, yum, yum, tasty.
   commentary: |
     This is the latest in a long line of food-related Eurovision songs. Classics of the genre include 2014's Belarussian and Latvian entries, *Cheesecake* and *Cake to Bake*, and the 2021 Moldovan entry, *Sugar*.
     
@@ -183,7 +182,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   lyric: |
-    
+    Blow me a kiss goodbye, see how my tears run dry.
   commentary: |
     There’s a rich tone to the vocals in this song and it’s a decent, mid-tempo, moody ballad.
     
@@ -199,8 +198,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    You're my hallu-
-    Hallucination
+    You're my hallu—, hallucination.
   commentary: |
     Now *this* is why I come for Eurovision!
     
@@ -222,7 +220,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    No need to be depresso 
+    No stresso, no stresso. It's gonna be espresso.
   commentary: |
     I had assumed this would be a stylish response to Sabrina Carpenter. You know, like when Miley did *Flowers* as a massive [“fuck you” to her ex-husband](https://www.smoothradio.com/artists/bruno-mars/miley-cyrus-flowers-lyrics-meaning/) by interpolating Bruno Mars’ *When I Was Your Man*.
     
@@ -262,8 +260,7 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    There are no more one night stands,
-    There are no more beds
+    There are no more one night stands, there are no more beds.
   commentary: |
     I have a habit of dismissing the French *chanson* style and that is unfair. It’s a beautiful style and I’m learning to like it. Listening back to old Eurovision albums gives me an increasing appreciation of the style.
     
@@ -281,7 +278,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   lyric: |
-    
+    I'm livin' my life with my smile.
   commentary: |
     Some terrifyingly deep vocals lurk underneath this somewhat bonkers song. I feel like witness to a dark arts ritual at which there will be a sacrifice.
     
@@ -299,7 +296,7 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    And then I'll change perfumes and buy myself a new outfit
+    And then I'll change perfumes and buy myself a new outfit.
   commentary: |
     We’ve got high-pitched synths and nonsense lyrics in this trance track.
     
@@ -319,7 +316,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    
+    Turn so I can kiss you so I can extinguish my lips in your holy tears.
   commentary: |
     I like the sound of the titular word “Asteromáta” -- it’s fun to say and to listen to.
     
@@ -339,7 +336,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    
+    I place a plank on a plank, and call it a boat.
   commentary: |
     Well, there's certainly nothing calm about this.
     
@@ -357,7 +354,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   lyric: |
-    Like a party in the sky
+    I hope Laika never died and that she spins around us still
   commentary: |
     This threw me straight back to *The Logical Song* ([the cover by Scooter](4YxTa1AUqps), not [the original by Supertramp](kln_bIndDJg?si=4TQ79lgPqT-IQbAF))
     
@@ -373,7 +370,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    
+    Everyone cries, don't cry alone.
   commentary: |
     I miss the days of Israel being fun at Eurovision. They days of *[Toy](CziHrYYSyPc?si=sUKEwmsK2ucTaJTy)* and *[Golden Boy](NdxOCTezeTg?si=CvAQCr9Rj4Ph9e9w)*.
     
@@ -393,8 +390,7 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    I wanted to be a tough guy,
-    But I'm nobody
+    I wanted to be a tough guy, but I'm nobody.
   commentary: |
     Another year, another Italian man singing a dreary song with a sloppy rhythm and the occasional shouty lyric.
     
@@ -414,7 +410,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    Curses and hexes, never can they ruin me
+    Curses and hexes, never can they ruin me.
   commentary: |
     This is a classic of the “bunch of women screaming nonsensically atop a heavily over-orchestrated backing track” genre: a Eurovision staple but hardly worth the three minutes.
     
@@ -430,7 +426,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    
+    The foundations of everything have already begun to rot.
   commentary: |
     A miserable, droning verse crashes into an angsty chorus in this “experimental rock” track.
     
@@ -448,8 +444,7 @@ eurovision-entries:
   semifinal: 2
   final: true
   lyric: |
-    I make my voice heard to trigger in you
-    The electric shock
+    I make my voice heard to trigger in you the electric shock.
   commentary: |
     There’s a forceful momentum to this song that’s quite fun.
     
@@ -485,7 +480,7 @@ eurovision-entries:
   semifinal: 2
   final: false
   lyric: |
-    
+    Put a smile on your face, endure it all, it'll pass.
   commentary: |
     For a song entitled *Welcome* this song isn't half... well... *unwelcoming*. 
     
@@ -503,9 +498,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    It's like this, it's like that,
-    It goes up, it goes down,
-    And around and around
+    It's like this, it's like that, it goes up, it goes down, and around and around.
   commentary: |
     Well this is chockablock with completely nonsense French-isms that no French person probably ever says. 
     
@@ -521,8 +514,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    I don't need saving, 
-    ’cause I’m my own lighter.
+    I don't need saving ’cause I’m my own lighter.
   commentary: |
     This is classic Scandi-pop, which obviously means I bloody love it.
     
@@ -538,7 +530,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    
+    The Holy Water is cleansing your fate.
   commentary: |
     This is dark and moody and, given the title of the song, I suspect intended to help you find your spiritual centre and respect Mother Earth.
     
@@ -556,7 +548,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    
+    No matter how it may seem I’ll never belong to that city.
   commentary: |
     Piano, acoustic and electric guitar, and a lilting vocal come together for this *Beatles*-adjacent, gentle track.
     
@@ -574,7 +566,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    
+    Then tomorrow we’ll regret saying “I love you”.
   commentary: |
     This sounds like it was ripped straight out of an early 2000s Eurovision Song Contest. 
     
@@ -588,13 +580,13 @@ eurovision-entries:
   artist: "Princ"
   song: 
     original: "Mila"
-    english: "Dear"
+    english: "Darling"
   language: "Serbian"
   youtube: "18BCbtvDcag"
   semifinal: 2
   final: false
   lyric: |
-    
+    Darling, you have paid the price for my love.
   commentary: |
     One of the dreariest ballads you could possibly imagine. There’s a late-game rock guitar and choral drop that does nothing to improve the overall miserable impression.
     
@@ -608,8 +600,7 @@ eurovision-entries:
   semifinal: 1
   final: false
   lyric: |
-    You never gave up,
-    Until you grew wings
+    You never gave up until you grew wings.
   commentary: |
     Oh my word is this sad. You can feel the pain in this song right from the very first line.
     
@@ -629,7 +620,7 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    
+    A diva doesn't step on anyone else to shine.
   commentary: |
     This feels like a sexed-up, modernised flamenco. 
     
@@ -647,8 +638,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    Sauna brothers, we’re the ones who glow
-    100 degrees, oh yes
+    Sauna brothers, we’re the ones who glow. 100 degrees, oh yes.
   commentary: |
     Eh... *what*?! What happened?!
     
@@ -668,7 +658,7 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    
+    If you want, I'll go with you on a journey
   commentary: |
     Soft, breathy vocals and a floating melody come together to create this perfectly pleasant song that I suspect most people will forget; it’s nothing special.
     
@@ -684,7 +674,7 @@ eurovision-entries:
   semifinal: 1
   final: true
   lyric: |
-    
+    Share my heart with someone who cares.
   commentary: |
     Given the song title, I was expecting something more *[Klingon](DSCWB4GqcFE?si=hpU0pWagG61tkU2A)*. 
     
@@ -700,7 +690,7 @@ eurovision-entries:
   semifinal: false
   final: true
   lyric: |
-    
+    Clutch my pearls.
   commentary: |
     This song is a disjointed mess. The tempo shifts are jarring.
     

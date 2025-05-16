@@ -42,7 +42,7 @@ eurovision-entries:
   language: "Albanian"
   youtube: "Sfvb761EEcM"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -58,7 +58,7 @@ eurovision-entries:
   language: "English"
   youtube: "RfH5o3XtI2c"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     I’m a survivor. I’m staying alive-ah.
   commentary: |
@@ -92,7 +92,7 @@ eurovision-entries:
   language: "English"
   youtube: "-ieSTNpxvio"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -197,7 +197,7 @@ eurovision-entries:
   language: "English"
   youtube: "gdCAgiSIOUc"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     You're my hallu-
     Hallucination
@@ -220,7 +220,7 @@ eurovision-entries:
   language: "Italian, English"
   youtube: "5MS_Fczs_98"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     No need to be depresso 
   commentary: |
@@ -240,7 +240,7 @@ eurovision-entries:
   language: "Finnish"
   youtube: "Kg3QoTpnqyw"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     I'll dance with you even a wedding waltz, but naked
   commentary: |
@@ -317,7 +317,7 @@ eurovision-entries:
   language: "Greek"
   youtube: "aDiq8J9h6vQ"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -337,7 +337,7 @@ eurovision-entries:
   language: "Icelandic"
   youtube: "s9P83Nl6D1M"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -371,7 +371,7 @@ eurovision-entries:
   language: "English, French, Hebrew"
   youtube: "Q3BELu4z6-U"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -412,7 +412,7 @@ eurovision-entries:
   language: "Latvian"
   youtube: "RKw0OCgPV3s"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     Curses and hexes, never can they ruin me
   commentary: |
@@ -428,7 +428,7 @@ eurovision-entries:
   language: "Lithuanian"
   youtube: "R2f2aZ6Fy58"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -446,7 +446,7 @@ eurovision-entries:
   language: "French"
   youtube: "LVHu_KwHiKY"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     I make my voice heard to trigger in you
     The electric shock
@@ -463,7 +463,7 @@ eurovision-entries:
   language: "English"
   youtube: "sLVSwfRRvMA"
   semifinal: 2
-  final: false
+  final: true
   lyric: |
     Serving (Ah)
   commentary: |
@@ -501,7 +501,7 @@ eurovision-entries:
   language: "French, English"
   youtube: "hEHwr5k9pd0"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     It's like this, it's like that,
     It goes up, it goes down,
@@ -519,7 +519,7 @@ eurovision-entries:
   language: "English"
   youtube: "pUjWzQ671MQ"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     I don't need saving, 
     ’cause I’m my own lighter.
@@ -536,7 +536,7 @@ eurovision-entries:
   language: "Polish, English"
   youtube: "YXHHDjiclxA"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -554,7 +554,7 @@ eurovision-entries:
   language: "Portuguese"
   youtube: "-s1Cc2uEj3U"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -572,7 +572,7 @@ eurovision-entries:
   language: "Italian"
   youtube: "Le3WpaLYRvE"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     
   commentary: |
@@ -645,7 +645,7 @@ eurovision-entries:
   language: "Swedish"
   youtube: "WK3HOMhAeQY"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     Sauna brothers, we’re the ones who glow
     100 degrees, oh yes
@@ -682,7 +682,7 @@ eurovision-entries:
   language: "Ukrainian, English"
   youtube: "OJ1x2aiL7ks"
   semifinal: 1
-  final: false
+  final: true
   lyric: |
     
   commentary: |

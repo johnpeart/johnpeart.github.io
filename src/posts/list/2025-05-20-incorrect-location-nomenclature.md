@@ -16,11 +16,9 @@ Many years ago now, when I visited Vienna for the first time, I was desperate to
 
 Except I could not do that.
 
-Viennese whirls, it turns out, are not from Vienna. They are in fact a British invention. 
+Viennese whirls, it turns out, are not from Vienna. They are in fact a British invention. What Vienna is known for is apparently pastries. *Danish* pastries, to be specific.
 
-What Vienna is known for is apparently pastries. *Danish* pastries, to be specific.
-
-Yes, that's right, the *Danish* is not from Copenhagen, its from Vienna.
+Yes, that's right, *the Danish* is not from Copenhagen, its from Vienna.
 
 In seconds my world view was shattered. This nonsensical, geographically negligent nomenclature had me furious. 
 

@@ -10,17 +10,32 @@
     background: #fff linear-gradient(rgba(0,0,0,0.1) 1px, transparent 0) 0 26px / 100% 26px;
     border: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        
+    h1, li {
+        font-size: 26px !important;
+        padding-bottom: 26px !important;
+    }
 
     
     @media (min-width: 700px) {
         max-width: 500px;
         padding:  32px;
         background: #fff linear-gradient(rgba(0,0,0,0.1) 1px, transparent 0) 0 32px / 100% 32px;
+        
+        h1, li {
+            font-size: 32px !important;
+            padding-bottom: 32px !important;
+        }
     }
     @media (min-width: 1100px)  {
         max-width: 650px;
         padding:  44px;
         background: #fff linear-gradient(rgba(0,0,0,0.1) 1px, transparent 0) 0 44px / 100% 44px;
+        
+        h1, li {
+            font-size: 44px !important;
+            padding-bottom: 44px !important;
+        }
     }
 
 	.list-header {
@@ -45,7 +60,6 @@
     
     .list-title,
     .list-item {
-        font-size: clamp(26px, 5.2vw, 44px);
         font-family: "Permanent Marker", "Segoe Print", "Marker Felt", Chilanka, TSCu_Comic, casual, cursive;
     }
     

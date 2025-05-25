@@ -1,3 +1,11 @@
+---
+date: 2025-05-25T20:00:00+00:00
+title: "The Eurovision is not the point"
+author: "John Peart"
+excerpt: "I agree. But you're not getting it."
+layout: blogpost
+---
+
 From a very young age -- as far back as I can remember -- I've watched the *Eurovision Song Contest*. 
 
 Today, I watch it religiously. I go to the Contest when I can, and when I can't, I have a party at my house.

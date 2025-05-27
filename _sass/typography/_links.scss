@@ -25,7 +25,7 @@ a {
         outline-offset: 3px;
     }
     &:active {
-        text-decoration: underline !important;
+        text-decoration: none !important;
         outline: 3px solid var(--brand);
         outline-offset: 3px;
         background: var(--brand);
@@ -55,6 +55,11 @@ a {
         }
         &:hover:focus {
             outline-offset: 3px;
+        }
+        &:active {
+            text-decoration: none !important;
+            background: var(--brand);
+            color: var(--background);
         }
     }
     

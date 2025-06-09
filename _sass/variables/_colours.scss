@@ -67,9 +67,9 @@
     --cyan-tint: hsl(198, 100%, 60%);
     --cyan-tone: hsl(198, 100%, 30%);
     
-    --brand: var(--cyan);
     --brand-tint: var(--cyan-tint);
     --brand-tone: var(--cyan-tone);
+    --brand: light-dark(var(--cyan), var(--cyan-tone));
 
     /* POST IT NOTE COLOURS */
     --post-it--yellow: rgb(255, 215, 0);
@@ -118,9 +118,6 @@
 
     --form--focusBackground: var(--color);
     --labelHint-color: var(--gray-600);
-
-    --progress-barBackground: var(--brand);
-    --progress-barSecondaryBackground: var(--brand-tone);
     
     --caret-color: var(--brand);
 

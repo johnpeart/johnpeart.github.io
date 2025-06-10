@@ -12,9 +12,10 @@
         content: "";
         inset: 0;
         
+        --glass-background: light-dark(var(--background), transparent);
         background: linear-gradient(
             to bottom,
-            var(--background) 0%,
+            var(--glass-background) 0%,
             transparent 30%
         );
         

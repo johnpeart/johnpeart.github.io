@@ -1,7 +1,7 @@
 .global-navigation {
     --from-padding: calc(var(--pad) * 0.5);
     
-    animation: navigation linear both;
+    animation: navigation ease-out both;
     animation-timeline: scroll(block root);
     animation-range: 10px 200px;
     animation-duration: 1ms;
@@ -17,7 +17,7 @@
     width: fit-content;
     top: calc(var(--pad) * 0.5);
     margin: calc(var(--pad) * 0.5);
-    padding: 0 0 0 calc(var(--pad) * 0.5);
+    padding: 0;
     
     border: 1px solid var(--translucent-border);
     border-radius: 50px;
@@ -28,7 +28,6 @@
     @media (max-width: 699px) {
         --from-padding: 0px;
         width: calc(100% - var(--pad));
-        margin: 0 calc(var(--pad) * 0.5);
     }
 }
 
@@ -50,7 +49,7 @@
     justify-self: start;
     z-index: 1000;
     margin: 0;
-    padding: var(--card-padding) calc(var(--pad) * 0.5);
+    padding: var(--card-padding) calc(var(--pad));
     
     font-size: 32px;
 	line-height: 32px;

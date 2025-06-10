@@ -3,7 +3,7 @@
         <h2 class="key-value--heading key-value--heading--small">Metadata</h2>
 		<span class="key-value--item key-value--with-value">
             <dt class="key-value--key">Date taken</dt>
-            <dd class="key-value--description">{{ date | date: "%d %B %Y" }}</dd>
+            <dd class="key-value--value">{{ date | date: "%d %B %Y" }}</dd>
         </span>
 
 		{% assign fields = "camera,apeture,shutter,focallength,iso" | split: "," %}
@@ -16,7 +16,7 @@
             {% if value != "" %}
             <span class="key-value--item key-value--with-value">
                 <dt class="key-value--key">{{ labels[index] }}</dt>
-                <dd class="key-value--description">
+                <dd class="key-value--value">
                 {% if field == "apeture" %}
                     {{ value | prepend: "ƒ/" }}
                 {% elsif field == "shutter" %}

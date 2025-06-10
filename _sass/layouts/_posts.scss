@@ -8,13 +8,8 @@ body[id$='photo'] {
         left: var(--pad);
     }
 
-    header.post-title.collection--note,
-    header.post-title.collection--list,
-	header.post-title.collection--photo,
-    header.post-title.collection--music,
-    header.post-title.collection--weeknote,
-    header.post-title.collection--game {
-        margin: calc(var(--pad) * 2) auto calc(var(--pad) * 4);
+    header.post-title[class^="collection--"] {
+        margin: calc(var(--pad) * 4) auto calc(var(--pad) * 4) calc(var(--pad) * 2);
         text-align: center;
     }
 

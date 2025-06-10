@@ -14,7 +14,8 @@
         background: none;
         box-shadow: none;
         border-color: transparent;
-        padding: 0 0 0 calc(var(--pad) * 0.5 * -1);
+        border-radius: 0;
+        padding: 0 0 0 var(--from-padding);
     }
 }
 

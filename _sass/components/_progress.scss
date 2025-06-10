@@ -12,43 +12,25 @@ progress[value] {
     padding: 0;
     margin: var(--pad) 0;
     
-    height: 40px;
+    height: 24px;
 
     &::-webkit-progress-bar {
-        background: var(--secondary-background);
+        background: var(--gray-500);
         border: none;
-        border-radius: var(--border-radius);
-        padding: 5px;
-        box-shadow: 
-            .5px .5px 1px rgba(255,255,255,0.5),
-            -.5px -.5px 1px #00000026,
-            inset .222px .222px .314px -.5px #0003,
-            inset .605px .605px .856px -1px #0000002e,
-            inset 1.329px 1.329px 1.88px -1.5px #00000040,
-            inset 2.95px 2.95px 4.172px -2px #0000001a,
-            inset 2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
+        border-radius: 1000px;
+        padding: 4px;
+        box-shadow: var(--shadow--depth-1--inset);
     }
 
     &::-webkit-progress-value {
-        background: var(--progress-barBackground);
-        border-radius: calc(var(--border-radius) * 0.5);
+        // background: var(--progress-barBackground);
+        border-radius: 1000px;
         background-size: 600px;
-        box-shadow: 
-            inset .5px .5px 1px #fff,
-            inset -.5px -.5px 1px #00000026,
-            .222px .222px .314px -.5px #0003,
-            .605px .605px .856px -1px #0000002e,
-            1.329px 1.329px 1.88px -1.5px #00000040,
-            2.95px 2.95px 4.172px -2px #0000001a,
-            2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
+        
+        background: var(--glass-gradient);
+        box-shadow: var(--glass--shadow);
     }
-
-    &.goal-progress--core::-webkit-progress-value {
-            background: var(--progress-barBackground);
-    }
-    &.goal-progress--stretch::-webkit-progress-value {
-            background: var(--progress-barSecondaryBackground);
-    }
+    
 }
 
 .progress--stretch {
@@ -65,6 +47,6 @@ progress[value] {
     padding: var(--pad);
     
     progress[value]::-webkit-progress-bar {
-        background: var(--background);
+        background: var(--brand-tint);
     }
 }

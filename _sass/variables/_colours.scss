@@ -19,40 +19,18 @@
     --gray-700: rgb(70, 75, 80);
     --gray-800: rgb(50, 55, 60);
     --gray-900: rgb(30, 35, 40);
+    
+    --glass-light: rgba(255,255,255,0.95);
+    --glass-dark:  rgba(70,75,80,0.35);
+    --glass-gradient: linear-gradient(
+        150deg,
+        rgba(245,245,245,0.75) 0%, 
+        rgba(225,225,225,0.5) 30%, 
+        rgba(225,225,225,0.4) 50%, 
+        rgba(225,225,225,0.5) 70%, 
+        rgba(245,245,245,0.75) 100%
+    );
 	
-    --shadow--depth-1:   
-        inset .5px .5px 1px #fff,
-        inset -.5px -.5px 1px #00000026,
-        .222px .222px .314px -.5px #0003,
-        .605px .605px .856px -1px #0000002e,
-        1.329px 1.329px 1.88px -1.5px #00000040,
-        2.95px 2.95px 4.172px -2px #0000001a,
-        2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
-                        
-    --shadow--depth-1--inset:  
-        .5px .5px 1px rgba(255,255,255,0.5),
-        -.5px -.5px 1px #00000026,
-        inset .222px .222px .314px -.5px #0003,
-        inset .605px .605px .856px -1px #0000002e,
-        inset 1.329px 1.329px 1.88px -1.5px #00000040,
-        inset 2.95px 2.95px 4.172px -2px #0000001a,
-        inset 2.5px 2.5px 3px -2.5px #00000026,
-        -.5px -.5px 0 0 rgb(0 0 0/10%);
-	
-    --shadow--depth-2:  
-        inset 1px 1px 1px 0 #ffffff7f,
-        inset -1px -1px 1px 0 #00000026,
-        .444584px .444584px .628737px -1px #00000042,
-        1.21072px 1.21072px 1.71222px -1.5px #0000003e,
-        2.6583px 2.6583px 3.75941px -2.25px #0000003a,
-        5.90083px 5.90083px 8.34503px -3px #00000030,
-        10px 10px 21.2132px -3.75px #0000000e,
-        -.5px -.5px 0 0 rgb(0 0 0/5%);
-
-    --shadow--depth-2--no-drop-shadow:  
-        inset 1px 1px 1px 0 #ffffff7f,
-        inset -1px -1px 1px 0 #00000026;
-        
     --blue: rgb(0, 122, 255);
     --desaturated-blue: rgb(59, 89, 152);
     --purple: rgb(198, 67, 252);
@@ -129,5 +107,42 @@
 
     --skiplink-color: light-dark(var(--white), var(--black));
     --skiplink-background: var(--brand);   
+    
+    /* Shadows */
+    --shadow--depth-1:   
+        inset .5px .5px 1px #fff,
+        inset -.5px -.5px 1px #00000026,
+        0 1px 3px rgba(0,0,0,0.12), 
+        0 1px 2px rgba(0,0,0,0.24);
+                        
+    --shadow--depth-1--inset:  
+        .5px .5px 1px rgba(255,255,255,0.5),
+        -.5px -.5px 1px #00000026,
+        inset .222px .222px .314px -.5px #0003,
+        inset .605px .605px .856px -1px #0000002e,
+        inset 1.329px 1.329px 1.88px -1.5px #00000040,
+        inset 2.95px 2.95px 4.172px -2px #0000001a,
+        inset 2.5px 2.5px 3px -2.5px #00000026,
+        -.5px -.5px 0 0 rgb(0 0 0/10%);
+	
+    --shadow--depth-2:  
+        inset 1px 1px 1px 0 #ffffff7f,
+        inset -1px -1px 1px 0 #00000026,
+        0 3px 6px rgba(0,0,0,0.16), 
+        0 3px 6px rgba(0,0,0,0.23);
+    
+    --glass--shadow:     inset   0px  0px  3px     var(--glass-light),
+                        inset   0px  2px  6px     var(--glass-light),
+                        inset   0px  4px  9px     var(--glass-light),
+                        inset   0px  0px  1px     var(--glass-dark),
+                        inset   0px -1px  2px     var(--glass-dark),
+                        inset   0px -2px  4px     var(--glass-dark),
+                            
+                        .222px .222px .314px -.5px #0003,
+                        .605px .605px .856px -1px #0000002e,
+                        1.329px 1.329px 1.88px -1.5px #00000040,
+                        2.95px 2.95px 4.172px -2px #0000001a,
+                        2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
+
      
 }

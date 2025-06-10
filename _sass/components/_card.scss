@@ -4,25 +4,3 @@
     box-shadow: var(--shadow--depth-1);
     padding: var(--card-padding, var(--pad));
 }
-
-.card-scroll {
-    --card-spacing: calc(var(--pad) * 0.5);
-    
-    box-shadow: none;
-    animation: card-scroll linear both;
-    animation-timeline: scroll(block root);
-    animation-range: 10px 200px;
-    animation-duration: 1ms;
-    
-    box-shadow: var(--shadow--depth-2);
-    background: var(--translucent-background);
-    border-radius: calc(var(--border-radius) * 2);
-    -webkit-backdrop-filter: blur(40px);
-            backdrop-filter: blur(40px);
-
-    padding: var(--card-padding, var(--pad));
-    
-    @media (min-width: 700px) {
-        --card-spacing: var(--pad);    
-    }
-}

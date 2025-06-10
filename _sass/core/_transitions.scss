@@ -9,19 +9,12 @@
 
 
 /* HEADER SCROLL DRIVEN ANIMATION */
-@keyframes card-scroll {
+@keyframes navigation {
     from {
         background: none;
         box-shadow: none;
-        top: 0;
-        margin: 0;
-    }
-    to {
-        box-shadow: var(--shadow--depth-2);
-        background: var(--translucent-background);
-        border-radius: calc(var(--border-radius) * 2);
-        top: calc(var(--pad) * 0.5);
-        margin: var(--card-spacing);
+        border-color: transparent;
+        padding: 0 0 0 calc(var(--pad) * 0.5 * -1);
     }
 }
 

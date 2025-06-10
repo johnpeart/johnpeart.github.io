@@ -2,11 +2,11 @@
     
     color-scheme: light dark;    
 
-    --white: rgb(250, 250, 250);
-    --absolute-white: rgb(255, 255, 255);
+    --white: hsl(0, 0%, 98%);
+    --absolute-white: hsl(0, 0%, 100%);
 
-    --black: rgb(20, 22, 25);
-    --absolute-black: rgb(0, 0, 0);
+    --black: hsl(216, 11%, 9%);
+    --absolute-black: hsl(0, 0%, 0%);
 
     --absolute: light-dark(var(--absolute-white), var(--absolute-black));
 
@@ -49,6 +49,10 @@
         10px 10px 21.2132px -3.75px #0000000e,
         -.5px -.5px 0 0 rgb(0 0 0/5%);
 
+    --shadow--depth-2--no-drop-shadow:  
+        inset 1px 1px 1px 0 #ffffff7f,
+        inset -1px -1px 1px 0 #00000026;
+        
     --blue: rgb(0, 122, 255);
     --desaturated-blue: rgb(59, 89, 152);
     --purple: rgb(198, 67, 252);
@@ -70,6 +74,7 @@
     --brand-tint: var(--cyan-tint);
     --brand-tone: var(--cyan-tone);
     --brand: light-dark(var(--cyan), var(--cyan-tone));
+    --brand-translucent: rgba(0, 159, 227, 0.2);
 
     /* POST IT NOTE COLOURS */
     --post-it--yellow: rgb(255, 215, 0);
@@ -90,7 +95,8 @@
 	
     --background: light-dark(var(--white), var(--black));
     
-    --translucent-background: light-dark(rgba(240, 240, 240, 0.7), rgba(30, 35, 40, 0.5));
+    --translucent: light-dark(rgba(240, 240, 240, 0.1), rgba(30, 35, 40, 0.1));
+    --translucent-border: light-dark(rgba(240, 240, 240, 0.7), rgba(160, 160, 160, 0.2));
     
     --color: light-dark(var(--black), var(--white));
     --markerpen-color: var(--black);

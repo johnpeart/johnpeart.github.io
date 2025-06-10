@@ -1,45 +1,57 @@
 .global-navigation {
+    animation: navigation linear both;
+    animation-timeline: scroll(block root);
+    animation-range: 10px 200px;
+    animation-duration: 1ms;
     
     display: flex;
     position: --webkit-sticky;
     position:          sticky;
-    
-    justify-content: end;
-    
-    
-    top: 0;
-    
-    box-sizing: border-box;
-    
     z-index: 1000;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-self: end;
+    
+    width: fit-content;
+    top: calc(var(--pad) * 0.5);
+    margin: calc(var(--pad) * 0.5);
+    padding: 0 0 0 calc(var(--pad) * 0.5);
+    
+    border: 1px solid var(--translucent-border);
+    border-radius: 50px;
+    box-shadow:     inset 10px 10px 25px 0px rgba(255,255,255,1),
+                    inset -10px -10px 25px 0px rgba(0,0,0,0.3),
+                    .444584px .444584px .628737px -1px #00000042,
+                    1.21072px 1.21072px 1.71222px -1.5px #0000003e,
+                    2.6583px 2.6583px 3.75941px -2.25px #0000003a,
+                    5.90083px 5.90083px 8.34503px -3px #00000030,
+                    10px 10px 21.2132px -3.75px #0000000e,
+                    -.5px -.5px 0 0 rgb(0 0 0/5%);
+     
+    @media (max-width: 699px) {
+        width: calc(100% - var(--pad));
+        margin: 0 calc(var(--pad) * 0.5);
+    }
 }
 
 /* This is the main menu bar */
 .navigation {
-    --border-radius: 50px;
     display: flex;
-    
-    padding: 0;
+    padding: 0;    
     margin: 0;
-    
     align-items: center;
-
-    @media (max-width: 699px) {
-        width: 100%;
-        justify-content: space-between;
-    }
-    @media (min-width: 700px) {
-        padding: 0 0 0 calc(var(--pad) * 0.5);
-        margin: var(--pad) !important;
-    }
+    width: 100%;
+    justify-content: space-between !important;
 }
 
 .navigation--wordmark {
     --card-padding: 11.5px;
     
     display: block;
+    justify-self: start;
+    z-index: 1000;
     margin: 0;
-    padding: var(--card-padding) calc(var(--pad));
+    padding: var(--card-padding) calc(var(--pad)) var(--card-padding) calc(var(--pad) * 0.5);
     
     font-size: 32px;
 	line-height: 32px;
@@ -72,10 +84,12 @@
 }
 
 .navigation--links {
-    --card-padding: 7.5px;
+    --card-padding: calc(var(--pad) * 0.5);
     --border-radius: 50px;
     
     display: flex;
+    justify-self: end;
+    z-index: 1000;
     flex-direction: row;
     list-style: none;
     margin: 0;
@@ -88,6 +102,11 @@
     margin-inline-start: calc(var(--pad) * 0.5);
     &:first-of-type {
         margin: 0;
+    }
+    
+    a:link,
+    a:visited {
+        box-shadow: none !important;
     }
 }
 

@@ -1,10 +1,12 @@
 ---
-date: 2025-06-01
+date: 2025-06-10
 title: "“Ally” is a verb, not a noun"
 author: "John Peart"
 excerpt: "Don't be an ally, do allying."
 categories:
+- blogpost
 - LGBT
+- presentation
 ---
 
 This month marks the anniversary of the Stonewall uprising; or as you might more commonly hear it referred to, “Pride Month”.[^1]

@@ -4,7 +4,7 @@
     &:before {
         display: block;
         position: absolute;
-        z-index: 50;
+        z-index: -1;
         pointer-events: none;
         
         height: 200%;
@@ -14,10 +14,6 @@
         
         background: linear-gradient(
             to bottom,
-            /*
-            Replace this with your site’s
-            actual background color:
-            */
             var(--background) 0%,
             transparent 30%
         );
@@ -31,55 +27,11 @@
         -webkit-backdrop-filter: blur(40px) saturate(120%);
                 backdrop-filter: blur(40px) saturate(120%);
     }
+    
+    @media (min-width: 700px) {
+        &:before {
+            margin: 0 -50%;
+            width: 200%;
+        }
+    }
 }
-
-//    --card-spacing: calc(var(--pad) * 0.5);
-//
-//    padding: var(--card-padding, var(--pad));
-//    border-radius: calc(var(--border-radius) * 2);
-//
-//     animation: card-scroll linear both;
-//     animation-timeline: scroll(block root);
-//     animation-range: 10px 200px;
-//     animation-duration: 1ms;
-//             
-    // --glass-light: rgba(255,255,255,0.95);
-    // --glass-dark:  rgba(70,75,80,0.35);
-// 
-//     background: var(--translucent);
-//     box-shadow:     inset   0px  0px  3px     var(--glass-light),
-//                     inset   0px  2px  6px     var(--glass-light),
-//                     inset   0px  4px  9px     var(--glass-light),
-//                     inset   0px  0px  1px     var(--glass-dark),
-//                     inset   0px -1px  2px     var(--glass-dark),
-//                     inset   0px -2px  4px     var(--glass-dark),
-//                         
-//                     .444584px .444584px .628737px -1px #00000042,
-//                     1.21072px 1.21072px 1.71222px -1.5px #0000003e,
-//                     2.6583px 2.6583px 3.75941px -2.25px #0000003a,
-//                     5.90083px 5.90083px 8.34503px -3px #00000030,
-//                     10px 10px 21.2132px -3.75px #0000000e,
-//                     -.5px -.5px 0 0 rgb(0 0 0/5%);
-//     
-//     @media (prefers-color-scheme: dark) {
-//         --glass-light: rgba(170,170,170,0.45);
-//         --glass-dark:  rgba(70,75,80,0.95);
-// 
-//         box-shadow:     inset   0px  0px  1px     var(--glass-light),
-//                         inset   0px  1px  2px     var(--glass-light),
-//                         inset   0px  2px  6px     var(--glass-light),
-//                         inset   0px  0px  0.5px     var(--glass-dark),
-//                         inset   0px -0.5px  1px     var(--glass-dark),
-//                         inset   0px -1px  1.5px     var(--glass-dark),
-//                 
-//                         .444584px .444584px .628737px -1px #00000042,
-//                         1.21072px 1.21072px 1.71222px -1.5px #0000003e,
-//                         2.6583px 2.6583px 3.75941px -2.25px #0000003a,
-//                         5.90083px 5.90083px 8.34503px -3px #00000030,
-//                         10px 10px 21.2132px -3.75px #0000000e,
-//                         -.5px -.5px 0 0 rgb(0 0 0/5%);
-//     }
-//     
-//     @media (min-width: 700px) {
-//         --card-spacing: var(--pad);    
-//     }

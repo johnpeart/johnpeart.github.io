@@ -21,12 +21,7 @@
     border-radius: 50px;
     box-shadow:     inset 10px 10px 25px 0px rgba(255,255,255,1),
                     inset -10px -10px 25px 0px rgba(0,0,0,0.3),
-                    .444584px .444584px .628737px -1px #00000042,
-                    1.21072px 1.21072px 1.71222px -1.5px #0000003e,
-                    2.6583px 2.6583px 3.75941px -2.25px #0000003a,
-                    5.90083px 5.90083px 8.34503px -3px #00000030,
-                    10px 10px 21.2132px -3.75px #0000000e,
-                    -.5px -.5px 0 0 rgb(0 0 0/5%);
+                    0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
      
     @media (max-width: 699px) {
         width: calc(100% - var(--pad));
@@ -41,6 +36,7 @@
     margin: 0;
     align-items: center;
     width: 100%;
+    gap: var(--pad);
     justify-content: space-between !important;
 }
 

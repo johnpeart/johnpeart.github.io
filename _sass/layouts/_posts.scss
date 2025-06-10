@@ -9,7 +9,7 @@ body[id$='photo'] {
     }
 
     header.post-title[class^="collection--"] {
-        margin: calc(var(--pad) * 4) auto calc(var(--pad) * 4) calc(var(--pad) * 2);
+        margin: calc(var(--pad) * 4) auto calc(var(--pad) * 4);
         text-align: center;
     }
 

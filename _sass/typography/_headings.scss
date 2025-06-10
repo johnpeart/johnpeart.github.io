@@ -103,6 +103,8 @@ h3 + h4 {
 
 header aside.published-date {
     display: inline-block;
+    width: 100%;
+    text-align: left;
     padding-top: clamp(90px, 10vw + 10px, 150px);
     padding-bottom: clamp(15px, 3vw, 45px);
 }

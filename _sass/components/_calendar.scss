@@ -17,7 +17,7 @@
 
     background: var(--white);
     border: 2px solid var(--gray-300);
-    border-radius: 30px;
+    border-radius: calc(var(--border-radius) * 2);
 
     box-shadow:
         0 0 var(--white),
@@ -37,7 +37,7 @@
         background: var(--red-tone);
         color: var(--white);
         align-self: flex-start;
-        border-radius: calc(var(--border-radius) * 4 - 2px) calc(var(--border-radius) * 4 - 2px) 0 0;
+        border-radius: calc(var(--border-radius) * 2 - 2px) calc(var(--border-radius) * 2 - 2px) 0 0;
     }
 
     .calendar-date {

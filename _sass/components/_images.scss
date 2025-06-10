@@ -28,7 +28,7 @@ figure,
 	picture source,
 	picture img {
         background: light-dark(var(--gray-100), var(--gray-900));
-        border-radius: calc(var(--border-radius) * 2);
+        border-radius: calc(var(--border-radius) * 4);
         box-shadow: var(--shadow--depth-1);
 	}
 
@@ -76,7 +76,7 @@ p > img {
     right: 0;
     
     background: light-dark(var(--gray-100), var(--gray-900));
-    border-radius: calc(var(--border-radius) * 2);
+    border-radius: calc(var(--border-radius) * 4);
     box-shadow: var(--shadow--depth-1);
 
     @media (min-width: 700px) {

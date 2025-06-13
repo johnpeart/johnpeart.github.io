@@ -69,7 +69,7 @@ Of the 108,000 LGBT+ people that responded to the national survey – at the tim
 
 ![Text: 67% of trans respondents to the National LGBT Survey said they avoid being open about their gender identity for fear of a negative reaction.](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide7.jpg){.rounded}
 
-In that same survey, of the repsondents who identified as trans, 67% of them said they avoided sharing with other people that they are trans – again, because they feared the negative reaction.
+In that same survey, of the respondents who identified as trans, 67% of them said they avoided sharing with other people that they are trans – again, because they feared the negative reaction.
 
 ![Text: These experiences extend to the workplace too...](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide8.jpg){.rounded}
 
@@ -79,7 +79,7 @@ And those feelings and experiences extend into the workplace too...
 
 ![Text: LGBT+ civil servants responding to the Civil Service People Survey said they experience bullying, harassment and discrimination twice as often as cisgender and straight staff](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide9.jpg){.rounded}
 
-In the 2019 Civil Service People Survey, when you break down the respones by people's sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.
+In the 2019 Civil Service People Survey, when you break down the responses by people's sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.
 
 Transgender staff, in particular, experience some of the highest rates of bullying, harassment and discrimination of any group in the Civil Service.
 

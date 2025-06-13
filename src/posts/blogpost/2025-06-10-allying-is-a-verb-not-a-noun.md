@@ -79,7 +79,7 @@ And those feelings and experiences extend into the workplace too...
 
 ![Text: LGBT+ civil servants responding to the Civil Service People Survey said they experience bullying, harassment and discrimination twice as often as cisgender and straight staff](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide9.jpg){.rounded}
 
-In the 2019 Civil Service People Survey, when you break down the responses by peoples' sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.[^3]
+In the [2019 Civil Service People Survey](https://www.gov.uk/government/publications/civil-service-people-survey-2019-results), when you break down the responses by peoples' sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.[^3]
 
 [^3]: Whilst these figures come from the 2019 Civil Service people survey, the general trend has been the same for a long time and still is today. LGBT+ consistently report higher levels of bullying, harassment and discrimination than other staff do.
 

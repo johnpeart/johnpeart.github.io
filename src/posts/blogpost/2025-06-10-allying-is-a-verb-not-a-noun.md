@@ -79,7 +79,9 @@ And those feelings and experiences extend into the workplace too...
 
 ![Text: LGBT+ civil servants responding to the Civil Service People Survey said they experience bullying, harassment and discrimination twice as often as cisgender and straight staff](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide9.jpg){.rounded}
 
-In the 2019 Civil Service People Survey, when you break down the responses by peoples' sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.
+In the 2019 Civil Service People Survey, when you break down the responses by peoples' sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.[^3]
+
+[^3]: Whilst these figures come from the 2019 Civil Service people survey, the general trend has been the same for a long time and still is today. LGBT+ consistently report higher levels of bullying, harassment and discrimination than other staff do.
 
 Transgender staff, in particular, experience some of the highest rates of bullying, harassment and discrimination of any group in the Civil Service.
 
@@ -141,7 +143,11 @@ Do some research and learn about the experiences that LGBT+ people face in their
 
 Just have a chat with an LGBT+ person about pride – maybe someone in your team.
 
-Volunteering. Go and volunteer with an LGBT+ charity. If you can't donate your time, maybe you can afford to donate some cash.
+Volunteering. Go and volunteer with an LGBT+ charity[^4]. If you can't donate your time, maybe you can afford to donate some cash[^5].
+
+[^4]: I volunteer with [Just Like Us](http://justlikeus.org) as a mentor to young LGBT+ people. 
+
+[^5]: Aside from [Just Like Us](http://justlikeus.org), if you're looking for some suggestions: [Consortium](https://www.consortium.lgbt) help to build the resilience and capacity of the LGBT+ charities sector, and [LGBT Foundation](https://lgbt.foundation), [London Friend](https://londonfriend.org.uk), [Stonewall Housing](https://stonewallhousing.org), [Galop](https://www.galop.org.uk) all do amazing work. Consortium also publishes [a list of its member charities](https://www.consortium.lgbt/member-directory/) that you might be interested in supporting.
 
 Talk to your family about it. Maybe you have kids you can talk to about LGBT+ identities, and how you accept and celebrate them.
 

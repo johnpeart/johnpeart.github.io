@@ -65,7 +65,7 @@ I'm going to show you some data from a government survey – the National LGBT S
 
 ![Text: More than two-thirds of respondents to the National LGBT Survey said they would avoid holding hands with a same-sex partner in public for fear of a negative reaction.](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide6.jpg){.rounded}
 
-Of the 108,000 LGBT+ people that responded to the national survey – at the time, the largest survey of its kind ever conducted – two-thirds of respondents said that they avoided holding hands with their same-sex partner in public because they feared the negative repurcussions.
+Of the 108,000 LGBT+ people that responded to the [National LGBT survey](https://www.gov.uk/government/publications/national-lgbt-survey-summary-report) – at the time, the largest survey of its kind ever conducted – two-thirds of respondents said that they avoided holding hands with their same-sex partner in public because they feared the negative repercussions.
 
 ![Text: 67% of trans respondents to the National LGBT Survey said they avoid being open about their gender identity for fear of a negative reaction.](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide7.jpg){.rounded}
 

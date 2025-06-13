@@ -129,7 +129,7 @@ It's a promise to act.
 
 Don't be an ally. Do allying.
 
-You have to *do* something to maek a meaningful difference to the stats that I shared earlier on.
+You have to *do* something to make a meaningful difference to the stats that I shared earlier on.
 
 ![A list of activities you can do to “do allying” (see speaker notes below)](/assets/images/posts/2025/06/10/allying-is-a-verb-not-a-noun/slide16.jpg){.rounded}
 

@@ -40,7 +40,7 @@ So, what is pride?
 	</figcaption>
 </figure>
 
-To understand that, you need to know that back in 1969, at a bar in New York City called the Stonewall Inn, police tried to raid an LGBT+ bar. 
+To understand that, you need to know that back in 1969, in New York City, police tried to raid an LGBT+ bar called the Stonewall Inn. 
 
 The patrons of that bar decided that "enough was enough". The events that followed kicked off what we know as pride today.
 

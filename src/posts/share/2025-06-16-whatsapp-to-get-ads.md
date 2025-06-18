@@ -11,7 +11,7 @@ reply_to:
     title: "WhatsApp is officially getting ads"
     description: "Meta has hinted at bringing ads to WhatsApp for years, and now they’re finally here."
     url: "https://www.theverge.com/news/687519/whatsapp-launch-advertising-status-updates"
-    image: ""
+    image: "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/meta-ads-whatsapp-copy.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=700"
     date: 2025-04-03
     content: |
         Meta says it will tailor the ads to your interests by using “limited” information, including your country or city, language, the channels you follow, and how you interact with ads on the platform. You can also change your ad preferences from Meta’s Accounts Center if you’ve opted into the hub.

@@ -20,6 +20,6 @@ html {
 
 html,
 body {
-    background: light-dark(var(--white), var(--black));
+    background: var(--background);
     color: var(--color);
 }

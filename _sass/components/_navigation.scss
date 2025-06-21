@@ -1,7 +1,7 @@
 .global-navigation {
     --from-padding: calc(var(--pad) * 0.5);
     
-    animation: navigation ease-out both;
+    animation: navigation ease-in-out both;
     animation-timeline: scroll(block root);
     animation-range: 10px 200px;
     animation-duration: 1ms;
@@ -20,7 +20,7 @@
     padding: 0;
     
     border: 1px solid var(--translucent-border);
-    border-radius: 50px;
+    border-radius: 100px;
     box-shadow:     inset 10px 10px 25px 0px rgba(255,255,255,1),
                     inset -10px -10px 25px 0px rgba(0,0,0,0.3),
                     0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);

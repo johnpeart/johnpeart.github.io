@@ -19,7 +19,7 @@
 	margin: 0;
 }
 
-.submit-webmention button.button {
+.submit-webmention button {
 	grid-area: button;
     display: flex;
     align-items: center;
@@ -28,6 +28,10 @@
 	aspect-ratio: 1 / 1;
 	padding: 12px;
 	height: 100%;
+        
+    svg {
+        width: 40px;
+    }
 }
 
 .submit-webmention a {

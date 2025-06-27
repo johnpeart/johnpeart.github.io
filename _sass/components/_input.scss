@@ -18,6 +18,8 @@ input[type="search"] {
     border: none;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow--depth-1--inset);
+    
+    outline-offset: 3px;
 
     &::placeholder {
         color: var(--placeholder-color);
@@ -37,11 +39,14 @@ input[type="search"] {
             color: var(--placeholder-focus);
         }
     }
-
+    
     &:invalid {
-        box-shadow: inset 0 0 1px 1px var(--orange);
-        background: var(--absolute);
         caret-color: var(--red);
-        transition: box-shadow 0.3s;
     }
+    
+    &:invalid:not(:focus) {
+        outline: 3px solid var(--red);
+        color: var(--red);
+    }
+
 }

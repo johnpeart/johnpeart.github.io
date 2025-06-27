@@ -10,14 +10,11 @@ blockquote :first-child {
     display: block;
 	position: relative;
 	
-	padding: calc(var(--pad) * 2);
+    z-index: 3;
+	padding: calc(var(--pad) * 1.5);
 	margin: 0 auto calc(var(--pad) * 2);
 	left: auto;
 	right: auto;
-    
-    background: light-dark(var(--gray-100), var(--gray-900));
-    border-radius: calc(var(--border-radius) * 2);
-    box-shadow: var(--shadow--depth-1);
 	
 	width: auto;
 	
@@ -26,6 +23,9 @@ blockquote :first-child {
     word-wrap: break-word;
     word-break: break-word;
     
+    background: var(--secondary-background);
+    border-radius: calc(var(--border-radius) * 2);
+
     p {
         &:first-child {
             padding-top: 0;

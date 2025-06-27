@@ -45,7 +45,7 @@
     --green-tone: rgb(4, 80, 9);
     --green: rgb(74,159,101);
     --green-tint: rgb(116, 190, 139);
-    --cyan: rgb(0, 159, 227);
+    --cyan: hsl(198, 100%, 45%);
     --cyan-tint: hsl(198, 100%, 60%);
     --cyan-tone: hsl(198, 100%, 30%);
     
@@ -80,7 +80,7 @@
     --markerpen-color: var(--black);
     --strikethrough-color: var(--red-tone);
     
-    --secondary-background: light-dark(var(--gray-200), var(--gray-800));
+    --secondary-background: light-dark(var(--gray-100), var(--gray-800));
     --secondary-hoverBackground: light-dark(var(--gray-300), var(--gray-700));
     --secondary-borderColor: light-dark(var(--gray-300), var(--gray-700));
     --secondary-color: light-dark(var(--gray-600), var(--gray-500));
@@ -130,7 +130,7 @@
         inset -1px -1px 1px 0 #00000026,
         0 3px 6px rgba(0,0,0,0.16), 
         0 3px 6px rgba(0,0,0,0.23);
-    
+           
     --glass--shadow:     inset   0px  0px  3px     var(--glass-light),
                         inset   0px  2px  6px     var(--glass-light),
                         inset   0px  4px  9px     var(--glass-light),

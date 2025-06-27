@@ -39,7 +39,7 @@ figure,
 
 p > img,
 figure img {
-    background: var(--glass-background);
+    background: var(--glass-gradient);
     border-radius: calc(var(--border-radius) * 2);
     box-shadow: var(--shadow--depth-1);
     padding: var(--card-padding, var(--pad));

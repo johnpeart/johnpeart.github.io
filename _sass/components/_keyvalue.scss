@@ -26,12 +26,12 @@
 	border-top: 1px solid;
 	border-color: var(--secondary-borderColor);
     
+    gap: calc(var(--pad) * 0.5) var(--pad);
+
     &.key-value--no-border {
         border: none;
         padding: 0 0 calc(var(--pad) * 2);
     }
-
-    gap: calc(var(--pad) * 0.5) var(--pad);
     
     &.key-value--with-description {
         grid-template-columns: 1fr !important;

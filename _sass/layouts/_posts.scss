@@ -1,4 +1,4 @@
-body[id$='post'],
+body[id$='blogpost'],
 body[id$='photo'] {
 
     section.post-body ul > li::before {
@@ -9,10 +9,15 @@ body[id$='photo'] {
     }
 
     header.post-title[class^="collection--"] {
-        margin: calc(var(--pad) * 4) auto calc(var(--pad) * 4);
+        margin: calc(var(--pad) * 4) auto;
         text-align: center;
     }
 
+}
+
+header.post-title.collection--blogpost {
+    margin: calc(var(--pad) * 4) auto 0 !important;
+    text-align: center;
 }
 
 section.from-me + footer.interactions,

@@ -1,15 +1,52 @@
+
+
+p > img,
 figure,
 .composite-image {
     display: block;
     position: relative;
     box-sizing: content-box;
-    width: 100%;
+    
+    --width: 100%;
+    
+    width: var(--w);
     max-width: 100%;
     margin: 0 0 calc(var(--pad) * 2);
 
-    &.featured-image {
-        margin-bottom: calc(var(--pad) * 3);
+    @media (min-width: 700px) {
+        --w: 720px;
+        --container: 610px;
+        --m: calc(calc(var(--w) - var(--container)) / 2 * -1);
+        
+        max-width: unset;
+        margin: 0 var(--m) calc(var(--pad) * 3);
     }
+
+    @media (min-width: 1100px) {
+        --w: 1100px;
+        --container: 870px;
+    }
+    
+    &.hero {
+        display: block;
+        position: relative;
+        background: unset;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+
+}
+
+p > img,
+figure img {
+    background: var(--glass-background);
+    border-radius: calc(var(--border-radius) * 2);
+    box-shadow: var(--shadow--depth-1);
+    padding: var(--card-padding, var(--pad));
+}
+
+figure,
+.composite-image {
 
     img {
         display: block;
@@ -18,40 +55,15 @@ figure,
         width: 100%;
         max-width: 100%;
         height: auto;
-
-        &.padding {
-            padding: var(--pad);
-            box-sizing: border-box;
-        }
+        padding: 0;
     }
+    
     img,
 	picture source,
 	picture img {
-        background: light-dark(var(--gray-100), var(--gray-900));
         border-radius: calc(var(--border-radius) * 2);
         box-shadow: var(--shadow--depth-1);
 	}
-
-    @media (min-width: 700px) {
-        --w: 720px;
-        --container: 610px;
-        
-        --m: calc(calc(var(--w) - var(--container)) / 2 * -1);
-        
-        width: var(--w);
-        max-width: unset;
-        margin: 0 var(--m) calc(var(--pad) * 3);
-    }
-
-    @media (min-width: 1100px) {
-        --w: 1100px;
-        --container: 870px;
-        
-        --m: calc(calc(var(--w) - var(--container)) / 2 * -1);
-        
-        width: var(--w);
-        margin: 0 var(--m) calc(var(--pad) * 3);
-    }
 
 }
 
@@ -64,31 +76,6 @@ figcaption {
     text-align: left;
     font-size: clamp(18px, 3vw, 24px);
     color: var(--secondary-color);
-}
-
-p > img {
-    display: block;
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    left: 0;
-    right: 0;
-    
-    background: light-dark(var(--gray-100), var(--gray-900));
-    border-radius: calc(var(--border-radius) * 2);
-    box-shadow: var(--shadow--depth-1);
-
-    @media (min-width: 700px) {
-        width: 720px;
-        max-width: unset;
-        margin: var(--pad) -45px;
-    }
-
-    @media (min-width: 1100px) {
-        width: 1100px;
-        margin: var(--pad) -115px 30px;
-    }
 }
 
 .background {
@@ -132,28 +119,6 @@ img.overlay {
     position: relative;
     display: block;
     width: clamp(200px, 60%, 600px);
-}
-
-.hero {
-    display: block;
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 0 calc(var(--pad) * 2);
-    background: unset;
-    box-shadow: unset;
-    border-radius: unset;
-
-    @media (min-width: 700px) {
-        width: 740px;
-        max-width: unset;
-        margin: var(--pad) var(--pad) -80px calc(var(--pad) * 3);
-    }
-
-    @media (min-width: 1100px) {
-        width: 1100px;
-        margin: var(--pad) var(--pad) -130px calc(var(--pad) * 3);
-    }
 }
 
 img.app-icon {

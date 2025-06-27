@@ -16,7 +16,7 @@ search {
         position: absolute;
         top: 0;
         left: calc(var(--pad) * -1);
-        z-index: 0;
+        z-index: -1;
         width: 100%;
         height: calc(70px + calc(var(--pad) * 3));
         background: var(--background);

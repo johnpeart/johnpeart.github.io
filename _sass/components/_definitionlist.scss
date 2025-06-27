@@ -114,7 +114,6 @@ section.app-sheet {
         text-align: right;
     }
 
-    @include clearfix();
 }
 
 section.apps-list {
@@ -132,12 +131,12 @@ section.apps-list {
             background: var(--secondary-hoverBackground);
         }
         &:first-child {
-            border-top-left-radius: calc(var(--border-radius) * 2);
-            border-top-right-radius: calc(var(--border-radius) * 2);
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
         }
         &:last-child {
-            border-bottom-left-radius: calc(var(--border-radius) * 2);
-            border-bottom-right-radius: calc(var(--border-radius) * 2);
+            border-bottom-left-radius: inherit;
+            border-bottom-right-radius: inherit;
         }
         
         @media (min-width: 700px) {

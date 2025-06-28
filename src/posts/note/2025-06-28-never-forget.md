@@ -6,6 +6,10 @@ excerpt: "Lesbian and gay women, gender non-conforming women, trans women, and m
 categories:
 - Pride
 - LGBT
+
+posse:
+- https://mastodon.social/@johnpeart/114760629551649759
+- https://bsky.app/profile/johnpe.art/post/3lsnynatthk25
 ---
 
 Today, 28 June marks the anniversary of the Stonewall uprising and the birth of the pride movement.

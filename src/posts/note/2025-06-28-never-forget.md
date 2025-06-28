@@ -1,6 +1,6 @@
 ---
 date: 2025-06-28T12:00:00+00:00
-title: "Marsha P. Johnson.<br/>Sylvia Rivera.<br/>Stormé DeLarverie."
+title: "Marsha P. Johnson. <br/>Sylvia Rivera. <br/>Stormé DeLarverie."
 author: "John Peart"
 excerpt: "Lesbian and gay women, gender non-conforming women, trans women, and men all stood together from the start."
 categories:

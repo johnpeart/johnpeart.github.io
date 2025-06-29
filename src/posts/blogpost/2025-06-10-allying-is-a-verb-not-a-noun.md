@@ -9,7 +9,7 @@ categories:
 - presentation
 ---
 
-This month marks the anniversary of the Stonewall uprising; or as you might more commonly hear it referred to, “Pride Month”.[^1]
+This month marks the anniversary of [the Stonewall uprising](https://www.johnpe.art/note/1751112000/); or as you might more commonly hear it referred to, “Pride Month”.[^1]
 
 [^1]: I personally hate the term "Pride Month". Pride events happen all year round, all over the globe. And whilst the Stonewall uprising was significant, it isn't the *only* important moment for the advancement of LGBT rights. Nonetheless, folk think June is the month of pride, and I am not going to fix their misconception by screaming into the void!
 

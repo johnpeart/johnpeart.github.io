@@ -41,11 +41,11 @@ list:
       price: "£30"
       link:
         external: "https://www.bitmapbooks.com/collections/all-books/products/nes-famicom-a-visual-compendium" 
-    - name: “Radical Candor: How to Get What You Want by Saying What You Mean”
-      description: “By Kim Scott”
-      price: “£11”
+    - name: "Radical Candor"
+      description: "By Kim Scott"
+      price: "£11"
       link:
-        external: “https://www.waterstones.com/book/radical-candor/kim-scott/9781529038347” 
+        external: "https://www.waterstones.com/book/radical-candor/kim-scott/9781529038347"
         
 - name: "Clothing and Accessories"
   items:

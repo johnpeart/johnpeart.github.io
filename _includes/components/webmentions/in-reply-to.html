@@ -14,7 +14,7 @@
                         {% if mention.author.name == 'John Peart' %}
                             {% assign authorURL = 'https://www.johnpe.art' %}
                             {% assign authorName = 'John Peart' %}
-                            {% assign authorPhoto = '/assets/images/me/avatar.png' %}
+                            {% assign authorPhoto = site.url | append: site.avatar.image %}
                             {% assign from = "from-me" %}
                         {% else %}
                             {% assign authorURL = mention.author.url %}

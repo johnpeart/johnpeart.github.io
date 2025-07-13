@@ -42,6 +42,7 @@
     gap: var(--pad);
     justify-content: space-between !important;
     
+    background: linear-gradient(to right, var(--background--translucent) 0px, transparent 100%);
     border: 3px solid var(--color);
     border-radius: calc(var(--border-radius) * 2);
     backdrop-filter: blur(500px) saturate(500%);

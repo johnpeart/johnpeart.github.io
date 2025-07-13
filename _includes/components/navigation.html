@@ -1,8 +1,8 @@
 {% if env.ELEVENTY_RUN_MODE == "serve" %}{% assign siteUrl = 'http://localhost:8080' %}{% endif %}
 
-<header class="global-navigation">
+<header class="global-navigation container">
     
-	<nav class="navigation glass" aria-label="Main menu">
+	<nav class="navigation" aria-label="Main menu">
         
         <h1 class="navigation--wordmark">
             <a href="{{ siteUrl | default: site.url }}" class="navigation--wordmark--link">John Peart</a>
@@ -11,17 +11,26 @@
         <ul class="navigation--links">
             {% unless permalink == '/search/' %}
             <li class="navigation--links-item">
-                {% include 'components/navigation-icons/search.html' %}
+                <a href="/search" class="navigation--link navigation--icon button">
+                    {% include 'components/navigation-icons/search-icon.svg' %}
+                    <span class="sr-only">Search</span>
+                </a>
             </li>
             {% endunless %}
             {% unless permalink == '/menu/' %}
             <li class="navigation--links-item">
-                {% include 'components/navigation-icons/menu.html' %}
+                <a href="/menu" class="navigation--link navigation--icon button">
+                    {% include 'components/navigation-icons/menu-icon.svg' %}
+                    <span class="sr-only">Menu</span>
+                </a>            
             </li>
             {% endunless %}
             {% if permalink == '/menu/' or permalink == '/search/' %}
             <li class="navigation--links-item">
-                {% include 'components/navigation-icons/escape.html' %}
+                <a href="/" onclick="return document.referrer?history.back():window.location.href=&quot;/&quot;,!1" aria-label="Close menu (back)" class="navigation--link navigation--icon button">
+                    {% include 'components/navigation-icons/escape-icon.svg' %}
+                    <span class="sr-only">Escape</span>
+                </a>
             </li>
             {% else %}
             

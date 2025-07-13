@@ -4,7 +4,7 @@
     
         <div id="author--bio" class="h-card vcard p-author">
             <a class="author--photo author--photo--link" rel="me" href="https://www.johnpe.art" title="Visit my website" tabindex="-1">
-                <img class="u-photo hidden" alt="A Memoji avatar of John Peart" loading="lazy" src="/assets/images/me/memoji.png">
+                <img class="u-photo hidden" alt="{{ site.avatar.alt }}" loading="lazy" src="{{ site.url | append: site.avatar.image }}">
             </a>
             
             <p class="p-name author--name"><a rel="author" class="link-secondary no-underline p-author u-uid" href="{{ siteUrl }}"><strong><span class="p-given-name">John</span> <span class="p-family-name">Peart</span></strong></a></p>

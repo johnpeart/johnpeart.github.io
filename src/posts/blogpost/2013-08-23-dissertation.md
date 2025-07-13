@@ -122,7 +122,7 @@ Each ICU in this paper represents an individual speech or article made by indivi
 
 First, individual members must have served at least two years on the MPC. Members serving less than two years, or for which no data were available, were excluded. This was to ensure a time-related element to the analysis. In addition, I wanted to ensure that the dataset was not unnecessarily biased towards discussion of the financial crisis, as much of that discussion is likely to be less relevant to the concept of 'underlying monetary policy preferences'. To do this, I needed to exclude those presently on the committee. This had to be balanced against a further consideration however; excluding all current members would have meant losing those members that prior research had indicated could be most revealing – such as the Chair (Bailey and Schonhardt-Bailey 2008, 2013 (forthcoming)). To ensure there was a balance between these two considerations, two further criteria were applied. Members assessed must have either (a) left the committee, having finished their term, or (b) been on the committee for at least two full terms if they are still serving members. These criteria helped to balance the aforementioned trade off and were intended to maintain the robustness of the dataset. Details of members included or excluded, given the above criteria, are shown in Appendix 1.
 
-<table class="card">
+<table>
     <caption><strong>Table 1:</strong> Classification of members based on Hix et al (2010)</caption>
     <thead>
         <tr>
@@ -207,7 +207,7 @@ First, individual members must have served at least two years on the MPC. Member
 
 The literature suggests that different members of a committee will be more or less likely to update their preferences based on whether their priors are moderate or extreme (Barabas 2004). My methodology exploits this conclusion, dividing members along a single dimension for the purposes of selecting individuals for in-depth analysis. Using the results from Hix et al. (2010), three corpora were compiled representing the 'hawks', the 'doves' and the 'centrists'. My hypothesis is not, however, concerned with aggregate preferences, but individuals. Hence, I use the results of these initial corpora to find the most statistically significant members. The significance of members, (or indeed any part of the results) is given by the Chi-squared value, with one degree of freedom, of the passive variables. The critical values are shown in Table 2.
 
-<table class="card">
+<table>
     <caption><strong>Table 2:</strong> Chi-squared significance to 1 degree of freedom.</caption>
     <thead>
         <tr>
@@ -257,7 +257,7 @@ Figures 1, 2 and 3 show the descendant hierarchical classifications for each of 
 
 ![Figure 3: Dendrograms for centrists corpus][fig-3]
 
-<table class="card">
+<table>
     <caption><strong>Table 3:</strong> ALCESTE Analysis: Basic statistics for initial corpora.</caption>
     <thead>
         <tr>
@@ -314,94 +314,96 @@ Further assessment of the classes reveals that, as predicted, some of the discou
 
 After the process of narrowing the data was completed, eight members remained for assessment; Andrew Sentance (hawk), Mervyn King, Edward George, Charles Bean (centrists), Sushil Wadhwani, Adam Posen, Christopher Allsopp, and DeAnne Julius (doves). The basic results are shown in Table 4, and relevant descendant hierarchical classifications are shown on the following pages. All members attain a robust rate of ECU classification.
 
-<table class="card">
-    <caption><strong>Table 4:</strong> ALCESTE Analysis: Basic statistics for individual member corpora.</caption>
-    <thead>
-        <tr>
-            <th></th>
-            <th style="text-align:right">Total words</th>
-            <th style="text-align:right">Unique words</th>
-            <th style="text-align:right">Passive variables</th>
-            <th style="text-align:right">ICUs</th>
-            <th style="text-align:right">Classified ECUs</th>
-            <th style="text-align:right">Lexical Classes</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Sentance</td>
-            <td style="text-align:right">120,048</td>
-            <td style="text-align:right">5,386</td>
-            <td style="text-align:right">21</td>
-            <td style="text-align:right">27</td>
-            <td style="text-align:right">2,205 (82%)</td>
-            <td style="text-align:right">5</td>
-        </tr>
-        <tr>
-            <td>King</td>
-            <td style="text-align:right">260,243</td>
-            <td style="text-align:right">12,096</td>
-            <td style="text-align:right">33</td>
-            <td style="text-align:right">74</td>
-            <td style="text-align:right">6,431 (88%)</td>
-            <td style="text-align:right">5</td>
-        </tr>
-        <tr>
-            <td>George</td>
-            <td style="text-align:right">163,535</td>
-            <td style="text-align:right">7,434</td>
-            <td style="text-align:right">22</td>
-            <td style="text-align:right">64</td>
-            <td style="text-align:right">3,912 (82%)</td>
-            <td style="text-align:right">5</td>
-        </tr>
-        <tr>
-            <td>Bean</td>
-            <td style="text-align:right">155,759</td>
-            <td style="text-align:right">9,037</td>
-            <td style="text-align:right">28</td>
-            <td style="text-align:right">35</td>
-            <td style="text-align:right">2,976 (73%)</td>
-            <td style="text-align:right">6</td>
-        </tr>
-        <tr>
-            <td>Wadhwani</td>
-            <td style="text-align:right">76,761</td>
-            <td style="text-align:right">6,232</td>
-            <td style="text-align:right">17</td>
-            <td style="text-align:right">14</td>
-            <td style="text-align:right">1,456 (79%)</td>
-            <td style="text-align:right">4</td>
-        </tr>
-        <tr>
-            <td>Posen</td>
-            <td style="text-align:right">80,209</td>
-            <td style="text-align:right">7,084</td>
-            <td style="text-align:right">19</td>
-            <td style="text-align:right">16</td>
-            <td style="text-align:right">1,476 (79%)</td>
-            <td style="text-align:right">6</td>
-        </tr>
-        <tr>
-            <td>Allsopp</td>
-            <td style="text-align:right">18,897</td>
-            <td style="text-align:right">2,704</td>
-            <td style="text-align:right">7</td>
-            <td style="text-align:right">2</td>
-            <td style="text-align:right">324 (86%)</td>
-            <td style="text-align:right">5</td>
-        </tr>
-        <tr>
-            <td>Julius</td>
-            <td style="text-align:right">21,064</td>
-            <td style="text-align:right">3,194</td>
-            <td style="text-align:right">10</td>
-            <td style="text-align:right">5</td>
-            <td style="text-align:right">384 (67%)</td>
-            <td style="text-align:right">5</td>
-        </tr>
-    </tbody>
-</table>
+<div class="mobile-overflow">
+    <table>
+        <caption><strong>Table 4:</strong> ALCESTE Analysis: Basic statistics for individual member corpora.</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th style="text-align:right">Total words</th>
+                <th style="text-align:right">Unique words</th>
+                <th style="text-align:right">Passive variables</th>
+                <th style="text-align:right">ICUs</th>
+                <th style="text-align:right">Classified ECUs</th>
+                <th style="text-align:right">Lexical Classes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sentance</td>
+                <td style="text-align:right">120,048</td>
+                <td style="text-align:right">5,386</td>
+                <td style="text-align:right">21</td>
+                <td style="text-align:right">27</td>
+                <td style="text-align:right">2,205 (82%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>King</td>
+                <td style="text-align:right">260,243</td>
+                <td style="text-align:right">12,096</td>
+                <td style="text-align:right">33</td>
+                <td style="text-align:right">74</td>
+                <td style="text-align:right">6,431 (88%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>George</td>
+                <td style="text-align:right">163,535</td>
+                <td style="text-align:right">7,434</td>
+                <td style="text-align:right">22</td>
+                <td style="text-align:right">64</td>
+                <td style="text-align:right">3,912 (82%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>Bean</td>
+                <td style="text-align:right">155,759</td>
+                <td style="text-align:right">9,037</td>
+                <td style="text-align:right">28</td>
+                <td style="text-align:right">35</td>
+                <td style="text-align:right">2,976 (73%)</td>
+                <td style="text-align:right">6</td>
+            </tr>
+            <tr>
+                <td>Wadhwani</td>
+                <td style="text-align:right">76,761</td>
+                <td style="text-align:right">6,232</td>
+                <td style="text-align:right">17</td>
+                <td style="text-align:right">14</td>
+                <td style="text-align:right">1,456 (79%)</td>
+                <td style="text-align:right">4</td>
+            </tr>
+            <tr>
+                <td>Posen</td>
+                <td style="text-align:right">80,209</td>
+                <td style="text-align:right">7,084</td>
+                <td style="text-align:right">19</td>
+                <td style="text-align:right">16</td>
+                <td style="text-align:right">1,476 (79%)</td>
+                <td style="text-align:right">6</td>
+            </tr>
+            <tr>
+                <td>Allsopp</td>
+                <td style="text-align:right">18,897</td>
+                <td style="text-align:right">2,704</td>
+                <td style="text-align:right">7</td>
+                <td style="text-align:right">2</td>
+                <td style="text-align:right">324 (86%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+            <tr>
+                <td>Julius</td>
+                <td style="text-align:right">21,064</td>
+                <td style="text-align:right">3,194</td>
+                <td style="text-align:right">10</td>
+                <td style="text-align:right">5</td>
+                <td style="text-align:right">384 (67%)</td>
+                <td style="text-align:right">5</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 In order to explore the hypothesis, I return to the expectations established earlier. By qualitatively assessing the ECUs of each member, and using Alceste’s factor analysis and cross-data analysis functions, I find examples of logical contraditions, preference development and preference stability.
 
@@ -498,7 +500,7 @@ Where previously, Bean felt the policy framework in place was sufficient to ensu
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F7.png">
-    <table class="card">
+    <table>
         <thead>
             <tr>
                 <th></th>
@@ -637,7 +639,7 @@ Julius and Wadhwani have very little coherence in the topics they discuss in the
 
 <figure>
     <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F12.png">
-    <table class="card">
+    <table>
         <thead>
             <th></th>
             <th></th>
@@ -720,52 +722,54 @@ For the appointment process to significantly matter to the outputs of a monetary
 
 ## Appendix 1: Members of the MPC
 
-<table class="card">
-    <caption><strong>Table 5:</strong> Overview of classes and classes used for further analysis</caption>
-    <thead>
-        <tr>
-            <th>Member</th>
-            <th>Tenure Start</th>
-            <th>Tenure End</th>
-            <th>Included?</th>
-            <th>Justification</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="secondary-row"><td>Howard Davies</td><td>1997</td><td>1997</td><td>No</td><td>No speeches. Less than 2 years membership.</td></tr>
-        <tr class="secondary-row"><td>Alan Budd</td><td>1997</td><td>1999</td><td>No</td><td>Less than 2 years membership.</td></tr>
-        <tr><td>Williem Buiter</td><td>1997</td><td>2000</td><td>Yes</td><td></td></tr>
-        <tr><td>Charles Goodhart</td><td>1997</td><td>2000</td><td>Yes</td><td></td></tr>
-        <tr><td>DeAnne Julius</td><td>1997</td><td>2001</td><td>Yes</td><td></td></tr>
-        <tr><td>Ian Plenderleith</td><td>1997</td><td>2002</td><td>Yes</td><td></td></tr>
-        <tr><td>David Clementi</td><td>1997</td><td>2002</td><td>Yes</td><td></td></tr>
-        <tr><td>Edward George</td><td>1997</td><td>2003</td><td>Yes</td><td></td></tr>
-        <tr><td>Mervyn King</td><td>1997</td><td>2013</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
-        <tr><td>John Vickers</td><td>1998</td><td>2000</td><td>Yes</td><td></td></tr>
-        <tr><td>Sushil Wadhwani</td><td>1999</td><td>2002</td><td>Yes</td><td></td></tr>
-        <tr><td>Christopher Allsopp</td><td>2000</td><td>2003</td><td>Yes</td><td></td></tr>
-        <tr><td>Stephen Nickell</td><td>2000</td><td>2006</td><td>Yes</td><td></td></tr>
-        <tr><td>Charles Bean</td><td>2000</td><td>2013</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
-        <tr><td>Kate Barker</td><td>2001</td><td>2010</td><td>Yes</td><td></td></tr>
-        <tr><td>Marian Bell</td><td>2002</td><td>2005</td><td>Yes</td><td></td></tr>
-        <tr><td>Andrew Large</td><td>2002</td><td>2006</td><td>Yes</td><td></td></tr>
-        <tr><td>Paul Tucker</td><td>2002</td><td>2014</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
-        <tr><td>Richard Lambert</td><td>2003</td><td>2006</td><td>Yes</td><td></td></tr>
-        <tr><td>Rachel Lomax</td><td>2003</td><td>2008</td><td>Yes</td><td></td></tr>
-        <tr class="secondary-row"><td>David Walton</td><td>2005</td><td>2006</td><td>No</td><td>Less than 2 years membership.</td></tr>
-        <tr><td>John Gieve</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
-        <tr><td>David Blanchflower</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
-        <tr><td>Tim Besley</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
-        <tr><td>Andrew Sentence</td><td>2006</td><td>2011</td><td>Yes</td><td></td></tr>
-        <tr class="secondary-row"><td>Spencer Dale</td><td>2008</td><td>2013</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
-        <tr><td>Adam Posen</td><td>2009</td><td>2012</td><td>Yes</td><td></td></tr>
-        <tr class="secondary-row"><td>Paul Fisher</td><td>2009</td><td>2014</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
-        <tr class="secondary-row"><td>David Miles</td><td>2009</td><td>2015</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
-        <tr class="secondary-row"><td>Martin Weale</td><td>2010</td><td>2013</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
-        <tr class="secondary-row"><td>Ben Broadbent</td><td>2011</td><td>2014</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
-        <tr class="secondary-row"><td>Ian McCafferty</td><td>2012</td><td>2015</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
-    </tbody>
-</table>
+<div class="mobile-overflow">
+    <table>
+        <caption><strong>Table 5:</strong> Overview of classes and classes used for further analysis</caption>
+        <thead>
+            <tr>
+                <th>Member</th>
+                <th>Tenure Start</th>
+                <th>Tenure End</th>
+                <th>Included?</th>
+                <th>Justification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="secondary-row"><td>Howard Davies</td><td>1997</td><td>1997</td><td>No</td><td>No speeches. Less than 2 years membership.</td></tr>
+            <tr class="secondary-row"><td>Alan Budd</td><td>1997</td><td>1999</td><td>No</td><td>Less than 2 years membership.</td></tr>
+            <tr><td>Williem Buiter</td><td>1997</td><td>2000</td><td>Yes</td><td></td></tr>
+            <tr><td>Charles Goodhart</td><td>1997</td><td>2000</td><td>Yes</td><td></td></tr>
+            <tr><td>DeAnne Julius</td><td>1997</td><td>2001</td><td>Yes</td><td></td></tr>
+            <tr><td>Ian Plenderleith</td><td>1997</td><td>2002</td><td>Yes</td><td></td></tr>
+            <tr><td>David Clementi</td><td>1997</td><td>2002</td><td>Yes</td><td></td></tr>
+            <tr><td>Edward George</td><td>1997</td><td>2003</td><td>Yes</td><td></td></tr>
+            <tr><td>Mervyn King</td><td>1997</td><td>2013</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
+            <tr><td>John Vickers</td><td>1998</td><td>2000</td><td>Yes</td><td></td></tr>
+            <tr><td>Sushil Wadhwani</td><td>1999</td><td>2002</td><td>Yes</td><td></td></tr>
+            <tr><td>Christopher Allsopp</td><td>2000</td><td>2003</td><td>Yes</td><td></td></tr>
+            <tr><td>Stephen Nickell</td><td>2000</td><td>2006</td><td>Yes</td><td></td></tr>
+            <tr><td>Charles Bean</td><td>2000</td><td>2013</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
+            <tr><td>Kate Barker</td><td>2001</td><td>2010</td><td>Yes</td><td></td></tr>
+            <tr><td>Marian Bell</td><td>2002</td><td>2005</td><td>Yes</td><td></td></tr>
+            <tr><td>Andrew Large</td><td>2002</td><td>2006</td><td>Yes</td><td></td></tr>
+            <tr><td>Paul Tucker</td><td>2002</td><td>2014</td><td>Yes</td><td>Current member, but more than 2 full terms membership.</td></tr>
+            <tr><td>Richard Lambert</td><td>2003</td><td>2006</td><td>Yes</td><td></td></tr>
+            <tr><td>Rachel Lomax</td><td>2003</td><td>2008</td><td>Yes</td><td></td></tr>
+            <tr class="secondary-row"><td>David Walton</td><td>2005</td><td>2006</td><td>No</td><td>Less than 2 years membership.</td></tr>
+            <tr><td>John Gieve</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
+            <tr><td>David Blanchflower</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
+            <tr><td>Tim Besley</td><td>2006</td><td>2009</td><td>Yes</td><td></td></tr>
+            <tr><td>Andrew Sentence</td><td>2006</td><td>2011</td><td>Yes</td><td></td></tr>
+            <tr class="secondary-row"><td>Spencer Dale</td><td>2008</td><td>2013</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+            <tr><td>Adam Posen</td><td>2009</td><td>2012</td><td>Yes</td><td></td></tr>
+            <tr class="secondary-row"><td>Paul Fisher</td><td>2009</td><td>2014</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+            <tr class="secondary-row"><td>David Miles</td><td>2009</td><td>2015</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+            <tr class="secondary-row"><td>Martin Weale</td><td>2010</td><td>2013</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+            <tr class="secondary-row"><td>Ben Broadbent</td><td>2011</td><td>2014</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+            <tr class="secondary-row"><td>Ian McCafferty</td><td>2012</td><td>2015</td><td>No</td><td>Current member, less than 2 full terms membership.</td></tr>
+        </tbody>
+    </table>
+</div>
 
 ## Appendix 2: Corpus preparation
 
@@ -773,7 +777,7 @@ Corpora must be formatted in specific ways for successful analysis using Alceste
 
 Most special characters cause the Alceste analysis to fail. Table 6 shows which characters were removed or replaced to ensure successful analysis.
 
-<table class="card">
+<table>
     <caption><strong>Table 6:</strong> Replaced characters</caption>
     <thead>
         <tr>
@@ -810,7 +814,7 @@ Footnotes or endnotes were excluded from the analysis; these data tended to be p
 
 The passive variables for each ICU identified the speaker/author, their 'dove-hawk' classification based on Hix et al (2010), the member’s committee role, the date and the ICU’s relative position to the financial crisis, taking July 2007 as the start of the crisis. Table 7 shows the passive variables used.
 
-<table class="card">
+<table>
     <caption><strong>Table 7:</strong> Passive variables</caption>
     <thead>
         <tr>
@@ -866,162 +870,164 @@ Whilst this classification is imprecise, it is precise enough for the purposes o
 
 ## Appendix 4: Alceste Classes – Hawks, Doves and Centrists
 
-<table class="card">
-    <caption><strong>Table 8: Overview of classes and classes used for further analysis</caption>
-    <thead>
-        <tr>
-            <th></th>
-            <th>Sig' member<br>(Chi2, Rank)</th>
-            <th>Significant present forms<br>(Chi2, Rank)</th>
-            <th>Significant absent forms<br>(Chi2, Rank)</th>
-            <th>Used?</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td colspan="5"><strong>Hawks</strong></td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Domestic growth and employment</td>
-            <td>Sentance (273, 2)</td>
-            <td>survey (407, 1), unemployment (227, 3), show (223, 4), GDP (219, 4), recession (196, 6)</td>
-            <td>policy (-144, 3), monetary (-116, 4), inflation (-92, 5), risk (-59, 8)</td>
-            <td>No</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>State of the global economy</td>
-            <td>Sentance (146, 15)</td>
-            <td>global (266, 1), asia (247, 2), china (237, 3), commodit (232, 4), strong (214, 5), emerg (209, 6)</td>
-            <td>policy (-117, 3), monetary (-90, 4), bank (-65, 6), target (-56, 8)</td>
-            <td>No</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Stability of the financial sector</td>
-            <td>Large (1419, 1)</td>
-            <td>stabil (208, 7), system (182, 9), area (168, 10), standard (155, 11), threat (149, 12)</td>
-            <td>inflation (-150, 4), econom (-144, 5), growth (-110, 7)</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td>Monetary policy framework</td>
-            <td>Sentance (234, 8)</td>
-            <td>inflation (769, 1), policy (715, 2), monetary (643, 3), target (351, 4), MPC (258, 7)</td>
-            <td>show (-87, 6), market (-80, 8), chart (-75, 9), manufactur (-70,10)</td>
-            <td>Yes</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Risk in the financial system</td>
-            <td>Large (727, 1)</td>
-            <td>transfer (254, 5), liquid (250, 6), hedge (166, 8), collateral (145, 9), bank (143, 10), debt (139, 11)</td>
-            <td>inflation (-100, 4), econom (-77, 5), growth (-57, 7), UK (-44, 8)</td>
-            <td>No</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Consumption and credit availability</td>
-            <td>Besley (211, 8)</td>
-            <td>household (790, 1), income (645, 2), consumption (424, 3), saving (366, 4), house (323, 5)</td>
-            <td>global (-40, 3), inflation (-40, 4), policy (-33, 5), monetary (-27, 6)</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td colspan="5"><strong>Centrists</strong></td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Responses to the financial crisis</td>
-            <td>Tucker (1303, 1)</td>
-            <td>liquid (1294, 2), system (1025, 4), bank (943, 5), capital (789, 6), financ (576, 8), fund (572, 9)</td>
-            <td>inflation (-1002, 2), rate (-530, 3), growth (-356, 4)</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td>Operations of the MPC</td>
-            <td>King (158, 26)</td>
-            <td>member (704, 1), decision (433, 2), committee (399, 3), governor (310, 4), I (290, 5)</td>
-            <td>demand (-271, 2), fall (-260, 3), growth (-226, 4), rise (-221, 5)</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>State of the economy</td>
-            <td>George (481, 9)</td>
-            <td>growth (1140, 1), year (700, 2), domestic (591, 3), econom (582, 4), inflation (290, 24)</td>
-            <td>bank (-629, 1), system (-283, 3), liquid (-222, 4), financ (-181, 5)</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Monetary policy framework</td>
-            <td>Bean (566, 1)</td>
-            <td>inflation (448, 2), nominal (445, 3), chart (426, 6), rate (351, 7), household (332, 8)</td>
-            <td>system (-236, 3), bank (-204, 4), international (-144, 5), I (-133, 6)</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td colspan="5"><strong>Doves</strong></td>
-        </tr>
-        <tr>
-            <td>Explaining exchange rate fluctuations</td>
-            <td>Wadhwani (1403, 1)</td>
-            <td>exchange (1131, 2), sterling (477, 4), rate (389, 6), model (309, 8), equilibrium (222, 9)</td>
-            <td>bank (-53, 10), worker (-47, 12), employ (-45, 13), labour (-44, 14)</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Monetary policy in academic perspective</td>
-            <td>Posen (456, 1)</td>
-            <td>central (255, 6), policy (181, 9), independence (124, 15), right (123, 16), monetar (105, 17)</td>
-            <td>rate (-79, 3), percent (-64, 4), unemploy (-50, 5), product (-47, 6)</td>
-            <td>Yes</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Competitiveness</td>
-            <td>Wadhwani (754, 3)</td>
-            <td>product (1197, 1), internet (494, 4), competition (393, 6), ICT (365, 8), growth (342, 9)</td>
-            <td>policy (-53, 8), bank (-46, 11), monetar (-41, 13), rate (-37, 17)</td>
-            <td>No</td>
-        </tr>
-        <tr>
-            <td>Monetary policy implementations</td>
-            <td>Allsopp (1259, 1)</td>
-            <td>function (560, 3), react (549, 4), policy (549, 5), monetar (531, 6), target (519, 7) object (307, 8)</td>
-            <td>unemploy (-44, 5), year (-31, 7), fall (-30, 8), product (-29, 9)</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Determinants of inflation</td>
-            <td>Julius (28, 65)</td>
-            <td>price (364, 1), pressure (305, 2), oil (293, 3), capacit (276, 4), inflation (264, 5), spare (211, 6)</td>
-            <td>bank (-36, 2), policy (-30, 3), monetar (-24, 4), find (-19, 5)</td>
-            <td>Yes</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Employment statistics</td>
-            <td>Blanchflower (904, 3)</td>
-            <td>self-employment (498, 5), data (316, 7), individual (301, 8), probabilit (301, 9), dumm (276, 10)</td>
-            <td>econom (-70, 4), policy (-61, 5), monetar (-38, 16), fall (-37, 18)</td>
-            <td>No</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Wages and employment</td>
-            <td>Blanchflower (911, 2)</td>
-            <td>worker (697, 3), unemploy (595, 4), employ (342, 5), labour (283, 6), number (247, 7), job (184, 13)</td>
-            <td>inflation (-164, 3), policy (-105, 5), monetar (-92, 8)</td>
-            <td>No</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>Lessons from Japan asset bubble</td>
-            <td>Posen (868, 1)</td>
-            <td>japan (448, 3), fiscal (353, 5), estate (236, 6), crisis (233, 7), boom (223, 8), recession (213, 9)</td>
-            <td>inflation (-38, 7), unemploy (-29, 11), exchange (-24, 12)</td>
-            <td>No</td>
-        </tr>
-        <tr class="secondary-row">
-            <td>The financial sector</td>
-            <td>Posen (473, 6)</td>
-            <td>lend (670, 1), credit (646, 2), bank (539, 4), assets (535, 5), securit (419, 8), purchase (357, 9)</td>
-            <td>inflation (-73, 4), rate (-38, 8), percent (-35, 9)</td>
-            <td>No</td>
-        </tr>
-    </tbody>
-</table>
+<div class="mobile-overflow">
+    <table>
+        <caption><strong>Table 8: Overview of classes and classes used for further analysis</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Sig' member<br>(Chi2, Rank)</th>
+                <th>Significant present forms<br>(Chi2, Rank)</th>
+                <th>Significant absent forms<br>(Chi2, Rank)</th>
+                <th>Used?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="5"><strong>Hawks</strong></td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Domestic growth and employment</td>
+                <td>Sentance (273, 2)</td>
+                <td>survey (407, 1), unemployment (227, 3), show (223, 4), GDP (219, 4), recession (196, 6)</td>
+                <td>policy (-144, 3), monetary (-116, 4), inflation (-92, 5), risk (-59, 8)</td>
+                <td>No</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>State of the global economy</td>
+                <td>Sentance (146, 15)</td>
+                <td>global (266, 1), asia (247, 2), china (237, 3), commodit (232, 4), strong (214, 5), emerg (209, 6)</td>
+                <td>policy (-117, 3), monetary (-90, 4), bank (-65, 6), target (-56, 8)</td>
+                <td>No</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Stability of the financial sector</td>
+                <td>Large (1419, 1)</td>
+                <td>stabil (208, 7), system (182, 9), area (168, 10), standard (155, 11), threat (149, 12)</td>
+                <td>inflation (-150, 4), econom (-144, 5), growth (-110, 7)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Monetary policy framework</td>
+                <td>Sentance (234, 8)</td>
+                <td>inflation (769, 1), policy (715, 2), monetary (643, 3), target (351, 4), MPC (258, 7)</td>
+                <td>show (-87, 6), market (-80, 8), chart (-75, 9), manufactur (-70,10)</td>
+                <td>Yes</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Risk in the financial system</td>
+                <td>Large (727, 1)</td>
+                <td>transfer (254, 5), liquid (250, 6), hedge (166, 8), collateral (145, 9), bank (143, 10), debt (139, 11)</td>
+                <td>inflation (-100, 4), econom (-77, 5), growth (-57, 7), UK (-44, 8)</td>
+                <td>No</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Consumption and credit availability</td>
+                <td>Besley (211, 8)</td>
+                <td>household (790, 1), income (645, 2), consumption (424, 3), saving (366, 4), house (323, 5)</td>
+                <td>global (-40, 3), inflation (-40, 4), policy (-33, 5), monetary (-27, 6)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td colspan="5"><strong>Centrists</strong></td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Responses to the financial crisis</td>
+                <td>Tucker (1303, 1)</td>
+                <td>liquid (1294, 2), system (1025, 4), bank (943, 5), capital (789, 6), financ (576, 8), fund (572, 9)</td>
+                <td>inflation (-1002, 2), rate (-530, 3), growth (-356, 4)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Operations of the MPC</td>
+                <td>King (158, 26)</td>
+                <td>member (704, 1), decision (433, 2), committee (399, 3), governor (310, 4), I (290, 5)</td>
+                <td>demand (-271, 2), fall (-260, 3), growth (-226, 4), rise (-221, 5)</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>State of the economy</td>
+                <td>George (481, 9)</td>
+                <td>growth (1140, 1), year (700, 2), domestic (591, 3), econom (582, 4), inflation (290, 24)</td>
+                <td>bank (-629, 1), system (-283, 3), liquid (-222, 4), financ (-181, 5)</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Monetary policy framework</td>
+                <td>Bean (566, 1)</td>
+                <td>inflation (448, 2), nominal (445, 3), chart (426, 6), rate (351, 7), household (332, 8)</td>
+                <td>system (-236, 3), bank (-204, 4), international (-144, 5), I (-133, 6)</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td colspan="5"><strong>Doves</strong></td>
+            </tr>
+            <tr>
+                <td>Explaining exchange rate fluctuations</td>
+                <td>Wadhwani (1403, 1)</td>
+                <td>exchange (1131, 2), sterling (477, 4), rate (389, 6), model (309, 8), equilibrium (222, 9)</td>
+                <td>bank (-53, 10), worker (-47, 12), employ (-45, 13), labour (-44, 14)</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Monetary policy in academic perspective</td>
+                <td>Posen (456, 1)</td>
+                <td>central (255, 6), policy (181, 9), independence (124, 15), right (123, 16), monetar (105, 17)</td>
+                <td>rate (-79, 3), percent (-64, 4), unemploy (-50, 5), product (-47, 6)</td>
+                <td>Yes</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Competitiveness</td>
+                <td>Wadhwani (754, 3)</td>
+                <td>product (1197, 1), internet (494, 4), competition (393, 6), ICT (365, 8), growth (342, 9)</td>
+                <td>policy (-53, 8), bank (-46, 11), monetar (-41, 13), rate (-37, 17)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Monetary policy implementations</td>
+                <td>Allsopp (1259, 1)</td>
+                <td>function (560, 3), react (549, 4), policy (549, 5), monetar (531, 6), target (519, 7) object (307, 8)</td>
+                <td>unemploy (-44, 5), year (-31, 7), fall (-30, 8), product (-29, 9)</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Determinants of inflation</td>
+                <td>Julius (28, 65)</td>
+                <td>price (364, 1), pressure (305, 2), oil (293, 3), capacit (276, 4), inflation (264, 5), spare (211, 6)</td>
+                <td>bank (-36, 2), policy (-30, 3), monetar (-24, 4), find (-19, 5)</td>
+                <td>Yes</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Employment statistics</td>
+                <td>Blanchflower (904, 3)</td>
+                <td>self-employment (498, 5), data (316, 7), individual (301, 8), probabilit (301, 9), dumm (276, 10)</td>
+                <td>econom (-70, 4), policy (-61, 5), monetar (-38, 16), fall (-37, 18)</td>
+                <td>No</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Wages and employment</td>
+                <td>Blanchflower (911, 2)</td>
+                <td>worker (697, 3), unemploy (595, 4), employ (342, 5), labour (283, 6), number (247, 7), job (184, 13)</td>
+                <td>inflation (-164, 3), policy (-105, 5), monetar (-92, 8)</td>
+                <td>No</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>Lessons from Japan asset bubble</td>
+                <td>Posen (868, 1)</td>
+                <td>japan (448, 3), fiscal (353, 5), estate (236, 6), crisis (233, 7), boom (223, 8), recession (213, 9)</td>
+                <td>inflation (-38, 7), unemploy (-29, 11), exchange (-24, 12)</td>
+                <td>No</td>
+            </tr>
+            <tr class="secondary-row">
+                <td>The financial sector</td>
+                <td>Posen (473, 6)</td>
+                <td>lend (670, 1), credit (646, 2), bank (539, 4), assets (535, 5), securit (419, 8), purchase (357, 9)</td>
+                <td>inflation (-73, 4), rate (-38, 8), percent (-35, 9)</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ## Bibliography
 

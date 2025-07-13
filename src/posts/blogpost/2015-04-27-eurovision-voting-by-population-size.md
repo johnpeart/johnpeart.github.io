@@ -46,7 +46,7 @@ The bad news comes for the 2010 winner, Lena (Germany) and her entry *Satellite*
 
 Why so bizarre? Well, aside from the frankly *hideous* song, Armenia would have rocketed from 7th place to first under a proportional vote, picking up more than 100 additional points.
 
-<table class="card">
+<table>
     <caption><strong>Table 1:</strong> Weighted and unweighted data from the 2010 <em>Eurovision Song Contest</em> data</caption>
     <thead>
         <tr>
@@ -84,7 +84,7 @@ Talking of increasing point-leads; Loreen didn't just storm it in the actual con
 
 Eurovision buffs will know that *Euphoria* was one of the highest scoring songs of all time achieving the most number of *douze points* of any entry in the contest’s history, and just 15 points behind the current record holder, 2009’s Alexander Rybak (Norway). But in a proportional system, Loreen’s score of 372 would have been even higher - she would have scored 393.8 points! Further evidence, if any was needed, that *Euphoria* is an incredible song.
 
-<table class="card">
+<table>
     <caption><strong>Table 2:</strong> Data from the 2012 <em>Eurovision Song Contest</em> data</caption>
     <thead>
         <tr>

@@ -1,20 +1,20 @@
 /* MARGIN OVERRIDES */
 .margin {
-    padding: calc(var(--pad) * var(--mult)) !important;
+    margin: calc(var(--pad) * var(--mult)) !important;
 }
 
 .margin-top {
-    padding-top: calc(var(--pad) * var(--mult)) !important;
+    margin-top: calc(var(--pad) * var(--mult)) !important;
 }
 
 .margin-bottom {
-    padding-bottom: calc(var(--pad) * var(--mult)) !important;
+    margin-bottom: calc(var(--pad) * var(--mult)) !important;
 }
 
 .margin-left {
-    padding-left: calc(var(--pad) * var(--mult)) !important;
+    margin-left: calc(var(--pad) * var(--mult)) !important;
 }
 
 .margin-right {
-    padding-right: calc(var(--pad) * var(--mult)) !important;
+    margin-right: calc(var(--pad) * var(--mult)) !important;
 }

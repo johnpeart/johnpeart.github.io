@@ -1,10 +1,10 @@
 /* Import partials from `sass_dir` (defaults to `_sass`) */
 @import 
     "variables/_colours",
+    "variables/_shadows",
     "variables/_sizing",
-    "variables/_containers",
-    "variables/_icons";
-
+    "variables/_containers";
+    
 @import 
     "overrides/_padding",
     "overrides/_margin";
@@ -14,7 +14,6 @@
     "core/_fonts";
 
 @import 
-    "helpers/_glass",
     "helpers/_clearfix",
     "helpers/_hidden";
 
@@ -39,6 +38,7 @@
     "components/_buttons",
     "components/_calendar",
     "components/_card",
+    "components/_chiplet",
     "components/_definitionlist",
     "components/_eurovision",
     "components/_footer",

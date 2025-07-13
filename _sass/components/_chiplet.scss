@@ -1,0 +1,28 @@
+.chiplet {
+    padding: calc(var(--pad) * 0.4) calc(var(--pad) * 0.6);
+    border: 2px solid var(--color);
+    border-radius: calc(var(--border-radius) * 3);
+    background: var(--brand);
+    font-weight: bold;
+    color: var(--white);
+}
+
+.chiplet-cyan {
+    background: var(--cyan);
+    color: var(--white);
+}
+
+.chiplet-yellow {
+    background: var(--yellow);
+    color: var(--black);
+}
+
+.chiplet-red {
+    background: var(--red);
+    color: var(--white);
+}
+
+.chiplet-green {
+    background: var(--green);
+    color: var(--white);
+}

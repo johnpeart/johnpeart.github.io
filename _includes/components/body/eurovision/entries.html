@@ -13,10 +13,10 @@
         
             <section class="speech-bubbles--content quote">
                 
-                {% if entry.youtube -%}<a class="speech-bubble--link--eurovision" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ songTitle }} by {{ entry.artist }} on YouTube">{%- endif %}
-                    {% if entry.youtube -%}<img class="speech-bubble image--16-9" src="https://img.youtube.com/vi/{{ entry.youtube }}/sddefault.jpg">{% endif %}
+                {% if entry.youtube -%}<a class="speech-bubble no-underline" href="{{ entry.youtube | prepend: 'https://www.youtube.com/watch?v=' }}" title="Watch {{ entry.country }}'s entry to the Eurovision Song Contest – {{ songTitle }} by {{ entry.artist }} on YouTube">{%- endif %}
+                    {% if entry.youtube -%}<img class="speech-bubble--image image--16-9" src="https://img.youtube.com/vi/{{ entry.youtube }}/sddefault.jpg">{% endif %}
                 
-                    <div class="speech-bubble speech-bubble--eurovision">
+                    <div class="{% unless entry.youtube -%}speech-bubble {% endunless %}speech-bubble--eurovision">
                             {% include "components/eurovision/{{ entry.country | downcase | replace: ' ', '-' }}.svg" %}
                             <h3>{{ entry.country }}</h3>
                             <p>{{ songTitle }} by {{ entry.artist }}</p>
@@ -33,7 +33,7 @@
         
             <aside class="speech-bubbles--author secondary-text small-text">
                 <span class="h-card p-author">
-                    <img class="u-photo hidden" alt="A Memoji avatar of John Peart" src="https://www.johnpe.art/assets/images/me/memoji.png">
+                    <img class="u-photo hidden" alt="{{ site.avatar.alt }}" src="{{ siteUrl | append: site.avatar.image }}">
                     <span class="p-name author--name"><a rel="author" class="link-secondary p-author u-url u-uid" href="https://www.johnpe.art">John Peart</a></span>
                 </span>
                 said about {{ entry.country }}’s entry
@@ -44,7 +44,7 @@
             </section>
             
             <section class="speech-bubbles--speaker">
-                <img class="u-photo" alt="John Peart's avatar" src="/assets/images/me/avatar.png">
+                <img class="u-photo" alt="{{ site.avatar.alt }}" src="{{ siteUrl | append: site.avatar.image }}">
             </section>
             
         </section>

@@ -12,23 +12,20 @@ progress[value] {
     padding: 0;
     margin: var(--pad) 0;
     
-    height: 24px;
+    height: 36px;
 
     &::-webkit-progress-bar {
-        background: var(--gray-500);
-        border: none;
+        background: var(--secondary-background);
+        border: 3px solid var(--color);
         border-radius: 1000px;
         padding: 4px;
-        box-shadow: var(--shadow--depth-1--inset);
     }
 
     &::-webkit-progress-value {
-        // background: var(--progress-barBackground);
+        border: 3px solid var(--color);
         border-radius: 1000px;
-        background-size: 600px;
-        
-        background: var(--glass-gradient);
-        box-shadow: var(--glass--shadow);
+        background: var(--brand);
+        // box-shadow: var(--shadow-deep);
     }
     
 }
@@ -42,11 +39,10 @@ progress[value] {
 
 .totaliser {
     max-width: 600px;
-    border-top: none;
     margin-top: calc(var(--pad) * 2);
     padding: var(--pad);
     
     progress[value]::-webkit-progress-bar {
-        background: var(--brand-tint);
+        background: var(--white);
     }
 }

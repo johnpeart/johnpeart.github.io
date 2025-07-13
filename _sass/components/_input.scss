@@ -7,6 +7,9 @@ input[type="search"] {
     --placeholder-hover: var(--brand);
     --placeholder-focus: light-dark(var(--gray-300), var(--gray-800));
 
+    display: block;
+    position: relative;
+    
     box-sizing: border-box;
     width: 100%;
     line-height: 1;
@@ -15,9 +18,9 @@ input[type="search"] {
 
     background: var(--background);
     color: var(--color);
-    border: none;
+    border: var(--border-width) solid var(--color);
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow--depth-1--inset);
+    box-shadow: var(--shadow-shallow);
     
     outline-offset: 3px;
 
@@ -27,6 +30,7 @@ input[type="search"] {
 
     &:hover {
         transition: color 0.3s;
+        
         &::placeholder {
             color: var(--placeholder-hover);
         }
@@ -35,6 +39,10 @@ input[type="search"] {
     &:focus {
         caret-color: var(--brand);
         outline: none;
+        
+        top: 3px;
+        box-shadow: none;
+        
         &::placeholder {
             color: var(--placeholder-focus);
         }

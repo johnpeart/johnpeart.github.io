@@ -69,17 +69,10 @@ input[type="radio"] {
             width: 40px;
             height: 40px;
             
-            box-shadow: 
-                .5px .5px 1px rgba(255,255,255,0.5),
-                -.5px -.5px 1px #00000026,
-                inset .222px .222px .314px -.5px #0003,
-                inset .605px .605px .856px -1px #0000002e,
-                inset 1.329px 1.329px 1.88px -1.5px #00000040,
-                inset 2.95px 2.95px 4.172px -2px #0000001a,
-                inset 2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
-            
             border-radius: 50%;
             background: var(--background);
+            border: 2px solid var(--color);
+            box-shadow: var(--shadow-shallow);
         }
 
         &::after {
@@ -92,36 +85,29 @@ input[type="radio"] {
             width: 0;
             height: 0;
 
-            border: 12px solid var(--radio-color);
             border-radius: 50%;
-            opacity: 0;
             background: var(--color);
-            
-            box-shadow: 
-                inset .5px .5px 1px #fff,
-                inset -.5px -.5px 1px #00000026,
-                .222px .222px .314px -.5px #0003,
-                .605px .605px .856px -1px #0000002e,
-                1.329px 1.329px 1.88px -1.5px #00000040,
-                2.95px 2.95px 4.172px -2px #0000001a,
-                2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
         }
 
     }
 
     &:focus + label::before {
         border-width: 4px;
-        box-shadow: 0 0 0 3px var(--radio-color);
+        box-shadow: 0 0 0 3px var(--brand);
     }
 
     &:hover + label::before {
-        box-shadow: 0 0 0 3px var(--radio-color);
+        box-shadow: 0 0 0 3px var(--brand);
         background: var(--background);
         border-width: 2px;
     }
 
+    &:checked + label::before {
+        box-shadow: none;
+    }
+
     &:checked + label::after {
-        opacity: 1;
+        border: 12px solid var(--brand);
     }
 
     ~ .label-hint,  {

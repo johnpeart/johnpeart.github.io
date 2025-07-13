@@ -19,6 +19,7 @@ progress[value] {
         border: 3px solid var(--color);
         border-radius: 1000px;
         padding: 4px;
+        overflow: hidden;
     }
 
     &::-webkit-progress-value {

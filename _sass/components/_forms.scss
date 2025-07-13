@@ -8,28 +8,34 @@ search {
     z-index: 100;
     top: 0;
         
-    padding: calc(70px + var(--pad)) calc(var(--pad) * 0.5) 0;
+    padding: calc(70px + var(--pad)) var(--pad) 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 100%;
     
     &::after {
         content: "";
         display: block;
         position: absolute;
-        top: 0;
-        left: calc(var(--pad) * -1);
+        top: calc(var(--pad) * -2);
+        left: 0;
         z-index: -1;
         width: 100%;
-        height: calc(70px + calc(var(--pad) * 3));
+        height: calc(100% + var(--pad));
         background: var(--background);
     }
     
     @media (min-width: 700px) {
-        padding: calc(85px + var(--pad)) var(--pad) 0;
-        
-        &::after {
-            height: calc(85px + calc(var(--pad) * 2));
-        }
+        max-width: 640px;
+        padding-top: calc(85px + var(--pad));
+        padding-left: var(--pad);
+        padding-right: var(--pad);
     }
-    
+    @media (min-width: 1100px) {
+        max-width: 900px;
+    }
 }
 
 fieldset {
@@ -68,6 +74,8 @@ label {
 }
 
 .label-hint {
+    --labelHint-color: var(--gray-600);
+    
     font-size: clamp(22px, 3vw, 30px);
     padding: 0 0 clamp(22px, 3vw, 32px);
     color: var(--labelHint-color);

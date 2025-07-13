@@ -1,58 +1,65 @@
-.global-navigation {
-    --from-padding: calc(var(--pad) * 0.5);
-    
-    animation: navigation ease-in-out both;
+.global-navigation {    
+    animation: global-navigation ease-out both;
     animation-timeline: scroll(block root);
-    animation-range: 10px 200px;
+    animation-range: 0px 200px;
     animation-duration: 1ms;
     
     display: flex;
     position: --webkit-sticky;
     position:          sticky;
     z-index: 1000;
-    overflow: hidden;
     box-sizing: border-box;
-    justify-self: end;
+    justify-self: center;
     
-    width: fit-content;
-    top: calc(var(--pad) * 0.5);
-    margin: calc(var(--pad) * 0.5);
-    padding: 0;
-    
-    border: 1px solid var(--translucent-border);
-    border-radius: 100px;
-    box-shadow:     inset 10px 10px 25px 0px rgba(255,255,255,1),
-                    inset -10px -10px 25px 0px rgba(0,0,0,0.3),
-                    0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-     
-    @media (max-width: 699px) {
-        --from-padding: 0px;
-        width: calc(100% - var(--pad));
+    width: 100%;
+    top: var(--pad);
+    margin: 0 auto;
+
+    padding: 0 calc(var(--pad) * 1); 
+
+    max-width: 100%;
+    @media (min-width: 700px) {
+        max-width: 640px;
+    }
+    @media (min-width: 1100px) {
+        max-width: 900px;
     }
 }
 
 /* This is the main menu bar */
 .navigation {
+    animation: navigation ease-in both;
+    animation-timeline: scroll(block root);
+    animation-range: 0px 50px;
+    animation-duration: 1ms;
+    
     display: flex;
-    padding: 0;    
+    padding: calc(var(--pad) * 0.4) calc(var(--pad) * 0.5) calc(var(--pad) * 0.6) var(--pad);
+
     margin: 0;
     align-items: center;
     width: 100%;
     gap: var(--pad);
     justify-content: space-between !important;
+    
+    border: 3px solid var(--color);
+    border-radius: calc(var(--border-radius) * 2);
+    backdrop-filter: blur(500px) saturate(500%);
+    box-shadow: var(--shadow-deep);
 }
 
-.navigation--wordmark {
-    --card-padding: 11.5px;
-    
+.navigation--wordmark {    
     display: block;
     justify-self: start;
     z-index: 1000;
     margin: 0;
-    padding: var(--card-padding) calc(var(--pad));
-    
+    padding: 0;
+        
     font-size: 32px;
 	line-height: 32px;
+    
+    margin-bottom: -5px;
+    border-radius: calc(var(--border-radius) * 1.25);
 }
 
 .navigation--wordmark--link {
@@ -76,22 +83,18 @@
 		outline-offset: 3px;
     }
     &:focus {
-        outline: 3px solid var(--link-outlineColor);
-		outline-offset: 0;
+        outline: 3px solid var(--brand);
     }
 }
 
 .navigation--links {
-    --card-padding: calc(var(--pad) * 0.5);
-    --border-radius: 50px;
-    
     display: flex;
     justify-self: end;
     z-index: 1000;
     flex-direction: row;
     list-style: none;
     margin: 0;
-    padding: var(--card-padding);
+    padding: 0;
     grid-column: -2 / -1;
 }
 
@@ -101,18 +104,13 @@
     &:first-of-type {
         margin: 0;
     }
-    
-    a:link,
-    a:visited {
-        box-shadow: none !important;
-    }
 }
 
 .navigation--icon {
     display: grid;
 
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     
     padding: 10px;
     margin: 0;
@@ -121,6 +119,7 @@
     align-content: center;
     justify-content: center;
     aspect-ratio: 1;
+    border-radius: calc(var(--border-radius) * 1.25);
         
     svg {
         width: 20px;
@@ -129,13 +128,13 @@
     }
     
     svg path {
-        fill: var(--background);
-        color: var(--background);
+        fill: var(--button-color);
+        color: var(--button-color);
     }
     
     &:hover svg path {
-        fill: var(--background);
-        color: var(--background);
+        fill: var(--button-hoverColor);
+        color: var(--button-hoverColor);
     }
     
     &:active svg path {
@@ -144,8 +143,8 @@
     }
     
     &:focus svg path {
-        fill: var(--background);
-        color: var(--cyan);
+        fill: var(--button-hoverColor);
+        color: var(--button-hoverColor);
     }
 }
 

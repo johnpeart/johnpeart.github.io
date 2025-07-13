@@ -251,11 +251,18 @@ More than 1.6 million words and 615 ICUs were assessed to obtain the initial cla
 
 Figures 1, 2 and 3 show the descendant hierarchical classifications for each of the initial corpora. The descendant classifications show the relationships between classes and the distribution of the discussion. Each class has also been labelled based on an assessment of the significant word forms and ECUs for each class (these are not provided by Alceste, but assigned by the researcher).
 
-![Figure 1: Dendrograms for dove corpus][fig-1]
-
-![Figure 2: Dendrograms for hawks corpus][fig-2]
-
-![Figure 3: Dendrograms for centrists corpus][fig-3]
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F1.png">
+    <figcaption><strong>Figure 1:</strong> Descendant hierarchical classification for “dove” corpus</figcaption>
+</figure>
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F2.png">
+    <figcaption><strong>Figure 2:</strong> Descendant hierarchical classification for “hawk” corpus</figcaption>
+</figure>
+<figure>
+    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F3.png">
+    <figcaption><strong>Figure 3:</strong> Descendant hierarchical classification for “centrist” corpus</figcaption>
+</figure>
 
 <table>
     <caption><strong>Table 3:</strong> ALCESTE Analysis: Basic statistics for initial corpora.</caption>

@@ -130,22 +130,18 @@
     
     svg path {
         fill: var(--button-color);
-        color: var(--button-color);
     }
     
     &:hover svg path {
         fill: var(--button-hoverColor);
-        color: var(--button-hoverColor);
     }
     
     &:active svg path {
         fill: var(--brand-tint);
-        color: var(--brand-tint);
     }
     
     &:focus svg path {
         fill: var(--button-hoverColor);
-        color: var(--button-hoverColor);
     }
 }
 

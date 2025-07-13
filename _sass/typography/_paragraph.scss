@@ -7,17 +7,20 @@ li {
     font-style: normal;
     font-weight: normal;
 
-    .small-caps {
+    &.small-caps, .small-caps {
         font-size: clamp(18px, 3vw, 24px);
         font-variant: small-caps !important;
     }
 
-    .small-text {
+    &.small-text, .small-text {
         font-size: clamp(18px, 3vw, 24px) !important;
     }
 
-    .display {
+    &.display {
         text-wrap: balance;
+        text-wrap: pretty;
+        font-size: clamp(30px, 3.0vw, 40px) !important;
+        max-width: 40ch;
     }
 }
 

@@ -12,7 +12,7 @@ kbd {
 
 code {
     font-size: clamp(21px, 3.8vw, 26px);
-    color: var(--code-color);
+    color: light-dark(var(--green-tone), var(--green));
     background: var(--secondary-background);
     border-radius: 5px;
     padding:    0 2px;

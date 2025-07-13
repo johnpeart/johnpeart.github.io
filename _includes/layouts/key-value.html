@@ -10,36 +10,39 @@ layout: page
         {% assign collection = collections[collection] %}
     {% endif %}
     
-    <ul class="key-value">
-        {% for item in collection %}
-        <li class="key-value--item">
-            {% if item.data.link %}
-                {% assign link = item.data.link %}
-                {% assign alt = item.data.alt %}
-            {% else %}
-                {% assign link = item.data.url %}
-            {% endif %}
-            {% if item.data.link %}<a class="key-value--link" href="{{ link }}" {% if alt %}title="{{ alt }}"{% endif %}>{% endif %}
-            
-            
-            <h2 class="key-value--key">{{ item.data.title | default: "No title" }}</h2>
-            
-            {% if item.data.excerpt %}
-            {{ item.data.excerpt | markdownify | replace: '<p>', '<p class="key-value--description">' }}
-            {% elsif item.content %}
-            {{ item.content | markdownify | replace: '<p>', '<p class="key-value--description">' }}
-            {% endif %}
-            
-            {% if item.data.link %}</a>{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+    <section>
+        <ul class="key-value">
+            {% for item in collection %}
+            <li class="key-value--item">
+                {% if item.data.link %}
+                    {% assign link = item.data.link %}
+                    {% assign alt = item.data.alt %}
+                {% else %}
+                    {% assign link = item.data.url %}
+                {% endif %}
+                {% if item.data.link %}<a class="key-value--link" href="{{ link }}" {% if alt %}title="{{ alt }}"{% endif %}>{% endif %}
+                
+                
+                <h2 class="key-value--key">{{ item.data.title | default: "No title" }}</h2>
+                
+                {% if item.data.excerpt %}
+                {{ item.data.excerpt | markdownify | replace: '<p>', '<p class="key-value--description">' }}
+                {% elsif item.content %}
+                {{ item.content | markdownify | replace: '<p>', '<p class="key-value--description">' }}
+                {% endif %}
+                
+                {% if item.data.link %}</a>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
 
 {% else %}
 
     {% for item in list %}
-        <header>
-            <h2 id="{{ item.name | slugify }}" class="key-value--heading">{{ item.name }}</h2>
+    <section id="{{ item.name | slugify }}">
+        <header class="key-value--header">
+            <h2 class="key-value--heading">{{ item.name }}</h2>
             {% if item.description %}{{ item.description | markdownify }}{% endif %}
         </header>
         <ul class="key-value">
@@ -74,6 +77,7 @@ layout: page
             </li>
             {% endfor %}
         </ul>
+    </section>
     {% endfor %}
 
 {% endif %}

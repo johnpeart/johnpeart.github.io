@@ -15,7 +15,7 @@
     top: var(--pad);
     margin: 0 auto;
 
-    padding: 0 calc(var(--pad) * 1); 
+    padding: 0 var(--pad); 
 
     max-width: 100%;
     @media (min-width: 700px) {

@@ -44,6 +44,11 @@
         "username": "johnpeart"
     },
     
+    "avatar": {
+        "image": "/assets/images/me/me.svg",
+        "alt": "A line drawing of John Peart"
+    },
+    
     "webmentions": {
         "username": "www.johnpe.art"
     }

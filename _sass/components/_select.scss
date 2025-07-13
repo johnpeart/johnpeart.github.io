@@ -31,9 +31,9 @@ select {
     }
 
     &:focus {
-        outline: form("border-width") solid var(--form--focusBorderColor);
+        outline: form("border-width") solid var(--brand);
         outline-offset: 3px;
-        border: form("border-width") solid var(--form--focusBackground);
+        border: form("border-width") solid var(--color);
     }
 
     &:disabled {
@@ -45,7 +45,7 @@ select {
     select option:active,
     select option:checked,
     select:focus::-ms-value {
-        color: var(--form--activeColor);
-        background-color: var(--form--activeBackground);
+        color: light-dark(var(--white), var(--black));
+        background-color: var(--brand);
     }
 }

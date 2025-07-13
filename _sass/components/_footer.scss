@@ -1,13 +1,5 @@
-aside#related {
-    margin-block-end: var(--pad);    
-}
-
-footer#webmentions-footer {
+footer {
     padding-bottom: var(--pad);
-}
-
-footer#post-footer {
-	padding-bottom: calc(var(--pad) * 4);
 }
 
 dl.meta-data {

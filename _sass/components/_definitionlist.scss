@@ -33,7 +33,6 @@ section.app-sheet {
         column-gap: calc(var(--pad) * 2);
         row-gap: var(--pad);
         
-        box-shadow: none;
         border-radius: 0;
     
         @media (min-width: 700px) {

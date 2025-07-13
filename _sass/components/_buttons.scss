@@ -1,11 +1,10 @@
 button,
 .button {
-    --button-color: var(--background);
+    --button-color: var(--color--inverse);
     --button-background: var(--brand);
-    --button-hoverColor: var(--background);
+    --button-hoverColor: var(--color--inverse);
     --button-hoverBackground: var(--brand-tone);
-    --button-activeColor: light-dark(var(--brand-tint), var(--black));
-    --button-border: var(--cyan);
+    --button-activeColor: var(--brand-tint);
 
     display: inline-block;
     position: relative;
@@ -13,13 +12,16 @@ button,
     cursor: pointer;
     padding: calc(var(--pad) * 0.5) var(--pad);
     margin: 0;
+    
     color: var(--button-color);
     background: var(--button-background);
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow--depth-2);
+    border: 3px solid var(--color);
+    box-shadow: var(--shadow-shallow);
     line-height: 1 !important;
     text-align: center;
     text-decoration: none;
+    outline-offset: 3px;
 
     &:link,
     &:visited {
@@ -31,15 +33,16 @@ button,
     &:hover {
         background: var(--button-hoverBackground);
         color: var(--button-hoverColor);
-        box-shadow: var(--shadow--depth-1);
+        top: 3px;
+        box-shadow: none;
     }
 
     &:focus,
     &:focus-visible {
-        background: var(--link-focusBackground);
-        box-shadow: var(--shadow--depth-1);
-        outline: 3px solid var(--link-outlineColor);
+        background: var(--brand);
+        outline: 3px solid var(--brand);
         outline-offset: var(--outline-active-offset);
+        box-shadow: none;
     }
 
     &:hover:focus {
@@ -50,9 +53,9 @@ button,
 
     &:active {
         background: var(--button-hoverBackground);
-        box-shadow: var(--shadow--depth-1--inset);
         color: var(--button-activeColor);
         text-decoration: none !important;
+        border-color: var(--button-background);
     }
 
     &:disabled,
@@ -61,7 +64,6 @@ button,
     &:disabled:active {
         background: var(--secondary-background);
         color: var(--secondary-color);
-        box-shadow: none;
         text-align: center;
         cursor: unset;
         outline: none;

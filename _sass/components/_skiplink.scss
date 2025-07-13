@@ -1,4 +1,7 @@
 .skip-link {
+    --skiplink-color: light-dark(var(--white), var(--black));
+    --skiplink-background: var(--brand); 
+    
     z-index: 999999;
     display: block;
     width: 100%;

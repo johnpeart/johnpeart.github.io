@@ -6,44 +6,57 @@ span.interaction-icon {
     width: 10px;
     margin-right: 7px;
     padding: 0;
+    
+    background: var(--color);
 
     @media (min-width: 700px) {
         height: 15px;
         width: 15px;
     }
+    
+    &.interaction-icon--large {
+        height: 30px;
+        width: 30px;
+        padding: 0;
+        margin: 0;
+    }
 
     &.like,
     &.likes,
     &.like-of {
-        background-image: var(--heart-icon);
+        top: 1px;
+        aspect-ratio: 1.162;
+        clip-path: shape(from 92.51% 8.71%,curve to 56.27% 8.71% with 82.52% -2.9%/66.26% -2.9%,line to 50% 16%,line to 43.73% 8.71%,curve to 7.49% 8.71% with 33.74% -2.9%/17.48% -2.9%,curve to 7.49% 50.82% with -2.5% 20.32%/-2.5% 39.22%,line to 49.8% 100%,line to 49.99% 99.78%,line to 50.17% 100%,line to 92.49% 50.82%,curve to 92.51% 8.71% with 102.5% 39.2%/102.5% 20.32%,close);
     }
 
     &.repost,
     &.reposts,
     &.repost-of {
-        background-image: var(--share-icon);
+        top: 2px;
+        aspect-ratio: 0.895;
+        clip-path: shape(from 2.28% 16.17%,curve to 2.04% 16.4% with 2.2% 16.24%/2.12% 16.32%,curve to 0.75% 18.11% with 1.5% 16.89%/1.06% 17.48%,curve to 0.68% 18.29% with 0.72% 18.17%/0.71% 18.23%,curve to 0.68% 22.73% with 0.01% 19.71%/0.01% 21.31%,curve to 0.75% 22.91% with 0.71% 22.79%/0.72% 22.85%,curve to 2.04% 24.61% with 1.06% 23.54%/1.5% 24.12%,curve to 2.29% 24.85% with 2.12% 24.7%/2.2% 24.78%,curve to 2.54% 25.09% with 2.38% 24.93%/2.45% 25.02%,line to 21.42% 39.57%,curve to 25.81% 41.03% with 22.64% 40.51%/24.2% 41.03%,curve to 32.55% 34.99% with 29.5% 41.03%/32.55% 38.3%,curve to 30.2% 30.42% with 32.55% 33.23%/31.69% 31.56%,line to 25.15% 26.54%,line to 77.07% 26.54%,curve to 86.51% 34.99% with 82.25% 26.55%/86.51% 30.36%,line to 86.51% 49.47%,curve to 93.26% 55.51% with 86.51% 52.78%/89.55% 55.51%,curve to 100% 49.47% with 96.96% 55.51%/100% 52.78%,line to 100% 34.99%,curve to 77.07% 14.48% with 99.98% 23.74%/89.64% 14.49%,line to 25.15% 14.48%,line to 30.2% 10.61%,curve to 32.55% 6.03% with 31.69% 9.46%/32.55% 7.79%,curve to 25.81% 0% with 32.55% 2.72%/29.5% 0%,curve to 21.42% 1.45% with 24.2% 0%/22.64% 0.51%,line to 2.53% 15.93%,curve to 2.28% 16.17% with 2.44% 16%/2.37% 16.09%,close,move to 67.46% 93.5%,curve to 67.45% 93.97% with 67.45% 93.66%/67.45% 93.81%,curve to 74.19% 100% with 67.45% 97.28%/70.49% 100%,curve to 78.58% 98.54% with 75.8% 100%/77.36% 99.48%,line to 97.46% 84.07%,curve to 97.72% 83.82% with 97.56% 83.99%/97.63% 83.9%,curve to 97.96% 83.6% with 97.8% 83.75%/97.88% 83.67%,curve to 99.25% 81.88% with 98.5% 83.1%/98.94% 82.52%,curve to 99.32% 81.7% with 99.28% 81.83%/99.29% 81.76%,curve to 99.32% 77.27% with 99.99% 80.29%/99.99% 78.68%,curve to 99.25% 77.09% with 99.29% 77.21%/99.28% 77.14%,curve to 97.96% 75.38% with 98.94% 76.46%/98.5% 75.88%,curve to 97.71% 75.14% with 97.88% 75.3%/97.8% 75.22%,curve to 97.46% 74.91% with 97.62% 75.06%/97.55% 74.98%,line to 78.58% 60.43%,curve to 74.19% 58.97% with 77.36% 59.49%/75.8% 58.97%,curve to 67.45% 65% with 70.49% 58.97%/67.45% 61.69%,curve to 69.8% 69.58% with 67.45% 66.76%/68.31% 68.44%,line to 74.85% 73.45%,line to 22.93% 73.45%,curve to 13.49% 65% with 17.75% 73.45%/13.49% 69.64%,line to 13.49% 50.52%,curve to 6.74% 44.49% with 13.49% 47.21%/10.45% 44.49%,curve to 0% 50.52% with 3.04% 44.49%/0% 47.21%,line to 0% 65%,curve to 22.93% 85.52% with 0.02% 76.25%/10.36% 85.5%,line to 74.85% 85.52%,line to 69.8% 89.39%,curve to 67.46% 93.5% with 68.44% 90.43%/67.6% 91.91%,close);
     }
 
     &.link,
     &.links,
     &.mention-of {
-        background-image: var(--link-icon);
+        aspect-ratio: 1;
+        clip-path: shape(from 39.42% 81.75%,line to 56.61% 64.55%,curve to 56.61% 48.68% with 61% 60.17%/61% 53.06%,curve to 56.61% 38.09% with 53.69% 45.75%/53.69% 41.02%,curve to 67.2% 38.09% with 59.54% 35.17%/64.27% 35.17%,curve to 67.2% 75.13% with 77.42% 48.32%/77.42% 64.91%,line to 50% 92.33%,curve to 12.96% 92.33% with 39.77% 102.56%/23.19% 102.56%,line to 7.67% 87.04%,curve to 7.67% 50% with -2.56% 76.81%/-2.56% 60.23%,curve to 18.25% 50% with 10.59% 47.08%/15.33% 47.08%,curve to 18.25% 60.58% with 21.18% 52.92%/21.18% 57.66%,curve to 18.25% 76.46% with 13.87% 64.97%/13.87% 72.07%,line to 23.54% 81.75%,curve to 39.42% 81.75% with 27.93% 86.13%/35.03% 86.13%,close,move to 92.33% 12.96%,line to 87.04% 7.67%,curve to 50% 7.67% with 76.81% -2.56%/60.23% -2.56%,line to 32.8% 24.87%,curve to 32.8% 61.91% with 22.58% 35.09%/22.58% 51.68%,curve to 43.39% 61.91% with 35.73% 64.83%/40.46% 64.83%,curve to 43.39% 51.32% with 46.31% 58.98%/46.31% 54.25%,curve to 43.39% 35.45% with 39% 46.94%/39% 39.83%,line to 60.58% 18.25%,curve to 76.46% 18.25% with 64.97% 13.87%/72.07% 13.87%,line to 81.75% 23.54%,curve to 81.75% 39.42% with 86.13% 27.93%/86.13% 35.03%,curve to 81.75% 50% with 78.82% 42.34%/78.82% 47.08%,curve to 92.33% 50% with 84.67% 52.92%/89.41% 52.92%,curve to 92.33% 12.96% with 102.56% 39.77%/102.56% 23.19%,close);
     }
 
     &.bookmark,
     &.bookmarks,
     &.bookmark-of {
-        background-image: var(--bookmark-icon);
+        aspect-ratio: 0.692;
+        clip-path: shape(from 50% 75.59%,line to 9.09% 99.09%,curve to 0.02% 96.15% with 5.47% 101.17%/0.02% 99.36%,line to 0% 96.15%,line to 0% 13.79%,curve to 19.92% 0% with 0% 6.2%/8.95% 0%,line to 80.08% 0%,curve to 100% 13.79% with 91.05% 0%/100% 6.2%,line to 100% 96.15%,curve to 90.52% 98.87% with 100% 99.28%/94.57% 101.42%,close);
     }
 
     &.reply,
     &.replies,
     &.in-reply-to {
-        background-image: var(--reply-icon);
-    }
-
-    &.arrow-up {
-        background-image: var(--arrow-up-icon);
+        top: 2px;
+        aspect-ratio: 0.976;
+        clip-path: shape(from 51.28% 80.36%,line to 76.55% 80.36%,curve to 92.98% 74.07% with 82.67% 80.48%/88.58% 78.21%,curve to 100% 58.27% with 97.37% 69.92%/99.9% 64.23%,line to 100% 22%,curve to 76.55% 0% with 99.74% 9.6%/89.25% -0.24%,line to 23.45% 0%,curve to 7.02% 6.3% with 17.33% -0.11%/11.42% 2.15%,curve to 0% 22.1% with 2.63% 10.44%/0.1% 16.13%,line to 0% 58.37%,curve to 7.03% 74.16% with 0.1% 64.33%/2.63% 70.02%,curve to 23.45% 80.46% with 11.43% 78.3%/17.34% 80.57%,move to 23.14% 79.49%,line to 23.14% 97.73%,curve to 24.57% 99.8% with 23.17% 98.63%/23.73% 99.44%,curve to 27.11% 99.44% with 25.42% 100.16%/26.41% 100.02%,line to 51.52% 79.49%);
     }
 }
 
@@ -84,16 +97,25 @@ a.social-icon {
         p {
             fill: var(--brand);
             background: var(--background);
-            color: var(--link-hoverColor);
+            color: var(--brand);
         }
     }
 
     &:focus {
         svg path,
         p {
-            fill: var(--link-focusColor);
-            background: var(--link-outlineColor);
-            color: var(--link-focusColor);
+            fill: light-dark(var(--white), var(--black));
+            background: var(--brand);
+            color: light-dark(var(--white), var(--black));
+        }
+    }
+
+    &:active {
+        svg path,
+        p {
+            fill: light-dark(var(--white), var(--black));
+            background: var(--brand);
+            color: light-dark(var(--white), var(--black));
         }
     }
 }

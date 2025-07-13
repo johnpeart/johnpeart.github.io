@@ -15,6 +15,10 @@ search {
 
     max-width: 100%;
     
+    form {
+        box-shadow: var(--shadow-deep);
+    }
+    
     &::after {
         content: "";
         display: block;

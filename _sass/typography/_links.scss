@@ -15,7 +15,7 @@ a {
         text-decoration: underline;
     }
     &:focus {
-        color: var(--background);
+        color: var(--color--inverse);
         background: var(--brand);
         outline: 3px solid var(--brand);
         outline-offset: 0px;
@@ -30,7 +30,7 @@ a {
         outline-offset: 3px;
         background: var(--brand);
         color: var(--background);
-        * { 
+        svg { 
             color: var(--background) !important; 
             fill: var(--button-activeColor);
         }
@@ -44,15 +44,15 @@ a {
             text-decoration: none;
         }
         &:hover {
-            color: var(--link-hoverColor);
+            color: var(--brand);
             text-decoration: underline;
         }
         &:hover:focus,
         &:focus {
             text-decoration: underline;
-            outline: 3px solid var(--link-outlineColor);
-            color: var(--link-focusColor);
-            background: var(--link-focusBackground);
+            outline: 3px solid var(--brand);
+            color: light-dark(var(--white), var(--black));
+            background: var(--brand);
         }
         &:hover:focus {
             outline-offset: 3px;
@@ -73,9 +73,9 @@ a {
             text-decoration: underline !important;
         }
         &:focus {
-            color: var(--link-focusColor);
-            background: var(--link-focusBackground);
-            outline: 2px solid var(--link-outlineColor);
+            color: light-dark(var(--white), var(--black));
+            background: var(--brand);
+            outline: 2px solid var(--brand);
         }
         &:active {
             text-decoration: none !important;
@@ -114,11 +114,6 @@ a {
     
     &.speech-bubble--link--eurovision {
         display: inline-block;
-        
-        &:link,
-        &:visited {
-            
-        }
         
         &:hover,
         &:focus,

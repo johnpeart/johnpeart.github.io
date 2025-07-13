@@ -19,25 +19,15 @@
     --gray-700: rgb(70, 75, 80);
     --gray-800: rgb(50, 55, 60);
     --gray-900: rgb(30, 35, 40);
-    
-    --glass-light: rgba(255,255,255,0.95);
-    --glass-dark:  rgba(70,75,80,0.35);
-    --glass-gradient: linear-gradient(
-        150deg,
-        rgba(245,245,245,0.75) 0%, 
-        rgba(225,225,225,0.5) 30%, 
-        rgba(225,225,225,0.4) 50%, 
-        rgba(225,225,225,0.5) 70%, 
-        rgba(245,245,245,0.75) 100%
-    );
 	
     --blue: rgb(0, 122, 255);
     --desaturated-blue: rgb(59, 89, 152);
     --purple: rgb(198, 67, 252);
     --magenta: rgb(230, 0, 126);
     --red-tone: rgb(177, 14, 30);
-    --red:  rgb(250, 36, 60);
-    --red-tint: rgb(250, 196, 201);
+    --red:  hsl(353, 96%, 56%);
+    --red-tint: hsl(355, 84%, 88%);
+    --red-tone:  hsl(353, 96%, 40%);
     --orange-tint: rgb(255, 205, 183);
     --orange: rgb(255, 79, 0);
     --orange-tone: rgb(200, 63, 0);
@@ -51,98 +41,16 @@
     
     --brand-tint: var(--cyan-tint);
     --brand-tone: var(--cyan-tone);
-    --brand: light-dark(var(--cyan), var(--cyan-tone));
-    --brand-translucent: rgba(0, 159, 227, 0.2);
-
-    /* POST IT NOTE COLOURS */
-    --post-it--yellow: rgb(255, 215, 0);
-    --post-it--yellow--top: rgb(250, 211, 0);
-    --post-it--yellow--corner: rgb(255, 241, 168);
-    
-    --post-it--cyan: rgb(100, 159, 227);
-    --post-it--cyan--top: rgb(91, 154, 225);
-    --post-it--cyan--corner: rgb(143, 186, 235);
-    
-    --post-it--green: rgb(215, 237, 108);
-    --post-it--green--top:  rgb(211, 232, 106);
-    --post-it--green--corner:  rgb(232, 255, 116);
-    
-    --post-it--magenta: rgb(230, 69, 158);
-    --post-it--magenta--top:  rgb(222, 66, 152);
-    --post-it--magenta--corner:  rgb(255, 128, 198);
+    --brand: var(--cyan);
 	
-    --background: light-dark(var(--white), var(--black));
-    
-    --translucent: light-dark(rgba(240, 240, 240, 0.1), rgba(30, 35, 40, 0.1));
-    --translucent-border: light-dark(rgba(240, 240, 240, 0.7), rgba(160, 160, 160, 0.2));
-    
     --color: light-dark(var(--black), var(--white));
-    --markerpen-color: var(--black);
-    --strikethrough-color: var(--red-tone);
+    --color--inverse: light-dark(var(--white), var(--black));
     
-    --secondary-background: light-dark(var(--gray-100), var(--gray-800));
+    --background: light-dark(var(--white), var(--black));
+    --background--inverse: light-dark(var(--black), var(--white));
+
+    --secondary-background: light-dark(var(--gray-100), var(--gray-900));
     --secondary-hoverBackground: light-dark(var(--gray-300), var(--gray-700));
     --secondary-borderColor: light-dark(var(--gray-300), var(--gray-700));
     --secondary-color: light-dark(var(--gray-600), var(--gray-500));
-    
-    --code-color: light-dark(var(--green-tone), var(--green));
-    --radio-color: var(--cyan);
-
-    --link-color: var(--color);
-    --link-hoverColor: var(--brand);
-    --link-focusBackground: var(--brand);
-    --link-focusColor: light-dark(var(--white), var(--black));
-    --link-outlineColor: var(--brand);
-    --link-secondary-color: light-dark(var(--gray-600), var(--gray-500));
-
-    --form--color: var(--color);
-    --form--activeColor: var(--link-focusColor);
-    --form--activeBackground: var(--link-focusBackground);
-    --form--focusBorderColor: var(--link-focusBackground);
-
-    --form--focusBackground: var(--color);
-    --labelHint-color: var(--gray-600);
-    
-    --caret-color: var(--brand);
-
-    --skiplink-color: light-dark(var(--white), var(--black));
-    --skiplink-background: var(--brand);   
-    
-    /* Shadows */
-    --shadow--depth-1:   
-        inset .5px .5px 1px #fff,
-        inset -.5px -.5px 1px #00000026,
-        0 1px 3px rgba(0,0,0,0.12), 
-        0 1px 2px rgba(0,0,0,0.24);
-                        
-    --shadow--depth-1--inset:  
-        .5px .5px 1px rgba(255,255,255,0.5),
-        -.5px -.5px 1px #00000026,
-        inset .222px .222px .314px -.5px #0003,
-        inset .605px .605px .856px -1px #0000002e,
-        inset 1.329px 1.329px 1.88px -1.5px #00000040,
-        inset 2.95px 2.95px 4.172px -2px #0000001a,
-        inset 2.5px 2.5px 3px -2.5px #00000026,
-        -.5px -.5px 0 0 rgb(0 0 0/10%);
-	
-    --shadow--depth-2:  
-        inset 1px 1px 1px 0 #ffffff7f,
-        inset -1px -1px 1px 0 #00000026,
-        0 3px 6px rgba(0,0,0,0.16), 
-        0 3px 6px rgba(0,0,0,0.23);
-           
-    --glass--shadow:     inset   0px  0px  3px     var(--glass-light),
-                        inset   0px  2px  6px     var(--glass-light),
-                        inset   0px  4px  9px     var(--glass-light),
-                        inset   0px  0px  1px     var(--glass-dark),
-                        inset   0px -1px  2px     var(--glass-dark),
-                        inset   0px -2px  4px     var(--glass-dark),
-                            
-                        .222px .222px .314px -.5px #0003,
-                        .605px .605px .856px -1px #0000002e,
-                        1.329px 1.329px 1.88px -1.5px #00000040,
-                        2.95px 2.95px 4.172px -2px #0000001a,
-                        2.5px 2.5px 3px -2.5px #00000026,-.5px -.5px 0 0 rgb(0 0 0/10%);
-
-     
 }

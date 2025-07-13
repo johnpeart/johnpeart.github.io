@@ -2,7 +2,7 @@
 layout: "default"
 ---
 
-<article id="post-content" class="{{ collection }} h-entry e-content">
+<article id="post-content" class="{{ collection }} h-entry e-content container">
     
     <h1 class="page-title p-name">{{ title }}</h1>
         
@@ -11,7 +11,7 @@ layout: "default"
             {{ content | replace: '<p>', '<p class="speech-bubble">' }}
         </section>
         <section class="speech-bubbles--speaker">
-            <img class="u-photo large" alt="A Memoji avatar of John Peart" loading="lazy" src="/assets/images/me/avatar.png">
+            <img class="u-photo large" alt="{{ site.avatar.alt }}" loading="lazy" src="{{ site.url | append: site.avatar.image }}">
         </section>
     </section>
     

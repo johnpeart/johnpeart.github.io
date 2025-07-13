@@ -20,7 +20,7 @@
     from {
         border-radius: 0;
         border: 3px solid transparent;
-        box-shadow: 0px 0px 0px var(--color--inverse);
+        box-shadow: var(--shadow-deep--inverse);
         backdrop-filter: blur(0) saturate(0);
     }
 }

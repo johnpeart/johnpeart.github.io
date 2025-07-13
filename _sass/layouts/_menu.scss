@@ -1,0 +1,50 @@
+body#key-value.menu {
+    
+    section#page-content {
+        display: grid;
+        
+        padding: calc(var(--pad) * 2);
+        grid-gap: calc(var(--pad) * 4);
+    
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "me"
+            "blog"
+            "other"
+            "sub"
+            "else";
+        
+        align-items: start;
+        
+        @media (min-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas:
+                "me blog"
+                "other blog"
+                "sub blog"
+                "else blog";
+        }
+        
+        #me {
+            grid-area: me;    
+        }
+        
+        #my-blog {
+            grid-area: blog;    
+        }
+        
+        #subscribe {
+            grid-area: sub;    
+        }
+        
+        #other {
+            grid-area: other;    
+        }
+        
+        #elsewhere {
+            grid-area: else;    
+        }
+    }
+    
+}

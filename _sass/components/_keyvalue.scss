@@ -95,6 +95,9 @@ a.key-value--link {
         .key-value--key {
             text-decoration: underline;
         }
+        .key-value--description {
+            color: var(--color);
+        }
     }
     
     &:focus * {

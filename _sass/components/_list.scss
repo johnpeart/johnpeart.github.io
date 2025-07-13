@@ -8,8 +8,7 @@
     max-width: 450px;
     padding:  26px;
     background: #fff linear-gradient(rgba(0,0,0,0.1) 1px, transparent 0) 0 26px / 100% 26px;
-    border: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 3px solid var(--color);
         
     h1, li {
         font-size: 26px !important;
@@ -42,7 +41,7 @@
 		width: 100%;
 	}
     .list-title {
-        color: var(--strikethrough-color);
+        color: var(--red-tone);
         line-height: 1;
     }
     .list-body {
@@ -50,7 +49,7 @@
     }
     .list-item {
         text-align: left !important;
-        color: var(--markerpen-color);
+        color: var(--black);
         line-height: 1;
 
         &:last-child {
@@ -77,7 +76,7 @@
         text-decoration: line-through;
         text-decoration-style: wavy;
         text-decoration-thickness: 5px;
-        text-decoration-color: var(--strikethrough-color);
+        text-decoration-color: var(--red-tone);
     }
 
     .list-item--align-right {
@@ -86,7 +85,7 @@
     }
 
     .list-item--secondary {
-        color: var(--strikethrough-color);
+        color: var(--red-tone);
     }
 }
 

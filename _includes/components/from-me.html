@@ -3,7 +3,7 @@
     <aside class="speech-bubbles--author secondary-text small-text">
         {% if page.date %}On <time class="dt-published" datetime="{{ page.date | date: '%FT%T%:z' }}">{{ page.date | date: '%d %B %Y' }}</time>, {% endif %}
 	    <span class="h-card p-author">
-		    <img class="u-photo hidden" alt="A Memoji avatar of John Peart" src="{{ site.url | append: '/assets/images/me/memoji.png' }}">
+		    <img class="u-photo hidden" alt="{{ site.avatar.alt }}" src="{{ site.url | append: '{{ site.url | append: site.avatar.image }}' }}">
 		    <span class="p-name author--name"><a rel="author" class="link-secondary p-author u-url u-uid" href="{{ site.url }}">John Peart</a></span>
 	    </span>
 	    <a href="{{ page.url }}" class="link-secondary u-url">replied</a>    
@@ -18,11 +18,9 @@
 	</section>
     
     <section class="speech-bubbles--speaker">
-        <img class="u-photo" alt="John Peart's avatar" src="/assets/images/me/avatar.png">
+        <img class="u-photo" alt="{{ site.avatar.alt }}" src="{{ site.url | append: site.avatar.image }}">
     </section>
     
-    {% include "components/webmentions/like-of.html" %}
-
 	{% if reply_to.original.url %}
 	<a class="u-in-reply-to" href="{{ reply_to.original.url }}"></a>
 	{% endif %}

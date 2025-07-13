@@ -5,22 +5,28 @@
 	    <a href="{{ reply_to.author.url }}" class="h-card p-author link-secondary">{{ reply_to.author.name }}</a>
     
 	    {% if reply_to.original.url -%}
-		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary">replied</a> to <a href="{{ reply_to.original.url }}" class="u-url link-secondary">{% if reply_to.original.title %}<br>“{{ reply_to.original.title }}”{% else %}this post{% endif %}</a>
+		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary">replied</a> to <a href="{{ reply_to.original.url }}" class="u-url u-in-reply-to link-secondary">{% if reply_to.original.title %}<br>“{{ reply_to.original.title }}”{% else %}this post{% endif %}</a>
 	    {% else -%}
 		    {% if reply_to.publication -%}
 		    at <a href="{{ reply_to.publication.url }}" class="u-url link-secondary">{{ reply_to.publication.name }}</a>
 		    {% endif %}
-		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary">{% unless reply_to.override %}wrote{% else %}{{ reply_to.override }}{% endunless %}</a>
+		    <a href="{{ reply_to.post.url }}" class="u-url link-secondary u-in-reply-to">{% unless reply_to.override %}wrote{% else %}{{ reply_to.override }}{% endunless %}</a>
 	    {% endif %}
     </aside>	
     
     
     <section class="speech-bubbles--content quote">
-        {%- if reply_to.post.image -%}
-		<img loading="lazy" class="speech-bubble" src="{{ reply_to.post.image }}">
-		{%- endif -%}
         <blockquote cite="{{ reply_to.post.url }}" class="h-cite">
-            {% if reply_to.post.title %}<h1 class="post-title speech-bubble"><a href="{{ reply_to.post.url }}" class="u-url no-underline">{{ reply_to.post.title }}</a></h1>{% endif %}
+            {% if reply_to.post.title %}
+                <a href="{{ reply_to.post.url }}" class="u-url no-underline speech-bubble">
+                {%- if reply_to.post.image -%}
+                    <img loading="lazy" src="{{ reply_to.post.image }}" class="speech-bubble--image">
+                    {%- endif -%}
+                    <h1 class="post-title">
+                            {{ reply_to.post.title }}
+                    </h1>
+                </a>
+            {% endif %}
 			{% if reply_to.post.content %}
                 {{ reply_to.post.content | markdownify 
                     | replace: '<p>', '<p class="speech-bubble">'

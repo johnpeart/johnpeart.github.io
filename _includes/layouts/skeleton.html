@@ -3,7 +3,7 @@
 
     {% include "components/head.html" %}
 
-    <body id="{{ layout | remove: 'layouts/' | remove: '.html' }}" class="{{ title | downcase }}">
+    <body id="{{ layout | remove: 'layouts/' | remove: '.html' | slugify }}" class="{{ title | downcase | slugify }}">
 
         {{ content }}
         

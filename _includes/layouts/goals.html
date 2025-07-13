@@ -7,6 +7,7 @@ layout: default
 
     {{ content }}
 
+    <ul class="key-value">
 	{% assign years = collections.goal | sort %}
 	{% for goals in years %}
 
@@ -31,7 +32,7 @@ layout: default
         {% assign totalgoalpercentage = totalgoalpercentage | times: 1.0 | at_least: 0 %}
         {% assign averagegoalpercentage = totalgoalpercentage | divided_by: goalno | at_least: 0 | round %}
         
-		<article class="key-value--item key-value--with-value key-value--with-description">
+		<li class="key-value--item key-value--with-value key-value--with-description">
 			<a class="key-value--link" href="{{ goals.url }}" title="See goals for the year {{ goals.data.year }}">
                 <h2 class="key-value--key">{{ goals.data.year }}</h2>
                 
@@ -41,7 +42,8 @@ layout: default
                     <p><strong>{{ averagegoalpercentage }}% of goals completed (each goal given equal weighting)</strong></p>
                 </progress>
             </a>
-		</article>
+		</li>
 
 	{% endfor %}
+    </ul>
 </section>

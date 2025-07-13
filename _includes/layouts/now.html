@@ -31,28 +31,27 @@ header:
 
 <footer class="padding-top" style="background-position: top; --mult: 2;">
 
-    <div class="container">
-        <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
-        {% for item in collection offset: 1 %}
-            {% if forloop.first %}
-        <h1 class="key-value--heading key-value--heading--small">Previously</h1>
-            <ul class="related-posts key-value">
-            {% endif %}
-                <li class="key-value--item">
-                    <a class="key-value--link" href="{{ item.url }}" title="Read {{ item.date | date: '%B %Y' }}">
-                        <p class="key-value--key p-name">
-                            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
-                                {{ item.date | date: '%B %Y' }}
-                            </time>
-                        </p>
-                        {% if item.data.excerpt %}
-                        {{ item.data.excerpt | markdownify | replace: '<p>', '<p class="key-value--description">' }}
-                        {% endif %}
-                    </a>
-                </li>
-            {% if forloop.last %}
-            </ul>
-            {% endif %}
-        {% endfor %}
+    <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
+    {% for item in collection offset: 1 %}
+        {% if forloop.first %}
+    <h1 class="key-value--heading key-value--heading--small">Previously</h1>
+        <ul class="related-posts key-value">
+        {% endif %}
+            <li class="key-value--item">
+                <a class="key-value--link" href="{{ item.url }}" title="Read {{ item.date | date: '%B %Y' }}">
+                    <p class="key-value--key p-name">
+                        <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+                            {{ item.date | date: '%B %Y' }}
+                        </time>
+                    </p>
+                    {% if item.data.excerpt %}
+                    {{ item.data.excerpt | markdownify | replace: '<p>', '<p class="key-value--description">' }}
+                    {% endif %}
+                </a>
+            </li>
+        {% if forloop.last %}
+        </ul>
+        {% endif %}
+    {% endfor %}
 
 </footer>

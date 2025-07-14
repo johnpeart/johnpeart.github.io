@@ -1,19 +1,9 @@
 :root {    
     
     --shadow-color:     var(--color);
-    --shadow-shallow:   0px 1px 0px var(--shadow-color),
-                        0px 2px 0px var(--shadow-color),
-                        0px 3px 0px var(--shadow-color);
+    --shadow-shallow:   0px 3px 0px var(--shadow-color);
     
-    --shadow-deep:      0px 1px 0px var(--shadow-color),
-                        0px 2px 0px var(--shadow-color),
-                        0px 3px 0px var(--shadow-color),
-                        0px 4px 0px var(--shadow-color),
-                        0px 5px 0px var(--shadow-color); 
+    --shadow-deep:      0px 5px 0px var(--shadow-color); 
     
-    --shadow-deep--inverse:     0px 1px 0px transparent,
-                                0px 2px 0px transparent,
-                                0px 3px 0px transparent,
-                                0px 4px 0px transparent,
-                                0px 5px 0px transparent;    
+    --shadow-deep--inverse:     0px 5px 0px transparent;    
 }

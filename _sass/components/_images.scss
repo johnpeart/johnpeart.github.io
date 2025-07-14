@@ -51,9 +51,17 @@ figure:has(figcaption) {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
+    img:nth-child(n+2) {
+        border-radius: 0;
+        border-top: 0;
+    }
     img {
         border-bottom: 0;
     }
+}
+
+p + figure {
+    margin-top: var(--pad);
 }
 
 figure,

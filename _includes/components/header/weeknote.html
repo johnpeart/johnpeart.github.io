@@ -1,8 +1,10 @@
 <aside class="calendar">
-	<div class="calendar-sheet">
+	<div class="calendar-board">
+		<div class="calendar-sheet">
 			<span class="calendar-month">{{- page.date | date: "%B" | truncate: 3, "" -}}</span>
 			<span class="calendar-date">{{- page.date | date: "%d" -}}</span>
 			<{% if title == "" %}span{% else %}h1{% endif %} class="calendar-collection">{{ override | default: "Weeknote" }}</{% if title == "" %}span{% else %}h1{% endif %}>
+		</div>
 	</div>
 </aside>
 

@@ -43,10 +43,12 @@
     <body>
         <div id="opengraph">
             <aside class="calendar">
-	            <div class="calendar-sheet">
-			            <span class="calendar-month">{{- post.data.date | date: "%B" | truncate: 3, "" -}}</span>
-			            <span class="calendar-date">{{- post.data.date | date: "%d" -}}</span>
-			            <span class="calendar-collection">Weeknote</span>
+	            <div class="calendar-board">
+                    <div class="calendar-sheet">
+                            <span class="calendar-month">{{- post.data.date | date: "%B" | truncate: 3, "" -}}</span>
+                            <span class="calendar-date">{{- post.data.date | date: "%d" -}}</span>
+                            <span class="calendar-collection">Weeknote</span>
+                    </div>
 	            </div>
             </aside>
         </div>

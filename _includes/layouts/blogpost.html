@@ -25,7 +25,7 @@ layout: default
             <script type="text/javascript" src="{{ siteUrl | append: '/assets/scripts/blog/eurovision.js' }}" async></script>
         {% endif %}
         
-        {% for posse in page.posse %}
+        {% for posse in posse %}
 		<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>
 		{% endfor %}
 	</section>

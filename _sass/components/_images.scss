@@ -29,11 +29,13 @@ figure,
 }
 
 p > img,
-figure img {
+figure img,
+figure picture {
     z-index: 100;
     border: 3px solid var(--color);
     border-radius: calc(var(--border-radius) * 2);
     padding: 0;
+    overflow: hidden;
     
     &.no-styles {
         background: none;
@@ -46,16 +48,23 @@ figure img {
     }
 }
 
+picture img {
+    border: none;
+}
+
 figure:has(figcaption) {
-    img:first-child {
+    img:first-child,
+    picture:first-child {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
-    img:nth-child(n+2) {
+    img:nth-child(n+2),
+    picture:nth-child(n+2) {
         border-radius: 0;
         border-top: 0;
     }
-    img {
+    img,
+    picture {
         border-bottom: 0;
     }
 }
@@ -101,6 +110,17 @@ figcaption {
     border: 3px solid var(--color);
     border-bottom-left-radius: calc(var(--border-radius) * 2);
     border-bottom-right-radius: calc(var(--border-radius) * 2);
+    
+    p {
+        padding: 0 0 var(--pad) 0;
+        line-height: 1.25;
+        text-align: left;
+        font-size: clamp(18px, 3vw, 24px);
+        
+        &::last-child {
+            padding-bottom: 0;
+        }
+    }
 }
 
 picture .background {

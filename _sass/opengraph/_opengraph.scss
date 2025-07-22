@@ -1,0 +1,241 @@
+html {
+    background: var(--background--inverse);
+}
+
+body { 
+    min-height: unset;
+    
+    height: 630px;
+    width: 1200px;
+    
+    margin: 0;
+    
+    background: var(--background);
+    
+    padding: 15px 15px 30px 15px;   
+}
+
+#opengraph {
+    --border-width: 5px;
+    
+    display: grid;
+    
+    height: 100%;
+    width: 100%;
+    
+    background: var(--background);
+    overflow: hidden;
+                
+    border: var(--border-width) solid var(--color);
+    border-radius: 30px;
+    box-shadow: 0px 15px 0px var(--color);
+    
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "og-sub og-sub"
+        "og-image og-title";
+}
+
+#opengraph--image {
+    display: grid;
+    grid-area: og-image;
+    height: 100%;
+    padding: 15px;
+    background: var(--bg);
+    
+    .post-it {
+        width: 638px;
+        margin: 0 auto;
+    }
+    
+    aside.calendar {
+        display: grid;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+        
+        div.calendar-board {
+            margin: auto;
+        }
+    }
+}
+#opengraph--site-title {
+    grid-area: og-sub;
+    width: 100%;
+}
+#opengraph--page-title {
+    height: 100%;
+    padding: 30px;
+    display: grid;
+    grid-area: og-title;
+    border-left: var(--border-width) solid var(--color);
+}
+#opengraph--tag {
+    grid: og-tag;
+    border-left: var(--border-width) solid var(--color);
+}
+
+h1.title {
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: bold;
+    font-style: normal;
+    text-wrap: balance;
+    text-wrap: pretty; 
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--cyan);
+    align-self: end;
+    
+    &.title--medium {
+        font-size: 125px;
+        line-height: 115px;
+        letter-spacing: -3px;
+    }
+    
+    &.title--large {
+        font-size: 200px;
+        line-height: 175px;
+        letter-spacing: -5px;
+    }
+}
+
+p.subtitle {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: bold;
+    grid-area: sub;
+    padding: 15px 30px;
+    border-bottom: var(--border-width) solid var(--color);
+}
+
+p.lead {
+    font-size: 60px;
+    line-height: 1;
+    margin: 15px 0 0;
+    align-self: start;
+}
+
+img,
+svg {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 470px;
+    align-self: center;
+    &.contain {
+        object-fit: contain;
+    }
+    &.align-bottom {
+        height: unset;
+        align-self: end;
+    }
+}
+
+body.no-grid {
+    padding: 0;
+    
+    #opengraph {
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+    }
+    
+    #opengraph--page-title,
+    p.subtitle,
+    h1.title {
+        border: none;
+    }
+}
+
+body.no-site-title {
+    
+    #opengraph--image {
+        padding: 0;
+    }
+    
+    #opengraph--page-title {
+        border: none;
+    }
+    
+    #opengraph {
+        grid-template-columns: 3fr 4fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "og-image og-title";
+        grid-gap: 30px;
+    }
+}
+
+body.collections-page {
+    #opengraph {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+body.image-only {
+    #opengraph {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "og-sub" "og-image";
+    }
+}
+
+body.title-only {
+    #opengraph {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "og-sub" "og-title";
+    }
+    #opengraph--page-title {
+        border: none;
+    }
+}
+
+body.title-with-tag {
+    #opengraph {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: 
+            "og-sub og-tag"
+            "og-title og-title";
+    }
+    
+    #opengraph--page-title {
+        border: none;
+    }
+}
+
+body.title-with-speech-bubbles {
+    #opengraph {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: 
+            "og-sub og-tag"
+            "og-speech og-speech";
+    }
+    
+    #opengraph--page-title {
+        padding: 0;
+        p {
+            grid-area: unset;
+        }
+    }
+    
+    #opengraph--speech-bubbles {
+        display: grid;
+        grid-area: og-speech;
+        grid-gap: 15px;
+        padding: 30px 60px;
+        margin: auto 0;
+        
+        p {
+            font-size: 110%;
+        }
+    }
+    
+    img {
+        object-fit: cover;
+    }
+}

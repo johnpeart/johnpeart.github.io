@@ -155,12 +155,16 @@ module.exports = function(eleventyConfig) {
             collectionApi.getFilteredByGlob(`./src/posts/${collection}/*.*`)
         ).sort((a, b) => b.date - a.date);
     });
-
+    
     eleventyConfig.addShortcode("openGraphScreenshotURL", function () {
-        const encodedURL = encodeURIComponent(
-            `https://johnpe.art/social${this.page.url}`
-        );
+        const is404 = this.page.url === "/404.html";
+        const baseURL = is404
+            ? "https://johnpe.art/social/error.html"
+            : `https://johnpe.art/social${this.page.url}`;
+    
+        const encodedURL = encodeURIComponent(baseURL);
         const cacheKey = `_${new Date().valueOf()}`;
+    
         return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
     });
 

@@ -22,13 +22,21 @@
     Set up for pages
 {% endcomment %}
     
-    {% if page.url == '/social/' %}
+    {% if 
+        page.url == '/social' or
+        page.url == '/social/' or
+        page.url == '/social/index.html' 
+    %}
         {% assign og-layout = 'home' %}
         {% assign og-background = 'background' %}
     {% endif %}
         
     <!-- Error -->
-    {% if page.url == '/social/error/' %}
+    {% if 
+        page.url == '/social/error' or
+        page.url == '/social/error/' or
+        page.url == '/social/error/index.html' 
+    %}
         {% assign og-image = 'error' %}
         {% assign og-object = 'default' %}
         {% assign og-layout = 'with-image' %}

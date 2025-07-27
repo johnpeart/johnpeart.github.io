@@ -19,6 +19,8 @@ layout: default
                         {% include "components/objects/{{ post.data.platform | downcase | slugify }}.svg" %}
                     {% elsif collection == 'music' %}
                         {% include "components/objects/ipod-nano.svg" %}
+                    {% elsif collection == 'photo' %}
+                        {% include "components/objects/photos.svg" %}
                     {% elsif post.data.image %}
                         <div class="polaroid">
                             <img src="{{ siteUrl | append: '/assets/images' | append: post.data.image }}" loading="lazy">

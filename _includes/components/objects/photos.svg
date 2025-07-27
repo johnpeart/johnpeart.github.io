@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 624 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;">
+    <g>
+        <path d="M28.098,212.215L28.098,208.284L211.81,24.573L593.647,151.852L593.647,156.751L410.936,340.071L28.098,212.215Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <path d="M211.81,24.573L593.647,151.852L409.936,335.564L28.098,208.284L211.81,24.573Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <path d="M53.193,204.402L218.534,39.062L504.912,134.521L339.572,299.862L53.193,204.402Z" style="fill:lightblue;stroke:black;stroke-width:2.93px;"/>
+        <path d="M25.981,169L25.981,165L285.788,15L597.558,195L597.558,199L337.75,349L25.981,169Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <path d="M285.788,15L597.558,195L337.75,345L25.981,165L285.788,15Z" style="fill:white;stroke:black;stroke-width:3px;"/>
+        <use id="Sticker-Foil1" serif:id="Sticker-Foil" xlink:href="#_Image1" x="0" y="0" width="500px" height="500px" transform="matrix(0.467654,-0.27,0.467654,0.27,51.9615,165)"/>
+        <path d="M51.962,165L285.788,30L519.615,165L285.788,300L51.962,165Z" style="fill:none;stroke:black;stroke-width:3px;"/>
+        <path d="M285.788,30L519.615,165L285.788,300L51.962,165L285.788,30Z" style="fill:none;stroke:black;stroke-width:3px;"/>
+    </g>
     <g transform="matrix(1,0,0,1,-4438.22,-547.047)">
-        <g id="Polaroid" transform="matrix(0.731707,0,0,0.638298,2660.09,543.856)">
-            <g transform="matrix(0.965926,-0.171297,0.39106,0.965926,-16.1368,499.144)">
-                <g transform="matrix(1.47946,-0.979167,2.05,1.35677,-4284.3,-1625.5)">
-                    <path d="M1312.76,2344.07l3.851,-1.604l240,-0l-0,207.846l-4.8,2l-239.29,0.248l0.239,-208.49Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
-                </g>
-                <g transform="matrix(1.47946,-0.979167,2.05,1.35677,-4284.3,-1631.77)">
-                    <rect x="1313.41" y="2344.77" width="240" height="207.846" style="fill:white;stroke:black;stroke-width:1.5px;"/>
-                </g>
-                <g transform="matrix(1.33151,-0.88125,1.5375,1.01758,-2852.79,-965.046)">
-                    <rect x="1313.41" y="2344.77" width="240" height="207.846" style="fill:lightblue;stroke:black;stroke-width:1.5px;"/>
-                </g>
-            </g>
-            <g>
-                <g transform="matrix(1.47946,-0.979167,2.05,1.35677,-4284.3,-1625.5)">
-                    <path d="M1313.41,2344.77l3.2,-2.309l240,-0l-0,207.846l-3.2,2.309l-240,0l-0,-207.846Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
-                </g>
-                <g transform="matrix(1.47946,-0.979167,2.05,1.35677,-4284.3,-1631.77)">
-                    <rect x="1313.41" y="2344.77" width="240" height="207.846" style="fill:white;stroke:black;stroke-width:1.5px;"/>
-                </g>
-                <g transform="matrix(1.33151,-0.88125,1.5375,1.01758,-2852.79,-965.046)">
-                    {% if post.data.image %}
-                        <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="{{ og-image }}" preserveAspectRatio="xMidYMid slice"/>
-                    {% else %}
-                        <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="/assets/images/site/holofoil.jpg" preserveAspectRatio="xMidYMid slice"/>
-                        <image id="photoImage" x="1323.41" y="2362.091" width="220" height="190.526" href="/assets/images/me/me.svg" preserveAspectRatio="xMidYMid slice"/>
-                    {% endif %}
-                    <rect id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" style="fill:none;stroke:black;stroke-width:1.5px;"/>
-                </g>
-                <g transform="matrix(1.47946,-0.979167,2.05,1.35677,-4284.3,-1631.77)">
-                    <path d="M1313.41,2552.62l-0,-207.846l240,0" style="fill:white;fill-opacity:0.2;stroke:black;stroke-width:1.64px;"/>
-                </g>
+        <g transform="matrix(0.731707,0,0,0.638298,2660.09,543.856)">
+            <g transform="matrix(1.33151,-0.88125,1.5375,1.01758,-2852.79,-965.046)">
+                {% if page.url contains '/social/' and post.data.image %}
+                    <!-- Social -->
+                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="{{ og-image | default: post.data.image | default: image }}" preserveAspectRatio="xMidYMid slice"/>
+                {% elsif post.data.image or image %}
+                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="{{ og-image | default: post.data.image | default: image | prepend: '/assets/images' }}" preserveAspectRatio="xMidYMid slice"/>
+                {% else %}
+                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="/assets/images/site/holofoil.jpg" preserveAspectRatio="xMidYMid slice"/>
+                    <image id="photoImage" x="1323.41" y="2362.091" width="220" height="190.526" href="/assets/images/me/me.svg" preserveAspectRatio="xMidYMid slice"/>
+                {% endif %}
             </g>
         </g>
     </g>
+    <path d="M337.75,345L25.981,165L285.788,15" style="fill:white;fill-opacity:0.3;stroke:black;stroke-width:3px;"/>
 </svg>

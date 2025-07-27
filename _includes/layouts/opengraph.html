@@ -15,7 +15,7 @@
     {% assign og-collection = post.data.collection %}
     {% assign og-image = null %}
     {% assign og-object = null %}
-    {% assign og-layout = 'default' %}
+    {% assign og-layout = 'with-title' %}
     {% assign og-background = 'background' %}
 
 {% comment %}
@@ -188,8 +188,6 @@
         {% assign og-image = post.data.image | prepend: "/assets/images" %}
     {% elsif post.data.reply_to.post.image %}
         {% assign og-image = post.data.reply_to.post.image %}
-    {% else %}
-        {% assign og-layout = 'with-title' %}
     {% endif %}
 
 <!DOCTYPE html>

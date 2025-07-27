@@ -1,21 +1,15 @@
 ---
-layout: page
-header:
-  title: false
+layout: default
 ---
 
 {% assign collection = collections.now | sort: date %}
 
 {% for item in collection limit: 1 %}
-<article id="post-content" class="blogpost-post h-entry">
+<article id="post-content" class="container collection--now h-entry">
     
-    <header class="post-title">
-        <aside class="published-date">
-            <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="published-datetime dt-published">
-                <a href="{{ item.url }}" class="u-url post-published-date">{{ item.date | date: '%B %Y' }}</a>
-            </time>
-        </aside>
-        <h1 class="post-title p-name">Now</h1>
+	<header class="collection--now post-title">
+        {% include 'components/objects/now.svg' %}
+        <h1 class="weeknote-title p-name center">{{ title }}</h1>
     </header>
     
     <section class="post-body e-content">	
@@ -29,7 +23,7 @@ header:
 </article>
 {% endfor %}
 
-<footer class="padding-top" style="background-position: top; --mult: 2;">
+<footer class="padding-top container" style="background-position: top; --mult: 2;">
 
     <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
     {% for item in collection offset: 1 %}

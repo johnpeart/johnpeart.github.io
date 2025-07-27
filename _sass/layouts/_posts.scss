@@ -1,5 +1,6 @@
 body[id$='blogpost'],
-body[id$='photo'] {
+body[id$='photo'],
+body[id$='now'] {
 
     section.post-body ul > li::before {
         position: absolute;

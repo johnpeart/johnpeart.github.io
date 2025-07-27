@@ -158,15 +158,20 @@ module.exports = function(eleventyConfig) {
     
     eleventyConfig.addShortcode("openGraphScreenshotURL", function () {
         const is404 = this.page.url === "/404.html";
+        const isHome = this.page.url === "/";
+    
         const baseURL = is404
-            ? "https://johnpe.art/social/error/"
-            : `https://johnpe.art/social${this.page.url}`;
+            ? "https://johnpe.art/social/error"
+            : isHome
+                ? "https://johnpe.art/social"
+                : `https://johnpe.art/social${this.page.url}`;
     
         const encodedURL = encodeURIComponent(baseURL);
         const cacheKey = `_${new Date().valueOf()}`;
     
         return `https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}`;
     });
+
 
     return {
         markdownTemplateEngine: "liquid",

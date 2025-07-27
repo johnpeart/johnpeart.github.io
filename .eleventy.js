@@ -161,9 +161,9 @@ module.exports = function(eleventyConfig) {
         const isHome = this.page.url === "/";
     
         const baseURL = is404
-            ? "https://johnpe.art/social/error/"
+            ? "https://johnpe.art/social/error"
             : isHome
-                ? "https://johnpe.art/social/"
+                ? "https://johnpe.art/social"
                 : `https://johnpe.art/social${this.page.url}`;
     
         const encodedURL = encodeURIComponent(baseURL);

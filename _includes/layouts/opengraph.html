@@ -22,8 +22,16 @@
     Set up for pages
 {% endcomment %}
     
-    {% if type == 'home' %}
+    {% if page.url == '/social/' %}
         {% assign og-layout = 'home' %}
+        {% assign og-background = 'background' %}
+    {% endif %}
+        
+    <!-- Error -->
+    {% if page.url == '/social/error/' %}
+        {% assign og-image = 'error' %}
+        {% assign og-object = 'default' %}
+        {% assign og-layout = 'with-image' %}
         {% assign og-background = 'background' %}
     {% endif %}
 
@@ -39,14 +47,6 @@
             page.url contains '/social/writing/'
         %}
             {% assign og-layout = 'home' %}
-            {% assign og-background = 'background' %}
-        {% endif %}
-        
-        <!-- Error -->
-        {% if page.url contains '/social/error' %}
-            {% assign og-image = 'error' %}
-            {% assign og-object = 'default' %}
-            {% assign og-layout = 'with-image' %}
             {% assign og-background = 'background' %}
         {% endif %}
         

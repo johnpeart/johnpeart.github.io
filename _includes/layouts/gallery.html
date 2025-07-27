@@ -15,15 +15,15 @@ layout: default
         <li>
             <article class="{{ collection }} ">
                 <a href="{{ post.url }}" title="Read {{ post.data.title }}" class="gallery-link">
-                    {% if post.data.image %}
+                    {% if collection == 'game' %}
+                        {% include "components/objects/{{ post.data.platform | downcase | slugify }}.svg" %}
+                    {% elsif collection == 'music' %}
+                        {% include "components/objects/ipod-nano.svg" %}
+                    {% elsif post.data.image %}
                         <div class="polaroid">
                             <img src="{{ siteUrl | append: '/assets/images' | append: post.data.image }}" loading="lazy">
                             <h1 class="photo--title p-name">{{ post.data.title }}</h1>
                         </div>
-                    {% elsif collection == 'game' %}
-                        {% include "components/objects/{{ post.data.platform | downcase | slugify }}.svg" %}
-                    {% elsif collection == 'music' %}
-                        {% include "components/objects/ipod-nano.svg" %}
                     {% endif %}
                 </a>
             </article>

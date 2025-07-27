@@ -54,7 +54,6 @@
         <!-- Notes --> 
         <!-- Lists --> 
         <!-- Photos --> 
-        <!-- Music --> 
         <!-- Games --> 
         <!-- Goals --> 
         <!-- Wishlist--> 
@@ -66,13 +65,18 @@
             page.url == '/social/notes/' or
             page.url == '/social/lists/' or
             page.url == '/social/photos/' or
-            page.url == '/social/music/' or
             page.url == '/social/games/' or
             page.url == '/social/goals/' or
             page.url == '/social/wishlist/'
         %}
             {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
             {% assign og-object = objectName %}
+            {% assign og-layout = 'with-image' %}
+        {% endif %}
+        
+        <!-- Music --> 
+        {% if page.url == '/social/music/' %}
+            {% assign og-object = 'ipod-nano' %}
             {% assign og-layout = 'with-image' %}
         {% endif %}
         

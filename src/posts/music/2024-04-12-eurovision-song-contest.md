@@ -2,7 +2,7 @@
 date: 2024-04-12T08:00:00+00:00
 title: "Eurovision Song Contest Malmö 2024"
 artist: "Various Artists"
-artwork: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/6d/e7/e76de7ea-d600-dcf7-d23d-f535b934bdb7/24UMGIM31493.rgb.jpg/592x592bb.webp"
+image: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/6d/e7/e76de7ea-d600-dcf7-d23d-f535b934bdb7/24UMGIM31493.rgb.jpg/592x592bb.webp"
 itunes: "https://music.apple.com/gb/album/eurovision-song-contest-malmö-2024/1736817783"
 posse:
 - https://bsky.app/profile/johnpe.art/post/3kpwpij3tcd2j

@@ -21,6 +21,11 @@
 {% comment %}
     Set up for pages
 {% endcomment %}
+    
+    {% if type == 'home' %}
+        {% assign og-layout = 'home' %}
+        {% assign og-background = 'background' %}
+    {% endif %}
 
     {% if pagination.data == 'collections.page' %}
         <!-- Home -->

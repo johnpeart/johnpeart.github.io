@@ -43,7 +43,7 @@
         {% endif %}
         
         <!-- Error -->
-        {% if page.url == '/social/error/' %}
+        {% if page.url contains '/social/error' %}
             {% assign og-image = 'error' %}
             {% assign og-object = 'default' %}
             {% assign og-layout = 'with-image' %}

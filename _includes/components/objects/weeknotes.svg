@@ -7,6 +7,8 @@
         page.url == '/social/weeknotes/' 
     %}
         {% assign date = "today" %}
+    {% elsif page.url contains '/social/' %}
+        {% assign date = post.data.date %}
     {% else %}
         {% assign date = date %}
     {% endif %}

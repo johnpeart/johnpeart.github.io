@@ -35,64 +35,58 @@
         {% assign og-background = 'background' %}
     {% endif %}
 
-    {% if pagination.data == 'collections.page' %}
-        <!-- Home -->
-        <!-- Menu -->
-        <!-- All posts -->
-        <!-- Blog posts --> 
-        {% if 
-            page.url contains '/social/menu/' or
-            page.url contains '/social/about/' or
-            page.url contains '/social/all/' or
-            page.url contains '/social/writing/'
-        %}
-            {% assign og-layout = 'home' %}
-            {% assign og-background = 'background' %}
-        {% endif %}
-        
-        
-        <!-- Search -->
-        <!-- Ideas -->
-        <!-- Now -->
-        <!-- Weeknotes --> 
-        <!-- Notes --> 
-        <!-- Lists --> 
-        <!-- Photos --> 
-        <!-- Games --> 
-        <!-- Goals --> 
-        <!-- Wishlist--> 
-        {% if 
-            page.url == '/social/search/' or
-            page.url == '/social/ideas/' or
-            page.url == '/social/now/' or
-            page.url == '/social/weeknotes/' or
-            page.url == '/social/notes/' or
-            page.url == '/social/lists/' or
-            page.url == '/social/photos/' or
-            page.url == '/social/games/' or
-            page.url == '/social/goals/' or
-            page.url == '/social/wishlist/'
-        %}
-            {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
-            {% assign og-object = objectName %}
-            {% assign og-layout = 'with-image' %}
-        {% endif %}
-        
-        <!-- Music --> 
-        {% if page.url == '/social/music/' %}
-            {% assign og-object = 'ipod-nano' %}
-            {% assign og-layout = 'with-image' %}
-        {% endif %}
-        
-        <!-- Replies --> 
-        <!-- Reposts --> 
-        {% if 
-            page.url == '/social/replies/' or
-            page.url == '/social/share/' 
-        %}
-            {% assign og-layout = 'with-title' %}
-            {% assign og-title--override = 'title--large' %}
-        {% endif %}
+    {% if 
+        page.url == '/social/menu/' or
+        page.url == '/social/about/' or
+        page.url == '/social/all/' or
+        page.url == '/social/writing/'
+    %}
+        {% assign og-layout = 'home' %}
+        {% assign og-background = 'background' %}
+    {% endif %}
+    
+    
+    <!-- Search -->
+    <!-- Ideas -->
+    <!-- Now -->
+    <!-- Weeknotes --> 
+    <!-- Notes --> 
+    <!-- Lists --> 
+    <!-- Photos --> 
+    <!-- Games --> 
+    <!-- Goals --> 
+    <!-- Wishlist--> 
+    {% if 
+        page.url == '/social/search/' or
+        page.url == '/social/ideas/' or
+        page.url == '/social/now/' or
+        page.url == '/social/weeknotes/' or
+        page.url == '/social/notes/' or
+        page.url == '/social/lists/' or
+        page.url == '/social/photos/' or
+        page.url == '/social/games/' or
+        page.url == '/social/goals/' or
+        page.url == '/social/wishlist/'
+    %}
+        {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
+        {% assign og-object = objectName %}
+        {% assign og-layout = 'with-image' %}
+    {% endif %}
+    
+    <!-- Music --> 
+    {% if page.url == '/social/music/' %}
+        {% assign og-object = 'ipod-nano' %}
+        {% assign og-layout = 'with-image' %}
+    {% endif %}
+    
+    <!-- Replies --> 
+    <!-- Reposts --> 
+    {% if 
+        page.url == '/social/replies/' or
+        page.url == '/social/share/' 
+    %}
+        {% assign og-layout = 'with-title' %}
+        {% assign og-title--override = 'title--large' %}
     {% endif %}
 
 {% comment %}

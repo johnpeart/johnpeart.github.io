@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 146 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g id="Layer1">
-    </g>
     <rect id="iPod-nano" serif:id="iPod nano" x="0" y="0" width="145.492" height="220" style="fill:none;"/>
     <path d="M20.383,4.317L139.096,72.853C141.218,74.081 142.028,75.535 142.028,76.857L141.993,210.642C141.993,212.503 141.18,213.6 139.058,214.639C135.126,216.562 128.747,216.285 124.807,214.022L6.128,145.497C6.017,145.427 5.5,145.068 5.5,145.068C4.116,144.031 3.437,142.829 3.466,141.663L3.464,7.469C3.498,6.117 4.483,4.812 6.417,3.865C10.255,1.987 16.426,2.2 20.383,4.317ZM110.207,93.057C110.207,91.409 109.204,89.492 107.968,88.778L20.019,38.001C18.783,37.287 17.78,38.046 17.78,39.694L17.78,133.245C17.78,134.892 18.783,136.81 20.019,137.523L107.968,188.3C109.204,189.014 110.207,188.255 110.207,186.607L110.207,93.057Z" style="fill:rgb(93,97,116);stroke:black;stroke-width:1px;"/>
     <path d="M6.376,11.471C2.702,9.182 2.554,5.743 6.109,3.69C9.665,1.638 15.62,1.724 19.585,3.845L19,3.493L138.843,72.691C142.793,74.977 143.017,78.525 139.372,80.63C135.73,82.732 129.57,82.591 125.61,80.317L6.376,11.471Z" style="fill:rgb(157,161,173);stroke:black;stroke-width:1px;"/>

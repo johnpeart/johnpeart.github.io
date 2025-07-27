@@ -1,0 +1,207 @@
+---
+---
+{% comment %}
+    This template generates HTML to display as an Opengraph image of 1200px width by 630px height.
+    The HTML page is used by the Eleventy API to generate a screenshot, as set out here:
+    https://www.11ty.dev/docs/services/opengraph/
+{% endcomment %}
+
+{% comment %}
+    Set the defaults
+{% endcomment %}
+
+    {% assign og-title = post.data.title %}
+    {% assign og-site = "John Peart" %}
+    {% assign og-collection = post.data.collection %}
+    {% assign og-image = null %}
+    {% assign og-object = null %}
+    {% assign og-layout = "with-title" %}
+    {% assign og-background = 'background' %}
+
+{% comment %}
+    Set up for pages
+{% endcomment %}
+
+    {% if pagination.data == 'collections.page' %}
+        <!-- Home -->
+        <!-- Menu -->
+        <!-- All posts -->
+        <!-- Blog posts --> 
+        {% if 
+            page.url == '/social/' or
+            page.url == '/social/menu/' or
+            page.url == '/social/about/' or
+            page.url == '/social/all/' or
+            page.url == '/social/writing/'
+        %}
+            {% assign og-layout = 'home' %}
+            {% assign og-background = 'background' %}
+        {% endif %}
+        
+        <!-- Error -->
+        {% if page.url == '/social/error/' %}
+            {% assign og-image = 'error' %}
+            {% assign og-object = 'default' %}
+            {% assign og-layout = 'with-image' %}
+            {% assign og-background = 'background' %}
+        {% endif %}
+        
+        
+        <!-- Search -->
+        <!-- Ideas -->
+        <!-- Now -->
+        <!-- Weeknotes --> 
+        <!-- Notes --> 
+        <!-- Lists --> 
+        <!-- Photos --> 
+        <!-- Music --> 
+        <!-- Games --> 
+        <!-- Goals --> 
+        <!-- Wishlist--> 
+        {% if 
+            page.url == '/social/search/' or
+            page.url == '/social/ideas/' or
+            page.url == '/social/now/' or
+            page.url == '/social/weeknotes/' or
+            page.url == '/social/notes/' or
+            page.url == '/social/lists/' or
+            page.url == '/social/photos/' or
+            page.url == '/social/music/' or
+            page.url == '/social/games/' or
+            page.url == '/social/goals/' or
+            page.url == '/social/wishlist/'
+        %}
+            {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
+            {% assign og-object = objectName %}
+            {% assign og-layout = 'with-image' %}
+        {% endif %}
+        
+        <!-- Replies --> 
+        <!-- Reposts --> 
+        {% if 
+            page.url == '/social/replies/' or
+            page.url == '/social/share/' 
+        %}
+            {% assign og-layout = 'with-title' %}
+            {% assign og-title--override = 'title--large' %}
+        {% endif %}
+    {% endif %}
+
+{% comment %}
+    Set up for collections
+{% endcomment %}
+
+    <!-- Blog posts --> 
+    {% if pagination.data == 'collections.blogpost' %}
+        {% assign og-layout = 'with-title' %}
+    {% endif %}
+    
+    <!-- Now -->
+    <!-- Weeknotes --> 
+    <!-- Notes --> 
+    <!-- Lists --> 
+    <!-- Photos --> 
+    <!-- Music --> 
+    <!-- Games--> 
+    <!-- Goals--> 
+    {% if pagination.data == 'collections.now' %}
+        {% assign objectName = pagination.data | remove: 'collections.' %}
+        {% assign og-layout = 'with-image' %}
+        {% assign og-object = objectName %}
+    {% elsif 
+        pagination.data == 'collections.weeknote' or
+        pagination.data == 'collections.note' or
+        pagination.data == 'collections.list' or
+        pagination.data == 'collections.goal' or
+    %}
+        {% assign objectName = pagination.data | remove: 'collections.' %}
+        {% assign og-layout = 'with-image' %}
+        {% assign og-object = objectName | append: 's' %}
+    {% elsif pagination.data == 'collections.game' %}
+        {% assign og-layout = 'with-image' %}
+        {% assign og-object = post.data.platform | downcase | slugify %}
+        {% assign og-background = 'green' %}
+    {% elsif pagination.data == 'collections.photo' %}
+        {% assign og-layout = 'with-image' %}
+        {% assign og-object = 'photos' %}
+    {% elsif pagination.data == 'collections.music' %}
+        {% assign og-layout = 'with-image' %}
+        {% assign og-object = 'ipod-nano' %}
+    {% endif %}
+    
+    <!-- Replies -->
+    {% if pagination.data == 'collections.reply' %}
+        {% assign og-title = post.data.reply_to.post.title %}
+        {% assign og-layout = 'with-collection' %}
+    {% endif %}
+    
+    <!-- Reposts -->
+    {% if pagination.data == 'collections.share' %}
+        {% assign og-title = post.data.reply_to.post.title %}
+        {% assign og-layout = 'with-image-and-collection' %}
+    {% endif %}
+    
+
+{% comment %}
+    Background colours
+{% endcomment %}
+    
+    {% if 
+        page.url == '/social/search/' or
+        page.url == '/social/wishlist/' or
+        page.url == '/social/music/' or
+        pagination.data == 'collections.music'
+    %}
+        {% assign og-background = 'yellow' %}
+    {% elsif page.url == '/social/ideas/' %}
+        {% assign og-background = 'orange' %}
+    {% elsif 
+        page.url == '/social/now/' or
+        pagination.data == 'collections.now' or
+        page.url == '/social/weeknotes/' or
+        pagination.data == 'collections.weeknote' or
+        page.url == '/social/lists/' or
+        pagination.data == 'collections.list' or
+        page.url == '/social/goals/' or
+        pagination.data == 'collections.goal'
+    %}
+        {% assign og-background = 'blue' %}
+    {% elsif 
+        page.url == '/social/notes/' or
+        pagination.data == 'collections.note' or
+        page.url == '/social/photos/' or
+        pagination.data == 'collections.photo'
+    %}
+        {% assign og-background = 'magenta' %}
+    {% elsif page.url == '/social/games/' %}
+        {% assign og-background = 'green' %}
+    {% endif %}
+
+{% comment %}
+    Images
+{% endcomment %}
+
+    {% if post.data.image.file %} 
+        {% assign og-image = post.data.image.file %}
+        {% assign og-background = post.data.image.bg %}
+    {% elsif post.data.image %} 
+        {% assign og-image = post.data.image | prepend: "/assets/images" %}
+    {% elsif post.data.reply_to.post.image %}
+        {% assign og-image = post.data.reply_to.post.image %}
+    {% endif %}
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+    	<link rel="stylesheet" href="/assets/styles/opengraph.css">
+    </head>
+
+    <body class="{{- pagination.data | slugify }}">
+        <div id="opengraph" class="og-layout--{{ og-layout }}">        
+            {% include 'components/opengraph/{{ og-layout }}.html' %}
+        </div>
+    </body>
+    
+</html>

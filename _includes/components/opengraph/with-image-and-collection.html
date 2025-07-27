@@ -1,0 +1,18 @@
+<div id="og-site">
+    {{ og-site }}
+</div>
+<div id="og-collection">
+    {{ og-collection }}
+</div>
+<div id="og-image" style="background: var(--{{ og-background | default: 'background' }})">
+    {% if og-object and og-object != 'default' %}
+            {% include 'components/objects/{{ og-object }}.svg' %}
+    {% elsif og-object == 'default' %}
+        {% include 'components/objects/{{ og-image }}.svg' %}
+    {% else %}
+        <img src="{{ og-image }}" class="{{ og-image--override }}">
+    {% endif %}
+</div>
+<div id="og-title">
+    <h1 class="title {{ og-title--override }}">{{ og-title }}</div>
+</div>

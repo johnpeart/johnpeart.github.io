@@ -159,7 +159,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addShortcode("openGraphScreenshotURL", function () {
         const is404 = this.page.url === "/404.html";
         const baseURL = is404
-            ? "https://johnpe.art/social/error.html"
+            ? "https://johnpe.art/social/error/index.html"
             : `https://johnpe.art/social${this.page.url}`;
     
         const encodedURL = encodeURIComponent(baseURL);

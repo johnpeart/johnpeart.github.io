@@ -107,13 +107,20 @@ list:
       link: 
         external: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
 
-# - name: "Miscellaneous"
-  # items:
-  #   - name: "LEGO IDEAS Polaroid OneStep SX-70 Camera"
-  #     description: "Often discounted."
-  #     price: "£70"
-  #     link: 
-  #       external: "https://www.lego.com/en-gb/product/polaroid-onestep-sx-70-camera-21345"
+- name: "Miscellaneous"
+  items:
+    - name: "LEGO Game Boy"
+      price: "£55"
+      link: 
+        external: "https://www.lego.com/en-gb/product/game-boy-72046"
+    - name: "LEGO Mario Kart – Mario & Standard Kart"
+      price: "£150"
+      link: 
+        external: "https://www.lego.com/en-gb/product/mario-kart-mario-standard-kart-72037"
+    - name: "LEGO Pirhana Plant"
+      price: "£58"
+      link: 
+        external: "https://www.lego.com/en-gb/product/piranha-plant-71426"
 
 - name: "Music"
   items:

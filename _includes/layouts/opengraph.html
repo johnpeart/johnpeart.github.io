@@ -33,11 +33,10 @@
         <!-- All posts -->
         <!-- Blog posts --> 
         {% if 
-            page.url == '/social/' or
-            page.url == '/social/menu/' or
-            page.url == '/social/about/' or
-            page.url == '/social/all/' or
-            page.url == '/social/writing/'
+            page.url contains '/social/menu/' or
+            page.url contains '/social/about/' or
+            page.url contains '/social/all/' or
+            page.url contains '/social/writing/'
         %}
             {% assign og-layout = 'home' %}
             {% assign og-background = 'background' %}

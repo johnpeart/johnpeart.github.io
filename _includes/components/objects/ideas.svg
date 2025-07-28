@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 530 558" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;">
+<svg width="100%" height="100%" viewBox="0 0 530 558" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;"
+aria-labelledby="svg-title" aria-describedby="svg-desc">
+    
+    <title id="svg-title">Light bulb</title>
+    <desc id="svg-desc">A lightbulb, lit up.</desc>
+    
     <path d="M223.009,498.215L201.052,457.992L317.106,460.205L296.357,498.215C294.589,501.587 291.399,504.763 286.785,507.427C271.827,516.063 247.538,516.063 232.58,507.427C227.967,504.763 224.776,501.587 223.009,498.215Z" style="stroke:black;stroke-width:3px;"/>
     <path d="M215.549,484.497L189.052,435.956L329.106,438.627L304.066,484.497C301.933,488.567 298.082,492.399 292.515,495.614C274.463,506.036 245.152,506.036 227.1,495.614C221.533,492.399 217.683,488.567 215.549,484.497Z" style="fill:rgb(162,162,162);stroke:black;stroke-width:3px;"/>
     <path d="M333.275,363.551L333.278,363.551L333.278,424.497C333.278,435.358 326.108,446.218 311.769,454.497C283.091,471.055 236.524,471.055 207.846,454.497C193.507,446.218 186.337,435.358 186.337,424.497L186.337,363.873C186.502,374.607 193.67,385.313 207.843,393.496C236.522,410.053 283.088,410.053 311.766,393.496C326.081,385.231 333.251,374.393 333.275,363.551Z" style="fill:rgb(186,186,186);stroke:black;stroke-width:3px;"/>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 161 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1;">
+<svg width="100%" height="100%" viewBox="0 0 161 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1;"
+aria-labelledby="svg-title" aria-describedby="svg-desc">
+    
     {%- if post.data.artwork -%}{% assign artwork = post.data.artwork %}{%- endif -%}
     {%- if post.data.label -%}{% assign label = post.data.label %}{%- endif -%}
     {%- if post.data.date -%}{% assign date = post.data.date %}{%- endif -%}
+    
+    <title id="svg-title">{{ label }}</title>
+    <desc id="svg-desc">A Game Boy Game Pak showing the artwork for {{ label }}</desc>
+    
     <g id="Cartridge">
         <path id="SideCut" d="M143.183,168L143.183,276L136.255,276L136.255,168L139.719,170L143.183,168Z" style="fill:#747373;stroke:#000;stroke-width:1px;"/>
         <path id="InnerGrooves" d="M139.719,134L1.155,54L3.464,52.667L1.155,49L3.464,47.667L1.155,43.333L3.464,42L1.155,38L3.464,36.667L1.155,32.667L3.464,31.333L139.719,110L156.039,100.577L158.194,102L156.039,105.911L158.194,107.333L156.039,111.244L158.194,112.667L156.039,116.911L158.194,118.333L156.039,121.911L158.194,123.333L139.719,134Z" style="fill:#303030;stroke:#000;stroke-width:1px;"/>

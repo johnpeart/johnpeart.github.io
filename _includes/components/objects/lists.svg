@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1065 675" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;">
+<svg width="100%" height="100%" viewBox="0 0 1065 675" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;"
+aria-labelledby="svg-title" aria-describedby="svg-desc">
+    
+    <title id="svg-title">Lists</title>
+    <desc id="svg-desc">A paper note pad. On the pad is a list of tasks: Underpants. ???. Profit.</desc>
+    
     <path d="M13.043,307.53L13.043,247.47L428.63,7.53L1052.12,367.5L1047.12,370.448L1052.12,373.5L1047.12,376.613L1052.12,379.5L1047.12,382.387L1052.12,385.5L1047.12,388.613L1052.12,391.5L1047.12,394.613L1052.12,397.561L1047.12,400.416L1052.12,403.5L1047.16,406.36L1052.12,409.5L1047.12,412.613L1052.12,415.5L1047.12,418.387L1052.12,421.5L1047.12,424.387L1052.12,427.561L636.529,667.5L13.043,307.53Z" style="fill:white;stroke:black;stroke-width:3px;"/>
     <path d="M1052.12,373.5L636.529,613.439L13.043,253.47" style="fill:none;stroke:black;stroke-width:3px;"/>
     <path d="M1052.12,367.5L636.529,607.439L13.043,247.47" style="fill:none;stroke:black;stroke-width:3px;"/>

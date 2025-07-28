@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 624 465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;">
-    <g id="Layer1">
-    </g>
-    <rect id="Post-it-note" serif:id="Post it note" x="0" y="0" width="623.538" height="465" style="fill:none;"/>
+<svg width="100%" height="100%" viewBox="0 0 624 465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;"
+aria-labelledby="svg-title" aria-describedby="svg-desc">
+    
+    <title id="svg-title">Post-It note</title>
+    <desc id="svg-desc">A yellow Post-It note with the word “notes” written on it in a marker pen.</desc>
+    
     <g id="Notes">
         <path d="M26.054,285.958L26.054,226.042L361.059,32.628L593.356,166.745L587.759,170.008L593.356,173.226L588.129,176.251L593.356,179.226L588.407,182.09L593.356,185.226L588.745,187.894L593.356,191.226L588.651,193.949L593.356,197.226L588.644,199.953L593.356,203.226L588.356,206.082L593.356,209.226L588.616,211.969L593.356,215.226L589.274,217.588L593.356,221.226L589.694,223.345L593.356,226.66L258.352,420.074L26.054,285.958Z" style="fill:rgb(255,217,0);stroke:black;stroke-width:3px;"/>
         <g>

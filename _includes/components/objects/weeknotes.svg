@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 700 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;">
+<svg width="100%" height="100%" viewBox="0 0 700 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;"
+aria-labelledby="svg-title" aria-describedby="svg-desc">
 
     {% if 
         page.url == '/weeknotes/' or 
@@ -12,6 +13,9 @@
     {% else %}
         {% assign date = date %}
     {% endif %}
+    
+    <title id="svg-title">{{ date }}: Now</title>
+    <desc id="svg-desc">A desktop calendar block with the date {{ date }} and the word “Weeknotes” written on it.</desc>
 
     <path d="M25.981,270L25.981,255L350.74,442.5L350.74,457.5L25.981,270Z" style="fill:rgb(125,125,130);stroke:black;stroke-width:3px;"/>
     <path d="M350.74,457.5L350.74,442.5L675.5,255L675.5,270L350.74,457.5Z" style="fill:rgb(75,75,78);stroke:black;stroke-width:3px;"/>

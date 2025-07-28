@@ -1,1 +1,1 @@
-{% include 'components/objects/games.svg' %}
+{% include 'components/objects/game-boy.svg' %}

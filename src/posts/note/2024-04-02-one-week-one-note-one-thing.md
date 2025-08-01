@@ -3,7 +3,7 @@ date: 2024-04-02T09:00:00+01:00
 title: "One week. <br>One note. <br>One thing."
 author: "John Peart"
 excerpt: "My week, written down. One thing each note. One note each week."
-image: /posts/2024/04/02/one-week-one-note-one-thing/note.png
+
 categories:
 - Weeknotes
 posse:

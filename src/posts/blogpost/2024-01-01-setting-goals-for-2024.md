@@ -2,7 +2,6 @@
 title: "Setting some goals for 2024"
 author: "John Peart"
 excerpt: "No New Year’s resolutions. Only specific, measurable goals."
-image: "/posts/goals.png"
 categories:
 - personal
 posse:

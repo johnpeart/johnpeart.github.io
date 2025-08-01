@@ -3,7 +3,7 @@ date: 2024-04-06T19:18:36+01:00
 title: "Parliament and Government should be in the fediverse"
 author: "John Peart"
 excerpt: "Here’s my pitch: Think GOV.UK, but social media."
-image: /posts/2024/04/06/parliament-and-government-should-be-in-the-fediverse.png
+
 categories:
 - fediverse
 posse:

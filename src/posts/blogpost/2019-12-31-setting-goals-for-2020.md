@@ -2,7 +2,6 @@
 title: "Setting some goals for 2020"
 author: John Peart
 excerpt: "Another year, another set of goals."
-image: /posts/goals.png
 categories:
   - personal
 ---

@@ -2,7 +2,6 @@
 title: "I’m making a podcast"
 author: John Peart
 excerpt: "It’s one of my new year’s resolutions: and here’s the plan."
-image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
 

@@ -4,7 +4,7 @@ title: "I listened to every Eurovision 2025 entry, so you don’t have to"
 author: "John Peart"
 excerpt: "Mamma Mia. Here we go again..."
 layout: blogpost
-image: /posts/eurovision.png
+
 composite:
   overlay:
     image: "/assets/images/posts/2025/05/eurovision-first-listens/eurovision-2025.svg"

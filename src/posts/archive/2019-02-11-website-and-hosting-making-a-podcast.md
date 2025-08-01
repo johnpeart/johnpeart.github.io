@@ -2,7 +2,6 @@
 title: "A podcast in the making: setting up a website"
 author: John Peart
 excerpt: "I’m making a podcast called the Department of Bad Ideas, and blogging about how I’m making it. In this post, I’ll explain a bit about the website I built for the podcast."
-image: /posts/dept-of-bad-ideas.png
 categories:
   - podcast
 

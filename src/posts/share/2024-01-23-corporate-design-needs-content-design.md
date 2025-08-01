@@ -11,7 +11,6 @@ reply_to:
     title: "Corporate training needs content design"
     description: "Not cartoons"
     url: "https://gilest.org/corp-training.html"
-    # image: ""
     date: 2024-01-23
     content: |
       I don’t have a problem with being reminded of the rules - but I do have a problem with almost all of these training modules, and it’s this: they tend to treat grown adults like children

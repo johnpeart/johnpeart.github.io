@@ -2,7 +2,6 @@
 title: "I listened to every Eurovision 2016 entry, so you don’t have to"
 excerpt: "I've done the hard work to make your Eurovision experience simple once again this year. Here are my first impressions of this year’s Eurovision Song Contest entries."
 layout: blogpost
-image: /posts/eurovision.png
     
 related:
 - /2015/04/20/eurovision-first-listens/

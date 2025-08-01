@@ -3,7 +3,7 @@ date: 2024-05-29T10:00:00+01:00
 title: "Help me to update the list of LGBT+ MPs"
 author: "John Peart"
 excerpt: "How many LGBT+ MPs will there be in the next Parliament? With your help, we can figure it out."
-image: /posts/2024/05/29/maintaining-the-list-of-lgbt-mps-in-an-election-year/social-media.png
+
 categories:
 - LGBT
 - election

@@ -33,7 +33,7 @@ In this instance, the Conservative and Liberal Democrat parties should seek to d
 ## Methodology
 
 <table>
-    <caption><em><strong>TABLE 1:</strong> Data sources – transcripts used in Alceste</em>em></caption>
+    <caption><em><strong>TABLE 1:</strong> Data sources – transcripts used in Alceste</em></caption>
     <thead>
         <tr>
             <th>Transcript</th>

@@ -2,7 +2,6 @@
 title: "Recipes are broken"
 author: "John Peart"
 excerpt: "One. Thing. At. A. Time."
-image: /posts/2023/12/09/recipies-are-broken/social-media.png
 emoji: ["🍅","🥕","🥬","🧅","🌽"]
 categories: 
 - cooking

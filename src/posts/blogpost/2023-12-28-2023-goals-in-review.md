@@ -2,7 +2,6 @@
 title: "Reviewing my progress against my 2023 goals"
 author: John Peart
 excerpt: "TL;DR – Success!"
-image: /posts/goals.png
 categories:
   - personal
 posse: 

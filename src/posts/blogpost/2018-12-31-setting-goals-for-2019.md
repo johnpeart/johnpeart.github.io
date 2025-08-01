@@ -2,7 +2,6 @@
 title: "Setting some goals for 2019"
 author: John Peart
 excerpt: "Iterating my goals in the open."
-image: /posts/goals.png
 categories:
   - personal
 ---

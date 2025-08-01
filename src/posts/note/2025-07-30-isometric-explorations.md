@@ -1,6 +1,6 @@
 ---
 date: 2025-07-30T12:00:00+00:00
-title: "Isometric explorations"
+title: "Design notes: Isometric explorations"
 author: "John Peart"
 excerpt: "I've updated the illustrations across the site. For consistency. But also because why not?!"
 categories:

@@ -40,7 +40,7 @@ Using these two sources, I’ve looked for the terms `LGBT`, `LGBTQ`, `LGBTI`, `
 At the time of writing, Google’s Ngram Viewer covers books printed between 1800 and 2008. The chart below shows the frequencies of the search terms across all books in Google’s corpus, as a percentage of all words in the corpus.
 
 <figure>
-  <img src="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/ngram-viewer-lgbt-queer.png" alt="Chart showing counts of search terms. Queer is by far the most popular term from 1800 through 2008.">
+  <img src="/assets/images/posts/2018-01-23-ngram-viewer-lgbt-queer.png" alt="Chart showing counts of search terms. Queer is by far the most popular term from 1800 through 2008.">
   <figcaption>
     <strong>Figure 1:</strong>
     Ngram frequencies of the terms LGBT, LGBTI, LGBTQ, Queer and SOGI.
@@ -69,7 +69,7 @@ Google’s Trends tool allows us to look at search term data since 2004. Whilst 
 The graph below shows, from 2004 to present, the relative popularity of terms people actually used when searching on Google.
 
 <figure>
-  <img src="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-lgbt-queer.png" alt="Chart showing relative popularity of search terms. Queer is declining in popularity, as LGBT gains.">
+  <img src="/assets/images/posts/2018-01-23-google-trends-lgbt-queer.png" alt="Chart showing relative popularity of search terms. Queer is declining in popularity, as LGBT gains.">
   <figcaption>
     <strong>Figure 2:</strong>
     Relative popularity of the search terms LGBT, LGBTI, LGBTQ, Queer and SOGI.
@@ -94,7 +94,7 @@ Unlike the Ngram corpus, `SOGI` very rarely appears as a term. This likely speak
 As you might expect, the most popular terms in different countries are, well, different. Canada, Mexico and mainland Europe tend to search for `Queer` whereas the US and UK tend to search for `LGBT`.
 
 <figure>
-  <img src="/assets/images/posts/2018/01/23/collective-word-for-the-gay-community/google-trends-world-lgbt-queer.png" alt="Chart showing most popular search terms by country.">
+  <img src="/assets/images/posts/2018-01-23-google-trends-world-lgbt-queer.png" alt="Chart showing most popular search terms by country.">
   <figcaption>
     <strong>Figure 3:</strong>
     Most popular search terms by country.

@@ -33,7 +33,7 @@ But when it was done? I was chuffed!
 
 Look at this thing.
 
-!["The completed build of the LEGO Ideas Polaroid OneStep SX-70 Camera"](/assets/images/posts/2025/02/14/redeveloping-my-love-of-lego/lego-camera.jpeg)
+!["The completed build of the LEGO Ideas Polaroid OneStep SX-70 Camera"](/assets/images/posts/2025-02-14-lego-camera.jpeg)
 
 It is so cool! 
 

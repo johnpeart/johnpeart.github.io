@@ -93,14 +93,14 @@ The dendrogram also shows that `@onedirection` being one of the most popular to 
 
 
 
-[AdeleTime]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_AdeleOverTime.png
-[AllTime]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_AllTweetsOverTime.png
-[FemaleMentions]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritFemaleMentions.png
-[FemaleTime]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritFemaleTweetsOverTime.png
-[MaleMentions]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritMaleMentions.png
-[MaleTime]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_BritMaleTweetsOverTime.png
-[BowieTime]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_DavidBowieTweetsOverTime.png
-[AllDendrogram]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_Dendrogram.png
-[PerformersMentions]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_PerfomerMentions.png
-[PerformersTime]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_PerformersTweetsOverTime.png
-[AllWordCloud]: /assets/images/posts/2016/03/12/text-mining-tweets-from-the-2016-brits/BRITS2016_WordCloud.png
+[AdeleTime]: /assets/images/posts/2016-03-12-BRITS2016_AdeleOverTime.png
+[AllTime]: /assets/images/posts/2016-03-12-BRITS2016_AllTweetsOverTime.png
+[FemaleMentions]: /assets/images/posts/2016-03-12-BRITS2016_BritFemaleMentions.png
+[FemaleTime]: /assets/images/posts/2016-03-12-BRITS2016_BritFemaleTweetsOverTime.png
+[MaleMentions]: /assets/images/posts/2016-03-12-BRITS2016_BritMaleMentions.png
+[MaleTime]: /assets/images/posts/2016-03-12-BRITS2016_BritMaleTweetsOverTime.png
+[BowieTime]: /assets/images/posts/2016-03-12-BRITS2016_DavidBowieTweetsOverTime.png
+[AllDendrogram]: /assets/images/posts/2016-03-12-BRITS2016_Dendrogram.png
+[PerformersMentions]: /assets/images/posts/2016-03-12-BRITS2016_PerfomerMentions.png
+[PerformersTime]: /assets/images/posts/2016-03-12-BRITS2016_PerformersTweetsOverTime.png
+[AllWordCloud]: /assets/images/posts/2016-03-12-BRITS2016_WordCloud.png

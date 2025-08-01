@@ -27,7 +27,7 @@ Over time, I expected to be given guidance on what to focus on next. The Apple W
 That’s not what happens though. The first time – and, in fact, _every_ time – you load the app, you are presented with a seemingly endless wall of complexity and noise.
 
 <figure>
-  <img src="/assets/images/posts/2022/07/31/apple-fitness-plus-thoughts/apple-fitnessplus-apple-tv-screenshot.jpg" alt="A screenshot of the Apple Fitness+ app on Apple TV">
+  <img src="/assets/images/posts/2022-07-31-apple-fitnessplus-apple-tv-screenshot.jpg" alt="A screenshot of the Apple Fitness+ app on Apple TV">
   <figcaption>
     <strong>Figure 1:</strong>
     The first experience of Apple Fitness+ is labyrinthian to the uninitiated. Just look at this screenshot from the Apple TV.

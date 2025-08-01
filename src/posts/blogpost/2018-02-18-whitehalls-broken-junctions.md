@@ -16,7 +16,7 @@ That route is definitely the shortest to get you from point A to point B. In ord
 It’s baffling because it is completely ignorant of the actual behaviours exhibited by people using this junction.
 
 <figure>
-  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial.png" alt="An aerial map of the junction at Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street.">
+  <img src="/assets/images/posts/2018-02-18-whitehalls-broken-junction-aerial.png" alt="An aerial map of the junction at Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street.">
   <figcaption>
     <strong>Figure 1:</strong>
     The junction of Storey’s Gate, Birdcage Walk, Horse Guards Road and Great George Street.
@@ -31,7 +31,7 @@ This is a very busy junction as far as traffic is concerned. It’s not as busy 
 You can cross the road on Birdcage Walk to St James Park; you can cross the road from St James Park to the Churchill War Rooms, crossing Horse Guard’s Road. What you *can’t* do, in one crossing, is safely go from Storey’s Gate straight to the War Rooms (or in my case, usually, to the Cabinet Office or Foreign Office buildings).
 
 <figure>
-  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-sketch.png" alt="A sketch of the junction. I have added a red box where there should be an additional crossing.">
+  <img src="/assets/images/posts/2018-02-18-whitehalls-broken-junction-sketch.png" alt="A sketch of the junction. I have added a red box where there should be an additional crossing.">
   <figcaption>
     <strong>Figure 2:</strong>
     A sketch of the junction, including the obvious thing town planners missed.
@@ -47,7 +47,7 @@ It’s not the only junction designed with a total absence of common sense in We
 To put this in context, these are busy roads directly connected to Trafalgar Square and they are *really* wide - you could get at least 4 lanes of traffic down these roads with room for parking. These are not easy roads to cross without high-degrees of risk taking.
 
 <figure>
-  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial2.png" alt="An aerial map of the junction of the Mall and Horse Guards Road.">
+  <img src="/assets/images/posts/2018-02-18-whitehalls-broken-junction-aerial2.png" alt="An aerial map of the junction of the Mall and Horse Guards Road.">
   <figcaption>
     <strong>Figure 3:</strong>
     The junction of the Mall and Horse Guards Road.
@@ -58,7 +58,7 @@ To put this in context, these are busy roads directly connected to Trafalgar Squ
 Worse, one of the crossings photographed above is currently being removed - so if you’re on the wrong side of the road, you can’t cross at a pedestrian crossing at all without a 5 minute walk back the way you came.
 
 <figure>
-  <img src="/assets/images/posts/2018/02/18/whitehalls-broken-junctions/whitehalls-broken-junction-aerial3.png" alt="An aerial map of the junction at Parliament Square.">
+  <img src="/assets/images/posts/2018-02-18-whitehalls-broken-junction-aerial3.png" alt="An aerial map of the junction at Parliament Square.">
   <figcaption>
     <strong>Figure 4:</strong>
     The junction at Parliament Square.

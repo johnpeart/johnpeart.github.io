@@ -252,15 +252,15 @@ More than 1.6 million words and 615 ICUs were assessed to obtain the initial cla
 Figures 1, 2 and 3 show the descendant hierarchical classifications for each of the initial corpora. The descendant classifications show the relationships between classes and the distribution of the discussion. Each class has also been labelled based on an assessment of the significant word forms and ECUs for each class (these are not provided by Alceste, but assigned by the researcher).
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F1.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F1.png">
     <figcaption><strong>Figure 1:</strong> Descendant hierarchical classification for “dove” corpus</figcaption>
 </figure>
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F2.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F2.png">
     <figcaption><strong>Figure 2:</strong> Descendant hierarchical classification for “hawk” corpus</figcaption>
 </figure>
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F3.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F3.png">
     <figcaption><strong>Figure 3:</strong> Descendant hierarchical classification for “centrist” corpus</figcaption>
 </figure>
 
@@ -419,7 +419,7 @@ In order to explore the hypothesis, I return to the expectations established ear
 A logical contradiction can be understood as a reversal of a member’s position. Several members show evidence of this type of change.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F4.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F4.png">
     <figcaption><strong>Figure 4:</strong> Descendant hierarchical classification for Andrew Sentance’s corpus</figcaption>
 </figure>
 
@@ -450,7 +450,7 @@ A focus on downside risks shifts to concerns of upside pressures on inflation. T
 These changes are found in ECUs with a high Chi-squared value and thus this espoused contradiction can be interpreted as significant. If we consider the change in context, it becomes even more significant. At the time of these statements, inflation was significantly above target (4.5%, 3.3% and 4.4%) (Bank of England 2011) and growth at the beginning and end of the period was below 0% (OECD 2012, World Bank 2013). In these crude terms, little had changed for the UK’s economic outlook, but this member is arguing for a completely different strategy to ensure price stability. Indeed they voted for a different strategy – voting to cut interest rates throughout the period 2008-2009, and favouring increases thereafter. Already, we see evidence that members' actions are not as predictable as we might think, and that the appointment process might not feed through to the final policy decisions of members.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F5.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F5.png">
     <figcaption><strong>Figure 5:</strong> Descendant hierarchical classification for Adam Posen’s corpus</figcaption>
 </figure>
 
@@ -483,7 +483,7 @@ In 2010, this position appears to soften, with Posen arguing the MPC can and sho
 Interestingly, Posen’s voting record on the base rate doesn't reveal this preference change – he votes to maintain the interest rate at 0.25% in every meeting. There is evidence of change in the records relating to the Bank’s Quantitative Easing (QE) programme. Posen voted to increase the amount of QE in most meetings from 2010 onwards, but only once prior to 2010; this is likely his way of “doing more” with monetary policy, and clearly there is a change both in preference, and in action. Posen is further evidence that members' actions cannot be predicted due to changing preferences and more evidence is seen against the importance of appointment processes.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F6.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F6.png">
     <figcaption><strong>Figure 6:</strong> Descendant hierarchical classification for Charles Bean’s corpus</figcaption>
 </figure>
 
@@ -506,7 +506,7 @@ That a member believes the MPC’s mandate is appropriately focussed on inflatio
 Where previously, Bean felt the policy framework in place was sufficient to ensure growth and price stability, he now seems to more explicitly recognise the limits of monetary policy. Again, all of these ECUs are significant at the 1% level and are strongly representative of the discourse in these periods.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F7.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F7.png">
     <table>
         <thead>
             <tr>
@@ -546,7 +546,7 @@ Preference development can be understood as strengthening an existing position s
 
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F8.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F8.png">
     <figcaption><strong>Figure 8:</strong> Descendant hierarchical classification for Mervyn King’s corpus</figcaption>
 </figure>
 
@@ -598,7 +598,7 @@ Sentance values the importance of credibility very highly – and consistently s
 
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F9.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F9.png">
     <figcaption><strong>Figure 9:</strong> Descendant hierarchical classification for Edward George’s corpus</figcaption>
 </figure>
 
@@ -633,19 +633,19 @@ The examples highlighted here are only typical of those found across all members
 The members yet to be mentioned (DeAnne Julius, Sushil Wadhwani, and Christopher Allsopp) did not fit into one of the three prior categories, and showed little clear evidence at all.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F10.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F10.png">
     <figcaption><strong>Figure 10:</strong> Descendant hierarchical classification for DeAnne Julius' corpus</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F11.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F11.png">
     <figcaption><strong>Figure 11:</strong> Descendant hierarchical classification for Sushil Wadhwani’s corpus</figcaption>
 </figure>
 
 Julius and Wadhwani have very little coherence in the topics they discuss in their respective corpora. The Alceste classifications show five distinct classes for Julius and four for Wadhwani. They broadly cover the same areas but an examination of the data by cross-data analysis doesn't show as rich a picture as other members. Using Julius as an example, the results highlight a focus primarily on IT as a driver of growth and inflation in 1999, and then a complete topic change in 2001 to discuss globalisation and international factors affecting the economy (Figure 12). A clear shift along the horizontal dimension is observed, moving away from Class 1 toward Class 5 in 2001; this represents a move away from talking about the real economy and 'big-picture' statistics, and instead focusing explicitly on the empirics of inflation-targeting. A similar pattern occurs for Wadhwani – though the diagrams are not comparable due to the unique datasets.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F12.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F12.png">
     <table>
         <thead>
             <th></th>
@@ -672,7 +672,7 @@ Julius and Wadhwani have very little coherence in the topics they discuss in the
 If, as previously discussed, we view the formation of preferences as an acceptance or rejection of arguments later aggregated to form an opinion, then such drastic change in the focus of the discourse could be evidence of preference change but, more plausibly, the results are inconclusive. The notion of multiple factors aggregating to one singular preference – or even multiple underlying preferences – is not incompatible with these results but it is not clear how they interact in these cases. It is also worth noting that these shifts occur either side of the 'burst' of the dot-com bubble in 2000; this may have precipitated the change in focus.
 
 <figure>
-    <img src="/assets/images/posts/2013/08/23/dissertation/dissertation-F13.png">
+    <img src="/assets/images/posts/2013-08-23-dissertation-F13.png">
     <figcaption><strong>Figure 13:</strong> Descendant hierarchical classification for Christopher Allsopp’s corpus</figcaption>
 </figure>
 

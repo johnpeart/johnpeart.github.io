@@ -8,7 +8,7 @@ categories:
 
 Since *Space Karen*[^spaceKaren] bought Twitter, I’ve been looking at how I can make my presence on the World Wide Web more decentralised. 
 
-![Social media icons: hearts and reposts](/assets/images/posts/2023/07/30/into-the-fediverse/icons.svg){.hero}
+![Social media icons: hearts and reposts](/assets/images/posts/2023-07-30-into-the-fediverse.svg){.hero}
 
 I've dipped my toe in the waters, creating social media accounts on services like Mastodon[^mastodon] and PixelFed[^pixelfed]. But why stop there?
 

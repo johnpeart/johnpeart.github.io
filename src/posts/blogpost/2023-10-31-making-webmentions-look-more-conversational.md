@@ -31,7 +31,7 @@ This weekend it struck me.
 The social web is a conversation. It should look like one.
 
 <figure>
-  <img src="/assets/images/posts/2023/10/31/making-webmentions-look-more-conversational/after.png" alt="Examples of the social web activity from the current iteration of my website.">
+  <img src="/assets/images/posts/2023-10-31-making-webmentions-look-more-conversational.png" alt="Examples of the social web activity from the current iteration of my website.">
   <figcaption>
 		Mentions show up in speech bubbles. Likes and reposts appear as subtle lines of text, in the flow of activity.
   </figcaption>

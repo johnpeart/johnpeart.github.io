@@ -49,21 +49,21 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
 
 <section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Sky Glass</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£11.00 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Sky Ultimate TV</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/netflix.jpg" alt="Netflix logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-netflix.jpg" alt="Netflix logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Netflix</dd>
         <dt class="sr-only">Price</dt>
@@ -74,7 +74,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
         <dd class="padding" style="--mult: 0;">£26.00 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/disneyplus.jpg" alt="Disney Plus logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-disneyplus.jpg" alt="Disney Plus logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Disney+</dd>
         <dt class="sr-only">Price</dt>
@@ -85,7 +85,7 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
         <dd class="padding" style="--mult: 0;">£32.67 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/paramountplus.jpg" alt="Paramount Plus logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-paramountplus.jpg" alt="Paramount Plus logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Paramount+</dd>
         <dt class="sr-only">Price</dt>
@@ -114,7 +114,7 @@ I do use a lot of Amazon’s services; especially the delivery services and, to 
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/amazon.jpg" alt="Amazon Prime app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-amazon.jpg" alt="Amazon Prime app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">Amazon</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -148,35 +148,35 @@ I'm actually spending far more on music, TV and games now than I would have befo
 
 <section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appleone.jpg" alt="Apple One logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-appleone.jpg" alt="Apple One logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Apple One</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£16.95 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/applemusic.jpg" alt="Apple Music logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-applemusic.jpg" alt="Apple Music logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Apple Music</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appletvplus.jpg" alt="Apple TV Plus logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-appletvplus.jpg" alt="Apple TV Plus logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Apple TV+</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/applearcade.jpg" alt="Apple Arcade logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-applearcade.jpg" alt="Apple Arcade logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Apple Arcade</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/icloudplus.jpg" alt="iCloud Plus logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-icloudplus.jpg" alt="iCloud Plus logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">iCloud+</dd>
         <dt class="sr-only">Price</dt>
@@ -196,7 +196,7 @@ If I don't pay for it, I can't play online games, and I do that a lot, so it’s
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/playstation.jpg" alt="PlayStation iOS app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-playstation.jpg" alt="PlayStation iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">PlayStation Plus</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -222,7 +222,7 @@ Everyone should have a password manager, and I won't be giving up mine given how
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/1password.jpg" alt="1Password iOS app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-1password.jpg" alt="1Password iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">1Password</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -245,7 +245,7 @@ On the plus side, that’s £5.99 a year saved! On the flip side, having recentl
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/tweetbot.jpg" alt="Tweetbot for Twitter iOS app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-tweetbot.jpg" alt="Tweetbot for Twitter iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">Tweetbot for Twitter</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -268,7 +268,7 @@ I could use the free and built-in Apple Podcasts app but I find it entirely unre
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/overcast.jpg" alt="Overcast iOS app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-overcast.jpg" alt="Overcast iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">Overcast</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -291,7 +291,7 @@ I could probably stretch out my subscription cycles here a little this year to s
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/workingcopy.jpg" alt="Working Copy iOS app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-workingcopy.jpg" alt="Working Copy iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">Working Copy</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -307,7 +307,7 @@ I could probably stretch out my subscription cycles here a little this year to s
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/nova.jpg" alt="Nova iOS app icon">
+        <img class="app-icon large" src="/assets/images/posts/2023-02-06-nova.jpg" alt="Nova iOS app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">Nova</dd>
         <dt class="app-description-label sr-only">In-app purchase description</dt>
@@ -330,21 +330,21 @@ They are pricey though. I wish that the developer would strip out some of the mo
 
 <section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/flexibits.jpg" alt="Flexibits logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-flexibits.jpg" alt="Flexibits logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Flexibits Premium</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£59.99 per year</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/fantastical.jpg" alt="Fantastical logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-fantastical.jpg" alt="Fantastical logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Fantastical</dd>
         <dt class="sr-only">Price</dt>
         <dd class="small-caps">included</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/cardhop.jpg" alt="Cardhop logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-cardhop.jpg" alt="Cardhop logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Cardhop</dd>
         <dt class="sr-only">Price</dt>
@@ -363,14 +363,14 @@ Mostly on the streaming services, I think.
 
 <section class="apps-list card padding" style="--mult: 0;">
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/sky.jpg" alt="Sky logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Sky Ultimate TV</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/netflix.jpg" alt="Netflix logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-netflix.jpg" alt="Netflix logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Netflix</dd>
         <dt class="sr-only">Price</dt>
@@ -381,28 +381,28 @@ Mostly on the streaming services, I think.
         <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/paramountplus.jpg" alt="Paramount Plus logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-paramountplus.jpg" alt="Paramount Plus logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Paramount+</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£6.99 per month</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/disneyplus.jpg" alt="Disney Plus logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-disneyplus.jpg" alt="Disney Plus logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Disney+</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£79.99 per year</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/amazon.jpg" alt="Amazon Prime app icon">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-amazon.jpg" alt="Amazon Prime app icon">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Amazon</dd>
         <dt class="sr-only">Price</dt>
         <dd class="padding" style="--mult: 0;">£95.00 per year</dd>
     </dl>
     <dl class="dl--app">
-        <img class="app-icon" src="/assets/images/posts/2023/02/06/calculating-the-cost-of-subscriptions/appleone.jpg" alt="Apple One logo.">
+        <img class="app-icon" src="/assets/images/posts/2023-02-06-appleone.jpg" alt="Apple One logo.">
         <dt class="sr-only">App name</dt>
         <dd class="padding" style="--mult: 0;">Apple One</dd>
         <dt class="sr-only">Price</dt>

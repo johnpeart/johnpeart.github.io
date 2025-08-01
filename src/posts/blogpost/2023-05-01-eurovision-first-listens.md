@@ -6,12 +6,12 @@ layout: blogpost
 
 composite:
   overlay:
-    image: "/assets/images/posts/2023/05/01/eurovision-2023.svg"
+    image: "/assets/images/posts/2023-05-01-eurovision-2023.svg"
     alt: "The Eurovision 2023 logo"
     blur: 5
   background:
-    source: "/assets/images/posts/2023/05/01/eurovision-united-by-music.png"
-    image: "/assets/images/posts/2023/05/01/eurovision-united-by-music.svg"
+    source: "/assets/images/posts/2023-05-01-eurovision-united-by-music.png"
+    image: "/assets/images/posts/2023-05-01-eurovision-united-by-music.svg"
     alt: "A series of overlapping hearts in different colours"
     fit: "cover"
     

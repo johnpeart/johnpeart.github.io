@@ -20,42 +20,42 @@ Here are some examples:
 
 
 <figure>
-    <img src="/assets/images/posts/2025/07/30/calendar.png" alt="A screenshot of my calendar drawing.">
+    <img src="/assets/images/posts/2025-07-30-calendar.png" alt="A screenshot of my calendar drawing.">
 	<figcaption>
 		Each weeknote and “now” post includes a desktop calendar now. The date is generated at the build stage; every calendar, on every page that features it has the correct date for that post as part of the illustration.
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/posts/2025/07/30/gamepak.png" alt="A screenshot of my Game Boy Game Pak drawing.">
+    <img src="/assets/images/posts/2025-07-30-gamepak.png" alt="A screenshot of my Game Boy Game Pak drawing.">
 	<figcaption>
 		On my gaming related posts, a <em>Nintendo Game Boy Game Pak</em> is shown. The artwork is dynamically inserted for each post.
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/posts/2025/07/30/ipod-nano.png" alt="A screenshot of my iPod nano drawing.">
+    <img src="/assets/images/posts/2025-07-30-ipod-nano.png" alt="A screenshot of my iPod nano drawing.">
 	<figcaption>
 		Similarly, each <em>iPod nano</em> has the album artwork for each music post inserted on the fly.
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/posts/2025/07/30/polaroid.png" alt="A screenshot of a my Polaroid picture drawing.">
+    <img src="/assets/images/posts/2025-07-30-polaroid.png" alt="A screenshot of a my Polaroid picture drawing.">
 	<figcaption>
 		Each polaroid is also generated at build time. On the main page, I still show this in flat profile, or it would make the photo post slightly pointless!
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/posts/2025/07/30/list.png" alt="A screenshot of my list drawing.">
+    <img src="/assets/images/posts/2025-07-30-list.png" alt="A screenshot of my list drawing.">
 	<figcaption>
 		I need to figure out a straightforward way to dynamically update my list drawings. Some kind of character counting is necessary for this one. For now, the underpants meme will do.
 	</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/posts/2025/07/30/post-it-note.png" alt="A screenshot of a my Post It note drawing.">
+    <img src="/assets/images/posts/2025-07-30-post-it-note.png" alt="A screenshot of a my Post It note drawing.">
 	<figcaption>
 		Likewise notes; I need to figure out a dynamic text insertion that works across potentially several lines.
 	</figcaption>

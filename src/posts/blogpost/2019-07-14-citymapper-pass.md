@@ -13,8 +13,6 @@ Citymapper is a company that started as an app that helped you get from A-to-B a
 
 Citymapper Pass is a subscription to a range of public transport services. You sign up in the app, paying for your first week in advance, and Citymapper send you a branded pre-paid MasterCard in the post which you use in lieu of an Oyster card. They’re apparently also working on a virtual card that would let you pay with your smartphone too, presumably via Apple or Android Pay.
 
-![Citymapper Pass](/assets/images/posts/2019/07/14/trying-out-citymapper-pass/citymapperpass2.jpg)
-
 ## The offer -- ‘Super’ versus ‘Super Duper’
 
 The Citymapper Pass offers free or discounted access to different modes of transport depending on whether you sign up for the ‘Super Pass’ or ‘Super Duper Pass’

@@ -24,13 +24,13 @@ I can rest easy though, because the answers are at hand. Thanks to Twitter’s a
 
 ## I love Wednesdays
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Days.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Days.png){.rounded}
 
 I had an feeling that, given I’m normally less frantically busy at the weekends, I might be most prolifically tweeting on Saturdays and Sundays. Not so, according to this graph. Apparently, I love tweeting on Wednesdays.
 
 ## Real-world holidays are Twitter holidays
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Months.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Months.png){.rounded}
 
 The total tweets I have done by month are seemingly a similar case as days of the week. For 5 of the last 6 years I’ve been studying, and bound by a scholastic timetable. Each of the dips here roughly line up with a period of holiday &#8211; between college or university terms.
 
@@ -38,7 +38,7 @@ Just as I spend more time tweeting when I’m busy during the week, it looks lik
 
 ## I tweet more during periods when I’m stressed
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Years.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Years.png){.rounded}
 
 My tweeting, month-on-month, varies wildly. Some months I tweet an average of 25 times every day; others, I tweet less than 4 times a day. The interesting thing for the data between 2010 &#8211; 2013, is the upticks in tweets each year in April and May.
 
@@ -48,13 +48,13 @@ April and May would be the point at which revision mode kicks in. June and very 
 
 ## I use every character Twitter can give me
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Length.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Length.png){.rounded}
 
 We all know that Twitter has a 140 character limit on a Tweet. And more often than not, it looks like I use every last available character. I guess I’m just greedy.
 
 ## That I have some favourite Tweeple I mention
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Handles.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Handles.png){.rounded}
 
 This graph shows the most popular handles that appear in my Tweets; the most frequent @mentions.
 
@@ -62,7 +62,7 @@ Alexander Young, Benjamin Butterworth and Shane Chowen; it looks like you get mo
 
 ## I tweet on topics that are utterly predictable
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Hashtags.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Hashtags.png){.rounded}
 
 As will be apparent to anyone that knows me, most of my tweeting seems to be about either students or music. *Quelle surprise*.
 
@@ -70,7 +70,7 @@ Perhaps the most interesting thing here is that #xfactor and #eurovision are has
 
 ## Doing content analysis of Twitter archives is hard
 
-![](/assets/images/posts/2015/02/07/quantifying-myself-analysing-twitter-data-using-the-r-statistical-package/QuantSelf-Terms.png){.rounded}
+![](/assets/images/posts/2015-02-07-QuantSelf-Terms.png){.rounded}
 
 This graph is a little mis-leading, as it required a bit of data cleansing to remove all the ‘stop words’ from my tweets (like &#8220;I&#8221;, &#8220;there&#8221;, &#8220;that&#8221; and so on), so that the analysis only focussed on frequent words that were meaningful.
 

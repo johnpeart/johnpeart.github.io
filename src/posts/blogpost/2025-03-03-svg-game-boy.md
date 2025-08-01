@@ -40,7 +40,7 @@ Modelled on the *[Analogue Pocket](//analogue.co/pocket)*, this console-like fra
 It’s got both a light and dark colour scheme, too (you can see for yourself by toggling dark mode on your device).
 
 <figure>
-    <img src="/assets/images/posts/2025/03/03/svg-game-body/light-mode-dark-mode.png" alt="A side-by-side comparison of two SVG, Game Boy-like consols. One is off-white, the other is dark gray.">
+    <img src="/assets/images/posts/2025-03-03-light-mode-dark-mode.png" alt="A side-by-side comparison of two SVG, Game Boy-like consols. One is off-white, the other is dark gray.">
     <figcaption>Light mode. Dark mode!</figcaption>
 </figure>
 

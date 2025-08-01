@@ -34,7 +34,7 @@ Not content to merely lift-and-shift the existing site, I of course made things 
 Opengraph images are the images that pop up on social media when you share a URL of a page. Here’s an example of one I most recently used for my 'weeknotes':
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/opengraph-weeknotes.png" alt="A representation of a calendar with the word “Weeknote” and the number “01” on it.">
+	<img src="/assets/images/posts/2024-09-09-opengraph-weeknotes.png" alt="A representation of a calendar with the word “Weeknote” and the number “01” on it.">
 	<figcaption>This looks fine – but I never liked the fact that I was always stuck at “Week 1”.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Cool enough. But, I thought, what if the date on that calendar automatically mat
 What if, instead of the above, static image, for [my most recent weeknote](/weeknote/2024/09/08/), I'd get this:
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/new-opengraph-weeknotes.jpeg" alt="A representation of a calendar with the word “Weeknote” and the date “Sep 08” on it.">
+	<img src="/assets/images/posts/2024-09-09-new-opengraph-weeknotes.jpeg" alt="A representation of a calendar with the word “Weeknote” and the date “Sep 08” on it.">
 	<figcaption>Now my Opengraph images reflect the actual content of the post automatically.</figcaption>
 </figure>
 
@@ -64,13 +64,13 @@ After the [great CSS hack-back of 2023](https://www.johnpe.art/2023/10/31/making
 Now I’m going a little further, and giving a literal glow up to some elements of the site, like the header.
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/header-no-hover.png" alt="The header menu of my website in a default state; the text is gray and there is no visible border.">
-	<img src="/assets/images/posts/2024/09/09/header-hover.png" alt="The header menu of my website in a hovered over state; the bar has a glow around it.">
+	<img src="/assets/images/posts/2024-09-09-header-no-hover.png" alt="The header menu of my website in a default state; the text is gray and there is no visible border.">
+	<img src="/assets/images/posts/2024-09-09-header-hover.png" alt="The header menu of my website in a hovered over state; the bar has a glow around it.">
 	<figcaption>The header menu bar fades into the background until you hover over it, when it pops out with a glow. </figcaption>
 </figure>
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/header-glow-up.png">
+	<img src="/assets/images/posts/2024-09-09-header-glow-up.png">
 	<figcaption>When expanded, the glow expands to fill most of the window.</figcaption>
 </figure>
 

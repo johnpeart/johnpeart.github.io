@@ -59,7 +59,7 @@ Reader, I'll level with you. I could overlook these totally bananas inconsistenc
 I mean, *just look at them*![^3]
 
 <figure>
-  <img class="padding" src="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-tv-wordmarks.png" alt="Apple’s Apple TV+ and Apple TV 4K wordmarks.">
+  <img class="padding" src="/assets/images/posts/2019-12-09-apple-tv-wordmarks.png" alt="Apple’s Apple TV+ and Apple TV 4K wordmarks.">
   <figcaption>
     <strong>Figure 1:</strong>
     Apple’s TV+ and TV 4K wordmarks, x-height differences highlighted and zoomed in.
@@ -68,7 +68,7 @@ I mean, *just look at them*![^3]
 </figure>
 
 <figure>
-  <img class="padding" src="/assets/images/posts/2019/12/09/apples-peculiar-typography-choices/apple-music-wordmarks.png" alt="Apple’s Apple Music wordmarks in both title and small caps cases.">
+  <img class="padding" src="/assets/images/posts/2019-12-09-apple-music-wordmarks.png" alt="Apple’s Apple Music wordmarks in both title and small caps cases.">
   <figcaption>
     <strong>Figure 2:</strong>
     Apple Music wordmarks, x-height and cap height differences highlighted and zoomed in.

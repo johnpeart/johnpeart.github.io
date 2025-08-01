@@ -32,7 +32,7 @@ The *Game Pak* is redrawn in scalable vector graphics format[^svg].
 My first attempt was to draw the classic, gray, plastic cartridge is drawn in a 2D top-down perspective. 
 
 <figure>
-<img src="/assets/images/posts/2024/09/22/games-collection/game-boy-game-pak-elden-ring-version-1.png" alt="A screenshot of a redrawn Game Boy Game Pak in 2D perspective, featuring the box art for Elden Ring">
+<img src="/assets/images/posts/2024-09-22-game-boy-game-pak-elden-ring-version-1.png" alt="A screenshot of a redrawn Game Boy Game Pak in 2D perspective, featuring the box art for Elden Ring">
 <figcaption>The <em>Game Boy Game Pak</em> in top down 2D perspective. And yes, I know <em>Elden Ring</em> was not originally released on the <em>Game Boy</em>.</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ This 2D *Game Pak* is drawn roughly to scale (with some minor tweaks to be visua
 This was fine, but I wanted something even better. So for a second version, I drew the *Game Pak* in isometric 3D perspective.
 
 <figure>
-<img src="/assets/images/posts/2024/09/22/games-collection/game-boy-game-pak-elden-ring-version-2.png" alt="A screenshot of a redrawn Game Boy Game Pak, featuring the box art for Elden Ring">
+<img src="/assets/images/posts/2024-09-22-game-boy-game-pak-elden-ring-version-2.png" alt="A screenshot of a redrawn Game Boy Game Pak, featuring the box art for Elden Ring">
 <figcaption>The <em>Game Boy Game Pak</em> in isometric 3D.</figcaption>
 </figure>
 

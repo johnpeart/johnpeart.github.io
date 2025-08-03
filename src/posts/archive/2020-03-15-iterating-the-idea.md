@@ -5,6 +5,13 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 categories:
   - podcast
 
+related:
+- /archive/2019/01/27/department-of-bad-ideas/
+- /archive/2019/02/11/getting-started-making-a-podcast/
+- /archive/2019/02/11/website-and-hosting-making-a-podcast/
+- /archive/2019/05/27/rss-feeds-making-a-podcast/
+- /archive/2020/03/15/iterating-the-idea/
+
 aliases:
 - /2020/03/15/department-of-bad-ideas-iterating-on-the-idea
 - /2020/03/15/department-of-bad-ideas-iterating-the-idea
@@ -54,15 +61,6 @@ I decided to redo the guide and place them on the podcast’s website as a serie
 The main thing I need to stop doing is over-thinking the podcast. The infrastructure I put around it will never be quite right; so I just need to wade in to the goop and hope I don’t get too messy in the process.
 
 I’ve got one confirmed guest already; someone I work with. I have a list of about 10 others that said they’d be up for it. So now time to crack on!
-
-
-> **All posts in this series**
->
-> 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
-> 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
-> 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
-> 4. [RSS feeds and hosting](/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting)
-> 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
 
 > You can find out more about the **Department of Bad Ideas** on [the podcast’s new website](//badideas.podcast.johnpe.art).
 >

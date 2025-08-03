@@ -5,6 +5,13 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas, and bloggin
 categories:
   - podcast
 
+related:
+- /archive/2019/01/27/department-of-bad-ideas/
+- /archive/2019/02/11/getting-started-making-a-podcast/
+- /archive/2019/02/11/website-and-hosting-making-a-podcast/
+- /archive/2019/05/27/rss-feeds-making-a-podcast/
+- /archive/2020/03/15/iterating-the-idea/
+
 aliases:
 - /2019/02/11/website-and-hosting-making-a-podcast/
 - /2019/02/11/department-of-bad-ideas-hosting-and-website/
@@ -53,14 +60,6 @@ I did use one more modern feature: `position: sticky`. This isn’t a prime time
 The advantage of using Github Pages is that it’s totally free, it’s easy to use and it’s pretty reliable. It isn’t a full and foolproof solution for podcasting though, as I soon discovered.
 
 In my next post, I’ll share a bit more about the difficulties of setting up an RSS feed for podcasts using Github Pages and how I solved that by starting to get to grips with Amazon Web Services S3 service.
-
-> **All posts in this series**
->
-> 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
-> 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
-> 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
-> 4. [The RSS feed and hosting](/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting)
-> 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
 
 > You can find out more about the **Department of Bad Ideas** on [the podcast’s new website](//badideas.podcast.johnpe.art).
 >

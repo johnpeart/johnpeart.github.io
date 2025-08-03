@@ -5,6 +5,13 @@ excerpt: "I’m making a podcast called the Department of Bad Ideas. This series
 categories:
   - podcast
 
+related:
+- /archive/2019/01/27/department-of-bad-ideas/
+- /archive/2019/02/11/getting-started-making-a-podcast/
+- /archive/2019/02/11/website-and-hosting-making-a-podcast/
+- /archive/2019/05/27/rss-feeds-making-a-podcast/
+- /archive/2020/03/15/iterating-the-idea/
+
 aliases:
 - /2019/02/11/getting-started-making-a-podcast/
 - /2019/02/11/getting-started-department-of-bad-ideas/
@@ -29,14 +36,6 @@ Put them together and what have you got? *Bibbidi bobbidi boo*; or so the theory
 ## Step-by-step
 
 Over the next month or so, I’ll be documenting how I’ve approached the logistics of making the podcast in a series of posts. Keep checking back here for links to the other posts.
-
-> **All posts in this series**
->
-> 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
-> 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
-> 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
-> 4. [RSS feeds and hosting](/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting)
-> 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
 
 
 > You can find out more about the **Department of Bad Ideas** on [the podcast’s new website](//badideas.podcast.johnpe.art).

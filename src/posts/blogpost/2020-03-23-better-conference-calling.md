@@ -6,9 +6,7 @@ categories:
   - work
   - digital
 related:
-- title: "How to be a better communicator when your team is working remotely"
-  date: 2020-03-28
-  link: /2020/03/28/better-communicating-when-working-remotely
+- /2020/03/28/communicating-remotely/
 ---
 
 The current coronavirus pandemic is forcing new ways of working for teams across the world. Many people are, perhaps for the first time, getting intimately acquainted with the wonderful world of remote working and — inevitably — video and telephone conference calls.

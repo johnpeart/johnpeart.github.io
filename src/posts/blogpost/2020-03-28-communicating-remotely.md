@@ -6,9 +6,7 @@ categories:
 - work
 - digital
 related:
-- title: "How to hold better video and telephone conference calls"
-  date: 2020-03-23
-  link: /2020/03/23/better-conference-calling
+- /2020/03/23/better-conference-calling/
 aliases:
 - /2020/03/28/better-communicating-when-working-remotely/
 ---

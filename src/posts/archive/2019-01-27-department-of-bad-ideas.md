@@ -5,6 +5,13 @@ excerpt: "It’s one of my new year’s resolutions: and here’s the plan."
 categories:
   - podcast
 
+related:
+- /archive/2019/01/27/department-of-bad-ideas/
+- /archive/2019/02/11/getting-started-making-a-podcast/
+- /archive/2019/02/11/website-and-hosting-making-a-podcast/
+- /archive/2019/05/27/rss-feeds-making-a-podcast/
+- /archive/2020/03/15/iterating-the-idea/
+
 aliases:
 - /2019/01/27/departmemt-of-bad-ideas
 ---
@@ -45,12 +52,4 @@ So that’s the pitch: now I just need to make it.
 
 I’ll chronicle my process as we go, in case it’s useful for anyone else that wants to dip their toe into podcasting, so stay tuned for that.
 
-And if you fancy being a guest on the podcast, let me know! [Direct message me on Twitter](https://twitter.com/johnpeart) or [drop me an email](mailto:john.peart@me.com).
-
-> **All posts in this series**
->
-> 1. [I'm making a podcast](/2019/01/27/department-of-bad-ideas)
-> 2. [Getting started](/2019/02/11/getting-started-department-of-bad-ideas)
-> 3. [Setting up a website](/2019/02/11/department-of-bad-ideas-hosting-and-website)
-> 4. [The RSS feed and hosting](/2019/05/27/department-of-bad-ideas-rss-feeds-and-hosting)
-> 5. [Iterating on the idea](/2020/03/15/department-of-bad-ideas-iterating-on-the-idea)
+And if you fancy being a guest on the podcast, let me know!

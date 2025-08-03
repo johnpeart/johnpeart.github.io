@@ -57,7 +57,9 @@ module.exports = function(eleventyConfig) {
     });
 
     // Passthrough Copies
-    eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addPassthroughCopy("./src/images");
+    eleventyConfig.addPassthroughCopy("./src/fonts");
+    eleventyConfig.addPassthroughCopy("./src/scripts");
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
     eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
 
@@ -117,6 +119,7 @@ module.exports = function(eleventyConfig) {
 
     // Collections to include in "allPosts"
     const includedInAllPosts = [
+        "archive",
         "blogpost", 
         "list", 
         "music", 

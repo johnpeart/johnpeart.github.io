@@ -33,7 +33,7 @@ As natively *Game Boy* screenshots are incredibly low resolution, sharing them i
 
 I've given my *Game Boy* screenshots a Game Boy-like console to feel at home in.
 
-{% include 'components/objects/pocket.svg' screenshot:'/assets/images/posts/games/wario-land/' %}
+{% include 'components/objects/pocket.svg' screenshot:'/images/games/wario-land/' %}
 
 Modelled on the *[Analogue Pocket](//analogue.co/pocket)*, this console-like frame is a resolution-independent SVG. The screenshots are inserted dynamically into the frame, with a gridded filter applied on top, to give them a more period-appropriate feeling. 
 

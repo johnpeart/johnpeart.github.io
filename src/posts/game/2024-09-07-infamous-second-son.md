@@ -3,7 +3,7 @@ date: 2024-09-07T21:35:00+01:00
 title: "inFAMOUS Second Son"
 platform: "PlayStation"
 label: "Platinum"
-artwork: "/assets/images/posts/games/infamous-second-son.jpg"
+artwork: "/images/games/infamous-second-son.jpg"
 
 related: 
 - /game/1725823500/

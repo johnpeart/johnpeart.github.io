@@ -3,7 +3,7 @@ date: 2025-01-31T23:15:00+00:00
 title: "Suicide Squad: Kill the Justice League"
 platform: "PlayStation"
 label: "Platinum"
-artwork: "/assets/images/posts/games/suicide-squad-kill-the-justice-league.jpg"
+artwork: "/images/games/suicide-squad-kill-the-justice-league.jpg"
 ---
 
 This game is not as bad as the critical reviews would have you believe. 

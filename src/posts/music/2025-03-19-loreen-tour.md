@@ -1,7 +1,7 @@
 ---
 date: 2025-03-19T19:00:00+00:00
 title: "UK and Ireland Tour 2025"
-image: "/assets/images/posts/music/loreen-2025-tour.jpg"
+image: "/images/music/loreen-2025-tour.jpg"
 artist: "Loreen"
 ---
 

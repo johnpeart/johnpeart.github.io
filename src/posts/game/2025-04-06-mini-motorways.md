@@ -3,7 +3,7 @@ date: 2025-04-06T10:00:00+00:00
 title: "Mini Motorways"
 platform: "iOS"
 color: '#EE8D04'
-artwork: "/assets/images/posts/games/mini-motorways.jpeg"
+artwork: "/images/games/mini-motorways.jpeg"
 ---
 
 This game is so simple and yet so addictive.
@@ -18,7 +18,7 @@ None of these are complex things to understand. Making it work effectively is al
 
 <section class="app-sheet card">
     <dl class="dl--app">
-        <img class="app-icon large" src="/assets/images/posts/games/mini-motorways.jpeg" alt="Mini Motorways app icon">
+        <img class="app-icon large" src="/images/games/mini-motorways.jpeg" alt="Mini Motorways app icon">
         <dt class="app-name-label sr-only">App name</dt>
         <dd class="app-name">Mini Motorways</dd>
         <dt class="app-description-label sr-only">Developer</dt>

@@ -65,4 +65,4 @@ For now, take a look at the games I've enjoyed playing enough to sink many hours
 
 [^1]: Technically the *Game Boy* was released in 1989 in Japan and North America, but it didn't come to Europe until September 1990. 
 
-[^svg]: If you'd like to do something cool with this SVG, be my guest and share the results! [Here’s the source file you need](https://raw.githubusercontent.com/johnpeart/johnpeart.github.io/main/src/assets/images/site/gamepak.svg). 
+[^svg]: If you'd like to do something cool with this SVG, be my guest and share the results! [Here’s the source file you need](https://raw.githubusercontent.com/johnpeart/johnpeart.github.io/main/src/images/site/gamepak.svg). 

@@ -1,9 +1,9 @@
 <dl id="exif" class="card key-value key-value--with-value">
     <h2 class="key-value--heading key-value--heading--small">Metadata</h2>
-	<span class="key-value--item key-value--with-value">
+	<div class="key-value--item key-value--with-value">
         <dt class="key-value--key">Date taken</dt>
         <dd class="key-value--value">{{ date | date: "%d %B %Y" }}</dd>
-    </span>
+    </div>
 
 	{% assign fields = "camera,apeture,shutter,focallength,iso" | split: "," %}
     {% assign labels = "Camera,Aperture,Shutter speed,Focal length,ISO" | split: "," %}

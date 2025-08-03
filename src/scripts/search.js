@@ -47,13 +47,13 @@ function renderResults(results) {
         
         // Create the anchor element with its class and href
         const a = document.createElement('a');
-        a.className = 'key-value--link card';
+        a.className = 'key-value--link';
         a.href = post.url;
         
-        // Create the paragraph element for the category
-        const pImg = document.createElement('img');
-        pImg.className = 'key-value--image';
-        pImg.src = post.image;
+        // Create the image element
+        // const pImg = document.createElement('img');
+        // pImg.className = 'key-value--image';
+        // pImg.src = post.image;
         
         // Create the h3 element for the title
         const kvKey = document.createElement('p');
@@ -68,7 +68,7 @@ function renderResults(results) {
         pExcerpt.textContent = post.excerpt;
         
         // Assemble the elements
-        a.appendChild(pImg);
+        // a.appendChild(pImg);
         a.appendChild(kvKey);
         a.appendChild(pExcerpt);
         li.appendChild(a);

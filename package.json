@@ -4,11 +4,11 @@
   "main": "index.js",
   "scripts": {
     "build:eleventy": "npx @11ty/eleventy --quiet",
-    "build:sass": "npx sass _sass:_site/assets/styles --no-source-map",
+    "build:sass": "npx sass _sass:_site/styles --no-source-map",
     "build:webmention": "node _data/webmentions.js",
     "build": "npm run build:sass && npm run build:webmention && npm run build:eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
-    "watch:sass": "npx sass _sass:_site/assets/styles --watch",
+    "watch:sass": "npx sass _sass:_site/styles --watch",
     "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],

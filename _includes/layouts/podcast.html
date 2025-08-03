@@ -10,7 +10,7 @@ layout: page
 
 		<div class="pod-description">
 
-			<img class="featured" src="{{ siteUrl | append: '/assets/images' | append: pod.data.image }}" alt="{{ pod.data.title }} artwork">
+			<img class="featured" src="{{ siteUrl | append: pod.data.image }}" alt="{{ pod.data.title }} artwork">
 
 			{{ pod.content | markdownify }}
 

@@ -163,7 +163,7 @@
         {% assign og-image = post.data.image.file %}
         {% assign og-background = post.data.image.bg %}
     {% elsif post.data.image %} 
-        {% assign og-image = post.data.image | prepend: "/assets/images" %}
+        {% assign og-image = post.data.image | prepend: "/images" %}
     {% elsif post.data.reply_to.post.image %}
         {% assign og-image = post.data.reply_to.post.image %}
     {% endif %}

@@ -11,7 +11,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/assets/images/site/favicon-large-png.png",
+      "src": "/images/site/favicon-large-png.png",
       "sizes": "512x512",
       "type": "image/png"
     }

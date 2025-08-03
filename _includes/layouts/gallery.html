@@ -23,7 +23,7 @@ layout: default
                         {% include "components/objects/photos.svg" %}
                     {% elsif post.data.image %}
                         <div class="polaroid">
-                            <img src="{{ siteUrl | append: '/assets/images' | append: post.data.image }}" loading="lazy">
+                            <img src="{{ siteUrl | append: '/images' | append: post.data.image }}" loading="lazy">
                             <h1 class="photo--title p-name">{{ post.data.title }}</h1>
                         </div>
                     {% endif %}

@@ -5,6 +5,7 @@ object:
     artist: "Various Artists"
     image: "/images/music/eurovision-2025.webp"
     itunes: "https://music.apple.com/gb/album/eurovision-song-contest-malmö-2024/1736817783"
+excerpt: "Today’s the day! The official album for the 2024 Eurovision Song Contest is released."
 posse:
 - https://bsky.app/profile/johnpe.art/post/3kpwpij3tcd2j
 - https://mastodon.social/@johnpeart/112258231423463302

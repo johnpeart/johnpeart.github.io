@@ -5,6 +5,7 @@ object:
     artist: "Jessie Ware"
     image: "/images/music/jessie-ware-that-feels-good.webp"
     itunes: "https://music.apple.com/us/album/that-feels-good/1668868373"
+excerpt: "I saw Jessie Ware at Alexandra Palace tonight as part of the ‘That! Feels! Good!’ tour."
 ---
 
 I saw Jessie Ware at Alexandra Palace tonight as part of the ‘That! Feels! Good!’ tour.

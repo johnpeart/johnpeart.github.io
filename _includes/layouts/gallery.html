@@ -16,7 +16,7 @@ layout: default
             <article class="{{ collection }} ">
                 <a href="{{ post.url }}" title="Read {{ post.data.title }}" class="gallery-link">
                     {% if collection == 'game' %}
-                        {% include "components/objects/{{ post.data.platform | downcase | slugify }}.svg" %}
+                        {% include "components/objects/{{ post.data.object.platform | downcase | slugify }}.svg" %}
                     {% elsif collection == 'music' %}
                         {% include "components/objects/ipod-nano.svg" %}
                     {% elsif collection == 'photo' %}

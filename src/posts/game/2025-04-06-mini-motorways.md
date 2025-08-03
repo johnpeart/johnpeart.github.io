@@ -1,9 +1,13 @@
 ---
 date: 2025-04-06T10:00:00+00:00
 title: "Mini Motorways"
-platform: "iOS"
-color: '#EE8D04'
-artwork: "/images/games/mini-motorways.jpeg"
+object:
+    platform: "iOS"
+    color:
+        h: 35
+        s: 97
+        l: 65
+    image: "/images/games/mini-motorways.jpeg"
 ---
 
 This game is so simple and yet so addictive.

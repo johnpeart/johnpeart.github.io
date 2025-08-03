@@ -97,7 +97,7 @@
         {% assign og-object = objectName | append: 's' %}
     {% elsif pagination.data == 'collections.game' %}
         {% assign og-layout = 'with-image' %}
-        {% assign og-object = post.data.platform | downcase | slugify %}
+        {% assign og-object = post.data.object.platform | downcase | slugify %}
         {% assign og-background = 'green' %}
     {% elsif pagination.data == 'collections.photo' %}
         {% assign og-layout = 'with-image' %}
@@ -159,7 +159,9 @@
     Images
 {% endcomment %}
 
-    {% if post.data.image.file %} 
+    {% if post.data.object %} 
+        {% assign og-image = post.data.object.image %}
+    {% elsif post.data.image.file %} 
         {% assign og-image = post.data.image.file %}
         {% assign og-background = post.data.image.bg %}
     {% elsif post.data.image %} 

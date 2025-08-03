@@ -1,9 +1,10 @@
 ---
 date: 2024-09-26T10:33:00+01:00
 title: "Marvel’s Spider-Man Remastered"
-platform: "PlayStation"
-label: "Platinum"
-artwork: "/images/games/marvels-spider-man-remastered.jpg"
+object:
+    platform: "PlayStation"
+    label: "Platinum"
+    image: "/images/games/marvels-spider-man-remastered.jpg"
     
 related:
 - /game/1730410560/

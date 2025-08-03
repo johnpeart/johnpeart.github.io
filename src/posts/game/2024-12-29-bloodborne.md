@@ -1,9 +1,10 @@
 ---
 date: 2024-12-29T12:54:00+00:00
 title: "Bloodborne"
-platform: "PlayStation"
-label: "Platinum"
-artwork: "/images/games/bloodborne.jpg"
+object:
+    platform: "PlayStation"
+    label: "Platinum"
+    image: "/images/games/bloodborne.jpg"
     
 related:
 - /game/1746224580/

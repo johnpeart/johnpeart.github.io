@@ -1,9 +1,10 @@
 ---
 date: 2023-08-19T17:21:00+01:00
 title: "Ratchet & Clank: Rift Apart"
-platform: "PlayStation"
-label: "Platinum"
-artwork: "/images/games/ratchet-and-clank-rift-apart.jpg"
+object:
+    platform: "PlayStation"
+    label: "Platinum"
+    image: "/images/games/ratchet-and-clank-rift-apart.jpg"
 
 related: 
 - /game/1731763320/

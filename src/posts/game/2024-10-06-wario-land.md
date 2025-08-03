@@ -1,10 +1,11 @@
 ---
 date: 2024-10-06T10:33:00+01:00
 title: "Super Mario Land 3: Wario Land"
-platform: "Game Boy"
-label: "100%"
-artwork: "/images/games/wario-land/label-art.jpg"
-screenshot: "/images/games/wario-land/"
+object:
+    platform: "Game Boy"
+    label: "100%"
+    image: "/images/games/wario-land/label-art.jpg"
+    screenshot: "/images/games/wario-land/"
 
 related: 
 - /2025/03/03/svg-game-boy/

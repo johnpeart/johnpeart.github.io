@@ -1,9 +1,10 @@
 ---
 date: 2025-01-05T21:11:00+00:00
 title: "The Plucky Squire"
-platform: "PlayStation"
-label: "Platinum"
-artwork: "/images/games/plucky-squire.jpg"
+object:
+    platform: "PlayStation"
+    label: "Platinum"
+    image: "/images/games/plucky-squire.jpg"
 ---
 
 The Plucky Squire is a game of enormous charm, but also enormous bugs and hand-holding. 

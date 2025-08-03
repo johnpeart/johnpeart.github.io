@@ -1,10 +1,11 @@
 ---
 date: 2024-12-30T10:00:00+00:00
 title: "Super Mario Land 2: 6 Golden Coins"
-platform: "Game Boy"
-label: "100%"
-artwork: "/images/games/super-mario-land-2-6-golden-coins/label-art.jpg"
-screenshot: "/images/games/super-mario-land-2-6-golden-coins/"
+object:
+    platform: "Game Boy"
+    label: "100%"
+    image: "/images/games/super-mario-land-2-6-golden-coins/label-art.jpg"
+    screenshot: "/images/games/super-mario-land-2-6-golden-coins/"
 
 related: 
 - /2025/03/03/svg-game-boy/

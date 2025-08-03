@@ -1,6 +1,4 @@
 <div class="game game--{{ platform | downcase | slugify }}">
-    {% include "components/objects/{{ platform | downcase | slugify }}.svg" %}  
+    {% include "components/objects/{{ object.platform | downcase | slugify }}.svg" %}  
 </div>
-<section class="game--metadata p-name">
-	<h1 class="game--metadata-title small-title">{{ title }}</h1>
-</section>
+<h1 class="game--metadata-title p-name small-title">{{ title }}</h1>

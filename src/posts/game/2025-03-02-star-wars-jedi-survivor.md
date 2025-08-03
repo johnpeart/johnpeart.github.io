@@ -1,9 +1,10 @@
 ---
 date: 2025-03-02T23:26:00+00:00
 title: "STAR WARS Jedi: Survivor"
-platform: "PlayStation"
-label: "Platinum"
-artwork: "/images/games/star-wars-jedi-survivor.jpg"
+object:
+    platform: "PlayStation"
+    label: "Platinum"
+    image: "/images/games/star-wars-jedi-survivor.jpg"
 ---
 
 > **Warning:** Spoilers ahead!

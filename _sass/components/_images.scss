@@ -28,6 +28,11 @@ figure,
 
 }
 
+img.hero {
+    border: none;
+    border-radius: unset;
+}
+
 p > img,
 figure img,
 figure picture {

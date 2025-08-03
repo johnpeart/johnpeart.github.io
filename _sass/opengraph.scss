@@ -9,8 +9,7 @@
     "overrides/_margin";
 
 @import 
-    "core/_reset",
-    "core/_fonts";
+    "core/_reset";
 
 @import 
     "helpers/_clearfix",
@@ -18,8 +17,9 @@
 
 @import
     "core/_global";
-    
+
 @import
+    "typography/_fonts",
     "typography/_lists";
         
 @import 

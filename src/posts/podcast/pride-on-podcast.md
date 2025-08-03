@@ -1,6 +1,6 @@
 ---
 title: "Civil Service PrideON podcast"
-image: /podcasts/pride-on-podcast-logo.svg
+image: /images/podcasts/pride-on-podcast-logo.svg
 link: //anchor.fm/civilservicelgbt/
 ---
 

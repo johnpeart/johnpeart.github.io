@@ -8,7 +8,6 @@ reply_to:
     title: "Doing Weeknotes"
     description: "What weeknotes are, how weeknotes work, and how to start writing weeknotes of your own."
     url: "https://doingweeknotes.com/"
-    # image: ""
     date: 2024-03-11T09:37:00+01:00
     content: |
       What weeknotes are, how weeknotes work, and how to start writing weeknotes of your own

@@ -1,9 +1,10 @@
 ---
 date: 2023-11-18T19:00:00+00:00
 title: "That! Feels! Good!"
-artist: "Jessie Ware"
-image: "/images/music/jessie-ware-that-feels-good.webp"
-itunes: "https://music.apple.com/us/album/that-feels-good/1668868373"
+object:
+    artist: "Jessie Ware"
+    image: "/images/music/jessie-ware-that-feels-good.webp"
+    itunes: "https://music.apple.com/us/album/that-feels-good/1668868373"
 ---
 
 I saw Jessie Ware at Alexandra Palace tonight as part of the ‘That! Feels! Good!’ tour.

@@ -1,9 +1,10 @@
 ---
 date: 2024-04-12T08:00:00+00:00
 title: "Eurovision Song Contest Malmö 2024"
-artist: "Various Artists"
-image: "/images/music/eurovision-2025.webp"
-itunes: "https://music.apple.com/gb/album/eurovision-song-contest-malmö-2024/1736817783"
+object:
+    artist: "Various Artists"
+    image: "/images/music/eurovision-2025.webp"
+    itunes: "https://music.apple.com/gb/album/eurovision-song-contest-malmö-2024/1736817783"
 posse:
 - https://bsky.app/profile/johnpe.art/post/3kpwpij3tcd2j
 - https://mastodon.social/@johnpeart/112258231423463302

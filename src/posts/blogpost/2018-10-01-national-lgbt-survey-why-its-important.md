@@ -6,6 +6,10 @@ categories:
   - government
   - diversity
   - LGBT
+  
+related:
+- /2018/12/04/national-lgbt-survey-things-that-surpised-me/
+- /2018/12/05/national-lgbt-survey-things-that-didnt-surprise-me/
 ---
 
 In July 2017, the Government Equalities Office launched the national LGBT survey. I helped create that survey, in my role as Head of LGB Policy at GEO, and as part of a small but dedicated team.

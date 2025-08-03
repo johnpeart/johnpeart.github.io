@@ -6,6 +6,12 @@ categories:
   - government
   - diversity
   - LGBT
+
+related:
+- /2018/10/01/national-lgbt-survey-why-its-important/
+- /2018/12/04/national-lgbt-survey-things-that-surpised-me/
+- /2018/12/05/national-lgbt-survey-things-that-didnt-surprise-me/
+
 aliases:
 - /2018/12/05/national-lgbt-survey-what-didnt-surprise-me
 ---

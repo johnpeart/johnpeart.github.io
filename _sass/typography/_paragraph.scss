@@ -8,12 +8,14 @@ dl {
     font-style: normal;
     font-weight: normal;
 
-    &.small-caps, .small-caps {
+    &.small-caps, 
+    & .small-caps {
         font-size: clamp(18px, 3vw, 24px);
         font-variant: small-caps !important;
     }
 
-    &.small-text, .small-text {
+    &.small-text, 
+    & .small-text {
         font-size: clamp(18px, 3vw, 24px) !important;
     }
 
@@ -37,14 +39,17 @@ li {
 }
 
 .secondary-text {
-    font-size: clamp(18px, 3vw, 24px);
     line-height: 1.2;
     color: var(--secondary-color);
 }
 
 center,
-.center {
+.align-center {
     text-align: center !important;
+}
+
+.align-right {
+    text-align: right !important;
 }
 
 strong,

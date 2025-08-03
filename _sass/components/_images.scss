@@ -174,9 +174,10 @@ img.app-icon {
     margin: 0;
     max-height: 57px;
     max-width: 57px;
-    mask-image: url(/images/site/ios-icon-mask.svg);
-    mask-size: cover;
-
+    
+    border-radius: var(--border-radius);
+    border: 3px solid var(--color);
+    
     &.large {
         @media (min-width: 700px) {
             max-height: 104px;

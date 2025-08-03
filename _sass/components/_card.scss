@@ -2,5 +2,5 @@
     background: var(--secondary-background);
     border: var(--border-width) solid var(--color);
     border-radius: calc(var(--border-radius) * 2);
-    padding: var(--card-padding, var(--pad));
+    padding: var(--pad);
 }

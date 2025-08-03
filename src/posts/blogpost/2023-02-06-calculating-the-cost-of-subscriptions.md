@@ -47,53 +47,68 @@ So, after a 1 week trial and a 1 month subscription to catch up on a couple of s
 
 ### Costs so far...
 
-<section class="apps-list card padding" style="--mult: 0;">
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Sky Glass</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£11.00 per month</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Sky Glass</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£11.00 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Sky Ultimate TV</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Sky Ultimate TV</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£15.00 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-netflix.jpg" alt="Netflix logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Netflix</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-netflix.jpg" alt="Netflix logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Netflix</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value small-caps secondary-text align-right">included</dd>
     </dl>
-    <dl class="dl--total">
-        <dt class="padding" style="--mult: 0;">Sub-total</dt>
-        <dd class="padding" style="--mult: 0;">£26.00 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key span--two-columns">Sub-total</dt>
+        <dd class="key-value--value align-right">£26.00 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-disneyplus.jpg" alt="Disney Plus logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Disney+</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£79.99 per year</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-disneyplus.jpg" alt="Disney Plus logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Disney+</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£79.99 per year</dd>
     </dl>
-    <dl class="dl--total">
-        <dt class="padding" style="--mult: 0;">Sub-total</dt>
-        <dd class="padding" style="--mult: 0;">£32.67 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key span--two-columns">Sub-total</dt>
+        <dd class="key-value--value align-right">£32.67 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-paramountplus.jpg" alt="Paramount Plus logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Paramount+</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£6.99 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-paramountplus.jpg" alt="Paramount Plus logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Paramount+</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£6.99 per month</dd>
     </dl>
-    <dl class="dl--total">
-        <dt class="padding" style="--mult: 0;">Total</dt>
-        <dd class="padding" style="--mult: 0;">£39.66 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key span--two-columns">Total</dt>
+        <dd class="key-value--value align-right">£39.66 per month</dd>
     </dl>
 </section>
 
@@ -112,19 +127,22 @@ I do use a lot of Amazon’s services; especially the delivery services and, to 
 
 [^Picard]: At the moment, I'm clinging on for the third and final season of Picard – another Star Trek show.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-amazon.jpg" alt="Amazon Prime app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">Amazon</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Prime</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">Subscription</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">Amazon</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£95.00 per year</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-amazon.jpg" alt="Amazon Prime app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>Amazon</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Prime</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">Subscription</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">Amazon</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£95.00 per year</dd>
     </dl>
 </section>
 
@@ -146,41 +164,56 @@ I'm actually spending far more on music, TV and games now than I would have befo
 
 [^Arcade]: _Mini Motorways_. It’s a successor to _Mini Metro_. They're both hyper-simple but stupidly complex games where you attempt to build a working transport network. It’s incredibly addictive.
 
-<section class="apps-list card padding" style="--mult: 0;">
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-appleone.jpg" alt="Apple One logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Apple One</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£16.95 per month</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-appleone.jpg" alt="Apple One logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Apple One</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£16.95 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-applemusic.jpg" alt="Apple Music logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Apple Music</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-applemusic.jpg" alt="Apple Music logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Apple Music</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps secondary-text">included</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-appletvplus.jpg" alt="Apple TV Plus logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Apple TV+</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-appletvplus.jpg" alt="Apple TV Plus logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Apple TV+</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps secondary-text">included</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-applearcade.jpg" alt="Apple Arcade logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Apple Arcade</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-applearcade.jpg" alt="Apple Arcade logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Apple Arcade</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps secondary-text">included</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-icloudplus.jpg" alt="iCloud Plus logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">iCloud+</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-icloudplus.jpg" alt="iCloud Plus logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">iCloud+</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps secondary-text">included</dd>
     </dl>
 </section>
 
@@ -194,19 +227,22 @@ I've been a PlayStation Plus subscriber since I have owned a PlayStation 4; all 
 
 If I don't pay for it, I can't play online games, and I do that a lot, so it’s not really a contender for a slash and burn on subscriptions.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-playstation.jpg" alt="PlayStation iOS app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">PlayStation Plus</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Essential</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">Subscription</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">Sony</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£49.99 per year</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-playstation.jpg" alt="PlayStation iOS app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>PlayStation Plus</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Essential</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">Subscription</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">Sony</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£49.99 per year</dd>
     </dl>
 </section>
 
@@ -220,19 +256,22 @@ The essential, non-negotiable subscription at the moment is 1Password. It’s be
 
 Everyone should have a password manager, and I won't be giving up mine given how much value I get for it for such a small cost.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-1password.jpg" alt="1Password iOS app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">1Password</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Individual subscription</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">In-app purchase</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">AgileBits</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£32.99 per year</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-1password.jpg" alt="1Password iOS app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>1Password</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Individual subscription</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">In-app purchase</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">AgileBits</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£32.99 per year</dd>
     </dl>
 </section>
 
@@ -243,19 +282,22 @@ Last month Twitter killed third-party apps unceremoniously. Tweetbot – my Twit
 
 On the plus side, that’s £5.99 a year saved! On the flip side, having recently [migrated to Mastodon](https://mastodon.social/@johnpeart), I've now subscribed to _Ivory_; a new app by the same developer. It comes at a higher price too – £14.99 a year.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-tweetbot.jpg" alt="Tweetbot for Twitter iOS app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">Tweetbot for Twitter</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Tweetbot yearly</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">In-app purchase</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">Tapbots</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£5.99 per year</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-tweetbot.jpg" alt="Tweetbot for Twitter iOS app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>Tweetbot for Twitter</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Tweetbot yearly</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">In-app purchase</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">Tapbots</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£5.99 per year</dd>
     </dl>
 </section>
 
@@ -266,19 +308,22 @@ I listen to a lot of podcasts. A lot more than I used to, at least. I'm listenin
 
 I could use the free and built-in Apple Podcasts app but I find it entirely unreliable. So, instead, Overcast is currently my podcasting app of choice. It’s available for free with ads, or at a fair (and probably, thankfully, too cheap) price.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-overcast.jpg" alt="Overcast iOS app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">Overcast</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Overcast Premium</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">In-app purchase</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">Marco Arment</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£8.99 per year</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-overcast.jpg" alt="Overcast iOS app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>Overcast</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Overcast Premium</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">In-app purchase</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">Marco Arment</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£8.99 per year</dd>
     </dl>
 </section>
 
@@ -289,35 +334,41 @@ Working Copy and Nova are both paid softwares that require an annual payment-typ
 
 I could probably stretch out my subscription cycles here a little this year to save a few pounds here and there.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-workingcopy.jpg" alt="Working Copy iOS app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">Working Copy</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Pro Unlock (12 months)</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">One-time purchase</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">Anders Borum</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£17.99</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-workingcopy.jpg" alt="Working Copy iOS app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>Working Copy</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Pro Unlock (12 months)</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">One-time purchase</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">Anders Borum</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£17.99</dd>
     </dl>
 </section>
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/posts/2023-02-06-nova.jpg" alt="Nova iOS app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">Nova</dd>
-        <dt class="app-description-label sr-only">In-app purchase description</dt>
-        <dd class="app-description">Nova (12 months)</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">One-time purchase</dd>
-        <dt class="app-first-label">Developer</dt>
-        <dd class="app-first">Panic</dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£49.00</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2023-02-06-nova.jpg" alt="Nova iOS app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>Nova</strong></dd>
+        <dt class="key-value--key sr-only">In-app purchase description</dt>
+        <dd class="key-value--value small-text secondary-text">Nova (12 months)</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">One-time purchase</dd>
+        <dt class="key-value--key">Developer</dt>
+        <dd class="key-value--value align-right">Panic</dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£49.00</dd>
     </dl>
 </section>
 
@@ -328,27 +379,36 @@ I feel *slightly* ridiculous saying that I subscribe to calendar and contacts ap
 
 They are pricey though. I wish that the developer would strip out some of the more business oriented – and, to me, superfluous – features, enabling a cheaper price, but I don't think it will happen! I've tried cancelling these before and it’s really hard to go back to life in the slow lane. So I'll have to suck it up.
 
-<section class="apps-list card padding" style="--mult: 0;">
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-flexibits.jpg" alt="Flexibits logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Flexibits Premium</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£59.99 per year</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-flexibits.jpg" alt="Flexibits logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Flexibits Premium</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£59.99 per year</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-fantastical.jpg" alt="Fantastical logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Fantastical</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-fantastical.jpg" alt="Fantastical logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Fantastical</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps secondary-text">included</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-cardhop.jpg" alt="Cardhop logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Cardhop</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-cardhop.jpg" alt="Cardhop logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Cardhop</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps secondary-text">included</dd>
     </dl>
 </section>
 
@@ -361,56 +421,74 @@ Where could I save some money?
 
 Mostly on the streaming services, I think.
 
-<section class="apps-list card padding" style="--mult: 0;">
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Sky Ultimate TV</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-sky.jpg" alt="Sky logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Sky Ultimate TV</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£15.00 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-netflix.jpg" alt="Netflix logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Netflix</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="small-caps">included</dd>
+   <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-netflix.jpg" alt="Netflix logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Netflix</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right small-caps">included</dd>
     </dl>
-    <dl class="dl--total">
-        <dt class="padding" style="--mult: 0;">Sub-total</dt>
-        <dd class="padding" style="--mult: 0;">£15.00 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key span--two-columns">Sub-total</dt>
+        <dd class="key-value--value align-right">£15.00 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-paramountplus.jpg" alt="Paramount Plus logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Paramount+</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£6.99 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-paramountplus.jpg" alt="Paramount Plus logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Paramount+</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£6.99 per month</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-disneyplus.jpg" alt="Disney Plus logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Disney+</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£79.99 per year</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-disneyplus.jpg" alt="Disney Plus logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Disney+</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£79.99 per year</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-amazon.jpg" alt="Amazon Prime app icon">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Amazon</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£95.00 per year</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-amazon.jpg" alt="Amazon Prime app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Amazon</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£95.00 per year</dd>
     </dl>
-    <dl class="dl--app">
-        <img class="app-icon" src="/images/posts/2023-02-06-appleone.jpg" alt="Apple One logo.">
-        <dt class="sr-only">App name</dt>
-        <dd class="padding" style="--mult: 0;">Apple One</dd>
-        <dt class="sr-only">Price</dt>
-        <dd class="padding" style="--mult: 0;">£16.95 per month</dd>
+   <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value">
+            <img class="app-icon" src="/images/posts/2023-02-06-appleone.jpg" alt="Apple One logo.">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value">Apple One</dd>
+        <dt class="key-value--key sr-only">Price</dt>
+        <dd class="key-value--value align-right">£16.95 per month</dd>
     </dl>
-    <dl class="dl--total">
-        <dt class="padding" style="--mult: 0;">Total</dt>
-        <dd class="padding" style="--mult: 0;">£53.52 per month</dd>
+    <dl class="key-value--item key-value--item--app-list">
+        <dt class="key-value--key span--two-columns">Total</dt>
+        <dd class="key-value--value align-right">£53.52 per month</dd>
     </dl>
 </section>
 

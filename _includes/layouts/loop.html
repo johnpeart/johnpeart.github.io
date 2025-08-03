@@ -42,7 +42,7 @@ layout: page
 	
 	<li class="key-value--item key-value--no-border">
 		<a class="key-value--link" href="{{ post.url }}" title="Read {{ post.data.title }}">
-            <p class="key-value--value"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
+            <p class="key-value--value secondary-text"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></p>
             <h3 class="key-value--key">{{ title | strip_html }}</h3>
         </a>
 	</li>

@@ -1,7 +1,8 @@
 .chiplet {
     padding: calc(var(--pad) * 0.4) calc(var(--pad) * 0.6);
     border: 2px solid var(--color);
-    border-radius: calc(var(--border-radius) * 3);
+    border-radius: 10px;
+    box-shadow: var(--shadow-shallow);
     background: var(--brand);
     font-weight: bold;
     color: var(--white);

@@ -37,7 +37,7 @@ layout: "default"
                     <div class="key-value--description">
                         {{ key-value--description | markdownify }}
                     </div>
-                    {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text">' }}
+                    {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text secondary-text">' }}
                 </li>
                 {% endfor %}
             </ul>

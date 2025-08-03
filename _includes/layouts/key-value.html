@@ -64,7 +64,7 @@ layout: page
                 {% endif %}
                     <p id="{{ item.name | slugify }}" class="key-value--key">{{ item.name }}</p>
                     {% if key-value--value %}
-                        {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text">' }}
+                        {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text secondary-text">' }}
                     {% endif %}
                     {% if key-value--description %}
                         <div class="key-value--description">

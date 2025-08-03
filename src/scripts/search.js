@@ -43,33 +43,49 @@ function renderResults(results) {
     results.forEach(post => {
         // Create the li element with classes
         const li = document.createElement('li');
-        li.className = 'key-value--item key-value--with-image key-value--with-spacing';
+        
+        if (post.image != null) {
+            li.className = 'key-value--item key-value--search key-value--with-image key-value--with-spacing';
+        } else {
+            li.className = 'key-value--item key-value--search key-value--with-spacing';
+        }
         
         // Create the anchor element with its class and href
         const a = document.createElement('a');
-        a.className = 'key-value--link';
+        a.className = 'key-value--link key-value--card-link';
         a.href = post.url;
         
-        // Create the image element
-        // const pImg = document.createElement('img');
-        // pImg.className = 'key-value--image';
-        // pImg.src = post.image;
+        if (post.image != null) {
+            // Create the image element
+            const postImage = document.createElement('img');
+            postImage.className = 'key-value--image';
+            postImage.src = post.image;
+            
+            // Append child
+            a.appendChild(postImage);
+        }
         
-        // Create the h3 element for the title
-        const kvKey = document.createElement('p');
+        // Create the title element
+        const postTitle = document.createElement('p');
         // Note: using the same id for all posts isn't recommended; consider making this dynamic or removing it.
-        kvKey.id = 'all-posts';
-        kvKey.className = 'key-value--key';
-        kvKey.textContent = post.title;
+        postTitle.id = 'all-posts';
+        postTitle.className = 'key-value--key';
+        postTitle.textContent = post.title;
         
-        // Create the paragraph element for the category
+        // Create the paragraph element for the excerpt
         const pExcerpt = document.createElement('p');
         pExcerpt.className = 'key-value--description';
         pExcerpt.textContent = post.excerpt;
+        postTitle.textContent = post.title;
+        
+        // Create the paragraph element for the collection
+        const pCollection = document.createElement('p');
+        pCollection.className = 'key-value--label';
+        pCollection.textContent = post.collection;
         
         // Assemble the elements
-        // a.appendChild(pImg);
-        a.appendChild(kvKey);
+        a.appendChild(pCollection);
+        a.appendChild(postTitle);
         a.appendChild(pExcerpt);
         li.appendChild(a);
         list.appendChild(li);

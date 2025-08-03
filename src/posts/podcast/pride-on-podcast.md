@@ -1,7 +1,8 @@
 ---
 title: "Civil Service PrideON podcast"
-image: /images/podcasts/pride-on-podcast-logo.svg
+artwork: /images/podcasts/pride-on-podcast-logo.svg
 link: //anchor.fm/civilservicelgbt/
+excerpt: "The PrideON podcast is the official podcast of the Civil Service LGBT+ Network."
 ---
 
 The **PrideON** podcast is the official podcast of the Civil Service LGBT+ Network.

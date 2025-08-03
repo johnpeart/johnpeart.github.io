@@ -21,10 +21,10 @@
                     <!-- Social -->
                     <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="{{ og-image | default: post.data.image | default: image }}" preserveAspectRatio="xMidYMid slice"/>
                 {% elsif post.data.image or image %}
-                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="{{ og-image | default: post.data.image | default: image | prepend: '/assets/images' }}" preserveAspectRatio="xMidYMid slice"/>
+                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="{{ og-image | default: post.data.image | default: image }}" preserveAspectRatio="xMidYMid slice"/>
                 {% else %}
-                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="/assets/images/site/holofoil.jpg" preserveAspectRatio="xMidYMid slice"/>
-                    <image id="photoImage" x="1323.41" y="2362.091" width="220" height="190.526" href="/assets/images/me/me.svg" preserveAspectRatio="xMidYMid slice"/>
+                    <image id="photoImage" x="1313.41" y="2344.77" width="240" height="207.846" href="/images/photos/holofoil.jpg" preserveAspectRatio="xMidYMid slice"/>
+                    <image id="photoImage" x="1323.41" y="2362.091" width="220" height="190.526" href="/images/me/me.svg" preserveAspectRatio="xMidYMid slice"/>
                 {% endif %}
             </g>
         </g>

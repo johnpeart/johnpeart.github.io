@@ -1,7 +1,7 @@
 ---
 title: "Pretty in pink"
 date: 2019-08-25T13:55:32+00:00
-image: "/photos/2019-08-25-pretty-in-pink.jpeg"
+image: "/images/photos/2019-08-25-pretty-in-pink.jpeg"
 image-alt: "The centre of a pink flower."
 EXIF:
   - camera: "Apple iPhone X"

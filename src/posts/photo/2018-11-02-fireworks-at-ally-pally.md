@@ -1,7 +1,7 @@
 ---
 title: "Fireworks at Ally Pally"
 date: 2018-11-02T21:17:39+00:00
-image: "/photos/2018-11-02-fireworks-at-ally-pally.jpeg"
+image: "/images/photos/2018-11-02-fireworks-at-ally-pally.jpeg"
 image-alt: "Bursting, hot white colours from a series of fireworks against a dark night sky"
 EXIF:
   - camera: "SONY ILCE-6300"

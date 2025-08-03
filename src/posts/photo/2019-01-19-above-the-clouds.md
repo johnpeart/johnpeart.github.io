@@ -1,7 +1,7 @@
 ---
 title: "Above the clouds"
 date: 2019-01-19T14:49:25+00:00
-image: "/photos/2019-01-19-above-the-clouds.jpeg"
+image: "/images/photos/2019-01-19-above-the-clouds.jpeg"
 image-alt: "A photograph of the sun setting above the clouds"
 EXIF:
   - camera: "Apple iPhone X"

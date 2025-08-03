@@ -1,7 +1,7 @@
 ---
 title: "I want that one"
 date: 2020-08-31T13:22:32+00:00
-image: "/photos/2020-08-31-i-want-that-one.jpeg"
+image: "/images/photos/2020-08-31-i-want-that-one.jpeg"
 image-alt: "A small sausage dog eats a flower"
 EXIF:
   - camera: "SONY ILCE-6300"

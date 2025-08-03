@@ -1,7 +1,7 @@
 ---
 title: "Golden Falls"
 date: 2019-01-23T15:26:53+00:00
-image: "/photos/2019-01-23-golden-falls.jpeg"
+image: "/images/photos/2019-01-23-golden-falls.jpeg"
 image-alt: "A photograph of a waterfall"
 EXIF:
   - camera: "SONY ILCE-6300"

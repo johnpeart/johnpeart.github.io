@@ -1,7 +1,7 @@
 ---
 title: "A swan in Finsbury Park"
 date: 2021-06-01T14:13:49+00:00
-image: "/photos/2021-06-01-a-swan-in-finsbury-park.jpeg"
+image: "/images/photos/2021-06-01-a-swan-in-finsbury-park.jpeg"
 image-alt: "A swan facing into a pond in a park."
 EXIF:
   - camera: "Apple iPhone 12 Pro"

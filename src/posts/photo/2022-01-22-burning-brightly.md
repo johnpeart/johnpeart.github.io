@@ -1,7 +1,7 @@
 ---
 title: "Burning brightly"
 date: 2022-01-22T20:48:37+00:00
-image: "/photos/2022-01-22-burning-brightly.jpeg"
+image: "/images/photos/2022-01-22-burning-brightly.jpeg"
 image-alt: "A candle burning with a large flame"
 EXIF:
   - camera: "SONY ILCE-6300"

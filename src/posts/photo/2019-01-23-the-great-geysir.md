@@ -1,7 +1,7 @@
 ---
 title: "The Great Geysir"
 date: 2019-01-23T14:33:12+00:00
-image: "/photos/2019-01-23-the-great-geysir.jpeg"
+image: "/images/photos/2019-01-23-the-great-geysir.jpeg"
 image-alt: "A large plume of steam erupting from a stone floor, reaching dozens of metres in height."
 EXIF:
   - camera: "SONY ILCE-6300"

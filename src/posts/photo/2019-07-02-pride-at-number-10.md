@@ -1,7 +1,7 @@
 ---
 title: "Pride at Number 10"
 date: 2019-07-02T19:13:55+00:00
-image: "/photos/2019-07-02-pride-at-number-10.jpeg"
+image: "/images/photos/2019-07-02-pride-at-number-10.jpeg"
 image-alt: "Me stood outside the doors to Number 10 Downing Street. In front of the door in an arch is a pride-themed flower display."
 EXIF:
   - camera: "Apple iPhone X"
@@ -9,6 +9,7 @@ EXIF:
     shutter: 0.00833333333333333
     focallength: 4
     iso: 50
+excerpt: "This isn’t the first photo I’d had taken outside the famous Number 10 Downing Street doors, but it was probably the most special; this was the day of the Prime Minister’s annual pride reception."
 ---
 
 Every civil servant has a wish list of things they get to do whilst they are in the Civil Service. Things like briefing ministers face-to-face, going into the Official’s box in the House of Commons or Lords. 

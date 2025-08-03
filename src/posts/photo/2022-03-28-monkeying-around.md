@@ -1,7 +1,7 @@
 ---
 title: "Monkeying around"
 date: 2022-03-28T10:52:08+00:00
-image: "/photos/2022-03-28-monkeying-around.jpeg"
+image: "/images/photos/2022-03-28-monkeying-around.jpeg"
 image-alt: "A monkey sat on a log in a zoo"
 EXIF:
   - camera: "Apple iPhone 12 Pro"

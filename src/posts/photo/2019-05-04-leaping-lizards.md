@@ -1,7 +1,7 @@
 ---
 title: "Leaping lizards!"
 date: 2019-05-04T07:59:15+00:00
-image: "/photos/2019-05-04-leaping-lizards.jpeg"
+image: "/images/photos/2019-05-04-leaping-lizards.jpeg"
 image-alt: "A lizard crawling over a rock"
 EXIF:
   - camera: "SONY ILCE-6300"

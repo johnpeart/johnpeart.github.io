@@ -1,7 +1,7 @@
 ---
 title: "Through the gates"
 date: 2018-04-18T11:54:37+00:00
-image: "/photos/2018-04-18-through-the-gates.jpeg"
+image: "/images/photos/2018-04-18-through-the-gates.jpeg"
 image-alt: "A building in central Vienna pictured through a gate"
 EXIF:
   - camera: "SONY ILCE-6300"

@@ -1,7 +1,7 @@
 ---
 title: "Birthday cake"
 date: 2020-11-26T13:25:16+00:00
-image: "/photos/2020-11-26-birthday-cake.jpeg"
+image: "/images/photos/2020-11-26-birthday-cake.jpeg"
 image-alt: "A top-down picture of a birthday cake. The top of the cake is covered in millions and the number 30 is carved out of the top layer."
 EXIF:
   - camera: "SONY ILCE-6300"

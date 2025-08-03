@@ -1,7 +1,7 @@
 ---
 title: "May the best drag queen win"
 date: 2018-04-13T10:59:46+00:00
-image: "/photos/2018-04-13-may-the-best-drag-queen-win.jpeg"
+image: "/images/photos/2018-04-13-may-the-best-drag-queen-win.jpeg"
 image-alt: "A statue in front of a building with its right arm pointing upwards, similar in style to RuPaul"
 EXIF:
   - camera: "SONY ILCE-6300"

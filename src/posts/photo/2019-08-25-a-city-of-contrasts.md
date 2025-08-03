@@ -1,7 +1,7 @@
 ---
 title: "A city of contrasts"
 date: 2019-08-25T12:15:47+00:00
-image: "/photos/2019-08-25-a-city-of-contrasts.jpeg"
+image: "/images/photos/2019-08-25-a-city-of-contrasts.jpeg"
 image-alt: "A photo of a tall, Japanese-style  building from Kew Gardens. In the sky, a plane flys close overhead, coming into land."
 EXIF:
   - camera: "Apple iPhone X"

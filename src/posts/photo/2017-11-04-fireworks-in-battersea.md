@@ -1,7 +1,7 @@
 ---
 title: "Fireworks in Battersea"
 date: 2017-11-04T21:19:00+00:00
-image: "/photos/2017-11-04-fireworks-in-battersea.jpeg"
+image: "/images/photos/2017-11-04-fireworks-in-battersea.jpeg"
 image-alt: "A silhouette of a tree line, illuminated by purple and white fireworks"
 EXIF:
   - camera: "SONY ILCE-5000"

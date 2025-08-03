@@ -1,7 +1,7 @@
 ---
 title: "Designed by God"
 date: 2018-04-12T10:44:44+00:00
-image: "/photos/2018-04-12-designed-by-god.jpeg"
+image: "/images/photos/2018-04-12-designed-by-god.jpeg"
 image-alt: "A photograph of the interior of a church"
 EXIF:
   - camera: "SONY ILCE-6300"

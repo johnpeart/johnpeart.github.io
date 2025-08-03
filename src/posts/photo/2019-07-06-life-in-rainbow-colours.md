@@ -1,7 +1,7 @@
 ---
 title: "Life in rainbow colours"
 date: 2019-07-06T13:15:33+00:00
-image: "/photos/2019-07-06-life-in-rainbow-colours.jpeg"
+image: "/images/photos/2019-07-06-life-in-rainbow-colours.jpeg"
 image-alt: "In the foreground: around 100 people dressed in pink t-shirts, waving placards and banners reading “a proud Civil Service”. In the background: a large, 10 metre lorry, adorned with large LED screens and topped with a giant, glittering unicorn and lion holding the Gilbert Baker rainbow pride flag."
 EXIF:
   - camera: "SONY ILCE-6300"

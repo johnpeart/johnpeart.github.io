@@ -1,7 +1,7 @@
 ---
 title: "The Blue Lagoon"
 date: 2019-01-22T16:50:58+00:00
-image: "/photos/2019-01-22-the-blue-lagoon.jpeg"
+image: "/images/photos/2019-01-22-the-blue-lagoon.jpeg"
 image-alt: "A photo of the Blue Lagoon"
 EXIF:
   - camera: "Apple iPhone X"

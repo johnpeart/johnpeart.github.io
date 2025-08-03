@@ -1,7 +1,7 @@
 ---
 title: "Love shine a light"
 date: 2018-04-19T10:05:11+00:00
-image: "/photos/2018-04-19-love-shine-a-light.jpeg"
+image: "/images/photos/2018-04-19-love-shine-a-light.jpeg"
 image-alt: "A set of pedestrian traffic lights. The red and green lights have been replaced with symbols shaped like same-sex couples."
 EXIF:
   - camera: "SONY ILCE-6300"

@@ -1,7 +1,7 @@
 ---
 title: "Stranger Things"
 date: 2024-11-29 22:02:28
-image: "/photos/2024-11-29-stranger-things.jpeg"
+image: "/images/photos/2024-11-29-stranger-things.jpeg"
 image-alt: "A photo of the stage at Stranger Things: The First Shadow"
 EXIF:
   - camera: "Apple iPhone 15 Pro Max"

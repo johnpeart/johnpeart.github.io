@@ -1,7 +1,7 @@
 ---
 title: "Olafur Eliasson"
 date: 2019-09-07T16:12:43+00:00
-image: "/photos/2019-09-07-olafur-eliasson.jpeg"
+image: "/images/photos/2019-09-07-olafur-eliasson.jpeg"
 image-alt: "A large metallic and coloured-glass object casting coloured light patterns on a wall."
 EXIF:
   - camera: "Apple iPhone X"

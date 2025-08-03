@@ -23,7 +23,7 @@ The tutorial for Theme Hospital is brief, and there are only 4 steps to it:
 The gender stereotyping starts at step 2 of that process, where the only receptionists you can hire are women.
 
 <figure>
-  <img src="/assets/images/posts/2018-02-04-theme-hospital-receptionist.png">
+  <img src="/images/posts/2018-02-04-theme-hospital-receptionist.png">
   <figcaption>Receptionists in the game are always the same blonde, white woman.</figcaption>
 </figure>
 
@@ -32,14 +32,14 @@ The gender stereotyping starts at step 2 of that process, where the only recepti
 Now you might be thinking what I thought. This a game from 1997; maybe there just wasn’t enough disk space to be able to create alternate receptionist character sprites. The only voiceovers in the game are women too. But then I noticed the doctors: **all the doctors in Theme Hospital are men.**
 
 <figure>
-  <img src="/assets/images/posts/2018-02-04-theme-hospital-doctors.png">
+  <img src="/images/posts/2018-02-04-theme-hospital-doctors.png">
   <figcaption>Doctors come in all ages, ethnicities and densities of hair.</figcaption>
 </figure>
 
 The doctors have lots of character sprites. They’re young and old, black and white, and beardy, hairy or bald. Even the ‘assistant’ — who is a man — is clearly a doctor.
 
 <figure>
-  <img src="/assets/images/posts/2018-02-04-theme-hospital-assistant.png">
+  <img src="/images/posts/2018-02-04-theme-hospital-assistant.png">
   <figcaption>The assistant – the man guiding you through how to play the game – is also styled as a doctor.</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ Despite its success, Theme Hospital probably didn’t shape anyone’s entire pe
 A little way into Theme Hospital and the game mechanics slowly get more complex. Not only do you have to hire more people to make your hospital run effectively, but you also need to retain them — before they all apparently run off to be game developers for better money.
 
 <figure>
-  <img src="/assets/images/posts/2018-02-04-theme-hospital-paygap.png">
+  <img src="/images/posts/2018-02-04-theme-hospital-paygap.png">
   <figcaption>Doctors inevitably ask for pay rises, whilst receptionists never ask for a raise at all.</figcaption>
 </figure>
 

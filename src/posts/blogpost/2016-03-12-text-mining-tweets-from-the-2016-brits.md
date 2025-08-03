@@ -93,14 +93,14 @@ The dendrogram also shows that `@onedirection` being one of the most popular to 
 
 
 
-[AdeleTime]: /assets/images/posts/2016-03-12-BRITS2016_AdeleOverTime.png
-[AllTime]: /assets/images/posts/2016-03-12-BRITS2016_AllTweetsOverTime.png
-[FemaleMentions]: /assets/images/posts/2016-03-12-BRITS2016_BritFemaleMentions.png
-[FemaleTime]: /assets/images/posts/2016-03-12-BRITS2016_BritFemaleTweetsOverTime.png
-[MaleMentions]: /assets/images/posts/2016-03-12-BRITS2016_BritMaleMentions.png
-[MaleTime]: /assets/images/posts/2016-03-12-BRITS2016_BritMaleTweetsOverTime.png
-[BowieTime]: /assets/images/posts/2016-03-12-BRITS2016_DavidBowieTweetsOverTime.png
-[AllDendrogram]: /assets/images/posts/2016-03-12-BRITS2016_Dendrogram.png
-[PerformersMentions]: /assets/images/posts/2016-03-12-BRITS2016_PerfomerMentions.png
-[PerformersTime]: /assets/images/posts/2016-03-12-BRITS2016_PerformersTweetsOverTime.png
-[AllWordCloud]: /assets/images/posts/2016-03-12-BRITS2016_WordCloud.png
+[AdeleTime]: /images/posts/2016-03-12-BRITS2016_AdeleOverTime.png
+[AllTime]: /images/posts/2016-03-12-BRITS2016_AllTweetsOverTime.png
+[FemaleMentions]: /images/posts/2016-03-12-BRITS2016_BritFemaleMentions.png
+[FemaleTime]: /images/posts/2016-03-12-BRITS2016_BritFemaleTweetsOverTime.png
+[MaleMentions]: /images/posts/2016-03-12-BRITS2016_BritMaleMentions.png
+[MaleTime]: /images/posts/2016-03-12-BRITS2016_BritMaleTweetsOverTime.png
+[BowieTime]: /images/posts/2016-03-12-BRITS2016_DavidBowieTweetsOverTime.png
+[AllDendrogram]: /images/posts/2016-03-12-BRITS2016_Dendrogram.png
+[PerformersMentions]: /images/posts/2016-03-12-BRITS2016_PerfomerMentions.png
+[PerformersTime]: /images/posts/2016-03-12-BRITS2016_PerformersTweetsOverTime.png
+[AllWordCloud]: /images/posts/2016-03-12-BRITS2016_WordCloud.png

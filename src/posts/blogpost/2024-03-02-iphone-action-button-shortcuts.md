@@ -44,7 +44,7 @@ It felt like a waste of a *whole-new button* to have it do *just one thing*, so 
 I've set up new Shortcuts for pausing my ad-blocker, turning on or off my Apple TV, toggling mobile data and, yes, activating Silent mode. I quickly discovered that I had more Shortcuts I wanted to include in the list than the default Apple menu would let me have.
 
 <figure>
-	<img src="/assets/images/posts/2024-03-02-default-action-menu.jpg" alt="A screenshot of the default Shortcuts menu, showing 8 shortcuts">
+	<img src="/images/posts/2024-03-02-default-action-menu.jpg" alt="A screenshot of the default Shortcuts menu, showing 8 shortcuts">
 	<figcaption>
 		By default, the Shortcuts app will display up to 8 Shortcuts from an assigned folder. But I have more than 8 shortcuts!
 	</figcaption>
@@ -64,7 +64,7 @@ I've created a menu based on a hack I found on Reddit. It’s actually two Short
 I've used `.vcf` files – the format for saving contacts to your phone’s address book – to create the menu items. It basically works the same as any other Shortcuts menu; but they retain the iconography, making them more glanceable (for me, at least).
 
 <figure>
-	<img src="/assets/images/posts/2024-03-02-my-action-button-menu.jpg" alt="A screenshot of my 'Actions' Menu, showing 10 shortcuts">
+	<img src="/images/posts/2024-03-02-my-action-button-menu.jpg" alt="A screenshot of my 'Actions' Menu, showing 10 shortcuts">
 	<figcaption>
 		My custom menu shows more than 8 Shortcuts, and you don't lose the icons as you would with a standard Shortcuts menu.
 	</figcaption>
@@ -88,7 +88,7 @@ If you want to use this set up, the two Shortcuts are available to download belo
 
 <section class="app-sheet card">
 <dl class="dl--app">
-<img class="app-icon large" src="/assets/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
+<img class="app-icon large" src="/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
 <dt class="app-name-label sr-only">Shortcut name</dt>
 <dd class="app-name">Save the Action Button Menu</dd>
 <dt class="app-description-label sr-only">Description</dt>
@@ -100,7 +100,7 @@ If you want to use this set up, the two Shortcuts are available to download belo
 
 <section class="app-sheet card">
 <dl class="dl--app">
-<img class="app-icon large" src="/assets/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
+<img class="app-icon large" src="/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
 <dt class="app-name-label sr-only">Shortcut name</dt>
 <dd class="app-name">Actions</dd>
 <dt class="app-description-label sr-only">Description</dt>

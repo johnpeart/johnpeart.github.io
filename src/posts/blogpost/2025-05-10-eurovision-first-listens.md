@@ -7,12 +7,12 @@ layout: blogpost
 
 composite:
   overlay:
-    image: "/assets/images/posts/2025-05-10-eurovision-2025.svg"
+    image: "/images/posts/2025-05-10-eurovision-2025.svg"
     alt: "The Eurovision 2025 logo"
     blur: 0
   background:
-    source: "/assets/images/posts/2025-05-10-eurovision-2025.webp"
-    image: "/assets/images/posts/2025-05-10-eurovision-2025.jpg"
+    source: "/images/posts/2025-05-10-eurovision-2025.webp"
+    image: "/images/posts/2025-05-10-eurovision-2025.jpg"
     alt: "A spiral of multi-coloured hearts."
     fit: "fill"
     

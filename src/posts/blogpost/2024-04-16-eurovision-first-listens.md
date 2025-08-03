@@ -6,12 +6,12 @@ layout: blogpost
 
 composite:
   overlay:
-    image: "/assets/images/posts/2024-04-16-eurovision-2024.svg"
+    image: "/images/posts/2024-04-16-eurovision-2024.svg"
     alt: "The Eurovision 2024 logo"
     blur: 5
   background:
-    source: "/assets/images/posts/2024-04-16-eurovision-northern-lights.webp"
-    image: "/assets/images/posts/2024-04-16-eurovision-northern-lights.gif"
+    source: "/images/posts/2024-04-16-eurovision-northern-lights.webp"
+    image: "/images/posts/2024-04-16-eurovision-northern-lights.gif"
     alt: "A burst of bright colours symbolising the Northern Lights"
     fit: "fill"
     

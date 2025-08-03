@@ -244,7 +244,7 @@ Of course, this data set is limited, and a wider view of the debate around these
 
 </div>
 
-[fig-1]: /assets/images/posts/2013-06-01-GV227-FIGURE-1.png "Figure 1"
-[fig-2]: /assets/images/posts/2013-06-01-GV227-FIGURE-2.png "Figure 2"
-[fig-3]: /assets/images/posts/2013-06-01-GV227-FIGURE-3.png "Figure 3"
-[fig-4]: /assets/images/posts/2013-06-01-GV227-FIGURE-4.png "Figure 4"
+[fig-1]: /images/posts/2013-06-01-GV227-FIGURE-1.png "Figure 1"
+[fig-2]: /images/posts/2013-06-01-GV227-FIGURE-2.png "Figure 2"
+[fig-3]: /images/posts/2013-06-01-GV227-FIGURE-3.png "Figure 3"
+[fig-4]: /images/posts/2013-06-01-GV227-FIGURE-4.png "Figure 4"

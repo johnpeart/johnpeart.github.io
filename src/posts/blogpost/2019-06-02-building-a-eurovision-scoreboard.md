@@ -19,7 +19,7 @@ Described simply, I built a webpage with a grid layout. In each cell of the grid
 
 It looks like this:
 
-![](/assets/images/posts/2019-06-02-eurovision-scoreboard.jpg "The scoreboard")
+![](/images/posts/2019-06-02-eurovision-scoreboard.jpg "The scoreboard")
 
 To 'vote', you filled in a [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdwHZqxdzQE5wc5OHp1rHfUU3wWk-ZU2aJqs5EEtsbI-wV23g/viewform) and gave each country a score on the usual 1 to 12 Eurovision voting scale. The Google Sheet then aggregated the votes and gave an average score for each song.
 

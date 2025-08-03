@@ -3,7 +3,7 @@ title: "A parts bin iPod Classic"
 author: "John Peart"
 excerpt: "You can't buy them brand new anymore; but is it possible to build an iPod Classic from the parts bin?"
 image: 
-  file: /assets/images/posts/2023-07-23-ipod.svg
+  file: /images/posts/2023-07-23-ipod.svg
   bg: yellow
 
 categories:
@@ -13,7 +13,7 @@ categories:
 
 I've found a new hobby: retro tech. Specifically, old Apple tech.
 
-![](/assets/images/posts/2023/07/23/building-an-ipod-from-parts/ipod.svg){.no-styles .fit-to-container}
+![](/images/posts/2023/07/23/building-an-ipod-from-parts/ipod.svg){.no-styles .fit-to-container}
 
 I can’t recall what started this new obsession; that is unimportant now. What matters is that I’ve now accumulated a small collection of iPods [Classic](https://en.wikipedia.org/wiki/IPod_Classic), [Nano](https://en.wikipedia.org/wiki/IPod_Nano), and even [Hi-Fi](https://en.m.wikipedia.org/wiki/IPod_Hi-Fi).
 
@@ -61,7 +61,7 @@ Of course, having found building one iPod so easy[^easy], I went off to build se
 - a 5th generation 'thick' model in yellow and black that I've affectionately named 'BananaPod', and an SSD 
 
 <figure>
-  <img src="/assets/images/posts/2023-07-23-ipods-classic.jpg" alt="Four iPods Classic, arranged in a square.">
+  <img src="/images/posts/2023-07-23-ipods-classic.jpg" alt="Four iPods Classic, arranged in a square.">
   <figcaption>
     <strong>Figure 1:</strong>
     Clockwise from top left:<br>

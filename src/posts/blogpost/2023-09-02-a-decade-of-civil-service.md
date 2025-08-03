@@ -8,7 +8,7 @@ categories:
 
 This week was the end of my tenth year working in the UK Civil Service. 
 
-![A series of egg-timers and party poppers in an emoji style](/assets/images/posts/2023-09-02-a-decade-of-civil-service.svg){.hero}
+![A series of egg-timers and party poppers in an emoji style](/images/posts/2023-09-02-a-decade-of-civil-service.svg){.hero}
 
 I didn't have this on my bingo card. In fact, it very nearly didn't happen at all. 
 

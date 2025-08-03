@@ -25,7 +25,7 @@ The homepage of this blog has consistently been an austere layout with a smatter
 [^cyan]: `#00a0e5`, if you're wondering.
 
 <figure>
-	<img src="/assets/images/posts/2025-07-14-homepage-old.png" alt="My website homepage inside a desktop web browser window. The page is white, with black text that reads “Hello. I'm John Peart. I’m a policy professional with an interest in technology, services and diversity.” The text is large and centered in the page.">
+	<img src="/images/posts/2025-07-14-homepage-old.png" alt="My website homepage inside a desktop web browser window. The page is white, with black text that reads “Hello. I'm John Peart. I’m a policy professional with an interest in technology, services and diversity.” The text is large and centered in the page.">
 	<figcaption>My website home page as it has been for nearly 6 years.</figcaption>
 </figure>
 
@@ -34,22 +34,22 @@ Over time, I've experimented with different visual flourishes.
 I've tried a range of different header styles, including collapsing hamburger menus with glowing auras, like this:
 
 <figure>
-	<img src="/assets/images/posts/2024/09/09/header-hover.png" alt="The header menu of my website during a previous experiment. The bar is full width and has a glow around it.">
+	<img src="/images/posts/2024/09/09/header-hover.png" alt="The header menu of my website during a previous experiment. The bar is full width and has a glow around it.">
 	<figcaption>A previous iteration of my header menu faded into the background until you hovered over it, which made it pop out with a glow. </figcaption>
 </figure>
 
 I had been gradually iterating towards a more glassy version. Up until a few this refresh, I'd been using some [next-level glass effects](https://www.joshwcomeau.com/css/backdrop-filter/):
 
 <figure>
-	<img src="/assets/images/posts/2025-07-14-side-by-side-desktop.png" alt="Two cropped screenshots of my menu bar on desktop. On the left, the menu bar shows a drop shadow. On the right, the glass has a subtler shadow, but also diffuses the surrounding colours below the menu bar.">
-	<img src="/assets/images/posts/2025-07-14-side-by-side-mobile.png" alt="Two cropped screenshots of my menu bar on mobile. On the left, the menu bar shows a drop shadow and diffused colours – but only when the menu hovers over the background image. On the right, the glass has a subtler shadow, but also diffuses the surrounding colours from objects below the boundary of menu bar.">
+	<img src="/images/posts/2025-07-14-side-by-side-desktop.png" alt="Two cropped screenshots of my menu bar on desktop. On the left, the menu bar shows a drop shadow. On the right, the glass has a subtler shadow, but also diffuses the surrounding colours below the menu bar.">
+	<img src="/images/posts/2025-07-14-side-by-side-mobile.png" alt="Two cropped screenshots of my menu bar on mobile. On the left, the menu bar shows a drop shadow and diffused colours – but only when the menu hovers over the background image. On the right, the glass has a subtler shadow, but also diffuses the surrounding colours from objects below the boundary of menu bar.">
 	<figcaption>In my previous design, I used a glassy header that diffused the surrounding colours into it, even when the header didn't overlap the background directly.</figcaption>
 </figure>
 
 Over the course of the past year or so, I've also added digital simulacrums of physical objects, like *Post-It* notes and *iPods nano*.
 
 <figure>
-	<img src="/assets/images/posts/2024/09/30/sharing-music-on-my-blog/ipod-new.png" alt="A screenshot of a representation of an iPod nano in isometric perspective with cover art for the 2024 album for the Eurovision Song Contest">
+	<img src="/images/posts/2024/09/30/sharing-music-on-my-blog/ipod-new.png" alt="A screenshot of a representation of an iPod nano in isometric perspective with cover art for the 2024 album for the Eurovision Song Contest">
 	<figcaption>These <em>iPods nano</em> are dynamically generated for each music selection highlighted on <a href="/music" title="Go to my music blog">my music blog</a>.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ What I've got right now isn't a radical departure from what came before but it h
 The biggest change is probably to the home page.
 
 <figure>
-	<img src="/assets/images/posts/2025-07-14-homepage-new.png" alt="My website homepage inside a desktop web browser window. The main visual is a black and white cartoon sketch of John Peart.">
+	<img src="/images/posts/2025-07-14-homepage-new.png" alt="My website homepage inside a desktop web browser window. The main visual is a black and white cartoon sketch of John Peart.">
 	<figcaption>The first thing you'll notice on my new home page is a giant drawing of me!</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ I love the illustration I've come up with; though I'm sure I'll be endlessly fid
 Use of bold imagery has been a focus as I've explored this new design. Keeping an element of continuity with what came before, I've been creating a lot of isometric profile images, just to see how they looked.
 
 <figure>
-	<img src="/assets/images/posts/2025-07-14-isometric-objects.svg" alt="A keyboard, iPod Classic and Star Trek commbadge in isometric projection.">
+	<img src="/images/posts/2025-07-14-isometric-objects.svg" alt="A keyboard, iPod Classic and Star Trek commbadge in isometric projection.">
 	<figcaption>I've created a range of different objects in isometric projection; just to see how they turned out.</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ I haven't used most of these, in the end, but I have kept them in case inspirati
 Where I used objects like *Polaroid* photos and *Game Boy*  in my previous design, these have also been revamped. Gone are the shadows and soft gradients; now they have a bolder, blockier aesthetic.
 
 <figure>
-	<img src="/assets/images/posts/2025-07-14-gamepaks.png" alt="Left: an isometric projection of a Game Pak. Right: a revised version, with greater use of thick black borders at the object's edges.">
+	<img src="/images/posts/2025-07-14-gamepaks.png" alt="Left: an isometric projection of a Game Pak. Right: a revised version, with greater use of thick black borders at the object's edges.">
 	<figcaption>Objects that were nudging towards photorealism are now much bolder, blockier objects; like these <em>Game Paks</em>.</figcaption>
 </figure>
 

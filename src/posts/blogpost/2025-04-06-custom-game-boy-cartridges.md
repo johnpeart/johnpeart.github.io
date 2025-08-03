@@ -41,7 +41,7 @@ I've spent hours designing brand new labels for each game, printed on holographi
 In some cases, I've gone even further than that. I've created ROM-hacked versions of the cartridges: bringing colour to games that never had it, fixing bugs that have been left unfixed since the 1990s, and made *better* cartridges than the ones the publishers made themselves. 
 
 <figure>
-    <img src="/assets/images/posts/2025-04-06-games-1.jpg" alt="An original Super Mario Land cartridge, next to my custom replacement cartridge.">
+    <img src="/images/posts/2025-04-06-games-1.jpg" alt="An original Super Mario Land cartridge, next to my custom replacement cartridge.">
     <figcaption><em>Super Mario Land</em> was never available on the <em>Game Boy Color</em>, but thanks to a <em>DX</em> mod, now it is!</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Every single one has brand new batteries – meaning the save states work – bu
 ## The *Game Pak* is dead. Long live the *Game Pak*.
 
 <figure>
-    <img src="/assets/images/posts/2025-04-06-games-2.jpg" alt="Dr Mario, Tetris, Hook and Metroid II: Return of Samus cartridges.">
+    <img src="/images/posts/2025-04-06-games-2.jpg" alt="Dr Mario, Tetris, Hook and Metroid II: Return of Samus cartridges.">
     <figcaption>More refreshed cartridges with custom designs: <em>Dr Mario</em>, <em>Tetris</em>, <em>Hook</em> and <em>Metroid II: Return of Samus</em>.</figcaption>
 </figure>
 

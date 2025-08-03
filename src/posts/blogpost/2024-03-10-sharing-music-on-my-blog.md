@@ -22,7 +22,7 @@ Endlessly obsessed with futzing, I've decided to have a do-over with my early iP
 The original iPod nano posts looked like this...
 
 <figure>
-	<img src="/assets/images/posts/2024-09-30-ipod-old.png" alt="A screenshot of a representation of an iPod nano in 2D projection with cover art for the 2024 album for the Eurovision Song Contest.">
+	<img src="/images/posts/2024-09-30-ipod-old.png" alt="A screenshot of a representation of an iPod nano in 2D projection with cover art for the 2024 album for the Eurovision Song Contest.">
 	<figcaption>
 	The original take on the iPod nano on my website. Each iPod nano is dynamically generated in the stream, based on a provided image of the album cover art.
 	</figcaption>
@@ -35,7 +35,7 @@ But it’s very 'flat'.
 With my newer [gaming-focused posts](/games) are more three-dimensional: I've created a *Nintendo Game Boy Game Pak*, in isometric projection and dynamically inserted the box art into the image. For this iPod nano do-over, I've tried to do the same thing. Now, the music posts look like this:
 
 <figure>
-	<img src="/assets/images/posts/2024-09-30-ipod-new.png" alt="A screenshot of a representation of an iPod nano in 2D projection with cover art for the 2024 album for the Eurovision Song Contest">
+	<img src="/images/posts/2024-09-30-ipod-new.png" alt="A screenshot of a representation of an iPod nano in 2D projection with cover art for the 2024 album for the Eurovision Song Contest">
 	<figcaption>
 	The new isometrically reimagined iPod nano.
 	</figcaption>

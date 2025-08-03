@@ -38,7 +38,7 @@ It takes a random quote from a pre-defined list, generates an image dynamically 
 I recently updated the bot to take advantage of the latest open source software, and to tweak the brand identity a little to match my upcoming podcast, the [Department of Bad Ideas](https://badideas.podcast.johnpe.art).
 
 <figure>
-  <img src="/assets/images/posts/2020-04-11-department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right">
+  <img src="/images/posts/2020-04-11-department-of-administrative-affairs.png" alt="The brand identity for the Department of Administrative Affairs; a crown made of circular patterns inside a shield shape to the left, with the name of the department in a serif font to the right">
   <figcaption>
 	<strong>Figure 1:</strong>
 	The recently refreshed brand identity for the Department of Administrative Affairs.
@@ -128,7 +128,7 @@ Whilst you’re on the `Settings` tab, you may as well also set up your buildpac
 This bot is built using a framework called `twit`, which relies on Node.js, so you’ll need to add that buildpack first. Select the `Add buildpack` button and then choose `nodejs` from the officially supported buildpacks.
 
 <figure>
-  <img src="/assets/images/posts/2020-04-11-deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard">
+  <img src="/images/posts/2020-04-11-deptofadmin-add-buildpacks.png" alt="The Add Build Packs screen in Heroku Dashboard">
   <figcaption>
 	<strong>Figure 2:</strong>
 	The Add Buildpacks screen in Heroku Dashboard.

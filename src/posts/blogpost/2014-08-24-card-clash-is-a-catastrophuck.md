@@ -48,19 +48,19 @@ This whole card clash brand could have been so different. TfL *could* have just 
 
 TfL&#8217;s current messaging fails so badly because it doesn&#8217;t actually say anything. Card clash is an empty phrase. By using simple, directive language, TfL could get what it wants &#8211; people to separate their cards &#8211; and users get what they want &#8211; a speedy journey and a correct payment.
 
-<img src="/assets/images/posts/2014-08-24-card-clash-TfL.jpg" alt="actual transport for london branding" />
+<img src="/images/posts/2014-08-24-card-clash-TfL.jpg" alt="actual transport for london branding" />
 
 Above is an actual piece of TfL branding. The problem is that &#8220;Watch out for card clash&#8221; means nothing. It&#8217;s using jargon without explanation. So why not ditch the brand, and simply say this:
 
-<img src="/assets/images/posts/2014-08-24-card-clash-fixed-2.png" alt="Hey, TfL; I fixed your branding for you" />
+<img src="/images/posts/2014-08-24-card-clash-fixed-2.png" alt="Hey, TfL; I fixed your branding for you" />
 
 Here&#8217;s another example:
 
-<img src="/assets/images/posts/2014-08-24-card-clash-poster-london-underground.png" alt="before (left) and after (right)" />
+<img src="/images/posts/2014-08-24-card-clash-poster-london-underground.png" alt="before (left) and after (right)" />
 
 Ignoring this example of a blatant and needless branding exercise, TfL did get very close to something that was simple elsewhere; infuriatingly close in fact.
 
-<img src="/assets/images/posts/2014-08-24-card-clash-TfL-2.jpg" alt="TfL were so close!" />
+<img src="/images/posts/2014-08-24-card-clash-TfL-2.jpg" alt="TfL were so close!" />
 
 Look at this poster (above). It&#8217;s been displayed in tube stations across the network for months. It uses the term card clash, and it also explains what it is (albeit in a convoluted manner).
 
@@ -68,7 +68,7 @@ Importantly though, it does explain it. Fixing card clash wouldn&#8217;t be hard
 
 Putting user needs first, we might have ended up with something like this:
 
-<img src="/assets/images/posts/2014-08-24-card-clash-fixed-3.png" alt="Why didn't they just say this..." />
+<img src="/images/posts/2014-08-24-card-clash-fixed-3.png" alt="Why didn't they just say this..." />
 
 Again, no branding, no marketing effort. Just simple, straight-forward language.
 

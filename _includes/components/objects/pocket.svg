@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg id="gameboy" width="100%" height="100%" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
-aria-labelledby="svg-title" aria-describedby="svg-desc">
-    
+<svg id="gameboy" width="100%" height="100%" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;" aria-labelledby="svg-title" aria-describedby="svg-desc">
     <title id="svg-title">Game Boy</title>
     <desc id="svg-desc">A black Game Boy. On the screen is a game.</desc>
     <g transform="matrix(1,0,0,1,-1215,0)">
@@ -81,7 +79,7 @@ aria-labelledby="svg-title" aria-describedby="svg-desc">
                     </g>
                 </g>
                 <g id="Screen" transform="matrix(2.83125,0,0,1.93797,349.5,75.4745)">
-                    <use xlink:href="#screenshot-{{ screenshotCount | default: '001' }}" filter="url(#pixelate)" x="0" y="0" width="160px" height="144px"/>
+                    <image filter="url(#pixelate)" x="0" y="0" width="160px" height="144px" xlink:href="{{ screenshot }}{{ screenshotCount | default: '001' }}{{ screenshotFormat | default: '.png' }}"/>
                 </g>
                 <g id="LensShine" transform="matrix(-1.00873,0,0,-0.693724,2389.68,433.107)">
                     <path d="M2084,63.676L1519.72,574C1514.91,574 1511,570.113 1511,565.324L1511,63.676C1511,58.887 1514.91,55 1519.72,55L2075.28,55C2080.09,55 2084,58.887 2084,63.676Z" style="fill:white;fill-opacity:0.22;"/>
@@ -96,7 +94,4 @@ aria-labelledby="svg-title" aria-describedby="svg-desc">
         <feComposite in="SourceGraphic" in2="a" operator="in"/>
         <feMorphology operator="dilate" radius="0"/>
     </filter>
-    <defs>
-        <image id="screenshot-{{ screenshotCount | default: '001' }}" width="160px" height="144px" xlink:href="{{ screenshot }}{{ screenshotCount | default: '001' }}{{ screenshotFormat | default: '.png' }}"/>
-    </defs>
 </svg>

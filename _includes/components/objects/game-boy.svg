@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 161 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1;"
-aria-labelledby="svg-title" aria-describedby="svg-desc">
+<svg width="100%" height="100%" viewBox="0 0 161 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1;" aria-labelledby="svg-title" aria-describedby="svg-desc">
     
     {%- if post.data.artwork -%}{% assign artwork = post.data.artwork %}{%- endif -%}
+    {%- if post.data.title -%}{% assign title = post.data.title %}{%- endif -%}
     {%- if post.data.label -%}{% assign label = post.data.label %}{%- endif -%}
     {%- if post.data.date -%}{% assign date = post.data.date %}{%- endif -%}
     
-    <title id="svg-title">{{ label }}</title>
-    <desc id="svg-desc">A Game Boy Game Pak showing the artwork for {{ label }}</desc>
+    <title id="svg-title">{{ title }}</title>
+    <desc id="svg-desc">A Game Boy Game Pak showing the artwork for {{ title }}</desc>
     
     <g id="Cartridge">
         <path id="SideCut" d="M143.183,168L143.183,276L136.255,276L136.255,168L139.719,170L143.183,168Z" style="fill:#747373;stroke:#000;stroke-width:1px;"/>
@@ -33,7 +33,7 @@ aria-labelledby="svg-title" aria-describedby="svg-desc">
             <path id="Sticker-Foil" d="M123.794,146.88L123.794,236.896C123.794,239.79 122.032,241.122 119.861,239.869L21.012,182.798C18.842,181.545 17.08,178.178 17.08,175.285L17.08,85.269C17.08,82.375 18.842,81.043 21.012,82.296L119.861,139.367C122.032,140.62 123.794,143.987 123.794,146.88Z"/>
         </clipPath>
         <g clip-path="url(#_clip1)">
-                <image x="17.08" y="81.825" width="159px" height="159px" href="/assets/images/site/holofoil.jpg"/>
+                <image x="17.08" y="81.825" width="159px" height="159px" href="/images/games/holofoil.jpg"/>
         </g>
         <image href="{{ artwork }}" x="0" y="0" width="500px" height="500px" transform="matrix(0.174074,0.100502,-9.66304e-18,0.201003,26.9183,85.7064)"  preserveAspectRatio="xMidYMid slice"/>
         <path d="M26.918,85.706L113.955,135.957L113.955,236.459L26.918,186.208L26.918,85.706Z" style="fill:none;stroke:#000;stroke-width:1px;"/>

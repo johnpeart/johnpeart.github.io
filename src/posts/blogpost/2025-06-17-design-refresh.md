@@ -34,7 +34,7 @@ Over time, I've experimented with different visual flourishes.
 I've tried a range of different header styles, including collapsing hamburger menus with glowing auras, like this:
 
 <figure>
-	<img src="/images/posts/2024/09/09/header-hover.png" alt="The header menu of my website during a previous experiment. The bar is full width and has a glow around it.">
+	<img src="/images/posts/2024-09-09-header-hover.png" alt="The header menu of my website during a previous experiment. The bar is full width and has a glow around it.">
 	<figcaption>A previous iteration of my header menu faded into the background until you hovered over it, which made it pop out with a glow. </figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ I had been gradually iterating towards a more glassy version. Up until a few thi
 Over the course of the past year or so, I've also added digital simulacrums of physical objects, like *Post-It* notes and *iPods nano*.
 
 <figure>
-	<img src="/images/posts/2024/09/30/sharing-music-on-my-blog/ipod-new.png" alt="A screenshot of a representation of an iPod nano in isometric perspective with cover art for the 2024 album for the Eurovision Song Contest">
+	<img src="/images/posts/2024-09-30-ipod-new.png" alt="A screenshot of a representation of an iPod nano in isometric perspective with cover art for the 2024 album for the Eurovision Song Contest">
 	<figcaption>These <em>iPods nano</em> are dynamically generated for each music selection highlighted on <a href="/music" title="Go to my music blog">my music blog</a>.</figcaption>
 </figure>
 

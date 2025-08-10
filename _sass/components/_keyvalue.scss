@@ -135,15 +135,24 @@
     &.key-value--with-image {
         grid-template-rows: auto auto;
         grid-gap: 0;
-                
-        & .key-value--image {
-            margin: auto;
-            grid-row: 1 / 5;
-            grid-column: 1 / 2;
+        
+        @media (min-width: 700px) {
+            grid-template-columns: 1fr 2fr;
         }
         
         & .key-value--label {
-            border-top: 3px solid var(--color);
+            @media (max-width: 700px) {
+                border-top: var(--border-width) solid var(--color);
+            }
+        }
+                
+        & .key-value--image {
+            margin: auto;
+            grid-column: 1 / 2;
+            
+            @media (min-width: 700px) {
+                grid-row: 1 / 5;
+            }
         }
         
     }
@@ -242,6 +251,14 @@ a.key-value--link {
 
 .key-value--image {
     width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+    object-fit: cover;    
+    
+    @media (min-width: 700px) {
+        height: 100%;
+        border-right: var(--border-width) solid var(--color);
+    }
+    
+    &.key-value--image--default {
+        aspect-ratio: 1/1;
+    }
 }

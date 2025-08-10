@@ -13,8 +13,13 @@ eleventyExcludeFromCollections: true
     "excerpt": "{{ item.data.excerpt | strip_html }}",
     {% if item.data.object.image -%}
     "image": "{{ item.data.object.image }}",
+    "imageStyle": "image--object",
+    {%- elsif item.data.image.file -%}
+    "image": "{{ item.data.image.file }}",
+    "imageStyle": "image--file",
     {%- elsif item.data.image -%}
     "image": "{{ item.data.image }}",
+    "imageStyle": "image--default",
     {% endif -%}
     "collection": "{{ item.data.collection | replace: 'blogpost', 'blog post' | capitalize }}"
   }{% unless forloop.last %},{% endunless %}

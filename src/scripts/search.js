@@ -45,7 +45,7 @@ function renderResults(results) {
         const li = document.createElement('li');
         
         if (post.image != null) {
-            li.className = 'key-value--item key-value--search key-value--with-image key-value--with-spacing';
+            li.className = 'key-value--item key-value--search key-value--with-image key-value--with-spacing key-value--' + post.imageStyle;
         } else {
             li.className = 'key-value--item key-value--search key-value--with-spacing';
         }
@@ -58,7 +58,7 @@ function renderResults(results) {
         if (post.image != null) {
             // Create the image element
             const postImage = document.createElement('img');
-            postImage.className = 'key-value--image';
+            postImage.className = 'key-value--image key-value--' + post.imageStyle;
             postImage.src = post.image;
             
             // Append child

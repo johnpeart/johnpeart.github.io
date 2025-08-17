@@ -12,7 +12,7 @@ blockquote {
 	left: auto;
 	right: auto;
 	
-	width: auto;
+	width: 100%;
 	
 	text-align: left;
     overflow-wrap: break-word;
@@ -56,6 +56,11 @@ blockquote {
         padding-bottom: 6px;
     }
 
+}
+
+blockquote.list {
+    border-radius: unset !important;
+    margin-top: calc(var(--pad) * 3) !important;
 }
 
 blockquote.quote {

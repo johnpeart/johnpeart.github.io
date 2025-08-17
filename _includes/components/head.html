@@ -6,6 +6,20 @@
         {%- assign siteUrl = site.url -%}
     {%- endif -%}
     
+    <!-- Hot load -->
+    <link rel="preconnect" href="{{ siteUrl }}" />
+	<link rel="preload" as="style" href="{{ siteUrl | append: '/styles/styles.css' }}">
+	<link rel="subresource" as="style" href="{{ siteUrl | append: '/styles/styles.css' }}">
+	<link rel="preload" as="script" href="{{ siteUrl | append: '/scripts/scroll-timeline.js' }}">
+    
+    <link rel="preload" href="/assets/fonts/regular.woff" as="font" />
+    <link rel="preload" href="/assets/fonts/regular.woff2" as="font" />
+    <link rel="preload" href="/assets/fonts/regular.eot" as="font" />
+    <link rel="preload" href="/assets/fonts/bold.woff" as="font" />
+    <link rel="preload" href="/assets/fonts/bold.woff2" as="font" />
+    <link rel="preload" href="/assets/fonts/bold.eot" as="font" />
+
+    
     {%- assign author = "John Peart" %}
 	{%- assign pageUrl = siteUrl | append: page.url | replace: 'index.html','' %}
     
@@ -134,7 +148,7 @@
 
     <!-- Build info -->
     <meta name="generator" content="{{ eleventy.generator }}">
-
+    
     <!-- Standard favicons -->
     <link rel="icon" href="{{ siteUrl }}/images/site/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="{{ siteUrl }}/images/site/favicon-large-png.png" type="image/png">

@@ -1,0 +1,6 @@
+<div class="object object--{{ object.type }}">
+    {% include "components/objects/{{ object.type | downcase | slugify }}.svg" %}  
+</div>
+<div class="object-metadata">
+    <h1 class="p-name align-center">{{ title }}</h1>
+</div>

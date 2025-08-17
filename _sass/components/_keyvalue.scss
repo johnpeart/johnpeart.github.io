@@ -93,7 +93,7 @@
     &.key-value--item--app-sheet {
         padding: 0;
         grid-template-columns: auto 1fr;
-        grid-template-rows: repeat(3, auto) repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto) 1fr;
         align-items: center;
         border: 0;
         grid-gap: 0;

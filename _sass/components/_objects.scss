@@ -1,15 +1,29 @@
-.music,
-.game {
-    display: grid;
-	margin: 0 auto;
-    align-items: center;
-    justify-items: center;
-    
-    svg {
-        width: 100%;
+.object {
+    margin: calc(var(--pad) * 4) 0;
+    width: 100%;
+}
+
+.object {
+    &.object--ipod-nano,
+    &.object--game-boy {
         max-width: 300px;
     }
+    
+    &.object--calendar-now,
+    &.object--calendar-weeknotes {
+        max-width: 600px;
+    }
+    
+    &.object--calendar-now,
+    &.object--calendar-weeknotes,
+    &.object--ipod-nano,
+    &.object--game-boy,
+    &.object--list,
+    &.object--note {
+        margin-inline: auto;
+    }
 }
+
 
 .object-metadata {
     text-align: center;

@@ -1,5 +1,7 @@
 ---
 layout: default
+object:
+    type: "calendar-now"
 ---
 
 {% assign collection = collections.now | sort: date %}
@@ -8,8 +10,7 @@ layout: default
 <article id="post-content" class="collection--now h-entry">
     
 	<header class="grid collection--now post-title">
-        {% include 'components/objects/now.svg' %}
-        <h1 class="weeknote-title p-name align-center">{{ title }}</h1>
+        {% include 'components/header/object.html' %}
     </header>
     
     <section class="grid post-body e-content">	

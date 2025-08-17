@@ -4,12 +4,17 @@ layout: default
 
 <article id="post-content" class="collection--{{ collection }} h-entry">
 	<header class="grid collection--{{ collection }} post-title">
-        {% include "components/header/{{ collection }}.html" %}
+        {% if object %}
+            {% include "components/header/object.html" %}
+        {% else %}
+            {% include "components/header/{{ collection }}.html" %}
+        {% endif %}
+        
+        {% if composite %}
+            {% include "components/images/composite.html" %}
+        {% endif %}
 	</header>
     
-    {% if composite %}
-        {% include "components/images/composite.html" %}
-    {% endif %}
 	            
 	<section class="grid post-body e-content">
 		{{ content }}

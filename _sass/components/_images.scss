@@ -1,12 +1,15 @@
 p > img,
 figure,
 .composite-image {
-    display: block;
     position: relative;
     box-sizing: border-box;
     max-width: 100%;
-    margin: calc(var(--pad) * 2) 0;
     padding: 0;
+}
+
+p > img,
+figure {
+    margin: calc(var(--pad) * 2) 0;    
 }
 
 img.hero {
@@ -59,24 +62,13 @@ p + figure {
     margin-top: var(--pad);
 }
 
-figure,
-.composite-image {
-
-    img {
-        display: block;
-        position: relative;
-        box-sizing: border-box;
-        width: 100%;
-        height: auto;
-        padding: 0;
-    }
-    
-    img,
-	picture source,
-	picture img {
-        border-radius: calc(var(--border-radius) * 2);
-	}
-
+figure img {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
 
 figcaption {
@@ -112,9 +104,27 @@ figcaption {
 picture .background {
     z-index: 1;
     aspect-ratio: 2/1;
+    object-fit: cover;
+}
 
-    &.cover { object-fit: cover; }
-    &.fill  { object-fit: fill; }
+.composite-image {
+    grid-column: popout;
+    
+    margin: 0 0 calc(var(--pad) * 4) 0;  
+    
+    border: var(--border-width) solid var(--color);
+    border-radius: calc(var(--border-radius) * 2);
+    box-shadow: var(--shadow-deep);
+    overflow: hidden;
+    
+    & img {
+        display: grid;
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
 }
 
 div.overlay {
@@ -127,13 +137,7 @@ div.overlay {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: calc(var(--border-radius) * 2);
     background: none;
-
-    &.overlay--eurovision {
-        padding: var(--pad);
-        border-radius: calc(var(--border-radius) * 2) calc(var(--border-radius) * 2) 0 0;
-    }
 }
 
 @each $value in 5, 10, 20, 50 {

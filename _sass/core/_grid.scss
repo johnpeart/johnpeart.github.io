@@ -48,6 +48,7 @@ body:has(.skip-link:focus) {
 
 .grid > header {
     display: grid;
+    grid-template-columns: subgrid;
 }
 
 .grid {
@@ -60,7 +61,8 @@ body:has(.skip-link:focus) {
     }
 }
 
-.grid > .object {
-    grid-column: content;
-    margin: calc(var(--pad) * 4) auto;
+.grid > header {
+    & > h1 {
+        grid-column: content;
+    }
 }

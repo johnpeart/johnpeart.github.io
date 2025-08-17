@@ -35,12 +35,9 @@
     {% if 
         page.url == '/social/search/' or
         page.url == '/social/ideas/' or
-        page.url == '/social/now/' or
         page.url == '/social/weeknotes/' or
         page.url == '/social/notes/' or
         page.url == '/social/lists/' or
-        page.url == '/social/photos/' or
-        page.url == '/social/games/' or
         page.url == '/social/goals/' or
         page.url == '/social/wishlist/'
     %}
@@ -49,9 +46,31 @@
         {% assign og-layout = 'with-image' %}
     {% endif %}
     
+    <!-- Weeknotes / Now --> 
+    {% if 
+        page.url == '/social/weeknotes/' or
+        page.url == '/social/now/' or
+    %}
+        {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
+        {% assign og-object = objectName | prepend: 'calendar-' %}
+        {% assign og-layout = 'with-image' %}
+    {% endif %}
+    
     <!-- Music --> 
     {% if page.url == '/social/music/' %}
         {% assign og-object = 'ipod-nano' %}
+        {% assign og-layout = 'with-image' %}
+    {% endif %}
+    
+    <!-- Games --> 
+    {% if page.url == '/social/games/' %}
+        {% assign og-object = 'game-boy' %}
+        {% assign og-layout = 'with-image' %}
+    {% endif %}
+    
+    <!-- Photos --> 
+    {% if page.url == '/social/photos/' %}
+        {% assign og-object = 'polaroid' %}
         {% assign og-layout = 'with-image' %}
     {% endif %}
     
@@ -85,9 +104,12 @@
     {% if pagination.data == 'collections.now' %}
         {% assign objectName = pagination.data | remove: 'collections.' %}
         {% assign og-layout = 'with-image' %}
-        {% assign og-object = objectName %}
+        {% assign og-object = objectName | prepend: 'calendar-' %}
+    {% elsif pagination.data == 'collections.weeknote' %}
+        {% assign objectName = pagination.data | remove: 'collections.' %}
+        {% assign og-layout = 'with-image' %}
+        {% assign og-object = objectName | prepend: 'calendar-' | append: 's' %}
     {% elsif 
-        pagination.data == 'collections.weeknote' or
         pagination.data == 'collections.note' or
         pagination.data == 'collections.list' or
         pagination.data == 'collections.goal' or
@@ -101,7 +123,7 @@
         {% assign og-background = 'green' %}
     {% elsif pagination.data == 'collections.photo' %}
         {% assign og-layout = 'with-image' %}
-        {% assign og-object = 'photos' %}
+        {% assign og-object = 'polaroid' %}
     {% elsif pagination.data == 'collections.music' %}
         {% assign og-layout = 'with-image' %}
         {% assign og-object = 'ipod-nano' %}

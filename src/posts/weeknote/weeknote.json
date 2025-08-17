@@ -2,5 +2,8 @@
    "layout": "blogpost",
    "collection": "weeknote",
    "categories": "weeknote",
-   "permalink": "/weeknote/{{ page.date | date: '%Y/%m/%d' }}/"
+   "permalink": "/weeknote/{{ page.date | date: '%Y/%m/%d' }}/",
+   "object": {
+        "type": "calendar-weeknotes"
+   }
 }

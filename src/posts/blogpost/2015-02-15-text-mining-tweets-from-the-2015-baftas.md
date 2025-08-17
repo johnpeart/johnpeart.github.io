@@ -80,7 +80,7 @@ Aside from the most popular actor of the evening &#8211; Eddie Redmayne &#8211; 
 
 ### Frequent Terms in Best Actor tweets
 
-![](/images/posts/2015-02-15-baftas-TermsBestActor.png){.rounded}
+![](/images/posts/2015-02-15-baftas-TermsBestActor.png){.rounded .popout}
 
 It seems Stephen Hawking was, in fact, the main reason for `stephen` being a top term in the overall corpus. `hawking` is the fourth most popular term in the corpus for Best Actor tweets.
 
@@ -88,13 +88,13 @@ Similar to the overall volume graphs, above, both Eddie Redmayne and Benedict Cu
 
 ### Frequent Terms in Best Actress tweets
 
-![](/images/posts/2015-02-15-baftas-TermsBestActress.png){.rounded}
+![](/images/posts/2015-02-15-baftas-TermsBestActress.png){.rounded .popout}
 
 Julianne Moore tops the frequent terms list for Best Actress &#8211; unsurprisingly &#8211; as does the film for which she won the award, Still Alice. In a strange reversal of trend, most people refer to Julianne Moore by her surname.
 
 ### Frequent Terms in Best Film tweets
 
-![](/images/posts/2015-02-15-baftas-TermsBestFilm.png){.rounded}
+![](/images/posts/2015-02-15-baftas-TermsBestFilm.png){.rounded .popout}
 
 The Theory of Everything is referred to more often than the other Best Film nominations here, congruent with the data previously seen. It seems everyone is wanting to wish a congratulations in this corpus too.
 
@@ -106,22 +106,22 @@ The word clouds here are limited to the 500 most frequent terms. I won’t talk 
 
 ### Word cloud of tweets with #EEBAFTAs
 
-![](/images/posts/2015-02-15-baftas-WordCloudAllTweets.png){.rounded}
+![](/images/posts/2015-02-15-baftas-WordCloudAllTweets.png){.rounded .popout}
 
 
 ### Word cloud of Best Actor tweets
 
-![](/images/posts/2015-02-15-baftas-WordCloudBestActor.png){.rounded}
+![](/images/posts/2015-02-15-baftas-WordCloudBestActor.png){.rounded .popout}
 
 
 ### Word cloud of Best Actress tweets
 
-![](/images/posts/2015-02-15-baftas-WordCloudBestActress.png){.rounded}
+![](/images/posts/2015-02-15-baftas-WordCloudBestActress.png){.rounded .popout}
 
 
 ### Word cloud of Best Film tweets
 
-![](/images/posts/2015-02-15-baftas-WordCloudBestFilm.png){.rounded}
+![](/images/posts/2015-02-15-baftas-WordCloudBestFilm.png){.rounded .popout}
 
 
 ## Associations between terms
@@ -132,7 +132,7 @@ Using clustering of the data, and removing the most sparse terms from each of th
 
 ### Association of terms in all tweets with #EEBAFTAs
 
-![](/images/posts/2015-02-15-baftas-DendrogramAllTweets.png){.rounded}
+![](/images/posts/2015-02-15-baftas-DendrogramAllTweets.png){.rounded .popout}
 
 Perhaps unsurprisingly, for the all tweets corpus, `#EEBAFTAs` forms the first cluster (top left). You would expect this, given every tweet in this corpus contains `#EEBAFTAs`. How the rest of the corpus breaks down is more interesting.
 
@@ -140,7 +140,7 @@ Terms relating to the announcement of awards and the red carpet itself dominate 
 
 ### Association of terms in Best Actor tweets
 
-![](/images/posts/2015-02-15-baftas-DendrogramBestActor.png){.rounded}
+![](/images/posts/2015-02-15-baftas-DendrogramBestActor.png){.rounded .popout}
 
 Unlike the whole corpus, `#EEBAFTAs` is not the most cohesive cluster in the Best Actor corpus. Instead, two large groups of clusters emerge &#8211; the most significant (right) purely relating to Eddie Redmayne and Benedict Cumberbatch.
 
@@ -148,7 +148,7 @@ The left tree of the dendrogram is comparatively much less focused, splitting in
 
 ### Association of terms in Best Actress tweets
 
-![](/images/posts/2015-02-15-baftas-DendrogramBestActress.png){.rounded}
+![](/images/posts/2015-02-15-baftas-DendrogramBestActress.png){.rounded .popout}
 
 The Best Actress corpus is more similar to the main corpus, in that #EEBAFTAs is quickly shown as a dominant term in the clustering, as is the winner of the category &#8211; Julianne Moore.
 
@@ -158,7 +158,7 @@ Perhaps most interestingly in this corpus, Julianne Moore’s film &#8211; *Stil
 
 ### Association of terms in Best Film tweets
 
-![](/images/posts/2015-02-15-baftas-DendrogramBestFilm.png){.rounded}
+![](/images/posts/2015-02-15-baftas-DendrogramBestFilm.png){.rounded .popout}
 
 The Best Film corpus calls out #EEBAFTAs as a key cluster early on, and is most related to *The Theory of Everything* (terms: `theory`, `everything`) and *Boyhood*. *Birdman*, *The Imitation Game* and *The Grand Budapest Hotel* are distinct from these two films.
 

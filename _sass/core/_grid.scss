@@ -48,13 +48,16 @@ body:has(.skip-link:focus) {
 
 .grid > header {
     display: grid;
-    grid-column: popout;
 }
 
-.grid > figure,
-.grid > table,
-.grid > .mobile-overflow {
-    grid-column: popout;
+.grid {
+    & > header,
+    & > figure,
+    & > :has(.popout),
+    & > table,
+    & > .mobile-overflow {
+        grid-column: popout;
+    }
 }
 
 .grid > .object {

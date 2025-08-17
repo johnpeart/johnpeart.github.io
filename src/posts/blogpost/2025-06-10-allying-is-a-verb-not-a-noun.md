@@ -6,7 +6,7 @@ excerpt: "Don't be an ally, do allying."
 categories:
 - blogpost
 - LGBT
-- presentation
+- slides
 ---
 
 This month marks the anniversary of [the Stonewall uprising](https://www.johnpe.art/note/1751112000/); or as you might more commonly hear it referred to, “Pride Month”.[^1]
@@ -23,13 +23,13 @@ This is what I said to them[^2].
 
 [^2]: I have recreated the slides I used, and slightly amended the speaking notes for clarity. 
 
-![Text: Pride](/images/presentation/allying-is-a-verb-not-a-noun/slide1.jpg){.rounded}
+![Text: Pride](/images/presentation/allying-is-a-verb-not-a-noun/slide1.jpg){.rounded .slide .popout}
 
 This summer, many of us will be celebrating LGBT+ pride.
 
 I'm going to give you a quick explanation of what that is, why I think it still matters and what that means for **you**, even if you're not LGBT+.
 
-![Text: What is it?](/images/presentation/allying-is-a-verb-not-a-noun/slide2.jpg){.rounded}
+![Text: What is it?](/images/presentation/allying-is-a-verb-not-a-noun/slide2.jpg){.rounded .slide .popout}
 
 So, what is pride?
 
@@ -57,27 +57,27 @@ It's a chance to remember how far we've come in creating a diverse and inclusive
 
 It's a celebration, but it's also a protest and a reminder of how far we still have to go on that journey.
 
-![Text: Why is it important?](/images/presentation/allying-is-a-verb-not-a-noun/slide5.jpg){.rounded}
+![Text: Why is it important?](/images/presentation/allying-is-a-verb-not-a-noun/slide5.jpg){.rounded .slide .popout}
 
 So it's been going on for more than half a century. Why should we still care about it now?
 
 I'm going to show you some data from a government survey – the National LGBT Survey – conducted in 2018, and some Civil Service People Survey results from 2019.
 
-![Text: More than two-thirds of respondents to the National LGBT Survey said they would avoid holding hands with a same-sex partner in public for fear of a negative reaction.](/images/presentation/allying-is-a-verb-not-a-noun/slide6.jpg){.rounded}
+![Text: More than two-thirds of respondents to the National LGBT Survey said they would avoid holding hands with a same-sex partner in public for fear of a negative reaction.](/images/presentation/allying-is-a-verb-not-a-noun/slide6.jpg){.rounded .slide .popout}
 
 Of the 108,000 LGBT+ people that responded to the [National LGBT survey](https://www.gov.uk/government/publications/national-lgbt-survey-summary-report) – at the time, the largest survey of its kind ever conducted – two-thirds of respondents said that they avoided holding hands with their same-sex partner in public because they feared the negative repercussions.
 
-![Text: 67% of trans respondents to the National LGBT Survey said they avoid being open about their gender identity for fear of a negative reaction.](/images/presentation/allying-is-a-verb-not-a-noun/slide7.jpg){.rounded}
+![Text: 67% of trans respondents to the National LGBT Survey said they avoid being open about their gender identity for fear of a negative reaction.](/images/presentation/allying-is-a-verb-not-a-noun/slide7.jpg){.rounded .slide .popout}
 
 In that same survey, of the respondents who identified as trans, 67% of them said they avoided sharing with other people that they are trans – again, because they feared the negative reaction.
 
-![Text: These experiences extend to the workplace too...](/images/presentation/allying-is-a-verb-not-a-noun/slide8.jpg){.rounded}
+![Text: These experiences extend to the workplace too...](/images/presentation/allying-is-a-verb-not-a-noun/slide8.jpg){.rounded .slide .popout}
 
 So pride still matters because people don't feel safe to be themselves in public.
 
 And those feelings and experiences extend into the workplace too...
 
-![Text: LGBT+ civil servants responding to the Civil Service People Survey said they experience bullying, harassment and discrimination twice as often as cisgender and straight staff](/images/presentation/allying-is-a-verb-not-a-noun/slide9.jpg){.rounded}
+![Text: LGBT+ civil servants responding to the Civil Service People Survey said they experience bullying, harassment and discrimination twice as often as cisgender and straight staff](/images/presentation/allying-is-a-verb-not-a-noun/slide9.jpg){.rounded .slide .popout}
 
 In the [2019 Civil Service People Survey](https://www.gov.uk/government/publications/civil-service-people-survey-2019-results), when you break down the responses by peoples' sexual orientation and whether or not they are transgender, you find that almost twice as many LGBT+ staff say they'd experienced bullying, harassment and discrimination as those who were not LGBT+.[^3]
 
@@ -85,19 +85,19 @@ In the [2019 Civil Service People Survey](https://www.gov.uk/government/publicat
 
 Transgender staff, in particular, experience some of the highest rates of bullying, harassment and discrimination of any group in the Civil Service.
 
-![Text: So what?](/images/presentation/allying-is-a-verb-not-a-noun/slide10.jpg){.rounded}
+![Text: So what?](/images/presentation/allying-is-a-verb-not-a-noun/slide10.jpg){.rounded .slide .popout}
 
 So that's what pride is and a few examples of why it still matters, but so what? 
 
 Why should you care about it? Especially if you're not LGBT+?
 
-![Text: I come with a challenge...](/images/presentation/allying-is-a-verb-not-a-noun/slide11.jpg){.rounded}
+![Text: I come with a challenge...](/images/presentation/allying-is-a-verb-not-a-noun/slide11.jpg){.rounded .slide .popout}
 
 Well, whilst many LGBT+ people will celebrate pride this year, I come with a challenge for the more than 90% of people here today that are not LGBT+.
 
 This challenge doesn't relate to pride and LGBT+ inclusion; it's a universal message that applies to us all, in many different contexts.
 
-![Text: “I am an ally”](/images/presentation/allying-is-a-verb-not-a-noun/slide12.jpg){.rounded}
+![Text: “I am an ally”](/images/presentation/allying-is-a-verb-not-a-noun/slide12.jpg){.rounded .slide .popout}
 
 These words are a common phrase used across our workplaces in recent years.
 
@@ -109,7 +109,7 @@ Maybe you have said these words out loud. Or you think you could say them.
 
 So the start of my challenge is this:
 
-![A large red cross covering some text. Text: “I am an ally”](/images/presentation/allying-is-a-verb-not-a-noun/slide13.jpg){.rounded}
+![A large red cross covering some text. Text: “I am an ally”](/images/presentation/allying-is-a-verb-not-a-noun/slide13.jpg){.rounded .slide .popout}
 
 If you are the person who usually says "I am an ally", I challenge you to stop doing that.
 
@@ -117,7 +117,7 @@ Don't be an ally.
 
 Or, more specifically, don't *call* yourself an ally.
 
-![Text: It's a verb, not a noun](/images/presentation/allying-is-a-verb-not-a-noun/slide14.jpg){.rounded}
+![Text: It's a verb, not a noun](/images/presentation/allying-is-a-verb-not-a-noun/slide14.jpg){.rounded .slide .popout}
 
 My challenge to you is to think about it as a verb, and not as a noun.
 
@@ -127,13 +127,13 @@ It's not a badge of honour. It's a call to action.
 
 It's a promise to act.
 
-![Text: Don't be an ally. Do allying.](/images/presentation/allying-is-a-verb-not-a-noun/slide15.jpg){.rounded}
+![Text: Don't be an ally. Do allying.](/images/presentation/allying-is-a-verb-not-a-noun/slide15.jpg){.rounded .slide .popout}
 
 Don't be an ally. Do allying.
 
 You have to *do* something to make a meaningful difference to the stats that I shared earlier on.
 
-![A list of activities you can do to “do allying” (see speaker notes below)](/images/presentation/allying-is-a-verb-not-a-noun/slide16.jpg){.rounded}
+![A list of activities you can do to “do allying” (see speaker notes below)](/images/presentation/allying-is-a-verb-not-a-noun/slide16.jpg){.rounded .slide .popout}
 
 And there are loads of things you could do. Big and small.
 
@@ -159,7 +159,7 @@ Or, if you're living nearby one, go to a pride event. Watch and show your suppor
 
 The list is almost endless!
 
-![Text: Happy pride. Do allying!](/images/presentation/allying-is-a-verb-not-a-noun/slide17.jpg){.rounded}
+![Text: Happy pride. Do allying!](/images/presentation/allying-is-a-verb-not-a-noun/slide17.jpg){.rounded .slide .popout}
 
 So that's what pride is, why it still matters, and a challenge to you to ally yourself to LGBT+ people.
 

@@ -30,7 +30,7 @@ I could have physically visited the surgery, collected a paper form, and dutiful
 
 In this quest for digital fulfilment, I was first presented by this:
 
-![My local GP’s website](/images/posts/2016-11-02-21st-century-health-service.png){.rounded}
+![My local GP’s website](/images/posts/2016-11-02-21st-century-health-service.png){.rounded .popout}
 
 Maybe I've been spoilt by central government’s continuous push towards a [single domain](http://gov.uk), and it’s [award winning design](https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013), but this website was not what I was expecting.
 

@@ -148,9 +148,9 @@ The exact way that Alceste completes the analysis has been extensively detailed 
     </tbody>
 </table>
 
-![Figure 1][fig-1]{.rounded}
+![Figure 1][fig-1]{.rounded .popout}
 
-![Figure 2][fig-2]{.rounded}
+![Figure 2][fig-2]{.rounded .popout}
 
 Over 100,000 words were analysed across 397 instances of speech; Table 3 shows the basic results. Whilst the 2010 Act corpus is smaller than the 2012 Act, both attain reasonably robust classifications (82% and 65%). Figures 1-2 show the ‘descendant hierarchical classifications’; these map how closely each class is related to another. An analysis of the most significant word forms and ECUs for each class reveals similar topics of discussion running across both corpora. Classes 1, 3, and 4 in the 2010 corpus, broadly equate to Classes 3, 1, and 2 respectively in the 2012 corpus — though the size of each class is quite different. One class — ‘Consumer credit market and financial education’ — is missing from the latter corpus. One likely explanation for this is the significant amount of lobbying and media attention given to financial education during this period (cf. BBC News, 2010). This was absent from the 2012 Act debates. Some characteristic ECUs for this class include:
 
@@ -195,9 +195,9 @@ In both corpora, Conservative party members dominate the ‘Parliamentary langua
 
 If the critical junctures theory is correct in positing a cycle of policy failure, paradigm shift and emulation, then it seemingly doesn’t apply in the case of the FSA. If it did apply, we would expect to see consistent, policy-failure-based argument against the FSA, and that this argument be more prevalent in the later corpus, when the Conservatives, as the proponents of the policy, would need to most strongly make their case to gain the support of their coalition partners. Instead, we see simple rhetoric and arguments of political failure. There is no paradigm shift apparent in this latter corpus; and no policy failure to spark it. Instead, we see party politics taking centre stage in the Parliamentary debates.
 
-![Figure 3][fig-3]{.rounded}
+![Figure 3][fig-3]{.rounded .popout}
 
-![Figure 4][fig-4]{.rounded}
+![Figure 4][fig-4]{.rounded .popout}
 
 ## Conclusion
 

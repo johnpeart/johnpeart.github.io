@@ -197,6 +197,19 @@
     
     <head>
         <meta name="robots" content="noindex,nofollow" />
+        
+        <!-- Hot load -->
+        <link rel="preconnect" href="{{ siteUrl }}" />
+        <link rel="preload" as="style" href="{{ siteUrl | append: '/styles/opengraph.css' }}">
+        <link rel="subresource" as="style" href="{{ siteUrl | append: '/styles/opengraph.css' }}">
+        
+        <link rel="preload" href="/assets/fonts/regular.woff" as="font" />
+        <link rel="preload" href="/assets/fonts/regular.woff2" as="font" />
+        <link rel="preload" href="/assets/fonts/regular.eot" as="font" />
+        <link rel="preload" href="/assets/fonts/bold.woff" as="font" />
+        <link rel="preload" href="/assets/fonts/bold.woff2" as="font" />
+        <link rel="preload" href="/assets/fonts/bold.eot" as="font" />
+        
     	<link rel="stylesheet" href="/styles/opengraph.css">
     </head>
 

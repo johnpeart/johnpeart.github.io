@@ -2,6 +2,7 @@
 date: 2025-04-06T10:00:00+00:00
 title: "Mini Motorways"
 object:
+    type: "iOS"
     platform: "iOS"
     color:
         h: 35
@@ -20,18 +21,21 @@ None of these are complex things to understand. Making it work effectively is al
 
 *Mini Motorways* is a game of chance as much as it is skill. You will always lose; but how long can you go without your city grinding to a complete stop? That’s the addictive gameplay loop that keeps me coming back.
 
-<section class="app-sheet card">
-    <dl class="dl--app">
-        <img class="app-icon large" src="/images/games/mini-motorways.jpeg" alt="Mini Motorways app icon">
-        <dt class="app-name-label sr-only">App name</dt>
-        <dd class="app-name">Mini Motorways</dd>
-        <dt class="app-description-label sr-only">Developer</dt>
-        <dd class="app-description">Dinosaur Polo Club</dd>
-        <dt class="app-type-label sr-only">Type</dt>
-        <dd class="app-type">Game</dd>
-        <dt class="app-first-label">Available on</dt>
-        <dd class="app-first"><a href="https://apps.apple.com/gb/app/mini-motorways/id1453901000">Apple Arcade</a></dd>
-        <dt class="app-second-label">Price</dt>
-        <dd class="app-second">£6.99 per month</dd>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">App icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/games/mini-motorways.jpeg" alt="Mini Motorways app icon">
+        </dd>
+        <dt class="key-value--key sr-only">App name</dt>
+        <dd class="key-value--value"><strong>Mini Motorways</strong></dd>
+        <dt class="key-value--key sr-only">Developer</dt>
+        <dd class="key-value--value small-text secondary-text">Dinosaur Polo Club</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">Game</dd>
+        <dt class="key-value--key">Available on</dt>
+        <dd class="key-value--value align-right"><a href="https://apps.apple.com/gb/app/mini-motorways/id1453901000">Apple Arcade</a></dd>
+        <dt class="key-value--key">Price</dt>
+        <dd class="key-value--value align-right">£6.99 per month</dd>
     </dl>
 </section>

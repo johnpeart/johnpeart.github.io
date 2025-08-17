@@ -19,6 +19,7 @@
     margin: 0;
     
     &.key-value--app-list {
+        width: 100%;
         max-width: 600px;
         margin: 0 auto calc(var(--pad) * 3) auto;
         border: 3px solid var(--color);
@@ -97,6 +98,9 @@
         border: 0;
         grid-gap: 0;
         
+        width: 100%;
+        max-width: 700px;
+        
         & .key-value--value--app-icon {
             grid-row: 1 / 4;
         }
@@ -107,11 +111,14 @@
                 padding: var(--pad);
             }
             &:nth-child(4) {
-                padding-top: var(--pad);
+                padding: var(--pad) var(--pad) 0 0;
                 font-size: clamp(24px, 5.6vw, 35px);
             }
+            &:nth-child(6) {
+                padding: 0 var(--pad) 0 0;
+            }
             &:nth-child(8) {
-                padding-bottom: var(--pad);
+                padding: 0 var(--pad) var(--pad) 0;
             }
             &:nth-child(n+9) {
                 padding: var(--pad);

@@ -2,10 +2,6 @@ blockquote {
     display: inline-block;
 }
 
-blockquote :first-child {
-    padding-top: 0;
-}
-
 .post-body.e-content blockquote {
     display: block;
 	position: relative;

@@ -6,18 +6,13 @@ layout: page
 
 <section id="pride-on">
 
-	<div class="container">
+	<div class="pod-description">
 
-		<div class="pod-description">
+		<img class="featured" src="{{ siteUrl | append: pod.data.artwork }}" alt="{{ pod.data.title }} artwork">
 
-			<img class="featured" src="{{ siteUrl | append: pod.data.artwork }}" alt="{{ pod.data.title }} artwork">
+		{{ pod.content | markdownify }}
 
-			{{ pod.content | markdownify }}
-
-			<p class="link"><a href="{{ pod.data.link }}" title="Visit the {{ pod.data.title }} website">Find out more</a></p>
-
-		</div>
-
+		<p class="link"><a href="{{ pod.data.link }}" title="Visit the {{ pod.data.title }} website">Find out more</a></p>
 
 	</div>
 

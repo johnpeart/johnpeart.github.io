@@ -11,9 +11,53 @@ body:has(.skip-link:focus) {
 	grid-template-rows: auto auto minmax(calc(100vh - 71px), auto) auto;
 }
 
-#page-content,
-#post-content,
-.post-body {
-    width: 100%;
-	margin-block-end: calc(var(--pad) * 4);
+.grid {
+    display: grid;
+    position: relative;
+    
+    --content-max-width: 1fr;
+        
+    grid-template-columns: 
+        [full-width-start] minmax(var(--pad),auto)
+        [popout-start] 0 
+        [content-start] 1fr 
+        [content-end] 0 
+        [popout-end] minmax(var(--pad),auto)
+        [full-width-end];
+    
+    grid-template-rows: auto;
+    
+    @media (min-width: 700px) {
+        --content-min-width: 640px;
+        --content-max-width: 900px;
+        
+        grid-template-columns: 
+            [full-width-start] minmax(var(--pad),auto) 
+            [popout-start] minmax(calc(var(--pad) * 2),calc(var(--pad) * 6))
+            [content-start] minmax(var(--content-min-width), var(--content-max-width))
+            [content-end] minmax(calc(var(--pad) * 2),calc(var(--pad) * 6))
+            [popout-end] minmax(var(--pad),auto) 
+            [full-width-end];
+        
+    }
+}
+
+.grid > * {
+    grid-column: content;
+}
+
+.grid > header {
+    display: grid;
+    grid-column: popout;
+}
+
+.grid > figure,
+.grid > table,
+.grid > .mobile-overflow {
+    grid-column: popout;
+}
+
+.grid > .object {
+    grid-column: content;
+    margin: calc(var(--pad) * 4) auto;
 }

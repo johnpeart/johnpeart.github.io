@@ -17,13 +17,7 @@
 
     padding: 0 var(--pad); 
 
-    max-width: 100%;
-    @media (min-width: 700px) {
-        max-width: 640px;
-    }
-    @media (min-width: 1100px) {
-        max-width: 900px;
-    }
+    max-width: 930px;
 }
 
 /* This is the main menu bar */

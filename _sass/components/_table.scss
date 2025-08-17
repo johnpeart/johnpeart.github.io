@@ -7,7 +7,7 @@
     }
 }
 
-table {
+table {    
     table-layout: fixed;
     font-size: clamp(18px, 3vw, 24px);
     width: 100%;
@@ -17,13 +17,6 @@ table {
     border-top-left-radius: calc(var(--border-radius) * 2);
     border-top-right-radius: calc(var(--border-radius) * 2);
     border: 3px solid var(--color);
-    
-    @media (min-width: 1100px)  {
-        margin-bottom: 30px;
-        width: 1100px;
-        margin-right: -115px;
-        margin-left: -115px;
-    }
     
     &::after {
         content: unset !important;

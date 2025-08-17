@@ -2,8 +2,7 @@
 @import 
     "variables/_colours",
     "variables/_shadows",
-    "variables/_sizing",
-    "variables/_containers";
+    "variables/_sizing";
     
 @import 
     "overrides/_padding",
@@ -17,7 +16,6 @@
     "helpers/_hidden";
 
 @import 
-    "core/_containers",
     "core/_grid",
     "core/_global",
     "core/_transitions";

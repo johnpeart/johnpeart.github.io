@@ -5,14 +5,14 @@ layout: default
 {% assign collection = collections.now | sort: date %}
 
 {% for item in collection limit: 1 %}
-<article id="post-content" class="container collection--now h-entry">
+<article id="post-content" class="collection--now h-entry">
     
-	<header class="collection--now post-title">
+	<header class="grid collection--now post-title">
         {% include 'components/objects/now.svg' %}
         <h1 class="weeknote-title p-name align-center">{{ title }}</h1>
     </header>
     
-    <section class="post-body e-content">	
+    <section class="grid post-body e-content">	
         {{ item.content }}
         
         {% for posse in page.posse %}
@@ -23,7 +23,7 @@ layout: default
 </article>
 {% endfor %}
 
-<footer class="padding-top container" style="background-position: top; --mult: 2;">
+<footer class="grid padding-top" style="background-position: top; --mult: 2;">
 
     <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
     {% for item in collection offset: 1 %}

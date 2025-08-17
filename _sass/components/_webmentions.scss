@@ -13,10 +13,6 @@ article.interaction {
 	padding: calc(var(--pad) * 2) 0 calc(var(--pad) * 3);
 }
 
-footer aside.interactions {
-    grid-area: webmentions;
-}
-
 .h-entry.list .interactions.counts,
 .h-entry.note .interactions.counts,
 .h-entry.photo .interactions.counts {

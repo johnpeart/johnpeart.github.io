@@ -4,28 +4,9 @@ figure,
     display: block;
     position: relative;
     box-sizing: border-box;
-    
-    --width: 100%;
-    
-    width: var(--w);
     max-width: 100%;
     margin: calc(var(--pad) * 2) 0;
     padding: 0;
-
-    @media (min-width: 700px) {
-        --w: 720px;
-        --container: 610px;
-        --m: calc(calc(var(--w) - var(--container)) / 2 * -1);
-        
-        max-width: unset;
-        margin: calc(var(--pad) * 3) var(--m) calc(var(--pad) * 3);
-    }
-
-    @media (min-width: 1100px) {
-        --w: 1100px;
-        --container: 870px;
-    }
-
 }
 
 img.hero {

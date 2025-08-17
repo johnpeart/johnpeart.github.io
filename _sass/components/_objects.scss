@@ -11,16 +11,8 @@
     }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    svg.jiggle:hover {
-        animation: jiggle 0.2s infinite;
-    }
-    svg.rise-and-fall:hover {
-        animation: rise-and-fall .75s infinite alternate-reverse;
-    }
-    svg.bounce:hover {
-        animation: rise-and-fall .25s infinite alternate-reverse;
-    }
+.object-metadata {
+    text-align: center;
 }
 
  svg#gameboy {

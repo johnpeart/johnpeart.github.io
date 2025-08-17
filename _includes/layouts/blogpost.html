@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<article id="post-content" class="container collection--{{ collection }} h-entry">
-	<header class="collection--{{ collection }} post-title">
+<article id="post-content" class="collection--{{ collection }} h-entry">
+	<header class="grid collection--{{ collection }} post-title">
         {% include "components/header/{{ collection }}.html" %}
 	</header>
     
@@ -11,7 +11,7 @@ layout: default
         {% include "components/images/composite.html" %}
     {% endif %}
 	            
-	<section class="post-body e-content">
+	<section class="grid post-body e-content">
 		{{ content }}
         
         {% if collection == 'photo' %}

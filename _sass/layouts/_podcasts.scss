@@ -33,10 +33,9 @@ body#podcast {
         p {
             color: var(--white);
         }
-
-        div.container {
-            padding-top: 15px;
-            padding-bottom: 15px;
+        
+        div.pod-description {
+            padding: calc(var(--pad) * 2);
 
             background:  var(--magenta);
             background-image: url('/images/podcasts/pride-on-arrows.svg');
@@ -44,15 +43,14 @@ body#podcast {
             background-position: center;
             background-repeat: no-repeat;
 
-            @include clearfix;
-        }
-
-        div.pod-description {
+            
             max-width: 65ch;
 
             float: left;
-            margin: 50px 30px;
+            margin: calc(var(--pad) * 2) 0;
 
+            @include clearfix;
+            
             p:last-child {
                 padding-bottom: 0;
             }
@@ -103,11 +101,6 @@ body#podcast {
             }
         }
 
-    }
-
-    footer#site-footer section.container {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
     }
 
 }

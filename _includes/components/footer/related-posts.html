@@ -1,25 +1,23 @@
 {% if related %}
 {% assign related_links = related %}
-<footer class="padding-top" style="background-position: top; --mult: 2;">
-    <div class="container">
-        <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
-            
-            <h1 class="key-value--heading key-value--heading--small">Related posts</h1>
-            <ul class="related-posts key-value">
-            {% for item in related_links %}
-                {% assign related_post = collections.allPosts | where: "url", item | first %}
-                {% if related_post %}
-                <li class="key-value--item">
-                    <a class="key-value--link" href="{{ related_post.url }}" {% if alt %}title="{{ alt }}"{% endif %}>
-                        <p class="key-value--value small-text secondary-text"><time datetime="{{ related_post.date | date: '%Y-%m-%d'}}">{{ related_post.date | date: "%-d %B %Y" }}</time></p>
-                        <p class="key-value--key">{{ related_post.data.title }}</p>
-                    </a>
-                </li>
-                {% endif %}
-            {% endfor %}
-            </ul>
+<footer class="grid padding-top" style="background-position: top; --mult: 2;">
+    <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
         
-        </aside>
-    </div>
+        <h1 class="key-value--heading key-value--heading--small">Related posts</h1>
+        <ul class="related-posts key-value">
+        {% for item in related_links %}
+            {% assign related_post = collections.allPosts | where: "url", item | first %}
+            {% if related_post %}
+            <li class="key-value--item">
+                <a class="key-value--link" href="{{ related_post.url }}" {% if alt %}title="{{ alt }}"{% endif %}>
+                    <p class="key-value--value small-text secondary-text"><time datetime="{{ related_post.date | date: '%Y-%m-%d'}}">{{ related_post.date | date: "%-d %B %Y" }}</time></p>
+                    <p class="key-value--key">{{ related_post.data.title }}</p>
+                </a>
+            </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    
+    </aside>
 </footer>
 {% endif %}

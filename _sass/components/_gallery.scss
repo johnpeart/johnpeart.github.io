@@ -1,4 +1,6 @@
 .gallery {
+    grid-column: full-width;
+    
     display: grid;
     padding: 0 var(--pad);
     margin: calc(var(--pad) * 3) 0;

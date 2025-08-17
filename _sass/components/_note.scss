@@ -23,12 +23,7 @@
     --post-it--corner:    hsl(327, 100%, 75%);
 }
 
-.note.content,
-.collection--note.post-title {
-    display: block;
-    position: relative;
-	justify-self: center;
-    
+.object.note {    
     width: 275px;
     @media (min-width: 700px) {
         width: 450px;

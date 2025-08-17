@@ -10,7 +10,7 @@ body[id$='now'] {
     }
 
     header.post-title[class^="collection--"] {
-        margin: calc(var(--pad) * 4) auto;
+        margin: calc(var(--pad) * 4) auto 0;
         text-align: center;
     }
 

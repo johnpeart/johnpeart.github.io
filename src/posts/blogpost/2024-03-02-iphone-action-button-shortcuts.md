@@ -86,26 +86,36 @@ Separating out the creation of the menu from the running of the menu means there
 
 If you want to use this set up, the two Shortcuts are available to download below.
 
-<section class="app-sheet card">
-<dl class="dl--app">
-<img class="app-icon large" src="/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
-<dt class="app-name-label sr-only">Shortcut name</dt>
-<dd class="app-name">Save the Action Button Menu</dd>
-<dt class="app-description-label sr-only">Description</dt>
-<dd class="app-description">Converts multiple Shortcuts to a .vcf file</dd>
-<dt class="app-first-label">Download</dt>
-<dd class="app-first"><a href="https://www.icloud.com/shortcuts/ac610efca3c54a3b9792f9b7f1c5b871" title="Download the Save the Action Button Menu Shortcut from iCloud.com">iCloud</a></dd>
-</dl>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">Shortcut icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
+        </dd>
+        <dt class="key-value--key sr-only">Shortcut name</dt>
+        <dd class="key-value--value"><strong>Save the Action Button Menu</strong></dd>
+        <dt class="key-value--key sr-only">Description</dt>
+        <dd class="key-value--value small-text secondary-text">Converts multiple Shortcuts to a .vcf file</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">Apple Shortcut</dd>
+        <dt class="key-value--key">Download</dt>
+        <dd class="key-value--value align-right"><a href="https://www.icloud.com/shortcuts/ac610efca3c54a3b9792f9b7f1c5b871" title="Download the Save the Action Button Menu Shortcut from iCloud.com">iCloud</a></dd>
+    </dl>
 </section>
 
-<section class="app-sheet card">
-<dl class="dl--app">
-<img class="app-icon large" src="/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
-<dt class="app-name-label sr-only">Shortcut name</dt>
-<dd class="app-name">Actions</dd>
-<dt class="app-description-label sr-only">Description</dt>
-<dd class="app-description">A Shortcut for displaying a .vcf file as a menu</dd>
-<dt class="app-first-label">Download</dt>
-<dd class="app-first"><a href="https://www.icloud.com/shortcuts/e50892dd936045b3864320be67ae0b0b" title="Download the Actions Shortcut from iCloud.com">iCloud</a></dd>
-</dl>
+<section class="key-value key-value--app-list">
+    <dl class="key-value--item key-value--item--app-sheet">
+        <dt class="key-value--key sr-only">Shortcut icon</dt>
+        <dd class="key-value--value key-value--value--app-icon">
+            <img class="app-icon large" src="/images/posts/2024-03-02-command.png" alt="Command (Four leaf clover) symbol on a green background">
+        </dd>
+        <dt class="key-value--key sr-only">Shortcut name</dt>
+        <dd class="key-value--value"><strong>Actions</strong></dd>
+        <dt class="key-value--key sr-only">Description</dt>
+        <dd class="key-value--value small-text secondary-text">A Shortcut for displaying a .vcf file as a menu</dd>
+        <dt class="key-value--key sr-only">Type</dt>
+        <dd class="key-value--value small-text secondary-text">Apple Shortcut</dd>
+        <dt class="key-value--key">Download</dt>
+        <dd class="key-value--value align-right"><a href="https://www.icloud.com/shortcuts/e50892dd936045b3864320be67ae0b0b" title="Download the Actions Shortcut from iCloud.com">iCloud</a></dd>
+    </dl>
 </section>

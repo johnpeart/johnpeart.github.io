@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article id="post-content" class="collection--{{ collection }} h-entry">
+	<header class="grid collection--{{ collection }} post-title">
+        {% include "components/header/slides.html" %}
+	</header>
+    
+	<section class="grid post-body e-content">
+        
+        {{ content }}
+        
+        {% for posse in posse %}
+		<a rel="syndication" class="u-syndication" href="{{ posse }}"></a>
+		{% endfor %}
+	</section>
+</article>
+
+{% include "components/webmentions/blogpost.html" %}
+
+{% include "components/footer/post.html" %}
+
+
+

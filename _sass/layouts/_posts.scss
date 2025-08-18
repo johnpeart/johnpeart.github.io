@@ -33,3 +33,25 @@ article#post-content.reply {
         margin: calc(var(--pad) * 6) auto 0;
     }
 }
+
+body[id$='slides'] .slides {
+    grid-column: popout;
+    
+    @media (min-width: 700px) {
+        display: grid;
+        grid-template-columns: 
+            [slide-start] 1fr [slide-end content-start] 1fr [content-end];
+        grid-gap: calc(var(--pad) * 2);
+        
+        & > figure,
+        & > p:has(img.slide) {
+            grid-column: slide;
+        }
+        & > p {
+            grid-column: 1 / 3;
+        }
+        & > blockquote {
+            grid-column: content;
+        }
+    }
+}

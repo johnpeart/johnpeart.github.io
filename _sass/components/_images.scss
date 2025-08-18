@@ -12,6 +12,25 @@ figure {
     margin: calc(var(--pad) * 2) 0;    
 }
 
+@media (min-width: 700px) {
+    figure.slide,
+    p:has(.slide) {
+        height: 100%;
+    }
+    p > img.slide {
+        position: sticky;
+        top: 115px;
+    }
+}
+
+figure.slide,
+p > img.slide {
+    margin: 0;
+    > figcaption { 
+        margin: 0 0 clamp(22px, 3vw, 32px);
+    }
+}
+
 img.hero {
     border: none;
     border-radius: unset;

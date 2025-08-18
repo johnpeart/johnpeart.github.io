@@ -80,6 +80,7 @@ module.exports = function(eleventyConfig) {
         "podcast", 
         "reply", 
         "share", 
+        "slides", 
         "weeknote"
     ];
 
@@ -107,6 +108,7 @@ module.exports = function(eleventyConfig) {
         "podcast", 
         "reply", 
         "share", 
+        "slides", 
         "weeknote"
     ];
 
@@ -127,6 +129,7 @@ module.exports = function(eleventyConfig) {
         "photo", 
         "game", 
         "share", 
+        "slides", 
         "weeknote"
     ];
 
@@ -149,6 +152,7 @@ module.exports = function(eleventyConfig) {
         "now", 
         "photo", 
         "podcast", 
+        "slides", 
         "weeknote"
     ];
 

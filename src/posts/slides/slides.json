@@ -1,0 +1,6 @@
+{
+   "layout": "slides",
+   "collection": "slides",
+   "categories": "slides",
+   "permalink": "/slides/{{ page.fileSlug }}/"
+}

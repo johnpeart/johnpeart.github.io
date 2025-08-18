@@ -58,6 +58,10 @@ list:
       collection: "game"
       link:
         internal: /games/
+    - name: "Slides"
+      collection: "slides"
+      link:
+        internal: /slides/
     - name: "Replies"
       collection: "reply"
       link:

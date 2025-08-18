@@ -5,7 +5,8 @@
 
 .object {
     &.object--ipod-nano,
-    &.object--game-boy {
+    &.object--game-boy, 
+    &.object--iOS {
         max-width: 300px;
     }
     
@@ -18,6 +19,7 @@
     &.object--calendar-weeknotes,
     &.object--ipod-nano,
     &.object--game-boy,
+    &.object--iOS,
     &.object--list,
     &.object--note {
         margin-inline: auto;

@@ -39,7 +39,7 @@
     background: linear-gradient(to right, var(--background--translucent) 0px, transparent 100%);
     border: 3px solid var(--color);
     border-radius: calc(var(--border-radius) * 2);
-    backdrop-filter: blur(500px) saturate(500%);
+    backdrop-filter: blur(100px) contrast(1.5) saturate(200%);
     box-shadow: var(--shadow-deep);
 }
 

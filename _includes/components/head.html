@@ -8,6 +8,7 @@
     
     <!-- Hot load -->
     <link rel="preconnect" href="{{ siteUrl }}" />
+    <link rel="preload" as="script" href="{{ siteUrl | append: '/scripts/scroll-timeline.js' }}">
 	<link rel="preload" as="style" href="{{ siteUrl | append: '/styles/styles.css' }}">
     
     {%- assign author = "John Peart" %}

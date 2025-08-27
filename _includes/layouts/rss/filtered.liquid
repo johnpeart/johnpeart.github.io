@@ -92,9 +92,9 @@
 			        &lt;/p&gt;
 			        &lt;blockquote&gt;
 				        {%- if post.data.reply_to.post.image %}
-				        &lt;img src=&quot;{{ post.data.reply_to.post.image }}&quot; alt=&quot;{{ post.image-alt }}&quot; /&gt;
+				        &lt;img src=&quot;{{ post.data.reply_to.post.image | xml_escape }}&quot; alt=&quot;{{ post.image-alt | xml_escape }}&quot; /&gt;
 				        {%- endif %}
-				        {%- if post.data.reply_to.post.title %}&lt;h2&gt;&lt;a href=&quot;{{ post.data.reply_to.post.url }}&quot;&gt;{{ post.data.reply_to.post.title }}&lt;/a&gt;&lt;/h2&gt;{%- endif %}
+				        {%- if post.data.reply_to.post.title %}&lt;h2&gt;&lt;a href=&quot;{{ post.data.reply_to.post.url }}&quot;&gt;{{ post.data.reply_to.post.title | xml_escape }}&lt;/a&gt;&lt;/h2&gt;{%- endif %}
 				        {%- if post.data.reply_to.post.content %}
 				        {{ post.data.reply_to.post.content | markdownify | xml_escape }}
 				        {%- elsif post.data.reply_to.post.description %}

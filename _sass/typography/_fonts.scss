@@ -33,7 +33,7 @@
     -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
     font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
-    font-display: fallback;
+    font-display: swap;
 }
 
 @font-face {
@@ -71,7 +71,7 @@
     -webkit-font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
     font-feature-settings:    "ss02", "tnum", "liga", "zero", "kern";
 
-    font-display: fallback;
+    font-display: swap;
 }
 
 @font-face {

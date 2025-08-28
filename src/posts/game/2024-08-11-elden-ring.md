@@ -7,6 +7,7 @@ object:
     image: "/images/games/elden-ring.jpg"
     
 related:
+- /game/1752009060/
 - /game/1746224580/
 - /game/1735476840/
 ---

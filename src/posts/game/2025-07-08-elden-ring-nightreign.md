@@ -7,6 +7,7 @@ object:
     image: "/images/games/elden-ring-nightreign.jpg"
     
 related:
+- /game/1746224580/
 - /game/1735476840/
 - /game/1723392000/
 ---

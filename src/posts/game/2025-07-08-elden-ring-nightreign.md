@@ -13,7 +13,7 @@ related:
 
 This is *Elden Ring*. And it is not *Elden Ring*.
 
-The landscapes, controls, weapons and enemies are all familiar, but the gameplay loop is entirely new (or, at least, new for a FromSoft game). The open world role-playing game elements are swapped out for a 45-minute, multiplayer looping rogue-like format.
+The landscapes, controls, weapons and enemies are all familiar, but the gameplay loop is entirely new (or, at least, new for a *FromSoft* game). The open world role-playing game elements are swapped out for a 45-minute, multiplayer looping rogue-like format.
 
 The Platinum trophy for this game was fairly straightforward; mostly involving beating all the bosses in different combinations. 
 
@@ -25,6 +25,6 @@ When you die to a boss, you have to restart the whole, 45-minute round again; so
 
 Every weapon and upgrade is down to the Random Number Generator in game; and all the good stuff – or at least, any of the stuff I like to use – is desperately rare.
 
-The mechanics might be limited but the gameplay is fun. Every run is a deeply chaotic. The new two-player option is great too.
+The mechanics might be limited but the gameplay is fun. Every run is deeply chaotic. The new two-player option is great too.
 
 My most major criticism is its depth. You run out of unique things to do pretty quickly. It’s a paid-for-upfront game that is screaming out for live-service treatment. There will be a DLC coming before the end of the year, and I hope that breathes some additional life into it before people get bored of it and stop playing!

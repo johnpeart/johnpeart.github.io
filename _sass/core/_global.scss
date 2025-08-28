@@ -15,10 +15,13 @@ html {
 
     font-kerning:  auto;
     letter-spacing: normal;
-
+    
+    background: var(--background);
+    color: var(--color);
+    
+    text-underline-offset: 0.1lh;
 }
 
-html,
 body {
     background: var(--background);
     color: var(--color);

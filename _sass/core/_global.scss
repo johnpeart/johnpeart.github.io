@@ -9,16 +9,19 @@ html {
     font-style: normal;
     font-weight: normal;
     
-    font-family: "JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", Roboto, "Segoe UI", Arial, sans-serif;-webkit-font-smoothing: antialiased;
+    font-family: "JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", Roboto, "Segoe UI", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-optical-sizing: auto;
+    font-variant-ligatures: common-ligatures no-discretionary-ligatures no-historical-ligatures contextual;
     text-rendering: optimizeLegibility;
-
-    font-kerning:  auto;
+    font-kerning:  normal;
     letter-spacing: normal;
     
     background: var(--background);
     color: var(--color);
     
+    text-decoration-skip-ink: auto;
     text-underline-offset: 0.1lh;
 }
 

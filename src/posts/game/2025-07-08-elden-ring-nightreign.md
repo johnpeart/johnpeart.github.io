@@ -1,5 +1,5 @@
 ---
-date: 2025-05-02T22:23:00+00:00
+date: 2025-07-08T21:11:00+00:00
 title: “Elden Ring Nightreign”
 object:
     platform: "PlayStation"

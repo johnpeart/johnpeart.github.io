@@ -10,6 +10,9 @@ list:
     - name: "Black Castle"
       description: "Cartridge"
       status: "Owned"
+    - name: "Chantey"
+      description: "Cartridge"
+      status: "Owned"
     - name: "Dr. Mario"
       description: "Cartridge"
       status: "Owned"
@@ -57,15 +60,10 @@ list:
       status: "Owned"
     - name: "Nintendo Game Boy Camera"
       description: "Cartridge"
-      price: "£28"
-      link: 
-        external: "https://uk.webuy.com/product-detail?id=SGBACC001&categoryName=GAME-BOY-ACCESSORIES&superCatN  me=&title=NINTENDO-OFFICIAL-GAME-BOY-GAME-BOY-COLOR-CAMERA&queryID=916FD59A9DAD1438EF9975B24AB2EC1  &position=1"
+      status: "Owned"
 
 - name: "Game Boy Color"
   items:
-    - name: "Chantey"
-      description: "Cartridge"
-      status: "Owned"
     - name: "D*fuzed"
       description: "Digital edition"
       price: "£10"
@@ -88,6 +86,9 @@ list:
       price: "£33"
       link: 
         external: "https://megacatstudios.com/products/kudzu"
+    - name: "Kero Kero Cowboy"
+      description: "Cartridge"
+      status: "Owned"
     - name: "Legend of Zelda: Link’s Awakening DX"
       description: "Cartridge"
       status: "Owned"
@@ -244,9 +245,7 @@ list:
       external: "https://uk.webuy.com/product-detail?id=045496733438C&categoryName=GAMEBOY-ADVANCE-SOFTWARE&superCatName=GAMING&title=&queryID=209534BDAAF7D760D329809725D0A3AE&position=8"
   - name: "Mario Kart: Super Circuit"
     description: "Cartridge"
-    price: "£12"
-    link: 
-      external: "https://uk.webuy.com/product-detail?id=045496731465C&categoryName=GAMEBOY-ADVANCE-SOFTWARE&superCatName=GAMING&title=&queryID=209534BDAAF7D760D329809725D0A3AE&position=3"
+    status: "Owned"
   - name: "Metroid: Fusion"
     description: "Cartridge"
     price: "£28"
@@ -310,6 +309,6 @@ list:
       external: "https://www.etsy.com/uk/listing/1818359445/blank-gameboy-flash-cart-gbgbc-4mb-rom"
 ---
 
-**This is list of all the Game Boy, Game Boy Color and Game Boy Advance games I already own or that I want to get.** If a price is shown next to a game, it means I'd like to get a physical cartridge.
+**This is list of all the *Game Boy*, *Game Boy Color* and *Game Boy Advance* games I already own or that I want to get.** If a price is shown next to a game, it means I'd like to get a physical cartridge.
 
 ---

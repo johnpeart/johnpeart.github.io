@@ -36,7 +36,7 @@
 	border-top: 3px solid;
 	border-color: var(--color);
     
-    gap: calc(var(--pad) * 0.5) var(--pad);
+    gap: 0 var(--pad);
 
     &.key-value--no-border {
         border: none;

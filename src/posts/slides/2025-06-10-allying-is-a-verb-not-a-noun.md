@@ -89,7 +89,7 @@ This is what I said to them[^2].
 > 
 > Transgender staff, in particular, experience some of the highest rates of bullying, harassment and discrimination of any group in the Civil Service.
 
-[^3]: Whilst these figures come from the 2019 Civil Service people survey, the general trend has been the same for a long time and still is today. LGBT+ consistently report higher levels of bullying, harassment and discrimination than other staff do.
+[^3]: Whilst these figures come from the 2019 Civil Service people survey, the general trend has been the same for a long time and still is today. LGBT+ people in the Civil Service consistently report higher levels of bullying, harassment and discrimination than other staff do.
 
 ![Text: So what?](/images/presentation/allying-is-a-verb-not-a-noun/slide10.jpg){.rounded .slide .popout}
 
@@ -155,7 +155,7 @@ This is what I said to them[^2].
 > 
 > Check people's pronouns. Use and respect them.
 > 
-> Help our your workplace LGBT+ network.
+> Help out your workplace LGBT+ network.
 > 
 > Or, if you're living nearby one, go to a pride event. Watch and show your support at the marches that take place.
 > 

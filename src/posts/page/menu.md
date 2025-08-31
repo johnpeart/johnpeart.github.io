@@ -78,6 +78,10 @@ list:
         internal: /feeds/
 - name: "Other"
   items:
+    - name: "Blogroll"
+      label: "🔗"
+      link:
+        internal: /blogroll/
     - name: "Goals"
       label: "🎯"
       link:

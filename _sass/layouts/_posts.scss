@@ -5,8 +5,7 @@ body[id$='now'] {
     section.post-body ul > li::before {
         position: absolute;
         content: "\2014";
-
-        left: var(--pad);
+        margin-left: calc(clamp(30px, 3vw, 40px) * -1);
     }
 
     header.post-title[class^="collection--"] {

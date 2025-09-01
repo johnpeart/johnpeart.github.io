@@ -3,4 +3,8 @@
 </div>
 <div class="object-metadata">
     <h1 class="p-name align-center">{{ title }}</h1>
+    {% if object.artist %}
+    <p class="sr-only">by</p>
+    <p class="lead secondary-text">{{ object.artist }}</p>
+    {% endif %}
 </div>

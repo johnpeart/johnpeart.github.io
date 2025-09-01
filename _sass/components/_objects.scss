@@ -29,6 +29,15 @@
 
 .object-metadata {
     text-align: center;
+    
+    &:has(p) {
+        h1 {
+            padding: 0 0 var(--pad);
+        }
+        p {
+            padding-bottom: clamp(45px, 6vw, 75px);
+        }
+    }
 }
 
  svg#gameboy {

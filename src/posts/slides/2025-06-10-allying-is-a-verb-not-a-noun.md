@@ -4,7 +4,6 @@ title: "“Ally” is a verb, not a noun"
 author: "John Peart"
 excerpt: "Don't be an ally, do allying."
 categories:
-- blogpost
 - LGBT
 - slides
 

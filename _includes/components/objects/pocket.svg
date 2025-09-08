@@ -79,7 +79,7 @@
                     </g>
                 </g>
                 <g id="Screen" transform="matrix(2.83125,0,0,1.93797,349.5,75.4745)">
-                    <image filter="url(#pixelate)" x="0" y="0" width="160px" height="144px" xlink:href="{{ screenshot }}{{ screenshotCount | default: '001' }}{{ screenshotFormat | default: '.png' }}"/>
+                    <image filter="url(#pixelate)" x="0" y="0" width="160px" height="144px" xlink:href="{{ object.screenshot }}{{ screenshotCount | default: '001' }}{{ screenshotFormat | default: '.png' }}"/>
                 </g>
                 <g id="LensShine" transform="matrix(-1.00873,0,0,-0.693724,2389.68,433.107)">
                     <path d="M2084,63.676L1519.72,574C1514.91,574 1511,570.113 1511,565.324L1511,63.676C1511,58.887 1514.91,55 1519.72,55L2075.28,55C2080.09,55 2084,58.887 2084,63.676Z" style="fill:white;fill-opacity:0.22;"/>

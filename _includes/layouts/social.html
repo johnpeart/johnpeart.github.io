@@ -1,0 +1,75 @@
+---
+---
+{% comment %}
+    This template generates HTML to display as an Opengraph image of 1200px width by 630px height.
+    The HTML page is used by the Eleventy API to generate a screenshot, as set out here:
+    https://www.11ty.dev/docs/services/opengraph/
+    
+    This template does not generate at run time - it uses client side Javascript to produce dynamic content.
+{% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+        
+        <!-- Hot load -->
+        <link rel="preconnect" href="{{ siteUrl }}" />
+        <link rel="preload" as="style" href="{{ siteUrl | append: '/styles/opengraph.css' }}">
+        <link rel="subresource" as="style" href="{{ siteUrl | append: '/styles/opengraph.css' }}">
+        
+        <link rel="preload" href="/assets/fonts/regular.woff" as="font" />
+        <link rel="preload" href="/assets/fonts/bold.woff" as="font" />
+        
+    	<link rel="stylesheet" href="/styles/opengraph.css">
+    </head>
+
+    <body>
+        <div id="opengraph" class="og-layout--default">
+            <div id="og-site">
+                John Peart
+            </div>
+            <div id="og-image"></div>
+            <div id="og-title">
+                <h1 class="title"></h1>
+            </div>
+        </div>
+        
+        <script>
+            const params = new URLSearchParams(window.location.search);
+        
+            const layout = params.get("layout");
+            const object = params.get("object");
+            const image = params.get("image");
+            const title = params.get("title");
+        
+            const opengraph = document.getElementById("opengraph");
+            const ogImage = document.getElementById("og-image");
+            const ogTitle = document.querySelector("#og-title .title");
+        
+            // Set layout class
+            if (layout) {
+                opengraph.className = `og-layout--${layout}`;
+            }
+        
+            // Optionally apply "object" as an extra class
+            if (object) {
+                opengraph.classList.add(`og-object--${object}`);
+            }
+        
+            // Set image background
+            if (image) {
+                ogImage.style.backgroundImage = `url(${image})`;
+                ogImage.style.backgroundSize = "cover";
+                ogImage.style.backgroundPosition = "center";
+            }
+        
+            // Set title text
+            if (title) {
+                ogTitle.textContent = title;
+            }
+        </script>
+    </body>
+    
+</html>

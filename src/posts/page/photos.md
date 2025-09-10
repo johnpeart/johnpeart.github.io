@@ -6,4 +6,6 @@ collection: photo
 permalink: /photos/
 aliases:
 - /photo/
+object:
+    type: "polaroid"
 ---

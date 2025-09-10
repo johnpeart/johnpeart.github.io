@@ -1,0 +1,4 @@
+---
+layout: "opengraph"
+permalink: "/opengraph/"
+---

@@ -1,0 +1,36 @@
+{%- assign ogLayout = ogLayout | prepend: "&layout=" -%}
+{%- assign ogTitle = title | prepend: "&title=" -%}
+{%- if ogTitleClass -%}{%- assign ogTitleClass = ogTitleClass | prepend: "&title-class=" -%}{%- endif -%}
+{%- if ogImage -%}{%- assign ogImage = ogImage | prepend: "&image=" -%}{%- endif -%}
+{%- if ogObject -%}{%- assign ogObject = ogObject | prepend: "&object=" -%}{%- endif -%}
+{%- if collection -%}{%- assign ogCollection = collection | prepend: "&collection=" -%}{%- endif -%}
+    
+{%- comment -%} 
+    The /opengraph/ pages in this site take a series of URL parameters
+    and then output those parameters into the template.
+    
+    The parameters are:
+    - layout
+    - title
+    - title-class
+    - object
+    - image
+    - collection
+{%- endcomment -%}
+{%- assign ogParams =   "?" | append: ogLayout | append: ogTitle | append: ogTitleClass | append: ogImage | append: ogObject | append: ogCollection -%}
+{%- assign ogURL = siteURL | append: "/opengraph/" | append: ogParams -%}
+{%- assign encodedURL = ogURL | url_encode -%}
+{%- assign now = 'now' | date: "%s" -%}
+
+{%- comment -%} 
+    Opengraph images are set to the Eleventy API as an encoded URL in the following format.
+    https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}
+{%- endcomment -%}
+{%- assign ogImageURL = 'https://v1.screenshot.11ty.dev/' | append: encodedURL | append: '/opengraph/' | append: now -%}
+
+<script>
+    console.log("{{- ogParams -}}");
+    console.log("{{- ogURL -}}");
+    console.log("{{- encodedURL -}}");
+    console.log("{{- ogImageURL -}}")
+</script>

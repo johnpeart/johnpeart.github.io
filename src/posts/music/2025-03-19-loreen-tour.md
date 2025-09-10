@@ -2,6 +2,7 @@
 date: 2025-03-19T19:00:00+00:00
 title: "UK and Ireland Tour 2025"
 object:
+    music: "album"
     image: "/images/music/loreen-2025-tour.jpg"
     artist: "Loreen"
 excerpt: "You wait 10 years to see one of your all-time favourite artists on tour; and then you get the chance to see her at least 3 times in 6 months!"

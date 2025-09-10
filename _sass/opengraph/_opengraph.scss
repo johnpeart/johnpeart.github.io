@@ -31,53 +31,25 @@ body {
     box-shadow: 0px 15px 0px var(--color);
     
     &.og-layout--default {
-        grid-template-columns: 2fr 3fr;
         grid-template-rows: auto 1fr;
-        grid-template-areas: 
-            "og-site og-site"
-            "og-image og-title";    
-    }
-    
-    &.og-layout--home {
         grid-template-columns: 3fr 4fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "og-image og-title";
-        grid-gap: 30px;    
-    }
-    
-    &.og-layout--with-image-and-collection {
-        grid-template-columns: 2fr 3fr;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas: 
-            "og-site og-site"
-            "og-image og-title"
-            "og-collection og-collection";    
-    }
-    
-    &.og-layout--with-collection {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas: 
-            "og-site"
-            "og-title"
-            "og-collection";    
     }
     
     &.og-layout--with-title {
-        grid-template-columns: 1fr;
         grid-template-rows: auto 1fr;
-        grid-template-areas: 
-            "og-site"
-            "og-title";
+        grid-template-columns: 1fr;
     }
     
     &.og-layout--with-image {
-        grid-template-columns: 1fr;
         grid-template-rows: auto 1fr;
-        grid-template-areas: 
-            "og-site"
-            "og-image";
+        grid-template-columns: 1fr;
     }
+    
+    &.og-layout--with-object {
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+    }
+    
 }
 
 #og-title,
@@ -87,17 +59,12 @@ body {
     display: grid;
 }
 
-#og-title {
-    grid-area: og-title;
-}
-
 #og-site {
-    grid-area: og-site;
+    grid-column: 1 / -1;
     border-bottom: var(--border-width) solid var(--color);
 }
 
 #og-collection {
-    grid-area: og-collection;
     border-top: var(--border-width) solid var(--color);
 }
 
@@ -110,38 +77,8 @@ body {
     text-transform: capitalize;
 }
 
-#og-image {
-    grid-area: og-image;
-}
-
-#opengraph[class*="with-image-and-collection"] #og-title,
-#opengraph[class*="with-image"] #og-title,
-#opengraph[class*="default"] #og-title {
-    border-left: var(--border-width) solid var(--color);
-    align-items: end;
-}
-
-#opengraph[class*="with-collection"] #og-title,
-#opengraph[class*="with-title"] #og-title {
+#og-title {
     align-items: center;
-}
-
-#opengraph[class*="with-image-and-collection"] #og-image {
-    img {
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
-
-#opengraph[class*="home"] {
-    * {
-        padding: 0;
-    }
-    h1 {
-        align-content: end;
-    }
 }
 
 h1.title {
@@ -180,7 +117,7 @@ p.lead {
 img,
 svg {
     max-height: 500px;
-    padding: 30px;
+    padding: 45px 0 0;
 }
 
 .padding-bottom--0 {

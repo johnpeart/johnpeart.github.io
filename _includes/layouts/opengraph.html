@@ -4,193 +4,9 @@
     This template generates HTML to display as an Opengraph image of 1200px width by 630px height.
     The HTML page is used by the Eleventy API to generate a screenshot, as set out here:
     https://www.11ty.dev/docs/services/opengraph/
+    
+    This template does not generate at run time - it uses client side Javascript to produce dynamic content.
 {% endcomment %}
-
-{% comment %}
-    Set the defaults
-{% endcomment %}
-
-    {% assign og-title = post.data.title %}
-    {% assign og-site = "John Peart" %}
-    {% assign og-collection = post.data.collection %}
-    {% assign og-image = null %}
-    {% assign og-object = null %}
-    {% assign og-layout = 'home' %}
-    {% assign og-background = 'background' %}
-
-{% comment %}
-    Set up for pages
-{% endcomment %}
-        
-    <!-- Search -->
-    <!-- Ideas -->
-    <!-- Now -->
-    <!-- Weeknotes --> 
-    <!-- Notes --> 
-    <!-- Lists --> 
-    <!-- Photos --> 
-    <!-- Games --> 
-    <!-- Goals --> 
-    <!-- Wishlist--> 
-    {% if 
-        page.url == '/social/search/' or
-        page.url == '/social/ideas/' or
-        page.url == '/social/weeknotes/' or
-        page.url == '/social/notes/' or
-        page.url == '/social/lists/' or
-        page.url == '/social/goals/' or
-        page.url == '/social/wishlist/'
-    %}
-        {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
-        {% assign og-object = objectName %}
-        {% assign og-layout = 'with-image' %}
-    {% endif %}
-    
-    <!-- Weeknotes / Now --> 
-    {% if 
-        page.url == '/social/weeknotes/' or
-        page.url == '/social/now/' or
-    %}
-        {% assign objectName = page.url | remove: 'social' | remove: '/' | remove: '.html' %}
-        {% assign og-object = objectName | prepend: 'calendar-' %}
-        {% assign og-layout = 'with-image' %}
-    {% endif %}
-    
-    <!-- Music --> 
-    {% if page.url == '/social/music/' %}
-        {% assign og-object = 'ipod-nano' %}
-        {% assign og-layout = 'with-image' %}
-    {% endif %}
-    
-    <!-- Games --> 
-    {% if page.url == '/social/games/' %}
-        {% assign og-object = 'game-boy' %}
-        {% assign og-layout = 'with-image' %}
-    {% endif %}
-    
-    <!-- Photos --> 
-    {% if page.url == '/social/photos/' %}
-        {% assign og-object = 'polaroid' %}
-        {% assign og-layout = 'with-image' %}
-    {% endif %}
-    
-    <!-- Replies --> 
-    <!-- Reposts --> 
-    {% if 
-        page.url == '/social/replies/' or
-        page.url == '/social/share/' 
-    %}
-        {% assign og-layout = 'with-title' %}
-        {% assign og-title--override = 'title--large' %}
-    {% endif %}
-
-{% comment %}
-    Set up for collections
-{% endcomment %}
-
-    <!-- Blog posts --> 
-    {% if pagination.data == 'collections.blogpost' %}
-        {% assign og-layout = 'with-title' %}
-    {% endif %}
-    
-    <!-- Now -->
-    <!-- Weeknotes --> 
-    <!-- Notes --> 
-    <!-- Lists --> 
-    <!-- Photos --> 
-    <!-- Music --> 
-    <!-- Games--> 
-    <!-- Goals--> 
-    {% if pagination.data == 'collections.now' %}
-        {% assign objectName = pagination.data | remove: 'collections.' %}
-        {% assign og-layout = 'with-image' %}
-        {% assign og-object = objectName | prepend: 'calendar-' %}
-    {% elsif pagination.data == 'collections.weeknote' %}
-        {% assign objectName = pagination.data | remove: 'collections.' %}
-        {% assign og-layout = 'with-image' %}
-        {% assign og-object = objectName | prepend: 'calendar-' | append: 's' %}
-    {% elsif 
-        pagination.data == 'collections.note' or
-        pagination.data == 'collections.list' or
-        pagination.data == 'collections.goal' or
-    %}
-        {% assign objectName = pagination.data | remove: 'collections.' %}
-        {% assign og-layout = 'with-image' %}
-        {% assign og-object = objectName | append: 's' %}
-    {% elsif pagination.data == 'collections.game' %}
-        {% assign og-layout = 'with-image' %}
-        {% assign og-object = post.data.object.platform | downcase | slugify %}
-        {% assign og-background = 'green' %}
-    {% elsif pagination.data == 'collections.photo' %}
-        {% assign og-layout = 'with-image' %}
-        {% assign og-object = 'polaroid' %}
-    {% elsif pagination.data == 'collections.music' %}
-        {% assign og-layout = 'with-image' %}
-        {% assign og-object = 'ipod-nano' %}
-    {% endif %}
-    
-    <!-- Replies -->
-    {% if pagination.data == 'collections.reply' %}
-        {% assign og-title = post.data.reply_to.post.title %}
-        {% assign og-layout = 'with-collection' %}
-    {% endif %}
-    
-    <!-- Reposts -->
-    {% if pagination.data == 'collections.share' %}
-        {% assign og-title = post.data.reply_to.post.title %}
-        {% assign og-layout = 'with-image-and-collection' %}
-    {% endif %}
-    
-
-{% comment %}
-    Background colours
-{% endcomment %}
-    
-    {% if 
-        page.url == '/social/search/' or
-        page.url == '/social/wishlist/' or
-        page.url == '/social/music/' or
-        pagination.data == 'collections.music'
-    %}
-        {% assign og-background = 'yellow' %}
-    {% elsif page.url == '/social/ideas/' %}
-        {% assign og-background = 'orange' %}
-    {% elsif 
-        page.url == '/social/now/' or
-        pagination.data == 'collections.now' or
-        page.url == '/social/weeknotes/' or
-        pagination.data == 'collections.weeknote' or
-        page.url == '/social/lists/' or
-        pagination.data == 'collections.list' or
-        page.url == '/social/goals/' or
-        pagination.data == 'collections.goal'
-    %}
-        {% assign og-background = 'blue' %}
-    {% elsif 
-        page.url == '/social/notes/' or
-        pagination.data == 'collections.note' or
-        page.url == '/social/photos/' or
-        pagination.data == 'collections.photo'
-    %}
-        {% assign og-background = 'magenta' %}
-    {% elsif page.url == '/social/games/' %}
-        {% assign og-background = 'green' %}
-    {% endif %}
-
-{% comment %}
-    Images
-{% endcomment %}
-
-    {% if post.data.object %} 
-        {% assign og-image = post.data.object.image %}
-    {% elsif post.data.image.file %} 
-        {% assign og-image = post.data.image.file %}
-        {% assign og-background = post.data.image.bg %}
-    {% elsif post.data.image %} 
-        {% assign og-image = post.data.image %}
-    {% elsif post.data.reply_to.post.image %}
-        {% assign og-image = post.data.reply_to.post.image %}
-    {% endif %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -204,19 +20,121 @@
         <link rel="subresource" as="style" href="{{ siteUrl | append: '/styles/opengraph.css' }}">
         
         <link rel="preload" href="/assets/fonts/regular.woff" as="font" />
-        <link rel="preload" href="/assets/fonts/regular.woff2" as="font" />
-        <link rel="preload" href="/assets/fonts/regular.eot" as="font" />
         <link rel="preload" href="/assets/fonts/bold.woff" as="font" />
-        <link rel="preload" href="/assets/fonts/bold.woff2" as="font" />
-        <link rel="preload" href="/assets/fonts/bold.eot" as="font" />
         
     	<link rel="stylesheet" href="/styles/opengraph.css">
     </head>
 
-    <body class="{{- pagination.data | slugify }}">
-        <div id="opengraph" class="og-layout--{{ og-layout }}">        
-            {% include 'components/opengraph/{{ og-layout }}.html' %}
+    <body>
+        <div id="opengraph" class="">        
+            <div id="og-site">
+                John Peart
+            </div>
+            <div id="og-default-image">
+                <img id="image" src="/images/me/me.svg">
+            </div>
+            <div id="og-image">
+
+            </div>
+            <div id="og-title">
+                <h1 class="title">Hello.</h1>
+            </div>
+            <div id="og-object">
+                <div id="game-boy">
+                    {% include 'components/objects/game-boy.svg' %}
+                </div>
+                <div id="calendar-weeknotes">
+                    {% include 'components/objects/calendar-weeknotes.svg' %}
+                </div>
+                <div id="calendar-now">
+                    {% include 'components/objects/calendar-now.svg' %}
+                </div>
+                <div id="ios">
+                    {% include 'components/objects/ios.svg' %}
+                </div>
+                <div id="ipod-nano">
+                    {% include 'components/objects/ipod-nano.svg' %}
+                </div>
+                <div id="polaroid">
+                    {% include 'components/objects/polaroid.svg' %}
+                </div>
+            </div>
+            <div id="og-collection">
+                
+            </div>
         </div>
+        
+        <script>
+            const params = new URLSearchParams(window.location.search);
+        
+            const layout = params.get('layout');
+            const object = params.get('object');
+            const image = params.get('image');
+            const title = params.get('title');
+            const titleClass = params.get('title-class');
+            const day = params.get('day');
+            const month = params.get('month');
+        
+            // Set layout class
+            document.getElementById('opengraph').className = `og-layout--${layout}`;
+            
+            const colors = ['--blue', '--red', '--green', '--cyan', '--yellow', '--orange', '--purple'];
+            const randomColorVar = colors[Math.floor(Math.random() * colors.length)];
+            const randomColor = getComputedStyle(document.documentElement).getPropertyValue(randomColorVar).trim();
+            
+            if (layout == 'default') {
+                document.getElementById('og-object').remove();
+                document.getElementById('og-collection').remove();
+                document.getElementById('og-image').remove();
+                document.querySelector('.title').classList.add('title--large');
+            } else if (layout == 'with-title') {
+                document.getElementById('og-image').remove();
+                document.getElementById('og-default-image').remove();
+                document.getElementById('og-object').remove();
+                document.getElementById('og-collection').remove();
+                document.querySelector('.title').textContent = title;
+                
+                if (titleClass) { 
+                    document.querySelector('.title').classList.add(titleClass);
+                }
+            } else if (layout == 'with-image') {
+                document.getElementById('og-title').remove();
+                document.getElementById('og-default-image').remove();
+                document.getElementById('og-object').remove();
+                document.getElementById('og-collection').remove();
+                
+                // Set image background
+                ogImage = document.getElementById('og-image');
+                ogImage.style.backgroundImage = `url(${image})`;
+                ogImage.style.backgroundSize = '95% 95%';
+                ogImage.style.backgroundRepeat = 'no-repeat';
+                ogImage.style.backgroundPosition = 'center';
+                ogImage.style.backgroundColor = randomColor;
+
+            } else if (layout == 'with-object') {
+                document.getElementById('og-title').remove();
+                document.getElementById('og-default-image').remove();
+                document.getElementById('og-image').remove();
+                document.getElementById('og-collection').remove();
+                document.getElementById("og-object").style.backgroundColor = randomColor;
+                
+                // Select all divs that match possible object classes
+                const ids = ['game-boy', 'ios', 'ipod-nano', 'polaroid', 'calendar-now', 'calendar-weeknotes'];
+                // Loop through and remove divs that don't match
+                ids.forEach(id => {
+                  if (id !== object) {
+                    const el = document.getElementById(id);
+                    if (el) el.remove();
+                  }
+                });
+                if (['game-boy', 'ios', 'polaroid', 'ipod-nano'].includes(object)) {
+                    document.getElementById('opengraphImage').setAttribute('href', image);
+                } else if (['calendar-now', 'calendar-weeknotes'].includes(object)) {
+                    document.getElementById('calendar-day').textContent = day;
+                    document.getElementById('calendar-month').textContent = month;
+                }
+            }
+        </script>
     </body>
     
 </html>

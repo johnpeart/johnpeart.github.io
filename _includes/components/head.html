@@ -6,80 +6,40 @@
         {%- assign siteUrl = site.url -%}
     {%- endif -%}
     
+	{%- assign pageUrl = siteUrl | append: page.url | replace: 'index.html','' %}
+
+    {% comment %}
+        These `includes` set the {{ title }} and {{ description }}
+        variable for each page, based on the layout and/or collection of that page.
+    {% endcomment %}
+    {%- include 'components/head/title.html' -%}
+    {%- include 'components/head/description.html' -%}
+    
+    {% comment %}
+        These `includes` set the {{ ogType }} / og:type variable for each page, 
+        based on the layout collection of that page.
+    {% endcomment %}
+    {%- include 'components/head/og-type.html' -%}
+    
+    {% comment %}
+        These `includes` set the {{ og[variable] }} variables that are used to generate
+        social images for each page. Templates are at /opengraph/{{ layout }}.
+    {% endcomment %}
+    {%- include 'components/head/og-layout.html' -%}
+    {%- include 'components/head/og-image.html' -%}
+    {%- include 'components/head/og-object.html' -%}
+    {%- include 'components/head/og-params.html' -%}
+    
+    {% comment %}
+        Trim the variables
+    {% endcomment %}
+    {%- assign title = title | strip_html | truncate: 200 -%}
+    {%- assign description = description | strip_html | truncate: 200 -%}
+    
     <!-- Hot load -->
     <link rel="preconnect" href="{{ siteUrl }}" />
     <link rel="preload" as="script" href="{{ siteUrl | append: '/scripts/scroll-timeline.js' }}">
 	<link rel="preload" as="style" href="{{ siteUrl | append: '/styles/styles.css' }}">
-    
-    {%- assign author = "John Peart" %}
-	{%- assign pageUrl = siteUrl | append: page.url | replace: 'index.html','' %}
-    
-	{%- if layout == "games" or layout == "goals" or layout == "loop" or layout == "music" or layout == "wishlist" -%}
-        {%- assign title = title | strip_html | truncate: 200 -%}
-        {%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 -%}
-        {%- assign type = "website" -%}
-    {%- elsif layout != "loop" -%}
-        {%- case collection -%}
-            {%- when "blogpost" -%}
-                {%- assign title = title | prepend: "📝 " | strip_html | truncate: 200 -%}
-                {%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 -%}
-                {%- assign type = "article" -%}
-            {%- when "now" -%}
-                {%- assign title = title | prepend: "🕒 " | strip_html | truncate: 200 -%}
-                {%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 -%}
-                {%- assign type = "article" -%}
-            {%- when "weeknote" -%}
-                {%- if title -%}
-                    {%- assign title = date | date: "%d %B %Y" | prepend: "📅 Weeknote: " | append: " • " | append: title | strip_html | truncate: 200 -%}
-                {%- else -%}
-                    {%- assign title = date | date: "%d %B %Y" | prepend: "📅 Weeknote: " | strip_html | truncate: 200 -%}
-                {%- endif -%}
-                {%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 -%}
-                {%- assign type = "article" -%}
-            {%- when "reply" -%}
-                {%- assign title = reply_to.author.name | prepend: "↩️ In reply to " | strip_html | truncate: 200 -%}
-                {%- assign description = page.content | strip_html | truncate: 200 -%}
-                {%- assign type = "reply" -%}
-                {%- assign image = siteUrl | append: site.image-path | append: site.reply-image -%}
-            {%- when "note" -%}
-                {%- assign title = title | prepend: "🗒️ " | strip_html | truncate: 200 -%}
-                {%- assign description = page.content | strip_html | truncate: 200 -%}
-                {%- assign type = "note" -%}
-            {%- when "list" -%}
-                {%- assign title = title | prepend: "☑️ " | strip_html | truncate: 200 -%}
-                {%- assign description = page.content | strip_html | truncate: 200 -%}
-                {%- assign type = "note" -%}
-            {%- when "share" -%}
-                {%- assign title = reply_to.post.title | prepend: "🔁 Commented on “" | append: "”" | strip_html | truncate: 200 -%}
-                {%- assign description = page.content | strip_html | truncate: 200 -%}
-                {%- assign type = "share" -%}
-            {%- when "music" -%}
-                {%- assign title = title | prepend: "🎧 Shared “" | append: "” by " | append: artist | strip_html -%}
-                {%- assign description = page.content | append: "by " | append: artist | strip_html | truncate: 200 -%}
-                {%- assign type = "music" -%}
-            {%- when "photo" -%}
-                {%- assign title = title | prepend: "📷 " | strip_html | truncate: 200 -%}
-                {%- assign description = page.content | strip_html | truncate: 200 -%}
-                {%- assign type = "photo" -%}
-            {%- when "game" -%}
-                {%- assign title = title | prepend: "🎮 Shared “" | append: "”" | strip_html | truncate: 200 -%}
-                {%- assign description = page.content | strip_html | truncate: 200 -%}
-                {%- assign type = "game" -%}
-            {%- else -%}
-                {%- if title -%}
-                    {%- assign title = title | strip_html | strip_newlines | truncate: 200 -%}
-                    {%- assign description = excerpt | strip_html | strip_newlines | truncate: 200 -%}
-                    {%- assign type = "article" -%}
-                {%- else -%}
-                    {%- assign title = site.title | strip_html | strip_newlines | truncate: 200 -%}
-                    {%- assign description = site.description | strip_html | strip_newlines | truncate: 200 -%}
-                    {%- assign type = "website" -%}
-                {%- endif -%}
-            {%- endcase -%}
-    {%- endif -%}
-
-    
-	{%- capture image %}{%- openGraphScreenshotURL %}{%- endcapture %}
     
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -87,7 +47,7 @@
 
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}">
-	<meta name="author" content="{{ author }}">
+	<meta name="author" content="John Peart">
 
 	<!-- Base URLS, duplicate URLs and feeds -->
 	<meta name="url" content="{{ siteUrl }}">
@@ -124,18 +84,18 @@
     <!-- Schema.org settings -->
     <meta itemprop="name" content="{{ title }}">
     <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="{{ image }}">
+    <meta itemprop="image" content="{{ ogImageURL }}">
     
     <!-- Facebook Open Graph settings -->
     <meta property="og:url" content="{{ pageUrl }}">
-    <meta property="og:type" content="{{ type }}">
+    <meta property="og:type" content="{{ ogType }}">
 	<meta property="og:title" content="{{ title }}">
 	<meta property="og:description" content="{{ description }}">
-	<meta property="og:image" content="{{ image }}">
-    <meta property="og:site_name" content="{{ author }}">
+	<meta property="og:image" content="{{ ogImageURL }}">
+    <meta property="og:site_name" content="John Peart">
     <meta property="og:locale" content="en_GB">
-    <meta property="article:author" content="{{ author }}">
-    <meta property="article:publisher" content="{{ author }}">
+    <meta property="article:author" content="John Peart">
+    <meta property="article:publisher" content="John Peart">
 
     <!-- Build info -->
     <meta name="generator" content="{{ eleventy.generator }}">

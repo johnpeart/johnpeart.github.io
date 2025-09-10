@@ -1,0 +1,23 @@
+{%- assign ogLayout = "with-title" -%}
+
+{%- case layout -%}
+    {%- when "home" -%}
+        {%- assign ogLayout = "default" -%}
+    {%- when "key-value" or "loop" -%}
+        {%- assign ogTitleClass = "title--medium" -%}
+    {%- when "goals" or "goal" -%}
+        {%- assign ogLayout = "with-image" -%}
+    {%- when "key-value" -%}
+        {%- case title %}
+            {%- when "Ideas" or "Wishlist" -%}
+                {%- assign ogLayout = "with-image" -%}
+        {%- endcase -%}
+{%- endcase-%}
+
+{%- case collection -%}
+    {%- when "note" or "list" -%}
+        {%- assign ogLayout = "with-image" -%}
+    {%- when "music" or "game" or "photo" -%}
+        {%- assign ogLayout = "with-object" -%}
+        {%- assign ogObject = object.type -%}
+{%- endcase -%}

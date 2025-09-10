@@ -1,0 +1,23 @@
+{%- case layout -%}
+    {%- when "goals" or "goal" -%}
+        {%- assign ogImage = "/images/objects/goals.svg" -%}
+    {%- when "key-value" -%}
+        {%- case title %}
+            {%- when "Ideas" -%}
+                {%- assign ogImage = "/images/objects/ideas.svg" -%}
+            {%- when "Wishlist" -%}
+                {%- assign ogImage = "/images/objects/wishlist.svg" -%}
+        {%- endcase -%}
+{%- endcase-%}
+
+{%- case collection -%}
+    {%- when "music" or "game" or "photo" -%}
+        {%- assign ogImage = post.data.object.image | default: object.image | default: image -%}
+    {%- when "list"-%}
+        {%- assign ogImage = "/images/objects/lists.svg" -%}
+    {%- when "note"-%}
+        {%- assign ogImage = "/images/objects/notes.svg" -%}
+    {%- else -%}
+        {%- if image.file -%}{%- assign ogImage = image.file -%}{%- endif -%}
+        {%- if image.bg -%}{%- assign ogImageBG = image.bg -%}{%- endif -%}
+{%- endcase -%}

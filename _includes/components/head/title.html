@@ -1,0 +1,18 @@
+{%- case layout -%}
+    {%- when "loop" or "gallery" -%}
+        {%- assign title = title -%}
+        
+    {%- else -%}
+        {%- case collection -%}
+            {%- when "weeknote" -%}
+                {%- assign title = date | date: "%d %B %Y" | prepend: "Weeknote: " -%}
+            {%- when "reply" -%}
+                {%- assign title = reply_to.author.name | prepend: "In reply to " -%}
+            {%- when "share" -%}
+                {%- assign title = reply_to.post.title | prepend: "Commented on “" | append: "”" | strip_html | truncate: 200 -%}
+            {%- when "music" -%}
+                {%- assign title = title | prepend: "“" | append: "” by " | append: object.artist | strip_html -%}
+            {%- else -%}
+            {%- assign title = title -%}
+        {%- endcase -%}
+{%- endcase -%}

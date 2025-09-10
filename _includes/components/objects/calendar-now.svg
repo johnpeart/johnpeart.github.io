@@ -46,8 +46,8 @@
     <path d="M276.253,65.505L271.923,68.005L271.923,45.005C271.923,28.448 283.565,21.726 297.904,30.005C312.243,38.284 323.885,58.448 323.885,75.005L323.885,83.005L319.553,81.535L319.554,74.505C319.554,60.707 309.853,43.904 297.904,37.005C285.954,30.106 276.253,35.707 276.253,49.505L276.253,65.505Z" style="fill:rgb(188,188,188);stroke:black;stroke-width:3px;"/>
     
     <g transform="matrix(0.821436,0,0,1.24089,-1996.18,-126.789)">
-        <text x="3055px" y="1330px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:144px;font-variant-numeric: tabular-nums;"  transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2007.51,922.716)">{{ date | date: "%d" | default: '01' }}</text>
-        <text x="3070px" y="1280px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:72px;fill:white; text-align: center;" transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2111.09,883.136)">{{ date | date: "%b" | default: 'Jan' | upcase }}</text>
+        <text id="calendar-day" x="3055px" y="1330px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:144px;font-variant-numeric: tabular-nums;"  transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2007.51,922.716)">{{ date | date: "%d" | default: '01' }}</text>
+        <text id="calendar-month" x="3070px" y="1280px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:72px;fill:white; text-align: center;" transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2111.09,883.136)">{{ date | date: "%b" | default: 'Jan' | upcase }}</text>
     </g>
     
     <g id="warp">

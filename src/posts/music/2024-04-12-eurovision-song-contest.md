@@ -2,6 +2,7 @@
 date: 2024-04-12T08:00:00+00:00
 title: "Eurovision Song Contest Malmö 2024"
 object:
+    music: "album"
     artist: "Various Artists"
     image: "/images/music/eurovision-2025.webp"
     itunes: "https://music.apple.com/gb/album/eurovision-song-contest-malmö-2024/1736817783"

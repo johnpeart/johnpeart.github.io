@@ -17,6 +17,11 @@
 {%- case collection -%}
     {%- when "note" or "list" -%}
         {%- assign ogLayout = "with-image" -%}
+    {%- when "now" or "weeknote" -%}
+        {%- assign ogLayout = "with-object" -%}
+        {%- assign ogObject = object.type -%}
+        {%- assign ogDay = date | date: "%d" | default: "01" | prepend: "&day=" -%}
+        {%- assign ogMonth = date | date: "%B" | default: "JAN" | upcase | truncate: 3, "" | prepend: "&month=" -%}
     {%- when "music" or "game" or "photo" -%}
         {%- assign ogLayout = "with-object" -%}
         {%- assign ogObject = object.type -%}

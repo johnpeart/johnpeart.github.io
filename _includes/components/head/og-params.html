@@ -17,7 +17,7 @@
     - image
     - collection
 {%- endcomment -%}
-{%- assign ogParams =   "?" | append: ogLayout | append: ogTitle | append: ogTitleClass | append: ogImage | append: ogObject | append: ogCollection -%}
+{%- assign ogParams =   "?" | append: ogLayout | append: ogTitle | append: ogTitleClass | append: ogImage | append: ogObject | append: ogCollection | append: ogDay | append: ogMonth -%}
 {%- assign ogURL = siteURL | append: "/opengraph/" | append: ogParams -%}
 {%- assign encodedURL = ogURL | url_encode -%}
 {%- assign now = 'now' | date: "%s" -%}

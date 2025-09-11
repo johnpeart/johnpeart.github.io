@@ -71,6 +71,27 @@
     }
 }
 
+ol,
+ul {  
+    &.speech-bubble {
+        padding-left: clamp(45px, 3.25vw, 55px);
+        & li {
+            margin-bottom: var(--pad);
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &::before {
+                position: absolute;
+                margin-left: calc(clamp(30px, 3vw, 40px) * -1);
+            }   
+        }
+    }
+}
+
+ul.speech-bubble li::before {
+    content: "\2014";
+}
+
 a.speech-bubble {   
     &:focus:hover {
         & :is(h1, h2, h3, h4, h5, h6) {

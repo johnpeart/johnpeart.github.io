@@ -112,6 +112,20 @@ a {
         }
     }
     
+    &.speech-bubble {  
+        &:link,  
+        &:visited {
+            color: var(--speechBubble-linkColor);
+        }
+        &:hover {
+            color: var(--speechBubble-linkColor-hover);
+        }
+        &:focus {
+            color: var(--speechBubble-linkColor-focus);
+            background: var(--speechBubble-linkBackground);
+        }
+    }
+    
     &.speech-bubble--link--eurovision {
         display: inline-block;
         

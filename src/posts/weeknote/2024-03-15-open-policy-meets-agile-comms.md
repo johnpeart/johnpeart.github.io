@@ -6,6 +6,9 @@ categories:
 - work
 - policy
 - communications
+permalink: "/2024/03/15/open-policy-meets-agile-comms/"
+aliases:
+- /weeknote/2024/03/15/
 ---
 
 This week I had the pleasure of working with [Giles Turnbull](//gilest.org) again, as he led a session for our team about how we could do “agile comms”.

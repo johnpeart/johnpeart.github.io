@@ -10,6 +10,10 @@ categories:
 
 posse:
 - https://news.indieweb.org/en
+
+permalink: /2025/07/14/design-refresh/
+aliases:
+- /note/1752480000/
 ---
 
 For the past couple of months, I've been rethinking the visual style of my home on the internet: this website, the one you're on right now.

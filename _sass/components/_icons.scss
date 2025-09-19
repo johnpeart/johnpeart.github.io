@@ -7,7 +7,7 @@ span.interaction-icon {
     margin-right: 7px;
     padding: 0;
     
-    background: var(--color);
+    background: var(--secondary-color);
 
     @media (min-width: 700px) {
         height: 15px;
@@ -79,6 +79,10 @@ a.social-icon {
     grid-gap: var(--pad);
     grid-template-columns: 20px 1fr;
     position: relative;
+    
+    p {
+        color: var(--color--inverse);
+    }
 
     svg.social-icon {
         display: block;
@@ -88,7 +92,7 @@ a.social-icon {
         height: 100%;
 
         path {
-            fill: var(--gray-600);
+            fill: var(--color--inverse);
         }
     }
 
@@ -96,7 +100,7 @@ a.social-icon {
         svg path,
         p {
             fill: var(--brand);
-            background: var(--background);
+            background: var(--background--inverse);
             color: var(--brand);
         }
     }

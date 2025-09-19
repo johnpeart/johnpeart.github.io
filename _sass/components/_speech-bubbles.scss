@@ -33,6 +33,18 @@
         font-weight: bold;
     } 
     
+    & a:link,  
+    & a:visited {
+        color: var(--speechBubble-linkColor);
+    }
+    & a:hover {
+        color: var(--speechBubble-linkColor-hover);
+    }
+    & a:focus {
+        color: var(--speechBubble-linkColor-focus);
+        background: var(--speechBubble-linkBackground);
+    }
+    
     &:last-child {
         margin-bottom: 0;
     

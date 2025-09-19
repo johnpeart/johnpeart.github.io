@@ -27,9 +27,9 @@ section.from-them + footer.interactions {
 
 article#post-content.share,
 article#post-content.reply {
-    margin: calc(var(--pad) * 4) auto 0;
+    margin: calc(var(--pad) * 4) auto calc(var(--pad) * 2);
     @media (min-width: 700px) {
-        margin: calc(var(--pad) * 6) auto 0;
+        margin: calc(var(--pad) * 6) auto calc(var(--pad) * 2);
     }
 }
 

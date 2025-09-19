@@ -4,7 +4,10 @@ body {
 
 	grid-template-areas: "header" "main" "footer";
 	grid-template-columns: 100vw;
-	grid-template-rows: auto minmax(calc(100vh - 71px), auto) auto;
+    
+    &#home {
+        grid-template-rows: auto minmax(calc(100vh - 71px), auto) auto;
+    }
 }
 
 body:has(.skip-link:focus) {
@@ -42,8 +45,17 @@ body:has(.skip-link:focus) {
     }
 }
 
-.grid > * {
-    grid-column: content;
+.grid {
+    & > *,
+    & > .content {
+        grid-column: content;
+    }
+    & > .popout {
+        grid-column: popout;
+    }
+    & > .full-width {
+        grid-column: full-width;
+    }
 }
 
 .grid > header {
@@ -54,7 +66,6 @@ body:has(.skip-link:focus) {
 .grid {
     & > header,
     & > figure,
-    & > :has(.popout),
     & > table,
     & > .mobile-overflow {
         grid-column: popout;

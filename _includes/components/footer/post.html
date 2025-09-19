@@ -1,8 +1,7 @@
-<footer class="grid" style="background-position: bottom;">
-    <section id="post-footer">
-        <dl class="meta-data">
+<footer class="meta-data grid full-width">
+        <dl class="meta-data content">
             {% if page.date %}
-            <aside id="meta-data--published" class="card meta-data meta-data-details">
+            <aside id="meta-data--published" class="meta-data meta-data-details">
                 <dt class="post-date">Published</dt>
                 <dd>
                     <a href="{{ page.url }}" class="no-underline u-url u-uid">
@@ -14,7 +13,7 @@
             </aside>
             {% endif %}
     
-            <aside id="meta-data--categories" class="card meta-data meta-data-details">
+            <aside id="meta-data--categories" class="meta-data meta-data-details">
                 <dt class="post-categories">Categories</dt>
                 {% if categories %}
                     <dd>{% for category in categories %}<span class="p-category">{{ category }}</span>{% if forloop.last==false %}, {% endif %}{% endfor %}</dd>

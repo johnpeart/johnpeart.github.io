@@ -2,12 +2,24 @@ footer {
     padding-bottom: var(--pad);
 }
 
+#site-footer {
+    background: var(--background--inverse);
+}
+
+
+footer.meta-data {
+    border-top: var(--border-width) solid var(--color);
+    border-bottom: var(--border-width) solid var(--color);
+    padding: 0;
+}
+
 dl.meta-data {
     grid-area: post-meta;
 
     display: grid;
     height: 100%;
-    
+    padding: 0;
+
     grid-gap: var(--pad);
     grid-template-rows: auto auto;
 	@media (min-width: 700px) {
@@ -16,7 +28,17 @@ dl.meta-data {
 	}
 
     aside {
-        padding: var(--pad);
+        padding: 0 0 var(--pad) 0;
+        &:first-child {
+            padding: var(--pad) 0 0;
+        }
+        @media (min-width: 700px) {
+            padding: var(--pad) 0;
+            &:first-child {
+                border-right: var(--border-width) solid var(--color);
+                border-bottom: none;
+            }
+        }
     }
 
     p, dl, dt, dd {

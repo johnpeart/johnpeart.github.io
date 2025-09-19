@@ -35,12 +35,39 @@ a {
             fill: var(--button-activeColor);
         }
     }
-
+    
     &.link-secondary,
     &.post-published-date {
         &:link,
         &:visited {
             color: var(--secondary-color);
+            text-decoration: none;
+        }
+        &:hover {
+            color: var(--brand);
+            text-decoration: underline;
+        }
+        &:hover:focus,
+        &:focus {
+            text-decoration: underline;
+            outline: 3px solid var(--brand);
+            color: light-dark(var(--white), var(--black));
+            background: var(--brand);
+        }
+        &:hover:focus {
+            outline-offset: 3px;
+        }
+        &:active {
+            text-decoration: none !important;
+            background: var(--brand);
+            color: var(--background);
+        }
+    }
+    
+    &.link-inverse {
+        &:link,
+        &:visited {
+            color: var(--color--inverse);
             text-decoration: none;
         }
         &:hover {

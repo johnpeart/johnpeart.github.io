@@ -8,6 +8,10 @@
             {%- when "Wishlist" -%}
                 {%- assign ogImage = "/images/objects/wishlist.svg" -%}
         {%- endcase -%}
+    {%- when "speech-bubble" -%}
+        {%- if reply_to.post.image -%}
+            {%- assign ogImage = reply_to.post.image -%}
+        {%- endif -%}
 {%- endcase-%}
 
 {%- case collection -%}

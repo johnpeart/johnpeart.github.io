@@ -27,7 +27,7 @@ body {
     overflow: hidden;
                 
     border: var(--border-width) solid var(--color);
-    border-radius: 30px;
+    border-radius: 40px;
     box-shadow: 0px 15px 0px var(--color);
     
     &.og-layout--default {
@@ -50,26 +50,28 @@ body {
         grid-template-columns: 1fr;
     }
     
+    &.og-layout--with-speech-bubble {
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+    }
+    
 }
 
 #og-title,
 #og-site,
-#og-collection,
 #og-image {
     display: grid;
 }
 
 #og-site {
+    display: grid;
     grid-column: 1 / -1;
+    grid-template-columns: 1fr 1fr;
+
     border-bottom: var(--border-width) solid var(--color);
 }
 
-#og-collection {
-    border-top: var(--border-width) solid var(--color);
-}
-
-#og-site,
-#og-collection {
+.site-title {
     font-size: 40px;
     line-height: 1;
     font-weight: bold;
@@ -77,8 +79,28 @@ body {
     text-transform: capitalize;
 }
 
+.og-collection {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background: var(--brand);
+    color: var(--background);
+    text-transform: capitalize;
+    
+    justify-self: flex-end;
+}
+
 #og-title {
     align-items: center;
+}
+
+#og-speech-bubble {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-gap: var(--pad);
 }
 
 h1.title {
@@ -117,7 +139,43 @@ p.lead {
 img,
 svg {
     max-height: 500px;
+    padding: 15px 0;
+}
+
+.og-layout--default img,
+.og-layout--default svg {
     padding: 45px 0 0;
+}
+
+#og-speech-bubble .speech-bubbles {
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 1fr;
+    // grid-template-areas: unset;
+    // justify-items: center;
+    // align-items: center;
+    // height: 100%;
+    padding-inline: 200px;
+    
+    &.speech-bubbles--from-them { 
+        align-self: flex-end;
+    }
+    &.speech-bubbles--from-me {
+        align-self: flex-start;
+        
+    }
+    
+    & > * {
+        // max-width: 500px;
+        // grid-area: unset;
+    }
+    
+    img { 
+        padding: 0;
+    }
+    
+    h1 {
+        font-weight: bold;
+    }
 }
 
 .padding-bottom--0 {

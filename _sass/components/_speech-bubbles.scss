@@ -33,18 +33,6 @@
         font-weight: bold;
     } 
     
-    & a:link,  
-    & a:visited {
-        color: var(--speechBubble-linkColor);
-    }
-    & a:hover {
-        color: var(--speechBubble-linkColor-hover);
-    }
-    & a:focus {
-        color: var(--speechBubble-linkColor-focus);
-        background: var(--speechBubble-linkBackground);
-    }
-    
     &:last-child {
         margin-bottom: 0;
     
@@ -233,7 +221,7 @@ img.speech-bubble {
 
 .speech-bubbles--from-them .speech-bubble {
     --text-color: var(--black);
-    --speechBubble-background: light-dark(var(--gray-100), var(--gray-300));
+    --speechBubble-background: light-dark(var(--gray-200), var(--gray-300));
     --speechBubble-linkColor: var(--black);
     --speechBubble-linkColor-hover: var(--brand);
     --speechBubble-linkColor-focus: var(--white);

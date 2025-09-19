@@ -5,13 +5,15 @@
         {%- assign ogLayout = "default" -%}
     {%- when "key-value" or "loop" -%}
         {%- assign ogTitleClass = "title--medium" -%}
-    {%- when "goals" or "goal" -%}
-        {%- assign ogLayout = "with-image" -%}
     {%- when "key-value" -%}
         {%- case title %}
             {%- when "Ideas" or "Wishlist" -%}
                 {%- assign ogLayout = "with-image" -%}
         {%- endcase -%}
+    {%- when "goals" or "goal" -%}
+        {%- assign ogLayout = "with-image" -%}
+    {%- when "speech-bubble" %}
+        {%- assign ogLayout = "with-speech-bubble" -%}
 {%- endcase-%}
 
 {%- case collection -%}

@@ -7,9 +7,11 @@
             {%- when "weeknote" -%}
                 {%- assign title = date | date: "%d %B %Y" | prepend: "Weeknote: " -%}
             {%- when "reply" -%}
-                {%- assign title = reply_to.author.name | prepend: "In reply to " -%}
+                {%- assign title = reply_to.author.name | prepend: "In reply to " | strip_html -%}
+                {%- assign ogTitle = reply_to.post.content| split: "\n" | first | markdownify | strip_newlines | strip_html -%}
             {%- when "share" -%}
                 {%- assign title = reply_to.post.title | prepend: "Commented on “" | append: "”" | strip_html | truncate: 200 -%}
+                {%- assign ogTitle = reply_to.post.title | strip_html | truncate: 200 -%}
             {%- when "music" -%}
                 {%- assign title = title | prepend: "“" | append: "” by " | append: object.artist | strip_html -%}
             {%- else -%}

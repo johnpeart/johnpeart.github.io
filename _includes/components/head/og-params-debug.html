@@ -20,6 +20,7 @@
 {%- assign ogParams = ogLayout | append: ogTitle | append: ogTitleClass | append: ogImage | append: ogObject | append: ogCollection | append: ogDay | append: ogMonth -%}
 {%- assign ogURL = site.url | append: "/opengraph/?" | append: ogParams -%}
 {%- assign encodedURL = ogURL | url_encode -%}
+{%- assign localOgURL = ogParams | prepend: "http://localhost:8080/opengraph/?" -%}
 {%- assign now = 'now' | date: "%s" -%}
 
 {%- comment -%} 

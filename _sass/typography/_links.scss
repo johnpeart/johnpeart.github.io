@@ -120,7 +120,8 @@ a {
         &:hover {
             color: var(--speechBubble-linkColor-hover);
         }
-        &:focus {
+        &:focus,
+        &:active {
             color: var(--speechBubble-linkColor-focus);
             background: var(--speechBubble-linkBackground);
         }

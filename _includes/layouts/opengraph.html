@@ -28,7 +28,10 @@
     <body>
         <div id="opengraph" class="">        
             <div id="og-site">
-                John Peart
+                <span class="site-title">John Peart</span>
+                <span class="og-collection">
+                    Blog post
+                </span>
             </div>
             <div id="og-default-image">
                 <img id="image" src="/images/me/me.svg">
@@ -38,6 +41,26 @@
             </div>
             <div id="og-title">
                 <h1 class="title">Hello.</h1>
+            </div>
+            <div id="og-speech-bubble">
+                
+                <section class="speech-bubbles speech-bubbles--no-photo speech-bubbles--with-webmentions speech-bubbles--from-them u-in-reply-to h-cite">
+                                       
+                    <section class="speech-bubbles--content quote">
+                        <img loading="lazy" src="" class=" speech-bubble speech-bubble--image">
+                        <h1 class="speech-bubble post-title"></h1>         
+                    </section>
+                    
+                </section>
+                <section class="speech-bubbles speech-bubbles--with-webmentions speech-bubbles--from-me">
+                    <section class="speech-bubbles--content e-content">
+                        <p class="speech-bubble">•••</p>
+                    </section>
+                    <section class="speech-bubbles--speaker">
+                        <img class="u-photo" alt="A line drawing of John Peart" src="https://www.johnpe.art/images/me/me.svg" style="padding-top: 5px;">
+                    </section>
+                </section>
+                
             </div>
             <div id="og-object">
                 <div id="game-boy">
@@ -59,9 +82,6 @@
                     {% include 'components/objects/polaroid.svg' %}
                 </div>
             </div>
-            <div id="og-collection">
-                
-            </div>
         </div>
         
         <script>
@@ -74,6 +94,7 @@
             const titleClass = params.get('title-class');
             const day = params.get('day');
             const month = params.get('month');
+            const collection = params.get('collection');
         
             // Set layout class
             document.getElementById('opengraph').className = `og-layout--${layout}`;
@@ -84,14 +105,16 @@
             
             if (layout == 'default') {
                 document.getElementById('og-object').remove();
-                document.getElementById('og-collection').remove();
+                document.getElementById('og-speech-bubble').remove();
+                document.querySelector('.og-collection').remove();
                 document.getElementById('og-image').remove();
                 document.querySelector('.title').classList.add('title--large');
             } else if (layout == 'with-title') {
                 document.getElementById('og-image').remove();
+                document.getElementById('og-speech-bubble').remove();
                 document.getElementById('og-default-image').remove();
                 document.getElementById('og-object').remove();
-                document.getElementById('og-collection').remove();
+                document.querySelector('.og-collection').remove();
                 document.querySelector('.title').textContent = title;
                 
                 if (titleClass) { 
@@ -99,9 +122,10 @@
                 }
             } else if (layout == 'with-image') {
                 document.getElementById('og-title').remove();
+                document.getElementById('og-speech-bubble').remove();
                 document.getElementById('og-default-image').remove();
                 document.getElementById('og-object').remove();
-                document.getElementById('og-collection').remove();
+                document.querySelector('.og-collection').remove();
                 
                 // Set image background
                 ogImage = document.getElementById('og-image');
@@ -113,9 +137,10 @@
 
             } else if (layout == 'with-object') {
                 document.getElementById('og-title').remove();
+                document.getElementById('og-speech-bubble').remove();
                 document.getElementById('og-default-image').remove();
                 document.getElementById('og-image').remove();
-                document.getElementById('og-collection').remove();
+                document.querySelector('.og-collection').textContent = collection;
                 document.getElementById("og-object").style.backgroundColor = randomColor;
                 
                 // Select all divs that match possible object classes
@@ -132,6 +157,18 @@
                 } else if (['calendar-now', 'calendar-weeknotes'].includes(object)) {
                     document.getElementById('calendar-day').textContent = day;
                     document.getElementById('calendar-month').textContent = month;
+                }
+            } else if (layout == 'with-speech-bubble') {
+                document.getElementById('og-object').remove();
+                document.getElementById('og-title').remove();
+                document.getElementById('og-default-image').remove();
+                document.getElementById('og-image').remove();
+                document.querySelector('.og-collection').textContent = collection;
+                document.querySelector('.post-title').textContent = title;
+                if (image) { 
+                    document.querySelector('.speech-bubble--image').setAttribute('src', image);
+                } else {
+                    document.querySelector('.speech-bubble--image').remove();
                 }
             }
         </script>

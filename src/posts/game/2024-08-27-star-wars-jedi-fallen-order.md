@@ -3,7 +3,7 @@ date: 2024-08-27T23:30:00+01:00
 title: "STAR WARS Jedi: Fallen Order"
 object:
     platform: "PlayStation"
-    label: "Platinum"
+    trophy: "platinum"
     image: "/images/games/star-wars-jedi-fallen-order.jpg"
 ---
 

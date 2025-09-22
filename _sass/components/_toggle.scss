@@ -1,0 +1,60 @@
+ul.toggles {
+    display: inline-flex;
+    width: fit-content;
+    grid-gap: calc(var(--pad) * 0.5);
+    flex-wrap: wrap;            
+    justify-content: flex-start;
+    padding: calc(var(--pad) * 0.2);
+    border-radius: calc(var(--border-radius) * 2);
+    border-shape: squircle;
+    border: var(--border-width) solid var(--color);
+    background: var(--secondary-background);
+    
+    @media (min-width: 700px) {
+        flex-wrap: nowrap;
+        grid-gap: calc(var(--pad) * 0.4);
+    }
+    
+    & li {
+        display: block;
+    }
+    
+    & li a.toggle {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        padding: calc(var(--pad) * 0.4) calc(var(--pad) * 0.6);
+        border-radius: calc(var(--border-radius) * 1.5);
+        border: var(--border-width) solid transparent;
+        
+        &:link,
+        &:hover {
+            text-decoration: none;
+        }
+        
+        &:hover {
+            border: var(--border-width) solid var(--brand);
+        }
+        
+        &:focus {
+            
+        }
+        
+        &:active {
+            color: var(--color--inverse);
+            background: var(--brand);
+        }
+        
+        &.active {
+            border: var(--border-width) solid var(--color);
+            background: var(--background);
+            
+            &:active {
+                color: var(--color--inverse);
+                background: var(--brand);
+            }
+        }
+        
+    }
+}

@@ -80,19 +80,19 @@ list:
       description: "For Game Boy and Game Boy Color"
       price: "Varies"
       link: 
-        internal: "/games/game-boy#empty-flash-cartridges"
+        internal: "/games/game-boy-carts#empty-flash-cartridges"
     - name: "Game Boy games"
       price: "Varies"
       link: 
-        internal: "/games/game-boy#game-boy"
+        internal: "/games/game-boy-carts#game-boy"
     - name: "Game Boy Color games"
       price: "Varies"
       link: 
-        internal: "/games/game-boy#game-boy-color"
+        internal: "/games/game-boy-carts#game-boy-color"
     - name: "Game Boy Advance games"
       price: "Varies"
       link: 
-        internal: "/games/game-boy#game-boy-advance"
+        internal: "/games/game-boy-carts#game-boy-advance"
      
 - name: "Homeware and Kitchen"
   items:

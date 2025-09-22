@@ -2,7 +2,7 @@
 date: 2024-11-27T14:13:00+00:00
 layout: key-value
 title: "Game Boy games"
-permalink: "/games/game-boy/"
+permalink: "/games/game-boy-carts/"
 
 list:
 - name: "Game Boy"

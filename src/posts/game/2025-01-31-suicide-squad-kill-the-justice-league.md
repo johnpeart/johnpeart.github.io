@@ -3,7 +3,7 @@ date: 2025-01-31T23:15:00+00:00
 title: "Suicide Squad: Kill the Justice League"
 object:
     platform: "PlayStation"
-    label: "Platinum"
+    trophy: "platinum"
     image: "/images/games/suicide-squad-kill-the-justice-league.jpg"
 ---
 

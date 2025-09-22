@@ -3,7 +3,7 @@ date: 2025-01-05T21:11:00+00:00
 title: "The Plucky Squire"
 object:
     platform: "PlayStation"
-    label: "Platinum"
+    trophy: "platinum"
     image: "/images/games/plucky-squire.jpg"
 ---
 

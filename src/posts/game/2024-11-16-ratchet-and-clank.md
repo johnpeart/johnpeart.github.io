@@ -3,7 +3,7 @@ date: 2024-11-16T13:22:00+00:00
 title: "Ratchet & Clank"
 object:
     platform: "PlayStation"
-    label: "Platinum"
+    trophy: "platinum"
     image: "/images/games/ratchet-and-clank.jpg"
 
 related: 

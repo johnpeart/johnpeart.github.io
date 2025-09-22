@@ -5,17 +5,10 @@
     padding: 0 var(--pad);
     margin: calc(var(--pad) * 3) 0;
     gap: calc(var(--pad) * 2) var(--pad);
+    grid-template-columns: repeat(2, 1fr);
 
     & li {
         display: grid;
-    }
-
-    &.gallery-tilt li {
-        transform: rotate(-1deg);
-
-        &:nth-of-type(2n) { transform: rotate(2deg); }
-        &:nth-of-type(3n) { transform: rotate(1deg); }
-        &:nth-of-type(4n) { transform: rotate(-2deg); }
     }
     
     & a {

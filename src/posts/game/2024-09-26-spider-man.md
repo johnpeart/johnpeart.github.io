@@ -3,7 +3,7 @@ date: 2024-09-26T10:33:00+01:00
 title: "Marvel’s Spider-Man Remastered"
 object:
     platform: "PlayStation"
-    label: "Platinum"
+    trophy: "platinum"
     image: "/images/games/marvels-spider-man-remastered.jpg"
     
 related:

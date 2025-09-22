@@ -1,14 +1,47 @@
 ---
 layout: default
+
+filters:
+    game:
+    - title: All games
+      link: /games/
+    - title: PlayStation
+      link: /games/playstation/
+    - title: Platinums
+      link: /games/playstation/platinums/
+    - title: Game Boy
+      link: /games/game-boy/
+    - title: iOS
+      link: /games/ios/
 ---
 
 <section id="page-content" class="grid h-entry e-content">
 
-        <h1 class="page-title p-name">{{ title }}</h1>
+    <h1 class="page-title p-name">{{ title }}</h1>
+        
+    {% if collection == "game" %}
+    <nav>
+        <ul class="toggles">
+        {% for filter in filters[collection] %}
+            <li>
+                <a href="{{ filter.link }}" class="toggle {% if filter.link == page.url %}active{% endif %}">
+                    {{ filter.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
 
     <ul class="gallery gallery-{{ size | default: '4' }} gallery-{{ angle | default: false }}">
 
-    {% assign posts = collections[collection] %}
+    {% if platform and trophy %}
+        {% assign posts = collections[collection] | where: "data.object.platform", platform | where: "data.object.trophy", trophy %}
+    {% elsif platform %}
+        {% assign posts = collections[collection] | where: "data.object.platform", platform %}
+    {% else %}
+        {% assign posts = collections[collection] %}
+    {% endif %}
     {% for post in posts %}
         <li>
             <article class="{{ collection }} ">

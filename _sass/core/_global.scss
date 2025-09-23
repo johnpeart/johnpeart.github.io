@@ -28,6 +28,7 @@ html {
 body {
     background: var(--background);
     color: var(--color);
+    grid-template-rows: auto minmax(calc(100vh - 71px), auto) auto;
 }
 
 #page-content,

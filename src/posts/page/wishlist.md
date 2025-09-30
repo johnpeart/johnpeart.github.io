@@ -76,6 +76,28 @@ list:
 
 - name: "Gaming"
   items:
+    - name: "Nintendo Switch 2"
+      description: "Bundled with Mario Kart World"
+      price: "£429"
+      link: 
+        external: "https://retroremake.co/products/superstation-one?variant=43014710329367"
+    - name: "Metroid Prime 4: Beyond"
+      description: "For Nintendo Switch 2"
+      price: "£50"
+      link: 
+        external: "https://www.amazon.co.uk/dp/B0FR9G4N9S"
+    - name: "Hyrule Warriors: Age of Imprisonment"
+      description: "For Nintendo Switch 2"
+      price: "£55"
+      link: 
+        external: "https://www.amazon.co.uk/dp/B0FR8XHR72/"
+
+- name: "Retro gaming"
+  items:
+    - name: "SuperStation"
+      price: "$200"
+      link: 
+        external: "https://retroremake.co/products/superstation-one?variant=43014710329367"
     - name: "Empty flash cartridges"
       description: "For Game Boy and Game Boy Color"
       price: "Varies"
@@ -103,7 +125,7 @@ list:
         external: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
     - name: "Le Crueset french press"
       description: "1 litre. Volcanic orange."
-      price: "£50"
+      price: "£70"
       link: 
         external: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
 

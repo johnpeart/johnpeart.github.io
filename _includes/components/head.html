@@ -45,20 +45,19 @@
     <link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
     <link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
     
-    <link rel="stylesheet" href="{{ siteUrl | append: '/styles/styles.css' }}">
     <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/regular.woff2">
     <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/bold.woff2">
     <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/italic.woff2">
+    <link rel="preload" as="style" href="{{ siteUrl | append: '/styles/styles.css' }}">
+    <link rel="stylesheet" href="{{ siteUrl | append: '/styles/styles.css' }}">
 
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}">
 	<meta name="author" content="John Peart">
 
 	<!-- Base URLS, duplicate URLs and feeds -->
-	<meta name="url" content="{{ siteUrl }}">
-	<!-- Links to top level resource in an hierarchical structure -->
-	<link rel="index" href="{{ siteUrl }}">
 	<link rel="canonical" href="{{ pageUrl }}">
+    
 	<!-- RSS -->
 	{%- for feed in collections.feed %}
 	<link rel="alternate" href="{{ siteUrl | append: feed.data.permalink }}" type="application/rss+xml" title="{{ "John Peart • " | append: feed.data.title }}">

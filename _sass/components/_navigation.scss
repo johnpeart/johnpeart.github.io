@@ -12,12 +12,8 @@
     justify-self: center;
     
     width: 100%;
-    top: var(--pad);
-    margin: 0 auto;
-
-    padding: 0 var(--pad); 
-
-    max-width: 930px;
+    padding: 0;
+    top: 0;
 }
 
 /* This is the main menu bar */
@@ -37,10 +33,7 @@
     justify-content: space-between !important;
     
     background: var(--background--translucent);
-    border: 3px solid var(--color);
-    border-radius: calc(var(--border-radius) * 2);
-    backdrop-filter: blur(50px) contrast(1.25) saturate(2);
-    box-shadow: var(--shadow-deep);
+    border: 3px solid transparent;
 }
 
 .navigation--wordmark {    

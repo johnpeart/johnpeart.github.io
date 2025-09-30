@@ -3,13 +3,13 @@ footer {
 }
 
 #site-footer {
-    background: var(--background--inverse);
+    background: var(--background);
+    border-top: var(--border-width) solid var(--color);
 }
 
 
 footer.meta-data {
     border-top: var(--border-width) solid var(--color);
-    border-bottom: var(--border-width) solid var(--color);
     padding: 0;
 }
 

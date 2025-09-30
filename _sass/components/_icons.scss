@@ -81,7 +81,7 @@ a.social-icon {
     position: relative;
     
     p {
-        color: var(--color--inverse);
+        color: var(--secondary-color);
     }
 
     svg.social-icon {
@@ -92,7 +92,7 @@ a.social-icon {
         height: 100%;
 
         path {
-            fill: var(--color--inverse);
+            fill: var(--secondary-color);
         }
     }
 
@@ -100,7 +100,7 @@ a.social-icon {
         svg path,
         p {
             fill: var(--brand);
-            background: var(--background--inverse);
+            background: var(--background);
             color: var(--brand);
         }
     }

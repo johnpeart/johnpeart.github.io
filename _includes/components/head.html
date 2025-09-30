@@ -30,19 +30,25 @@
     {%- include 'components/head/og-object.html' -%}
     {%- include 'components/head/og-params.html' -%}
     
-    {% comment %}
-        Trim the variables
-    {% endcomment %}
-    {%- assign title = title | strip_html | truncate: 200 -%}
-    {%- assign description = description | strip_html | truncate: 200 -%}
-    
-    <!-- Hot load -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <!-- Preconnects -->
+    <link rel="dns-prefetch" href="https://v1.screenshot.11ty.dev">
     <link rel="preconnect" href="{{ siteUrl }}" />
-	<link rel="preload" as="style" href="{{ siteUrl | append: '/styles/styles.css' }}">
+    <!-- Web mentions -->
+    <link rel="dns-prefetch" href="https://webmention.io">
+    <link rel="preconnect" href="https://webmention.io">
+    <link rel="preconnect" href="ws://webmention.io:8080">
+    <link rel="pingback" href="https://webmention.io/webmention?forward=https://{{ site.webmentions.username }}" />
+    <link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
+    <link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
     
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="{{ siteUrl | append: '/styles/styles.css' }}">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/regular.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/bold.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/italic.woff2">
 
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}">
@@ -50,7 +56,6 @@
 
 	<!-- Base URLS, duplicate URLs and feeds -->
 	<meta name="url" content="{{ siteUrl }}">
-	<base href="{{ pageUrl }}">
 	<!-- Links to top level resource in an hierarchical structure -->
 	<link rel="index" href="{{ siteUrl }}">
 	<link rel="canonical" href="{{ pageUrl }}">
@@ -58,8 +63,6 @@
 	{%- for feed in collections.feed %}
 	<link rel="alternate" href="{{ siteUrl | append: feed.data.permalink }}" type="application/rss+xml" title="{{ "John Peart • " | append: feed.data.title }}">
 	{%- endfor %}
-	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
-	<link rel="archives" href="{{ siteUrl | append: '/archives' }}">
 
 	<!-- Gives information about the author -->
 	<link rel="me" href="{{ siteUrl }}" type="text/html">
@@ -69,16 +72,6 @@
     <meta name="fediverse:creator" content="{{ site.mastodon.handle }}">
 	<link rel="me" href="{{ site.bluesky.url }}" type="text/html">
 	<link href="{{ site.gravatar.url }}" rel="me">
-    
-	<!-- Web mentions -->
-	{%- if site.webmentions %}
-	<link rel="dns-prefetch" href="https://webmention.io">
-	<link rel="preconnect" href="https://webmention.io">
-	<link rel="preconnect" href="ws://webmention.io:8080">
-    <link rel="pingback" href="https://webmention.io/webmention?forward=https://{{ site.webmentions.username }}" />
-	<link rel="pingback" href="https://webmention.io/{{ site.webmentions.username }}/xmlrpc">
-	<link rel="webmention" href="https://webmention.io/{{ site.webmentions.username }}/webmention">
-	{%- endif %}
 
     <!-- Schema.org settings -->
     <meta itemprop="name" content="{{ title }}">
@@ -114,7 +107,5 @@
 	<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
 	<meta name="theme-color" content="#141619" media="(prefers-color-scheme: dark)">
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="{{ siteUrl | append: '/styles/styles.css' }}">
 	
 </head>

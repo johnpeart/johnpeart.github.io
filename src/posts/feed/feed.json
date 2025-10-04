@@ -1,4 +1,4 @@
 {
-    "layout": "rss/filtered.liquid",
+    "layout": "rss.liquid",
     "collection": "feed"
 }

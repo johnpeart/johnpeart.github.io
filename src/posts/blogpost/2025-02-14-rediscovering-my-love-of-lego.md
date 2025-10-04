@@ -6,7 +6,6 @@ excerpt: "Brick, by brick, by brick. 516 bricks, to be exact."
 categories:
 - personal
 # posse:
-- 
 ---
 
 When I was a kid, I was obsessed with two things: video games and *LEGO*. Whilst other kids were off riding bikes, playing football or creating chaos, I could usually be found elbow deep in a supersized bucket of bricks.

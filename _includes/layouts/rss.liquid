@@ -1,0 +1,122 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel>
+	<atom:link href="{{ site.url | append: '/feed.xml' }}" rel="self" type="application/rss+xml" />
+	<title>John Peart{%- if filter -%}{{ " • " | append: title | xml_escape }}{%- endif -%}</title>		
+	<link>{{ site.url }}{%- if filter -%}{{ '/' | append: filter }}{%- endif -%}</link>
+	<description>{{ site.description | xml_escape }}</description>
+	<language>en-GB</language>
+	<docs>https://www.rssboard.org/rss-specification</docs>
+	<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+	<lastBuildDate>{{ page.date | date_to_rfc822 }}</lastBuildDate>
+	<copyright>Copyright {{ page.date | date: "%Y" }} John Peart. Please attribute and link to my work.</copyright>
+	<generator>Eleventy</generator>
+
+	<image>
+		<url>{{ site.url }}/images/site/favicon-large-png.png</url>
+		<title>John Peart{%- if filter -%}{{ " • " | append: title | xml_escape }}{%- endif -%}</title>		
+		<link>{{ site.url }}</link>
+	</image>
+	
+	{% if filter and collections[filter] %}
+		{% assign posts = collections[filter] %}
+	{% else %}
+		{% assign posts = collections.allPosts %}
+	{% endif %}
+
+
+	{%- for post in posts -%}
+		{%- case collection -%}
+			{%- when "reply" -%}
+				{%- assign title = post.data.reply_to.author.name | prepend: "In reply to " | strip_html | strip_newlines -%}
+			{%- when "share" -%}
+				{%- assign title = post.data.reply_to.post.title | prepend: "Commented on “" | append: "”" | strip_html | strip_newlines -%}
+			{%- else -%}
+				{%- assign title = post.data.title | default: site.title | strip_html | strip_newlines -%}
+		{%- endcase -%}
+
+	  <item>
+		<title>{{ title | xml_escape }}</title>
+		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		<link>{{ site.url | append: post.url | replace: '//', '/' }}</link>
+		<guid isPermaLink="true">{{ site.url | append: post.url | replace: '//', '/' }}</guid>
+
+		{%- for category in post.data.categories -%}
+		  <category>{{ category | xml_escape }}</category>
+		{%- endfor -%}
+
+		<description>{{ post.content | truncatewords: 200 | markdownify | xml_escape }}</description>
+
+		<content:encoded>
+			<![CDATA[
+				{%- if post.data.image.file -%}
+					<img src="{{ post.data.image.file }}" alt="{{ post.data.image.alt }}" />
+				{%- endif -%}
+				
+				{%- if post.data.collection == "list" -%}
+					<h2>{{ title }}</h2>
+					<ul>
+					{%- for item in post.data.list -%}
+						{%- if item.status == "done" -%}
+						<li><s>{{ item.todo }}</s></li>
+						{%- else -%}
+						<li>{{ item.todo }}</li>
+						{%- endif -%}
+					{%- endfor -%}
+					</ul>
+				{%- endif -%}
+				
+				{%- assign reply_to = post.data.reply_to -%}
+				{%- if reply_to -%}
+					{%- assign reply_date = reply_to.post.date | date: '%d %B %Y, ' -%}
+					<p>
+					{%- if reply_to.post.date -%}On {{ reply_date }}{%- endif -%}
+					{%- if post.data.collection == "reply" -%}
+						{{ reply_to.author.name | default: "Someone" | append: " wrote:" | markdownify }}
+					{%- elsif post.data.collection == "share" -%}
+						{%- if reply_to.publication -%}
+						{{ reply_to.author.name | append: " at " | append: reply_to.publication.name | append: " wrote:" | markdownify }}
+						{%- elsif reply_to.original -%}
+						{{ reply_to.author.name | append: " wrote:" | markdownify }}
+						{%- endif -%}
+					{%- endif -%}
+					</p>
+				
+					<blockquote>
+					{%- if post.data.collection == "share" -%}
+						{%- if reply_to.post.image -%}
+						<img src="{{ reply_to.post.image }}" alt="{{ post.image-alt }}">
+						{%- endif -%}
+						{%- if reply_to.post.title -%}
+						<h2><a href="{{ reply_to.post.url }}">{{ reply_to.post.title }}</a></h2>
+						{%- endif -%}
+						{{ reply_to.post.content | default: reply_to.post.description | markdownify }}
+					{%- else -%}
+						{{ reply_to.post.content | markdownify }}
+					{%- endif -%}
+					</blockquote>
+				
+					<p>
+					On {{ post.date | date: '%d %B %Y' }},
+					John Peart
+					{% if post.data.collection == "share" %}shared and commented{% else %}replied{% endif %}
+					</p>
+					<blockquote>
+				{%- endif -%}
+				
+				{{ post.content | markdownify | xml_escape }}
+				
+				{%- if post.data.collection == "reply" or post.data.collection == "share" -%}
+					</blockquote>
+				{%- endif -%}
+			]]>
+		</content:encoded>
+	  </item>
+	{%- endfor -%}
+  </channel>
+</rss>

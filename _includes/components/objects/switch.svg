@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg class="object object--switch" width="100%" height="100%" viewBox="0 0 138 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;">
     
-    <title id="svg-title">{{ title }}</title>
-    <desc id="svg-desc">A Nintendo Switch game cartridge with cover art work for {{ title }}</desc>
+    <title id="svg-title">{{ post.data.title | default: title }}</title>
+    <desc id="svg-desc">A Nintendo Switch game cartridge with cover art work for {{ post.data.title | default: title }}</desc>
     
     <path d="M125.135,267.269L119.605,270.462L119.589,270.453C117.88,271.265 115.723,271.093 113.379,269.74L12.204,211.326C6.666,208.129 2.17,199.538 2.17,192.154L2.17,16.912C2.17,12.873 3.515,10.026 5.64,8.799L16.912,2.291L16.929,2.301C18.637,1.493 20.791,1.666 23.132,3.017L124.307,61.43C129.845,64.628 134.341,73.219 134.341,80.603L134.341,221.426L128.615,224.732L128.615,244.26L134.341,240.954L134.341,254.426L128.615,257.732L128.608,259.155C128.608,263.195 127.262,266.043 125.135,267.269Z" style="fill:rgb(62,62,62);stroke:black;stroke-width:1px;"/>
     <path d="M123.413,86.912L123.413,262.154C123.413,269.538 118.917,272.937 113.379,269.74L12.204,211.326C6.666,208.129 2.17,199.538 2.17,192.154L2.17,16.912C2.17,9.528 6.666,6.129 12.204,9.326L113.379,67.74C118.917,70.937 123.413,79.528 123.413,86.912Z" style="fill:rgb(100,100,104);stroke:black;stroke-width:1px;"/>

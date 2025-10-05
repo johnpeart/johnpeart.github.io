@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg class="object object--game-boy" width="100%" height="100%" viewBox="0 0 161 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1;" aria-labelledby="svg-title" aria-describedby="svg-desc">
     
-    <title id="svg-title">{{ title }}</title>
-    <desc id="svg-desc">A Game Boy Game Pak showing the artwork for {{ title }}</desc>
+    <title id="svg-title">{{ post.data.title | default: title }}</title>
+    <desc id="svg-desc">A Game Boy Game Pak showing the artwork for {{ post.data.title | default: title }}</desc>
     
     <g id="Cartridge">
         <path id="SideCut" d="M143.183,168L143.183,276L136.255,276L136.255,168L139.719,170L143.183,168Z" style="fill:#747373;stroke:#000;stroke-width:1px;"/>

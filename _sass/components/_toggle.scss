@@ -37,10 +37,6 @@ ul.toggles {
             border: var(--border-width) solid var(--brand);
         }
         
-        &:focus {
-            
-        }
-        
         &:active {
             color: var(--color--inverse);
             background: var(--brand);
@@ -49,6 +45,10 @@ ul.toggles {
         &.active {
             border: var(--border-width) solid var(--color);
             background: var(--background);
+            
+            &:focus {
+                color: var(--brand);
+            }
             
             &:active {
                 color: var(--color--inverse);

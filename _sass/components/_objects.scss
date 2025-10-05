@@ -10,6 +10,10 @@
         max-width: 300px;
     }
     
+    &.object--switch {
+        max-width: 250px;
+    }
+    
     &.object--calendar-now,
     &.object--calendar-weeknotes {
         max-width: 600px;
@@ -20,6 +24,7 @@
     &.object--ipod-nano,
     &.object--game-boy,
     &.object--iOS,
+    &.object--switch,
     &.object--list,
     &.object--note {
         margin-inline: auto;

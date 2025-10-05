@@ -1,9 +1,9 @@
 {
-   "layout": "blogpost",
-   "collection": "game",
-   "categories": "game",
-   "permalink": "/game/{{ page.date | date: '%s' }}/",
-   "object": {
+    "layout": "blogpost",
+    "collection": "game",
+    "categories": "game",
+    "permalink": "/game/{{ page.date | date: '%s' }}/",
+    "object": {
         "type": "game-boy"
-   }
+    }
 }

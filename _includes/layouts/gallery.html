@@ -3,17 +3,19 @@ layout: default
 
 filters:
     game:
-    - title: All games
+    - title: "All games"
       link: /games/
-    - title: PlayStation
+    - title: "PlayStation"
       link: /games/playstation/
-    - title: Platinums
+    - title: "Platinums"
       link: /games/playstation/platinums/
-    - title: Switch
+    - title: "Switch"
       link: /games/switch/
-    - title: Game Boy
+    - title: "Game Boy"
       link: /games/game-boy/
-    - title: iOS
+    - title: "100%"
+      link: /games/100/
+    - title: "iOS"
       link: /games/ios/
 ---
 
@@ -39,6 +41,8 @@ filters:
 
     {% if platform and trophy %}
         {% assign posts = collections[collection] | where: "data.object.platform", platform | where: "data.object.trophy", trophy %}
+    {% elsif trophy %}
+        {% assign posts = collections[collection] | where: "data.object.trophy", trophy %}
     {% elsif platform %}
         {% assign posts = collections[collection] | where: "data.object.platform", platform %}
     {% else %}

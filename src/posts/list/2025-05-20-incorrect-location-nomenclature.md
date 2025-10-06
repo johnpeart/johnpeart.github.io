@@ -6,6 +6,7 @@ list:
 - item: "“Viennese” whirls (British)"
 - item: "“Danish” pastries (Austrian)"
 - item: "“French” fries (Belgian)"
+- item: "“Madeira” cake (British)"
 ---
 
 When people go to other countries, they often like to eat “traditional” foods.

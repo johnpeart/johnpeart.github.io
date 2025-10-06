@@ -1,3 +1,9 @@
+nav.toggles {
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(71px + var(--pad) + var(--pad));
+}
+
 ul.toggles {
     display: inline-flex;
     width: fit-content;
@@ -8,7 +14,8 @@ ul.toggles {
     border-radius: calc(var(--border-radius) * 2);
     border-shape: squircle;
     border: var(--border-width) solid var(--color);
-    background: var(--secondary-background);
+    background: var(--background--translucent);
+    backdrop-filter: blur(50px) contrast(1.25) saturate(2);
     
     @media (min-width: 700px) {
         flex-wrap: nowrap;
@@ -46,8 +53,14 @@ ul.toggles {
             border: var(--border-width) solid var(--color);
             background: var(--background);
             
+            &:hover {
+                border: var(--border-width) solid var(--brand);
+            }
+            
             &:focus {
-                color: var(--brand);
+                color: var(--color--inverse);
+                border: var(--border-width) solid var(--background);
+                background: var(--brand);
             }
             
             &:active {

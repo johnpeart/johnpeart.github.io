@@ -3,7 +3,7 @@ date: 2024-10-06T10:33:00+01:00
 title: "Super Mario Land 3: Wario Land"
 object:
     platform: "Game Boy"
-    label: "100%"
+    trophy: "100%"
     image: "/images/games/wario-land/label-art.jpg"
     screenshot: "/images/games/wario-land/"
 

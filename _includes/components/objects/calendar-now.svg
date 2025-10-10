@@ -47,7 +47,7 @@
     
     <g transform="matrix(0.821436,0,0,1.24089,-1996.18,-126.789)">
         <text id="calendar-day" x="3055px" y="1330px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:144px;font-variant-numeric: tabular-nums;"  transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2007.51,922.716)">{{ date | date: "%d" | default: '01' }}</text>
-        <text id="calendar-month" x="3070px" y="1280px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:72px;fill:white; text-align: center;" transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2111.09,883.136)">{{ date | date: "%b" | default: 'JAN' }}</text>
+        <text id="calendar-month" x="3070px" y="1280px" style="font-family: 'JP', sans-serif;font-weight:700;font-size:72px;fill:white; text-align: center;" transform="matrix(1.05429,-0.402857,1.21738,0.465179,-2111.09,883.136)">{{ date | date: "%b" | default: 'Jan' | upcase }}</text>
     </g>
     
     <g id="warp">

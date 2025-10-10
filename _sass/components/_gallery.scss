@@ -9,11 +9,11 @@
 
     & li {
         display: grid;
-        align-content: center;
+        align-content: flex-end;
         justify-items: center;
         
         & .object {
-            margin: 0 0 var(--pad) 0;
+            margin: var(--pad) 0;
         }
     }
     

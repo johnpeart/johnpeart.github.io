@@ -1,29 +1,34 @@
 nav.toggles {
     position: -webkit-sticky;
     position: sticky;
+    overflow-x: scroll;
     top: calc(71px + var(--pad) + var(--pad));
+    grid-column: full-width;
+    text-align: center;
+    scrollbar-width: none;
+    
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 ul.toggles {
     display: inline-flex;
     width: fit-content;
-    grid-gap: calc(var(--pad) * 0.5);
-    flex-wrap: wrap;            
+    flex-wrap: nowrap;
+    grid-gap: calc(var(--pad) * 0.4);          
     justify-content: flex-start;
     padding: calc(var(--pad) * 0.2);
+    margin: 0 var(--pad);
     border-radius: calc(var(--border-radius) * 2);
     border-shape: squircle;
     border: var(--border-width) solid var(--color);
     background: var(--background--translucent);
     backdrop-filter: blur(50px) contrast(1.25) saturate(2);
     
-    @media (min-width: 700px) {
-        flex-wrap: nowrap;
-        grid-gap: calc(var(--pad) * 0.4);
-    }
-    
     & li {
         display: block;
+        text-wrap: nowrap;
     }
     
     & li a.toggle {

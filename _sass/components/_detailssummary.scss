@@ -3,7 +3,6 @@ details {
   padding: 0;
   border: 0;
   font: inherit;
-  cursor: pointer;
   vertical-align: baseline;
   
   &[open]::details-content {
@@ -20,7 +19,7 @@ summary {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-  cursor: auto;
+  cursor: pointer;
   list-style: none;
 }
 

@@ -3,6 +3,7 @@ details {
   padding: 0;
   border: 0;
   font: inherit;
+  cursor: pointer;
   vertical-align: baseline;
   
   &[open]::details-content {

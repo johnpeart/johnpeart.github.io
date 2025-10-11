@@ -91,7 +91,7 @@ Use of bold imagery has been a focus as I've explored this new design. Keeping a
 
 I haven't used most of these, in the end, but I have kept them in case inspiration strikes in the future about where I could.
 
-Where I used objects like *Polaroid* photos and *Nintendo Game Boy* cartridges and consoles in my previous design, these have also been revamped. Gone are the shadows and soft gradients; now they have a bolder, blockier aesthetic.
+Where I used objects like *Polaroid* photos, and *Nintendo Game Boy* cartridges and consoles in my previous design, these have also been revamped. Gone are the shadows and soft gradients; now they have a bolder, blockier aesthetic.
 
 <figure>
 	<img src="/images/posts/2025-07-14-gamepaks.png" alt="Left: an isometric projection of a Game Pak. Right: a revised version, with greater use of thick black borders at the object's edges.">

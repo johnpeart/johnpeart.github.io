@@ -147,6 +147,15 @@ svg {
     padding: 45px 0 0;
 }
 
+.object--svg {
+    display: grid;
+    height: 100%;
+}
+.object {
+    margin: auto !important;
+    max-width: 100% !important;
+}
+
 #og-speech-bubble .speech-bubbles {
     // grid-template-columns: 1fr;
     // grid-template-rows: 1fr;

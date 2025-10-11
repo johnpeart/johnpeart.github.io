@@ -2,7 +2,7 @@
 {%- assign ogTitle = ogTitle | default: title | prepend: "&title=" -%}
 {%- if ogTitleClass -%}{%- assign ogTitleClass = ogTitleClass | prepend: "&title-class=" -%}{%- endif -%}
 {%- if ogImage -%}{%- assign ogImage = ogImage | prepend: "&image=" -%}{%- endif -%}
-{%- if ogObject -%}{%- assign ogObject = ogObject | prepend: "&object=" -%}{%- endif -%}
+{%- if ogObject -%}{%- assign ogObject = ogObject | downcase | prepend: "&object=" -%}{%- endif -%}
 {%- if collection -%}{%- assign ogCollection = collection | prepend: "&collection=" -%}{%- endif -%}
     
 {%- comment -%} 
@@ -28,3 +28,7 @@
     https://v1.screenshot.11ty.dev/${encodedURL}/opengraph/${cacheKey}
 {%- endcomment -%}
 {%- assign ogImageURL = 'https://v1.screenshot.11ty.dev/' | append: encodedURL | append: '/opengraph/' | append: now -%}
+
+<script>
+    console.log('{{ localOgURL }}')
+</script>

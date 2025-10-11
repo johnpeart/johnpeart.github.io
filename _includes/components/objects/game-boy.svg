@@ -31,12 +31,10 @@
                 <image x="17.08" y="81.825" width="159px" height="159px" href="/images/games/holofoil.jpg"/>
         </g>
         
-        {% if page.url contains '/opengraph/' %}
-            <image id="opengraphImage" href="" x="0" y="0" width="500px" height="500px" transform="matrix(0.174074,0.100502,-9.66304e-18,0.201003,26.9183,85.7064)"  preserveAspectRatio="xMidYMid slice"/>
-        {% elsif post.data.object.image or object.image %}
+        {% if post.data.object.image or object.image %}
             <image href="{{ post.data.object.image | default: object.image }}" x="0" y="0" width="500px" height="500px" transform="matrix(0.174074,0.100502,-9.66304e-18,0.201003,26.9183,85.7064)"  preserveAspectRatio="xMidYMid slice"/>
         {% else %}
-            <image href="/images/me/me.svg" x="25px" y="50px" width="450px" height="450px" transform="matrix(0.174074,0.100502,-9.66304e-18,0.201003,26.9183,85.7064)"  preserveAspectRatio="xMidYMid slice"/>
+            <image id="opengraphImage" href="/images/me/me.svg" x="0" y="0" width="500px" height="500px" transform="matrix(0.174074,0.100502,-9.66304e-18,0.201003,26.9183,85.7064)"  preserveAspectRatio="xMidYMid slice"/>
         {% endif %}
         
         <path d="M26.918,85.706L113.955,135.957L113.955,236.459L26.918,186.208L26.918,85.706Z" style="fill:none;stroke:#000;stroke-width:1px;"/>

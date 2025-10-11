@@ -63,22 +63,25 @@
                 
             </div>
             <div id="og-object">
-                <div id="game-boy">
+                <div id="game-boy" class="object--svg">
                     {% include 'components/objects/game-boy.svg' %}
                 </div>
-                <div id="calendar-weeknotes">
+                <div id="switch" class="object--svg">
+                    {% include 'components/objects/switch.svg' %}
+                </div>
+                <div id="calendar-weeknotes" class="object--svg">
                     {% include 'components/objects/calendar-weeknotes.svg' %}
                 </div>
-                <div id="calendar-now">
+                <div id="calendar-now" class="object--svg">
                     {% include 'components/objects/calendar-now.svg' %}
                 </div>
-                <div id="ios">
+                <div id="ios" class="object--svg">
                     {% include 'components/objects/ios.svg' %}
                 </div>
-                <div id="ipod-nano">
+                <div id="ipod-nano" class="object--svg">
                     {% include 'components/objects/ipod-nano.svg' %}
                 </div>
-                <div id="polaroid">
+                <div id="polaroid" class="object--svg">
                     {% include 'components/objects/polaroid.svg' %}
                 </div>
             </div>
@@ -144,7 +147,7 @@
                 document.getElementById("og-object").style.backgroundColor = randomColor;
                 
                 // Select all divs that match possible object classes
-                const ids = ['game-boy', 'ios', 'ipod-nano', 'polaroid', 'calendar-now', 'calendar-weeknotes'];
+                const ids = ['game-boy', 'playstation', 'ios', 'switch', 'ipod-nano', 'polaroid', 'calendar-now', 'calendar-weeknotes'];
                 // Loop through and remove divs that don't match
                 ids.forEach(id => {
                   if (id !== object) {
@@ -152,8 +155,10 @@
                     if (el) el.remove();
                   }
                 });
-                if (['game-boy', 'ios', 'polaroid', 'ipod-nano'].includes(object)) {
-                    document.getElementById('opengraphImage').setAttribute('href', image);
+                if (['game-boy', 'playstation', 'ios', 'switch', 'polaroid', 'ipod-nano'].includes(object)) {
+                    if (image) { 
+                        document.getElementById('opengraphImage').setAttribute('href', image);
+                    }
                 } else if (['calendar-now', 'calendar-weeknotes'].includes(object)) {
                     document.getElementById('calendar-day').textContent = day;
                     document.getElementById('calendar-month').textContent = month;

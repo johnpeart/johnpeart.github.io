@@ -32,49 +32,37 @@ layout: "default"
                 {% assign key-value--value = start-date | append: " to " | append: end-date %}
                 {% assign key-value--description = item.organisation %}
                 
-                <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description">
-                    <h3 id="{{ item.title | slugify }}" class="key-value--key">{{ key-value--key }}</h3>
-                    <div class="key-value--description">
-                        {{ key-value--description | markdownify }}
-                    </div>
-                    {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text secondary-text">' }}
+                <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description {% if item.projects -%}key-value--with-detailssummary{%- endif -%}">
+                    {%- if item.projects -%}
+                    <details>
+                        <summary>
+                    {%- endif -%}
+                    
+                        <h3 id="{{ item.title | slugify }}" class="key-value--key">{{ key-value--key }}</h3>
+                        <div class="key-value--description">
+                            {{ key-value--description | markdownify }}
+                        </div>
+                        {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text secondary-text">' }}
+                    
+                    {%- if item.projects -%}
+                        </summary>
+                        
+                        <h4 class="padding-top" style="--mult: 0;">Projects</h4>
+                        <ul class="list">
+                        {%- for project in item.projects -%}
+                            <li>
+                                <a href="{{ project.url }}">
+                                    {{ project.title }}
+                                </a>    
+                            </li>
+                        {%- endfor -%}
+                        </ul>
+                    </details>
+                    {%- endif -%}
                 </li>
                 {% endfor %}
             </ul>
         {% endfor %}
         
-        {% for type in collection %}
-            <header>
-                <h1 id="{{ type.name | slugify }}" class="key-value--heading key-value--heading--large">{{ type.name }}</h1>
-            </header>
-            <section>
-            {% assign roles = type.items | sort: "date" | group_by: "data.organisation" | reverse %}
-            {% for org in roles %}
-        
-                {% assign jobs = org.items | sort: "date" | reverse %}
-                {% for job in jobs %}
-                    {% if forloop.first %}
-                    <header>
-                        <h2 class="key-value--heading">{{ job.data.organisation }}</h2>
-                    </header>
-                    <ul class="key-value">
-                    {% endif %}
-                        <li class="key-value--item key-value--item--with-description">
-                            <h3 class="key-value--key">{{ job.data.title }}</h3>
-                            <div class="key-value--description">
-                                {% if job.data.dates.end == "present" %}
-                                <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ job.data.dates.end }}</time></p>
-                                {% else %}
-                                <p class="datetime"><time datetime="{{ job.data.dates.start | date: '%Y-%m-%d' }}">{{ job.data.dates.start | date: '%B %Y' }}</time> to <time datetime="{{ job.data.dates.end | date: '%Y-%m-%d' }}">{{ job.data.dates.end | date: '%B %Y' }}</time></p>
-                                {% endif %}
-                            </div>
-                        </li>
-                    {% if forloop.last %}
-                    </ul>
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
-            </section>
-        {% endfor %}
     </section>
 </article>

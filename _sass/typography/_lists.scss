@@ -10,3 +10,9 @@ ul,
 ol {
     padding: 0 clamp(30px, 3vw, 40px) clamp(22px, 3vw, 32px);
 }
+
+ul.list > li::before {
+    position: absolute;
+    content: "\2014";
+    margin-left: calc(clamp(30px, 3vw, 40px) * -1);
+}

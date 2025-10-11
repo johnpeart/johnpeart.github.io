@@ -1,0 +1,50 @@
+details {  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  
+  &[open]::details-content {
+     padding: var(--pad) 0;
+  }
+}
+
+summary {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  cursor: auto;
+  list-style: none;
+}
+
+details  {
+   /* Remove the default disclosure triangle/marker */
+   & summary::-webkit-details-marker {
+      display: none;
+   }
+   
+   & summary::marker {
+      display: none;
+      content: none;
+   }
+   & summary::after {
+      height: fit-content;
+      content: "↓";
+      font-weight: 900;
+      font-size: clamp(24px, 5.6vw, 35px);
+      line-height: 0.8;
+   }
+   &[open] summary::after {
+      content: "↑";
+   }
+   
+   & summary:hover::after {
+      color: var(--brand);
+   }
+}

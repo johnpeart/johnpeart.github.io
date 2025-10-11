@@ -17,7 +17,8 @@ layout: default
     
 	            
 	<section class="grid post-body e-content">
-		{{ content }}
+		{{ content
+            | replace: '<ul>', '<ul class="list">' }}
         
         {% if collection == 'photo' %}
             {% include "components/footer/exif.html" %}

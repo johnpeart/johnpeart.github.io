@@ -2,12 +2,6 @@ body[id$='blogpost'],
 body[id$='photo'],
 body[id$='now'] {
 
-    section.post-body ul > li::before {
-        position: absolute;
-        content: "\2014";
-        margin-left: calc(clamp(30px, 3vw, 40px) * -1);
-    }
-
     header.post-title[class^="collection--"] {
         margin: calc(var(--pad) * 4) auto 0;
         text-align: center;

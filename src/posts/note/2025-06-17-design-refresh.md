@@ -42,7 +42,7 @@ I've tried a range of different header styles, including collapsing hamburger me
 	<figcaption>A previous iteration of my header menu faded into the background until you hovered over it, which made it pop out with a glow. </figcaption>
 </figure>
 
-I had been gradually iterating towards a more glassy version. Up until a few this refresh, I'd been using some [next-level glass effects](https://www.joshwcomeau.com/css/backdrop-filter/):
+I had been gradually iterating towards a more glassy version. Up until this refresh, I'd been using some [next-level glass effects](https://www.joshwcomeau.com/css/backdrop-filter/):
 
 <figure>
 	<img src="/images/posts/2025-07-14-side-by-side-desktop.png" alt="Two cropped screenshots of my menu bar on desktop. On the left, the menu bar shows a drop shadow. On the right, the glass has a subtler shadow, but also diffuses the surrounding colours below the menu bar.">
@@ -91,7 +91,7 @@ Use of bold imagery has been a focus as I've explored this new design. Keeping a
 
 I haven't used most of these, in the end, but I have kept them in case inspiration strikes in the future about where I could.
 
-Where I used objects like *Polaroid* photos and *Game Boy*  in my previous design, these have also been revamped. Gone are the shadows and soft gradients; now they have a bolder, blockier aesthetic.
+Where I used objects like *Polaroid* photos and *Nintendo Game Boy* cartridges and consoles in my previous design, these have also been revamped. Gone are the shadows and soft gradients; now they have a bolder, blockier aesthetic.
 
 <figure>
 	<img src="/images/posts/2025-07-14-gamepaks.png" alt="Left: an isometric projection of a Game Pak. Right: a revised version, with greater use of thick black borders at the object's edges.">

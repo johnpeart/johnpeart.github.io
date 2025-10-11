@@ -1,5 +1,5 @@
 ---
-date: 2025-10-05T21:00:00+00:00
+date: 2025-10-11T17:39:00+00:00
 title: "Mario Kart World"
 object:
     platform: "Switch"

@@ -1,10 +1,6 @@
 ---
 title: The Importance of Learner Voice in the 21st Century
-
 excerpt: "This speech was delivered in my capacity as a member of NUS National Executive Council at the University of Portsmouth’s Learning and Teaching Conference in December 2009."
-
-
-
 categories:
   - archive
   - education

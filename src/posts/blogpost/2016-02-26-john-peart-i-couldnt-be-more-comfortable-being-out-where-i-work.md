@@ -4,7 +4,7 @@ excerpt: "I've written a guest blog post for LGBT History Month for the Civil Se
 categories:
   - diversity
   - LGBT
-POSSE:
+posse:
 - https://www.civilservice.lgbt/archives/2016/02/26/john-peart-i-couldnt-be-more-comfortable-being-out-where-i-work/
 ---
 

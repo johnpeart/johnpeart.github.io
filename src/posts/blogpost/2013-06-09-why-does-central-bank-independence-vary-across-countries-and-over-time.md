@@ -5,7 +5,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 This paper assesses the various theories explaining the growth of independent central banks (ICB) across the world and highlights factors that might explain variations in central bank independence (CBI) across polities and over time. I will argue that any account of variations in CBI must place heavy emphasis on the role of ideas and interests to provide complete accounts of CBI development.
 

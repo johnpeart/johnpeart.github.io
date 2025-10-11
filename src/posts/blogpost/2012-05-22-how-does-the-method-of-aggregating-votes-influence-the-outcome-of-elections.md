@@ -5,7 +5,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 Part of the function of electoral systems is to take the individual preferences expressed by voters and aggregate them into coherent packages. When assessing and designing electoral systems, a primary concern for political scientists is how closely these packages, and their outcomes, match the individual preferences or whether a deficit arises between these two sets of preferences. 
 

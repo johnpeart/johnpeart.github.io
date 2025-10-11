@@ -7,7 +7,7 @@ categories:
 permalink: "/dissertation/"
 ---
 
-> This dissertation was written as a summative part of my undergraduate studies at the London School of Economics.
+> This dissertation was written as a summative part of my undergraduate studies at the *London School of Economics*.
 
 In 1997, the Bank of England was granted independence by, then Chancellor of the Exchequer, Gordon Brown. The subsequent Act of Parliament gave the newly independent Bank operational control over monetary policy instruments – primarily, the control of the Bank’s base lending interest rate – and an explicit inflation-targeting mandate (Bank of England Act 1998). This target, determined by the Chancellor, was set initially at 2.5% on the Retail Price Index (Brown 2003a) and was later revised to 2.0% on the Harmonised Index of Consumer Prices (Brown 2003b). The task of meeting this target was delegated to the newly formed Monetary Policy Committee (MPC).
 

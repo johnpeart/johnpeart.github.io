@@ -1,15 +1,12 @@
 ---
 title: The Dearing Compact is dead
-
 excerpt: "You can’t expect students to pay more for the same, or worse, more for less. That’s not how the market works, and it would have Lord Dearing spinning in his grave."
-
-
 categories:
   - archive
   - education
 ---
 
-> This piece was originally written for the student newspaper of the London School of Economics, The Beaver.
+> This piece was originally written for the student newspaper of the *London School of Economics*, *The Beaver*.
 
 Back in 1997, when tuition fees were first on the agenda of the then Labour government, Lord Dearing’s report on higher education funding argued that those who benefit from higher education could reasonably be expected to pay a fraction of the cost of that course. The since cherished ‘Dearing Compact’ saw higher education as a funding coalition of sorts, between the state, the student and the employer, with each expected to pony up their fair share in line with the benefits derived from the system.
 

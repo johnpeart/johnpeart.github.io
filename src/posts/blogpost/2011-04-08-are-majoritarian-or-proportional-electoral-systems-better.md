@@ -5,7 +5,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics. 
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 Electoral systems – the set of rules that regulate competition between parties and/or candidates during elections, that decide how vote shares map to seats in parliament and indeed, how the electorate express their preferences – have traditionally fallen into two categories; majoritarian – which include Single Member Plurality (or ‘First-Past-The-Post’), the Two-Round System and Alternative Vote – or proportional – like open or closed-list PR and the Single Transferable Vote[^1]. 
 

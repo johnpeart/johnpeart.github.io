@@ -5,7 +5,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 In this essay, I will discuss whether non-human animals &#8211; herein ‘animals’ &#8211; deserve equal consideration of their interests and whether, by not doing so, we are being ‘speciesist’. 
 

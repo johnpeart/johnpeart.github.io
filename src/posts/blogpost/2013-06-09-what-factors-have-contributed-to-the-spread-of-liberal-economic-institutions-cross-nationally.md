@@ -5,7 +5,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 Dating as far back as the repeal of the UK’s Corn Laws in 1884, there has been a growing consensus across countries that open markets and free trade brought tangible benefits to the nation state – be they economic, political or cultural. 
 

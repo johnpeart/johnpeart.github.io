@@ -6,7 +6,7 @@ categories:
   - data
 ---
 
-> This essay was written as a summative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a summative part of my undergraduate studies at the *London School of Economics*.
 
 In 1997, the ‘Bank of England’ was granted independence and tasked with maintaining price stability in the UK. At the same time, the Bank’s regulatory responsibilities were removed, and the ‘Financial Services Authority’ (‘FSA’) was formed.
 

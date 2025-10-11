@@ -6,7 +6,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 Two problems arise when discussing the apparent value of equality. The first concerns the ability to define equality in such a way that it can be shown as prior to other moral constraints and thus foundational, and the second concerns the ability to prove its desirability given this foundational quality. 
 

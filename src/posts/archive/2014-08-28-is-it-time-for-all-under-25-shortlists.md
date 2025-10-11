@@ -2,7 +2,9 @@
 title: "Is it time for All Under-25 Shortlists?"
 excerpt: "In the 1992 General Election, the turnout of 18-25 year old voters was 60%. By 2010, this had dropped to 44%. What can be done to reverse that trend?"
 categories:
-  - government
+- government
+aliases:
+- /2014/08/28/is-it-time-for-all-under-25-shortlists/
 ---
 In the 1992 General Election, the turnout of 18-25 year old voters was 60%. By 2010, this had dropped to 44% &#8211; despite significant efforts by campaigning organisations to reverse the declining trend. In current polling, only 24% of young people have said they are certain to vote in the 2015 General Election.
 

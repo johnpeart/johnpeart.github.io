@@ -1,16 +1,12 @@
 ---
 title: Fees or taxes? That is the question.
-
 excerpt: "“It is the job of reviews to make recommendations and the job of Government to make decisions.”"
-
-
-
 categories:
   - archive
   - education
 ---
 
-> This piece was originally written for the student newspaper of the London School of Economics, The Beaver.
+> This piece was originally written for the student newspaper of the *London School of Economics*, *The Beaver*.
 
 It is impossible to escape the growing argument over higher education funding and tuition fees in the media over the past six months. With each corner of the HE sector fighting over funding and a fragile coalition agreement preventing the Liberal Democrats from sticking to their long term commitment of scrapping fees, its clear that this explosive issue will be upsetting some.
 

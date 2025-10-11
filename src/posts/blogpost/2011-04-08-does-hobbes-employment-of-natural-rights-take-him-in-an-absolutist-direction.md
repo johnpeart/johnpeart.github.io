@@ -5,7 +5,7 @@ categories:
   - government
 ---
 
-> This essay was written as a formative part of my undergraduate studies at the London School of Economics.
+> This essay was written as a formative part of my undergraduate studies at the *London School of Economics*.
 
 In this essay, I will aim to assess the political thought of Thomas Hobbes, through analysis of his work, *Leviathan*. 
 

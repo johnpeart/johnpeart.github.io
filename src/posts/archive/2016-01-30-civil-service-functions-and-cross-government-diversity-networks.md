@@ -2,9 +2,11 @@
 title: "How will the functional model affect Civil Service diversity networks?"
 excerpt: "The future of the Civil Service is based on functions; but the work of diversity networks is based around departments. How can cross-government diversity activity evolve to meet the needs of a changing Civil Service?"
 categories:
-  - government
-  - diversity
-  - LGBT
+- government
+- diversity
+- LGBT
+aliases:
+- /2016/01/30/civil-service-functions-and-cross-government-diversity-networks/
 ---
 
 You probably haven't read [this policy paper](//www.gov.uk/government/publications/civil-service-reform-plan) on the Civil Service’s new functional model. It’s something being implemented in the Civil Service right now; if it works, it poses a lot of new challenges and opportunties for diversity in government.

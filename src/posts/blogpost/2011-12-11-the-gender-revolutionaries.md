@@ -6,7 +6,7 @@ categories:
   - LGBT
 ---
 
-> This piece was originally written for the student newspaper of the London School of Economics, The Beaver.
+> This piece was originally written for the student newspaper of the *London School of Economics*, *The Beaver*.
 
 Some areas of our society are persecuted every day because of how they choose to live their lives. 
 

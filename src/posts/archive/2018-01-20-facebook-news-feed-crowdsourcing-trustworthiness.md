@@ -3,7 +3,9 @@ title: "Facebook’s ridiculous plan to crowdsource news trustworthiness"
 author: John Peart
 excerpt: "Asking users to rate the trustworthiness of news sources is like asking 3 year olds to choose their own meals: they’ll pick what they like, not what’s good for them."
 categories:
-  - digital
+- digital
+aliases:
+- /2018/01/20/facebook-news-feed-crowdsourcing-trustworthiness/
 ---
 
 Facebook has announced that it is going to start [asking users which news sources they trust](https://www.theverge.com/2018/1/19/16911284/facebook-news-sources-trustworthiness-survey-users-news-feed "The Verge (External link)") in an effort to improve the quality of the News Feed and crack down on so-called “Fake News”. 

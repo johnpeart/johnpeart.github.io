@@ -23,7 +23,7 @@
 }
 @keyframes navigation {
     from {
-        border-radius: 0;
+        border-radius: var(--border-radius);
         border: 3px solid transparent;
         box-shadow: var(--shadow-deep--inverse);
         backdrop-filter: blur(0) contrast(1) saturate(1);

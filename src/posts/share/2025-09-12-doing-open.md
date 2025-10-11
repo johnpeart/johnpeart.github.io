@@ -1,22 +1,25 @@
 ---
-date: 2025-09-12T17:44:23+01:00
+date: 2025-10-11T11:12:00+00:00
 reply_to:
   author:
-    name: "Giles Turnbull"
-    url: "https://gilest.org/"
+    name: "Iain Thomson"
+    url: "https://www.theregister.com/Author/Iain-Thomson"
+  publication:
+    name: "The Register"
+    url: "https://www.theregister.com/"
   post:
-    title: "Doing Open"
-    url: "https://gilest.org/doingopen/"
-    date: 2025-07-24T08:33:00+01:00
+    title: "Microsoft moves to the uncanny valley with creepy Copilot avatars that stare at you and say your name"
+    description: "Yep, we're sure that will win folks over."
+    url: "https://www.theregister.com/2025/09/30/microsoft_copilot_avatars/"
+    image: "https://regmedia.co.uk/2025/09/30/avatar.jpg"
+    date: 2025-09-30
     content: |
-        This is a resource for people who find themselves looking for examples and links about working in the open and agile communication.
+        Microsoft is testing talking avatars for Copilot to see if users feel more at ease chatting with a face instead of just a text box.
 
 # posse:
 # -
 ---
 
-I have just realised that Giles has published *yet another* great resource! First there was [Doing presentations](https://gilest.org/doingpresentations/), then [Doing weeknotes](https://gilest.org/doingweeknotes/), and now, [Doing open](https://gilest.org/doingopen/).
+  Just give us back [Clippy](https://en.wikipedia.org/wiki/Office_Assistant), you cowards.
 
-A welcome surprise too is to see our own team's work being given the *Turnbull Seal of Approval*!
-
-When Giles came in to do some [training on agile comms and working in the open](/2024/03/15/open-policy-meets-agile-comms/), he ran through an enormous Rolodex of best practice for this stuff.  I remember thinking “*I want our stuff in that Rolodex!*” and now we are.
+(Seriously though; human-like avatars is not it.)

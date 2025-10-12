@@ -1,4 +1,4 @@
-<div class="object object--{{ object.type }}">
+<div class="object object--{{ object.type | downcase }}">
     {% include "components/objects/{{ object.type | downcase | slugify }}.svg" %}  
 </div>
 <div class="object-metadata">

@@ -4,13 +4,10 @@
 }
 
 .object {
-    &.object--ipod-nano {
-        max-width: 300px;
-    }
-    
+    &.object--ipod-nano,
     &.object--game-boy,
     &.object--ios {
-        max-width: 275px;
+        max-width: 300px;
     }
     
     &.object--playstation {
@@ -19,12 +16,6 @@
     
     &.object--switch {
         max-width: 200px;
-        max-height: 350px;
-        margin-block-end: 0 !important;
-        
-        @media (max-width: 700px) {
-            max-height: 200px;
-        }
     }
     
     &.object--calendar-now,
@@ -45,6 +36,20 @@
     }
 }
 
+.gallery-item {
+    & .object--game-boy,
+    & .object--ios {
+        max-width: 250px;
+    }
+    
+    & .object--switch {
+        max-height: 350px;
+        margin-block-end: 0 !important;
+        @media (max-width: 700px) {
+            max-height: 200px;
+        }
+    }
+}
 
 .object-metadata {
     text-align: center;

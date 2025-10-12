@@ -50,7 +50,7 @@ filters:
     {% endif %}
     {% for post in posts %}
         <li>
-            <article class="{{ collection }} ">
+            <article class="{{ collection }} gallery-item">
                 <a href="{{ post.url }}" title="Read {{ post.data.title }}" class="gallery-link">
                     {% if collection == 'game' %}
                         {% include "components/objects/{{ post.data.object.platform | downcase | slugify }}.svg" %}

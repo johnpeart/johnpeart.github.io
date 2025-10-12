@@ -3,6 +3,7 @@ date: 2025-07-08T21:11:00+00:00
 title: "Elden Ring Nightreign"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/elden-ring-nightreign.jpg"
     

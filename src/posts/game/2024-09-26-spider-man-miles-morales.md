@@ -3,6 +3,7 @@ date: 2024-10-31T21:36:00+00:00
 title: "Marvel’s Spider-Man: Miles Morales"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/marvels-spider-man-miles-morales.jpg"
     

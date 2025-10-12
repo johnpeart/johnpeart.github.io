@@ -3,6 +3,7 @@ date: 2024-08-11T17:00:00+01:00
 title: "Elden Ring"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/elden-ring.jpg"
     

@@ -3,6 +3,7 @@ date: 2024-09-08T20:25:00+01:00
 title: "inFAMOUS First Light"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/infamous-first-light.jpg"
     

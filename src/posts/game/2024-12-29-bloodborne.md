@@ -3,6 +3,7 @@ date: 2024-12-29T12:54:00+00:00
 title: "Bloodborne"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/bloodborne.jpg"
     

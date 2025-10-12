@@ -3,6 +3,7 @@ date: 2025-03-02T23:26:00+00:00
 title: "STAR WARS Jedi: Survivor"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/star-wars-jedi-survivor.jpg"
 ---

@@ -3,6 +3,7 @@ date: 2023-12-17T16:54:00+00:00
 title: "Astro’s Playroom"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/astros-playroom.jpg"
 ---

@@ -3,6 +3,7 @@ date: 2023-12-29T18:10:00+00:00
 title: "Horizon Zero Dawn"
 object:
     platform: "PlayStation"
+    type: "playstation"
     trophy: "platinum"
     image: "/images/games/horizon-zero-dawn.jpg"
 ---

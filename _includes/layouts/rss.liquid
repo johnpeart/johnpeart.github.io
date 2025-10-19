@@ -77,12 +77,12 @@
 					<p>
 					{%- if reply_to.post.date -%}On {{ reply_date }}{%- endif -%}
 					{%- if post.data.collection == "reply" -%}
-						{{ reply_to.author.name | default: "Someone" | append: " wrote:" | markdownify }}
+						{{ reply_to.author.name | default: "Someone" | append: " wrote:" }}
 					{%- elsif post.data.collection == "share" -%}
 						{%- if reply_to.publication -%}
-						{{ reply_to.author.name | append: " at " | append: reply_to.publication.name | append: " wrote:" | markdownify }}
+						{{ reply_to.author.name | append: " at " | append: reply_to.publication.name | append: " wrote:" }}
 						{%- elsif reply_to.original -%}
-						{{ reply_to.author.name | append: " wrote:" | markdownify }}
+						{{ reply_to.author.name | append: " wrote:" }}
 						{%- endif -%}
 					{%- endif -%}
 					</p>
@@ -101,15 +101,11 @@
 					{%- endif -%}
 					</blockquote>
 				
-					<p>
-					On {{ post.date | date: '%d %B %Y' }},
-					John Peart
-					{% if post.data.collection == "share" %}shared and commented{% else %}replied{% endif %}
-					</p>
+					<p>On {{ post.date | date: '%d %B %Y' }}, John Peart {% if post.data.collection == "share" %}shared and commented{% else %}replied{% endif %}</p>
 					<blockquote>
 				{%- endif -%}
 				
-				{{ post.content | markdownify | xml_escape }}
+				{{ post.content | markdownify }}
 				
 				{%- if post.data.collection == "reply" or post.data.collection == "share" -%}
 					</blockquote>

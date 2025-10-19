@@ -32,8 +32,8 @@ layout: "default"
                 {% assign key-value--value = start-date | append: " to " | append: end-date %}
                 {% assign key-value--description = item.organisation %}
                 
-                <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description {% if item.projects -%}key-value--with-detailssummary{%- endif -%}">
-                    {%- if item.projects -%}
+                <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description {% if item.projects or item.summary -%}key-value--with-detailssummary{%- endif -%}">
+                    {%- if item.projects or item.summary -%}
                     <details>
                         <summary>
                     {%- endif -%}
@@ -44,10 +44,21 @@ layout: "default"
                         </div>
                         {{ key-value--value | markdownify | replace: '<p>', '<p class="key-value--value small-text secondary-text">' }}
                     
-                    {%- if item.projects -%}
+                    {%- if item.projects or item.summary -%}
                         </summary>
-                        
-                        <h4 class="padding-top" style="--mult: 0;">Projects</h4>
+                    {%- endif -%}
+                    
+                    {%- if item.summary.organisation -%}
+                        <h4 class="padding-top padding-bottom h5" style="--mult: 1;">About this organisation</h4>
+                        {{ item.summary.organisation | markdownify }}
+                    {%- endif -%}
+                    {%- if item.summary.role -%}
+                        <h4 class="padding-top padding-bottom h5" style="--mult: 1;">About this role</h4>
+                        {{ item.summary.role | markdownify }}
+                    {%- endif -%}
+                    
+                    {%- if item.projects -%}
+                        <h4 class="padding-top padding-bottom h5" style="--mult: 1;">Projects and publications</h4>
                         <ul class="list">
                         {%- for project in item.projects -%}
                             <li>

@@ -12,7 +12,29 @@ list:
       dates:
         start: 2022-07-01
         # end: present
+      summary:
+        organisation: | 
+          The Office for Digital Identities and Attributes (OfDIA) is part of the Department for Science, Innovation and Technology. 
         
+          We develop quality standards for digital verification services and oversee a system of independent assurance, underpinned by legislation. Our work enables people to prove things about themselves in a trustworthy way, digitally, and across the economy, through a range of public and private sector services.
+        role: |
+          As the Assistant Director for Market Oversight and Integrity, I lead policy and delivery that supports the development of the digital verification services market in the UK. 
+          
+          I lead the development and maintenance of a UKAS-recognised conformity assessment scheme, aligned to ISO/IEC 17065:2012, that underpins the assurance processes that build trust in digital verification service providers operating in the UK.
+          
+          I am also the service owner for a [GOV.UK register of digital identity and attribute services](https://www.gov.uk/guidance/find-registered-digital-identity-and-attribute-services); a statutory register of digital verification services that have been independently assessed as meeting UK government rules. As part of this, I lead a digital delivery team and associated operational teams responsible for building, running and maintaining the integrity of this statutory register.
+      projects:
+      - title: "Developing the business case for the Office for Digital Identities and Attributes"
+        url: "https://www.gov.uk/ofdia"
+      - title: "Enabling digital identity blog"
+        url: "https://enablingdigitalidentity.blog.gov.uk/author/jpeart/"
+      - title: "GOV.UK register of digital identity and attribute services (Discovery to Public Beta)"
+        url: "https://www.gov.uk/guidance/find-registered-digital-identity-and-attribute-services"
+      - title: "UK digital identity and attributes trust framework certification scheme (0.3.1 to 0.4.4)"
+        url: "https://www.gov.uk/guidance/certification-scheme-for-the-uk-digital-identity-and-attributes-trust-framework"
+      - title: "Digital Identity Sectoral Analysis Report 2025"
+        url: "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2025"
+
     - title: "Head of Design and Delivery, Safe To Be Me International LGBT+ Conference"
       organisation: "Equality Hub, Government Equalities Office"
       dates:
@@ -95,8 +117,8 @@ list:
           url: "https://www.civilservice.lgbt/mentoring"
         - title: "Civil Service Awards: Developing and Supporting People Award – Civil Service LGBT+ mentoring programme"
           url: "https://civilservice.blog.gov.uk/2022/01/24/civil-service-awards-why-victory-is-over-the-rainbow/"
-        - title: "Civil Service Pride 2022"
         - title: "Civil Service Pride 2023"
+        - title: "Civil Service Pride 2022"
           
     - title: "Vice-chair"
       organisation: "Civil Service LGBT+ Network"

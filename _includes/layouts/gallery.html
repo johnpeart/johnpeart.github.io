@@ -17,6 +17,8 @@ filters:
       link: /games/100/
     - title: "iOS"
       link: /games/ios/
+    - title: "PC"
+      link: /games/pc/
 ---
 
 <section id="page-content" class="grid h-entry e-content">
@@ -37,7 +39,7 @@ filters:
     </nav>
     {% endif %}
 
-    <ul class="gallery gallery-{{ size | default: '4' }} gallery-{{ angle | default: false }}">
+    <ul class="gallery gallery-{{ size | default: '4' }}">
 
     {% if platform and trophy %}
         {% assign posts = collections[collection] | where: "data.object.platform", platform | where: "data.object.trophy", trophy %}
@@ -49,8 +51,8 @@ filters:
         {% assign posts = collections[collection] %}
     {% endif %}
     {% for post in posts %}
-        <li>
-            <article class="{{ collection }} gallery-item">
+        <li class="{{ collection }} gallery-item object--{{ post.data.object.type | downcase | slugify }}">
+            <article>
                 <a href="{{ post.url }}" title="Read {{ post.data.title }}" class="gallery-link">
                     {% if collection == 'game' %}
                         {% include "components/objects/{{ post.data.object.platform | downcase | slugify }}.svg" %}

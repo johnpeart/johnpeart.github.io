@@ -1,5 +1,4 @@
 const fs = require('fs');
-const unionBy = require('lodash/unionBy');
 const domain = 'www.johnpe.art';
 
 // Load .env variables with dotenv
@@ -10,9 +9,12 @@ const CACHE_DIR = './_data';
 const API = 'https://webmention.io/api';
 const TOKEN = process.env.WEBMENTION_IO_TOKEN;
 
-async function fetchWebmentions(since, perPage = 10000) {
-    const fetch = (await import('node-fetch')).default;
+// Check if we're in serve or watch mode
+function isDevMode() {
+    return process.argv.includes('--serve') || process.argv.includes('--watch');
+}
 
+async function fetchWebmentions(since, perPage = 10000) {
     if (!domain) {
         console.warn(
             '>>> unable to fetch webmentions: no domain name specified in site.json'
@@ -50,7 +52,14 @@ async function fetchWebmentions(since, perPage = 10000) {
 
 // Merge fresh webmentions with cached entries, unique per id
 function mergeWebmentions(a, b) {
-    return unionBy(a.children, b.children, 'wm-id');
+    const seen = new Map();
+    
+    // Add all items, with later items overwriting earlier ones with the same id
+    [...a.children, ...b.children].forEach(item => {
+        seen.set(item['wm-id'], item);
+    });
+    
+    return Array.from(seen.values());
 }
 
 // Save combined webmentions in the cache file
@@ -86,11 +95,30 @@ function readFromCache() {
     };
 }
 
+// Deduplicate webmentions by wm-id
+function deduplicateWebmentions(mentions) {
+    const seen = new Map();
+    mentions.forEach(item => {
+        seen.set(item['wm-id'], item);
+    });
+    return Array.from(seen.values());
+}
+
 module.exports = async function () {
     const cache = readFromCache();
 
     if (cache.children.length) {
         console.log(`>>> ${cache.children.length} webmentions loaded from cache`);
+    }
+
+    // Only fetch new webmentions when NOT in dev mode
+    if (isDevMode()) {
+        console.log('>>> Skipping webmention fetch (in dev mode)');
+        // Ensure cache is deduplicated before returning
+        return {
+            ...cache,
+            children: deduplicateWebmentions(cache.children)
+        };
     }
 
     const feed = await fetchWebmentions(cache.lastFetched);
@@ -104,4 +132,9 @@ module.exports = async function () {
         return webmentions;
     }
 
+    // Ensure cache is deduplicated before returning
+    return {
+        ...cache,
+        children: deduplicateWebmentions(cache.children)
+    };
 };

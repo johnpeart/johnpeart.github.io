@@ -3,8 +3,8 @@
 {% assign count-webmentions = webmentions | where: "wm-target", current_url | size %}
 
 <footer id="post-footer" class="grid interactions replies">
-    {% if count-webmentions > 0 %}
     <aside class="interactions">
+    {% if count-webmentions > 0 %}
         {% for mention in webmentions %}
             {% if mention.wm-target == current_url %}
             
@@ -96,8 +96,8 @@
                 {% endcase %}
             {% endif %}
         {% endfor %}
-    </aside>
     {% endif %}
+    </aside>
     
     <footer id="webmentions-footer" class="grid full-width">
         {% include "components/webmentions/form.html" %}    

@@ -294,7 +294,7 @@ img.speech-bubble {
         z-index: 100;
         position: sticky;
         top: auto;
-        bottom: var(--pad);
+        bottom: calc(145px + var(--pad));
     }
 
 }

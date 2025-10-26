@@ -50,7 +50,9 @@ With a 256GB and 5G. An every-day carry device that I use for reading, web brows
 
 After a brief flirtation with the *iPhone Air* – which proved to be a wonderful device, save for the awful, tinny speaker – I've upgraded to the *iPhone 17 Pro* instead. 
 
+Coming from the iPhone 15 Pro Max, this is a much lighter device, with slightly better ergonomics. The camera is substantially better – especially on the telephoto lense. I think this will be a great daily driver for at least a couple of years.
 
+<img src="/images/objects/apple-watch.svg" alt="A line drawing of a silver Apple Watch with a red band">
 
 ### Apple Watch (7th generation)
 

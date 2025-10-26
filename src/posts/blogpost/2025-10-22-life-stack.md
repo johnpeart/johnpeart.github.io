@@ -48,7 +48,9 @@ With a 256GB and 5G. An every-day carry device that I use for reading, web brows
 
 ### iPhone 17 Pro
 
-...
+After a brief flirtation with the *iPhone Air* – which proved to be a wonderful device, save for the awful, tinny speaker – I've upgraded to the *iPhone 17 Pro* instead. 
+
+
 
 ### Apple Watch (7th generation)
 

@@ -179,11 +179,13 @@ img.app-icon {
     max-height: 57px;
     max-width: 57px;
     
-    border-radius: var(--border-radius);
+    border-radius: calc(var(--border-radius) * 1.25);
     border: 3px solid var(--color);
+    corner-shape: squircle;
     
     &.large {
         @media (min-width: 700px) {
+            border-radius: calc(var(--border-radius) * 1.5);
             max-height: 104px;
             max-width: 104px;
         }

@@ -7,11 +7,35 @@ permalink: /about/
 list:
 - name: "Career"
   items:
+    - title: "Interim Chief Executive"
+      organisation: "Office for Digital Identities and Attributes"
+      dates:
+        start: 2025-09-29
+        # end: present
+      summary:
+        organisation: | 
+          The Office for Digital Identities and Attributes (OfDIA) is part of the Department for Science, Innovation and Technology. 
+        
+          We develop quality standards for digital verification services and oversee a system of independent assurance, underpinned by legislation. Our work enables people to prove things about themselves in a trustworthy way, digitally, and across the economy, through a range of public and private sector services.
+        role: |
+          As Chief Executive for OfDIA, I'm accountable for the overall delivery of the digital verification services measures in Part 2 of the Data (Use and Access) Act 2025. I lead teams of policy, certification, analyst and digital delivery experts to deliver that work.
+          
+          My teams: 
+          
+          - develop and maintain [the UK digital identity and attributes trust framework](https://www.gov.uk/government/collections/uk-digital-identity-and-attributes-trust-framework) and associated [supplementary codes](https://www.gov.uk/government/collections/uk-digital-identity-and-attributes-supplementary-codes)
+          - develop and maintain a UKAS-accredited [conformity assessment scheme](https://www.gov.uk/guidance/certification-scheme-for-the-uk-digital-identity-and-attributes-trust-framework) aligned to ISO/IEC 17065:2012.
+          - build and run the [GOV.UK register of digital identity and attribute services](https://www.gov.uk/guidance/find-registered-digital-identity-and-attribute-services); an authoriative source of information about digital verification services that meet the requirements of the trust framework.
+          - work across government and the private sector to make it possible of people to use digital verification services in new parts of the economy
+          - provide [research and insight into the UK's digital verification services market](https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2025)
+          - issue the statutory Code of Practice for the Information Gateway
+          {.list}
+          
+          
     - title: "Assistant Director, Market Oversight and Integrity"
       organisation: "Office for Digital Identities and Attributes"
       dates:
         start: 2022-07-01
-        # end: present
+        end: 2025-09-28
       summary:
         organisation: | 
           The Office for Digital Identities and Attributes (OfDIA) is part of the Department for Science, Innovation and Technology. 

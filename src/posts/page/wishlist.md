@@ -59,6 +59,12 @@ list:
       price: "£25"
       link: 
         external: "https://www.levi.com/GB/en_GB/clothing/men/original-housemark-tee/p/566050000"
+    - name: "Dressing gown"
+      descripton: "Mid-to-long length. Lightweight material."
+      price: "Varies"
+    - name: "Slippers"
+      descripton: "Size 10. With back."
+      price: "Varies"
     - name: "Rugby-style shirts"
       description: "Size S."
       price: "£35"
@@ -77,6 +83,16 @@ list:
 
 - name: "Accessories"
   items:
+    - name: "Bisikor Magnetic Strap"
+      description: "For Apple Watch 45/46mm."
+      price: "£20"
+      link: 
+        external: "https://www.amazon.co.uk/Bisikor-Compatible-Wearable-Silicone-Magnetic/dp/B0D3X4TWYH/"
+    - name: "Leather desk mat"
+      description: "No more than 1m x 0.5m."
+      price: "£25"
+      link: 
+        external: "https://www.amazon.co.uk/Nordik-Leather-Organiser-Extended-Accessories-Alaskan-Grey/dp/B08SK6NNLR/"
     - name: "Nomad Tempo Band"
       description: "For Apple Watch 45/46mm. Lumen or Crush."
       price: "£49"
@@ -86,6 +102,11 @@ list:
       description: "For Apple Watch 46mm. Ultra Orange."
       price: "£49"
       link: 
+    - name: "Clock Dock"
+      description: "For iPhone 17 Pro. Orange. Caseless."
+      price: "£60"
+      link: 
+        external: "https://www.etsy.com/uk/listing/1806496826/clock-dock-for-iphone-standby-mode"
         external: "https://nomadgoods.com/uk/products/tempo-band-46mm-lumen"
     - name: "Nomad Card Wallet Plus"
       price: "£65"
@@ -94,11 +115,6 @@ list:
 
 - name: "Technology"
   items:
-    - name: "Clock Dock"
-      description: "For iPhone 17 Pro. Orange. Caseless."
-      price: "£60"
-      link: 
-        external: "https://www.etsy.com/uk/listing/1806496826/clock-dock-for-iphone-standby-mode"
     - name: "EcoTank ET-8550 A3+ Wi-Fi Ink Tank Photo Printer"
       price: "£780"
       link: 

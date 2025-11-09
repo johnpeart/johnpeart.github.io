@@ -4,9 +4,6 @@ reply_to:
   author:
     name: "Giles Turnbull"
     url: "https://gilest.org/"
-  publication:
-    name: ""
-    url: ""
   post:
     title: "Corporate training needs content design"
     description: "Not cartoons"

@@ -47,45 +47,90 @@ list:
       link:
         external: "https://www.waterstones.com/book/radical-candor/kim-scott/9781529038347"
         
-- name: "Clothing and Accessories"
+- name: "Clothing"
   items:
     - name: "Airism oversized mock neck half sleeved t-shirt"
       description: "From Uniqlo. Dark Gray, white or black. Size S."
       price: "£20"
       link: 
         external: "https://www.uniqlo.com/uk/en/products/E465185-000/00"
+    - name: "Levi's Original Housemark Tee"
+      description: "Size S. Black or white."
+      price: "£25"
+      link: 
+        external: "https://www.levi.com/GB/en_GB/clothing/men/original-housemark-tee/p/566050000"
     - name: "Rugby-style shirts"
       description: "Size S."
       price: "£35"
       link: 
         external: "https://www.marksandspencer.com/pure-cotton-striped-rugby-shirt/p/clp60609757?color=NAVYMIX#intid=pid_pg1pip37g4r2c4"
-    - name: "Hugo by Hugo Boss"
-      description: "Aftershave; size and costs vary."
-      price: "Varies"
     - name: "Jeans"
       description: "32 inch waist, 32 inch leg. Black or blue. Slim fit."
       price: "Varies"
-    - name: "Grandad collar shirts"
-      description: "From Uniqlo. Size S."
-      price: "£40"
+      link:
+        external: "https://www.levi.com/GB/en_GB/clothing/men/jeans/slim/c/levi_clothing_men_jeans_slim"
+    - name: "Chelsea boots"
+      description: "Size 10. Tan or black."
+      price: "£120"
       link: 
-        external: "https://www.uniqlo.com/uk/en/product/100pct-premium-linen-regular-fit-shirt-grandad-collar-455958.html?dwvar_455958_size=SMA003&dwvar_455958_color=COL69"
-    - name: "Boss by Hugo Boss"
-      description: "Aftershave; size and costs vary."
-      price: "Varies"
+        external: "https://www.jonesbootmaker.com/products/eastbourne-leather-chelsea-boots-eastbourne-322-611-tan/tan/10"
 
+- name: "Accessories"
+  items:
+    - name: "Nomad Tempo Band"
+      description: "For Apple Watch 45/46mm. Lumen or Crush."
+      price: "£49"
+      link: 
+        external: "https://nomadgoods.com/uk/products/tempo-band-46mm-lumen"
+    - name: "Nomad Sport Band"
+      description: "For Apple Watch 46mm. Ultra Orange."
+      price: "£49"
+      link: 
+        external: "https://nomadgoods.com/uk/products/tempo-band-46mm-lumen"
+    - name: "Nomad Card Wallet Plus"
+      price: "£65"
+      link: 
+        external: "https://nomadgoods.com/uk/products/card-wallet-plus-english-tan"
+
+- name: "Technology"
+  items:
+    - name: "Clock Dock"
+      description: "For iPhone 17 Pro. Orange. Caseless."
+      price: "£60"
+      link: 
+        external: "https://www.etsy.com/uk/listing/1806496826/clock-dock-for-iphone-standby-mode"
+    - name: "EcoTank ET-8550 A3+ Wi-Fi Ink Tank Photo Printer"
+      price: "£780"
+      link: 
+        external: "https://www.amazon.co.uk/Epson-EcoTank-8550-Print-Printer/dp/B0912S43FL/"
+        
 - name: "Gaming"
   items:
-    - name: "Nintendo Switch 2"
-      description: "Bundled with Mario Kart World"
-      price: "£429"
+    - name: "Donkey Kong Country Returns HD"
+      description: "For Nintendo Switch"
+      price: "£35"
       link: 
-        external: "https://retroremake.co/products/superstation-one?variant=43014710329367"
+        external: "https://www.amazon.co.uk/Donkey-Kong-Country-Returns-HD/dp/B0D7J1Z5CX/"
+    - name: "Legend of Zelda: Echoes of Wisdom"
+      description: "For Nintendo Switch"
+      price: "£37"
+      link: 
+        external: "https://www.amazon.co.uk/Legend-Zelda-Echoes-Wisdom/dp/B0D7J3PC7H/"
+    - name: "Luigi's Mansion 2 HD"
+      description: "For Nintendo Switch"
+      price: "£38"
+      link: 
+        external: "https://www.amazon.co.uk/Nintendo-0045496512149-Luigis-Mansion-HD/dp/B0CXT7J6VT/"
     - name: "Metroid Prime 4: Beyond"
       description: "For Nintendo Switch 2"
       price: "£50"
       link: 
         external: "https://www.amazon.co.uk/dp/B0FR9G4N9S"
+    - name: "Donkey Kong Bananza"
+      description: "For Nintendo Switch 2"
+      price: "£50"
+      link: 
+        external: "https://www.amazon.co.uk/Nintendo-Switch-Donkey-Kong-Bananza/dp/B0F3NVWM37/"
     - name: "Hyrule Warriors: Age of Imprisonment"
       description: "For Nintendo Switch 2"
       price: "£55"
@@ -139,10 +184,10 @@ list:
       price: "£150"
       link: 
         external: "https://www.lego.com/en-gb/product/mario-kart-mario-standard-kart-72037"
-    - name: "LEGO Pirhana Plant"
-      price: "£58"
+    - name: "Briggs & Riley Garment Duffle Bag"
+      price: "£299"
       link: 
-        external: "https://www.lego.com/en-gb/product/piranha-plant-71426"
+        external: "https://www.amazon.co.uk/Briggs-Riley-Baseline-Garment-Duffle/dp/B0DHQZSJCJ/"
 
 - name: "Music"
   items:
@@ -151,12 +196,12 @@ list:
     - name: "Eurovision Song Contest 2001 album"
       price: "Varies"
 
-- name: "Technology"
+- name: "Fragrance"
   items:
-    - name: "8BitDo Retro Keycaps"
-      description: "Often discounted."
-      price: "$50"
-      link: 
-        external: "https://shop.8bitdo.com/products/8bitdo-retro-keycaps"
-
+    - name: "Hugo by Hugo Boss"
+      description: "Aftershave; size and costs vary."
+      price: "Varies"
+    - name: "Boss by Hugo Boss"
+      description: "Aftershave; size and costs vary."
+      price: "Varies"
 ---

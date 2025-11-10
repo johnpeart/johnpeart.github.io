@@ -107,7 +107,6 @@ list:
       price: "£60"
       link: 
         external: "https://www.etsy.com/uk/listing/1806496826/clock-dock-for-iphone-standby-mode"
-        external: "https://nomadgoods.com/uk/products/tempo-band-46mm-lumen"
     - name: "Nomad Card Wallet Plus"
       price: "£65"
       link: 

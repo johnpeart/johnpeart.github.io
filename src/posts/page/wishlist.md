@@ -70,16 +70,21 @@ list:
       price: "£35"
       link: 
         external: "https://www.marksandspencer.com/pure-cotton-striped-rugby-shirt/p/clp60609757?color=NAVYMIX#intid=pid_pg1pip37g4r2c4"
+    - name: "Adidas Galaxy 6 shoes"
+      description: "Size 10. Black, silver or red."
+      price: "£25"
+      link: 
+        external: "https://www.adidas.co.uk/galaxy-6-shoes/GW3848.html"
+    - name: "Adidas Duramo 10 shoes"
+      description: "Size 10. Black, silver or red."
+      price: "£40"
+      link: 
+        external: "https://www.adidas.co.uk/duramo-10-shoes/HP2372.html?forceSelSize=10"
     - name: "Jeans"
       description: "32 inch waist, 32 inch leg. Black or blue. Slim fit."
       price: "Varies"
       link:
         external: "https://www.levi.com/GB/en_GB/clothing/men/jeans/slim/c/levi_clothing_men_jeans_slim"
-    - name: "Chelsea boots"
-      description: "Size 10. Tan or black."
-      price: "£120"
-      link: 
-        external: "https://www.jonesbootmaker.com/products/eastbourne-leather-chelsea-boots-eastbourne-322-611-tan/tan/10"
 
 - name: "Accessories"
   items:
@@ -114,10 +119,18 @@ list:
 
 - name: "Technology"
   items:
+    - name: "Trust Bayo+ vertical mouse"
+      price: "£36"
+      link: 
+        external: "https://www.amazon.co.uk/Trust-Rechargeable-Bluetooth-Ergonomic-Multidevice/dp/B0CVBFPWF8"
     - name: "EcoTank ET-8550 A3+ Wi-Fi Ink Tank Photo Printer"
       price: "£780"
       link: 
         external: "https://www.amazon.co.uk/Epson-EcoTank-8550-Print-Printer/dp/B0912S43FL/"
+    - name: "FUJIFILM X100VI"
+      price: "£1,599"
+      link: 
+        external: "https://eshop.fujifilm-x.com/uk/fujifilm-x100vi.html"
         
 - name: "Gaming"
   items:
@@ -151,18 +164,10 @@ list:
       price: "£55"
       link: 
         external: "https://www.amazon.co.uk/dp/B0FR8XHR72/"
-
-- name: "Retro gaming"
-  items:
     - name: "SuperStation"
       price: "$200"
       link: 
         external: "https://retroremake.co/products/superstation-one?variant=43014710329367"
-    - name: "Empty flash cartridges"
-      description: "For Game Boy and Game Boy Color"
-      price: "Varies"
-      link: 
-        internal: "/games/game-boy-carts#empty-flash-cartridges"
     - name: "Game Boy games"
       price: "Varies"
       link: 
@@ -189,7 +194,7 @@ list:
       link: 
         external: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
 
-- name: "Miscellaneous"
+- name: "LEGO"
   items:
     - name: "LEGO Game Boy"
       price: "£55"
@@ -199,10 +204,24 @@ list:
       price: "£150"
       link: 
         external: "https://www.lego.com/en-gb/product/mario-kart-mario-standard-kart-72037"
+    - name: "LEGO Star Trek USS Enterprise NCC-1701-D"
+      price: "£150"
+      link: 
+        external: "https://www.lego.com/en-gb/product/star-trek-u-s-s-enterprise-ncc-1701-d-10356?cmp=REF-202511-StarTrek_Laun"
+
+- name: "Travel"
+  items:
     - name: "Briggs & Riley Garment Duffle Bag"
       price: "£299"
       link: 
         external: "https://www.amazon.co.uk/Briggs-Riley-Baseline-Garment-Duffle/dp/B0DHQZSJCJ/"
+
+- name: "Miscellaneous"
+  items:
+    - name: "Economist digital subscription"
+      price: "£239"
+      link: 
+        external: "https://subscribenow.economist.com/gift"
 
 - name: "Music"
   items:

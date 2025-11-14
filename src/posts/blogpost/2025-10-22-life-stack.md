@@ -20,9 +20,11 @@ Inspired by [Aaron Parecki’s “life stack”](https://aaronparecki.com/life-s
 
 13-inch laptop with an M4 processor, a 512GB solid-state drive and 24GB of “unified memory”. The best laptop I’ve ever owned.
 
-### Dell U2520D
+<img src="/images/objects/dell-s3425w.svg" alt="A line drawing of a Keychron K8 mechanical keyboard">
 
-A 25-inch, QHD monitor. I'd prefer a larger, higher-resolution monitor; but it was cheap, and it saved me from kitchen-table neck-strain when we were all in pandemic lock-down.
+### Dell 34 Plus USB-C monitor (S3425W)
+
+A 34-inch, ultra-wide, QHD monitor. This is my first ultra-wide monitor. Being able to have two, full-size windows side by side is a huge productivity boost. The picture quality could be crisper and the colours could be richer but for £260, I think it's great!
 
 ### Logitech StreamCam
 

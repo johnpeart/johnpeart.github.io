@@ -1,5 +1,5 @@
 ---
-date: 2025-10-22T22:00:00+00:00
+date: 2025-11-14T22:00:00+00:00
 title: "Life stack"
 author: "John Peart"
 excerpt: "The stuff I use to manage my life."

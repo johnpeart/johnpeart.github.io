@@ -1,8 +1,17 @@
 hr {
     border-radius: var(--border-radius);
-    border: 1px solid var(--secondary-borderColor);
+    border: 3px solid var(--color);
+    width: 25%;
+    max-width: 100px;
+    margin: calc(var(--pad) * 4) auto calc(var(--pad) * 4);
 }
 
-hr + p {
-    padding-top: calc(var(--pad) * 2);
+hr {
+    & + p,
+    & + h1,
+    & + h2,
+    & + h3,
+    & + h4 {
+        padding-top: var(--pad);
+    }
 }

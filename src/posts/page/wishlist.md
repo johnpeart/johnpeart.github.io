@@ -119,6 +119,10 @@ list:
 
 - name: "Technology"
   items:
+    - name: "Maclock"
+      price: "£15"
+      link: 
+        external: "https://www.aliexpress.com/item/1005010323901640.html"
     - name: "Trust Bayo+ vertical mouse"
       price: "£36"
       link: 
@@ -194,18 +198,18 @@ list:
       link: 
         external: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
 
-- name: "LEGO"
+- name: "Bricks"
   items:
     - name: "LEGO Game Boy"
       price: "£55"
       link: 
         external: "https://www.lego.com/en-gb/product/game-boy-72046"
-    - name: "LEGO Mario Kart – Mario & Standard Kart"
+    - name: "LEGO Mario Kart – Mario & Standard Kart (72037)"
       price: "£150"
       link: 
         external: "https://www.lego.com/en-gb/product/mario-kart-mario-standard-kart-72037"
     - name: "LEGO Star Trek USS Enterprise NCC-1701-D"
-      price: "£150"
+      price: "£350"
       link: 
         external: "https://www.lego.com/en-gb/product/star-trek-u-s-s-enterprise-ncc-1701-d-10356?cmp=REF-202511-StarTrek_Laun"
 

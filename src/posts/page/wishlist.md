@@ -117,24 +117,23 @@ list:
       link: 
         external: "https://nomadgoods.com/uk/products/card-wallet-plus-english-tan"
 
-- name: "Technology"
+- name: "Office"
   items:
-    - name: "Maclock"
-      price: "£15"
+    - name: "25 minute hourglass"
+      description: "For the Pomodoro technique"
+      price: "£31"
       link: 
-        external: "https://www.aliexpress.com/item/1005010323901640.html"
-    - name: "Trust Bayo+ vertical mouse"
-      price: "£36"
+        external: "https://ugmonk.com/en-gb/collections/new-arrivals/products/25-minute-hourglass-amber?variant=45229640679574"
+    - name: "ToDo Deck Refill"
+      description: "For ToDo List Card Holder"
+      price: "£10"
       link: 
-        external: "https://www.amazon.co.uk/Trust-Rechargeable-Bluetooth-Ergonomic-Multidevice/dp/B0CVBFPWF8"
-    - name: "EcoTank ET-8550 A3+ Wi-Fi Ink Tank Photo Printer"
-      price: "£780"
+        external: "https://markedbytime.com/products/todo-deck-refill"
+    - name: "ToDo List Card Holder: Minimalist Desk Organiser"
+      description: "Needs ToDo Deck Refill"
+      price: "£20"
       link: 
-        external: "https://www.amazon.co.uk/Epson-EcoTank-8550-Print-Printer/dp/B0912S43FL/"
-    - name: "FUJIFILM X100VI"
-      price: "£1,599"
-      link: 
-        external: "https://eshop.fujifilm-x.com/uk/fujifilm-x100vi.html"
+        external: "https://markedbytime.com/products/wooden-to-do-list-card-holder-minimalist-desk-organiser-maple-or-walnut"
         
 - name: "Gaming"
   items:
@@ -197,6 +196,14 @@ list:
       price: "£70"
       link: 
         external: "https://www.lecreuset.co.uk/en_GB/p/stoneware-cafetière/SW0706.html"
+    - name: "Dulton Double Face Wall Clock (Circular)"
+      price: "£115"
+      link: 
+        external: "https://homeloo.com/product/dulton-station-double-face-brick/"
+    - name: "Dulton Double Face Wall Clock (Rectangular)"
+      price: "£150"
+      link: 
+        external: "https://homeloo.com/product/dulton-wall-clock-double-face-rectangular/"
 
 - name: "Bricks"
   items:
@@ -213,6 +220,25 @@ list:
       link: 
         external: "https://www.lego.com/en-gb/product/star-trek-u-s-s-enterprise-ncc-1701-d-10356?cmp=REF-202511-StarTrek_Laun"
 
+- name: "Technology"
+  items:
+    - name: "Maclock"
+      price: "£15"
+      link: 
+        external: "https://www.aliexpress.com/item/1005010323901640.html"
+    - name: "Trust Bayo+ vertical mouse"
+      price: "£36"
+      link: 
+        external: "https://www.amazon.co.uk/Trust-Rechargeable-Bluetooth-Ergonomic-Multidevice/dp/B0CVBFPWF8"
+    - name: "EcoTank ET-8550 A3+ Wi-Fi Ink Tank Photo Printer"
+      price: "£780"
+      link: 
+        external: "https://www.amazon.co.uk/Epson-EcoTank-8550-Print-Printer/dp/B0912S43FL/"
+    - name: "FUJIFILM X100VI"
+      price: "£1,599"
+      link: 
+        external: "https://eshop.fujifilm-x.com/uk/fujifilm-x100vi.html"
+        
 - name: "Travel"
   items:
     - name: "Briggs & Riley Garment Duffle Bag"
@@ -220,6 +246,7 @@ list:
       link: 
         external: "https://www.amazon.co.uk/Briggs-Riley-Baseline-Garment-Duffle/dp/B0DHQZSJCJ/"
 
+        
 - name: "Miscellaneous"
   items:
     - name: "Economist digital subscription"

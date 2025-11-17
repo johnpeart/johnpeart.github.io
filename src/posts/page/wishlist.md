@@ -230,6 +230,10 @@ list:
       price: "£36"
       link: 
         external: "https://www.amazon.co.uk/Trust-Rechargeable-Bluetooth-Ergonomic-Multidevice/dp/B0CVBFPWF8"
+    - name: "pico-mac-nano Complete Self-Assembly Kit"
+      price: "£62"
+      link: 
+        external: "https://www.1bitrainbow.com/parts-store.php?cPath=980_P4485"
     - name: "EcoTank ET-8550 A3+ Wi-Fi Ink Tank Photo Printer"
       price: "£780"
       link: 

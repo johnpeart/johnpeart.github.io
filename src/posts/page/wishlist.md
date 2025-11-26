@@ -93,11 +93,6 @@ list:
       price: "£20"
       link: 
         external: "https://www.amazon.co.uk/Bisikor-Compatible-Wearable-Silicone-Magnetic/dp/B0D3X4TWYH/"
-    - name: "Leather desk mat"
-      description: "No more than 1m x 0.5m."
-      price: "£25"
-      link: 
-        external: "https://www.amazon.co.uk/Nordik-Leather-Organiser-Extended-Accessories-Alaskan-Grey/dp/B08SK6NNLR/"
     - name: "Nomad Tempo Band"
       description: "For Apple Watch 45/46mm. Lumen or Crush."
       price: "£49"
@@ -157,11 +152,6 @@ list:
       price: "£50"
       link: 
         external: "https://www.amazon.co.uk/dp/B0FR9G4N9S"
-    - name: "Donkey Kong Bananza"
-      description: "For Nintendo Switch 2"
-      price: "£50"
-      link: 
-        external: "https://www.amazon.co.uk/Nintendo-Switch-Donkey-Kong-Bananza/dp/B0F3NVWM37/"
     - name: "Hyrule Warriors: Age of Imprisonment"
       description: "For Nintendo Switch 2"
       price: "£55"
@@ -171,6 +161,10 @@ list:
       price: "$200"
       link: 
         external: "https://retroremake.co/products/superstation-one?variant=43014710329367"
+    - name: "ModRetro M64"
+      price: "$200"
+      link: 
+        external: "https://modretro.com/pages/m64"
     - name: "Game Boy games"
       price: "Varies"
       link: 

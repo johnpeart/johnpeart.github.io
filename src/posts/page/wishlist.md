@@ -205,8 +205,8 @@ list:
       price: "£55"
       link: 
         external: "https://www.lego.com/en-gb/product/game-boy-72046"
-    - name: “LEGO Keith Haring — Dancing Figures”
-      price: “£109”
+    - name: "LEGO Keith Haring — Dancing Figures"
+      price: "£109"
       link: 
         external: “https://www.lego.com/en-gb/product/keith-haring-dancing-figures-31216” 
     - name: "LEGO Mario Kart – Mario & Standard Kart (72037)"

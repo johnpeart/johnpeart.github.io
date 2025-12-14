@@ -245,14 +245,6 @@ list:
       link: 
         external: "https://eshop.fujifilm-x.com/uk/fujifilm-x100vi.html"
         
-- name: "Travel"
-  items:
-    - name: "Briggs & Riley Garment Duffle Bag"
-      price: "£299"
-      link: 
-        external: "https://www.amazon.co.uk/Briggs-Riley-Baseline-Garment-Duffle/dp/B0DHQZSJCJ/"
-
-        
 - name: "Miscellaneous"
   items:
     - name: "Economist digital subscription"

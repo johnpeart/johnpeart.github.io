@@ -7,7 +7,7 @@ permalink: /about/
 list:
 - name: "Career"
   items:
-    - title: "Interim Chief Executive"
+    - title: "Chief Executive"
       organisation: "Office for Digital Identities and Attributes"
       dates:
         start: 2025-09-29

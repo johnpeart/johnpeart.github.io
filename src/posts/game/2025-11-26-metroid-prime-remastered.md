@@ -9,7 +9,7 @@ object:
 
 When this game was originally released on the *Nintendo GameCube* way back in 2002, I was... well, I was about as good at this as you would expect a 12 year old to be. 
 
-To be fair to tween-age me, being bad at it wasn't entirely my fault. The game notoriously had difficult to use controls; the gaming industry still hadn't figured out the familiar, twin-stick, first-person mechanics familiar to pretty much every game sold today.
+To be fair to tween-age me, being bad at it wasn't entirely my fault. The game notoriously had difficult to use controls; the gaming industry still hadn't figured out the twin-stick, first-person mechanics familiar to pretty much every game sold today.
 
 But, being bad at it, I was mortified. This was a super cool, spacey-wacey puzzle and combat game. I wanted to be good at it and I wanted to love it.
 

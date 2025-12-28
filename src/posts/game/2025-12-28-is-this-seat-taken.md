@@ -1,5 +1,5 @@
 ---
-date: 2025-12-01T09:00:00+00:00
+date: 2025-12-28T18:50:00+00:00
 title: "Is this seat taken?"
 object:
     platform: "iOS"

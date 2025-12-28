@@ -310,5 +310,3 @@ list:
 ---
 
 **This is list of all the *Game Boy*, *Game Boy Color* and *Game Boy Advance* games I already own or that I want to get.** If a price is shown next to a game, it means I'd like to get a physical cartridge.
-
----

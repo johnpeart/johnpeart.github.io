@@ -97,6 +97,10 @@ list:
       price: "£60"
       link: 
         external: "https://www.etsy.com/uk/listing/1806496826/clock-dock-for-iphone-standby-mode"
+    - name: "MagSafe wallet"
+      price: "£20"
+      link: 
+        external: "https://www.etsy.com/uk/listing/1650513582/?ref=share_ios_native_control"
     - name: "Nomad Card Wallet Plus"
       price: "£65"
       link: 

@@ -1,6 +1,6 @@
 ---
 date: 2024-12-31T10:00:00+00:00
-title: "My games of the year"
+title: "My 2024 games of the year"
 author: "John Peart"
 excerpt: "A top 10 of games I've loved playing this year."
 categories:

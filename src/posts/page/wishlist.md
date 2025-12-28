@@ -40,12 +40,7 @@ list:
       description: "Hard cover book by Bitmap Books"
       price: "£30"
       link:
-        external: "https://www.bitmapbooks.com/collections/all-books/products/nes-famicom-a-visual-compendium" 
-    - name: "Radical Candor"
-      description: "By Kim Scott"
-      price: "£11"
-      link:
-        external: "https://www.waterstones.com/book/radical-candor/kim-scott/9781529038347"
+        external: "https://www.bitmapbooks.com/collections/all-books/products/nes-famicom-a-visual-compendium"
         
 - name: "Clothing"
   items:
@@ -88,13 +83,8 @@ list:
 
 - name: "Accessories"
   items:
-    - name: "Bisikor Magnetic Strap"
-      description: "For Apple Watch 45/46mm."
-      price: "£20"
-      link: 
-        external: "https://www.amazon.co.uk/Bisikor-Compatible-Wearable-Silicone-Magnetic/dp/B0D3X4TWYH/"
     - name: "Nomad Tempo Band"
-      description: "For Apple Watch 45/46mm. Lumen or Crush."
+      description: "For Apple Watch 45/46mm."
       price: "£49"
       link: 
         external: "https://nomadgoods.com/uk/products/tempo-band-46mm-lumen"
@@ -142,11 +132,6 @@ list:
       price: "£37"
       link: 
         external: "https://www.amazon.co.uk/Legend-Zelda-Echoes-Wisdom/dp/B0D7J3PC7H/"
-    - name: "Luigi's Mansion 2 HD"
-      description: "For Nintendo Switch"
-      price: "£38"
-      link: 
-        external: "https://www.amazon.co.uk/Nintendo-0045496512149-Luigis-Mansion-HD/dp/B0CXT7J6VT/"
     - name: "Metroid Prime 4: Beyond"
       description: "For Nintendo Switch 2"
       price: "£50"
@@ -180,11 +165,6 @@ list:
      
 - name: "Homeware and Kitchen"
   items:
-    - name: "Le Creuset Stoneware Mug"
-      description: "350ml; satin black finish."
-      price: "£15"
-      link: 
-        external: "https://www.amazon.co.uk/Creuset-70302350000002-Stoneware-ml-Satin-Black/dp/B07MRQLSMH/"
     - name: "Le Crueset french press"
       description: "1 litre. Volcanic orange."
       price: "£70"
@@ -201,14 +181,6 @@ list:
 
 - name: "Bricks"
   items:
-    - name: "LEGO Game Boy"
-      price: "£55"
-      link: 
-        external: "https://www.lego.com/en-gb/product/game-boy-72046"
-    - name: “LEGO Keith Haring — Dancing Figures”
-      price: “£109”
-      link: 
-        external: “https://www.lego.com/en-gb/product/keith-haring-dancing-figures-31216” 
     - name: "LEGO Mario Kart – Mario & Standard Kart (72037)"
       price: "£150"
       link: 
@@ -240,21 +212,6 @@ list:
       price: "£1,599"
       link: 
         external: "https://eshop.fujifilm-x.com/uk/fujifilm-x100vi.html"
-        
-- name: "Travel"
-  items:
-    - name: "Briggs & Riley Garment Duffle Bag"
-      price: "£299"
-      link: 
-        external: "https://www.amazon.co.uk/Briggs-Riley-Baseline-Garment-Duffle/dp/B0DHQZSJCJ/"
-
-        
-- name: "Miscellaneous"
-  items:
-    - name: "Economist digital subscription"
-      price: "£239"
-      link: 
-        external: "https://subscribenow.economist.com/gift"
 
 - name: "Music"
   items:

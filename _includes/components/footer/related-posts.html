@@ -1,7 +1,7 @@
 {% if related %}
 {% assign related_links = related %}
-<footer class="grid padding-top" style="background-position: top; --mult: 2;">
-    <aside id="related" class="card margin-top margin-bottom" style="--mult: 1;">
+<aside id="related-posts" class="grid polka padding-top" style="background-position: top; --mult: 2;">
+    <div class="card margin-top margin-bottom" style="--mult: 1;">
         
         <h1 class="key-value--heading key-value--heading--small">Related posts</h1>
         <ul class="related-posts key-value">
@@ -18,6 +18,6 @@
         {% endfor %}
         </ul>
     
-    </aside>
-</footer>
+    </div>
+</aside>
 {% endif %}

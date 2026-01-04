@@ -8,9 +8,14 @@ footer {
 }
 
 
-footer.meta-data {
+footer.meta-data,
+aside#related-posts {
     border-top: var(--border-width) solid var(--color);
-    padding: 0;
+    padding: 0 !important; 
+}
+
+aside#related-posts .card {
+    padding-bottom: 0;
 }
 
 dl.meta-data {

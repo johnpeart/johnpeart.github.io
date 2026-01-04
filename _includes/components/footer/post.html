@@ -1,28 +1,25 @@
 <footer class="meta-data grid full-width">
-        <dl class="meta-data content">
-            {% if page.date %}
-            <aside id="meta-data--published" class="meta-data meta-data-details">
-                <dt class="post-date">Published</dt>
-                <dd>
-                    <a href="{{ page.url }}" class="no-underline u-url u-uid">
-                        <time datetime="{{ page.date | date: '%Y-%m-%d %H:%M'}}" class="dt-published">
-                            {{ page.date | date: '%-d %B %Y' }}
-                        </time>
-                    </a>
-                </dd>
-            </aside>
-            {% endif %}
-    
-            <aside id="meta-data--categories" class="meta-data meta-data-details">
-                <dt class="post-categories">Categories</dt>
-                {% if categories %}
-                    <dd>{% for category in categories %}<span class="p-category">{{ category }}</span>{% if forloop.last==false %}, {% endif %}{% endfor %}</dd>
-                {% else %}
-                    <dd><span class="p-category">{{ collection }}</span></dd>
-                {% endif %}
-            </aside>
-        </dl>
-    </section>
-</footer>
+    <dl class="meta-data content">
+        {% if page.date %}
+        <aside id="meta-data--published" class="meta-data meta-data-details">
+            <dt class="post-date">Published</dt>
+            <dd>
+                <a href="{{ page.url }}" class="no-underline u-url u-uid">
+                    <time datetime="{{ page.date | date: '%Y-%m-%d %H:%M'}}" class="dt-published">
+                        {{ page.date | date: '%-d %B %Y' }}
+                    </time>
+                </a>
+            </dd>
+        </aside>
+        {% endif %}
 
-{% include "components/footer/related-posts.html" %}        
+        <aside id="meta-data--categories" class="meta-data meta-data-details">
+            <dt class="post-categories">Categories</dt>
+            {% if categories %}
+                <dd>{% for category in categories %}<span class="p-category">{{ category }}</span>{% if forloop.last==false %}, {% endif %}{% endfor %}</dd>
+            {% else %}
+                <dd><span class="p-category">{{ collection }}</span></dd>
+            {% endif %}
+        </aside>
+    </dl>
+</footer>

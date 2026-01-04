@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/suicide-squad-kill-the-justice-league.jpg"
+    
+aliases:
+- /game/1738365300/
 ---
 
 This game is not as bad as the critical reviews would have you believe. 

@@ -6,6 +6,9 @@ object:
     type: "switch"
     trophy: "100%"
     image: "/images/games/bowsers-fury.jpg"
+
+aliases:
+- /game/1619892000/
 ---
 
 Mario games have levels and loading screens. It's part of the fundamental formula of every game in the core series. 

@@ -8,9 +8,12 @@ object:
     image: "/images/games/lies-of-p.jpeg"
     
 related:
-- /game/1752009060/
-- /game/1735476840/
-- /game/1723392000/
+- /game/elden-ring/
+- /game/elden-ring-nightreign/
+- /game/bloodborne/
+    
+aliases:
+- /game/1746224580/
 ---
 
 This may not be a game made by *FromSoftware*, but the game developers clearly understand the *Soulsborne* formula.

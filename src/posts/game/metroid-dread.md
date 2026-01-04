@@ -5,5 +5,8 @@ object:
     platform: "Switch"
     type: "switch"
     image: "/images/games/metroid-dread.jpg"
+    
+aliases:
+- /game/1635620400/
 ---
 

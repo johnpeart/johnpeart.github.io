@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/cocoon.jpg"
+    
+aliases:
+- /game/1696541040/
 ---
 
 In the first few minutes of *Cocoon*, I let out an audible "woah". If you haven't played it, I won't spoil it by explaining what caused that exclamation; you should just try it yourself. That feeling of mind-bending awesomeness just kept happening all the way through this 4 to 6 hour jaunt. 

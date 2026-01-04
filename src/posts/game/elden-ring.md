@@ -8,9 +8,12 @@ object:
     image: "/images/games/elden-ring.jpg"
     
 related:
-- /game/1752009060/
-- /game/1746224580/
-- /game/1735476840/
+- /game/elden-ring-nightreign/
+- /game/lies-of-p/
+- /game/bloodborne/
+    
+aliases:
+- /game/1723392000/
 ---
 
 This must be the hardest, most infuriating game I have ever played. Elden Ring likes to teach you a lesson, kick you when you think you're getting good at it, and keep kicking you until you actually *get* good at it.

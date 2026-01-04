@@ -5,6 +5,9 @@ object:
     platform: "Switch"
     type: "switch"
     image: "/images/games/metroid-prime-remastered.jpeg"
+    
+aliases:
+- /game/1764149400/
 ---
 
 When this game was originally released on the *Nintendo GameCube* way back in 2002, I was... well, I was about as good at this as you would expect a 12 year old to be. 

@@ -9,6 +9,9 @@ object:
         s: 97
         l: 65
     image: "/images/games/mini-motorways.jpeg"
+    
+aliases:
+- /game/1743933600/
 ---
 
 This game is so simple and yet so addictive.

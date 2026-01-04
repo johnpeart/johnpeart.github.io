@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/star-wars-jedi-fallen-order.jpg"
+    
+aliases:
+- /game/1724797800/
 ---
 
 Now that I've gotten my first clutch of Platinum trophies on PlayStation, I had had an itch to go back to some other games and finish off ones that I "completed" but didn't "100%". 

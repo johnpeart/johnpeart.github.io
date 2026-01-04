@@ -5,6 +5,12 @@ object:
     platform: "Switch"
     type: "switch"
     image: "/images/games/luigis-mansion-3.jpg"
+
+related:
+- /game/luigis-mansion-2-hd/
+
+aliases:
+- /game/1575136800/
 ---
 
 The first game I ever owned on the *Nintendo GameCube* was *Luigi's Mansion* and I ***loved*** it.

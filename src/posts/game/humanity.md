@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/humanity.jpg"
+    
+aliases:
+- /game/1758316080/
 ---
 
 You are a dog. Save the people.

@@ -2,7 +2,7 @@
     "layout": "blogpost",
     "collection": "game",
     "categories": "game",
-    "permalink": "/game/{{ page.date | date: '%s' }}/",
+    "permalink": "/game/{{ title | slugify }}/",
     "object": {
         "type": "game-boy"
     }

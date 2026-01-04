@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/horizon-zero-dawn.jpg"
+    
+aliases:
+- /game/1703873400/
 ---
 
 I completed *Horizon Zero Dawn's* story several years ago, but I recently returned to it to play it through again and to try to get that sacred Platinum trophy.

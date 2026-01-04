@@ -9,6 +9,9 @@ object:
     
 related:
 - /game/1727343180/
+    
+aliases:
+- /game/1730410560/
 ---
 
 I hoped this entry in *Marvel’s Spider-Man* series on PlayStation would be shorter than [the previous one](/game/1727343180/).

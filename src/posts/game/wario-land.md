@@ -10,6 +10,9 @@ object:
 related: 
 - /2025/03/03/svg-game-boy/
 - /2025/04/06/custom-game-boy-cartridges/
+    
+aliases:
+- /game/1728207180/
 ---
 
 *Super Mario Land 3: Wario Land* is one of the earliest games I ever remember playing. 

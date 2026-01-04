@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/astros-playroom.jpg"
+    
+aliases:
+- /game/1702832040/
 ---
 
 *Astro’s Playroom* is the pack-in title for the PlayStation 5. It’s not usually a game I would even think twice about playing; I played Astro’s VR outing on the original PSVR and was thoroughly underwhelmed by it. But I was persuaded that this was worth my time, and boy was it!

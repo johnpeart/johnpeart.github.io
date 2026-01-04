@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/crow-country.jpg"
+    
+aliases:
+- /game/1758497220/
 ---
 
 I've never gelled with the survival-horror genre. Games like *Resident Evil* have always seemed too clunky to me. The tanky and janky mechanics always put me off.

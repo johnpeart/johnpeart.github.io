@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/plucky-squire.jpg"
+    
+aliases:
+- /game/1736111460/
 ---
 
 The Plucky Squire is a game of enormous charm, but also enormous bugs and hand-holding. 

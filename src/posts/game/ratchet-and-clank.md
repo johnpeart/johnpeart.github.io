@@ -9,6 +9,9 @@ object:
 
 related: 
 - /game/1692462060/
+    
+aliases:
+- /game/1731763320/
 
 posse:
 - https://mastodon.social/@johnpeart/113499025913187159

@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/star-wars-jedi-survivor.jpg"
+    
+aliases:
+- /game/1740957960/
 ---
 
 > **Warning:** Spoilers ahead!

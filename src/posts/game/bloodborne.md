@@ -8,9 +8,12 @@ object:
     image: "/images/games/bloodborne.jpg"
     
 related:
-- /game/1752009060/
-- /game/1746224580/
-- /game/1723392000/
+- /game/elden-ring/
+- /game/elden-ring-nightreign/
+- /game/lies-of-p/
+
+aliases:
+- /game/1735476840/
 ---
 
 This is quite possibly the hardest *PlayStation* Platinum trophy I have yet to achieve. 

@@ -8,7 +8,10 @@ object:
     image: "/images/games/infamous-first-light.jpg"
     
 related:
-- /game/1725741300/
+- /game/infamous-second-son/
+    
+aliases:
+- /game/1725823500/
 ---
 
 The sequel to [inFAMOUS Second Son](/game/1725741300/), focusing on the backstory of a character featured in that game.

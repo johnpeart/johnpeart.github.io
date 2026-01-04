@@ -8,9 +8,12 @@ object:
     image: "/images/games/elden-ring-nightreign.jpg"
     
 related:
-- /game/1746224580/
-- /game/1735476840/
-- /game/1723392000/
+- /game/elden-ring/
+- /game/lies-of-p/
+- /game/bloodborne/
+    
+aliases:
+- /game/1752009060/
 ---
 
 This is *Elden Ring*. And it is not *Elden Ring*.

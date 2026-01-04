@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/carrion.jpg"
+    
+aliases:
+- /game/1736463300/
 ---
 
 *Carrion* is a Metroidvania style game with a twist. Instead of playing the hero, you are the monster. You're the *Metroid*, not *Samas Arran*, to strain the metaphor.

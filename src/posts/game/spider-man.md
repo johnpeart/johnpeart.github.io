@@ -9,6 +9,9 @@ object:
     
 related:
 - /game/1730410560/
+    
+aliases:
+- /game/1727343180/
 ---
 
 This is a really good game that’s a lot of fun to play, but *oh boy* is the platinum a long, old slog of busy work. 

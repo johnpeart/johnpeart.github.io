@@ -5,6 +5,9 @@ object:
     platform: "Switch"
     type: "switch"
     image: "/images/games/mario-kart-world.jpg"
+    
+aliases:
+- /game/1760204340/
 ---
 
 It's *Mario Kart*. How much more is there to say?

@@ -9,6 +9,9 @@ object:
         h: 38
         s: 45
         l: 78
+    
+aliases:
+- /game/1766947800/
 ---
 
 This is a nice, slow-paced puzzle game that's just the right balance of challenge to keep it interesting, but not so difficult that you ever need hints or a guide book. Persistence and patience is enough.

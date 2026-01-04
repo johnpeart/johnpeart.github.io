@@ -6,6 +6,9 @@ object:
     type: "playstation"
     trophy: "platinum"
     image: "/images/games/control.jpg"
+    
+aliases:
+- /game/1731127560/
 ---
 
 I have bounced off this game twice before, but now that I've finally gotten into it – this game is *epic*.

@@ -6,6 +6,9 @@ object:
     type: "switch"
     trophy: "100%"
     image: "/images/games/super-mario-bros-wonder.jpg"
+    
+aliases:
+- /game/1703095200/
 ---
 
 *Nintendo's* game designers are masters of surprise and delight. *Super Mario Bros. Wonder* has *so, so* much of that.

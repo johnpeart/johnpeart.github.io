@@ -1,0 +1,10 @@
+<article id="webmention-{{ mention.wm-id }}" class="interaction center {{ mention.wm-property }} p-comment">
+    <p class="center secondary-text small-text padding" style="--mult: 0;"><span class="interaction-icon {{ mention.wm-property }}"></span>
+    {% if mention.author.name.size > 0 %}
+    <a href="{{ mention.author.url }}" class="link-secondary" rel="nofollow">{{ mention.author.name }}</a>
+    {% else %}
+    Someone
+    {% endif %} 
+    
+    {% if mention.wm-source %}<a href="{{ mention.wm-source }}" class="link-secondary" rel="nofollow">{% endif -%}{{ verb }} this post{%- if mention.wm-source -%}</a>{%- endif %} on <time datetime="{{ mention.wm-received | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ mention.wm-received | date: '%d %B %Y' }}</time>
+</article>

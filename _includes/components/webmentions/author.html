@@ -1,0 +1,24 @@
+{% if mention.author %}
+    {% if mention.author.name.size > 0 %}
+        {% if mention.author.name == 'John Peart' %}
+            {% assign authorURL = 'https://www.johnpe.art' %}
+            {% assign authorName = 'John Peart' %}
+            {% assign from = "from-me" %}
+        {% else %}
+            {% assign authorURL = mention.author.url %}
+            {% assign authorName = mention.author.name %}
+            {% assign from = "from-them" %}
+        {% endif %}
+        {% assign authorPhoto = mention.author.photo %}
+        {% if mention.author.name == 'John Peart' %}
+            {% assign authorPhoto = site.url | append: site.avatar.image %}
+        {% elsif authorPhoto contains ".svg" or authorPhoto == "" %}
+            {% assign authorPhoto = authorName | url_encode | prepend: 'https://ui-avatars.com/api/?name=' %}
+        {% endif %}
+        {%- capture author -%}{%- if authorURL.size > 0 -%}<a href="{{ authorURL }}" class="link-secondary" rel="nofollow">{%- endif -%}{{ authorName }}{%- if authorURL.size > 0 -%}</a>{%- endif -%}{%- endcapture -%}
+    {% endif %}
+{% else %}
+    {% assign authorName = 'someone' %}
+    {% assign from = "from-them" %}
+    {% capture author %}someone{% endcapture %}
+{% endif %}

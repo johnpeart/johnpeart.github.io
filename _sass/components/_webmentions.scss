@@ -6,7 +6,7 @@ article.interaction {
 	padding: 0 0 calc(var(--pad) * 3);
 }
 
-.interactions.replies #webmentions-footer {
+#webmentions-footer {
     display: grid;
     position: sticky;
     z-index: 500;

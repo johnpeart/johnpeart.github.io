@@ -16,7 +16,7 @@
   "license": "None",
   "description": "John Peart's personal website",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "dotenv": "^16.4.5",
     "eleventy-plugin-redirects": "^1.0.0",
     "markdown-it": "^14.1.0",

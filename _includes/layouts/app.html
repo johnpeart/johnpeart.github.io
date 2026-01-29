@@ -1,0 +1,101 @@
+---
+layout: skeleton
+---
+
+{% include "components/skiplink.html" %}
+
+{% if env.ELEVENTY_RUN_MODE == "serve" %}{% assign siteUrl = 'http://localhost:8080' %}{% endif %}
+
+<header id="app-banner" class="grid full-width polka">
+    <div class="app-banner--lockup">
+        <img 
+            class="app-banner--lockup--icon"
+            src="{{ icon.src }}" 
+            srcset="{{ icon.2x }} 2x, {{ icon.3x}} 3x"
+            alt="The {{ title }} app icon"
+        >
+        <div class="app-banner--lockup--text">
+            <h1 class="p-name">{{ title }}</h1>
+            <p>{{ description }}
+        </div>
+    </div>
+</header>
+
+<main id="content">
+    <section id="page-content" class="h-entry e-content {% unless main.container == false %}grid{% endunless %}">
+        
+        <section id="screenshot-gallery" class="scroll-container full-width">
+            {% for image in screenshots %}
+            <img class="screenshot" src="{{ image.src }}" alt="{{ image.alt }}">
+            {% endfor %}
+        </section>
+        
+        {{ content }}
+        
+        {% if store %}
+        <section id="get-the-app" class="app">
+            <h2>Get the app</h2>
+            
+            <p class="center">
+                Download <strong>{{ title }}</strong>.
+                <br>
+                {% if store['app-store'] and not store['play-store'] %}Only on the App Store.{% endif %}
+            </p>
+            
+            <div class="download-links">
+                {% if store.app-store %}
+                <a href="{{ store.app-store }}">
+                    <img src="/images/site/app-store.svg" />
+                </a>
+                {% endif %}
+                
+                {% if store.play-store %}
+                <a href="{{ store.play-store }}">
+                    <img src="/images/site/play-store.svg" />
+                </a>
+                {% endif %}
+            </div>
+        </section>
+        {% endif %}
+                
+        <section id="privacy" class="app">
+            <h2>Your data</h2>
+            
+            {% for data in privacy %}
+            <dl class="card">
+                {% assign icon_path = data.label | slugify | prepend: "components/icons/" | append: ".svg" %}
+                {% include icon_path %}
+                <dt>{{ data.label }}</dt>
+                <dd>{{ data.description }}</dd>
+                {% if data.link %}
+                <a href="{{ data.link }}" title="Find out more about {{ data.label }}">Find out more</a>
+                {% endif %}
+            </dl>
+            {% endfor %}
+        </section>
+                
+        <section id="support" class="app">
+            <h2>Need help?</h2>
+            
+            <ul class="key-value">
+                {% for QA in help %}
+                <li class="key-value--item key-value--with-value key-value--with-value--large key-value--with-description">
+                <details>
+                    <summary>
+                        <h3 id="{{ item.title | slugify }}" class="key-value--key">
+                            {{ QA.question }}
+                        </h3>
+                    </summary>
+                    {{ QA.answer | markdownify }}
+                </details>
+                {% endfor %}
+                </li>
+            </ul>
+        </section>
+    
+    </section>
+</main>
+
+{% include "components/footer/related-posts.html" %}        
+{% include "components/footer/global.html" %}
+        

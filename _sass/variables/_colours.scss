@@ -9,6 +9,7 @@
     --absolute-black: hsl(0, 0%, 0%);
 
     --absolute: light-dark(var(--absolute-white), var(--absolute-black));
+    --inverse-absolute: light-dark(var(--absolute-black), var(--absolute-white));
 
     --gray-100: rgb(240, 240, 240);
     --gray-200: rgb(230, 230, 230);

@@ -1,0 +1,6 @@
+{
+   "layout": "app",
+   "collection": "app",
+   "categories": "app",
+   "permalink": "/app/{{ page.fileSlug }}/"
+}

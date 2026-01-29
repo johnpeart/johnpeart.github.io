@@ -65,7 +65,7 @@ module.exports = function(eleventyConfig) {
 
     // Collection Names
     const collections = [
-        "apps",
+        "app",
         "archive",
         "blogpost", 
         "feed",
@@ -94,7 +94,7 @@ module.exports = function(eleventyConfig) {
 
     // Collections to include in "siteMap"
     const includedInSiteMap = [
-        "apps",
+        "app",
         "archive",
         "blogpost", 
         "feed",
@@ -144,7 +144,7 @@ module.exports = function(eleventyConfig) {
 
     // Collections to include in "allPosts"
     const includedInSearchIndex = [
-        "apps",
+        "app",
         "archive",
         "blogpost", 
         "game",

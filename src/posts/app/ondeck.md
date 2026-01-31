@@ -38,7 +38,7 @@ disclaimers:
 <div class="full-width grid">
 <section class="app app--feature app--feature--with-image">
 
-  <img src="/images/screenshots/ondeck-screenshot-deck-closeup.png" alt="The card deck, showing the Now, Next, Someday card headers">
+  <img src="/images/screenshots/ondeck-screenshot-card-deck-closeup.png" alt="The card deck, showing the Now, Next, Someday card headers">
   
   <div>
   

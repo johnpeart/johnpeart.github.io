@@ -19,6 +19,11 @@ dl {
         font-size: clamp(18px, 3vw, 24px) !important;
     }
 
+    &.extra-small-text, 
+    & .extra-small-text {
+        font-size: clamp(10px, 3vw, 16px) !important;
+    }
+
     &.display {
         text-wrap: balance;
         text-wrap: pretty;

@@ -58,21 +58,23 @@ layout: skeleton
         </section>
         {% endif %}
                 
-        <section id="privacy" class="app">
-            <h2>Your data</h2>
-            
-            {% for data in privacy %}
-            <dl class="card">
-                {% assign icon_path = data.label | slugify | prepend: "components/icons/" | append: ".svg" %}
-                {% include icon_path %}
-                <dt>{{ data.label }}</dt>
-                <dd>{{ data.description }}</dd>
-                {% if data.link %}
-                <a href="{{ data.link }}" title="Find out more about {{ data.label }}">Find out more</a>
-                {% endif %}
-            </dl>
-            {% endfor %}
-        </section>
+        <div class="polka full-width grid">
+            <section id="privacy" class="app content">
+                <h2>Your data</h2>
+                
+                {% for data in privacy %}
+                <dl class="card">
+                    {% assign icon_path = data.label | slugify | prepend: "components/icons/" | append: ".svg" %}
+                    {% include icon_path %}
+                    <dt>{{ data.label }}</dt>
+                    <dd>{{ data.description | markdownify | replace: '<p>', '<p class="secondary-text small-text">'}}</dd>
+                    {% if data.link %}
+                    <a href="{{ data.link }}" title="Find out more about {{ data.label }}">Find out more</a>
+                    {% endif %}
+                </dl>
+                {% endfor %}
+            </section>
+        </div>
                 
         <section id="support" class="app">
             <h2>Need help?</h2>
@@ -96,6 +98,9 @@ layout: skeleton
     </section>
 </main>
 
-{% include "components/footer/related-posts.html" %}        
+<footer class="grid">
+    <p class="secondary-text extra-small-text">{{ disclaimers }}</p>
+</footer>
+
 {% include "components/footer/global.html" %}
         

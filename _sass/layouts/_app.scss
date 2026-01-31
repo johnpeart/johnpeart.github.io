@@ -68,9 +68,33 @@ body#app {
 	section.app {
 		padding: calc(var(--pad) * 4) 0;
 		
+		&.app--feature {
+			display: grid;
+			
+			align-items: center;
+			justify-items: center;
+			
+			&.app--feature--with-image {
+				grid-template-columns: 1fr 1fr;
+				grid-gap: calc(var(--pad) * 3);
+				
+				@media (max-width: 699px) {
+					grid-template-columns: 1fr;
+				}
+			}
+			
+			* { 
+				text-align: left; 
+			}
+		}
+		
 		h2 {
 			padding: clamp(15px, 6.4vw, 30px) 0;
 			grid-column: 1/-1;
+		}
+		
+		p:last-child{
+			padding-bottom: 0;
 		}
 	}
 	

@@ -56,7 +56,7 @@ disclaimers:
 <div class="polka full-width grid">
 <section class="app app--feature app--feature--with-image">
 
-  <img src="/images/screenshots/ondeck-screenshot-win-pile-closeup.png" alt="The card deck, showing the Now, Next, Someday card headers">
+  <img src="/images/screenshots/ondeck-screenshot-win-pile-closeup.png" alt="The Win Pile screen">
   
   <div>
   
@@ -74,7 +74,7 @@ disclaimers:
 <div class="full-width grid">
 <section class="content app app--feature app--feature app--feature--with-image">
   
-  <img src="/images/screenshots/ondeck-screenshot-reminders-closeup.png" alt="The card deck">
+  <img src="/images/screenshots/ondeck-screenshot-reminders-closeup.png" alt="Side by side screenshots of the Reminders app and the OnDeck app.">
 
   <div>
   

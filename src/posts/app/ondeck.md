@@ -14,7 +14,10 @@ screenshots:
     alt: "The Win Pile"
   - src: "/images/screenshots/ondeck-screenshot-editor.png"
     alt: "The task editor"
-  
+
+beta:
+  testflight: "https://testflight.apple.com/join/qDRy6wC1"
+
 # store:
   # app-store: "https://"
   # # play-store: "https://"

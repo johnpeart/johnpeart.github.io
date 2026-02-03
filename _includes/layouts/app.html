@@ -32,6 +32,22 @@ layout: skeleton
         
         {{ content }}
         
+        {% if beta %}
+        <section id="get-the-app" class="app">
+            <h2>Try out the app</h2>
+            
+            <p class="center">Download the public beta for <strong>{{ title }}</strong>.</p>
+            
+            <div class="download-links">
+                {% if beta.testflight %}
+                <a href="{{ beta.testflight }}">
+                    <img src="/images/site/testflight.svg" />
+                </a>
+                {% endif %}
+            </div>
+        </section>
+        {% endif %}
+        
         {% if store %}
         <section id="get-the-app" class="app">
             <h2>Get the app</h2>
